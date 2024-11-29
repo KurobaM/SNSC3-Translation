@@ -9,8 +9,8 @@
 	</sjis>
 	<ascii>
 		Well done~<end_line>
-    Just ahead is Marneil Station.<end_line>
-    There you'll find the railcar.<end_line>
+    	Just ahead is Marnail Station.<end_line>
+    	There you'll find the railcar.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -133,13 +133,16 @@
 		<sjis>
 			なんだ？<end_line>
 		</sjis>
+		<ascii>
+    		What's wrong?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			なに？<end_line>
 		</sjis>
+		<ascii>
+    		What's wrong?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    What's wrong?<end_line>
-  </ascii>
 </dialogue>

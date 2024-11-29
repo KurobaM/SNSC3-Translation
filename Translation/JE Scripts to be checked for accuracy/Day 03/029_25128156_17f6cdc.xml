@@ -7,7 +7,7 @@
 	</sjis>
 	<ascii>
 		Ahh~ <end_line>
-    There goes my bonus~<end_line>
+    	There goes my bonus~<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -19,8 +19,8 @@
 		この娘は<three_dots><end_line>
 	</sjis>
 	<ascii>
-    What is wrong with<end_line>
-    this girl<three_dots>?<end_line>
+    	What is wrong with<end_line>
+    	this girl<three_dots>?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -60,8 +60,9 @@
 	<ascii>
 		If you're hurt,<end_line>
 		I have some medicine I<end_line>
-		can sell for reaal cheap~<end_line>
+		can sell for real cheap~.<end_line>
 	</ascii>
+	# Fixed spelling error. Add punctuation.
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -71,15 +72,18 @@
 		<sjis>
 			また金もうけかよ<three_dots><end_line>
 		</sjis>
+		<ascii>
+    		Asking for money again<three_dots>?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			またお金もうけなの<three_dots><end_line>
 		</sjis>
+		<ascii>
+    		Asking for money again<three_dots>?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Asking for money again<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -105,8 +109,8 @@
 	</sjis>
 	<ascii>
 		I dunno about your granny,<end_line>
-		but its only natural around here.<end_line>
-    There's danger around every corner.<end_line>
+		but it's only natural around here.<end_line>
+    	There's danger around every corner.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -120,7 +124,7 @@
 	</sjis>
 	<ascii>
 		To The Contrary,<end_line>
-    You Yourself Have Caused Danger<end_line>
+    	You Yourself Have Caused Danger<end_line>
 		By Initiating The Fight Earlier.<end_line>
 	</ascii>
 </dialogue>
@@ -164,7 +168,7 @@
 		あなたのせいなんですよ<end_line>
 	</sjis>
 	<ascii>
-    That was your fault, you know?<end_line>
+    	That was your fault, you know?<end_line>
 		You started the fight yourself.<end_line>
 	</ascii>
 </dialogue>
@@ -178,7 +182,7 @@
 	</sjis>
 	<ascii>
 		Huh!?<end_line>
-    I did say I'd take care of it!<end_line>
+    	I said I'd take care of it!<end_line>
 		You were the ones who butted in!<end_line>
 	</ascii>
 </dialogue>
@@ -219,7 +223,7 @@
 	</sjis>
 	<ascii>
 		Don't underestimate me~<end_line>
-    I'm stronger than I look.<end_line>
+    	I'm stronger than I look.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -286,15 +290,18 @@
 		<sjis>
 			お前、強いんだろ？<end_line>
 		</sjis>
+		<ascii>
+    		You are strong, aren't you?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			あなたは強いんでしょ？<end_line>
 		</sjis>
-	</female>
-  <ascii>
-    You are strong, aren't you?<end_line>
-  </ascii>
+		<ascii>
+    		You are strong, aren't you?<end_line>
+  		</ascii>
+	</female>  
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -318,8 +325,8 @@
 	</sjis>
 	<ascii>
 		Hmm<three_dots><end_line>
-    You really don't, do you?<end_line>
-    I can tell!<end_line>
+    	You really don't, do you?<end_line>
+    	I can tell!<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -330,15 +337,18 @@
 		<sjis>
 			なんだよ、それ<three_dots><end_line>
 		</sjis>
+		<ascii>
+    		Oh come on<three_dots><end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			なによ、それ<three_dots><end_line>
 		</sjis>
+		<ascii>
+    		Oh come on<three_dots><end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Oh come on<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="nobox">
@@ -349,7 +359,7 @@
 		見えないよ<end_line>
 	</sjis>
 	<ascii>
-    Sorry, but<three_dots><end_line>
+    	Sorry, but<three_dots><end_line>
 		You do seem pretty weak.<end_line>
 	</ascii>
 </dialogue>
@@ -365,8 +375,9 @@
 	<ascii>
 		Why you<three_dots><end_line>
 		Even if you're my customers,<end_line>
-    I can't let you trash me like that<three_dots><end_line>
+    	you've pushed me too far.<end_line>
 	</ascii>
+	# Made last line shorter. Was over 36 character hard limit.
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -390,8 +401,8 @@
 	</sjis>
 	<ascii>
 		Let's have a match then.<end_line>
-    You and your Summon Beast!<end_line>
-    I'll take you both down!<end_line>
+    	You and your Summon Beast!<end_line>
+    	I'll take you both down!<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -415,8 +426,8 @@
 		低イト　判断サレマスガ<end_line>
 	</sjis>
 	<ascii>
-    Your Probability Of Victory<end_line>
-    Is Zero. I Suggest You Reconsider.<end_line>
+    	Your Probability Of Victory Is<end_line>
+    	Zero. I Suggest You Reconsider.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -444,9 +455,9 @@
 		聞かなかったことにしてやる<end_line>
 	</sjis>
 	<ascii>
-    Hah.<end_line>
-    I'll just pretend you<end_line>
-    didn't say anything.<end_line>
+    	Hah.<end_line>
+    	I'll just pretend you<end_line>
+    	didn't say anything.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -459,7 +470,7 @@
 		勝負になりませんよ<end_line>
 	</sjis>
 	<ascii>
-    Please stop this.<end_line>
+    	Please stop this.<end_line>
 		You're no match for us.<end_line>
 	</ascii>
 </dialogue>
@@ -473,8 +484,8 @@
 		わたしと勝負するまでは<three_dots><end_line>
 	</sjis>
 	<ascii>
-    Keep talking all you like.<end_line>
-    Until you decide to fight me<three_dots><end_line>
+    	Keep talking all you like.<end_line>
+    	Until you decide to fight me<three_dots><end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -509,8 +520,8 @@
 	</sjis>
 	<ascii>
 		There's no helping it<three_dots><end_line>
-    Look, we don't have all day.<end_line>
-    Just get it over with.<end_line>
+    	Look, we don't have all day.<end_line>
+    	Just get it over with.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -522,17 +533,21 @@
 			そっか<three_dots><end_line>
 			わかったよ<three_dots><end_line>
 		</sjis>
+		<ascii>
+    		<three_dots><end_line>
+    		Okay, I guess<three_dots><end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			そっか<three_dots><end_line>
 			仕方ないね<three_dots><end_line>
 		</sjis>
-	</female>
-  <ascii>
-    <three_dots><end_line>
-    Okay, I guess<three_dots><end_line>
-  </ascii>
+		<ascii>
+    		<three_dots><end_line>
+    		Okay, I guess<three_dots><end_line>
+  		</ascii>
+	</female>  
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -544,8 +559,8 @@
 		面白くないねぇ<three_dots><end_line>
 	</sjis>
 	<ascii>
-    Just a plain match is boring.<end_line>
-    How about we up the stakes<three_dots><end_line>
+    	Just a plain match is boring.<end_line>
+    	How about we up the stakes?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -613,10 +628,11 @@
 		この勝負、みとめられないねぇ<end_line>
 	</sjis>
 	<ascii>
-		Well, I won't force you into it, but<end_line>
-		if that's all your talk led up to,<end_line>
-		I won't be approving this match.<end_line>
+		Well, I won't force you. But<end_line>
+		if that's all your talk is worth,<end_line>
+		I won't approve this match.<end_line>
 	</ascii>
+	# Made lines shorter
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -677,8 +693,8 @@
 		勝負の準備をととのえな！<end_line>
 	</sjis>
 	<ascii>
-    That settles it!<end_line>
-    Now go get ready!<end_line>
+    	That settles it!<end_line>
+    	Now go get ready!<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -690,8 +706,8 @@
 		親方ハ　味方ナノデショウカ？<end_line>
 	</sjis>
 	<ascii>
-    Does Master Really<end_line>
-    Care About Us?<end_line>
+    	Does Master Really<end_line>
+    	Care About Us?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>

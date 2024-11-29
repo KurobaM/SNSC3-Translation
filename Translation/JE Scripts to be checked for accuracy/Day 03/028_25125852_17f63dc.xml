@@ -28,7 +28,7 @@
 		ちっ<three_dots>はぐれ召喚獣か<end_line>
 	</sjis>
 	<ascii>
-    Tch<three_dots><end_line>
+    	Tch<three_dots><end_line>
 		A Stray<three_dots><end_line>
 	</ascii>
 </dialogue>
@@ -54,8 +54,9 @@
 	<ascii>
 		Hey, I know that one.<end_line>
 		It's stronger than it looks.<end_line>
-    But I haven't seen it here before<three_dots><end_line>
+		But what is it doing here<three_dots>?<end_line>
 	</ascii>
+	# Made last line shorter
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -65,7 +66,7 @@
 		何かがおかしいのかも<three_dots><end_line>
 	</sjis>
 	<ascii>
-    I knew something was off<three_dots><end_line>
+    	I knew something was off<three_dots><end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -78,6 +79,11 @@
 			気がついてないみたいだけど<end_line>
 			どうしよう？<end_line>
 		</sjis>
+		<ascii>
+    		Looks like it hasn't<end_line>
+    		noticed us yet.<end_line>
+    		What should we do?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -85,12 +91,12 @@
 			気がついてないみたいだけど<end_line>
 			どうしよう？<end_line>
 		</sjis>
+		<ascii>
+    		Looks like it hasn't<end_line>
+    		noticed us yet.<end_line>
+    		What should we do?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Looks like it hasn't<end_line>
-    noticed us yet.<end_line>
-    What should we do?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -115,9 +121,9 @@
 		　コレはいけるわ<three_dots>！）<end_line>
 	</sjis>
 	<ascii>
-    (Wait<three_dots>!<end_line>
-     If I beat the Stray<three_dots><end_line>
-     Maybe I'll get a bonus<three_dots>!)<end_line>
+    	(Wait<three_dots>!<end_line>
+     	If I beat the Stray<three_dots><end_line>
+     	Maybe I'll get a bonus<three_dots>!)<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -127,7 +133,7 @@
 		ちょっとどいてもらいましょう<end_line>
 	</sjis>
 	<ascii>
-    Stand aside.<end_line>
+    	Stand aside.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -139,7 +145,7 @@
 	</sjis>
 	<ascii>
 		Eh?<end_line>
-    Tier<three_dots>?<end_line>
+    	Tier<three_dots>?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -223,6 +229,11 @@
 			こんなときに何やってんだよ<end_line>
 			ふたりとも<end_line>
 		</sjis>
+		<ascii>
+    		Hey!<end_line>
+    		Now's not the time<end_line>
+    		to argue<three_dots><end_line>
+  			</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -230,12 +241,12 @@
 			こんなときに何やってんのよ<end_line>
 			ふたりとも<end_line>
 		</sjis>
+		<ascii>
+    		Hey!<end_line>
+    		Now's not the time<end_line>
+    		to argue<three_dots><end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Hey!<end_line>
-    Now's not the time<end_line>
-    to argue<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -259,7 +270,7 @@
 		危険デス<end_line>
 	</sjis>
 	<ascii>
-		Lady Murno Will Soon Be In Danger.<end_line>
+		Lady Murno Will Be In Danger.<end_line>
 		We Must Protect Her.<end_line>
 	</ascii>
 </dialogue>
@@ -287,7 +298,7 @@
 	</sjis>
 	<ascii>
 		Fine<three_dots><end_line>
-    We'll take care of this!<end_line>
+    	We'll take care of this!<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -311,15 +322,19 @@
 			よし！<end_line>
 			行こう！<end_line>
 		</sjis>
+		<ascii>
+    		Alright!<end_line>
+    		Let's do this!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			うん！<end_line>
 			行くよ！<end_line>
 		</sjis>
+		<ascii>
+    		Alright!<end_line>
+    		Let's do this!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Alright!<end_line>
-    Let's do this!<end_line>
-  </ascii>
 </dialogue>
