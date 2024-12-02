@@ -5,15 +5,18 @@
 		<sjis>
 			ここがマーネイル宿場だな<end_line>
 		</sjis>
+  		<ascii>
+  		  	So this is Marneil Station.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ここがマーネイル宿場だね<end_line>
 		</sjis>
+  		<ascii>
+  		  	So this is Marneil Station.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    So this is Marneil Station.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -24,8 +27,8 @@
 		いいのかしら？<end_line>
 	</sjis>
 	<ascii>
-    Is there anywhere around here<end_line>
-    we can get medical treatment?<end_line>
+    	Is there anywhere around here<end_line>
+    	we can get medical treatment?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -38,7 +41,7 @@
 		いつもお世話になっていますから<three_dots><end_line>
 	</sjis>
 	<ascii>
-    The inn over there will do.<end_line>
+    	The inn over there will do.<end_line>
 		It's called the Smile Inn.<end_line>
 		The staff know me well, so<three_dots><end_line>
 	</ascii>
@@ -63,8 +66,8 @@
 		あそこ、食事もおいしいですよ<end_line>
 	</sjis>
 	<ascii>
-    Oh, and I recommend you stay<end_line>
-    there for a night if you can.<end_line>
+    	Oh, and I recommend you stay<end_line>
+    	there for a night if you can.<end_line>
 		The food there is great.<end_line>
 	</ascii>
 </dialogue>
@@ -77,9 +80,9 @@
 		とろけるおいしさですよ<end_line>
 	</sjis>
 	<ascii>
-    Their specialty homemade cake<end_line>
-    just melts in your mouth<three_dots><end_line>
-  </ascii>
+    	Their specialty homemade cake<end_line>
+    	just melts in your mouth<three_dots><end_line>
+  	</ascii>
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -103,8 +106,8 @@
 	</sjis>
 	<ascii>
 		Cake<three_dots>?<end_line>
-    I don't really care<end_line>
-    for sweet things<three_dots><end_line>
+    	I don't really care<end_line>
+    	for sweet things<three_dots><end_line>
 	</ascii>
 </dialogue>
 <bigtext>
@@ -186,17 +189,17 @@
 		<sjis>
 			オレもハラへったなぁ！<end_line>
 		</sjis>
-    <ascii>
-      I'm starving!<end_line>
-    </ascii>
+    	<ascii>
+    	 	I'm starving!<end_line>
+    	</ascii>
 	</male>
 	<female>
 		<sjis>
 			わたしもおなかすいたかな<three_dots><end_line>
 		</sjis>
-    <ascii>
-      I'm hungry too<three_dots><end_line>
-    </ascii>
+    	<ascii>
+    	  	I'm hungry too<three_dots><end_line>
+    	</ascii>
 	</female>
 </dialogue>
 <dialogue>
@@ -235,8 +238,8 @@
 	</sjis>
 	<ascii>
 		<three_dots>?<end_line>
-    Are you<three_dots><end_line>
-    Trying to cover for her<three_dots>?<end_line>
+    	Are you<three_dots><end_line>
+    	Trying to cover for her<three_dots>?<end_line>
 	</ascii>
 </dialogue>
 <bigtext>
@@ -300,15 +303,18 @@
 		<sjis>
 			そ、そうだな<end_line>
 		</sjis>
+  		<ascii>
+  		  	Y-Yup, not a thing.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			そ、そうだね<end_line>
 		</sjis>
+  		<ascii>
+  		  	Y-Yup, not a thing.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Y-Yup, not a thing.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">

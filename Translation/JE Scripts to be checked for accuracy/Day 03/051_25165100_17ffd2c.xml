@@ -42,6 +42,11 @@
       オレがこんなんなってるのは<end_line>
       親方のせいでもあるんだぞ！<end_line>
     </sjis>
+    <ascii>
+      What are you saying!<end_line>
+      It's your fault I'm going<end_line>
+      through all this trouble!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -49,12 +54,12 @@
       わたしがこんなんなってるのは<end_line>
       親方のせいでもあるんだよ！<end_line>
     </sjis>
+    <ascii>
+      What are you saying!<end_line>
+      It's your fault I'm going<end_line>
+      through all this trouble!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    What are you saying!<end_line>
-    It's your fault I'm going<end_line>
-    through all this trouble!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -67,9 +72,10 @@
   </sjis>
   <ascii>
     Don't drag me into it!<end_line>
-    Figure it out yourself!<end_line>
-    This is part of being a Craftknight!<end_line>
+    A first-rate Craftknight should<end_line>
+    be able to deal with this much!<end_line>
   </ascii>
+  # Line 3 over hard limit so I rewrote last 2 lines to fit.
 </dialogue>
 <dialogue>
   <info box="left">
@@ -79,16 +85,20 @@
     <sjis>
       か、鍛冶師は関係ないだろ！？<end_line>
     </sjis>
+    <ascii>
+      W-what does being a Craftknight<end_line>
+      have to do with this!?<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       か、鍛冶師は関係ないでしょ！？<end_line>
     </sjis>
+    <ascii>
+      W-what does being a Craftknight<end_line>
+      have to do with this!?<end_line>
+    </ascii>
   </female>
-  <ascii>
-    W-what does being a Craftknight<end_line>
-    have to do with this!?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -204,8 +214,9 @@
     え？<end_line>
   </sjis>
   <ascii>
-    Eh?<end_line>
+    Really?<end_line>
   </ascii>
+  # Changed from "Eh?". Eh is more of a japanese thing I think.
 </dialogue>
 <dialogue>
   <info box="right">
@@ -217,7 +228,7 @@
     <three_dots>ってことにね<end_line>
   </sjis>
   <ascii>
-    And with that, everyone realized.<end_line>
+    And finally, everyone realized.<end_line>
     The fact that<three_dots> I was the<end_line>
     only one reflected in his eyes.<end_line>
   </ascii>
@@ -231,9 +242,9 @@
     カッコイイなぁ<end_line>
   </sjis>
   <ascii>
-    Huh.<end_line>
     How cool<three_dots><end_line>
   </ascii>
+  # Removed first line "Huh." because I think it sounds better this way.
 </dialogue>
 <dialogue>
   <info box="right">
@@ -271,17 +282,24 @@
       アンタもあれだけモテるんだから<end_line>
       一流になれる才能があるんだよ<end_line>
     </sjis>
+    <ascii>
+      With your popularity,<end_line>
+      you also have the potential to<end_line>
+      be a great Craftknight.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       アンタもあれだけ人気なんだから<end_line>
       一流になれる才能があるんだよ<end_line>
     </sjis>
+    <ascii>
+      With your popularity,<end_line>
+      you also have the potential to<end_line>
+      be a great Craftknight.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    With your popularity, you also have<end_line>
-    potential to be a great Craftknight.<end_line>
-  </ascii>
+  # Was 2 lines with 35 characters each. I spread it into 3 lines.
 </dialogue>
 <dialogue>
   <info box="left">
@@ -306,6 +324,11 @@
       アタシがほれるような<end_line>
       カッコイイ男になりな！<end_line>
     </sjis>
+    <ascii>
+      So keep up with your training,<end_line>
+      and become so awesome even<end_line>
+      I would fall for you!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -313,12 +336,12 @@
       アタシがほれるような<end_line>
       カッコイイ女になりな！<end_line>
     </sjis>
+    <ascii>
+      So keep up with your training,<end_line>
+      and become so awesome even<end_line>
+      I would fall for you!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    So keep up with your training,<end_line>
-    and become so awesome even<end_line>
-    I would fall for you!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <player gender="male">
