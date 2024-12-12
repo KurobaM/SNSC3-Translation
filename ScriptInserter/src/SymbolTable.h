@@ -10,9 +10,10 @@ public:
 	SymbolTable();
 
 	map<string, string> tagsTOiscript;
+	map<string, string> tagsFROMiscript;
 	map<string, string> sjisOnlyTags;
 
-	void replaceTags(string& line, bool ascii);
+	void replaceTags(string& line, bool ascii, bool reverse);
 	void replaceSjisOnlyTags(string& line);
 
 private:

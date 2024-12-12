@@ -1,14 +1,17 @@
 #include "ScriptInserter.h"
 
 
-ScriptInserter::ScriptInserter(string filename, list<JEObject> jObjs)
+ScriptInserter::ScriptInserter(filesystem::path filename, list<JEObject> jObjs)
 {
 	ScriptInserter::filename = filename;
 	ScriptInserter::jObjs = jObjs;
 }
 
-void ScriptInserter::readFile()
+void ScriptInserter::readFile(filesystem::path missingDir)
 {
+	// Reads and processes IScript file
+
+	missingFileDir = missingDir;
 	ifstream inFile(filename);
 
 	string text;
@@ -31,7 +34,7 @@ void ScriptInserter::readFile()
 			beginTxt = text.substr(0, quote1);
 			// position of second quote
 			size_t quote2 = text.find("\"", quote1 + 1);
-			// text in between wuotes
+			// text in between quotes
 			string weirdTxt = text.substr(quote1 + 1, quote2 - quote1 - 1);
 
 			if (handleEdgeCases(text, beginTxt, weirdTxt))
@@ -95,20 +98,19 @@ void ScriptInserter::insertAsciiText(string beginTxt, list<string> &sjisText)
 	if (!sjisText.empty())
 	{
 		JEObject jObj = findMatchingJEObject(sjisText);
-
-		if (!jObj.asciiText.empty())
+		list<string> textToUse = jObj.asciiText;
+		if (jObj.asciiText.empty())
+			textToUse = jObj.sjisText;
+		for (auto const& i : textToUse)
 		{
-			for (auto const& i : jObj.asciiText)
-			{
-				newFileStrings.push_back(beginTxt + "\"" + i + "\"" + "\n");
-			}
+			newFileStrings.push_back(beginTxt + "\"" + i + "\"" + "\n");
 		}
 		sjisText.clear();
 	}
 }
 
 // Makes new file with translated text
-void ScriptInserter::replaceFile(string outFilename)
+void ScriptInserter::replaceFile(filesystem::path outFilename)
 {
 	ofstream outFile(outFilename);
 	for (auto const& i : newFileStrings)
@@ -119,33 +121,38 @@ void ScriptInserter::replaceFile(string outFilename)
 }
 
 // Matches text based on sjis
-JEObject ScriptInserter::findMatchingJEObject(list<string> &sjisText)
+JEObject ScriptInserter::findMatchingJEObject(list<string>& sjisText)
 {
-	for (auto & i : sjisText)
+	for (auto& i : sjisText)
 	{
 		ST.replaceSjisOnlyTags(i);
 	}
 
-	for (auto const& i : jObjs)
+	for (auto & i: jObjs)
 	{
-		if (i.sjisText == sjisText)
+		if (!i.used && i.sjisText == sjisText)
 		{
+			i.used = true;
 			return i;
 		}
 	}
-	// In case there is no match
-	ofstream oo(nomatchFile, ios::app);
-	oo << "No match for the line(s):" << "\n";
-	for (auto const& i : sjisText)
+	// In case there is no match Handle elsewhere
+	/*
+	cout << "Found a no match\n";
+	filesystem::path missingTextFilename = missingFileDir / filename.filename();
+	missingTextFilename.replace_extension(".xml");
+	ofstream oo(missingTextFilename, ios::app);
+	oo << "<sjis>" << "\n";
+	for (auto& i : sjisText)
 	{
-		oo << i << "\n";
+		ST.replaceTags(i, false, true);
+		oo << "\t" << i << "<end_line>" << "\n";
 	}
-	oo << "in file " << filename << "\n";
-	oo << "\n";
+	oo << "</sjis>" << "\n\n";
 	oo.close();
-	// To prevent an error, I return the first JEObject after reporting it.
-	// I have it keep the original sjis text
-	JEObject defaultJEObj = jObjs.front();
-	defaultJEObj.asciiText = defaultJEObj.asciiText;
+	*/
+
+	JEObject defaultJEObj(sjisText);
+	defaultJEObj.asciiText = sjisText;
 	return defaultJEObj;
 }

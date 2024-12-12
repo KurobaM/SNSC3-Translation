@@ -9,11 +9,13 @@ public:
 	JEObject(list<string> sjisText);
 	list<string> sjisText;
 	list<string> asciiText;
+	bool used = false;
 
 	bool operator == (const JEObject& i) const { return sjisText == i.sjisText; };
 	bool operator != (const JEObject& i) const { return operator==(i); };
 
 	void formatText();
 	void removeLeadingSpace(string& line);
+	void removeTrailingSpace(string& line);
 	void removeEndline(string &line);
 };

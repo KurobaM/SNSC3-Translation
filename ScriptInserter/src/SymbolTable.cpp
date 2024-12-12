@@ -6,10 +6,15 @@ SymbolTable::SymbolTable()
 	loadSJISONLYTAGS();	
 }
 
-void SymbolTable::replaceTags(string& line, bool ascii)
+void SymbolTable::replaceTags(string& line, bool ascii, bool reverse)
 {
+	// Replace swaps tags between JE and I scripts
+
 	bool quoteSwitch = true;
-	for (auto const& i : tagsTOiscript)
+	map<string, string> tags = tagsTOiscript;
+	if (reverse)
+		tags = tagsFROMiscript;
+	for (auto const& i : tags)
 	{
 		string tag = i.first;
 
@@ -90,6 +95,8 @@ void SymbolTable::loadTAGS()
 		if (replacement.empty())
 			replacement = "";
 		tagsTOiscript.insert({ tag, replacement });
+		if (replacement != "")
+			tagsFROMiscript.insert({ replacement, tag });
 	}
 
 	stream.close();

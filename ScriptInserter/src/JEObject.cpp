@@ -11,9 +11,10 @@ void JEObject::formatText()
 	// Replace tags in sjis text so it can match iscript text
 	for (auto &i : sjisText)
 	{
-		removeLeadingSpace(i);
 		removeEndline(i);
-		ST.replaceTags(i, false);
+		removeLeadingSpace(i);
+		removeTrailingSpace(i);
+		ST.replaceTags(i, false, false);
 		ST.replaceSjisOnlyTags(i);
 	}
 
@@ -22,14 +23,20 @@ void JEObject::formatText()
 	{
 		removeLeadingSpace(j);
 		removeEndline(j);
-		ST.replaceTags(j, true);
+		ST.replaceTags(j, true, false);
 	}
 }
 
 void JEObject::removeLeadingSpace(string &line)
 {
 	size_t endlinePos = line.find_first_not_of(" \t");
-	line = line.substr(endlinePos);
+	line = line.substr(endlinePos);	
+}
+
+void JEObject::removeTrailingSpace(string& line)
+{
+	size_t endlinePos = line.find_last_not_of(" \t");
+	line = line.substr(0, endlinePos + 1);
 }
 
 void JEObject::removeEndline(string &line)

@@ -8,13 +8,14 @@ using namespace std;
 class ScriptInserter
 {
 public:
-	ScriptInserter(string filename, list<JEObject> jObjs);
-	string filename;
+	ScriptInserter(filesystem::path filename, list<JEObject> jObjs);
+	filesystem::path filename;
+	filesystem::path missingFileDir;
 	list<JEObject> jObjs;
 	list<string> newFileStrings;
 
-	void readFile();
-	void replaceFile(string outFilename);
+	void readFile(filesystem::path missingDir);
+	void replaceFile(filesystem::path outFilename);
 
 private:
 	JEObject findMatchingJEObject(list<string> &sjisText);
