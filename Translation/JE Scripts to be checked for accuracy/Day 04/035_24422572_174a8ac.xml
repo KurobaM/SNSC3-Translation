@@ -3,16 +3,18 @@
 		プロスバンの町　武器屋<end_line>
 	</sjis>
 	<ascii>
-		Prosban　Weaponry<end_line>
+		Prosban　Weapon Shop<end_line>
 	</ascii>
+	# Changed Weaponry to Weapon Shop
 </location>
 <location>
 	<sjis>
 		プロスバンの町　武器屋<end_line>
 	</sjis>
 	<ascii>
-		Prosban　Weaponry<end_line>
+		Prosban　Weapon Shop<end_line>
 	</ascii>
+	# Changed Weaponry to Weapon Shop
 </location>
 <dialogue>
 	<info box="simple">

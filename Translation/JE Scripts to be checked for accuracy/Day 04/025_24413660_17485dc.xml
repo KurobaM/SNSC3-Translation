@@ -69,7 +69,8 @@
     落ち着きの無い方にこそオススメです！<end_line>
   </sjis>
   <ascii>
-    Bows require patience and composure!<end_line>
+    Bows require patience and<end_line>
+    composure!<end_line>
     Here are some tips!<end_line>
   </ascii>
 </dialogue>
@@ -79,8 +80,9 @@
     下を見ろ↓<end_line>
   </sjis>
   <ascii>
-    Look below↓<end_line>
+    <quote>Look below<quote><end_line>
   </ascii>
+  # Removed ↓ and added <quote>
 </dialogue>
 <dialogue>
   <info box="simple">

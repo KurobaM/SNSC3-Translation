@@ -76,7 +76,7 @@
     こっ<three_dots>コワ<three_dots><end_line>
   </sjis>
   <ascii>
-    S<three_dots> scary<three_dots><end_line>
+    S<three_dots>scary<three_dots><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -126,8 +126,9 @@
     楽に、と言われましても<three_dots><end_line>
   </sjis>
   <ascii>
-    You're just gonna leave me here<three_dots>?<end_line>
+    You're just gonna leave me here?<end_line>
   </ascii>
+  # Removed three dots
 </dialogue>
 <dialogue>
   <info box="right">

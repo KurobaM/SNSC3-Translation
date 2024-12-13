@@ -15,9 +15,9 @@
       こっちじゃないって！<end_line>
     </sjis>
     <ascii>
-			Wrong way!<end_line>
-			I need to find Brother<end_line>
-			at the Gold Council!<end_line>
+		Wrong way!<end_line>
+		I need to find Brother<end_line>
+		at the Gold Council!<end_line>
     </ascii>
   </male>
   <female>
@@ -53,7 +53,7 @@
 	</sjis>
   <ascii>
     My mom thinks I'm out<end_line>
-    Playing around, but I'm<end_line>
+    playing around, but I'm<end_line>
     earning money for our future.<end_line>
   </ascii>
 </dialogue>
@@ -97,7 +97,7 @@
 		が武器に付加されるの<end_line>
 	</sjis>
   <ascii>
-    Enhancing with a  <quote>Ruin Switch<quote><end_line>
+    Enhancing with a <quote>Ruin Switch<quote><end_line>
     will add the <quote>DUR Attack<quote><end_line>
     to your weapon.<end_line>
   </ascii>
@@ -219,8 +219,8 @@
 	</sjis>
   <ascii>
     Oh, you have Summon Beast too.<end_line>
-    Nice to meet you.<end_line>
-    This is my Summon Beast, Myoutarou.<end_line>
+    Nice to meet you. This is<end_line>
+    my Summon Beast, Myoutarou.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -230,7 +230,7 @@
 		　　　釣り仲間新聞　第１号<end_line>
 	</sjis>
   <ascii>
-    <end_line>
+    　<end_line>
     Fishing Friends Newspaper No. 1<end_line>
   </ascii>
 </dialogue>
@@ -242,10 +242,11 @@
 		ワン魚がいるらしいぞ<end_line>
 	</sjis>i
   <ascii>
-    It is said the Deikle Village Pond<end_line>
-    contains a fish that's cuteness<end_line>
+    It's said the Dickell Village Pond<end_line>
+    contains a fish who's cuteness<end_line>
     cannot be put into words.<end_line>
   </ascii>
+  # Changed Deikle to Dickell
 </dialogue>
 <dialogue>
 	<info box="simple">

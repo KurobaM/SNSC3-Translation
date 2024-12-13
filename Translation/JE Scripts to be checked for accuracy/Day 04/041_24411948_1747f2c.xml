@@ -21,16 +21,20 @@
     <sjis>
       リュート岩窟はコッチじゃないぜ<end_line>
     </sjis>
+    <ascii>
+      This isn't the way<end_line>
+      to Lute Cave.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       リュート岩窟はコッチじゃないよ<end_line>
     </sjis>
+    <ascii>
+      This isn't the way<end_line>
+      to Lute Cave.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    This isn't the way<end_line>
-    to Lute Cave.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="simple">
@@ -108,7 +112,7 @@
     　　　勇者プロスバンの石像<end_line>
   </sjis>
   <ascii>
-    The Founder Of This City,<end_line>
-    Our Hero Prosban<end_line>
+    　　The Founder Of This City,<end_line>
+    　　Our Hero Prosban<end_line>
   </ascii>
 </dialogue>
