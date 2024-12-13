@@ -38,7 +38,7 @@
 	<ascii>
 		Oh, that hammer<three_dots><end_line>
 		You must be a Craftknight. I've<end_line>
-    been looking for people like you.<end_line>
+    	been looking for people like you.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -63,7 +63,7 @@
 		知りたいことがあったら聞いてね<end_line>
 	</sjis>
 	<ascii>
-		I know a lot about Smithing,<end_line>
+		I know a lot about smithing,<end_line>
 		so feel free to ask anything.<end_line>
 	</ascii>
 </dialogue>

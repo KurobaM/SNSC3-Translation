@@ -108,9 +108,9 @@
 		武器に付加されるの<end_line>
 	</sjis>
 	<ascii>
-    Using a 'Legendary Iron Skewer'<end_line>
+    Using a <quote>Legendary Iron Skewer<quote><end_line>
     to enhance your weapon will<end_line>
-    give it the 'Piercing' effect.<end_line>
+    give it the <quote>Piercing<quote> effect.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>

@@ -21,15 +21,18 @@
 		<sjis>
 			え、オレが？<end_line>
 		</sjis>
+  		<ascii>
+  		  Hm? Why me?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			え、わたしが？<end_line>
 		</sjis>
+  		<ascii>
+  		  Hm? Why me?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Hm? Why me?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -104,15 +107,18 @@
 		<sjis>
 			ええ～っと、オレには<end_line>
 		</sjis>
+  		<ascii>
+  		  Well, I uh<three_dots><end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ええ～っと、わたしには<end_line>
 		</sjis>
+  		<ascii>
+  		  Well, I uh<three_dots><end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Well, I uh<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="left">

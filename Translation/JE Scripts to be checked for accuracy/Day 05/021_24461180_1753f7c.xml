@@ -126,8 +126,8 @@
     　　　　　<paw>探しています<paw><end_line>
   </sjis>
   <ascii>
-      <end_line>
-          <paw>Searching<paw><end_line>
+    　<end_line>
+    　　　　<paw>Searching<paw><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -149,8 +149,9 @@
     下を見ろ↓<end_line>
   </sjis>
   <ascii>
-    Look down↓<end_line>
+    Look down<end_line>
   </ascii>
+    # Removed ↓
 </dialogue>
 <dialogue>
   <info box="simple">

@@ -3,7 +3,7 @@
     ディックル村　駅<end_line>
   </sjis>
   <ascii>
-    Mayor's house　Second-hand Shop<end_line>
+    Mayor's House　Second-hand Shop<end_line>
   </ascii>
 </location>
 <dialogue>
@@ -26,7 +26,8 @@
     と言ったらなっとらん<end_line>
   </sjis>
   <ascii>
-    Youngsters these days are no good.<end_line>
+    Youngsters these days are<end_line>
+    no good.<end_line>
     Ah~ No good at all.<end_line>
   </ascii>
 </dialogue>

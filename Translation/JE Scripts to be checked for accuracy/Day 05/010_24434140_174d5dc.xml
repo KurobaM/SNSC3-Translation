@@ -34,8 +34,9 @@
 		ふみゃ？<end_line>
 	</sjis>
   <ascii>
-    Hmwhat?<end_line>
+    <three_dots>What?<end_line>
   </ascii>
+  # Changed from "Hmwhat?".
 </dialogue>
 <dialogue>
 	<info box="simple">

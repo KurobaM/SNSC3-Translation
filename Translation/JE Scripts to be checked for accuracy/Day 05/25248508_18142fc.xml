@@ -7,17 +7,21 @@
 			あのさ、ザック<end_line>
 			ミューノ見なかったか？<end_line>
 		</sjis>
+  		<ascii>
+  		  Hey, Zakk,<end_line>
+  		  have you seen Murno?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ねぇ、ザック<end_line>
 			ミューノ見なかった？<end_line>
 		</sjis>
+  		<ascii>
+  		  Hey, Zakk,<end_line>
+  		  have you seen Murno?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Hey, Zakk,<end_line>
-    have you seen Murno?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="right">

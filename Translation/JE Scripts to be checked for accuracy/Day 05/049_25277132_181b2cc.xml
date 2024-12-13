@@ -146,9 +146,10 @@
   </sjis>
   <ascii>
 		I'm only saying this once!<end_line>
-    Your investigation happens tomorrow.<end_line>
+    Your investigation is tomorrow.<end_line>
     Now be quiet!<end_line>
   </ascii>
+  # Shortened second line. Changed happens to is.
 </dialogue>
 <dialogue>
   <info box="left">

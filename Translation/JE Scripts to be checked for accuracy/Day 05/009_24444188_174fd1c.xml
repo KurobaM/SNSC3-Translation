@@ -3,7 +3,7 @@
 		村長の家　広間<end_line>
 	</sjis>
 	<ascii>
-		Mayor's house　Hall<end_line>
+		Mayor's House　Hall<end_line>
 	</ascii>
 </location>
 <dialogue>
@@ -29,6 +29,7 @@
 	</sjis>
   <ascii>
     Welcome back.<end_line>
-    You can come by any time you want.<end_line>
+    Come by any time you want.<end_line>
   </ascii>
+  # Shortened second line
 </dialogue>

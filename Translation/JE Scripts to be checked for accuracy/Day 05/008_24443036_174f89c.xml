@@ -3,7 +3,7 @@
 		村長の家　道具屋<end_line>
 	</sjis>
 	<ascii>
-		Mayor's house　second-hand shop<end_line>
+		Mayor's House　Second-hand Shop<end_line>
 	</ascii>
 </location>
 <location>
@@ -11,7 +11,7 @@
 		村長の家　道具屋<end_line>
 	</sjis>
 	<ascii>
-		Mayor's house　second-hand shop<end_line>
+		Mayor's House　Second-hand Shop<end_line>
 	</ascii>
 </location>
 <dialogue>
@@ -21,6 +21,7 @@
 		小豆は体にええぞぉ<end_line>
 	</sjis>
   <ascii>
-    Azuki beans are good for the body.<end_line>
+    Red beans are good for the body.<end_line>
   </ascii>
+  # Changed Azuki bean to Red bean
 </dialogue>

@@ -3,7 +3,7 @@
 		？？？<end_line>
 	</sjis>
 	<ascii>
-		？？？<end_line>
+		???<end_line>
 	</ascii>
 </location>
 <location>
@@ -11,6 +11,7 @@
 		？？？<end_line>
 	</sjis>
 	<ascii>
-		？？？<end_line>
+		???<end_line>
 	</ascii>
 </location>
+# Changed sjis question marks to normal ones

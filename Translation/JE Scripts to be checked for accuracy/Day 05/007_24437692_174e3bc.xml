@@ -63,7 +63,7 @@
 		聞いたんだ<end_line>
 	</sjis>
   <ascii>
-    I've heard theres a Stray called<end_line>
+    I've heard there's a Stray called<end_line>
     Red Wing that's causing trouble.<end_line>
     Someone from Prosban told me.<end_line>
   </ascii>
@@ -76,7 +76,8 @@
 		ほんと、あぶなくってしょうがない<end_line>
 	</sjis>
   <ascii>
-    It's supposed to be very ferocious.<end_line>
-    Man, it's so dangerous these days.<end_line>
+    It's supposed to be very<end_line>
+	ferocious. Man, it's so<end_line>
+	dangerous these days.<end_line>
   </ascii>
 </dialogue>

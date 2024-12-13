@@ -3,8 +3,9 @@
 		金の派閥　エントランス<end_line>
 	</sjis>
 	<ascii>
-		Auric Collective　Entrance<end_line>
+		Gold Council　Entrance<end_line>
 	</ascii>
+	# Changed Auric Collective to Gold Council
 </location>
 <dialogue>
 	<info box="simple">
