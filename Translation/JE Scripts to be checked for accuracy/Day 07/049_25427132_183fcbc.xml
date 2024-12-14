@@ -34,7 +34,8 @@
     </sjis>
     <ascii>
     What? No!<end_line>
-    I was just patrolling around here<three_dots><end_line>
+    I was just patrolling around<end_line>
+    here<three_dots><end_line>
   </ascii>
   </male>
   <female>
@@ -44,7 +45,8 @@
     </sjis>
     <ascii>
     What? No!<end_line>
-    I was just patrolling around here<three_dots><end_line>
+    I was just patrolling around<end_line>
+    here<three_dots><end_line>
   </ascii>
   </female>
 </dialogue>
