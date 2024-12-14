@@ -9,7 +9,7 @@
 		<ascii>
 	    	　　　　　　　And so　　　　　　　　<end_line>
 			　　We went to the Gold Faction 　　<end_line>
-			　　And told them everything　　<end_line>   
+			　　　And told them everything　　　<end_line>   
     	</ascii>
 	</male>
 	<female>
@@ -60,8 +60,8 @@
 		アニスたちを捕まえることになったんだ<end_line>
 	</sjis>
 	<ascii>
-	    　　　We cleared Murno's name　　　<end_line>
-	    Now, to protect Govan's Magic Stone<end_line>
+	    　　　We cleared Murno's name 　　　<end_line>
+	     Now, to protect Govan's Magic Stone<end_line>
 	    　　　We need to catch Anise　　　　<end_line>
     </ascii>
 </dialogue>
@@ -74,9 +74,9 @@
 			　　すごく引っかかっていたんだ<three_dots>　　<end_line>
 		</sjis>
 		<ascii>
-	    	　　　I'd like to settle this　　　<end_line>
-	    	　　　　once and for all, but　　　<end_line>
-	    	I'm still stuck on what Anise said<end_line>
+	    	　　　I'd like to settle this 　　　<end_line>
+	    	　　　　once and for all, but 　　　<end_line>
+	    	　I'm still stuck on what Anise said<end_line>
     	</ascii>
 	</male>
 	<female>
@@ -88,7 +88,7 @@
 		<ascii>
 	    	　　　I'd like to settle this　　　<end_line>
 	    	　　　　once and for all, but　　　<end_line>
-	    	What Anise said is stuck in my head<end_line>
+	    	What Anise said is stuck in my head <end_line>
     	</ascii>
 	</female>
 </dialogue>

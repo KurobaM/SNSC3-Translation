@@ -61,7 +61,7 @@
 		<three_dots>って、アンタは来なくていいよ！<end_line>
 	</sjis>
   <ascii>
-    <three_dots>hey, you're not coming with us!<end_line>
+    <three_dots>Hey, you're not coming with us!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -72,8 +72,9 @@
 		え～<end_line>
 	</sjis>
   <ascii>
-    Eh~<end_line>
+    But whyyy~<end_line>
   </ascii>
+  # Changed from "eh"
 </dialogue>
 <dialogue>
 	<info box="right">
