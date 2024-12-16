@@ -19,17 +19,21 @@
       ああ、ティエ<end_line>
       よくここがわかったな<end_line>
     </sjis>
+    <ascii>
+      Oh, Tier.<end_line>
+      How'd you know we were here?<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       あっ、ティエ<end_line>
       よくここがわかったね<end_line>
     </sjis>
+    <ascii>
+      Oh, Tier.<end_line>
+      How'd you know we were here?<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Oh, Tier.<end_line>
-    How'd you know we were here?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <player gender="male">
@@ -73,7 +77,7 @@
   <ascii>
     I'm Tier.<end_line>
     I'm currently dating <player_nickname>,<end_line>
-    with intention to marry.<end_line>
+    with the intention to marry.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -157,7 +161,7 @@
   <ascii>
     Moving on!<end_line>
     You're terrible, you know!<end_line>
-    Leaving me behind like that<three_dots>!<end_line>
+    Leaving me behind like that!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -172,7 +176,7 @@
   <ascii>
     That Ianna lectured me<end_line>
     all day, and I didn't get<end_line>
-    a single Boam out of it<three_dots><end_line>
+    a single Boam out of it.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -184,7 +188,6 @@
     わたしって不幸～！<end_line>
   </sjis>
   <ascii>
-    Tche<three_dots><end_line>
     I'm so unlucky~!<end_line>
   </ascii>
 </dialogue>
@@ -197,17 +200,21 @@
       だまって帰ったのは悪かったよ<end_line>
       でも、アニキが来いって<three_dots><end_line>
     </sjis>
+    <ascii>
+      Sorry I didn't say anything.<end_line>
+      But Bro told me to go<three_dots><end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       ゴメン、だまって帰って<end_line>
       けど、アニキが来いって<three_dots><end_line>
     </sjis>
+    <ascii>
+      Sorry I didn't say anything.<end_line>
+      But Bro told me to go<three_dots><end_line>
+    </ascii>
   </female>
-  <ascii>
-    Sorry I didn't say anything.<end_line>
-    But Bro told me to go<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="run-dor">
@@ -275,7 +282,7 @@
   <ascii>
     She's still talking<end_line>
     to that Velworen guy.<end_line>
-    Vee's not done either.<end_line>
+    V.E's not done either.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -328,6 +335,11 @@
       この先に行きたいんだけど<end_line>
       コワイはぐれが出たらしくて<end_line>
     </sjis>
+    <ascii>
+      There's something I'm worried about.<end_line>
+      There's a Stray that's<end_line>
+      appeared further in.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -335,12 +347,12 @@
       この先に行きたいんだけど<end_line>
       コワイはぐれが出たらしくて<end_line>
     </sjis>
+    <ascii>
+      There's something I'm worried about.<end_line>
+      There's a Stray that's<end_line>
+      appeared further in.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    There's something I'm worried about.<end_line>
-    There's a Stray that's<end_line>
-    appeared further in.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -440,7 +452,7 @@
     送ってあげるわよ<end_line>
   </sjis>
   <ascii>
-    Okay okay<three_dots><end_line>
+    Okay, okay<three_dots><end_line>
     Fine then.<end_line>
     I'll take her back.<end_line>
   </ascii>
@@ -454,17 +466,21 @@
       ありがとう、ティエ<end_line>
       じゃあたのんだぜ<end_line>
     </sjis>
+    <ascii>
+      Thanks, Tier.<end_line>
+      I'm counting on you.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       ありがとう、ティエ<end_line>
       じゃあたのんだよ<end_line>
     </sjis>
+    <ascii>
+      Thanks, Tier.<end_line>
+      I'm counting on you.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Thanks, Tier.<end_line>
-    i'm counting on you.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="left">
@@ -475,17 +491,21 @@
       エリエもあぶないから<end_line>
       気をつけてかえるんだぞ<end_line>
     </sjis>
+    <ascii>
+      I'll see you later then.<end_line>
+      Be careful on the way out.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       エリエもあぶないから<end_line>
       気をつけてかえるんだよ<end_line>
     </sjis>
+    <ascii>
+      I'll see you later then.<end_line>
+      Be careful on the way out.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    I'll see you later then.<end_line>
-    Be careful on the way out.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -522,8 +542,7 @@
     それは<three_dots><end_line>
   </sjis>
   <ascii>
-    Ehh!?<end_line>
-    But<three_dots><end_line>
+    What!?<end_line>
   </ascii>
 </dialogue>
 <dialogue>

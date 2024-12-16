@@ -119,17 +119,21 @@
       あ、こっちはオレのパートナー<end_line>
       仲間なんです！<end_line>
     </sjis>
+    <ascii>
+      This is my partner.<end_line>
+      They're on our side!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       あ、こっちはわたしのパートナー<end_line>
       仲間なんです！<end_line>
     </sjis>
+    <ascii>
+      This is my partner.<end_line>
+      They're on our side!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Ah, this is my partner,<end_line>
-    they're on our side!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="simple">
@@ -214,6 +218,10 @@
       　なんだ<three_dots>っ！？<end_line>
       　このアタマ<three_dots>！？）<end_line>
     </sjis>
+    <ascii>
+      (What the!<end_line>
+      　Is he crazy!?)<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -221,11 +229,11 @@
       　なによ<three_dots>っ！？<end_line>
       　このアタマ<three_dots>！？）<end_line>
     </sjis>
+    <ascii>
+      (What the!<end_line>
+      　Is he crazy!?)<end_line>
+    </ascii>
   </female>
-  <ascii>
-    (What the<three_dots>!<end_line>
-     Is he crazy<three_dots>!?)<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="run-dor">
@@ -239,8 +247,8 @@
   </sjis>
   <ascii>
     (Look At His Clothes!<end_line>
-     He Is One Of Those<end_line>
-     Targeting Murno!)<end_line>
+    　He Is One Of Those<end_line>
+    　Targeting Murno!)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -255,8 +263,8 @@
   </sjis>
   <ascii>
     (Forget about that!<end_line>
-     Look at his clothes!<end_line>
-     He's one of those after Murno<three_dots>!)<end_line>
+    　Look at his clothes!<end_line>
+    　He's one of those after Murno!)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -271,8 +279,8 @@
   </sjis>
   <ascii>
     (That's the first thing you notice!?<end_line>
-     Look at his clothes.<end_line>
-     He's one of Murno's enemies<three_dots>)<end_line>
+    　Look at his clothes.<end_line>
+    　He's one of Murno's enemies<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -287,8 +295,8 @@
   </sjis>
   <ascii>
     (Are you blind!?<end_line>
-     That person, he is wearing the<end_line>
-     same outfit as Murno's enemies<three_dots>!)<end_line>
+    　That person, he is wearing the<end_line>
+    　same outfit as Murno's enemies!)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -313,17 +321,21 @@
       ち、ちがうよ！<end_line>
       オレのパートナーだ！<end_line>
     </sjis>
+    <ascii>
+      N-no!<end_line>
+      It's my partner!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       ち、ちがうわよ！<end_line>
       わたしのパートナーだよ！<end_line>
     </sjis>
+    <ascii>
+      N-no!<end_line>
+      It's my partner!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    N-no!<end_line>
-    It's my partner!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -359,7 +371,7 @@
     </sjis>
     <ascii>
       W-what of it!?<end_line>
-      And don't stare at me like that<three_dots>!<end_line>
+      And don't stare at me like that!<end_line>
     </ascii>
   </female>
 </dialogue>
@@ -414,7 +426,7 @@
     いいのだが<three_dots><end_line>
   </sjis>
   <ascii>
-    I see<three_dots> Heheh<three_dots><end_line>
+    I see<three_dots> Hehehe<three_dots><end_line>
     Maybe they'll be<end_line>
     able to satisfy me<three_dots><end_line>
   </ascii>
@@ -428,7 +440,7 @@
     危ないですよ！？<end_line>
   </sjis>
   <ascii>
-    Eh? Hold on.<end_line>
+    Hold on.<end_line>
     You're going to fight them alone?<end_line>
     Isn't that dangerous!?<end_line>
   </ascii>
@@ -442,9 +454,9 @@
     どんな攻撃にもひるまない鉄の城<end_line>
   </sjis>
   <ascii>
-    Dangerous<three_dots>?<end_line>
     That's exactly why I'm going!<end_line>
-    I will not flinch, won't back away,<end_line>
+    I will not flinch.<end_line>
+    I will not back away.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -454,7 +466,8 @@
     この鋼鉄のパイク様がな！<end_line>
   </sjis>
   <ascii>
-    For I am, Steel Pike!<end_line>
+    For I am<three_dots><end_line>
+    Steel Pike!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -465,7 +478,8 @@
     こうてつの、パイク<three_dots>？<end_line>
   </sjis>
   <ascii>
-    Steel<three_dots> Pike<three_dots>?<end_line>
+    Steel<three_dots><end_line>
+    Pike<three_dots>?<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -506,7 +520,7 @@
     なっ！<end_line>
   </sjis>
   <ascii>
-    Wha!<end_line>
+    What!?<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -531,15 +545,18 @@
     <sjis>
       あいつ<three_dots>！<end_line>
     </sjis>
+    <ascii>
+      This guy!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       あの人<three_dots>！<end_line>
     </sjis>
+    <ascii>
+      This guy!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    This guy<three_dots>!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="simple">

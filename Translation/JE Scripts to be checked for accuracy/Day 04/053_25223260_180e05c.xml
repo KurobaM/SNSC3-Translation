@@ -35,15 +35,18 @@
     <sjis>
       何を、言ってんだ！？<end_line>
     </sjis>
+    <ascii>
+      W-what!?<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       なに言ってんの！？<end_line>
     </sjis>
+    <ascii>
+      W-what!?<end_line>
+    </ascii>
   </female>
-  <ascii>
-    W-what!?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -66,17 +69,21 @@
       やめろ！<end_line>
       はぐれじゃない！<end_line>
     </sjis>
+    <ascii>
+      Stop!<end_line>
+      That isn't a Stray!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       やめて！<end_line>
       はぐれじゃないわよ！<end_line>
     </sjis>
+    <ascii>
+      Stop!<end_line>
+      That isn't a Stray!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Stop!<end_line>
-    That isn't a Stray!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -105,7 +112,7 @@
   <ascii>
     S-sorry.<end_line>
     Um<three_dots><end_line>
-    I was thinking maybe I could help<three_dots><end_line>
+    I was thinking, maybe I could help?<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -223,7 +230,7 @@
     ふざけたクチをたたくな！<end_line>
   </sjis>
   <ascii>
-    Bastard<three_dots>!<end_line>
+    Bastard!<end_line>
     I am not a child!<end_line>
   </ascii>
 </dialogue>
@@ -296,7 +303,7 @@
     <three_dots>！<end_line>
   </sjis>
   <ascii>
-    <three_dots>!<end_line>
+    !!!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -320,7 +327,7 @@
     なに<three_dots>！<end_line>
   </sjis>
   <ascii>
-    What<three_dots>!<end_line>
+    Why you<three_dots><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -332,7 +339,7 @@
     う、うぅ<three_dots>っ！<end_line>
   </sjis>
   <ascii>
-    Uuu<three_dots>!<end_line>
+    Uuu<three_dots><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -358,6 +365,11 @@
       オレは<partner>の仲間<three_dots><end_line>
       パートナーだ！<end_line>
     </sjis>
+    <ascii>
+      Owner<three_dots>? No<three_dots><end_line>
+      I'm <partner>'s equal<three_dots><end_line>
+      We're partners!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -365,12 +377,12 @@
       わたしは<partner>の仲間<three_dots><end_line>
       パートナーよ！<end_line>
     </sjis>
+    <ascii>
+      Owner<three_dots>? No<three_dots><end_line>
+      I'm <partner>'s equal<three_dots><end_line>
+      We're partners!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Owner<three_dots>? No<three_dots><end_line>
-    I'm <partner>'s equal<three_dots><end_line>
-    We're partners!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -410,7 +422,7 @@
     な<three_dots>！<end_line>
   </sjis>
   <ascii>
-    Wha<three_dots>!<end_line>
+    Wha-!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -483,7 +495,7 @@
   </sjis>
   <ascii>
     No, you will learn what<end_line>
-    happens when one speaks to <end_line>
+    happens when one speaks to<end_line>
     me with such insolence.<end_line>
   </ascii>
 </dialogue>
