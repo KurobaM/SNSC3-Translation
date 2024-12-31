@@ -131,7 +131,7 @@
     ティエのヤツはドコへ行ったのかも<three_dots><end_line>
   </sjis>
   <ascii>
-    Vee immediately ran<end_line>
+    V.E immediately ran<end_line>
     off for Bostaph's place.<end_line>
     And who knows where Tier went<three_dots><end_line>
   </ascii>
@@ -160,8 +160,8 @@
     もうひとつおねがいしてもいいか？<end_line>
   </sjis>
   <ascii>
-    Ah, that's enough, thank you<three_dots><end_line>
-    <three_dots> Er, actually, can I ask<end_line>
+    Ah, that's enough, thank you.<end_line>
+    <three_dots>Er, actually, can I ask<end_line>
     you for one more thing?<end_line>
   </ascii>
 </dialogue>
@@ -544,7 +544,7 @@
     うん<three_dots><end_line>
   </sjis>
   <ascii>
-    Ah<three_dots><end_line>
+    Uh<three_dots><end_line>
     Okay<three_dots><end_line>
   </ascii>
 </dialogue>
@@ -570,7 +570,7 @@
     うん<three_dots><end_line>
   </sjis>
   <ascii>
-    Okay<three_dots><end_line>
+    Sure<three_dots><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -598,7 +598,7 @@
   </sjis>
   <ascii>
     I want you to be careful.<end_line>
-    The stuff inside the box<end_line>
+    The stuff inside<end_line>
     is very fragile.<end_line>
   </ascii>
 </dialogue>
