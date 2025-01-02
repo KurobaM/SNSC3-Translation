@@ -54,7 +54,7 @@
   <ascii>
     Brother asked me to<end_line>
     run an errand for him.<end_line>
-    Murno should be with Elieze<three_dots><end_line>
+    Murno should be with Elieze.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -277,7 +277,7 @@
     それは、そうじゃな<three_dots><end_line>
   </sjis>
   <ascii>
-    That's, true<three_dots><end_line>
+    That's<three_dots> true<three_dots><end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -368,7 +368,7 @@
   </sjis>
   <ascii>
     (No way<three_dots><end_line>
-     So she really is<three_dots>?)<end_line>
+    　So she really is<three_dots>?)<end_line>
    </ascii>
 </dialogue>
 <dialogue>

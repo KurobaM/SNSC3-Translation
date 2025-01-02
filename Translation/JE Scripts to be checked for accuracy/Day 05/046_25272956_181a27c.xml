@@ -148,15 +148,18 @@
     <sjis>
       お前<three_dots><end_line>
     </sjis>
+    <ascii>
+      You're<three_dots><end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       あなた<three_dots><end_line>
     </sjis>
+    <ascii>
+      You're<three_dots><end_line>
+    </ascii>
   </female>
-  <ascii>
-    You're<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="right">
@@ -284,15 +287,18 @@
     <sjis>
       やめろぉ！<end_line>
     </sjis>
+    <ascii>
+      Stop!!!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       やめてぇ！<end_line>
     </sjis>
+    <ascii>
+      Stop!!!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Stop!!!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="left">
@@ -406,7 +412,7 @@
     私に、近づかないで<three_dots><end_line>
   </sjis>
   <ascii>
-    Ah<three_dots><end_line>
+    No<three_dots><end_line>
     Don't, <player_nickname><three_dots><end_line>
     Don't come near me<three_dots><end_line>
   </ascii>
@@ -430,16 +436,19 @@
       落ち着けよ、ミューノ<end_line>
       おい！<end_line>
     </sjis>
+    <ascii>
+      Calm down, Murno!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       落ち着いて、ミューノ<end_line>
       ねぇ！<end_line>
     </sjis>
+    <ascii>
+      Calm down, Murno!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Calm down, Murno!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="left">

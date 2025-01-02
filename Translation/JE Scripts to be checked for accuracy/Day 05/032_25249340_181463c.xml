@@ -53,7 +53,7 @@
 		知りませんか？<end_line>
 	</sjis>
   <ascii>
-    Um<three_dots> Mr Velworen, right?<end_line>
+    Um<three_dots> Mr. Velworen, right?<end_line>
     Do you know where<end_line>
     Murno is right now?<end_line>
   </ascii>
@@ -446,6 +446,11 @@
 			はぐれ召喚獣のところに<end_line>
 			行ったかもしれない！？<end_line>
 		</sjis>
+  		<ascii>
+  		  You think she's gone to<end_line>
+  		  find Strays then?<end_line>
+  		  Are you sure!?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -453,12 +458,12 @@
 			はぐれ召喚獣のところに<end_line>
 			行ったかもしれないの！？<end_line>
 		</sjis>
+  		<ascii>
+  		  You think she's gone to<end_line>
+  		  find Strays then?<end_line>
+  		  Are you sure!?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    You think she's gone to<end_line>
-    find Strays then?<end_line>
-    Are you sure!?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<info box="right">

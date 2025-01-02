@@ -8,17 +8,21 @@
 			ミューノがねらわれてるんだ<end_line>
 			ジッとしててもはじまらないぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノがねらわれてるんだから<end_line>
 			ジッとしててもはじまらないよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three are after Murno.<end_line>
-    We have to do something!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -47,6 +51,11 @@
 			ここベンソンさんの工房だぜ<end_line>
 			勝手にワナはマズイだろ？<end_line>
 		</sjis>
+  		<ascii>
+  		  I'd like to agree,<end_line>
+  		  but this is Benson's Workshop.<end_line>
+  		  We can't do whatever we want.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -54,12 +63,12 @@
 			ここベンソンさんの工房だよ<end_line>
 			勝手にワナはマズイって？<end_line>
 		</sjis>
+  		<ascii>
+  		  I'd like to agree,<end_line>
+  		  but this is Benson's Workshop.<end_line>
+  		  We can't do whatever we want.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    I'd like to agree,<end_line>
-    but this is Benson's Workshop.<end_line>
-    We can't do whatever we want.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -71,17 +80,21 @@
 			ミューノがねらわれてるんだ<end_line>
 			ジッとしててもはじまらないぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノがねらわれてるんだから<end_line>
 			ジッとしててもはじまらないよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three are after Murno.<end_line>
-    We have to do something!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -109,17 +122,21 @@
 			なんとなくバカにされたような<end_line>
 			気がしたぞ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Um, is that directed<end_line>
+  		  towards me?<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			なんとなくバカにされたような<end_line>
 			気がしたよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Um, is that directed<end_line>
+  		  towards me?<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Um, is that directed<end_line>
-    towards me?<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -131,17 +148,21 @@
 			ミューノがねらわれてるんだ<end_line>
 			ジッとしててもはじまらないぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノがねらわれてるんだから<end_line>
 			ジッとしててもはじまらないよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three are after Murno.<end_line>
-    We have to do something!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -169,17 +190,21 @@
 			やっぱり<partner>も<end_line>
 			ミューノのことが心配なんだな<end_line>
 		</sjis>
+  		<ascii>
+  		  <partner><three_dots><end_line>
+  		  I knew you were worried about her.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			やっぱり<partner>も<end_line>
 			ミューノのことが心配なんだね<end_line>
 		</sjis>
+  		<ascii>
+  		  <partner><three_dots><end_line>
+  		  I knew you were worried about her.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    <partner><three_dots><end_line>
-    I knew you were worried about her.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -204,17 +229,21 @@
 			ミューノがねらわれてるんだ<end_line>
 			ジッとしててもはじまらないぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノがねらわれてるんだから<end_line>
 			ジッとしててもはじまらないよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three are after Murno.<end_line>
+  		  We have to do something!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three are after Murno.<end_line>
-    We have to do something!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -237,15 +266,18 @@
 		<sjis>
 			そうだな<end_line>
 		</sjis>
+  		<ascii>
+  		  Right.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			そうだね<end_line>
 		</sjis>
+  		<ascii>
+  		  Right.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Right.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -288,6 +320,11 @@
 			ま、走ると商品がキズつきそうだし<end_line>
 			道具屋さんも待ってるから仕方ないか<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  We'll just have to do what we can.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -295,12 +332,12 @@
 			ま、走ると商品がキズつきそうだし<end_line>
 			道具屋さんも待ってるから仕方ないか<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  We'll just have to do what we can.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Or risk damaging the goods<three_dots><end_line>
-    And they're waiting for us<three_dots><end_line>
-    We'll just have to do what we can.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -353,6 +390,11 @@
 			道具屋さんも待ってるらしいからな<end_line>
 			走らず道具屋さんに行けばいいんだろ<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -360,12 +402,12 @@
 			道具屋さんも待ってるらしいからね<end_line>
 			走らず道具屋さんに行けばいいのよね<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Or risk damaging the goods<three_dots><end_line>
-    And they're waiting for us<three_dots><end_line>
-    Well, just don't run and its fine.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -420,6 +462,11 @@
 			道具屋さんも待ってるらしいからな<end_line>
 			走らず道具屋さんに行けばいいんだろ<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -427,12 +474,12 @@
 			道具屋さんも待ってるらしいからね<end_line>
 			走らず道具屋さんに行けばいいのよね<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Or risk damaging the goods<three_dots><end_line>
-    And they're waiting for us<three_dots><end_line>
-    Well, just don't run and its fine.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -482,6 +529,11 @@
 			道具屋さんも待ってるらしいからな<end_line>
 			走らず道具屋さんに行けばいいんだろ<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -489,12 +541,12 @@
 			道具屋さんも待ってるらしいからね<end_line>
 			走らず道具屋さんに行けばいいのよね<end_line>
 		</sjis>
+  		<ascii>
+  		  Or risk damaging the goods<three_dots><end_line>
+  		  And they're waiting for us<three_dots><end_line>
+  		  Well, just don't run and its fine.<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Or risk damaging the goods<three_dots><end_line>
-    And they're waiting for us<three_dots><end_line>
-    Well, just don't run and its fine.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -621,17 +673,21 @@
 			ミューノが心配だ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノが心配だよ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    I'm worried about Murno.<end_line>
-    To the workshop!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -656,15 +712,18 @@
 		<sjis>
 			お、おう！<end_line>
 		</sjis>
+  		<ascii>
+  		  Y-yeah!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			う、うん！<end_line>
 		</sjis>
+  		<ascii>
+  		  Y-yeah!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Y-yeah!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -676,17 +735,21 @@
 			ミューノが心配だ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノが心配だよ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    I'm worried about Murno.<end_line>
-    To the workshop!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -709,15 +772,18 @@
 		<sjis>
 			とにかく急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  Come on!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			とにかく急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  Come on!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Come on!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -729,17 +795,21 @@
 			ミューノが心配だ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノが心配だよ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    I'm worried about Murno.<end_line>
-    To the workshop!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -764,15 +834,18 @@
 		<sjis>
 			お、おう！<end_line>
 		</sjis>
+  		<ascii>
+  		  Y-yeah!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			う、うん！<end_line>
 		</sjis>
+  		<ascii>
+  		  Y-yeah!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Y-yeah!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -783,17 +856,21 @@
 			ミューノが心配だ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
 			ミューノが心配だよ<end_line>
 			工房に戻ろう！<end_line>
 		</sjis>
+  		<ascii>
+  		  I'm worried about Murno.<end_line>
+  		  To the workshop!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    I'm worried about Murno.<end_line>
-    To the workshop!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -820,7 +897,7 @@
 	</sjis>
   <ascii>
     Murno<three_dots><end_line>
-    Where did you go<three_dots>?<end_line>
+    Where did you go?<end_line>
     If we had some sort of clue<three_dots><end_line>
   </ascii>
 </dialogue>
@@ -852,8 +929,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -868,7 +945,7 @@
 	</sjis>
   <ascii>
     Murno<three_dots><end_line>
-    Where did you go<three_dots>?<end_line>
+    Where did you go?<end_line>
     If we had some sort of clue<three_dots><end_line>
   </ascii>
 </dialogue>
@@ -900,8 +977,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -916,7 +993,7 @@
 	</sjis>
   <ascii>
     Murno<three_dots><end_line>
-    Where did you go<three_dots>?<end_line>
+    Where did you go?<end_line>
     If we had some sort of clue<three_dots><end_line>
   </ascii>
 </dialogue>
@@ -960,8 +1037,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -975,7 +1052,7 @@
 	</sjis>
   <ascii>
     Murno<three_dots><end_line>
-    Where did you go<three_dots>?<end_line>
+    Where did you go?<end_line>
     If we had some sort of clue<three_dots><end_line>
   </ascii>
 </dialogue>
@@ -1005,8 +1082,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -1047,8 +1124,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -1091,8 +1168,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -1135,8 +1212,8 @@
 	</sjis>
   <ascii>
     (I wonder if her disappearance<end_line>
-     is somehow related to<end_line>
-     the increase in Strays<three_dots>)<end_line>
+    　is somehow related to<end_line>
+    　the increase in Strays<three_dots>)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -1545,7 +1622,7 @@
 		とにかく行ってみよう！<end_line>
 	</sjis>
   <ascii>
-    I-I'm sure it'l be fine!<end_line>
+    I-I'm sure it'll be fine!<end_line>
     Now let's go!<end_line>
   </ascii>
 </dialogue>
@@ -1560,6 +1637,11 @@
 			ベリートの森の奥に行ったみたいだ<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1567,12 +1649,12 @@
 			ベリートの森の奥に行ったみたい<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    The trio chased Murno<end_line>
-    deep into Beleet Forest!<end_line>
-    We have to find them!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -1611,6 +1693,11 @@
 			ミューノを見つけた後だ！<end_line>
 			行くぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1618,12 +1705,12 @@
 			ミューノを見つけた後！<end_line>
 			行くよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Let's talk about that<end_line>
-    after we find her!<end_line>
-    Come on!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -1636,6 +1723,11 @@
 			ベリートの森の奥に行ったみたいだ<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1643,12 +1735,12 @@
 			ベリートの森の奥に行ったみたい<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    The trio chased Murno<end_line>
-    deep into Beleet Forest!<end_line>
-    We have to find them!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -1689,6 +1781,11 @@
 			ミューノを見つけた後だ！<end_line>
 			行くぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1696,12 +1793,12 @@
 			ミューノを見つけた後！<end_line>
 			行くよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Let's talk about that<end_line>
-    after we find her!<end_line>
-    Come on!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -1714,6 +1811,11 @@
 			ベリートの森の奥に行ったみたいだ<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1721,12 +1823,12 @@
 			ベリートの森の奥に行ったみたい<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    The trio chased Murno<end_line>
-    deep into Beleet Forest!<end_line>
-    We have to find them!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -1767,6 +1869,11 @@
 			ミューノを見つけた後だ！<end_line>
 			行くぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1774,12 +1881,12 @@
 			ミューノを見つけた後！<end_line>
 			行くよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Let's talk about that<end_line>
-    after we find her!<end_line>
-    Come on!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -1791,6 +1898,11 @@
 			ベリートの森の奥に行ったみたいだ<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1798,12 +1910,12 @@
 			ベリートの森の奥に行ったみたい<end_line>
 			急ごう！<end_line>
 		</sjis>
+  		<ascii>
+  		  The trio chased Murno<end_line>
+  		  deep into Beleet Forest!<end_line>
+  		  We have to find them!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    The trio chased Murno<end_line>
-    deep into Beleet Forest!<end_line>
-    We have to find them!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -1841,6 +1953,11 @@
 			ミューノを見つけた後だ！<end_line>
 			行くぜ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1848,12 +1965,12 @@
 			ミューノを見つけた後！<end_line>
 			行くよ！<end_line>
 		</sjis>
+  		<ascii>
+  		  Let's talk about that<end_line>
+  		  after we find her!<end_line>
+  		  Come on!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Let's talk about that<end_line>
-    after we find her!<end_line>
-    Come on!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -1866,6 +1983,11 @@
 			あいつら、何をするかわからないぞ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1873,12 +1995,12 @@
 			あいつら、何をするかわからないよ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three even hurt Tier<three_dots><end_line>
-    We can't trust them.<end_line>
-    We have to find Murno!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -1905,6 +2027,11 @@
 			あいつら、何をするかわからないぞ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1912,12 +2039,12 @@
 			あいつら、何をするかわからないよ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three even hurt Tier<three_dots><end_line>
-    We can't trust them.<end_line>
-    We have to find Murno!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -1942,6 +2069,11 @@
 			あいつら、何をするかわからないぞ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1949,12 +2081,12 @@
 			あいつら、何をするかわからないよ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three even hurt Tier<three_dots><end_line>
-    We can't trust them.<end_line>
-    We have to find Murno!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -1982,6 +2114,11 @@
 			あいつら、何をするかわからないぞ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -1989,12 +2126,12 @@
 			あいつら、何をするかわからないよ<end_line>
 			早くミューノを見つけないと！<end_line>
 		</sjis>
+  		<ascii>
+  		  Those three even hurt Tier<three_dots><end_line>
+  		  We can't trust them.<end_line>
+  		  We have to find Murno!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    Those three even hurt Tier<three_dots><end_line>
-    We can't trust them.<end_line>
-    We have to find Murno!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -2020,6 +2157,11 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あいつら<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -2027,12 +2169,12 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あの人たち<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    So the trio doesn't care what<end_line>
-    happens to Murno as long as<end_line>
-    they can get the Demon Stone<three_dots>!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -2073,7 +2215,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2101,7 +2243,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2115,6 +2257,11 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あいつら<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -2122,12 +2269,12 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あの人たち<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    So the trio doesn't care what<end_line>
-    happens to Murno as long as<end_line>
-    they can get the Demon Stone<three_dots>!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -2168,7 +2315,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2196,7 +2343,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2210,6 +2357,11 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あいつら<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -2217,12 +2369,12 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あの人たち<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    So the trio doesn't care what<end_line>
-    happens to Murno as long as<end_line>
-    they can get the Demon Stone<three_dots>!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -2263,7 +2415,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2291,7 +2443,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2304,6 +2456,11 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あいつら<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</male>
 	<female>
 		<sjis>
@@ -2311,12 +2468,12 @@
 			ミューノはどうなってもいいだなんて<end_line>
 			あの人たち<three_dots>！<end_line>
 		</sjis>
+  		<ascii>
+  		  So the trio doesn't care what<end_line>
+  		  happens to Murno as long as<end_line>
+  		  they can get the Demon Stone<three_dots>!<end_line>
+  		</ascii>
 	</female>
-  <ascii>
-    So the trio doesn't care what<end_line>
-    happens to Murno as long as<end_line>
-    they can get the Demon Stone<three_dots>!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
 	<partner name="rufeel">
@@ -2354,7 +2511,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -2380,7 +2537,7 @@
 	</sjis>
   <ascii>
     (That stone<three_dots><end_line>
-     What is it really<three_dots>?)<end_line>
+    　What is it really<three_dots>?)<end_line>
   </ascii>
 </dialogue>
 <dialogue>

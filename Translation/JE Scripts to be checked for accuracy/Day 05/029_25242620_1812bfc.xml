@@ -101,7 +101,7 @@
   </sjis>
   <ascii>
     Well, we're done with that,<end_line>
-    so let's go back<three_dots><end_line>
+    so let's go back.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -197,15 +197,18 @@
     <sjis>
       見込みのある男だ<end_line>
     </sjis>
+    <ascii>
+      You've got potential.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       見込みのある女の子だ<end_line>
     </sjis>
+    <ascii>
+      You've got potential.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    You've got potential.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="simple">
@@ -379,7 +382,7 @@
   </sjis>
   <ascii>
     Well, we're done with that,<end_line>
-    so let's go back<three_dots><end_line>
+    so let's go back.<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -476,15 +479,18 @@
     <sjis>
       見込みのある男だ<end_line>
     </sjis>
+    <ascii>
+      You're very promising.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       見込みのある女の子だ<end_line>
     </sjis>
+    <ascii>
+      You're very promising.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    You're very promising.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <info box="simple">
