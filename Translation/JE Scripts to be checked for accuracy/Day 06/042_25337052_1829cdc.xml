@@ -310,7 +310,7 @@
   </sjis>
   <ascii>
     Please Take Care Of<end_line>
-    Me From Hereon.<end_line>
+    Me From Here On.<end_line>
     Partner.<end_line>
   </ascii>
 </dialogue>
@@ -324,17 +324,21 @@
       な、なんだよ<end_line>
       こっちこそよろしくたのむよ<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       な、なによ<end_line>
       こっちこそよろしくね<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Uh, right.<end_line>
-    Same to you.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="run-dor">
@@ -371,15 +375,18 @@
     <sjis>
       おう！<end_line>
     </sjis>
+    <ascii>
+      Yeah!<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       うん！<end_line>
     </sjis>
+    <ascii>
+      Yeah!<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Yeah!<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="enzi">
@@ -393,7 +400,7 @@
   <ascii>
     In the end, a fake<end_line>
     cannot stand up to me.<end_line>
-    Witness the difference in strength<three_dots><end_line>
+    Witness the difference in strength!<end_line>
   </ascii>
 </dialogue>
 <dialogue>
@@ -480,17 +487,21 @@
       な、なんだよ<end_line>
       こっちこそよろしくたのむよ<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       な、なによ<end_line>
       こっちこそよろしくね<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Uh, right.<end_line>
-    Same to you.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="enzi">
@@ -628,6 +639,11 @@
       オレはミューノのことばっか<end_line>
       考えてるワケじゃ<three_dots><end_line>
     </sjis>
+    <ascii>
+      Wh-what?<end_line>
+      Of course I think about<end_line>
+      other things<three_dots><end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
@@ -635,12 +651,12 @@
       わたしはミューノのことばっか<end_line>
       考えてるワケじゃ<three_dots><end_line>
     </sjis>
+    <ascii>
+      Wh-what?<end_line>
+      Of course I think about<end_line>
+      other things<three_dots><end_line>
+    </ascii>
   </female>
-  <ascii>
-    Wh-what?<end_line>
-    Of course I think about<end_line>
-    other things<three_dots><end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="killfith">
@@ -759,7 +775,7 @@
   </sjis>
   <ascii>
     Please continue in that<end_line>
-    manner from hereon.<end_line>
+    manner from here on.<end_line>
     Partner.<end_line>
   </ascii>
 </dialogue>
@@ -773,17 +789,21 @@
       な、なんだよ<end_line>
       こっちこそよろしくたのむよ<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </male>
   <female>
     <sjis>
       な、なによ<end_line>
       こっちこそよろしくね<end_line>
     </sjis>
+    <ascii>
+      Uh, right.<end_line>
+      Same to you.<end_line>
+    </ascii>
   </female>
-  <ascii>
-    Uh, right.<end_line>
-    Same to you.<end_line>
-  </ascii>
 </dialogue>
 <dialogue>
   <partner name="rufeel">
