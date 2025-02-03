@@ -35,7 +35,6 @@
     	we'll need to keep those<end_line>
     	two in line.<end_line>
 	</ascii>
-	# Third line was over 30 characters (32)
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -58,11 +57,10 @@
 		ダメなんだからね<end_line>
 	</sjis>
 	<ascii>
-    	Don't get apologetic on me now.<end_line>
+    	Don't get gloomy on me now.<end_line>
     	I'm going to need your help.<end_line>
     	Okay?<end_line>
 	</ascii>
-	# First line was over 30 characters (34)
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -125,7 +123,6 @@
 		and the clock's ticking.<end_line>
 		Can't wait forever, you know.<end_line>
 	</ascii>
-	# Second line over 30 characters (32)
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -295,7 +292,6 @@
 	<ascii>
 		She didn't say it for you<three_dots><end_line>
 	</ascii>
-	# Line over 30 characters (35)
 </dialogue>
 <dialogue>
 	<info box="left">
