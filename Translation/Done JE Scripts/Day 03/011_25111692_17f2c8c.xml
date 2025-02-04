@@ -7,7 +7,6 @@
 	<ascii>
 		I did it!<end_line>
 	</ascii>
-	# A little more casual
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -76,7 +75,6 @@
 		Compared To Our Previous Bout,<end_line>
 		Your Speed Was Down 50%.<end_line>
 	</ascii>
-	# Shortened first line (was 35 characters)
 </dialogue>
 <dialogue>
 	<partner name="run-dor">
@@ -118,7 +116,6 @@
 		You shouldn't push yourself<end_line>
 		so hard.<end_line>
 	</ascii>
-	# First line was too long (was 36, hard limit)
 </dialogue>
 <dialogue>
 	<partner name="killfith">
@@ -408,7 +405,7 @@
 		ヴィーさん<end_line>
 	</sjis>
 	<ascii>
-		I'm ready any time, Miss Vee.<end_line>
+		I'm ready any time, Miss V.E.<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -425,7 +422,6 @@
 		I'll be waiting at the gate.<end_line>
 		Now hurry it up, <player_nickname>.<end_line>
 	</ascii>
-	# Second line too long
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -466,7 +462,6 @@
 		of three people is quite sharp<three_dots><end_line>
 		But<three_dots><end_line>
 	</ascii>
-	# First line too long
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -492,7 +487,7 @@
 	</sjis>
 	<ascii>
 		Um<three_dots><end_line>
-    	Vee?<end_line>
+    	V.E?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
