@@ -5,7 +5,6 @@
 	<ascii>
 		Mayor's House　Hall<end_line>
 	</ascii>
-	# Capitalized house
 </location>
 <dialogue>
 	<info box="simple">
@@ -31,5 +30,4 @@
     	Ahh, really no good.<end_line>
     	Gets worse every time I say it.<end_line>
 	</ascii>
-	# First line was too long (36 characters)
 </dialogue>

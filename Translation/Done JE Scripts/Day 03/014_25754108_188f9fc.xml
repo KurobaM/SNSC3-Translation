@@ -3,7 +3,7 @@
 		森洞<end_line>
 	</sjis>
 	<ascii>
-		Cave<end_line>
+		Forest Cave<end_line>
 	</ascii>
 </location>
 <location>
@@ -33,7 +33,6 @@
 		You should train elsewhere.<end_line>		
 		The main road is dangerous.<end_line>
 	</ascii>
-	# Made first line a little more polite
 </dialogue>
 <dialogue>
 	<info box="simple">
@@ -65,7 +64,6 @@
     		They'll find us if we<end_line>
     		go back now.<end_line>
   		</ascii>
-		# Swapped lines so male/female dialogue is a little different.
 	</female>  
 </dialogue>
 <dialogue>
@@ -79,7 +77,6 @@
     	It allows you to warp to<end_line>
     	any other active teleporters.<end_line>
 	</ascii>
-	# Changed jump to warp
 </dialogue>
 <dialogue>
 	<info box="special">
@@ -93,7 +90,6 @@
 		then stand on top of it and<end_line>
 		hit	the A button.<end_line>
 	</ascii>
-	# Multiple lines over 30 characters, so I shortened it.	
 </dialogue>
 <dialogue>
 	<info box="special">
@@ -106,5 +102,4 @@
 		active teleporters.<end_line>
 		The teleporter cannot be used.<end_line>
 	</ascii>
-	# Shortened lines
 </dialogue>

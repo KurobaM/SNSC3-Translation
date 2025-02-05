@@ -8,7 +8,7 @@
 		めずらしいですね～<end_line>
 	</sjis>
 	<ascii>
-		Ah, a Summon Beast!<end_line>
+		A Summon Beast!<end_line>
 		They're quite rare around here.<end_line>
 	</ascii>
 </dialogue>
@@ -108,7 +108,6 @@
     	A graceful Toramata!<end_line>
 		Are those glasses for show?!<end_line>
 	</ascii>
-	# Made last line smaller
 </dialogue>
 <dialogue>
 	<partner name="enzi">
@@ -199,9 +198,8 @@
 		素直なイイ子です～<end_line>
 	</sjis>
 	<ascii>
-		She seems like a good girl~.<end_line>
+		She seems like a good girl~<end_line>
 	</ascii>
-	# Missing punctuation
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -227,7 +225,6 @@
 	<ascii>
 		Who are you<three_dots>?<end_line>
 	</ascii>
-	# Missing question mark
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -266,7 +263,7 @@
 		え？<end_line>
 	</sjis>
 	<ascii>
-		Eh?<end_line>
+		Huh?<end_line>
 	</ascii>
 </dialogue>
 <dialogue>
@@ -342,7 +339,6 @@
 		We'd love to have a guide,<end_line>
 		but it won't be free, right?<end_line>
 	</ascii>
-	# Shortened lines a bit
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -419,7 +415,6 @@
 		Definitely better to<end_line>
 		have a guide<three_dots><end_line>
 	</ascii>
-	# Split single line in two to make shorter
 </dialogue>
 <dialogue>
 	<info box="left">
@@ -435,7 +430,6 @@
 		But unless I see it for myself,<end_line>
 		I won't feel like paying.<end_line>
 	</ascii>
-	# Shortened line bit. Also changed "Huh" to "Hmm".
 </dialogue>
 <dialogue>
 	<info box="right">
@@ -590,7 +584,6 @@
     	Please be careful, as there<end_line>
     	are many Strays around too~<end_line>
 	</ascii>
-	# Removed please from first line. Seems unnatural to say it twice in two sentences.
 </dialogue>
 <dialogue>
 	<info box="left">
