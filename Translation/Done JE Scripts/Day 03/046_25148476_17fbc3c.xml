@@ -404,9 +404,8 @@
 		うむ<end_line>
 	</sjis>
   	<ascii>
-  	  	Certainly.<end_line>
+  	  	Yes.<end_line>
   	</ascii>
-	# Changed from Mm. I think it sounds better.
 </dialogue>
 <dialogue>
 	<partner name="killfith">
