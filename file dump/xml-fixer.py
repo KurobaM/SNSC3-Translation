@@ -61,8 +61,8 @@ if __name__ == "__main__":
 	regexes = set()
 	# I think this could be compiled into one regex with .*?, but this works fine too and is less likely to break things
 	for t in SIMPLE_TAGS:
-		regexes.add( re.compile("(<" + t + ")>") )
+		regexes.add( re.compile("(<" + t + "(?!_))>") ) # Negative lookahead term (?!_) is necessary to prevent the tag "player" from matching on "player_nickname", eg
 	for t in ATTR_TAGS:
-		regexes.add( re.compile("(<" + t + ".+?)>") )
+		regexes.add( re.compile("(<" + t + "(?!_).+?)>") )
 
 	fix_all_files_in_directory(INPUT_DIRECTORY, OUTPUT_DIRECTORY, regexes, ROOT_TAG)
