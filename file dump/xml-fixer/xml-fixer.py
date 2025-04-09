@@ -33,6 +33,16 @@ def fix_file(file_contents, regexes, root_tag):
 
 	return output
 
+def unfix_file(infile, outfile):
+	with open(infile, "r", encoding="utf-8") as f:
+		with open(outfile, "w", encoding="utf-8") as o:
+			while line := f.readline():
+				if "tlfile" in line:
+					continue
+				elif " />" in line:
+					o.write(line.replace(" />", ">"))
+				else:
+					o.write(line)
 
 def fix_all_files_in_directory(input_dir, output_dir, regexes, root_tag):
 	"""
