@@ -33,9 +33,10 @@
 			こまめとかいてあずきじゃ<end_line />
 		</sjis>
 		<ascii>
-			Azuki beans are simply the best.<end_line />
-			You have to have them.<end_line />
+			Red beans are simply the best.<end_line />
+			Can't get enough.<end_line />
 		</ascii>
+		# Changed Azuki beans to red beans.
 	</dialogue>
 	<dialogue>
 		<info box="simple" />
@@ -46,8 +47,8 @@
 			顔を売っている段階なんだって<end_line />
 		</sjis>
 		<ascii>
-			You know, my mom is a peddler.<end_line />
-			We're trying to make ourselves known<end_line />
+			You know, my mother is a peddler.<end_line />
+			We're trying to gain reputation<end_line />
 			with Craftknights and blacksmiths.<end_line />
 		</ascii>
 	</dialogue>
@@ -60,9 +61,9 @@
 			商売をしているの<end_line />
 		</sjis>
 		<ascii>
-			My mother thinks I'm out<end_line />
-			playing around, but I'm<end_line />
-			earning money for our future.<end_line />
+			She thinks I'm out playing<end_line />
+			around, but I'm earning money<end_line />
+			for our future.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -133,7 +134,7 @@
 			販売中なの〜<end_line />
 		</sjis>
 		<ascii>
-			But this time only,<end_line />
+			And so, this time only,<end_line />
 			I'll sell you an <quote />Electric Battery<quote /><end_line />
 			for a mere 200 boam!<end_line />
 		</ascii>
@@ -186,9 +187,8 @@
 			商談不成立だよ〜<end_line />
 		</sjis>
 		<ascii>
-			Eeeh~<end_line />
+			Aww~<end_line />
 			But you don't have the money~<end_line />
-			Transaction denied.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -199,8 +199,8 @@
 			ケチ〜<end_line />
 		</sjis>
 		<ascii>
-			Eh~ I tell you all that and <end_line />
-			you don't buy anything?<end_line />
+			Aww~<end_line />
+			You won't buy it?<end_line />
 			Cheapskate<three_dots /><end_line />
 		</ascii>
 	</dialogue>
@@ -212,7 +212,7 @@
 			せっかくのお客さんだと思ったのに〜<end_line />
 		</sjis>
 		<ascii>
-			Eh~ You don't want to listen?<end_line />
+			Aww~ You don't want to listen?<end_line />
 			And I thought I finally had<end_line />
 			a customer<three_dots /><end_line />
 		</ascii>

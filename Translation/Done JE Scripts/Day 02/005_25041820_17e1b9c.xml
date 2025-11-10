@@ -249,7 +249,7 @@
 			<three_dots />じゃなかった<end_line />
 		</sjis>
 		<ascii>
-			<three_dots />Not!<end_line />
+			<three_dots />But Lemmy-<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -353,7 +353,7 @@
 			手も足もでないぞ<end_line />
 		</sjis>
 		<ascii>
-			Impossible!<end_line />
+			Don't even try!<end_line />
 			You guys definitely can't<end_line />
 			do anything against it.<end_line />
 		</ascii>
@@ -369,7 +369,7 @@
 			</sjis>
 			<ascii>
 				What?!<end_line />
-				How do you know that!?<end_line />
+				How would you know that!?<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -379,7 +379,7 @@
 			</sjis>
 			<ascii>
 				What?!<end_line />
-				How do you know that!?<end_line />
+				How would you know that!?<end_line />
 			</ascii>
 		</female>
 	</dialogue>

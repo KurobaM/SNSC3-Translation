@@ -7,8 +7,8 @@
 			そろそろ行くよ<end_line />
 		</sjis>
 		<ascii>
-			Hey, Murno,<end_line />
-			it's about time to go.<end_line />
+			Hey, Murno.<end_line />
+			It's about time to go.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -102,10 +102,10 @@
 			アンタたちの薬のおかげだね<end_line />
 		</sjis>
 		<ascii>
-			Completely gone!<end_line />
-			Murno's in perfect health<end_line />
-			thanks to your medicine.<end_line />
+			She's made a full recovery!<end_line />
+			All thanks to your medicine!<end_line />
 		</ascii>
+		# Previous translation didn't line up with all above partner lines.
 	</dialogue>
 	<dialogue>
 		<info box="left" />
@@ -115,7 +115,7 @@
 			えへへ<end_line />
 		</sjis>
 		<ascii>
-			Hehe~<end_line />
+			Ahem~<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -471,7 +471,7 @@
 				<three_dots /><three_dots /><three_dots /><end_line />
 			</sjis>
 			<ascii>
-				<three_dots /><end_line />
+				<three_dots /><three_dots /><three_dots /><end_line />
 			</ascii>
 		</option>
 	</choice>
@@ -511,7 +511,7 @@
 		</sjis>
 		<ascii>
 			Hoho~<end_line />
-			You're awfully grown up now,<end_line />
+			A real smooth operator now,<end_line />
 			aren't you?<end_line />
 		</ascii>
 	</dialogue>
@@ -646,8 +646,9 @@
 				貸してくれなかったの？<end_line />
 			</sjis>
 			<ascii>
-				Why didn't you let me<end_line />
-				borrow such cute clothes?<end_line />
+				Master<three_dots /><end_line />
+				You've never let me borrow<end_line />
+				those cute clothes before.<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -739,7 +740,7 @@
 			クチウラ<three_dots />って<end_line />
 		</sjis>
 		<ascii>
-			Backstory<three_dots />?<end_line />
+			Why<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -765,7 +766,7 @@
 			それは<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			That's<three_dots /><end_line />
+			But<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -789,7 +790,7 @@
 		<ascii>
 			If you were a Craftknight,<end_line />
 			there'd be no problem,<end_line />
-			but you don't really look like one<three_dots /><end_line />
+			but you don't really look like one.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -883,7 +884,7 @@
 			みゅーの様<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You Had No Need To Yell<three_dots /><end_line />
+			Lady Murno<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -895,7 +896,7 @@
 			そんなに怒ることは<three_dots />！<end_line />
 		</sjis>
 		<ascii>
-			You're being unreasonable<three_dots />!<end_line />
+			There's no need to yell at her!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -909,7 +910,7 @@
 		</sjis>
 		<ascii>
 			What was that?<end_line />
-			Getting mad over nothing.<end_line />
+			You need to watch your mouth!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -923,7 +924,7 @@
 		</sjis>
 		<ascii>
 			You're terrible.<end_line />
-			Don't yell at her<three_dots /><end_line />
+			You don't need to yell<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -958,8 +959,8 @@
 			ヒネリがない<end_line />
 		</sjis>
 		<ascii>
-			Returning to the issue at hand.<end_line />
-			We need to have a twist too.<end_line />
+			Returning to the issue at hand<three_dots /><end_line />
+			The story needs a twist too.<end_line />
 			Make it more convincing.<end_line />
 		</ascii>
 	</dialogue>
@@ -1133,7 +1134,7 @@
 				なんだ、このフンイキ<three_dots />？<end_line />
 			</sjis>
 			<ascii>
-				The atmosphere feels different<three_dots /><end_line />
+				Murno's getting serious<three_dots /><end_line />
 			</ascii>
 		</male>
 		<female>
@@ -1141,7 +1142,7 @@
 				なに、このフンイキ<three_dots />？<end_line />
 			</sjis>
 			<ascii>
-				The atmosphere feels different<three_dots /><end_line />
+				Murno's getting serious<three_dots /><end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -1155,9 +1156,8 @@
 			メイドとして働いていました<end_line />
 		</sjis>
 		<ascii>
-			Until just recently,<end_line />
-			I worked as a maid<end_line />
-			in a rich household.<end_line />
+			Until just recently, I worked<end_line />
+			as a maid in a rich household.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1268,7 +1268,7 @@
 			まあ<three_dots />！<end_line />
 		</sjis>
 		<ascii>
-			Oh my<three_dots />!<end_line />
+			Oh my!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1374,7 +1374,7 @@
 			それはダメ！<end_line />
 		</sjis>
 		<ascii>
-			So you just can't!<end_line />
+			It's too much!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1423,7 +1423,8 @@
 			ロブとわたしみたいな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			That's right<three_dots /> Forbidden love<three_dots /><end_line />
+			That's right<three_dots /><end_line />
+			Forbidden love<three_dots /><end_line />
 			Just like how Rob and I used to be<three_dots /><end_line />
 		</ascii>
 	</dialogue>
@@ -1462,8 +1463,8 @@
 		</sjis>
 		<ascii>
 			It's the perfect setting.<end_line />
-			People all over the World<end_line />
-			would be moved to tears!<end_line />
+			The whole world would be moved<end_line />
+			to tears!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1474,7 +1475,7 @@
 			ぜんべい？<end_line />
 		</sjis>
 		<ascii>
-			The<three_dots />world<three_dots />?<end_line />
+			The<three_dots /> whole world<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1533,7 +1534,7 @@
 			みゅーの様<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You Had No Need To Yell<three_dots /><end_line />
+			Lady Murno<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
