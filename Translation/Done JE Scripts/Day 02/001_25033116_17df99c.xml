@@ -300,11 +300,17 @@
 			<sjis>
 				な、なにぃっ！？<end_line />
 			</sjis>
+			<ascii>
+				Wh-What!?<end_line />
+			</ascii>
 		</male>
 		<female>
 			<sjis>
 				な、なによ、それ！？<end_line />
 			</sjis>
+			<ascii>
+				Wh-What!?<end_line />
+			</ascii>
 		</female>
 	</bigtext>
 	<dialogue>
@@ -316,7 +322,7 @@
 			早ク　行キマショウ<end_line />
 		</sjis>
 		<ascii>
-			Let Us Go.<end_line />
+			Let Us Go Quickly.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -699,7 +705,7 @@
 			会ったって<three_dots />、ダレに？<end_line />
 		</sjis>
 		<ascii>
-			Seen her<three_dots /> Who<three_dots />?<end_line />
+			Seen who<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
