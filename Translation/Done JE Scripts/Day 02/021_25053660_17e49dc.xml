@@ -7,8 +7,8 @@
 			何してンだ、そんなとこで？<end_line />
 		</sjis>
 		<ascii>
-			Hey, you,<end_line />
-			what are you doing over there?<end_line />
+			Hey. You.<end_line />
+			What are you doing over there?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -29,7 +29,7 @@
 			あっ！？<end_line />
 		</sjis>
 		<ascii>
-			Ah!?<end_line />
+			Wah!?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -89,9 +89,9 @@
 			いきなり<three_dots />！<end_line />
 		</sjis>
 		<ascii>
-			Kya<three_dots />!<end_line />
+			Eek<three_dots />!<end_line />
 			Who is this person!?<end_line />
-			Appearing so suddenly<three_dots /><end_line />
+			He came out of nowhere!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -104,7 +104,7 @@
 			一体どういうことだ？<end_line />
 		</sjis>
 		<ascii>
-			Oh, you're a Summon<end_line />
+			Hold up, you're a Summon<end_line />
 			Beast aren't you?<end_line />
 			What are you doing here?<end_line />
 		</ascii>
@@ -123,8 +123,7 @@
 			Code To <quote />Enemy<quote />.<end_line />
 			Entering Battle Mode.<end_line />
 		</ascii>
-		# Failed Accuracy Check
-	# Added </dialogue>
+		</dialogue>
 	<dialogue>
 		<partner name="enzi" />
 		<info box="left" />
@@ -136,7 +135,7 @@
 		</sjis>
 		<ascii>
 			You<three_dots /><end_line />
-			So you're an enemy!<end_line />
+			So you must be a foe!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -164,7 +163,7 @@
 		</sjis>
 		<ascii>
 			T-This person<three_dots /><end_line />
-			Is he an enemy!?<end_line />
+			He's an enemy, right!?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -216,7 +215,7 @@
 			ちょっと、アニキまで！<end_line />
 		</sjis>
 		<ascii>
-			Ehh!?<end_line />
+			Huh!?<end_line />
 			Bro, stop it!<end_line />
 		</ascii>
 	</dialogue>
@@ -243,8 +242,9 @@
 			不死身のジェイドだ！<end_line />
 		</sjis>
 		<ascii>
-			The Invincible Jade!<end_line />
+			The Immortal Jade!<end_line />
 		</ascii>
+		<!-- Fujimi means immortal, not invincible --> 
 	</dialogue>
 	<dialogue>
 		<player gender="male" />
@@ -259,7 +259,7 @@
 		<ascii>
 			Jeez<three_dots /><end_line />
 			It's too late for that<three_dots /><end_line />
-			'Bro' is just fine.<end_line />
+			"Bro" is just fine.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -273,8 +273,9 @@
 		</sjis>
 		<ascii>
 			And are you really still<end_line />
-			claiming you're invincible?<end_line />
+			claiming you're immortal?<end_line />
 		</ascii>
+		<!-- Fujimi means immortal, not invincible --> 
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -289,7 +290,7 @@
 		<ascii>
 			Jeez<three_dots /><end_line />
 			It's too late for that<three_dots /><end_line />
-			'Bro' is just fine.<end_line />
+			"Bro" is just fine.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -303,7 +304,7 @@
 		</sjis>
 		<ascii>
 			And are you really still<end_line />
-			claiming you're invincible?<end_line />
+			claiming you're immortal?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -316,7 +317,7 @@
 			それでも立ち上がったあの日から<end_line />
 		</sjis>
 		<ascii>
-			Not 'claiming', it's true!<end_line />
+			Not "claiming", it's true!<end_line />
 			Ever since the day I fought Rob,<end_line />
 			I was beaten, yet I stood tall.<end_line />
 		</ascii>
@@ -343,8 +344,8 @@
 			捨てたんだからな<end_line />
 		</sjis>
 		<ascii>
-			And I threw away the side of<end_line />
-			myself which you called 'Bro'.<end_line />
+			And I threw away the part of<end_line />
+			myself which you called "Bro".<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -380,7 +381,7 @@
 			彼ハ　敵デハ　ナイノデスカ？<end_line />
 		</sjis>
 		<ascii>
-			So He Is This 'Bro' Person?<end_line />
+			So He Is This "Bro" Person?<end_line />
 			Is He Not An Enemy?<end_line />
 		</ascii>
 	</dialogue>
@@ -394,8 +395,8 @@
 			敵ではないのか！？<end_line />
 		</sjis>
 		<ascii>
-			So, this 'Bro'<three_dots /><end_line />
-			He's not an enemy?<end_line />
+			So, this "Bro"<three_dots /><end_line />
+			He is not an enemy?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -408,7 +409,7 @@
 			敵じゃないのか<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			'Bro'<three_dots />!?<end_line />
+			"Bro"<three_dots />!?<end_line />
 			So he's not an enemy<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
@@ -473,8 +474,8 @@
 		</sjis>
 		<ascii>
 			His face.<end_line />
-			It's the very picture<end_line />
-			of a scoundrel, isn't it?<end_line />
+			It's the very image of a<end_line />
+			scoundrel, don't you think?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -663,7 +664,7 @@
 			おい<three_dots />？<end_line />
 		</sjis>
 		<ascii>
-			Oi<three_dots />?<end_line />
+			Hey<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -689,7 +690,7 @@
 		</sjis>
 		<ascii>
 			W-Why are you crying!?<end_line />
-			It's not broken, is it<three_dots />?<end_line />
+			It's not malfunctioning, is it<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -731,10 +732,17 @@
 			自分が熱くなるんじゃないぜ<end_line />
 		</sjis>
 		<ascii>
+			Hey, it was just a joke.<end_line />
+			If you cant take the heat,<end_line />
+			stay out of the forge.<end_line />
+		</ascii>
+		<!-- 
+		<ascii>
 			Hey, hey, if you're a Craftknight,<end_line />
 			you gotta heat up the weapon, yeah?<end_line />
 			Don't heat up yourself there.<end_line />
 		</ascii>
+		-->
 	</dialogue>
 	<dialogue>
 		<partner name="enzi" />
@@ -745,7 +753,7 @@
 			にゃにおー！<end_line />
 		</sjis>
 		<ascii>
-			Meoww~ Mrr~!<end_line />
+			Mrrreoww! Hiss!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -787,8 +795,8 @@
 			そんなことじゃ<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			It's great that's he energetic,<end_line />
-			but what a short fuse<three_dots /><end_line />
+			It's great that's he's got spirit,<end_line />
+    		but man, he's such a short fuse<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -800,9 +808,9 @@
 			オレみたいにはなれねぇぞ<end_line />
 		</sjis>
 		<ascii>
-			You need to calm down.<end_line />
-			Or, you won't become a great man,<end_line />
-			like me.<end_line />
+			You need to chill out, y'know,<end_line />
+    		or else, you won't be a<end_line />
+    		great guy like me.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -844,7 +852,7 @@
 			バカにしてません？<end_line />
 		</sjis>
 		<ascii>
-			Mm<three_dots /><end_line />
+			Hmph<three_dots /><end_line />
 			Are you mocking me?<end_line />
 		</ascii>
 	</dialogue>
@@ -860,7 +868,7 @@
 		</sjis>
 		<ascii>
 			I'll have you know,<end_line />
-			I am very strong!<end_line />
+			I am quite strong!<end_line />
 			I'm not a-afraid of you!<end_line />
 		</ascii>
 	</dialogue>
@@ -875,7 +883,7 @@
 		</sjis>
 		<ascii>
 			Haha<three_dots /><end_line />
-			She's cute when shes upset too.<end_line />
+			She's a real cutie when mad too.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -888,8 +896,8 @@
 			バカにされてますわ〜<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Hah<three_dots /><end_line />
-			It is mocking<three_dots /><end_line />
+			You<three_dots />you definitely<end_line />
+    		are mocking me!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -912,7 +920,7 @@
 		</sjis>
 		<ascii>
 			Ah! <player_nickname />?<end_line />
-			When did you get outside!?<end_line />
+			Since when did you get out!?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -961,11 +969,17 @@
 			<sjis>
 				なんだってー！<end_line />
 			</sjis>
+			<ascii>
+				What!?<end_line />
+			</ascii>
 		</male>
 		<female>
 			<sjis>
 				なんですとー！<end_line />
 			</sjis>
+			<ascii>
+				What!?<end_line />
+			</ascii>
 		</female>
 	</bigtext>
 	<dialogue>
@@ -978,8 +992,8 @@
 			じゃあ、村に戻ろうぜ<end_line />
 		</sjis>
 		<ascii>
-			Ah, so that's why you were here.<end_line />
-			Looks like your job here is done!<end_line />
+			Ah, so that is why you were here.<end_line />
+			Looks like your job is done!<end_line />
 			Now, let's get back to the village.<end_line />
 		</ascii>
 	</dialogue>

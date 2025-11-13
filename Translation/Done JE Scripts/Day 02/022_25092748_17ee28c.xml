@@ -10,7 +10,7 @@
 		</sjis>
 		<ascii>
 			Anyways, why did you two<end_line />
-			want to fight the Stray?<end_line />
+			want to fight the Strays?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -64,7 +64,6 @@
 			気持ちはわからんでもないな<end_line />
 		</sjis>
 		<ascii>
-			Ahh<three_dots /><end_line />
 			I see how it is.<end_line />
 			I understand how you feel.<end_line />
 		</ascii>
@@ -93,7 +92,7 @@
 				なんだよ、それ<end_line />
 			</sjis>
 			<ascii>
-				What are you trying to say?<end_line />
+				Just what are you implying?<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -101,7 +100,7 @@
 				なによ、それ<end_line />
 			</sjis>
 			<ascii>
-				What are you trying to say?<end_line />
+				Just what are you implying?<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -116,7 +115,7 @@
 		</sjis>
 		<ascii>
 			You guys are Craftknights, right?<end_line />
-			The area you're suppose to challenge<end_line />
+			The area you're gonna challenge<end_line />
 			others in is a bit different, yeah?<end_line />
 		</ascii>
 	</dialogue>
@@ -130,9 +129,9 @@
 			なれないぜ<end_line />
 		</sjis>
 		<ascii>
-			If you keep doing that,<end_line />
-			you might never become<end_line />
-			a top-class Craftknight like Rob.<end_line />
+			Keep that up, and you'll never<end_line />
+			be in the same league as<end_line />
+			an elite Craftknight like Rob.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -146,9 +145,9 @@
 			今だったらアニキと勝負したって<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Wha!<end_line />
-			I train everyday!<end_line />
-			I'm sure if we had a match<three_dots /><end_line />
+			What!<end_line />
+			I always train every single day!<end_line />
+   			I'm sure if we fought now<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -175,9 +174,9 @@
 			今だったらアニキと勝負したって<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Wha!<end_line />
-			I train everyday!<end_line />
-			I'm sure if we had a match<three_dots /><end_line />
+			But you're wrong!<end_line />
+			I always train every single day!<end_line />
+    		I'm sure if we fought now<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -280,8 +279,6 @@
 		<ascii>
 			I have some business with V.E.<end_line />
 		</ascii>
-		# Failed Accuracy Check
-		# Changed Vee to V.E
 	</dialogue>
 	<dialogue>
 		<info box="simple" />
@@ -293,11 +290,9 @@
 			家に戻ったみたいだぞ<end_line />
 		</sjis>
 		<ascii>
-			V.E was just at the Chief's house.<end_line />
-			She might be back back home by now.<end_line />
+			V.E was at the Chief's house.<end_line />
+			She might be back home by now.<end_line />
 		</ascii>
-		# Failed Accuracy Check
-		# Changed Vee to V.E
 	</dialogue>
 	<dialogue>
 		<info box="right" />
@@ -320,8 +315,8 @@
 				こっちの話がまだ<three_dots /><end_line />
 			</sjis>
 			<ascii>
-				Hold on a minute!<end_line />
-				I'm not done yet<three_dots /><end_line />
+				Stop right there!<end_line />
+    			We're not done yet!<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -330,8 +325,8 @@
 				こっちの話がまだ<three_dots /><end_line />
 			</sjis>
 			<ascii>
-				Hold on a minute!<end_line />
-				I'm not done yet<three_dots /><end_line />
+				Wait a second!<end_line />
+    			We're not done yet!<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -380,7 +375,7 @@
 			行っちゃいましたよ<end_line />
 		</sjis>
 		<ascii>
-			He left<three_dots /><end_line />
+			He already left<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -398,8 +393,6 @@
 			What does he want with V.E?<end_line />
 			I'm kind of curious<three_dots /><end_line />
 		</ascii>
-		# Failed Accuracy Check
-		# Changed Vee to V.E
 	</dialogue>
 	<dialogue>
 		<player gender="male" />
