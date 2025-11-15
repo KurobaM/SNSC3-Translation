@@ -111,7 +111,7 @@
 		</sjis>
 		<ascii>
 			I can't believe you guys<end_line />
-			are still doing this crap!<end_line />
+			are still doing this!<end_line />
 			Just leave her alone!<end_line />
 		</ascii>
 	</dialogue>
@@ -362,7 +362,7 @@
 				きっさま<three_dots />！<end_line />
 			</sjis>
 			<ascii>
-				Why you<three_dots />!<end_line />
+				Hey<three_dots />!<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -370,7 +370,7 @@
 				あんたねぇ<three_dots />！<end_line />
 			</sjis>
 			<ascii>
-				Why you<three_dots />!<end_line />
+				Hey<three_dots />!<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -639,7 +639,8 @@
 			</sjis>
 			<ascii>
 				Why!?<end_line />
-				I can't forgive them for this!<end_line />
+				They stole something important<end_line />
+				from Murno!<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -650,7 +651,8 @@
 			</sjis>
 			<ascii>
 				Why!?<end_line />
-				I can't forgive them for this!<end_line />
+				They stole something important<end_line />
+				from Murno!<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -663,7 +665,7 @@
 			まったく<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			After revenge again<three_dots />?<end_line />
+			After revenge again?<end_line />
 			Jeez<three_dots /><end_line />
 		</ascii>
 	</dialogue>
@@ -779,7 +781,7 @@
 			<three_dots />うん<end_line />
 		</sjis>
 		<ascii>
-			<three_dots />Sorta<three_dots /><end_line />
+			<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -829,7 +831,7 @@
 			そんな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You<three_dots /><end_line />
+			<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -843,7 +845,7 @@
 		</sjis>
 		<ascii>
 			Stop getting into fights.<end_line />
-			Just how long are you gonna keep <end_line />
+			Just how long are you gonna keep<end_line />
 			doing stupid stuff like that?<end_line />
 		</ascii>
 	</dialogue>
@@ -856,6 +858,11 @@
 			だったらどうすればいいんだよ<end_line />
 			ミューノがケガしてんだぜ！？<end_line />
 		</sjis>
+		<ascii>
+			But<three_dots /><end_line />
+			What else am I supposed to do?<end_line />
+			Murno's hurt!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -868,7 +875,7 @@
 		</sjis>
 		<ascii>
 			What should I have done then?<end_line />
-			They were going to hurt Murno!<end_line />
+			Murno's hurt!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -925,6 +932,7 @@
 		</sjis>
 		<ascii>
 			Are you kidding me!?<end_line />
+			Murno's family, isn't she?<end_line />
 			You're not gonna do anything!?<end_line />
 		</ascii>
 	</dialogue>
@@ -1008,7 +1016,7 @@
 			<partner /><three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			<partner /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1051,8 +1059,8 @@
 		</sjis>
 		<ascii>
 			That'll be settled<end_line />
-			if we leave the village<three_dots /><end_line />
-			Just return everything to normal.<end_line />
+			once we leave the village<three_dots /><end_line />
+			Everything will return to normal.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1064,7 +1072,7 @@
 			そんな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You<three_dots /><end_line />
+			Is that really so<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1120,7 +1128,7 @@
 			そんな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You<three_dots /><end_line />
+			<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1175,7 +1183,7 @@
 			そんな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			You<three_dots /><end_line />
+			Is that really so<three_dots />?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1238,7 +1246,7 @@
 			<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Uhh<three_dots /><end_line />
+			Well<three_dots /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1320,7 +1328,7 @@
 		</sjis>
 		<ascii>
 			Hey, where're you going!?<end_line />
-			Don't do anything stupid!<end_line />
+			Don't interfere!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1462,7 +1470,7 @@
 		</sjis>
 		<ascii>
 			<three_dots />Okay.<end_line />
-			Let's start looking.<end_line />
+			Let's go.<end_line />
 		</ascii>
 	</dialogue>
 </tl_file>

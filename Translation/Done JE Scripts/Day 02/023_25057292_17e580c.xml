@@ -10,7 +10,7 @@
 				急いでるんだけど<end_line />
 			</sjis>
 			<ascii>
-				You guys again<three_dots /><end_line />
+				You guys again?<end_line />
 				What is it?<end_line />
 				We're busy.<end_line />
 			</ascii>
@@ -22,9 +22,9 @@
 				急いでるんだけど<end_line />
 			</sjis>
 			<ascii>
-				You guys again<three_dots /><end_line />
+				You guys again?<end_line />
 				What is it?<end_line />
-				We're busy.<end_line />
+				We're kinda busy.<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -53,8 +53,8 @@
 		</sjis>
 		<ascii>
 			How could you do that<end_line />
-			to your own kind?<end_line />
-			It just makes no sense.<end_line />
+			to your Master's friends?<end_line />
+			It makes no sense.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -127,8 +127,9 @@
 			アニキの話はいいんだな<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Fu<three_dots /><end_line />
-			You change your mind quick.<end_line />
+			Hmph<three_dots /><end_line />
+			Did you forget what we came<end_line />
+			here for?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -209,7 +210,6 @@
 			<ascii>
 				Besides, preying on the weak<end_line />
 				is what the bad guys do.<end_line />
-				I'd just get scolded again.<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -220,7 +220,6 @@
 			<ascii>
 				Besides, preying on the weak<end_line />
 				is what the bad guys do.<end_line />
-				I'd just get scolded again.<end_line />
 			</ascii>
 		</female>
 	</dialogue>

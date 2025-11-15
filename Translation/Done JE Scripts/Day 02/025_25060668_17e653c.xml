@@ -29,7 +29,7 @@
 			え<three_dots />！？<end_line />
 		</sjis>
 		<ascii>
-			Huh<three_dots />!?<end_line />
+			Huh!?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -72,7 +72,7 @@
 		</sjis>
 		<ascii>
 			Does he not remember anything?<end_line />
-			They just recently managed<end_line />
+			He just recently managed<end_line />
 			to be able to move again, right?<end_line />
 		</ascii>
 	</dialogue>
@@ -205,8 +205,8 @@
 			あやまってたからね<end_line />
 		</sjis>
 		<ascii>
-			That's because it's usually you<end_line />
-			who does the apologizing.<end_line />
+			Because it's usually you who has<end_line />
+			something to apologize for.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -232,7 +232,8 @@
 			どうするつもりだい？<end_line />
 		</sjis>
 		<ascii>
-			So, what are you going to do?<end_line />
+			So<three_dots /><end_line />
+			What are you going to do?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -257,11 +258,17 @@
 			<sjis>
 				オレも行く！<end_line />
 			</sjis>
+			<ascii>
+				I'm going too!<end_line />
+			</ascii>
 		</male>
 		<female>
 			<sjis>
 				わたしも行く！<end_line />
 			</sjis>
+			<ascii>
+				I wanna go too!<end_line />
+			</ascii>
 		</female>
 	</bigtext>
 	<dialogue>
@@ -373,7 +380,7 @@
 			</sjis>
 			<ascii>
 				You're the one who doesn't get it!<end_line />
-				I'll show you my strength!<end_line />
+				I'll show you how strong I am!<end_line />
 				Let's have a match!<end_line />
 			</ascii>
 		</male>
@@ -384,7 +391,7 @@
 				勝負してよ！<end_line />
 			</sjis>
 			<ascii>
-				You're the one who doesn't get it!<end_line />
+				No, you don't get it!<end_line />
 				I'll show you my strength!<end_line />
 				Let's have a match!<end_line />
 			</ascii>
@@ -415,7 +422,7 @@
 		</sjis>
 		<ascii>
 			If only Rob were still here<three_dots /><end_line />
-			Maybe he could talk <end_line />
+			Maybe he could talk<end_line />
 			some sense into you<three_dots /><end_line />
 		</ascii>
 	</dialogue>
@@ -463,7 +470,7 @@
 			悪いのはオレかよ<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Hey, I'm not the bad guy here<three_dots />!<end_line />
+			Hey, I'm not the bad guy here<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -530,8 +537,8 @@
 			だから半人前って言われるんだ！<end_line />
 		</sjis>
 		<ascii>
-			That's why you're<end_line />
-			treated like a kid!<end_line />
+			That's why everyone treats<end_line />
+			you like a kid!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -556,7 +563,8 @@
 		</sjis>
 		<ascii>
 			You're to stay here<end_line />
-			and practice, got it?<end_line />
+			and keep training!<end_line />
+			Got it?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
