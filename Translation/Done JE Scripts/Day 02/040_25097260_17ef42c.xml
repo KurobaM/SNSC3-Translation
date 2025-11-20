@@ -112,7 +112,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -123,7 +123,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -235,7 +235,7 @@
 			ガマンヲシテイタノハ　アナタデス<end_line />
 		</sjis>
 		<ascii>
-			'Tolerance' Is Defined As Enduring.<end_line />
+			Tolerance Is Defined As Enduring.<end_line />
 			I Only Followed Your Orders.<end_line />
 			The One Enduring Was You.<end_line />
 		</ascii>
@@ -265,7 +265,7 @@
 		<ascii>
 			You Even Bowed Down<end_line />
 			Despite Having No Need To,<end_line />
-			Only For Murno's sake.<end_line />
+			For Lady Murno's Sake.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -320,7 +320,7 @@
 		</sjis>
 		<ascii>
 			That Is What I Would Define As<end_line />
-			A 'Cool' Action To Take.<end_line />
+			A "Cool" Action To Take.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -346,7 +346,7 @@
 			動カシテイルト　判断シマス<end_line />
 		</sjis>
 		<ascii>
-			And, As A Result,<end_line />
+			As A Result,<end_line />
 			You Were Successful In Not<end_line />
 			Creating Any Further Problems.<end_line />
 		</ascii>
@@ -389,7 +389,7 @@
 			<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<partner /><three_dots /><end_line />
+			<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -486,7 +486,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -497,7 +497,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -646,7 +646,7 @@
 		<ascii>
 			I only wanted to see<end_line />
 			how far you were willing to go<end_line />
-			simply for Murno's sake.<end_line />
+			for Murno's sake.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -978,7 +978,7 @@
 			？<end_line />
 		</sjis>
 		<ascii>
-			Hm?<end_line />
+			?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1295,7 +1295,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -1306,7 +1306,7 @@
 			</sjis>
 			<ascii>
 				Speaking of which,<end_line />
-				thanks for being holding back today.<end_line />
+				thanks for holding back today.<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -1375,7 +1375,7 @@
 			はあ<end_line />
 		</sjis>
 		<ascii>
-			Ohh~<end_line />
+			Huh?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
