@@ -87,7 +87,7 @@
 			好きにしろ<end_line />
 		</sjis>
 		<ascii>
-			Yep.<end_line />
+			Whatever.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -99,7 +99,7 @@
 			はい！<end_line />
 		</sjis>
 		<ascii>
-			Okay!<end_line />
+			Yes!<end_line />
 		</ascii>
 	</dialogue>
 </tl_file>

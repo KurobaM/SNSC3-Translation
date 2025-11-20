@@ -32,7 +32,7 @@
 			負けちまったか<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Ugh<three_dots /><end_line />
+			I lost<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -43,6 +43,10 @@
 			さあ、早くゴヴァンの魔石を<end_line />
 			返してもらおうか！<end_line />
 		</sjis>
+		<ascii>
+			Now<three_dots /><end_line />
+			Time to give back the stone!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -188,7 +192,7 @@
 			え？<end_line />
 		</sjis>
 		<ascii>
-			Eh?<end_line />
+			Huh?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -201,7 +205,7 @@
 		</sjis>
 		<ascii>
 			Uhhh<three_dots /> yeah<three_dots /><end_line />
-			<three_dots />Sorry<three_dots /><end_line />
+			<three_dots />My bad<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -249,6 +253,10 @@
 			よし！<end_line />
 			オレたちも戻ろう！<end_line />
 		</sjis>
+		<ascii>
+			Yeah!<end_line />
+			Let's head back too!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -308,7 +316,7 @@
 			はい！<end_line />
 		</sjis>
 		<ascii>
-			Okay!<end_line />
+			Yes!<end_line />
 		</ascii>
 	</dialogue>
 </tl_file>

@@ -51,7 +51,7 @@
 			この、不死身のジェイドがなっ！<end_line />
 		</sjis>
 		<ascii>
-			I, the invincible Jade, am ready.<end_line />
+			I, the Immortal Jade, am ready.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -100,7 +100,7 @@
 			承知！<end_line />
 		</sjis>
 		<ascii>
-			Yes!<end_line />
+			Understood!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -124,7 +124,7 @@
 			はい！<end_line />
 		</sjis>
 		<ascii>
-			Yeah!<end_line />
+			Yes!<end_line />
 		</ascii>
 	</dialogue>
 </tl_file>

@@ -7,8 +7,7 @@
 			きたきた<end_line />
 		</sjis>
 		<ascii>
-			Oh,<end_line />
-			there you are.<end_line />
+			There you are.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -487,7 +486,7 @@
 			<player_nickname /><three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			<player_nickname /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -641,9 +640,9 @@
 			<three_dots />っていうのはちょっとちがうか<end_line />
 		</sjis>
 		<ascii>
-			In short<three_dots /><end_line />
 			There are times where you<end_line />
 			can't solve everything by force.<end_line />
+			But<three_dots /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -656,9 +655,7 @@
 			フンイキ作りが大切っていうか<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Hm, how do I put this<three_dots />?<end_line />
-			When you beat someone, its important<end_line />
-			to still have some goodwill left?<end_line />
+			If it all feels right in the end<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -709,8 +706,7 @@
 			無責任じゃの<end_line />
 		</sjis>
 		<ascii>
-			My goodness,<end_line />
-			how irresponsible.<end_line />
+			How irresponsible.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -762,9 +758,9 @@
 			武器を作るんだってね<end_line />
 		</sjis>
 		<ascii>
-			We Craftknights work so that<end_line />
-			we may fulfill our goals easier, not<end_line />
-			because crafting itself is our goal.<end_line />
+			"We Craftnights make weapons as a<end_line />
+			means to an end, not as an end<end_line />
+			in itself."<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -777,6 +773,7 @@
 		</sjis>
 		<ascii>
 			Well, something like that.<end_line />
+			Got it?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -798,7 +795,7 @@
 			な！<end_line />
 		</sjis>
 		<ascii>
-			WHAT?<end_line />
+			Got it?!<end_line />
 		</ascii>
 	</bigtext>
 	<dialogue>
@@ -809,7 +806,7 @@
 			わかったよ〜<end_line />
 		</sjis>
 		<ascii>
-			N-Nothing<three_dots /><end_line />
+			I got it<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -840,7 +837,7 @@
 		<ascii>
 			Master<three_dots /><end_line />
 			Can I come this time?<end_line />
-			I won't say anything stupid.<end_line />
+			It's not about revenge this time.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -872,7 +869,7 @@
 		<ascii>
 			Master<three_dots /><end_line />
 			Can I come this time?<end_line />
-			I won't say anything stupid.<end_line />
+			It's not about revenge this time.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -915,7 +912,7 @@
 			<player_nickname />、よくやったじゃねえか<end_line />
 		</sjis>
 		<ascii>
-			Heyy.<end_line />
+			Hey.<end_line />
 			You don't have to be like that.<end_line />
 			<player_nickname /> did well, right?<end_line />
 		</ascii>
@@ -945,7 +942,7 @@
 			勝手なこと言っちゃって<end_line />
 		</sjis>
 		<ascii>
-			Ohh, right.<end_line />
+			Oh, right.<end_line />
 			Sorry, Murno.<end_line />
 			I was being selfish there.<end_line />
 		</ascii>
@@ -958,7 +955,7 @@
 			<player_nickname /><three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			<player_nickname /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -986,7 +983,7 @@
 			ダメ、ですか？<end_line />
 		</sjis>
 		<ascii>
-			Um, Miss Vee<three_dots /><end_line />
+			Um, Miss V.E<three_dots /><end_line />
 			Would it be possible<end_line />
 			for me to go with you?<end_line />
 		</ascii>
@@ -1094,7 +1091,7 @@
 			正気か？<end_line />
 		</sjis>
 		<ascii>
-			Murno<three_dots />?<end_line />
+			Are you being serious?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1156,7 +1153,7 @@
 		</sjis>
 		<ascii>
 			Hmmmm<three_dots /><end_line />
-			So you've thought it out that far<three_dots /><end_line />
+			I see how it is<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1169,9 +1166,9 @@
 			アタシひとりだと正直心細いんだよ<end_line />
 		</sjis>
 		<ascii>
-			But there are more strays out now,<end_line />
-			so it's far more dangerous.<end_line />
-			Even I couldn't handle all of them.<end_line />
+			But there are more strays out now.<end_line />
+			I might not be able to protect you<end_line />
+			by myself.<end_line />
 		</ascii>
 	</dialogue>
 	<choice>
@@ -1183,12 +1180,20 @@
 				こういう時こそオレの出番だ！<end_line />
 				親方の言うとおり、キケンだな<three_dots /><end_line />
 			</sjis>
+			<ascii>
+				It won't be just you!<end_line />
+				Like you said, it's dangerous<three_dots /><end_line />
+			</ascii>
 		</male>
 		<female>
 			<sjis>
 				こういう時こそわたしの出番！<end_line />
 				親方の言うとおり、キケンだよ<three_dots /><end_line />
 			</sjis>
+			<ascii>
+				It won't be just you!<end_line />
+				Like you said, it's dangerous<three_dots /><end_line />
+			</ascii>
 		</female>
 	</choice>
 	<dialogue>
@@ -1199,6 +1204,9 @@
 			それなら<end_line />
 			オレたちがついてるじゃないか！<end_line />
 		</sjis>
+		<ascii>
+			We can help too!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -1209,7 +1217,7 @@
 			わたしたちがついてるじゃない！<end_line />
 		</sjis>
 		<ascii>
-			why don't I come along too!<end_line />
+			We can help too!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1290,8 +1298,7 @@
 			いいだろう<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Why don't you do<end_line />
-			something about it then<three_dots /><end_line />
+			We'll figure something out<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1317,6 +1324,10 @@
 			あ、そうだ！<end_line />
 			オレだって！<end_line />
 		</sjis>
+		<ascii>
+			That's right!<end_line />
+			That goes for me too!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />
@@ -1366,7 +1377,7 @@
 		</sjis>
 		<ascii>
 			Well, I can understand<end_line />
-			why Vee's worried.<end_line />
+			why V.E's worried.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1418,7 +1429,7 @@
 		</sjis>
 		<ascii>
 			Whoa!? Really!?<end_line />
-			You'll fight with me?<end_line />
+			A match with you?<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1460,9 +1471,9 @@
 			話なんだろうが<end_line />
 		</sjis>
 		<ascii>
-			I wonder<three_dots /><end_line />
-			If <player_nickname /> can get your approval,<end_line />
-			they must've seriously improved.<end_line />
+			I know you're talking about giving
+			<player_nickname /> your approval,<end_line />
+			but<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -1475,7 +1486,7 @@
 			なあ、<player_nickname /><end_line />
 		</sjis>
 		<ascii>
-			But, do you think that my apprentice<end_line />
+			Do you think that my apprentice<end_line />
 			would lose to someone like you?<end_line />
 			Well, <player_nickname />?<end_line />
 		</ascii>
@@ -1604,7 +1615,7 @@
 			<partner /><three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			<partner /><three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
