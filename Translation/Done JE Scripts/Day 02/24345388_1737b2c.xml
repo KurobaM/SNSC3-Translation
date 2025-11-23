@@ -4,7 +4,7 @@
 			村長の家　道具屋<end_line />
 		</sjis>
 		<ascii>
-			Mayor's house　second-hand shop<end_line />
+			Chief's House　Tool Shop<end_line />
 		</ascii>
 	</location>
 	<location>
@@ -12,7 +12,7 @@
 			村長の家　道具屋<end_line />
 		</sjis>
 		<ascii>
-			Mayor's house　second-hand shop<end_line />
+			Chief's House　Tool Shop<end_line />
 		</ascii>
 	</location>
 	<dialogue>
@@ -26,7 +26,7 @@
 		<ascii>
 			My, you must be a Craftknight.<end_line />
 			Right now I'm on a journey to meet<end_line />
-			many Craftknights and blacksmiths,<end_line />
+			many Craftknights and blacksmiths.<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -38,7 +38,7 @@
 			見つけるためにね<end_line />
 		</sjis>
 		<ascii>
-			with the hope that some of them<end_line />
+			I hope that some of them<end_line />
 			will become regular customers<end_line />
 			when my daughter and I open a shop.<end_line />
 		</ascii>
@@ -117,8 +117,8 @@
 			確かめてみてね<end_line />
 		</sjis>
 		<ascii>
-			can result is a completely<end_line />
-			different weapon of that time.<end_line />
+			can result in a completely<end_line />
+			different weapon of that type.<end_line />
 			It's best to experiment.<end_line />
 		</ascii>
 	</dialogue>

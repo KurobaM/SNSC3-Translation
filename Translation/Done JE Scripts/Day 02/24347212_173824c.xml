@@ -4,7 +4,7 @@
 			村長の家　広間<end_line />
 		</sjis>
 		<ascii>
-			Mayor's house　Hall<end_line />
+			Chief's House　Hall<end_line />
 		</ascii>
 	</location>
 	<dialogue>
@@ -52,7 +52,7 @@
 		<ascii>
 			First <partner />, now this girl!<end_line />
 			Things have gotten lively<end_line />
-			at Vee's place.<end_line />
+			at V.E's place.<end_line />
 		</ascii>
 	</dialogue>
 </tl_file>
