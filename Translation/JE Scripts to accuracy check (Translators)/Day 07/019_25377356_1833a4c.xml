@@ -558,9 +558,10 @@
 		</sjis>
 		<ascii>
 			If we did that,<end_line />
-			more people would their lives.<end_line />
-			There's already enough suffering<three_dots /><end_line />
+			more people would have died.<end_line />
+			We'd suffered enough already<three_dots /><end_line />
 		</ascii>
+		# "There's already enough suffering" is really awkard in context of a past decision.
 	</dialogue>
 	<dialogue>
 		<info box="right" />
@@ -572,10 +573,11 @@
 			村人全員が殺されていたでしょう<end_line />
 		</sjis>
 		<ascii>
-			And if we kept quiet<end_line />
-			about their existance,<end_line />
-			eventually they would kill everyone.<end_line />
+			And if we kept quiet about<end_line />
+			their existance, eventually<end_line />
+			they would've killed everyone.<end_line />
 		</ascii>
+		# Grammar was awkward because of space limits per line. This should fit better.
 	</dialogue>
 	<dialogue>
 		<info box="left" />
@@ -615,7 +617,7 @@
 		<ascii>
 			Anise<three_dots /><end_line />
 			Offered them Magdrad<three_dots /><end_line />
-			Herself along with it<three_dots /><end_line />
+			And herself along with it<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
