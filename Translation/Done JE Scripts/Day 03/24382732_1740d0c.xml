@@ -12,9 +12,6 @@
 			I'm worried about Tier.<end_line />
 			Let's look for her!<end_line />
 		</ascii>
-		# FOR PROOFREAD CHECK
-		# This was translated as "let's have a look", it's too literally
-		# considering in this context Tier ran away and the protag is searching for her.
 	</dialogue>
 	<dialogue>
 		<partner name="run-dor" />
@@ -25,10 +22,8 @@
 			了解デス！<end_line />
 		</sjis>
 		<ascii>
-			Affirmative!<end_line />
+			Roger!<end_line />
 		</ascii>
-		# FOR PROOFREAD
-		# Changed "Understood!" to "Affirmative" bc it's more robot-y
 	</dialogue>
 	<dialogue>
 		<partner name="enzi" />
@@ -53,7 +48,7 @@
 			承知っ！<end_line />
 		</sjis>
 		<ascii>
-			Acknowledged!<end_line />
+			Onwards!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -149,7 +144,7 @@
 		<ascii>
 			<three_dots /><end_line />
 			I'm more worried about what'll<end_line />
-			happen after than winning<three_dots /><end_line />
+			happen after we win<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -193,7 +188,7 @@
 		<ascii>
 			<three_dots /><end_line />
 			I'm more worried about what'll<end_line />
-			happen after than winning<three_dots /><end_line />
+			happen after we win<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -285,7 +280,7 @@
 		<ascii>
 			<three_dots /><end_line />
 			I'm more worried about what'll<end_line />
-			happen after than winning<three_dots /><end_line />
+			happen after we win<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -297,7 +292,6 @@
 		<ascii>
 			Let's escort Tier back to Marnail.<end_line />
 		</ascii>
-		# Changed Marneil to Marnail.
 	</dialogue>
 	<dialogue>
 		<info box="right" />
@@ -321,8 +315,8 @@
 			そう思うなら、さっきの約束を<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			Right?<end_line />
-			Well then, about our promise<three_dots /><end_line />
+			Oh, of course you aren't.<end_line />
+			Now then, about our promise<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -601,6 +595,10 @@
 			へぇ、そうなんだ<end_line />
 			よし、がんばるよ、オレ！<end_line />
 		</sjis>
+		<ascii>
+			Is that how it goes?<end_line />
+			Alright, I'll try my best!<end_line />
+		</ascii>
 	</dialogue>
 	<dialogue>
 		<player gender="female" />

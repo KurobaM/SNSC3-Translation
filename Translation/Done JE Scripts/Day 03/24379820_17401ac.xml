@@ -307,7 +307,7 @@
 			忘れるでないぞ<end_line />
 		</sjis>
 		<ascii>
-			Mm.<end_line />
+			Understood.<end_line />
 			Prepare well, travel well!<end_line />
 			Don't forget anything.<end_line />
 		</ascii>
@@ -600,7 +600,6 @@
 			Are You Certain We Will Not<end_line />
 			Rely On The Guide?<end_line />
 		</ascii>
-		# Added "We" to first line. Incorrect grammar.
 	</dialogue>
 	<dialogue>
 		<partner name="enzi" />
@@ -757,7 +756,6 @@
 			Are You Certain We Will Not<end_line />
 			Rely On The Guide?<end_line />
 		</ascii>
-		# Added "We" to first line. Incorrect grammar.
 	</dialogue>
 	<dialogue>
 		<partner name="enzi" />
