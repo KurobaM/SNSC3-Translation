@@ -61,8 +61,7 @@
 				ダレのせいだと思ってるんだ<three_dots /><end_line />
 			</sjis>
 			<ascii>
-				You know<three_dots /><end_line />
-				Who's fault is that<three_dots />?<end_line />
+				I wonder who's fault that is<three_dots />?<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -71,8 +70,7 @@
 				ダレのせいだと思ってるの<three_dots /><end_line />
 			</sjis>
 			<ascii>
-				You know<three_dots /><end_line />
-				Who's fault is that<three_dots />?<end_line />
+				I wonder who's fault that is<three_dots />?<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -106,7 +104,7 @@
 			囲まれたか！<end_line />
 		</sjis>
 		<ascii>
-			Blast!<end_line />
+			Confound it!<end_line />
 			We're surrounded!<end_line />
 		</ascii>
 	</dialogue>

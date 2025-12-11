@@ -26,9 +26,9 @@
 			せっかくの宿屋なのに！！<end_line />
 		</sjis>
 		<ascii>
-			And we'll be sleeping in<end_line />
-			the workshop, just like always!<end_line />
-			Even though we came to an inn!!<end_line />
+			But we still have to sleep in<end_line />
+			the workshop.<end_line />
+			Even though we came to an inn!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -58,9 +58,9 @@
 			せっかくの宿屋なのに！！<end_line />
 		</sjis>
 		<ascii>
-			And we'll be sleeping in<end_line />
-			the workshop, just like always!<end_line />
-			Even though we came to an inn!!<end_line />
+			But we still have to sleep in<end_line />
+			the workshop.<end_line />
+			Even though we came to an inn!<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -113,7 +113,7 @@
 			気分<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			Feels<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -154,7 +154,7 @@
 			気分<three_dots /><end_line />
 		</sjis>
 		<ascii>
-			<three_dots /><end_line />
+			Feels<three_dots /><end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -168,7 +168,7 @@
 			</sjis>
 			<ascii>
 				Alright!<end_line />
-				We're making it to Prosban today~!<end_line />
+				We're making it to Prosban today!<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -178,7 +178,7 @@
 			</sjis>
 			<ascii>
 				Alright!<end_line />
-				We're making it to Prosban today~!<end_line />
+				We're making it to Prosban today!<end_line />
 			</ascii>
 		</female>
 	</dialogue>
@@ -243,7 +243,6 @@
 				クサいってことか？<end_line />
 			</sjis>
 			<ascii>
-				Scent?<end_line />
 				You mean it smells in here?<end_line />
 			</ascii>
 		</male>
@@ -253,7 +252,6 @@
 				クサいってこと？<end_line />
 			</sjis>
 			<ascii>
-				Scent?<end_line />
 				You mean it smells in here?<end_line />
 			</ascii>
 		</female>
@@ -305,7 +303,7 @@
 				臭いにビンカンなこと？<end_line />
 			</sjis>
 			<ascii>
-				Obtuse<three_dots />? What's that?<end_line />
+				Obtuse<three_dots />? What's that mean?<end_line />
 				Something to do with smells?<end_line />
 			</ascii>
 		</female>
@@ -438,7 +436,7 @@
 		</sjis>
 		<ascii>
 			Okaaay!<end_line />
-			It's time to go~!<end_line />
+			It's time to go now~!<end_line />
 			We're making it to Prosban today~!<end_line />
 		</ascii>
 	</dialogue>
@@ -532,7 +530,7 @@
 			昨日だって、夜中に突然<end_line />
 		</sjis>
 		<ascii>
-			Just last night, you shouted,<end_line />
+			Just last night, you shouted-<end_line />
 		</ascii>
 	</dialogue>
 	<dialogue>
@@ -545,8 +543,8 @@
 				そんなことやめろよ！<end_line />
 			</sjis>
 			<ascii>
-				Hey!?<end_line />
-				Stop that!<end_line />
+				"Hey!?<end_line />
+				Stop that!"<end_line />
 			</ascii>
 		</male>
 		<female>
@@ -555,8 +553,8 @@
 				そこはダメよっ！<end_line />
 			</sjis>
 			<ascii>
-				No!?<end_line />
-				Not there!<end_line />
+				"No!?<end_line />
+				Not there!"<end_line />
 			</ascii>
 		</female>
 	</dialogue>
