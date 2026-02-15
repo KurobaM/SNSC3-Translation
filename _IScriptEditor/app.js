@@ -460,7 +460,7 @@ function extractText() {
                     let line = dialogueLines[i];
                     line = line.replaceAll('\\', '');
                     line = line.replaceAll('"', '\\"');
-                    text += '"' + line + '"\n';
+                    text += '\t\t"' + line + '"\n';
                 }
                 else
                     text += '\n';
