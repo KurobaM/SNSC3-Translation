@@ -956,6 +956,11 @@ function resizeBoxes(textarea) {
         let line = dialogLines[j];
         if (j == 0) {
             newCodeLines.push(codeLines[0]);
+            let length = getStringSize(line);
+            if (textarea.classList.contains('dialogbig')) 
+                newCharCountLines.push(TOTAL_SPACE - length*2);
+            else
+                newCharCountLines.push(TOTAL_SPACE - length);
         }
         else if (line.length == 0) {
             newCodeLines.push(clearType);
