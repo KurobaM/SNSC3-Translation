@@ -2,7 +2,7 @@ code043e        2, 3, 0
 code047d        1, 119
 code0301        8, 0
 code047e        1, 1
-dialogtxt       "Oh, δ!"
+dialogtxt       "Hey, [NAME 2]!"
 code0309        
 code047e        1, 0
 code0302        0
@@ -13,8 +13,8 @@ code047d        0, 0
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-dialogtxt       "Ah!"
-dialogtxt       "Chief!"
+dialogtxt       "Oh, hey Chief."
+dialogtxt       "What's up?"
 code047b        
 code0309        
 code047e        0, 0
@@ -36,9 +36,8 @@ code0309
 dialogtxt       "Please give my thanks to"
 dialogtxt       "Miss V.E as well."
 code0309        
-dialogtxt       "You're gonna have to train"
-dialogtxt       "lots and lots to be"
-dialogtxt       "like your master."
+dialogtxt       "Keep up on your training and one"
+dialogtxt       "day you'll be just as good as her!"
 code0309        
 code047e        1, 0
 code0302        0
@@ -48,7 +47,7 @@ code047d        0, 0
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-dialogtxt       "You mean to be better than her!"
+dialogtxt       "You mean \"be better than her!\""
 code047b        
 code0309        
 code047e        0, 0
@@ -75,7 +74,7 @@ code0301        2, 4
 code047e        0, 1
 dialogtxt       "This is a weapon material!"
 jumpz           @Cond_045e, ($b002 == 0)
-dialogtxt       "'You sure I can have it!?"
+dialogtxt       "You sure I can have it!?"
 goto            @Label_0494
 
 @Cond_045e:
@@ -121,7 +120,7 @@ code0479        0, 0, 13
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-dialogtxt       "Yes, sir!"
+dialogtxt       "Yes sir!"
 dialogtxt       "Thank you!"
 code047b        
 code0309        
@@ -151,7 +150,7 @@ code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
 jumpz           @Cond_08a2, ($b002 == 0)
-dialogtxt       "That'll be enough materials!"
+dialogtxt       "Now I've got all the materials!"
 dialogtxt       "Time to go home and craft a weapon!"
 goto            @Label_08da
 
@@ -319,4 +318,3 @@ goto            @Label_0e9c
 
 @Label_0e9c:
 ret             
-

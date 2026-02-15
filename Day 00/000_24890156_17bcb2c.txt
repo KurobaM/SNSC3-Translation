@@ -1,20 +1,20 @@
 code033b        155, 0, 0, 0, 1, 1
-dialogbig       48, 68, 1, 0, 4, "Craftknights!   "
+dialogbig       48, 68, 1, 0, 4, "　  Craftknights!　"
 code030c        
 code033e        155
 code0304        1
 code0331        9, 256
-dialogtxt       "        Artisans of weapons.     "
-dialogtxt       "        Masters of the sword.    "
+dialogtxt       "　　  Artisans of weapons.　  "
+dialogtxt       "　　  Masters of the sword.　 "
 code030a        6, 1
 dialogtxt       " A special title only given to those "
-dialogtxt       "  with a body as firm as a forge,    "
-dialogtxt       "  and a mind as sharp as a sword.    "
+dialogtxt       "  with a body as firm as a forge,　 "
+dialogtxt       "  and a mind as sharp as a sword.　 "
 code030a        6, 1
 code0304        0
 code040d        30
 code0301        8, 0
-dialogtxt       "You know what comes next, right?"
+dialogtxt       "You know the deal, right?"
 dialogtxt       "[NAME 0]…"
 code0309        
 code0302        0
@@ -30,12 +30,12 @@ call            @Func_104e
 call            @Func_0f76
 jumpz           @Cond_0260, ($b002 == 0)
 dialogtxt       "…"
-dialogtxt       "Sister V.E…"
+dialogtxt       "V.E…"
 goto            @Label_0278
 
 @Cond_0260:
 dialogtxt       "…"
-dialogtxt       "V.E sis…"
+dialogtxt       "V.E…"
 goto            @Label_0278
 
 @Label_0278:
@@ -55,7 +55,7 @@ code0309
 call            @Func_1036
 call            @Func_0f94
 code0479        0, 2, 12
-dialogtxt       "You have my utmost respect, master!"
+dialogtxt       "Thank you, V.E!"
 code0309        
 call            @Func_0fca
 call            @Func_1000
@@ -67,7 +67,7 @@ code0309
 call            @Func_1036
 call            @Func_0f94
 code0479        0, 2, 16
-dialogtxt       "…Understood."
+dialogtxt       "… Yes."
 code0309        
 call            @Func_0fca
 call            @Func_1000
@@ -109,9 +109,9 @@ code0479        1, 0, 13
 code047d        1, 108
 call            @Func_1064
 call            @Func_0fe2
-dialogtxt       "Fufu…"
+dialogtxt       "Heh, heh…"
 dialogtxt       "Not a bad hammer, I must say."
-dialogtxt       "Your spirit shines within it…"
+dialogtxt       "Your soul shines within it…"
 code047b        
 code0309        
 call            @Func_1036
@@ -121,12 +121,12 @@ code047d        0, 0
 call            @Func_104e
 call            @Func_0f94
 jumpz           @Cond_0600, ($b002 == 0)
-dialogtxt       "That's to be expected!"
+dialogtxt       "Of course!"
 goto            @Label_0618
 
 @Cond_0600:
 dialogtxt       "You could've praised it"
-dialogtxt       "a bit more, sis!"
+dialogtxt       "a bit more!"
 goto            @Label_0618
 
 @Label_0618:
@@ -150,11 +150,11 @@ code047e        0, 1
 code047e        1, 1
 code0479        0, 2, 15
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "Friendship!"
+dialogbig       24, 116, 1, 0, 0, "　　  Friendship!"
 code030c        
-dialogbig       24, 116, 1, 0, 0, "Strength! "
+dialogbig       24, 116, 1, 0, 0, "　　　 Strength! "
 code030c        
-dialogbig       24, 116, 1, 0, 0, "Life!"
+dialogbig       24, 116, 1, 0, 0, "　　　　　Life!"
 code030c        
 call            @Func_10d0
 code047e        0, 0
@@ -186,18 +186,16 @@ code0302        7
 call            @Func_1000
 code0479        1, 2, 14
 code0479        0, 2, 16
-dialogtxt       "Now then,"
-dialogtxt       "take your hammer up,"
-dialogtxt       "and show me victory!"
+dialogtxt       "Now then, take up your hammer,"
+dialogtxt       "and defeat me!"
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 16
-dialogtxt       "To become a Craftknight,"
-dialogtxt       "this will be your…"
+dialogtxt       "This will be your…"
 
 code0309        
 code0479        1, 2, 15
-dialogbig       48, 116, 1, 0, 0, "Final Test!"
+dialogbig       48, 116, 1, 0, 0, "　　　 Final Test!"
 code030c        
 call            @Func_10d0
 call            @Func_101e
@@ -394,4 +392,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
