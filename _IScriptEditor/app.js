@@ -460,7 +460,7 @@ function extractText() {
                     let line = dialogueLines[i];
                     line = line.replaceAll('\\', '');
                     line = line.replaceAll('"', '\\"');
-                    text += '\t\t"' + line + '"\n';
+                    text += '"' + line + '"\n';
                 }
                 else
                     text += '\n';
@@ -607,7 +607,7 @@ function processText() {
                 let parentDiv = document.createElement('div');
                 parentDiv.id = divCounter;
 
-                let codeLines  = [];
+                let codeLines = [];
                 let dialogueLines = [];
                 let charCountLines = [];
                 // It's a text area for symmetry reasons
@@ -938,14 +938,7 @@ function resizeBoxes(textarea) {
     let dialogLines = textarea.value.split('\n');
     let codeLines = codeArea.value.split('\n');
     // PROBLEM
-    let dialogueType = "NONE";
-    textarea.classList.forEach(className => {
-        let type = textCode(className);
-        if (type != "NONE") {
-            dialogueType = type;
-            return;
-        }
-    });
+    let dialogueType = codeLines[0]
     let clearType = '';
     let newCodeLines = [];
     let newCharCountLines = [];
@@ -961,8 +954,10 @@ function resizeBoxes(textarea) {
     // Rewride code area based on dialogue area
     for (let j = 0; j < dialogLines.length; j++) {
         let line = dialogLines[j];
-        //if (line.trim() == '') {
-        if (line.length == 0) {
+        if (j == 0) {
+            newCodeLines.push(codeLines[0]);
+        }
+        else if (line.length == 0) {
             newCodeLines.push(clearType);
             newCharCountLines.push(0);
         }
