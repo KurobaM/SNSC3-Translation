@@ -30,8 +30,8 @@ call            @Func_0c30
 call            @Func_0c66
 code0479        1, 0, 13
 dialogtxt       "That's right."
-dialogtxt       "Do it properly,"
-dialogtxt       "so you don't hurt yourself."
+dialogtxt       "Do it properly, so you don't end"
+dialogtxt       "up hurting yourself."
 code0309        
 call            @Func_0c9c
 call            @Func_0bfa
@@ -58,7 +58,7 @@ call            @Func_0bdc
 code047e        0, 1
 dialogtxt       "The first step to craft a weapon…"
 dialogtxt       "You need to put the"
-dialogtxt       "materials into a furnace."
+dialogtxt       "materials into the furnace."
 code047b        
 code0309        
 call            @Func_0d0a
@@ -338,4 +338,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

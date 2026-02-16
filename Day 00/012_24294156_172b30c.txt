@@ -189,8 +189,8 @@ code0305        1
 dialogtxt       "Sleep in a bed to recover"
 dialogtxt       "health and spell uses."
 code0309        
-dialogtxt       "To do so, stand in front of"
-dialogtxt       "your bed and press the A button."
+dialogtxt       "To do so, climb into your bed"
+dialogtxt       "and press the A button."
 code0309        
 code0302        9
 ret             
@@ -399,4 +399,3 @@ code031f        7
 code031a        7
 code033e        196
 ret             
-
