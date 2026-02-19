@@ -869,7 +869,7 @@ call            @Func_3966
 jumpz           @Cond_26b4, ($b003 == 0)
 call            @Func_3862
 dialogtxt       "Why am I hearing"
-dialogtxt       "Masters voice here…?"
+dialogtxt       "Masters voice here?"
 code047b        
 code0309        
 call            @Func_38b6
@@ -920,13 +920,13 @@ goto            @Cond_273c
 jumpz           @Cond_27f6, ($b003 == 2)
 call            @Func_3862
 dialogtxt       "Why am I hearing"
-dialogtxt       "Masters voice here…?"
+dialogtxt       "Masters voice here?"
 code047b        
 code0309        
 call            @Func_38b6
 code0479        1, 2, 14
 call            @Func_38ec
-dialogtxt       "This again…?"
+dialogtxt       "This again?"
 code0309        
 call            @Func_3922
 code0479        0, 2, 14
@@ -942,7 +942,7 @@ goto            @Cond_27f6
 jumpz           @Cond_292c, ($b003 == 3)
 call            @Func_3862
 dialogtxt       "Why am I hearing"
-dialogtxt       "Masters voice here…?"
+dialogtxt       "Masters voice here?"
 code047b        
 code0309        
 call            @Func_38b6
@@ -1415,4 +1415,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

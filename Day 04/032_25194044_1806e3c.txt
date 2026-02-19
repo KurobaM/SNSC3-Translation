@@ -158,7 +158,7 @@ code0479        0, 5, 12
 call            @Func_26d8
 dialogtxt       "Um?"
 dialogtxt       "Your face is… um…"
-dialogtxt       "S… Scary…"
+dialogtxt       "S-Scary…"
 goto            @Cond_0704
 
 @Cond_0704:
@@ -178,7 +178,7 @@ code0479        0, 2, 14
 code047d        0, 138
 call            @Func_2792
 call            @Func_26d8
-dialogtxt       "Mister Jade, no!"
+dialogtxt       "Brother, no!"
 dialogtxt       "Fighting is bad!"
 code047b        
 code0309        
@@ -372,7 +372,7 @@ code0479        0, 4, 16
 call            @Func_26d8
 dialogtxt       "Uh…, no…"
 dialogtxt       "I-I'm not…"
-dialogtxt       "S… Sorry…"
+dialogtxt       "S-Sorry…"
 goto            @Cond_105a
 
 @Cond_105a:
@@ -411,7 +411,7 @@ code0309
 call            @Func_277a
 code0479        0, 5, 13
 call            @Func_26d8
-dialogtxt       "My tail is… !"
+dialogtxt       "My tail is…!"
 dialogtxt       "That's the first time anyone's"
 dialogtxt       "said that! Thank you very much!"
 code0309        
@@ -579,7 +579,7 @@ code0479        1, 4, 12
 code047d        1, 138
 call            @Func_27a8
 call            @Func_2744
-dialogtxt       "You can't…?"
+dialogtxt       "You can't?"
 code047b        
 code0309        
 call            @Func_277a
@@ -668,7 +668,7 @@ dialogtxt       "I'll come with you!"
 goto            @Label_1c5a
 
 @Cond_1c1c:
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh!"
 dialogtxt       "Alright, okay!"
 dialogtxt       "I'll come with you!"
 goto            @Label_1c5a
@@ -1036,4 +1036,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

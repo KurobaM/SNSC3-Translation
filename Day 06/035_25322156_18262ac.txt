@@ -42,12 +42,12 @@ call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_01c2, ($b002 == 0)
 dialogtxt       "Hm?"
-dialogtxt       "Was that Master…?"
+dialogtxt       "Was that Master?"
 goto            @Label_01e4
 
 @Cond_01c2:
 dialogtxt       "Hm?"
-dialogtxt       "Was that Master…?"
+dialogtxt       "Was that Master?"
 goto            @Label_01e4
 
 @Label_01e4:
@@ -347,4 +347,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

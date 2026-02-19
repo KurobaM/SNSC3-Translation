@@ -8,7 +8,7 @@ dialogtxt       "Step outside…?"
 code0309        
 code0479        0, 0, 12
 jumpz           @Cond_0096, ($b002 == 0)
-dialogtxt       "What does he want…?"
+dialogtxt       "What does he want?"
 goto            @Label_00aa
 
 @Cond_0096:
@@ -78,11 +78,11 @@ call            @Func_2f30
 dialogtxt       "Even if you say that…"
 dialogtxt       "[NAME 1], you still can't do much"
 jumpz           @Cond_0310, ($b002 == 0)
-dialogtxt       "with those bracelets on, right?"
+dialogtxt       "With those bracelets on, right?"
 goto            @Label_032e
 
 @Cond_0310:
-dialogtxt       "with those bracelets on, right?"
+dialogtxt       "With those bracelets on, right?"
 goto            @Label_032e
 
 @Label_032e:
@@ -339,7 +339,7 @@ jumpz           @Cond_112c, ($b003 == 0)
 jumpz           @Cond_0e30, ($f0132 == 0)
 call            @Func_2f12
 dialogtxt       "Huh…?"
-dialogtxt       "How many kinds of weapons…?"
+dialogtxt       "How many kinds of weapons?"
 jumpz           @Cond_0cf2, ($b002 == 0)
 dialogtxt       "How many WERE there, again?"
 goto            @Label_0d0c
@@ -365,7 +365,7 @@ dialogtxt       "Right, the hammer…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0dd6, ($b002 == 0)
-dialogtxt       "I-I mean, of course not!"
+dialogtxt       "Th-there's no way I'd forget!"
 goto            @Label_0dfa
 
 @Cond_0dd6:
@@ -474,8 +474,8 @@ goto            @Cond_112c
 jumpz           @Cond_1650, ($b003 == 1)
 jumpz           @Cond_134a, ($f0132 == 0)
 call            @Func_2f12
-dialogtxt       "Huh…?"
-dialogtxt       "The…many kinds of weapons?"
+dialogtxt       "Huh?"
+dialogtxt       "The… many kinds of weapons?"
 jumpz           @Cond_1196, ($b002 == 0)
 dialogtxt       "How many WERE there again?"
 goto            @Label_11b0
@@ -582,7 +582,7 @@ dialogtxt       "that for you."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "You yourself must"
-dialogtxt       "derive the answer."
+dialogtxt       "find the answer."
 code0309        
 call            @Func_2fd2
 code0479        0, 2, 12
@@ -714,7 +714,7 @@ call            @Func_2f12
 dialogtxt       "The most important thing when"
 dialogtxt       "crafting a weapon…"
 jumpz           @Cond_1a3a, ($b002 == 0)
-dialogtxt       "What was that…?"
+dialogtxt       "What was that?"
 goto            @Label_1a52
 
 @Cond_1a3a:
@@ -764,7 +764,7 @@ jumpz           @Cond_207e, ($b003 == 3)
 jumpz           @Cond_1d74, ($f0132 == 0)
 call            @Func_2f12
 dialogtxt       "Huh…?"
-dialogtxt       "How many kinds of weapons…?"
+dialogtxt       "How many kinds of weapons?"
 jumpz           @Cond_1bf6, ($b002 == 0)
 dialogtxt       "How many WERE there, again?"
 goto            @Label_1c10
@@ -849,7 +849,7 @@ call            @Func_2f12
 dialogtxt       "The most important thing when"
 dialogtxt       "crafting a weapon…"
 jumpz           @Cond_1ee8, ($b002 == 0)
-dialogtxt       "What was it…?"
+dialogtxt       "What was it?"
 goto            @Label_1f00
 
 @Cond_1ee8:
@@ -1081,7 +1081,7 @@ code0479        0, 0, 12
 code047d        0, 0
 call            @Func_2fea
 call            @Func_2f12
-dialogtxt       "Sacrificing Murno…!?"
+dialogtxt       "Sacrificing Murno!?"
 jumpz           @Cond_2826, ($b002 == 0)
 dialogtxt       "I won't let that happen!"
 goto            @Label_283c
@@ -1347,4 +1347,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
