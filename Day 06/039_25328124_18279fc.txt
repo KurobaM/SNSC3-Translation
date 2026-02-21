@@ -83,13 +83,13 @@ call            @Func_0d56
 jumpz           @Cond_0358, ($b002 == 0)
 dialogtxt       "Murno, are you okay?"
 dialogtxt       "Any injuries?"
-dialogtxt       "And where's that master thing…?"
+dialogtxt       "And where's that master thing?"
 goto            @Label_03a8
 
 @Cond_0358:
 dialogtxt       "Murno, are you okay?"
 dialogtxt       "Any injuries?"
-dialogtxt       "And where's that master thing…?"
+dialogtxt       "And where's that master thing?"
 goto            @Label_03a8
 
 @Label_03a8:
@@ -156,7 +156,7 @@ goto            @Label_07d0
 code0479        0, 2, 16
 dialogtxt       "Hey…"
 dialogtxt       "You're the real Murno…"
-dialogtxt       "Right…?"
+dialogtxt       "…Right?"
 code0309        
 call            @Func_0daa
 code0479        1, 2, 14
@@ -406,4 +406,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

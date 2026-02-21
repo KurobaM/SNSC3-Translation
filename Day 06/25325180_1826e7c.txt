@@ -31,13 +31,13 @@ call            @Func_0ec4
 call            @Func_0dec
 jumpz           @Cond_0162, ($b002 == 0)
 dialogtxt       "Huh?"
-dialogtxt       "What was I doing again…?"
+dialogtxt       "What was I doing again?"
 dialogtxt       "Umm…"
 goto            @Label_019e
 
 @Cond_0162:
 dialogtxt       "Huh?"
-dialogtxt       "What was I doing again…?"
+dialogtxt       "What was I doing again?"
 dialogtxt       "Umm…"
 goto            @Label_019e
 
@@ -79,11 +79,11 @@ code0479        0, 2, 14
 call            @Func_0e0a
 dialogtxt       "I dont really get it,"
 jumpz           @Cond_032e, ($b002 == 0)
-dialogtxt       "but you're okay, right…?"
+dialogtxt       "but you're okay, right?"
 goto            @Label_0346
 
 @Cond_032e:
-dialogtxt       "but you're okay, right…?"
+dialogtxt       "but you're okay, right?"
 goto            @Label_0346
 
 @Label_0346:
@@ -110,11 +110,11 @@ call            @Func_0eac
 code0479        0, 2, 14
 call            @Func_0e0a
 jumpz           @Cond_047a, ($b002 == 0)
-dialogtxt       "You forgot too…?"
+dialogtxt       "You forgot, too?"
 goto            @Label_0496
 
 @Cond_047a:
-dialogtxt       "You forgot too…?"
+dialogtxt       "You forgot, too?"
 goto            @Label_0496
 
 @Label_0496:
@@ -421,4 +421,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

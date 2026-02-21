@@ -126,12 +126,12 @@ call            @Func_2aee
 call            @Func_2a16
 jumpz           @Cond_0468, ($b002 == 0)
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_0482
 
 @Cond_0468:
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_0482
 
 @Label_0482:
@@ -221,7 +221,7 @@ goto            @Cond_07e2
 @Cond_07e2:
 jumpz           @Cond_0f74, ($b003 == 1)
 dialogtxt       "[NAME 2]…"
-dialogtxt       "Are you serious…?"
+dialogtxt       "Are you serious?"
 code0309        
 call            @Func_2ad6
 code043c        0, 3
@@ -322,12 +322,12 @@ call            @Func_2aee
 call            @Func_2a16
 jumpz           @Cond_0bea, ($b002 == 0)
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_0c04
 
 @Cond_0bea:
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_0c04
 
 @Label_0c04:
@@ -418,7 +418,7 @@ goto            @Cond_0f74
 @Cond_0f74:
 jumpz           @Cond_1692, ($b003 == 2)
 dialogtxt       "[NAME 2]…"
-dialogtxt       "Are you serious…?"
+dialogtxt       "Are you serious?"
 code0309        
 call            @Func_2ad6
 code043c        0, 3
@@ -515,12 +515,12 @@ call            @Func_2aee
 call            @Func_2a16
 jumpz           @Cond_131a, ($b002 == 0)
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_1334
 
 @Cond_131a:
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_1334
 
 @Label_1334:
@@ -611,7 +611,7 @@ goto            @Cond_1692
 @Cond_1692:
 jumpz           @Cond_1e06, ($b003 == 3)
 dialogtxt       "[NAME 2]…"
-dialogtxt       "Are you serious…?"
+dialogtxt       "Are you serious?"
 code0309        
 call            @Func_2ad6
 code043c        0, 3
@@ -712,12 +712,12 @@ call            @Func_2aee
 call            @Func_2a16
 jumpz           @Cond_1aa6, ($b002 == 0)
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_1ac0
 
 @Cond_1aa6:
 dialogtxt       "[NAME 1]!"
-dialogtxt       "You … !"
+dialogtxt       "You…!"
 goto            @Label_1ac0
 
 @Label_1ac0:
@@ -1141,4 +1141,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

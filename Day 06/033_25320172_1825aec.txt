@@ -184,13 +184,13 @@ call            @Func_1452
 jumpz           @Cond_07c0, ($b002 == 0)
 dialogtxt       "Wait, so does that mean…"
 dialogtxt       "The Tier we saw just"
-dialogtxt       "now isn't human…?"
+dialogtxt       "now isn't human?"
 goto            @Label_080c
 
 @Cond_07c0:
 dialogtxt       "Wait, so does that mean…"
 dialogtxt       "The Tier we saw just"
-dialogtxt       "now isn't human…?"
+dialogtxt       "now isn't human?"
 goto            @Label_080c
 
 @Label_080c:
@@ -241,13 +241,13 @@ call            @Func_1452
 jumpz           @Cond_0a60, ($b002 == 0)
 dialogtxt       "Wait, so does that mean…"
 dialogtxt       "The Tier we saw just"
-dialogtxt       "now isn't human…?"
+dialogtxt       "now isn't human?"
 goto            @Label_0aac
 
 @Cond_0a60:
 dialogtxt       "Wait, so does that mean…"
 dialogtxt       "The Tier we saw just"
-dialogtxt       "now isn't human…?"
+dialogtxt       "now isn't human?"
 goto            @Label_0aac
 
 @Label_0aac:
@@ -559,4 +559,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

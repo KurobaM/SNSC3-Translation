@@ -31,13 +31,13 @@ call            @Func_0ec4
 call            @Func_0dec
 jumpz           @Cond_0162, ($b002 == 0)
 dialogtxt       "Huh?"
-dialogtxt       "What was I doing…?"
+dialogtxt       "What was I doing?"
 dialogtxt       "Umm…"
 goto            @Label_019e
 
 @Cond_0162:
 dialogtxt       "Huh?"
-dialogtxt       "What was I doing…?"
+dialogtxt       "What was I doing?"
 dialogtxt       "Umm…"
 goto            @Label_019e
 
@@ -103,7 +103,7 @@ dialogtxt       "Umm…"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "Hmm…?"
+dialogtxt       "Hmm?"
 dialogtxt       "What was it…"
 code0309        
 call            @Func_0eac
@@ -425,4 +425,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

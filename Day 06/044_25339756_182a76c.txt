@@ -76,7 +76,7 @@ code0309
 call            @Func_28d4
 code0479        1, 5, 16
 call            @Func_290a
-dialogtxt       "Murno…?"
+dialogtxt       "Murno?"
 dialogtxt       "I sent her back to the prison."
 code0309        
 call            @Func_2940
@@ -85,13 +85,13 @@ call            @Func_289e
 jumpz           @Cond_03be, ($b002 == 0)
 dialogtxt       "What!?"
 dialogtxt       "Didn't you bring her here"
-dialogtxt       "to feed her to your master…?"
+dialogtxt       "to feed her to your master?"
 goto            @Label_040c
 
 @Cond_03be:
 dialogtxt       "What!?"
 dialogtxt       "Didn't you bring her here"
-dialogtxt       "to feed her to your master…?"
+dialogtxt       "to feed her to your master?"
 goto            @Label_040c
 
 @Label_040c:
@@ -100,7 +100,7 @@ call            @Func_28d4
 code0479        1, 2, 14
 call            @Func_290a
 dialogtxt       "Feed her to master!"
-dialogtxt       "Why would we…?"
+dialogtxt       "Why would we?"
 code0309        
 call            @Func_29c4
 call            @Func_2940
@@ -630,13 +630,13 @@ call            @Func_289e
 jumpz           @Cond_1b50, ($b002 == 0)
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1b94
 
 @Cond_1b50:
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1b94
 
 @Label_1b94:
@@ -682,13 +682,13 @@ call            @Func_289e
 jumpz           @Cond_1d5c, ($b002 == 0)
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1da0
 
 @Cond_1d5c:
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1da0
 
 @Label_1da0:
@@ -734,13 +734,13 @@ call            @Func_289e
 jumpz           @Cond_1f5a, ($b002 == 0)
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1f9e
 
 @Cond_1f5a:
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_1f9e
 
 @Label_1f9e:
@@ -786,13 +786,13 @@ call            @Func_289e
 jumpz           @Cond_2156, ($b002 == 0)
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_219a
 
 @Cond_2156:
 dialogtxt       "This is bad…"
 dialogtxt       "Can I survive a"
-dialogtxt       "fight with that…?"
+dialogtxt       "fight with that?"
 goto            @Label_219a
 
 @Label_219a:
@@ -1053,4 +1053,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

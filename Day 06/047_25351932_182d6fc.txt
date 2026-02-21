@@ -7,8 +7,7 @@ dialogtxt       "　　　　staying at Gallahan's 　　　"
 dialogtxt       "　　　　　　place for now.　　　　　"
 code030a        6, 1
 dialogtxt       "　　　Well, no changing it now. 　　"
-dialogtxt       "　　　　　　　I just　　　　　　　　"
-dialogtxt       "　　　　　　have to win!　　　　　　"
+dialogtxt       "　　　　 I just have to win!　　　　　　"
 code030a        6, 1
 code0304        0
 done            
@@ -214,4 +213,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -63,7 +63,7 @@ code040d        15
 code0479        0, 0, 16
 call            @Func_09de
 call            @Func_0906
-dialogtxt       "Is someone there…?"
+dialogtxt       "Is someone there?"
 dialogtxt       "It looks like…"
 code047b        
 code0309        
@@ -291,4 +291,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
