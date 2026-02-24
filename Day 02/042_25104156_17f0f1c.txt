@@ -83,7 +83,7 @@ code0479        1, 4, 16
 call            @Func_10e4
 dialogtxt       "You say it like it's no big deal,"
 dialogtxt       "but you already have two guests."
-dialogtxt       "It's tough in a lot ways, right?"
+dialogtxt       "It's tough in a lot of ways, right?"
 code0309        
 call            @Func_111a
 code0479        0, 0, 16
@@ -95,7 +95,7 @@ call            @Func_10ae
 code0479        1, 2, 13
 call            @Func_10e4
 dialogtxt       "You better make sure"
-dialogtxt       "to help out V.E out."
+dialogtxt       "to help V.E out."
 dialogtxt       "For Rob's sake and hers."
 code0309        
 call            @Func_111a

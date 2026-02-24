@@ -181,7 +181,7 @@ dialogtxt       "  Murno's enemies, they said…  "
 dialogtxt       " I wonder who they really are… "
 code030a        6, 1
 dialogtxt       "  Thinking about things like that  "
-dialogtxt       "makes me uncertainabout the future."
+dialogtxt       "makes me uncertain about the future."
 code030a        6, 1
 dialogtxt       "  But, for now, the question is,  "
 dialogtxt       "      what to do about Tier?      "
