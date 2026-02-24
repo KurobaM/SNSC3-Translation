@@ -125,7 +125,7 @@ dialogtxt       "No, wait…"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 14
-dialogtxt       "…How could he"
+dialogtxt       "… How could he"
 dialogtxt       "have known about them?"
 code0309        
 call            @Func_1102

@@ -43,11 +43,11 @@ code0331        32, 256
 code0479        0, 7, 13
 code0479        1, 1, 13
 jumpz           @Cond_0238, ($b002 == 0)
-dialogbig       24, 116, 1, 0, 0, "…Woohoo!"
+dialogbig       24, 116, 1, 0, 0, "… Woohoo!"
 goto            @Label_026e
 
 @Cond_0238:
-dialogbig       24, 116, 1, 0, 0, "…Yippie!"
+dialogbig       24, 116, 1, 0, 0, "… Yippie!"
 goto            @Label_026e
 
 @Label_026e:
@@ -64,12 +64,12 @@ code0479        0, 2, 12
 call            @Func_0d86
 jumpz           @Cond_034a, ($b002 == 0)
 dialogtxt       "Until we test it."
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 goto            @Label_0376
 
 @Cond_034a:
 dialogtxt       "Until we test it."
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 goto            @Label_0376
 
 @Label_0376:
@@ -105,7 +105,7 @@ code0309
 call            @Func_0dbc
 code0479        1, 2, 16
 call            @Func_0df2
-dialogtxt       "Right…, think of it as"
+dialogtxt       "Right… Think of it as"
 dialogtxt       "putting your all of your training"
 dialogtxt       "with [NAME 1] to the test…"
 code0309        

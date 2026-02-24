@@ -28,7 +28,7 @@ code0479        1, 4, 16
 code047d        1, 107
 call            @Func_1958
 call            @Func_1880
-dialogtxt       "…Murno?"
+dialogtxt       "… Murno?"
 code047b        
 code0309        
 call            @Func_19ae
@@ -228,7 +228,7 @@ dialogtxt       "but one day those people showed up…"
 dialogtxt       "They demanded the Stone, and they…"
 code0309        
 code0479        1, 3, 12
-dialogtxt       "They… ruined the village…"
+dialogtxt       "They… Ruined the village…"
 dialogtxt       "Attacked its people…"
 dialogtxt       "It was horrible…"
 code0309        
@@ -309,7 +309,7 @@ code0309
 call            @Func_18d4
 code0479        1, 5, 14
 call            @Func_190a
-dialogtxt       "…[NAME 2]?"
+dialogtxt       "… [NAME 2]?"
 code0309        
 call            @Func_1940
 code0479        0, 2, 16

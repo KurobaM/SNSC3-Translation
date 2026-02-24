@@ -115,7 +115,7 @@ code0333        2, 30
 code0479        1, 2, 12
 call            @Func_2304
 dialogtxt       "Well obviously…"
-dialogtxt       "…Oh, wait…"
+dialogtxt       "… Oh, wait…"
 code0309        
 code0334        
 code0331        31, 256

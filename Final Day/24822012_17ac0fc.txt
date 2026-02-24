@@ -284,7 +284,7 @@ call            @Func_2c12
 jumpz           @Cond_0cf6, ($b002 == 0)
 dialogtxt       "So far, we know that Murno and the"
 dialogtxt       "others went further in the ruins."
-dialogtxt       "…And that's all, I guess."
+dialogtxt       "… And that's all, I guess."
 code0309        
 code0479        0, 2, 15
 dialogtxt       "We don't have any choice, do we?"
@@ -294,7 +294,7 @@ goto            @Label_0d8c
 @Cond_0cf6:
 dialogtxt       "So far, we know that Murno and the"
 dialogtxt       "others went further in the ruins."
-dialogtxt       "…And that's all, I guess."
+dialogtxt       "… And that's all, I guess."
 code0309        
 code0479        0, 2, 15
 dialogtxt       "We don't have any choice, do we?"
@@ -538,13 +538,13 @@ call            @Func_2cb4
 code0479        0, 2, 16
 call            @Func_2c12
 jumpz           @Cond_189c, ($b002 == 0)
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_18e8
 
 @Cond_189c:
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_18e8
@@ -582,19 +582,19 @@ jumpz           @Cond_1bc6, ($b003 == 1)
 call            @Func_2c60
 dialogtxt       "I sensed a tremendous surge"
 dialogtxt       "of energy deep within the ruins"
-dialogtxt       "just now…be careful!"
+dialogtxt       "just now… Be careful!"
 code0309        
 call            @Func_2cb4
 code0479        0, 2, 16
 call            @Func_2c12
 jumpz           @Cond_1a98, ($b002 == 0)
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ae4
 
 @Cond_1a98:
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ae4
@@ -639,13 +639,13 @@ call            @Func_2cb4
 code0479        0, 2, 16
 call            @Func_2c12
 jumpz           @Cond_1c98, ($b002 == 0)
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ce4
 
 @Cond_1c98:
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ce4
@@ -690,13 +690,13 @@ call            @Func_2cb4
 code0479        0, 2, 16
 call            @Func_2c12
 jumpz           @Cond_1e94, ($b002 == 0)
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ee0
 
 @Cond_1e94:
-dialogtxt       "Look…I see something"
+dialogtxt       "Look… I see something"
 dialogtxt       "huge right over there!"
 dialogtxt       "I think Murno's there too…"
 goto            @Label_1ee0
@@ -838,7 +838,7 @@ code0309
 call            @Func_2c48
 code0479        1, 2, 16
 call            @Func_2c7e
-dialogtxt       "Hrm…It's likely that there a lot"
+dialogtxt       "Hrm… It's likely that there a lot"
 dialogtxt       "of lot of casualities from that"
 dialogtxt       "blast. We should flee while we can."
 code0309        
@@ -906,7 +906,7 @@ code0309
 call            @Func_2c48
 code0479        1, 0, 13
 call            @Func_2c7e
-dialogtxt       "Huff…that blast just now"
+dialogtxt       "Huff… That blast just now"
 dialogtxt       "really took a huge toll on me…"
 dialogtxt       "Guess I'll see what I can do."
 code0309        
@@ -918,7 +918,7 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_2ccc
 call            @Func_2c12
-dialogtxt       "I'm concerned about you…If you"
+dialogtxt       "I'm concerned about you… If you"
 dialogtxt       "weren't here, [NAME 1], I can't"
 dialogtxt       "imagine what would happen next…"
 code047b        
@@ -929,9 +929,9 @@ code0309
 call            @Func_2c48
 code0479        1, 2, 12
 call            @Func_2c7e
-dialogtxt       "Tsk…If you really mean it, then"
+dialogtxt       "Tsk… If you really mean it, then"
 dialogtxt       "you two better not be reckless!"
-dialogtxt       "…Promise me that."
+dialogtxt       "… Promise me that."
 code0309        
 call            @Func_2d22
 call            @Func_2cb4
@@ -975,7 +975,7 @@ code0309
 call            @Func_2c48
 code0479        1, 2, 14
 call            @Func_2c7e
-dialogtxt       "Indeed…We're likely to get"
+dialogtxt       "Indeed… We're likely to get"
 dialogtxt       "injured from that blast earlier."
 dialogtxt       "Let's hurry and leave…"
 code0309        

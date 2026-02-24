@@ -363,7 +363,7 @@ code047d        0, 107
 call            @Func_370c
 call            @Func_3634
 dialogtxt       "I sense something amiss…"
-dialogtxt       "…The Demon Stone!"
+dialogtxt       "… The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -600,7 +600,7 @@ call            @Func_370c
 call            @Func_3634
 dialogtxt       "Something feels off here…"
 code0309	
-dialogtxt       "…The Demon Stone!"
+dialogtxt       "… The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -835,7 +835,7 @@ code047d        0, 107
 call            @Func_370c
 call            @Func_3634
 dialogtxt       "I can sense something amiss…"
-dialogtxt       "…The Demon Stone!"
+dialogtxt       "… The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762

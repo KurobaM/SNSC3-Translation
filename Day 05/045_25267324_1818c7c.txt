@@ -477,7 +477,7 @@ call            @Func_3a34
 code043c        6, 2
 code0479        1, 2, 14
 call            @Func_3a6a
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh…!"
 dialogtxt       "You're creeping me out…"
 code0309        
 call            @Func_3aa0
@@ -586,7 +586,7 @@ call            @Func_3aa0
 code0479        0, 4, 16
 call            @Func_39fe
 dialogtxt       "No…"
-dialogtxt       "[NAME 2]…, [NAME 1]…"
+dialogtxt       "[NAME 2]… [NAME 1]…"
 dialogtxt       "I…"
 code0309        
 call            @Func_3a34

@@ -120,7 +120,7 @@ code0309
 call            @Func_0ea2
 code0479        1, 2, 16
 call            @Func_0ed8
-dialogtxt       "Lemmy…, I see…"
+dialogtxt       "Lemmy… I see…"
 dialogtxt       "Which reminds me, did you"
 dialogtxt       "see a Summon Beast then?"
 code0309        

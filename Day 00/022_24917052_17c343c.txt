@@ -248,7 +248,7 @@ code047d        0, 106
 call            @Func_15d2
 call            @Func_14fa
 dialogtxt       "This is…"
-dialogtxt       "This is all my fault…of course…"
+dialogtxt       "This is all my fault… Of course…"
 code047b        
 code0309        
 call            @Func_154e

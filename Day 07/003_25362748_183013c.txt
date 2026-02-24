@@ -351,7 +351,7 @@ code0479        1, 0, 12
 code047d        1, 136
 call            @Func_1b28
 call            @Func_1a90
-dialogtxt       "Mm…, I see…"
+dialogtxt       "Mm… I see…"
 dialogtxt       "Then, I'll see what Tram thinks."
 code047b        
 code0309        

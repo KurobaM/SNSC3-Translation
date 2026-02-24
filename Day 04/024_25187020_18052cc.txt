@@ -47,7 +47,7 @@ call            @Func_0b20
 jumpz           @Cond_0252, ($b003 == 0)
 dialogtxt       "Downtown, Past The"
 dialogtxt       "Turn At the Dead End."
-dialogtxt       "…Is What Jade Said."
+dialogtxt       "… Is What Jade Said."
 code0309        
 dialogtxt       "Based On That,"
 dialogtxt       "I Believe It Is That Way."

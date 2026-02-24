@@ -473,7 +473,7 @@ call            @Func_30ba
 code0333        2, 30
 code0479        0, 5, 16
 call            @Func_3018
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 call            @Func_3154
 call            @Func_3036

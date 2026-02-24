@@ -158,7 +158,7 @@ goto            @Cond_0572
 
 @Cond_0572:
 jumpz           @Cond_05b8, ($b003 == 2)
-dialogtxt       "So that's… what it was…"
+dialogtxt       "So that's… What it was…"
 dialogtxt       "Then I have no business here…"
 goto            @Cond_05b8
 

@@ -518,7 +518,7 @@ code0309
 call            @Func_210e
 code0479        0, 6, 12
 call            @Func_206c
-dialogtxt       "Y-yes…"
+dialogtxt       "Y-Yes…"
 dialogtxt       "Um, δ, I…"
 code0309        
 call            @Func_21a8

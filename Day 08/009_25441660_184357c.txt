@@ -289,7 +289,7 @@ call            @Func_19da
 call            @Func_1976
 dialogtxt       "Ah… What Jade's trying"
 dialogtxt       "to say is to protect the Stone."
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 code047b        
 code0309        
 code0479        1, 0, 12

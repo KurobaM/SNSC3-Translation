@@ -613,12 +613,12 @@ code043c        0, 2
 code0479        1, 4, 12
 call            @Func_44c0
 jumpz           @Cond_1d56, ($b002 == 0)
-dialogtxt       "S-sorry…"
+dialogtxt       "S-Sorry…"
 dialogtxt       "I even made Lemmy worry about me."
 goto            @Label_1d88
 
 @Cond_1d56:
-dialogtxt       "S-sorry…"
+dialogtxt       "S-Sorry…"
 dialogtxt       "I even made Lemmy worry about me."
 goto            @Label_1d88
 
@@ -651,7 +651,7 @@ code0479        1, 1, 13
 code047d        1, 116
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "Fu… haha…"
+dialogtxt       "Fu… Haha…"
 dialogtxt       "Ahahaha…!"
 code047b        
 code0309        
@@ -665,7 +665,7 @@ code0334
 code046e        39, 256, 2
 code0479        0, 2, 16
 call            @Func_4454
-dialogtxt       "…What's so funny?"
+dialogtxt       "… What's so funny?"
 code0309        
 call            @Func_457a
 call            @Func_448a
@@ -968,7 +968,7 @@ code0479        0, 2, 17
 code047d        0, 115
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "Sh… shit!"
+dialogtxt       "Sh… Shit!"
 dialogtxt       "Why you…!"
 code047b        
 code0309        

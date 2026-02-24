@@ -554,7 +554,7 @@ code0479        0, 4, 16
 code047d        0, 135
 call            @Func_3034
 call            @Func_2f7a
-dialogtxt       "T-The…S-Summonite…"
+dialogtxt       "T-The… S-Summonite…"
 dialogtxt       "Where is…"
 code047b        
 code0309        
@@ -820,11 +820,11 @@ call            @Func_2fb0
 code0479        1, 2, 16
 call            @Func_2fe6
 jumpz           @Cond_2828, ($b002 == 0)
-dialogtxt       "Is… that so…?"
+dialogtxt       "Is… That so…?"
 goto            @Label_283e
 
 @Cond_2828:
-dialogtxt       "Is… that so…?"
+dialogtxt       "Is… That so…?"
 goto            @Label_283e
 
 @Label_283e:
@@ -858,7 +858,7 @@ code0309
 call            @Func_2fb0
 code0479        1, 2, 14
 call            @Func_2fe6
-dialogtxt       "… !"
+dialogtxt       "…!"
 dialogtxt       "Got it!"
 code0309        
 code0479        1, 2, 15

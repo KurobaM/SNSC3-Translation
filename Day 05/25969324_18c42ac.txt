@@ -376,7 +376,7 @@ code0479        0, 0, 12
 code0479        1, 0, 13
 call            @Func_1fa2
 dialogtxt       "Whaaat!? No way!!!"
-dialogtxt       "…Hmm, but this looks sturdy."
+dialogtxt       "… Hmm, but this looks sturdy."
 dialogtxt       "I did ask you to help me, anyways…"
 code0309        
 code0479        0, 0, 12
@@ -476,7 +476,7 @@ dialogtxt       "If you get it done, that means…"
 code0309        
 call            @Func_1f8a
 call            @Func_1fc0
-dialogtxt       "…I'll pay you up real nicely!"
+dialogtxt       "… I'll pay you up real nicely!"
 dialogtxt       "(Not with money, though…)"
 code0309        
 call            @Func_2090

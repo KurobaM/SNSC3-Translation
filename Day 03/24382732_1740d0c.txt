@@ -67,7 +67,7 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 14
 call            @Func_2226
-dialogtxt       "…Fine."
+dialogtxt       "… Fine."
 code0309        
 call            @Func_22f6
 call            @Func_2244
@@ -665,12 +665,12 @@ call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_17fc, ($b002 == 0)
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1830
 
 @Cond_17fc:
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1830
 
@@ -730,12 +730,12 @@ call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1a7a, ($b002 == 0)
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1aae
 
 @Cond_1a7a:
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1aae
 
@@ -796,12 +796,12 @@ call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1d12, ($b002 == 0)
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1d46
 
 @Cond_1d12:
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1d46
 
@@ -862,12 +862,12 @@ call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1f9c, ($b002 == 0)
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1fd0
 
 @Cond_1f9c:
-dialogtxt       "…Worried about the guys"
+dialogtxt       "… Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1fd0
 

@@ -89,7 +89,7 @@ call            @Func_16ec
 code0479        0, 1, 16
 call            @Func_164a
 jumpz           @Cond_0406, ($b002 == 0)
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -99,7 +99,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_0488
 
 @Cond_0406:
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -170,7 +170,7 @@ call            @Func_16ec
 code0479        0, 1, 16
 call            @Func_164a
 jumpz           @Cond_07bc, ($b002 == 0)
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -181,7 +181,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_083e
 
 @Cond_07bc:
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -241,7 +241,7 @@ call            @Func_16ec
 code0479        0, 0, 12
 call            @Func_164a
 jumpz           @Cond_0b4e, ($b002 == 0)
-dialogtxt       "Oh… , yeah…"
+dialogtxt       "Oh… Yeah…"
 dialogtxt       "Right!"
 dialogtxt       "I'll do my best!"
 code0309        
@@ -252,7 +252,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_0bd8
 
 @Cond_0b4e:
-dialogtxt       "Oh… , yeah…"
+dialogtxt       "Oh… Yeah…"
 dialogtxt       "Right!"
 dialogtxt       "I'll do my best!"
 code0309        

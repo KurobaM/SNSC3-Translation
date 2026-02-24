@@ -744,13 +744,13 @@ goto            @Cond_1d18
 
 @Cond_1d18:
 jumpz           @Cond_1d44, ($b003 == 2)
-dialogtxt       "…Tch."
+dialogtxt       "… Tch."
 dialogtxt       "Alright, fine…"
 goto            @Cond_1d44
 
 @Cond_1d44:
 jumpz           @Cond_1d6c, ($b003 == 3)
-dialogtxt       "Y-yes, of course…"
+dialogtxt       "Y-Yes, of course…"
 goto            @Cond_1d6c
 
 @Cond_1d6c:

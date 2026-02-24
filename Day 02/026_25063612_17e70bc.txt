@@ -802,7 +802,7 @@ code0309
 call            @Func_3f30
 code0479        0, 5, 14
 call            @Func_3e8e
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 call            @Func_3ec4
 code0479        1, 2, 12
@@ -867,7 +867,7 @@ goto            @Cond_277e
 
 @Cond_277e:
 jumpz           @Cond_28ca, ($b003 == 1)
-dialogtxt       "…All we can do is fight"
+dialogtxt       "… All we can do is fight"
 dialogtxt       "and retrieve that stone."
 code047b        
 code0309        
@@ -993,7 +993,7 @@ code043c        2, 4
 code0479        0, 2, 17
 call            @Func_3e8e
 dialogtxt       "But…"
-dialogtxt       "I have to! …"
+dialogtxt       "I have to!"
 dialogtxt       "If I don't guard it…"
 code0309        
 call            @Func_3ec4
@@ -1252,7 +1252,7 @@ code0309
 call            @Func_3f30
 code0479        0, 2, 14
 call            @Func_3e8e
-dialogtxt       "…Okay."
+dialogtxt       "… Okay."
 dialogtxt       "Let's go."
 code0309        
 call            @Func_3fca

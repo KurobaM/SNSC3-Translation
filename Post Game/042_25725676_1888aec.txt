@@ -71,13 +71,13 @@ code047d        1, 108
 call            @Func_2384
 call            @Func_22ec
 dialogtxt       "What!?"
-dialogtxt       "Y-you guys… really…"
+dialogtxt       "Y-You guys… really…"
 dialogtxt       "Saved up one million Boam…"
 code047b        
 code0309        
 code0479        1, 6, 16
 dialogtxt       "Amazing…"
-dialogtxt       "Sipmly amazing…!"
+dialogtxt       "Simply amazing…!"
 dialogtxt       "You guys are awesome!"
 code0309        
 code0479        1, 7, 13

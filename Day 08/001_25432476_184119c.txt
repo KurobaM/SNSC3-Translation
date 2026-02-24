@@ -14,7 +14,7 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        0, 0, 14
-dialogtxt       "…But… Actually,"
+dialogtxt       "… But… Actually,"
 dialogtxt       "I'm bad at public speaking."
 goto            @Label_01ac
 
@@ -26,7 +26,7 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        0, 0, 14
-dialogtxt       "…But… Actually,"
+dialogtxt       "… But… Actually,"
 dialogtxt       "I'm bad at public speaking."
 goto            @Label_01ac
 
@@ -59,7 +59,7 @@ code0309
 call            @Func_13c4
 code0479        0, 1, 16
 call            @Func_1322
-dialogtxt       "…Hey,"
+dialogtxt       "… Hey,"
 dialogtxt       "I don't want to hear that from you!"
 code0309        
 code0479        0, 2, 14
@@ -189,7 +189,7 @@ code0309
 call            @Func_13c4
 code0479        0, 1, 17
 call            @Func_1322
-dialogtxt       "…Hey,"
+dialogtxt       "… Hey,"
 dialogtxt       "I don't want to hear that from you!"
 code0309        
 code0479        0, 2, 12

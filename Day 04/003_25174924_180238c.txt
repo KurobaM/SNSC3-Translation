@@ -282,7 +282,7 @@ code0309
 call            @Func_1630
 code0479        0, 2, 14
 call            @Func_158e
-dialogtxt       "Y-yes!"
+dialogtxt       "Y-Yes!"
 goto            @Cond_0c4c
 
 @Cond_0c4c:
@@ -326,7 +326,7 @@ code0309
 call            @Func_1630
 code0479        0, 2, 14
 call            @Func_158e
-dialogtxt       "Y-yes!"
+dialogtxt       "Y-Yes!"
 goto            @Cond_0dbc
 
 @Cond_0dbc:

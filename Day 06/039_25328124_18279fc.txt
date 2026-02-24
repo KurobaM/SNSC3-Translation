@@ -118,11 +118,11 @@ call            @Func_0e16
 code0479        0, 2, 16
 call            @Func_0d74
 jumpz           @Cond_04b0, ($b002 == 0)
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 goto            @Label_04c2
 
 @Cond_04b0:
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 goto            @Label_04c2
 
 @Label_04c2:
@@ -156,7 +156,7 @@ goto            @Label_07d0
 code0479        0, 2, 16
 dialogtxt       "Hey…"
 dialogtxt       "You're the real Murno…"
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 code0309        
 call            @Func_0daa
 code0479        1, 2, 14

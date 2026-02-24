@@ -289,7 +289,7 @@ code0309
 call            @Func_1670
 code0479        0, 5, 13
 call            @Func_15ce
-dialogtxt       "What…Oh…"
+dialogtxt       "What… Oh…"
 jumpz           @Cond_0c5e, ($b002 == 0)
 dialogtxt       "M-me neither."
 goto            @Label_0c72

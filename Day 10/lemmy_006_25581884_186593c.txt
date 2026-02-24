@@ -164,13 +164,13 @@ call            @Func_1fa4
 code0334        
 code0331        33, 256
 jumpz           @Cond_082e, ($b002 == 0)
-dialogtxt       "Ah…, sorry…"
+dialogtxt       "Ah… Sorry…"
 dialogtxt       "This seems pretty serious."
 dialogtxt       "Um, if you don't want to talk…"
 goto            @Label_0878
 
 @Cond_082e:
-dialogtxt       "Ah…, um…"
+dialogtxt       "Ah… Um…"
 dialogtxt       "This seems pretty serious."
 dialogtxt       "Um, if you don't want to talk…"
 goto            @Label_0878
@@ -439,7 +439,7 @@ code0309
 call            @Func_2046
 code0479        0, 7, 14
 call            @Func_1fa4
-dialogtxt       "Eh…, really?"
+dialogtxt       "Eh… Really?"
 dialogtxt       "You're making me blush…"
 code0309        
 call            @Func_1fda

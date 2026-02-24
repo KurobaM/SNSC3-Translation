@@ -260,7 +260,7 @@ code0309
 call            @Func_4c80
 code0479        1, 0, 12
 call            @Func_4cb6
-dialogtxt       "…Whatever you say."
+dialogtxt       "… Whatever you say."
 code0309        
 jumpz           @Cond_0c12, ($f0132 == 0)
 call            @Func_4cec
@@ -272,7 +272,7 @@ code0309
 call            @Func_4c80
 code0479        1, 0, 13
 call            @Func_4cb6
-dialogtxt       "…No idea."
+dialogtxt       "… No idea."
 dialogtxt       "But I found it quite entertaining."
 code0309        
 call            @Func_4cec
@@ -370,7 +370,7 @@ code0309
 call            @Func_4cec
 code0479        0, 1, 16
 call            @Func_4c4a
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 code0309        
 call            @Func_4d86
 call            @Func_4c68

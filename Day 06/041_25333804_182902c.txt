@@ -12,7 +12,7 @@ code0309
 call            @Func_27b0
 code0479        0, 2, 14
 call            @Func_270e
-dialogtxt       "[NAME 1]…Murno…"
+dialogtxt       "[NAME 1]… Murno…"
 jumpz           @Cond_00ee, ($b002 == 0)
 dialogtxt       "I…"
 dialogtxt       "I…!"
@@ -707,7 +707,7 @@ code0309
 call            @Func_27b0
 code0479        0, 5, 16
 call            @Func_270e
-dialogtxt       "Eh… ehh!?"
+dialogtxt       "Eh… Ehh!?"
 dialogtxt       "What's going on!?"
 code0309        
 call            @Func_2744

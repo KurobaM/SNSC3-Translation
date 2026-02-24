@@ -124,7 +124,7 @@ code0309
 call            @Func_1a5e
 code0479        1, 2, 15
 call            @Func_1a94
-dialogtxt       "Th-that's not true!"
+dialogtxt       "Th-That's not true!"
 code0309        
 call            @Func_1aca
 code0479        0, 1, 16
@@ -264,7 +264,7 @@ code0309
 code0479        0, 1, 13
 dialogtxt       "So, the reason I won was"
 dialogtxt       "because you were there, [NAME 1]."
-dialogtxt       "…Isn't that right?"
+dialogtxt       "… Isn't that right?"
 goto            @Label_0ea6
 
 @Cond_0d88:
@@ -280,7 +280,7 @@ code0309
 code0479        0, 1, 13
 dialogtxt       "So, the reason I won was"
 dialogtxt       "because you were there, [NAME 1]."
-dialogtxt       "…Isn't that right?"
+dialogtxt       "… Isn't that right?"
 goto            @Label_0ea6
 
 @Label_0ea6:
@@ -353,7 +353,7 @@ call            @Func_1aca
 jumpz           @Cond_1244, ($b002 == 0)
 code0479        0, 11, 16
 call            @Func_1a28
-dialogtxt       "W-well, uh…"
+dialogtxt       "W-Well, uh…"
 dialogtxt       "I guess that's fine…"
 goto            @Label_129a
 

@@ -258,7 +258,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Er, what was that idiom, again?"
 dialogtxt       "\"Every cloud has a silver lining.\""
-dialogtxt       "…Or something?"
+dialogtxt       "… Or something?"
 code0309        
 dialogtxt       "It's as if we never"
 dialogtxt       "fought to begin with."

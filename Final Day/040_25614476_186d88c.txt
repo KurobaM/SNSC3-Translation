@@ -322,7 +322,7 @@ goto            @Cond_0d0c
 
 @Cond_0d0c:
 jumpz           @Cond_0d48, ($b003 == 3)
-dialogtxt       "B…but…!"
+dialogtxt       "B-But…!"
 dialogtxt       "Why!?"
 goto            @Cond_0d48
 
@@ -611,12 +611,12 @@ call            @Func_374e
 call            @Func_3676
 jumpz           @Cond_19e6, ($b002 == 0)
 dialogtxt       "…"
-dialogtxt       "What…was that…"
+dialogtxt       "What… Was that…"
 goto            @Label_1a02
 
 @Cond_19e6:
 dialogtxt       "…"
-dialogtxt       "What…was that…"
+dialogtxt       "What… Was that…"
 goto            @Label_1a02
 
 @Label_1a02:
@@ -769,7 +769,7 @@ code0479        0, 4, 14
 code047d        0, 0
 call            @Func_374e
 call            @Func_3694
-dialogtxt       "Ah…, yeah…"
+dialogtxt       "Ah… Yeah…"
 dialogtxt       "We just saw her…"
 dialogtxt       "But…"
 code047b        

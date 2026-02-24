@@ -121,7 +121,7 @@ call            @Func_1066
 code043c        0, 3
 code0479        0, 5, 16
 call            @Func_0fc4
-dialogtxt       "…Right."
+dialogtxt       "… Right."
 code0309        
 call            @Func_10ea
 code047b        
@@ -148,7 +148,7 @@ code0309
 call            @Func_0ffa
 code0479        1, 2, 16
 call            @Func_1030
-dialogtxt       "…What was that?"
+dialogtxt       "… What was that?"
 code0309        
 call            @Func_1066
 code0479        0, 2, 12
@@ -192,7 +192,7 @@ code0309
 call            @Func_0ffa
 code0479        1, 2, 16
 call            @Func_1030
-dialogtxt       "…Dammit!"
+dialogtxt       "… Dammit!"
 code0309        
 call            @Func_1100
 call            @Func_104e

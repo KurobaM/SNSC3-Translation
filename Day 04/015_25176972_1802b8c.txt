@@ -308,7 +308,7 @@ dialogtxt       "Don't look at me like that…"
 goto            @Label_0d80
 
 @Cond_0d62:
-dialogtxt       "Hey…say something…"
+dialogtxt       "Hey… Say something…"
 goto            @Label_0d80
 
 @Label_0d80:

@@ -6,7 +6,7 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_1eca
 call            @Func_1dc6
-dialogtxt       "…So, in other words…"
+dialogtxt       "… So, in other words…"
 code047b        
 code0309        
 call            @Func_1e1a
@@ -223,7 +223,7 @@ goto            @Cond_0aa2
 
 @Cond_0aa2:
 jumpz           @Cond_0ade, ($b003 == 3)
-dialogtxt       "B-but…"
+dialogtxt       "B-But…"
 dialogtxt       "Those people are surely…"
 goto            @Cond_0ade
 
@@ -293,7 +293,7 @@ goto            @Label_0d06
 
 @Label_0d06:
 call            @Func_1de4
-dialogtxt       "…！"
+dialogtxt       "…!"
 code0309        
 call            @Func_1f20
 call            @Func_1e02
@@ -380,7 +380,7 @@ code0309
 call            @Func_1e1a
 code0479        1, 2, 14
 call            @Func_1e50
-dialogtxt       "…Tch!"
+dialogtxt       "… Tch!"
 dialogtxt       "You're right, I'd just be"
 dialogtxt       "drawing more attention to us…"
 code0309        
@@ -467,7 +467,7 @@ call            @Func_1e1a
 code0479        1, 4, 16
 call            @Func_1e50
 dialogtxt       "Ah…"
-dialogtxt       "Th-that's true…"
+dialogtxt       "Th-That's true…"
 dialogtxt       "Fine."
 code0309        
 call            @Func_1ef4

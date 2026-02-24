@@ -267,7 +267,7 @@ call            @Func_3576
 code0479        0, 2, 16
 call            @Func_34d4
 dialogtxt       "You're talking about your tail…"
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 code0309        
 call            @Func_350a
 code0479        1, 1, 15
@@ -446,7 +446,7 @@ call            @Func_3576
 code0479        0, 2, 16
 call            @Func_34d4
 dialogtxt       "You're talking about your tail…"
-dialogtxt       "…Right?"
+dialogtxt       "… Right?"
 code0309        
 call            @Func_350a
 code0479        1, 1, 15
@@ -1142,13 +1142,13 @@ code047d        0, 0
 call            @Func_358e
 call            @Func_34b6
 jumpz           @Cond_2de0, ($b002 == 0)
-dialogtxt       "…Ugh!"
+dialogtxt       "… Ugh!"
 dialogtxt       "I have to save"
 dialogtxt       "[NAME 1] first!"
 goto            @Label_2e14
 
 @Cond_2de0:
-dialogtxt       "…Ugh!"
+dialogtxt       "… Ugh!"
 dialogtxt       "I have to save"
 dialogtxt       "[NAME 1] first!"
 goto            @Label_2e14

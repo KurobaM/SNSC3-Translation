@@ -596,7 +596,7 @@ code0309
 call            @Func_2172
 code0479        0, 1, 14
 call            @Func_20d0
-dialogtxt       "…Right…"
+dialogtxt       "… Right…"
 goto            @Label_1a40
 
 @Cond_1872:

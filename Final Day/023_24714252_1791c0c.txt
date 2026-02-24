@@ -259,7 +259,7 @@ dialogtxt       "BECAUSE of his injury, y'know…"
 code0309        
 dialogtxt       "You think Craftknightship"
 dialogtxt       "is a joke to you?!"
-dialogtxt       "…Is what I oughta say, but…"
+dialogtxt       "… Is what I oughta say, but…"
 code0309        
 dialogtxt       "Hell, not even my own parents"
 dialogtxt       "worry about me that much…"

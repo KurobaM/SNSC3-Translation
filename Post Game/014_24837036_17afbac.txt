@@ -559,7 +559,7 @@ goto            @Choice_1a88
 
 @Choice_1a88:
 code047e        0, 1
-dialogtxt       "…Oh, that's too bad…"
+dialogtxt       "… Oh, that's too bad…"
 dialogtxt       "Well, you could always give it"
 dialogtxt       "another shot next time!"
 code0309        

@@ -247,12 +247,12 @@ call            @Func_1468
 call            @Func_13e6
 jumpz           @Cond_0968, ($b002 == 0)
 dialogtxt       "Wait…"
-dialogtxt       "Are you… crying?"
+dialogtxt       "Are you… Crying?"
 goto            @Label_0994
 
 @Cond_0968:
 dialogtxt       "Wait…"
-dialogtxt       "Are you… crying?"
+dialogtxt       "Are you… Crying?"
 goto            @Label_0994
 
 @Label_0994:
