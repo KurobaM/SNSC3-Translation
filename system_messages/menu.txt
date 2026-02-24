@@ -12,7 +12,7 @@ menutxtp 0x08bc9d08, "Item", 12 ; 0x080bacd8="アイテム"
 menutxtp 0x08bc9d0c, "Magic", 8 ; 0x080bacd0="魔法"
 menutxtp 0x08bc9d10, "Weapon", 8 ; 0x080bacc8="武器"
 menutxtp 0x08bc9d14, "Status", 12 ; 0x080bacbc="ステータス"
-menutxtp 0x08bc9d18, "＞", 4 ; 0x080bacb8="＞"
+menutxtp 0x08bc9d18, ">", 4 ; 0x080bacb8="＞"
 
 ; Secondary menu
 menutxtp 0x08bc9d20, "Quests", 8 ; 0x080bad38="貴重品"
@@ -251,7 +251,7 @@ menutxtp 0x08bca060, "\"Refine\" has been enhanced!", 36 ; 0x080bb4e4="「強刃
 menutxtp 0x08bca064, "Assign up to", 24 ; 0x080bb49c="４ポイントになりました"
 menutxtp 0x08bca068, "4 points", 4 ; 0x080bb69c="　"
 ; Shown in bestiary descriptions.
-menutxtp 0x08bca06c, "＜Details＞", 12 ; 0x080bb6a0="＜解説＞"
+menutxtp 0x08bca06c, "<Details>", 12 ; 0x080bb6a0="＜解説＞"
 ; Unknown bestiary item/description.
 menutxtp 0x08bca070, "--------", 20 ; 0x080bb6ac="−−−−−−−−"
 ; Unknown bestiary entries.
@@ -340,7 +340,7 @@ menutxtp 0x08bbc9f4, "learned [NAME 3] !", 16 ; 0x08bbc972="[NAME 3]　を覚え
 menutxtp 0x08bbc9f8, "learned [NAME 4] !", 16 ; 0x08bbc982="[NAME 4]　を覚えた！"
 menutxtp 0x08bbc9fc, "Learned more magic!!", 30 ; 0x08bbc992="さらに新しい魔法を覚えた！！"
 menutxtp 0x08bbca00, "Learned new magic!!", 24 ; 0x08bbc9b0="新しい魔法を覚えた！！"
-menutxtp 0x08bbca04, "＜[NAME 3]＞", 8 ; 0x08bbc9c8="＜[NAME 3]＞"
+menutxtp 0x08bbca04, "<[NAME 3]>", 8 ; 0x08bbc9c8="＜[NAME 3]＞"
 menutxtp 0x08bbca08, " ", 4 ; 0x080bac78=""
 
 
