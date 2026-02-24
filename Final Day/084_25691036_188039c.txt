@@ -402,7 +402,7 @@ code0479        0, 3, 15
 code047d        0, 111
 call            @Func_1e5e
 call            @Func_1d86
-dialogtxt       "Damn… it!"
+dialogtxt       "Damn… It!"
 code0309        
 call            @Func_1eb4
 call            @Func_1dc2

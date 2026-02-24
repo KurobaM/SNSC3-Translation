@@ -379,7 +379,7 @@ code047b
 code047d        0, 120
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah…, yes…"
+dialogtxt       "Ah… Yes…"
 dialogtxt       "Not only that,"
 dialogtxt       "there's a lot of them!"
 code0309        

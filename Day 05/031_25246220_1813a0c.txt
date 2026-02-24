@@ -172,7 +172,7 @@ code0309
 call            @Func_174a
 code0479        0, 4, 16
 call            @Func_16a8
-dialogtxt       "Uh…um…"
+dialogtxt       "Uh… Um…"
 dialogtxt       "Mr. Jade left to fight Strays,"
 dialogtxt       "and then, Ms. Murno, umm…"
 code0309        
@@ -257,7 +257,7 @@ goto            @Cond_0a4e
 
 @Cond_0a4e:
 jumpz           @Cond_0a7a, ($b003 == 1)
-dialogtxt       "That's…true…"
+dialogtxt       "That's… True…"
 goto            @Cond_0a7a
 
 @Cond_0a7a:

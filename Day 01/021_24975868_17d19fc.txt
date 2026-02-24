@@ -118,7 +118,7 @@ code0479        0, 1, 16
 code047d        0, 0
 call            @Func_2ee8
 call            @Func_2e2e
-dialogtxt       "…Probably."
+dialogtxt       "… Probably."
 code047b        
 code0309        
 call            @Func_2f3e

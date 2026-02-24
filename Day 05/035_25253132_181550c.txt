@@ -72,7 +72,7 @@ goto            @Cond_0310
 
 @Cond_0310:
 jumpz           @Cond_035a, ($b003 == 2)
-dialogtxt       "…That means"
+dialogtxt       "… That means"
 dialogtxt       "Murno must also be nearby…"
 goto            @Cond_035a
 

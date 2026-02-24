@@ -216,13 +216,13 @@ call            @Func_209c
 code0479        0, 2, 16
 call            @Func_1ffa
 jumpz           @Cond_0a42, ($b002 == 0)
-dialogtxt       "Wh-what's this feeling…!"
+dialogtxt       "Wh-What's this feeling…!"
 dialogtxt       "Shit, my entire body's gone cold…"
 dialogtxt       "What should I…!"
 goto            @Label_0a96
 
 @Cond_0a42:
-dialogtxt       "Wh-what's this feeling…!"
+dialogtxt       "Wh-What's this feeling…!"
 dialogtxt       "Uu, my entire body's gone cold…"
 dialogtxt       "What should I…!"
 goto            @Label_0a96

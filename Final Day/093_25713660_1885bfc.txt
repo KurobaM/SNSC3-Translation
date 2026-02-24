@@ -125,7 +125,7 @@ call            @Func_4f5e
 code0479        0, 5, 16
 call            @Func_4ebc
 jumpz           @Cond_0540, ($b002 == 0)
-dialogtxt       "N…, no…"
+dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
 dialogtxt       "To save me, they…!"
 code0309        
@@ -136,7 +136,7 @@ dialogtxt       "I'm…!"
 goto            @Label_05d8
 
 @Cond_0540:
-dialogtxt       "N…, no…"
+dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
 dialogtxt       "To save me, they…!"
 code0309        
@@ -286,7 +286,7 @@ dialogtxt       "Summon!"
 goto            @Label_0bfe
 
 @Cond_0b5e:
-dialogtxt       "I… don't want this…"
+dialogtxt       "I… Don't want this…"
 dialogtxt       "Summon!"
 code047b        
 code0309        

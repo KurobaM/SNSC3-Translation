@@ -369,7 +369,7 @@ jumpz           @Cond_11f2, !($bv045 & 0x0004)
 dialogtxt       "You're looking for work?"
 dialogtxt       "At such a young age…"
 code0309        
-dialogtxt       "Well…, at this establishment"
+dialogtxt       "Well… At this establishment"
 dialogtxt       "we help combat the growing"
 dialogtxt       "number of Stray Summons."
 code0309        

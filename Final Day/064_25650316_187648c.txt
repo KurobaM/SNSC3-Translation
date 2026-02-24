@@ -54,7 +54,7 @@ dialogtxt       "different from before…"
 goto            @Label_029e
 
 @Cond_0258:
-dialogtxt       "Is…this it?"
+dialogtxt       "Is… This it?"
 dialogtxt       "It doesn't seem any"
 dialogtxt       "different from before…"
 goto            @Label_029e

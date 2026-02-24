@@ -37,7 +37,7 @@ dialogtxt       "Where'd he go!?"
 goto            @Label_0200
 
 @Cond_01c2:
-dialogtxt       "Maybe… they're not here?"
+dialogtxt       "Maybe… They're not here?"
 dialogtxt       "Where'd he go!?"
 goto            @Label_0200
 

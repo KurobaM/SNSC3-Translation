@@ -68,7 +68,7 @@ dialogtxt       "so I came out to get some air."
 code0309        
 code0479        0, 1, 16
 code0479        1, 2, 12
-dialogtxt       "…Hey!"
+dialogtxt       "… Hey!"
 dialogtxt       "I told you not to call me Bro!"
 code0309        
 call            @Func_111a
@@ -175,7 +175,7 @@ code0479        0, 0, 12
 code0479        1, 2, 13
 dialogtxt       "You beat me, so if V.E beats you,"
 dialogtxt       "that would mean…"
-dialogtxt       "…You can't lose this one."
+dialogtxt       "… You can't lose this one."
 code0309        
 call            @Func_111a
 code0479        0, 4, 16

@@ -201,11 +201,11 @@ code0479        0, 1, 16
 call            @Func_18dc
 call            @Func_1822
 jumpz           @Cond_0910, ($b002 == 0)
-dialogtxt       "Th-that's not what I meant!"
+dialogtxt       "Th-That's not what I meant!"
 goto            @Label_092e
 
 @Cond_0910:
-dialogtxt       "Th-that's not what I meant!"
+dialogtxt       "Th-That's not what I meant!"
 goto            @Label_092e
 
 @Label_092e:
@@ -305,7 +305,7 @@ call            @Func_1822
 dialogtxt       "It's no big deal."
 code0309        
 code0479        0, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 dialogtxt       "I was only telling you because"
 dialogtxt       "of Eliez…"
 code0309        

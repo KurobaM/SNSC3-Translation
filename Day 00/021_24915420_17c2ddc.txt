@@ -204,7 +204,7 @@ code0309
 call            @Func_1280
 code0479        0, 5, 16
 call            @Func_11de
-dialogtxt       "…Huh?"
+dialogtxt       "… Huh?"
 code0309        
 code0479        1, 0, 12
 code0479        0, 2, 17

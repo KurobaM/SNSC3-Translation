@@ -230,7 +230,7 @@ code0479        1, 4, 12
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_0ab6
 
 @Label_0ab6:
@@ -380,7 +380,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        1, 4, 12
 code0479        0, 2, 17
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 goto            @Label_11bc
 
 @Cond_115c:
@@ -389,7 +389,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        1, 4, 12
 code0479        0, 2, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Label_11bc
 
 @Label_11bc:
@@ -467,7 +467,7 @@ code0479        1, 4, 16
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_1632
 
 @Label_1632:
@@ -549,7 +549,7 @@ code0309
 call            @Func_32de
 code0479        1, 2, 14
 call            @Func_3314
-dialogtxt       "Tsk…That's stupid."
+dialogtxt       "Tsk… That's stupid."
 dialogtxt       "What about you, why are you here?"
 dialogtxt       "You're an eyesore."
 code0309        
@@ -578,7 +578,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's get along a little better!"
 goto            @Label_1ca6
@@ -589,7 +589,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "…Wait, no!!"
+dialogtxt       "… Wait, no!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's try to get along a bit better!"
 goto            @Label_1ca6
@@ -632,7 +632,7 @@ code0309
 call            @Func_32de
 code0479        1, 2, 12
 call            @Func_3314
-dialogtxt       "Ahh…fine,"
+dialogtxt       "Ahh… Fine,"
 dialogtxt       "I get it already."
 dialogtxt       "You're so irritating."
 code0309        
@@ -645,7 +645,7 @@ code0309
 call            @Func_32de
 code0479        1, 5, 16
 call            @Func_3314
-dialogtxt       "\"that\"…?"
+dialogtxt       "\"That\"…?"
 dialogtxt       "You don't mean…!"
 code0309        
 call            @Func_334a
@@ -657,7 +657,7 @@ code0479        1, 2, 12
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_207a
 
 @Label_207a:
@@ -780,11 +780,11 @@ dialogtxt       "That's right."
 code0309        
 code0479        0, 2, 17
 jumpz           @Cond_26a0, ($b002 == 0)
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 goto            @Label_26ba
 
 @Cond_26a0:
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Label_26ba
 
 @Label_26ba:
@@ -872,7 +872,7 @@ code0479        1, 4, 16
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_2c00
 
 @Label_2c00:
@@ -880,7 +880,7 @@ code0309
 call            @Func_32de
 code0479        1, 4, 13
 call            @Func_3314
-dialogtxt       "E…Excuse me."
+dialogtxt       "E-Excuse me."
 dialogtxt       "This is very embarrassing, still…"
 dialogtxt       "Let us do it another time, please."
 code0309        

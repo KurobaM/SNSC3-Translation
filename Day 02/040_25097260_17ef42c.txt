@@ -723,7 +723,7 @@ call            @Func_2fd4
 code0479        0, 1, 17
 call            @Func_2f32
 jumpz           @Cond_2258, ($b002 == 0)
-dialogtxt       "Uh…Right…"
+dialogtxt       "Uh… Right…"
 dialogtxt       "But I'm talking about when"
 dialogtxt       "we went to get the stone back."
 goto            @Label_22ae

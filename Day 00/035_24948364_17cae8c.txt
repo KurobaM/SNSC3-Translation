@@ -114,7 +114,7 @@ code0479        0, 10, 16
 call            @Func_1130
 dialogtxt       "Um, during the day…"
 dialogtxt       "Look, it wasn't on purpose, but"
-dialogtxt       "Your…You know…"
+dialogtxt       "Your… You know…"
 code0309        
 call            @Func_1166
 code0479        1, 11, 15
@@ -213,7 +213,7 @@ code0309
 call            @Func_1166
 code0479        1, 4, 13
 call            @Func_119c
-dialogtxt       "No…It's okay."
+dialogtxt       "No… It's okay."
 dialogtxt       "Um…"
 dialogtxt       "I'll be heading back now, okay…"
 code0309        

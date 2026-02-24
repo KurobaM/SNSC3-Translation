@@ -78,7 +78,7 @@ goto            @Cond_035a
 
 @Cond_035a:
 jumpz           @Cond_0380, ($b003 == 3)
-dialogtxt       "That girl is … !?"
+dialogtxt       "That girl is…!?"
 goto            @Cond_0380
 
 @Cond_0380:

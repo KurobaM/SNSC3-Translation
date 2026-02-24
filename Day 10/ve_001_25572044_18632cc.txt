@@ -167,13 +167,13 @@ code0479        1, 1, 12
 call            @Func_11a8
 call            @Func_10a4
 jumpz           @Cond_0808, ($b002 == 0)
-dialogtxt       "…Wait, Master!"
+dialogtxt       "… Wait, Master!"
 dialogtxt       "Isn't this your favorite axe,"
 dialogtxt       "one you crafted with Master Rob!?"
 goto            @Label_0860
 
 @Cond_0808:
-dialogtxt       "…Wait, Master!"
+dialogtxt       "… Wait, Master!"
 dialogtxt       "Isn't this your favorite axe,"
 dialogtxt       "one you crafted with Master Rob!?"
 goto            @Label_0860

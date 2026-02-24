@@ -120,7 +120,7 @@ code047d        0, 2
 call            @Func_2636
 call            @Func_257c
 jumpz           @Cond_04fc, ($b003 == 0)
-dialogtxt       "U-unknown…"
+dialogtxt       "U-Unknown…"
 goto            @Cond_04fc
 
 @Cond_04fc:
@@ -136,7 +136,7 @@ goto            @Cond_0564
 
 @Cond_0564:
 jumpz           @Cond_0592, ($b003 == 3)
-dialogtxt       "T-that's gross…"
+dialogtxt       "T-That's gross…"
 goto            @Cond_0592
 
 @Cond_0592:
@@ -158,12 +158,12 @@ code047d        0, 0
 call            @Func_2636
 call            @Func_257c
 jumpz           @Cond_0662, ($b002 == 0)
-dialogtxt       "W-wait…!"
+dialogtxt       "W-Wait…!"
 dialogtxt       "I…!"
 goto            @Label_068a
 
 @Cond_0662:
-dialogtxt       "W-wait…!"
+dialogtxt       "W-Wait…!"
 dialogtxt       "I…!"
 goto            @Label_068a
 
@@ -315,7 +315,7 @@ call            @Func_261e
 code0479        0, 0, 16
 call            @Func_257c
 dialogtxt       "Yeah!"
-dialogtxt       "…er, what about Chief Benson?"
+dialogtxt       "… Er, what about Chief Benson?"
 code0309        
 call            @Func_25b2
 code0479        1, 0, 13
@@ -436,7 +436,7 @@ code0443        4, 48, 1
 code0443        2, 48, 0
 code0479        0, 5, 14
 call            @Func_257c
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 call            @Func_25b2
 code0479        1, 2, 13

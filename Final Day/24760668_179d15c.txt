@@ -134,11 +134,11 @@ code0479        0, 5, 16
 call            @Func_3994
 dialogtxt       "I…!"
 jumpz           @Cond_04aa, ($b002 == 0)
-dialogtxt       "…My bad."
+dialogtxt       "… My bad."
 goto            @Label_04b8
 
 @Cond_04aa:
-dialogtxt       "…Sorry."
+dialogtxt       "… Sorry."
 goto            @Label_04b8
 
 @Label_04b8:
@@ -392,13 +392,13 @@ call            @Func_3a36
 code0479        0, 2, 14
 call            @Func_3994
 jumpz           @Cond_0e10, ($b002 == 0)
-dialogtxt       "You're right…Let's hurry!"
+dialogtxt       "You're right… Let's hurry!"
 dialogtxt       "I have a feeling they must be at"
 dialogtxt       "the west end of Spoat Grotto!"
 goto            @Label_0e5e
 
 @Cond_0e10:
-dialogtxt       "You're right…Let's hurry!"
+dialogtxt       "You're right… Let's hurry!"
 dialogtxt       "I have a feeling they must be at"
 dialogtxt       "the west end of Spoat Grotto!"
 goto            @Label_0e5e
@@ -439,13 +439,13 @@ call            @Func_3a36
 code0479        0, 2, 14
 call            @Func_3994
 jumpz           @Cond_100c, ($b002 == 0)
-dialogtxt       "You're right…Let's hurry!"
+dialogtxt       "You're right… Let's hurry!"
 dialogtxt       "I have a feeling they must be at"
 dialogtxt       "the west end of Spoat Grotto!"
 goto            @Label_105a
 
 @Cond_100c:
-dialogtxt       "You're right…Let's hurry!"
+dialogtxt       "You're right… Let's hurry!"
 dialogtxt       "I have a feeling they must be at"
 dialogtxt       "the west end of Spoat Grotto!"
 goto            @Label_105a
@@ -608,7 +608,7 @@ code0479        1, 5, 12
 call            @Func_3a00
 dialogtxt       "I Am Certain You Are Correct"
 dialogtxt       "About Your Proposed Location."
-dialogtxt       "…Or Is My Analysis An ERROR?"
+dialogtxt       "… Or Is My Analysis An ERROR?"
 code0309        
 call            @Func_3a36
 code0479        0, 2, 12
@@ -664,7 +664,7 @@ call            @Func_39ca
 code0479        1, 0, 16
 call            @Func_3a00
 dialogtxt       "Is something wrong?"
-dialogtxt       "…You're not plotting to do what"
+dialogtxt       "… You're not plotting to do what"
 dialogtxt       "I think you're going to, are you?"
 code0309        
 call            @Func_3a36
@@ -687,7 +687,7 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 12
 call            @Func_3a00
-dialogtxt       "…Acknowledged!"
+dialogtxt       "… Acknowledged!"
 code0309        
 call            @Func_3ad0
 call            @Func_3a1e
@@ -744,7 +744,7 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 13
 call            @Func_3a00
-dialogtxt       "…Do whatever you want…"
+dialogtxt       "… Do whatever you want…"
 code0309        
 call            @Func_3ad0
 call            @Func_3a1e
@@ -777,7 +777,7 @@ code0309
 call            @Func_39ca
 code0479        1, 5, 14
 call            @Func_3a00
-dialogtxt       "Oh…What's the matter?"
+dialogtxt       "Oh… What's the matter?"
 dialogtxt       "[NAME 2], I was certain"
 dialogtxt       "you're right on where Milady is…"
 code0309        
@@ -1022,7 +1022,7 @@ call            @Func_39ca
 code0479        1, 2, 16
 call            @Func_3a00
 dialogtxt       "It used to be a beautiful village,"
-dialogtxt       "but now…No, now's not the"
+dialogtxt       "but now… No, now's not the"
 dialogtxt       "time to discuss. Let us go…"
 code0309        
 call            @Func_3a36
@@ -1047,13 +1047,13 @@ call            @Func_39ca
 code0479        1, 2, 14
 call            @Func_3a00
 dialogtxt       "Yeah, those bastards are the reason"
-dialogtxt       "why…However, we're just killing"
+dialogtxt       "why… However, we're just killing"
 dialogtxt       "time if we stop for idle chit-chat."
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
 call            @Func_3994
-dialogtxt       "…Yeah…"
+dialogtxt       "… Yeah…"
 dialogtxt       "We have to find Murno!"
 code0309        
 call            @Func_3ad0

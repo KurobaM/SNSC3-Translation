@@ -12,7 +12,7 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_296e
 call            @Func_28ec
-dialogtxt       "Hah…, what is it?"
+dialogtxt       "Hah… What is it?"
 dialogtxt       "What the hell"
 dialogtxt       "are you doing here!?"
 code047b        
@@ -222,11 +222,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_08f4, ($b002 == 0)
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0912
 
 @Cond_08f4:
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0912
 
 @Label_0912:
@@ -266,11 +266,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_0a70, ($b002 == 0)
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0a8e
 
 @Cond_0a70:
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0a8e
 
 @Label_0a8e:
@@ -310,11 +310,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_0bfe, ($b002 == 0)
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0c1c
 
 @Cond_0bfe:
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 goto            @Label_0c1c
 
 @Label_0c1c:

@@ -292,7 +292,7 @@ dialogtxt       "We have to do what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_0d1c
 
 @Cond_0c86:
@@ -302,7 +302,7 @@ dialogtxt       "what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_0d1c
 
 @Label_0d1c:
@@ -449,7 +449,7 @@ dialogtxt       "We have to do what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_13fa
 
 @Cond_1364:
@@ -459,7 +459,7 @@ dialogtxt       "what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_13fa
 
 @Label_13fa:
@@ -609,7 +609,7 @@ dialogtxt       "We have to do what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_1af4
 
 @Cond_1a5e:
@@ -619,7 +619,7 @@ dialogtxt       "what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right, [NAME 1]?"
+dialogtxt       "… Isn't that right, [NAME 1]?"
 goto            @Label_1af4
 
 @Label_1af4:
@@ -783,7 +783,7 @@ dialogtxt       "We have to do what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right?"
+dialogtxt       "… Isn't that right?"
 dialogtxt       "[NAME 1]."
 goto            @Label_220c
 
@@ -794,7 +794,7 @@ dialogtxt       "what we can."
 code0309        
 code043c        0, 4
 code0479        0, 2, 12
-dialogtxt       "…Isn't that right?"
+dialogtxt       "… Isn't that right?"
 dialogtxt       "[NAME 1]."
 goto            @Label_220c
 

@@ -117,7 +117,7 @@ code0309
 call            @Func_10f4
 code0479        0, 7, 15
 call            @Func_1052
-dialogtxt       "Th-that's not what I was"
+dialogtxt       "Th-That's not what I was"
 dialogtxt       "worrying about!"
 code0309        
 code0479        0, 4, 12

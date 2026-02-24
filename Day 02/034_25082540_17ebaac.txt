@@ -122,7 +122,7 @@ code0479        1, 5, 14
 code047d        1, 0
 call            @Func_0f3e
 call            @Func_0eda
-dialogtxt       "…Really?"
+dialogtxt       "… Really?"
 code0309        
 code0479        1, 1, 12
 dialogtxt       "Thanks!"
@@ -134,8 +134,8 @@ call            @Func_0e6e
 dialogtxt       "Huh?"
 code0309        
 code0479        0, 6, 17
-dialogtxt       "Uhhh… yeah…"
-dialogtxt       "…My bad…"
+dialogtxt       "Uhhh… Yeah…"
+dialogtxt       "… My bad…"
 code0309        
 call            @Func_0ea4
 code0479        1, 2, 13

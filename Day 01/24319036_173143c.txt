@@ -177,7 +177,7 @@ code0309
 call            @Func_46ec
 code0479        1, 0, 12
 call            @Func_4722
-dialogtxt       "I see… that's interesting."
+dialogtxt       "I see… That's interesting."
 dialogtxt       "But this one does not look like"
 dialogtxt       "it has been used very much…"
 code0309        
@@ -289,7 +289,7 @@ code0309
 call            @Func_46ec
 code0479        1, 0, 14
 call            @Func_4722
-dialogtxt       "…Do we really need to?"
+dialogtxt       "… Do we really need to?"
 code0309        
 call            @Func_4758
 code0479        0, 1, 17
@@ -623,7 +623,7 @@ code0309
 call            @Func_46ec
 code0479        1, 4, 16
 call            @Func_4722
-dialogtxt       "…I'm worried."
+dialogtxt       "… I'm worried."
 code0309        
 call            @Func_4758
 code0479        0, 0, 16

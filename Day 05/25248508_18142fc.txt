@@ -44,7 +44,7 @@ dialogtxt       "no problem!"
 code0309        
 code0479        0, 2, 12
 code0479        1, 5, 15
-dialogtxt       "…wait, no!"
+dialogtxt       "… Wait, no!"
 code0309        
 call            @Func_0930
 call            @Func_087e

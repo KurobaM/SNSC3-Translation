@@ -716,7 +716,7 @@ code047d        1, 114
 call            @Func_3072
 call            @Func_300e
 dialogtxt       "I'm sorry…"
-dialogtxt       "Um…Your name…?"
+dialogtxt       "Um… Your name…?"
 code047b        
 code0309        
 call            @Func_30b2

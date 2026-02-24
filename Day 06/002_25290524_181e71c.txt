@@ -309,7 +309,7 @@ dialogtxt       "Darn!"
 goto            @Label_0d36
 
 @Cond_0d28:
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh…!"
 goto            @Label_0d36
 
 @Label_0d36:

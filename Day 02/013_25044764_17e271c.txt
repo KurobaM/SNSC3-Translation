@@ -113,7 +113,7 @@ code0309
 call            @Func_0bca
 code0479        0, 0, 14
 call            @Func_0b28
-dialogtxt       "…I guess I'll just"
+dialogtxt       "… I guess I'll just"
 dialogtxt       "have to go train…"
 code0309        
 call            @Func_0c64

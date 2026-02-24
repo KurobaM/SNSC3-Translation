@@ -41,13 +41,13 @@ code047d        1, 0
 call            @Func_0e20
 call            @Func_0d9e
 jumpz           @Cond_024a, ($b002 == 0)
-dialogtxt       "…Which means,"
+dialogtxt       " Which means,"
 dialogtxt       "they left together?"
 dialogtxt       "Where to?"
 goto            @Label_0288
 
 @Cond_024a:
-dialogtxt       "…Which means,"
+dialogtxt       "… Which means,"
 dialogtxt       "they left together?"
 dialogtxt       "Where to?"
 goto            @Label_0288

@@ -244,7 +244,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_2c42
 call            @Func_2b3e
-dialogtxt       "F-father…!"
+dialogtxt       "F-Father…!"
 dialogtxt       "What's happening?"
 dialogtxt       "The Demon Stone…"
 code047b        
@@ -256,8 +256,8 @@ code0309
 call            @Func_2b92
 code0479        1, 3, 16
 call            @Func_2bc8
-dialogtxt       "Don't… worry…"
-dialogtxt       "Just… believe… in me…"
+dialogtxt       "Don't… Worry…"
+dialogtxt       "Just… Believe… In me…"
 code0309        
 call            @Func_2c98
 call            @Func_2be6

@@ -66,7 +66,7 @@ goto            @Cond_0258
 
 @Cond_0258:
 jumpz           @Cond_02a0, ($b003 == 2)
-dialogtxt       "They're … !"
+dialogtxt       "They're …!"
 dialogtxt       "Tsk…"
 dialogtxt       "To think they'd stoop that low…"
 goto            @Cond_02a0
@@ -356,7 +356,7 @@ goto            @Cond_0db0
 jumpz           @Cond_0e8a, ($b003 == 1)
 dialogtxt       "They're the enemy!"
 dialogtxt       "We can't let them get close"
-dialogtxt       "to Murno, or else … !"
+dialogtxt       "to Murno, or else …!"
 code047b        
 code0309        
 call            @Func_1f40

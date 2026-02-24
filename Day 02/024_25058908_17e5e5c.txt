@@ -239,7 +239,7 @@ code0309
 call            @Func_11b2
 code0479        1, 2, 14
 call            @Func_11e8
-dialogtxt       "…Are you sure?"
+dialogtxt       "… Are you sure?"
 goto            @Cond_0a98
 
 @Cond_0a98:

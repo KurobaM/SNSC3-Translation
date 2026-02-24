@@ -68,7 +68,7 @@ goto            @Label_0330
 
 @Cond_02f8:
 code0479        0, 2, 16
-dialogtxt       "Ahh…I see,"
+dialogtxt       "Ahh… I see,"
 dialogtxt       "I guess it doesn't involve us."
 goto            @Label_0330
 
@@ -141,7 +141,7 @@ call            @Func_1416
 dialogtxt       "Thank you!"
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Uh, I mean"
+dialogtxt       "… Uh, I mean"
 dialogtxt       "Umm…"
 code0309        
 call            @Func_144c
@@ -209,7 +209,7 @@ call            @Func_1416
 dialogtxt       "You're pretty nice."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Cond_09aa
 
 @Cond_09aa:
@@ -223,7 +223,7 @@ call            @Func_1416
 dialogtxt       "Ugh… Sorry about that."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Cond_0a42
 
 @Cond_0a42:

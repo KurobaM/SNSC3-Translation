@@ -63,11 +63,11 @@ call            @Func_1238
 call            @Func_1250
 call            @Func_1196
 jumpz           @Cond_03c6, ($b002 == 0)
-dialogtxt       "…What is it?"
+dialogtxt       "… What is it?"
 goto            @Label_03d8
 
 @Cond_03c6:
-dialogtxt       "…What is it?"
+dialogtxt       "… What is it?"
 goto            @Label_03d8
 
 @Label_03d8:

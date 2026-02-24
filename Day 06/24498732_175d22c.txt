@@ -155,7 +155,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…Mm-mm."
+dialogtxt       "… Mm-mm."
 dialogtxt       "You're right."
 code0309        
 call            @Func_2fd2
@@ -198,7 +198,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…Hey,"
+dialogtxt       "… Hey,"
 dialogtxt       "we should be running!"
 code0309        
 call            @Func_2fd2
@@ -219,7 +219,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…Ugh."
+dialogtxt       "… Ugh."
 dialogtxt       "How annoying…"
 code0309        
 call            @Func_2fd2
@@ -365,7 +365,7 @@ dialogtxt       "Right, the hammer…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0dd6, ($b002 == 0)
-dialogtxt       "Th-there's no way I'd forget!"
+dialogtxt       "Th-There's no way I'd forget!"
 goto            @Label_0dfa
 
 @Cond_0dd6:
@@ -475,7 +475,7 @@ jumpz           @Cond_1650, ($b003 == 1)
 jumpz           @Cond_134a, ($f0132 == 0)
 call            @Func_2f12
 dialogtxt       "Huh?"
-dialogtxt       "The… many kinds of weapons?"
+dialogtxt       "The… Many kinds of weapons?"
 jumpz           @Cond_1196, ($b002 == 0)
 dialogtxt       "How many WERE there again?"
 goto            @Label_11b0
@@ -1057,14 +1057,14 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 16
 call            @Func_2f9c
-dialogtxt       "Y-yes…"
+dialogtxt       "Y-Yes…"
 dialogtxt       "It might be better if we follow"
 dialogtxt       "Gallahan's instructions…"
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 16
 call            @Func_2f30
-dialogtxt       "Uh…did something happen?"
+dialogtxt       "Uh… Did something happen?"
 code0309        
 call            @Func_306c
 call            @Func_2f4e

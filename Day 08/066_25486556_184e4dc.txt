@@ -88,7 +88,7 @@ code0309
 code0479        1, 0, 14
 code0479        0, 0, 16
 dialogtxt       "That reminds me, um…"
-dialogtxt       "When Rob was, well…done in,"
+dialogtxt       "When Rob was, well… Done in,"
 dialogtxt       "you went out alone, right, Master."
 code0309        
 call            @Func_0fe2
@@ -122,8 +122,8 @@ code0309
 call            @Func_0fe2
 code0479        1, 0, 14
 call            @Func_1018
-dialogtxt       "Voijin…, ummm, I feel like I've…"
-dialogtxt       "…Hey, isn't that the guy"
+dialogtxt       "Voijin… Ummm, I feel like I've…"
+dialogtxt       "… Hey, isn't that the guy"
 dialogtxt       "you brought up in the meeting?"
 code0309        
 code0479        1, 2, 16
@@ -135,12 +135,12 @@ call            @Func_104e
 code0479        0, 4, 12
 call            @Func_0fac
 jumpz           @Cond_08d2, ($b002 == 0)
-dialogtxt       "I see…, of course…"
+dialogtxt       "I see… Of course…"
 dialogtxt       "That's fine then…"
 goto            @Label_0900
 
 @Cond_08d2:
-dialogtxt       "I see…, of course…"
+dialogtxt       "I see… Of course…"
 dialogtxt       "That's fine then…"
 goto            @Label_0900
 

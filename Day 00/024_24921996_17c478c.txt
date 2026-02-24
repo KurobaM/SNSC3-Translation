@@ -18,7 +18,7 @@ goto            @Cond_0106
 jumpz           @Cond_0186, ($b003 == 2)
 dialogtxt       "           Call me…        "
 code030a        6, 1
-dialogtxt       "    My name…You know it… "
+dialogtxt       "    My name… You know it… "
 code030a        6, 1
 goto            @Cond_0186
 
@@ -402,7 +402,7 @@ code047d        1, 2
 call            @Func_62ce
 code0331        38, 256
 call            @Func_61ca
-dialogtxt       "It…it changed!?"
+dialogtxt       "It… It changed!?"
 dialogtxt       "Why?"
 goto            @Label_1412
 
@@ -635,7 +635,7 @@ code0479        0, 0, 12
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogtxt       "…Searching."
+dialogtxt       "… Searching."
 code047b        
 code0309        
 dialogtxt       "…"
@@ -644,7 +644,7 @@ call            @Func_621e
 code0479        1, 0, 14
 call            @Func_62b8
 call            @Func_6254
-dialogtxt       "…Hello?"
+dialogtxt       "… Hello?"
 code047b        
 code0309        
 call            @Func_628a
@@ -660,11 +660,11 @@ code047d        1, 0
 call            @Func_62b8
 call            @Func_6254
 jumpz           @Cond_1dda, ($b002 == 0)
-dialogtxt       "…Heeey!"
+dialogtxt       "… Heeey!"
 goto            @Label_1dea
 
 @Cond_1dda:
-dialogtxt       "…Come on!"
+dialogtxt       "… Come on!"
 goto            @Label_1dea
 
 @Label_1dea:
@@ -856,7 +856,7 @@ code047d        0, 2
 code0301        16, 7
 code047e        0, 1
 dialogtxt       "W-Why…"
-dialogtxt       "My spirit power is…fading?"
+dialogtxt       "My spirit power is… Fading?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -1246,7 +1246,7 @@ code047d        0, 2
 code0301        16, 7
 code047e        0, 1
 dialogtxt       "W-What…"
-dialogtxt       "My power, it's…fading?"
+dialogtxt       "My power, it's… Fading?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -1344,7 +1344,7 @@ code0309
 call            @Func_628a
 call            @Func_61e8
 jumpz           @Cond_3df0, ($b002 == 0)
-dialogtxt       "Heh…Heheh…"
+dialogtxt       "Heh… Heheh…"
 dialogtxt       "This isn't what I"
 dialogtxt       "was expecting either…"
 goto            @Label_3e0c
@@ -1750,7 +1750,7 @@ call            @Func_628a
 code0479        0, 2, 12
 call            @Func_61e8
 jumpz           @Cond_5144, ($b002 == 0)
-dialogtxt       "Heh…Heheh…"
+dialogtxt       "Heh… Heheh…"
 dialogtxt       "It surely is surprising."
 goto            @Label_5164
 

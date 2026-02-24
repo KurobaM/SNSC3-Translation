@@ -201,9 +201,9 @@ code0309
 call            @Func_1674
 code0479        0, 5, 15
 call            @Func_15d2
-dialogtxt       "C… can't……"
+dialogtxt       "C-Can't……"
 dialogtxt       "………"
-dialogtxt       "…………breathe!"
+dialogtxt       "………… Breathe!"
 code0309        
 call            @Func_170e
 call            @Func_15f0

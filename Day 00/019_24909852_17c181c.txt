@@ -725,8 +725,8 @@ code0479        1, 11, 17
 call            @Func_4062
 call            @Func_3fe0
 dialogtxt       "Uh…"
-dialogtxt       "Uhh…Ah…"
-dialogtxt       "D-Did…we just…ki-ki…"
+dialogtxt       "Uhh… Ah…"
+dialogtxt       "D-Did… We just… ki-ki…"
 code047b        
 code0309        
 call            @Func_4034
@@ -794,7 +794,7 @@ call            @Func_4062
 call            @Func_3ffe
 dialogtxt       "…!"
 dialogtxt       "Why do YOU get to yell first…!?"
-dialogtxt       "…Wait, your voice just now…"
+dialogtxt       "… Wait, your voice just now…"
 code047b        
 code0309        
 code0479        1, 5, 17
@@ -1087,11 +1087,11 @@ code0481        1
 code043c        0, 1
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "This stone…it's pretty unusual…"
+dialogtxt       "This stone… it's pretty unusual…"
 dialogtxt       "Is it that girl's…?"
 dialogtxt       "Is it…? Something important?"
 code0309        
-dialogtxt       "Is this… a Summon Stone?"
+dialogtxt       "Is this… A Summon Stone?"
 dialogtxt       "Was this used to call"
 dialogtxt       "that Summon Beast?"
 goto            @Label_3366
@@ -1226,7 +1226,7 @@ dialogtxt       "I need to go after her!"
 goto            @Label_39e2
 
 @Cond_3962:
-dialogtxt       "…Pshh."
+dialogtxt       "… Pshh."
 dialogtxt       "Like I really care about it anyway."
 dialogtxt       "Let's use it as material!!"
 code0309        

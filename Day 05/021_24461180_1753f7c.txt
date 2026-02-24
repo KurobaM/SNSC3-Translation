@@ -419,7 +419,7 @@ code040b
 
 @Talk_1220:
 code0301        8, 7
-dialogtxt       "…Meow?"
+dialogtxt       "… Meow?"
 code0309        
 code0302        7
 code040b        
@@ -440,7 +440,7 @@ code040b
 code0301        8, 7
 dialogtxt       "Look down"
 code0309        
-dialogtxt       "…And you actually did it."
+dialogtxt       "… And you actually did it."
 code0309        
 code0302        7
 code040b        

@@ -112,7 +112,7 @@ call            @Func_1baa
 code0333        2, 30
 code0479        0, 4, 14
 call            @Func_1b08
-dialogtxt       "……Nn…"
+dialogtxt       "…… Nn…"
 code0309        
 call            @Func_1c2e
 call            @Func_1b3e
@@ -148,7 +148,7 @@ dialogtxt       "You're the one who"
 dialogtxt       "wanted to fight me!"
 code0309        
 code0479        1, 1, 14
-dialogtxt       "…And I'm a girl too!"
+dialogtxt       "… And I'm a girl too!"
 goto            @Label_06ac
 
 @Label_06ac:
@@ -180,7 +180,7 @@ code0309
 call            @Func_1baa
 code0479        0, 4, 16
 call            @Func_1b08
-dialogtxt       "I'm…fine…"
+dialogtxt       "I'm… Fine…"
 dialogtxt       "Ouch!!"
 code0309        
 call            @Func_1b3e
@@ -228,7 +228,7 @@ call            @Func_1b08
 dialogtxt       "Hmm?"
 code047b        
 code0309        
-choicetxt       @Choice_09f4, "…I understand."
+choicetxt       @Choice_09f4, "… I understand."
 choicetxt       @Choice_0ad2, "What…?"
 choicewait      
 
@@ -238,12 +238,12 @@ code0334
 code0331        31, 256
 code0479        0, 0, 12
 jumpz           @Cond_0a68, ($b002 == 0)
-dialogtxt       "…Okay."
+dialogtxt       "… Okay."
 dialogtxt       "I'll take her to town."
 goto            @Label_0a9a
 
 @Cond_0a68:
-dialogtxt       "…Okay."
+dialogtxt       "… Okay."
 dialogtxt       "I'll take her to town."
 goto            @Label_0a9a
 
@@ -439,7 +439,7 @@ goto            @Cond_10da
 
 @Cond_10da:
 jumpz           @Cond_10f8, ($b003 == 2)
-dialogtxt       "…It's nothing…"
+dialogtxt       "… It's nothing…"
 goto            @Cond_10f8
 
 @Cond_10f8:

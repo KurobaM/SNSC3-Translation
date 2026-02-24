@@ -49,7 +49,7 @@ call            @Func_15f2
 call            @Func_14ee
 dialogtxt       "So, are you ready?"
 dialogtxt       "Know what you're going to say?"
-dialogtxt       "…is what I'd like to ask, but…"
+dialogtxt       "… Is what I'd like to ask, but…"
 code047b        
 code0309        
 code0479        0, 4, 13
@@ -248,7 +248,7 @@ code047b
 code043c        6, 1
 code0479        0, 4, 12
 call            @Func_150c
-dialogtxt       "…Yeah."
+dialogtxt       "… Yeah."
 code047b        
 code0309        
 call            @Func_1648

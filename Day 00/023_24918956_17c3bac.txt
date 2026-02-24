@@ -127,7 +127,7 @@ goto            @Cond_059a
 @Cond_059a:
 code0309        
 code0479        1, 0, 14
-dialogtxt       "…Oh wait, that's right!"
+dialogtxt       "… Oh wait, that's right!"
 dialogtxt       "About that Summon Beast!"
 code0309        
 call            @Func_2610
@@ -328,7 +328,7 @@ code0309
 call            @Func_2610
 code0479        0, 4, 16
 call            @Func_256e
-dialogtxt       "…Urk…!"
+dialogtxt       "… Urk…!"
 code0309        
 call            @Func_25a4
 code0479        1, 2, 13

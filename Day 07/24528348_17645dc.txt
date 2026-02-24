@@ -699,7 +699,7 @@ goto            @Cond_1a72
 jumpz           @Cond_1ac6, ($b003 == 2)
 dialogtxt       "I'm sure your Bro"
 dialogtxt       "will do the same."
-dialogtxt       "Heh…I'm looking forward to this.…"
+dialogtxt       "Heh… I'm looking forward to this.…"
 goto            @Cond_1ac6
 
 @Cond_1ac6:
@@ -847,7 +847,7 @@ code0309
 call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
-dialogtxt       "L…let's make sure we're ready."
+dialogtxt       "L-let's make sure we're ready."
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c

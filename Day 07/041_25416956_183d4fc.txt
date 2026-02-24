@@ -44,7 +44,7 @@ goto            @Label_02f2
 
 @Cond_02ae:
 dialogtxt       "Oh, it's you!"
-dialogtxt       "Mr. [NAME 2]!"
+dialogtxt       "Ms. [NAME 2]!"
 dialogtxt       "Ms. Murno!"
 goto            @Label_02f2
 
@@ -78,7 +78,7 @@ code0309
 call            @Func_0fbe
 code0479        0, 4, 12
 call            @Func_0f1c
-dialogtxt       "…Eliez, Zakk…"
+dialogtxt       "… Eliez, Zakk…"
 jumpz           @Cond_0448, ($b002 == 0)
 dialogtxt       "Sorry!"
 dialogtxt       "We really made you both worry…"

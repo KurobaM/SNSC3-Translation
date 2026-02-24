@@ -72,12 +72,12 @@ call            @Func_1512
 code0479        0, 2, 16
 call            @Func_1470
 jumpz           @Cond_0422, ($b002 == 0)
-dialogtxt       "…Wait, you're"
+dialogtxt       "… Wait, you're"
 dialogtxt       "coming too?"
 goto            @Label_0452
 
 @Cond_0422:
-dialogtxt       "…Wait, you're"
+dialogtxt       "… Wait, you're"
 dialogtxt       "coming too?"
 goto            @Label_0452
 
@@ -172,7 +172,7 @@ code0309
 call            @Func_14a6
 code0479        1, 5, 14
 call            @Func_14dc
-dialogtxt       "… !?"
+dialogtxt       "…!?"
 code0309        
 call            @Func_1512
 code0479        0, 2, 16

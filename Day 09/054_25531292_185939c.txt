@@ -29,7 +29,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "Gr…, grrr…"
+dialogtxt       "Gr… Grrr…"
 code0309        
 code047e        0, 0
 code0302        0
@@ -238,7 +238,7 @@ code0479        1, 2, 14
 call            @Func_2962
 dialogtxt       "Hmm…"
 dialogtxt       "We'll continue this talk later."
-dialogtxt       "A loong… talk…"
+dialogtxt       "A loong… Talk…"
 code0309        
 call            @Func_2a32
 call            @Func_2980
@@ -414,7 +414,7 @@ code0479        1, 1, 16
 call            @Func_29c6
 call            @Func_2962
 dialogtxt       "Hey!"
-dialogtxt       "That… hurts…"
+dialogtxt       "That… Hurts…"
 code047b        
 code0309        
 call            @Func_2998

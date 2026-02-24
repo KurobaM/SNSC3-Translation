@@ -25,7 +25,7 @@ jumpz           @Cond_01ec, ($b071 == 0)
 code0479        0, 0, 16
 code0479        1, 2, 16
 call            @Func_11e6
-dialogtxt       "…Seriously?"
+dialogtxt       "… Seriously?"
 dialogtxt       "What're you planning to"
 dialogtxt       "do without equipment?"
 code0309        
@@ -154,7 +154,7 @@ code047d        0, 2
 call            @Func_1234
 call            @Func_117a
 jumpz           @Cond_06ac, ($b003 == 0)
-dialogtxt       "My…Spirit…?"
+dialogtxt       "My… Spirit…?"
 goto            @Cond_06ac
 
 @Cond_06ac:
@@ -209,7 +209,7 @@ code0309
 call            @Func_121c
 code0479        0, 2, 16
 call            @Func_117a
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 call            @Func_12a0
 call            @Func_11b0

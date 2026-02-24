@@ -791,7 +791,7 @@ code047d        0, 2
 call            @Func_48d2
 code0479        1, 2, 14
 call            @Func_4884
-dialogtxt       "…Anyway,"
+dialogtxt       "… Anyway,"
 dialogtxt       "you two are in the way."
 dialogtxt       "Just go and see the Chief already."
 code0309        
@@ -835,7 +835,7 @@ code0479        1, 4, 16
 code047d        1, 2
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "…Alright."
+dialogtxt       "… Alright."
 code047b        
 code0309        
 goto            @Cond_2528
@@ -1097,7 +1097,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 14
 call            @Func_4884
-dialogtxt       "…Anyway,"
+dialogtxt       "… Anyway,"
 dialogtxt       "you two are in the way."
 dialogtxt       "Just go and see the Chief already."
 code0309        
@@ -1269,7 +1269,7 @@ code0309
 call            @Func_48ba
 code0479        0, 5, 16
 call            @Func_4818
-dialogtxt       "…I suppose you're right."
+dialogtxt       "… I suppose you're right."
 code0309        
 call            @Func_4928
 call            @Func_484e
@@ -1405,7 +1405,7 @@ code047d        0, 2
 call            @Func_48d2
 code0479        1, 2, 14
 call            @Func_4884
-dialogtxt       "…Anyway,"
+dialogtxt       "… Anyway,"
 dialogtxt       "you two are in the way."
 dialogtxt       "Just go and see the Chief already."
 code047b        

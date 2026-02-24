@@ -174,7 +174,7 @@ code0309
 call            @Func_40c4
 code0479        1, 4, 12
 call            @Func_40fa
-dialogtxt       "Anti…Chief Mode…?"
+dialogtxt       "Anti… Chief Mode…?"
 dialogtxt       "Well, it is said that a girl's"
 dialogtxt       "clothes are one of her weapons."
 goto            @Cond_07e0

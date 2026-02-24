@@ -286,32 +286,32 @@ code0333        2, 120
 jumpz           @Cond_0c16, ($f0261 == 1)
 dialogtxt       ""
 jumpz           @Cond_0afe, ($h216 == 1)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Cond_0afe:
 jumpz           @Cond_0b38, ($h216 == 2)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Cond_0b38:
 jumpz           @Cond_0b70, ($h216 == 3)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Cond_0b70:
 jumpz           @Cond_0ba6, ($h216 == 4)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Cond_0ba6:
 jumpz           @Cond_0bda, ($h216 == 5)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Cond_0bda:
 jumpz           @Label_0c0c, ($h216 == 6)
-dialogtxt       "That's [NAME 2] I love…"
+dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Label_0c0c:
@@ -755,7 +755,7 @@ code047d        0, 149
 code047e        0, 1
 dialogtxt       "Mom started to talk a lot to"
 dialogtxt       "Master Benson."
-dialogtxt       "…Well, if you see it that way."
+dialogtxt       "… Well, if you see it that way."
 code0309        
 dialogtxt       "Me, I'm looking for a cool kinda"
 dialogtxt       "person! Work is super boring if you"
@@ -772,13 +772,13 @@ choicewait
 
 @Choice_1f3c:
 code047e        0, 1
-dialogtxt       "Let's see…Using an \"Old"
+dialogtxt       "Let's see… Using an \"Old"
 dialogtxt       "Grindstone\" to enhance your weapon"
 dialogtxt       "imbues the \"Battle Repair\" effect."
 code0309        
 dialogtxt       "And would you look at that,"
 dialogtxt       "I have one such item"
-dialogtxt       "available for only…4500 Boam!"
+dialogtxt       "available for only… 4500 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        

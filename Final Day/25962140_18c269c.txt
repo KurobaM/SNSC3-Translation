@@ -45,16 +45,16 @@ code0479        0, 2, 12
 call            @Func_10dc
 dialogtxt       "'Cause you saved not only this town!"
 jumpz           @Cond_0306, ($b002 == 0)
-dialogtxt       "…You're the hero of Lyndbaum!"
+dialogtxt       "… You're the hero of Lyndbaum!"
 goto            @Label_032a
 
 @Cond_0306:
 dialogtxt       "'Cause you saved not only this town!"
-dialogtxt       "…You're the heroine of Lyndbaum!"
+dialogtxt       "… You're the heroine of Lyndbaum!"
 goto            @Label_032a
 
 @Label_032a:
-dialogtxt       "…In my eyes."
+dialogtxt       "… In my eyes."
 code0309        
 code0479        1, 5, 14
 code0479        0, 2, 14
@@ -136,7 +136,7 @@ goto            @Label_074c
 code0309        
 code0479        1, 6, 16
 code0479        0, 2, 13
-dialogtxt       "…A very splendid Craftknight!"
+dialogtxt       "… A very splendid Craftknight!"
 dialogtxt       "That's why you don't have to"
 dialogtxt       "call me your \"Bro\" anymore!"
 code0309        
@@ -182,7 +182,7 @@ code0309
 call            @Func_117e
 code0479        0, 2, 13
 call            @Func_10dc
-dialogtxt       "…I'll be your rival!"
+dialogtxt       "… I'll be your rival!"
 code0309        
 call            @Func_1112
 code0479        1, 5, 17

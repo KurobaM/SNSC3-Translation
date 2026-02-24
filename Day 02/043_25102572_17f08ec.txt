@@ -129,7 +129,7 @@ code0479        1, 0, 16
 call            @Func_108c
 dialogtxt       "Their injuries weren't severe,"
 dialogtxt       "so physically, they're fine."
-dialogtxt       "…Mentally, maybe not…"
+dialogtxt       "… Mentally, maybe not…"
 code0309        
 call            @Func_10c2
 code0479        0, 2, 16
@@ -202,13 +202,13 @@ code0479        0, 2, 16
 call            @Func_1020
 jumpz           @Cond_0918, ($b002 == 0)
 dialogtxt       "They're completely different!"
-dialogtxt       "…How do I put this…"
+dialogtxt       "… How do I put this…"
 dialogtxt       "They're different at heart!"
 goto            @Label_0952
 
 @Cond_0918:
 dialogtxt       "They're completely different!"
-dialogtxt       "…How do I put this…"
+dialogtxt       "… How do I put this…"
 dialogtxt       "They're different at heart!"
 goto            @Label_0952
 

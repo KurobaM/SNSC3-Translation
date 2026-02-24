@@ -349,7 +349,7 @@ code0309
 dialogtxt       "Doesn't that sound REALLY awesome!?"
 code0309        
 jumpz           @Cond_0f7e, (($f1268 == 0 || $f1269 == 0) || $f1270 == 0)
-dialogtxt       "…Anyway, how far have you"
+dialogtxt       "… Anyway, how far have you"
 dialogtxt       "come along as a Craftknight?"
 dialogtxt       "Come on, I wanna know!"
 code0309        
@@ -527,7 +527,7 @@ goto            @Label_172c
 code047e        0, 1
 dialogtxt       "Whaaat!? You don't wanna talk about"
 dialogtxt       "it!? Gee, at least tell me a bit!"
-dialogtxt       "…Or not. You will soon enough!"
+dialogtxt       "… Or not. You will soon enough!"
 code0309        
 @Label_172c:
 code047e        0, 0

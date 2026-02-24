@@ -199,7 +199,7 @@ code0309
 code0479        0, 0, 16
 dialogtxt       "Trusting each other means that"
 dialogtxt       "I need to trust γ, too."
-dialogtxt       "…That's how it is, huh."
+dialogtxt       "… That's how it is, huh."
 goto            @Label_0b30
 
 @Label_0b30:

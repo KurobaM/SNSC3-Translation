@@ -26,7 +26,7 @@ goto            @Label_00e4
 code047d        1, 2
 call            @Func_14a8
 call            @Func_13a4
-dialogtxt       "…And, well, that's how it is."
+dialogtxt       "… And, well, that's how it is."
 dialogtxt       "I'm going to make"
 dialogtxt       "a weapon with Murno."
 code047b        
@@ -211,7 +211,7 @@ code0309
 call            @Func_13f8
 code0479        1, 5, 17
 call            @Func_142e
-dialogtxt       "B-but…"
+dialogtxt       "B-But…"
 code0309        
 call            @Func_1464
 code0479        0, 2, 14

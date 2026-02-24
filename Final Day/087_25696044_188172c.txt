@@ -148,7 +148,7 @@ code0309
 call            @Func_4362
 code0479        0, 10, 13
 call            @Func_42c0
-dialogtxt       "No…, it's fine…"
+dialogtxt       "No… It's fine…"
 dialogtxt       "Father…"
 dialogtxt       "Are you okay now?"
 code0309        
@@ -327,13 +327,13 @@ call            @Func_4362
 code0479        0, 4, 16
 call            @Func_42c0
 jumpz           @Cond_109c, ($b002 == 0)
-dialogtxt       "Ah…, um…"
+dialogtxt       "Ah… Um…"
 dialogtxt       "We got out of it fine,"
 dialogtxt       "so I'm sure…"
 goto            @Label_10ec
 
 @Cond_109c:
-dialogtxt       "Ah…, um…"
+dialogtxt       "Ah… Um…"
 dialogtxt       "We got out of it fine,"
 dialogtxt       "so I'm sure…"
 goto            @Label_10ec
@@ -559,7 +559,7 @@ code0309
 call            @Func_42f6
 code0479        1, 4, 14
 call            @Func_432c
-dialogtxt       "Yes… she is gone now."
+dialogtxt       "Yes… She is gone now."
 dialogtxt       "At the moment, she is"
 dialogtxt       "the sole successor."
 code0309        
@@ -943,22 +943,22 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_2d5a, ($b003 == 0)
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Cond_2d5a
 
 @Cond_2d5a:
 jumpz           @Cond_2d78, ($b003 == 1)
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Cond_2d78
 
 @Cond_2d78:
 jumpz           @Cond_2d96, ($b003 == 2)
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Cond_2d96
 
 @Cond_2d96:
 jumpz           @Cond_2db4, ($b003 == 3)
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Cond_2db4
 
 @Cond_2db4:
@@ -1077,7 +1077,7 @@ code0479        0, 4, 14
 code047d        0, 110
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "S…such power…!"
+dialogtxt       "S… Such power…!"
 dialogtxt       "At this rate…!"
 code0309        
 call            @Func_43d0

@@ -248,7 +248,7 @@ code0479        0, 5, 16
 code047d        0, 107
 call            @Func_167a
 call            @Func_1594
-dialogtxt       "Ah…, [NAME 1]…?"
+dialogtxt       "Ah… [NAME 1]…?"
 dialogtxt       "Why…?"
 code0309        
 call            @Func_16a4

@@ -122,7 +122,7 @@ code0479        0, 3, 16
 code047d        0, 129
 call            @Func_2f6a
 call            @Func_2e66
-dialogtxt       "Ug…hh…"
+dialogtxt       "Ug… hh…"
 code047b        
 code0309        
 call            @Func_2eba
@@ -134,7 +134,7 @@ code0309
 call            @Func_2f26
 code0479        0, 3, 17
 call            @Func_2e84
-dialogtxt       "No…good…"
+dialogtxt       "No… Good…"
 dialogtxt       "I'm…"
 code0309        
 call            @Func_2faa

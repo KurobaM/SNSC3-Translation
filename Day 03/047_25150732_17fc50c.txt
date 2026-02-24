@@ -381,7 +381,7 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_4412
 call            @Func_43ae
-dialogtxt       "…Wait."
+dialogtxt       "… Wait."
 dialogtxt       "We don't have enough money…"
 code047b        
 code0309        
@@ -565,7 +565,7 @@ goto            @Cond_16ca
 
 @Cond_16ca:
 jumpz           @Cond_16f0, ($b003 == 1)
-dialogtxt       "She's… an ogre…"
+dialogtxt       "She's… An ogre…"
 goto            @Cond_16f0
 
 @Cond_16f0:
@@ -712,7 +712,7 @@ code0479        1, 5, 15
 code047d        1, 107
 call            @Func_4412
 call            @Func_43ae
-dialogtxt       "Lo…ve…"
+dialogtxt       "Lo… ve…"
 code047b        
 code0309        
 call            @Func_4468
