@@ -1205,7 +1205,7 @@ setvar          $f0133, 0
 code0479        1, 0, 12
 dialogtxt       "I guess I'll give it back."
 dialogtxt       "While I'm at it, I'll make her"
-dialogtxt       "to tell me about that Summon Beast!"
+dialogtxt       "tell me about that Summon Beast!"
 goto            @Label_38a4
 
 @Label_38a4:
