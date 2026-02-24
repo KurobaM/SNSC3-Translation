@@ -393,7 +393,7 @@ code0479        0, 2, 15
 code047d        0, 110
 call            @Func_2f3e
 call            @Func_2e66
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 dialogtxt       "They're getting away!"
 code047b        
 code0309        

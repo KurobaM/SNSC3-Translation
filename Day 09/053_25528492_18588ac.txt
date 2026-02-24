@@ -446,12 +446,12 @@ call            @Func_21ce
 call            @Func_20f6
 jumpz           @Cond_14ea, ($b002 == 0)
 dialogtxt       "You!"
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 goto            @Label_150c
 
 @Cond_14ea:
 dialogtxt       "You!"
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 goto            @Label_150c
 
 @Label_150c:

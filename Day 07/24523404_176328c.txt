@@ -463,7 +463,7 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 15
 call            @Func_3ec2
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 dialogtxt       "We must go after Murno!"
 code0309        
 call            @Func_3ef8
