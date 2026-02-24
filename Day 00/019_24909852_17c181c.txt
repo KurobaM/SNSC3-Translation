@@ -399,7 +399,7 @@ call            @Func_4034
 code0479        0, 2, 16
 call            @Func_3f92
 dialogtxt       "It's better that way."
-dialogtxt       "It's is for your sake, too…"
+dialogtxt       "It's for your sake, too…"
 code0309        
 code047a        0, 0, 1
 code047a        1, 0, 1
