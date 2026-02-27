@@ -125,7 +125,7 @@ code0479        1, 2, 16
 code047d        1, 109
 call            @Func_145e
 call            @Func_13fa
-dialogtxt       "Back to searching again, huh."
+dialogtxt       "Back to searching again, aren't we?"
 code047b        
 code0309        
 call            @Func_149e
@@ -167,7 +167,7 @@ call            @Func_1448
 call            @Func_138e
 dialogtxt       "That's true."
 dialogtxt       "I'm counting on you, Tier."
-dialogtxt       "But Murno is staying here."
+dialogtxt       "But Murno is staying here!"
 code047b        
 code0309        
 call            @Func_14b4
