@@ -19,7 +19,7 @@ code0309
 call            @Func_1326
 call            @Func_13c0
 call            @Func_135c
-dialogtxt       "[NAME 2]!"
+dialogtxt       "[NAME 1]!"
 code047b        
 code0309        
 call            @Func_142c
