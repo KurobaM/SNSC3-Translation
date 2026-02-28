@@ -50,7 +50,7 @@ jumpz           @Cond_0276, ($b003 == 1)
 code0479        1, 2, 15
 call            @Func_0c42
 call            @Func_0bde
-dialogtxt       "Is something wrong…?"
+dialogtxt       "Is something wrong?"
 dialogtxt       "Why isn't she answering!?"
 goto            @Cond_0276
 
@@ -59,8 +59,8 @@ jumpz           @Cond_02c8, ($b003 == 2)
 code0479        1, 2, 16
 call            @Func_0c42
 call            @Func_0bde
-dialogtxt       "…?？"
-dialogtxt       "Why isn't she answering…?"
+dialogtxt       "…?"
+dialogtxt       "Why isn't she answering?"
 goto            @Cond_02c8
 
 @Cond_02c8:
@@ -91,7 +91,7 @@ dialogtxt       "Jeez…"
 goto            @Label_03de
 
 @Cond_03b2:
-dialogtxt       "Wait a minute…Hey!"
+dialogtxt       "Wait a minute… Hey!"
 dialogtxt       "Jeez…!"
 goto            @Label_03de
 
@@ -362,4 +362,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
