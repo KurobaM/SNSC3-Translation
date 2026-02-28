@@ -17,7 +17,7 @@ code0309
 code0479        1, 0, 16
 dialogtxt       "They look like this now,"
 dialogtxt       "but the Summon Beast who attacked"
-dialogtxt       "me is γ here."
+dialogtxt       "me is [NAME 1] here."
 code0309        
 call            @Func_486a
 call            @Func_47fc
@@ -39,7 +39,7 @@ code0479        0, 2, 12
 code047d        0, 0
 call            @Func_4814
 call            @Func_475a
-dialogtxt       "Heh, wasn't any problem for me!"
+dialogtxt       "Heh, wasn't a problem for me!"
 goto            @Label_0250
 
 @Label_0250:
@@ -49,8 +49,8 @@ call            @Func_4790
 code0479        1, 2, 15
 call            @Func_47c6
 dialogtxt       "Don't be so proud of yourself!"
-dialogtxt       "Failing a summon can potentially"
-dialogtxt       "cause a serious accident."
+dialogtxt       "Failing a summon can cause "
+dialogtxt       "some serious accidents."
 code0309        
 call            @Func_47fc
 code0479        0, 4, 14
@@ -91,7 +91,7 @@ goto            @Cond_03f2
 code0479        1, 0, 16
 call            @Func_47c6
 call            @Func_4814
-dialogtxt       "Anyways, γ came here"
+dialogtxt       "Anyways, [NAME 1] came here"
 dialogtxt       "looking for food,"
 dialogtxt       "and ran into me."
 code047b        
@@ -177,7 +177,7 @@ code047b
 code0309        
 code0479        0, 4, 17
 dialogtxt       "I'm truly sorry."
-dialogtxt       "Now, γ,"
+dialogtxt       "Now, [NAME 1],"
 dialogtxt       "you must apologize too."
 code0309        
 call            @Func_486a
@@ -241,13 +241,13 @@ code0479        0, 4, 16
 code047d        0, 107
 call            @Func_4814
 call            @Func_475a
-dialogtxt       "…I'm sorry."
+dialogtxt       "… I'm sorry."
 code047b        
 code0309        
 call            @Func_4790
 code0479        1, 0, 16
 call            @Func_47c6
-dialogtxt       "…Well, dressed like that,"
+dialogtxt       "… Well, dressed like that,"
 dialogtxt       "I'm sure you must have your reasons."
 dialogtxt       "What in the world happened to you?"
 code0309        
@@ -259,8 +259,8 @@ code0309
 call            @Func_4790
 code0479        1, 0, 14
 call            @Func_47c6
-dialogtxt       "Well then,"
-dialogtxt       "What do you plan to do now?"
+dialogtxt       "Well then, what do you plan"
+dialogtxt       "to do now?"
 code0309        
 call            @Func_47fc
 code0479        0, 2, 16
@@ -320,7 +320,7 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_4814
 call            @Func_475a
-dialogtxt       "Master！"
+dialogtxt       "Master-"
 code047b        
 code0309        
 call            @Func_486a
@@ -370,10 +370,10 @@ code0479        1, 0, 12
 call            @Func_47c6
 dialogtxt       "Let's see…"
 dialogtxt       "You can do the housekeeping."
-dialogtxt       "And γ…"
+dialogtxt       "And [NAME 1]…"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "δ's assistant, I guess?"
+dialogtxt       "[NAME 2]'s assistant, I guess?"
 code0309        
 call            @Func_4896
 call            @Func_47e4
@@ -439,7 +439,7 @@ code0479        0, 5, 16
 code047d        0, 2
 call            @Func_4814
 call            @Func_475a
-dialogtxt       "Helping with crafting, is it…?"
+dialogtxt       "Helping with crafting…?"
 goto            @Cond_12d2
 
 @Cond_12d2:
@@ -466,21 +466,20 @@ call            @Func_4790
 code0479        1, 0, 15
 call            @Func_47c6
 dialogtxt       "Aren't you an indecisive lass!"
-dialogtxt       "a woman should only tease the man"
+dialogtxt       "A woman should only tease the man"
 dialogtxt       "she loves! So, what'll it be?"
 code0309        
 call            @Func_47fc
 code0479        0, 5, 17
 call            @Func_475a
 dialogtxt       "O-Okay!"
-dialogtxt       "Then…"
-dialogtxt       "Please let me help out!"
+dialogtxt       "Then, please let me help out!"
 code0309        
 call            @Func_4790
 code0479        1, 1, 12
 call            @Func_47c6
 dialogtxt       "Alright! It's decided!"
-dialogtxt       "γ, you too…"
+dialogtxt       "[NAME 1], you too…"
 code0309        
 call            @Func_486a
 call            @Func_47fc
@@ -563,7 +562,7 @@ goto            @Label_1822
 code0309        
 call            @Func_4790
 call            @Func_47c6
-dialogtxt       "Bingo."
+dialogtxt       "Affirmative."
 code0309        
 call            @Func_47fc
 code0479        0, 2, 15
@@ -580,9 +579,8 @@ dialogtxt       "and help me with crafting!"
 goto            @Label_19b2
 
 @Cond_1908:
-dialogtxt       "Interesting!"
-dialogtxt       "Then, let's have a match!"
-dialogtxt       "Let's go outside!"
+dialogtxt       "You've said it now!"
+dialogtxt       "Let's have a match!"
 code0309        
 code0479        0, 2, 14
 dialogtxt       "If I win,"
@@ -629,25 +627,21 @@ call            @Func_47fc
 code0479        0, 2, 14
 call            @Func_475a
 jumpz           @Cond_1b94, ($b002 == 0)
-dialogtxt       "So in your head, it's already"
-dialogtxt       "decided that I'll lose, huh?"
-dialogtxt       "Interesting…"
+dialogtxt       "So in your head, you've as good"
+dialogtxt       "as won, huh?"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "I'll teach you right now"
-dialogtxt       "that you made a mistake!"
+dialogtxt       "I'll show you just how wrong you are!"
 dialogtxt       "Let's fight!"
 goto            @Label_1c2a
 
 @Cond_1b94:
-dialogtxt       "Don't talk as if"
-dialogtxt       "I'm gonna lose!"
+dialogtxt       "Don't talk as if I'm gonna lose!"
 dialogtxt       "It's creepy."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "I'll teach you that"
-dialogtxt       "it's you who's going to lose!"
-dialogtxt       "Let's fight!"
+dialogtxt       "I'll show you who the REAL loser is!"
+dialogtxt       "Fight me!"
 goto            @Label_1c2a
 
 @Label_1c2a:
@@ -683,7 +677,7 @@ dialogtxt       "Nope, fight me!"
 goto            @Label_1d52
 
 @Cond_1d2a:
-dialogtxt       "No means No!"
+dialogtxt       "Well I REFUSE your refusal!"
 dialogtxt       "You will fight me!"
 goto            @Label_1d52
 
@@ -748,7 +742,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "Hey, Murno,"
 dialogtxt       "couldn't you ask them"
-dialogtxt       "to fight with δ?"
+dialogtxt       "to fight with [NAME 2]?"
 code0309        
 call            @Func_47fc
 code0479        0, 0, 13
@@ -763,8 +757,8 @@ code0479        1, 0, 16
 code047d        1, 2
 call            @Func_482a
 code0479        0, 0, 12
-dialogtxt       "γ,"
-dialogtxt       "please have a match with δ." 
+dialogtxt       "[NAME 1], please have"
+dialogtxt       "a match with [NAME 2]."
 code047b        
 code0309        
 call            @Func_4790
@@ -885,7 +879,6 @@ dialogtxt       "Come on outside!"
 goto            @Label_256e
 
 @Cond_2530:
-dialogtxt       "Interesting!"
 dialogtxt       "Then, let's have a match!"
 dialogtxt       "Let's go outside!"
 goto            @Label_256e
@@ -896,13 +889,13 @@ call            @Func_4790
 code0479        1, 4, 12
 call            @Func_47c6
 jumpz           @Cond_25d8, ($b002 == 0)
-dialogtxt       "Good grief…You're a"
+dialogtxt       "Good grief… You're a"
 dialogtxt       "youngster who knows not his place."
 dialogtxt       "There is no point to this."
 goto            @Label_2618
 
 @Cond_25d8:
-dialogtxt       "Good grief…You're a"
+dialogtxt       "Good grief… You're a"
 dialogtxt       "young lady who knows not her place."
 dialogtxt       "There is no point to this."
 goto            @Label_2618
@@ -1099,7 +1092,7 @@ call            @Func_4790
 call            @Func_482a
 code0479        1, 0, 12
 call            @Func_47c6
-dialogtxt       "Calm down, δ."
+dialogtxt       "Calm down, [NAME 2]."
 dialogtxt       "He's not wrong."
 code0309        
 call            @Func_47fc
@@ -1187,7 +1180,7 @@ goto            @Label_3258
 @Cond_320c:
 dialogtxt       "What!?"
 dialogtxt       "You're a kid too, aren't you?"
-dialogtxt       "And even smaller than me"
+dialogtxt       "And even smaller than me!"
 goto            @Label_3258
 
 @Label_3258:
@@ -1229,8 +1222,7 @@ call            @Func_4814
 code0479        0, 2, 14
 call            @Func_475a
 dialogtxt       "I'm sorry, Murno."
-dialogtxt       "I'm asking you,"
-dialogtxt       "let us fight!"
+dialogtxt       "I'm asking you, let us fight!"
 goto            @Label_345a
 
 @Label_345a:
@@ -1250,7 +1242,7 @@ code047d        1, 2
 call            @Func_4840
 call            @Func_473c
 jumpz           @Cond_3548, ($b002 == 0)
-dialogtxt       "Hey, γ."
+dialogtxt       "Hey, [NAME 1]."
 dialogtxt       "Promise me one thing."
 code0309        
 code0479        0, 2, 12
@@ -1259,7 +1251,7 @@ dialogtxt       "you will help me with crafting."
 goto            @Label_35b6
 
 @Cond_3548:
-dialogtxt       "Hey, γ."
+dialogtxt       "Hey, [NAME 1]."
 dialogtxt       "Promise me one thing."
 code0309        
 code0479        0, 2, 12
@@ -1398,7 +1390,7 @@ code0309
 call            @Func_4790
 code0479        1, 5, 17
 call            @Func_47c6
-dialogtxt       "L-Let's refrain from such things."
+dialogtxt       "Let's refrain from such things."
 dialogtxt       "It would not do if you were"
 dialogtxt       "to become injured as well, correct?"
 code0309        
@@ -1426,7 +1418,7 @@ dialogtxt       "Afraid?"
 dialogtxt       "Me?"
 code0309        
 code0479        1, 2, 13
-dialogtxt       "Please, such a jest!"
+dialogtxt       "Surely you jest!"
 code0309        
 call            @Func_47fc
 code0479        0, 2, 13
@@ -1733,4 +1725,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

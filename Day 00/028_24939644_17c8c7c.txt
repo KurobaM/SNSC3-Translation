@@ -83,8 +83,7 @@ code047b
 jumpz           @Cond_04fa, ($b003 != 2)
 jumpz           @Cond_044c, ($b002 == 0)
 dialogtxt       "Alright, let's go!"
-dialogtxt       "I'm going to show that head of yours"
-dialogtxt       "what I can do!"
+dialogtxt       "First, I'll make you eat dirt!"
 code0309        
 code0479        0, 2, 13
 dialogtxt       "And then I'll have you"
@@ -93,8 +92,8 @@ goto            @Label_04f6
 
 @Cond_044c:
 dialogtxt       "Just watch me!"
-dialogtxt       "I'll make you understand how strong"
-dialogtxt       "I really am!"
+dialogtxt       "I'll straighten out that"
+dialogtxt       "attitude of yours!"
 code0309        
 code0479        0, 2, 13
 dialogtxt       "And then I'll have you"
@@ -145,7 +144,6 @@ goto            @Cond_063e
 @Cond_063e:
 jumpz           @Cond_06e0, ($b003 == 1)
 call            @Func_0e6a
-dialogtxt       "Hoho."
 dialogtxt       "I hope you can entertain me."
 code0309        
 call            @Func_0ea0
@@ -432,4 +430,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

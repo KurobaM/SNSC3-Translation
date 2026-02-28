@@ -124,7 +124,7 @@ code030c
 code0479        0, 8, 14
 code0479        1, 6, 15
 dialogtxt       "I-It's fine already!"
-dialogtxt       "So, just forget that, okay!"
+dialogtxt       "Just forget it ever happened!"
 dialogtxt       "I will do so too, so…"
 code0309        
 call            @Func_11d2
@@ -454,4 +454,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

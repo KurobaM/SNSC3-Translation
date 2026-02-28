@@ -80,13 +80,13 @@ call            @Func_2fc8
 call            @Func_2f64
 jumpz           @Cond_038c, ($b002 == 0)
 dialogtxt       "Wait…"
-dialogtxt       "Are you…crying?"
+dialogtxt       "Are you… crying?"
 dialogtxt       "I get it, you must be frustrated…"
 goto            @Label_03c2
 
 @Cond_038c:
 dialogtxt       "You…"
-dialogtxt       "Are you…crying?"
+dialogtxt       "Are you… crying?"
 dialogtxt       "Does it hurt somewhere…?"
 goto            @Label_03c2
 
@@ -126,23 +126,23 @@ call            @Func_2fc8
 code043c        3, 3
 call            @Func_2f64
 jumpz           @Cond_05a0, ($b002 == 0)
-dialogtxt       "Anyways, Now you know I'm strong!"
+dialogtxt       "Anyways, now you know I'm strong!"
 dialogtxt       "Therefore I can protect Murno!"
-dialogtxt       "So you help me with the crafting!"
+dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Got it?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_062e
 
 @Cond_05a0:
 dialogtxt       "Anyways, I won,"
 dialogtxt       "so I can protect Murno."
-dialogtxt       "So you help me with the crafting!"
+dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Understood?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_062e
 
 @Label_062e:
@@ -161,7 +161,7 @@ code047d        1, 107
 call            @Func_2fc8
 code043c        3, 2
 call            @Func_2f64
-dialogtxt       "Please, γ."
+dialogtxt       "Please, [NAME 1]."
 code047b        
 code0309        
 call            @Func_2f9a
@@ -259,21 +259,21 @@ call            @Func_2f64
 jumpz           @Cond_0afc, ($b002 == 0)
 dialogtxt       "Anyways, I've beaten you!"
 dialogtxt       "Therefore, I can protect Murno!"
-dialogtxt       "So you help me with the crafting!"
+dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Got it?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0b8a
 
 @Cond_0afc:
 dialogtxt       "Anyways, I won,"
 dialogtxt       "meaning I can protect Murno."
-dialogtxt       "So you help me with the crafting!"
+dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Understood?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0b8a
 
 @Label_0b8a:
@@ -291,7 +291,7 @@ code047d        1, 107
 call            @Func_2fc8
 code043c        3, 2
 call            @Func_2f64
-dialogtxt       "Please, γ."
+dialogtxt       "Please, [NAME 1]."
 code047b        
 code0309        
 call            @Func_2f9a
@@ -342,7 +342,7 @@ code047d        1, 0
 call            @Func_2fc8
 call            @Func_2f64
 dialogtxt       "Then, as promised,"
-dialogtxt       "I'll have you help me with crafting."
+dialogtxt       "you have to help me craft stuff now."
 dialogtxt       "Got it?"
 goto            @Label_0e1a
 
@@ -383,7 +383,7 @@ code047d        1, 107
 call            @Func_2fc8
 code043c        3, 2
 call            @Func_2f64
-dialogtxt       "Come on, γ."
+dialogtxt       "Come on, [NAME 1]."
 code047b        
 code0309        
 call            @Func_2f9a
@@ -392,7 +392,7 @@ call            @Func_2ef8
 dialogtxt       "…"
 code0309        
 code0479        0, 2, 17
-dialogtxt       "…Fine."
+dialogtxt       "… Fine."
 code0309        
 call            @Func_301e
 call            @Func_2f2e
@@ -419,7 +419,7 @@ code0309
 call            @Func_2f9a
 code0479        0, 1, 15
 call            @Func_2ef8
-dialogtxt       "Fine!"
+dialogtxt       "I said FINE!"
 code0309        
 code0479        0, 0, 17
 code0479        1, 1, 12
@@ -497,8 +497,8 @@ code043c        2, 2
 code0479        1, 2, 12
 call            @Func_2f64
 dialogtxt       "Yeah!"
-dialogtxt       "I'd say your strength is"
-dialogtxt       "about just below mine!"
+dialogtxt       "I'd say you're almost as strong as"
+dialogtxt       "I am!"
 goto            @Label_13f8
 
 @Label_13f8:
@@ -535,7 +535,7 @@ dialogtxt       "So you help me with the crafting!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Got it?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_1606
 
 @Cond_1578:
@@ -545,7 +545,7 @@ dialogtxt       "So you help me with the crafting!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "Understood?"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_1606
 
 @Label_1606:
@@ -565,7 +565,7 @@ code047d        1, 107
 call            @Func_2fc8
 code043c        3, 2
 call            @Func_2f64
-dialogtxt       "Please, γ."
+dialogtxt       "Please, [NAME 1]."
 code047b        
 code0309        
 call            @Func_2f9a
@@ -591,8 +591,7 @@ code047d        0, 2
 call            @Func_2fde
 call            @Func_2f46
 dialogtxt       "Alright!"
-dialogtxt       "From today on,"
-dialogtxt       "you're my apprentice!"
+dialogtxt       "From today on, you're my apprentice!"
 goto            @Label_17dc
 
 @Label_17dc:
@@ -706,12 +705,12 @@ call            @Func_2f2e
 code0479        1, 2, 17
 call            @Func_2f64
 dialogtxt       "Shut up!"
-dialogtxt       "γ is your pal, no…"
+dialogtxt       "[NAME 1] is your pal, no…"
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 13
-dialogtxt       "γ is your"
-dialogtxt       "partner, δ!"
+dialogtxt       "[NAME 1] is your"
+dialogtxt       "partner, [NAME 2]!"
 code0309        
 call            @Func_2f9a
 code0479        0, 0, 16
@@ -759,7 +758,7 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_2fde
 call            @Func_2f46
-dialogtxt       "Got it, δ?"
+dialogtxt       "Got it, [NAME 2]?"
 code047b        
 code0309        
 call            @Func_2f9a
@@ -795,7 +794,7 @@ goto            @Cond_2000
 code047d        0, 2
 call            @Func_2fb2
 call            @Func_2f64
-dialogtxt       "Got it, γ?"
+dialogtxt       "Got it, [NAME 1]?"
 code047b        
 code0309        
 call            @Func_2f9a
@@ -804,7 +803,7 @@ jumpz           @Cond_2078, ($b003 == 0)
 code0479        0, 0, 12
 call            @Func_2ef8
 dialogtxt       "…"
-dialogtxt       "Understood."
+dialogtxt       "Affirmative."
 goto            @Cond_2078
 
 @Cond_2078:
@@ -819,7 +818,7 @@ goto            @Cond_20b6
 jumpz           @Cond_20fa, ($b003 == 2)
 code0479        0, 0, 14
 call            @Func_2ef8
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 dialogtxt       "Have it your way."
 goto            @Cond_20fa
 
@@ -862,7 +861,7 @@ call            @Func_2fb2
 code0479        1, 2, 12
 call            @Func_2f64
 dialogtxt   	"Starting today,"
-dialogtxt       "you'll be training together!"
+dialogtxt   	"you'll be training together!"
 code047b        
 code0309        
 call            @Func_301e
@@ -878,14 +877,13 @@ dialogtxt       "I'm counting on you,"
 goto            @Label_22a6
 
 @Label_22a6:
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 code047b        
 code0309        
 call            @Func_2f2e
 call            @Func_2f64
 jumpz           @Cond_22e4, ($b003 == 0)
-dialogtxt       "…Yes."
-dialogtxt       "Likewise."
+dialogtxt       "… Likewise."
 goto            @Cond_22e4
 
 @Cond_22e4:
@@ -927,15 +925,15 @@ code031c        1, 1
 code031f        1
 code040d        60
 code0304        1
-strlen          280, "γ"
+strlen          280, "Î³"
 jumpz           @Cond_252c, ($h216 == 1)
 jumpz           @Cond_24d4, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2528
 
 @Cond_24d4:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2528
 
@@ -945,12 +943,12 @@ goto            @Label_28ec
 @Cond_252c:
 jumpz           @Cond_25f4, ($h216 == 2)
 jumpz           @Cond_259e, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_25f0
 
 @Cond_259e:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_25f0
 
@@ -960,12 +958,12 @@ goto            @Label_28ec
 @Cond_25f4:
 jumpz           @Cond_26b8, ($h216 == 3)
 jumpz           @Cond_2664, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_26b4
 
 @Cond_2664:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_26b4
 
@@ -975,12 +973,12 @@ goto            @Label_28ec
 @Cond_26b8:
 jumpz           @Cond_2778, ($h216 == 4)
 jumpz           @Cond_2726, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2774
 
 @Cond_2726:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2774
 
@@ -990,12 +988,12 @@ goto            @Label_28ec
 @Cond_2778:
 jumpz           @Cond_2834, ($h216 == 5)
 jumpz           @Cond_27e4, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2830
 
 @Cond_27e4:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_2830
 
@@ -1005,12 +1003,12 @@ goto            @Label_28ec
 @Cond_2834:
 jumpz           @Label_28ec, ($h216 == 6)
 jumpz           @Cond_289e, ($b002 == 0)
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_28e8
 
 @Cond_289e:
-dialogtxt       "　　And so, γ and I began　　　 "
+dialogtxt       "　　 And so, the two of us began　　　 "
 dialogtxt       "training together, as Craftknights…"
 goto            @Label_28e8
 
@@ -1244,4 +1242,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -14,7 +14,7 @@ code0482
 code047d        0, 108
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Hey, δ!"
+dialogtxt       "Hey, [NAME 2]!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -69,7 +69,7 @@ code0309
 code0479        0, 0, 13
 dialogtxt       "Oh, that's right."
 dialogtxt       "Master, thanks for letting Murno"
-dialogtxt       "and γ stay with us."
+dialogtxt       "and [NAME 1] stay with us."
 code0309        
 call            @Func_1124
 code0479        1, 0, 16
@@ -108,8 +108,8 @@ dialogtxt       "Just kidding!"
 dialogtxt       "The truth is, that's irrelevant."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "If such a place doesn't exist," 
-dialogtxt       "you have to make it yourself!" 
+dialogtxt       "If such a place doesn't exist,"
+dialogtxt       "you have to make it yourself!"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Rob is no longer at my side,"
@@ -125,19 +125,18 @@ call            @Func_1124
 code0479        0, 0, 12
 code0479        1, 0, 16
 call            @Func_115a
-dialogtxt       "δ,"
-dialogtxt       "do you know the saying?"
-dialogtxt       "\"What goes around, comes around.\""
+dialogtxt       "[NAME 2],"
+dialogtxt       "have you ever heard this saying?"
+dialogtxt       "\"Good things come in threes.\""
 code0309        
 code0479        1, 1, 12
-dialogtxt       "Do good deeds for others,"
-dialogtxt       "and they will repay you in kind."
 dialogtxt       "Amazing, isn't it?"
+dialogtxt       "The way the world works sometimes…"
 code0309        
 call            @Func_1190
 code0479        0, 0, 16
 call            @Func_10ee
-dialogtxt       "Huh…"
+dialogtxt       "Y-Yeah…"
 code0309        
 call            @Func_1124
 code0479        1, 2, 12
@@ -198,8 +197,7 @@ dialogtxt       "Yeah!"
 code0309        
 code0479        0, 0, 16
 dialogtxt       "Trusting each other means that"
-dialogtxt       "I need to trust γ, too."
-dialogtxt       "… That's how it is, huh."
+dialogtxt       "I need to trust [NAME 1], too…"
 goto            @Label_0b30
 
 @Label_0b30:
@@ -390,4 +388,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
