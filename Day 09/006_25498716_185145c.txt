@@ -125,7 +125,7 @@ code0309
 call            @Func_18ee
 code0479        0, 4, 16
 call            @Func_184c
-dialogtxt       "Th-they're…"
+dialogtxt       "Th-They're…"
 dialogtxt       "at Lute Grotto…"
 code0309        
 call            @Func_1972
@@ -137,8 +137,8 @@ code047d        1, 138
 call            @Func_191c
 call            @Func_18b8
 dialogtxt       "Ehh~…"
-dialogtxt       "Lute Grotto is becoming"
-dialogtxt       "dangerous again…?"
+dialogtxt       "Is Lute Grotto becoming"
+dialogtxt       "dangerous again?"
 code0309        
 call            @Func_195c
 call            @Func_18ee
@@ -223,7 +223,7 @@ code0309
 call            @Func_1882
 code0479        1, 5, 16
 call            @Func_18b8
-dialogtxt       "O-oh, is that so…?"
+dialogtxt       "O-oh, is that so?"
 dialogtxt       "Well, if there's nothing else,"
 dialogtxt       "we'll be off."
 code0309        
@@ -627,4 +627,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
