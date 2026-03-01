@@ -530,7 +530,7 @@ call            @Func_1f42
 jumpz           @Cond_1952, ($b002 == 0)
 dialogtxt       "Lemmy!"
 dialogtxt       "…"
-dialogtxt       "Shit! [NAME 1]!"
+dialogtxt       "Darn! [NAME 1]!"
 goto            @Label_1976
 
 @Cond_1952:
@@ -771,4 +771,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
