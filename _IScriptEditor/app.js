@@ -372,6 +372,7 @@ async function loadChapter() {
         filenameHeader.textContent = "Editing: " + enFilename;
     });
     DIRTY = false;
+    resetPreviousSpeaker();
     checkProcessText();
 }
 
@@ -1149,6 +1150,13 @@ function restoreSpeaker() {
     speakerRight = previousSpeakerRight;
     speakerLeftOn = previousSpeakerLeftOn;
     speakerRightOn = previousSpeakerRightOn;
+}
+function resetPreviousSpeaker() {
+    previousSpeakerLeft = "";
+    previousSpeakerRight = "";
+    previousSpeakerLeftOn = false;
+    previousSpeakerRightOn = false;
+    speakerSaved = false;
 }
 // #endregion
 
