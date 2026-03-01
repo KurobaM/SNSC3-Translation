@@ -1027,6 +1027,9 @@ function processCode(lines, line) {
     }
     // Indicates dialogue for male player
     else if (line.startsWith('jumpz')) {
+        if (line.includes('$b003 ==')) {
+            saveSpeaker();
+        }
         if (line.includes('$b002 == 0')) {
             editedLine = line.replace("jumpz", "").trim().replace(' ', '');
             parts = editedLine.split(",");
@@ -1102,6 +1105,7 @@ function processCode(lines, line) {
     if (line.startsWith(partnerTrigger)) {
         partner += 1;
         partnerTrigger = "NONE";
+        restoreSpeaker();
     }
     if (line.startsWith(endPartnerTrigger) && partnerTrigger == "NONE") {
         if (rundorEnd == endPartnerTrigger) {
@@ -1121,10 +1125,32 @@ function processCode(lines, line) {
     if (line.startsWith('code0302')) {
     }
 
-    if (partnerTrigger == "NONE" && rundorEnd == "NONE" && enziEnd == "NONE" && killfithEnd == "NONE" && rufeelEnd == "NONE") {
+    if (partner != -1 && partnerTrigger == "NONE" && rundorEnd == "NONE" && enziEnd == "NONE" && killfithEnd == "NONE" && rufeelEnd == "NONE") {
         partner = -1;
     }
 }
+
+// #region Speaker Info Saving
+let previousSpeakerLeft = "";
+let previousSpeakerRight = "";
+let previousSpeakerLeftOn = false;
+let previousSpeakerRightOn = false;
+let speakerSaved = false;
+function saveSpeaker() {
+    previousSpeakerLeft = speakerLeft;
+    previousSpeakerRight = speakerRight;
+    previousSpeakerLeftOn = speakerLeftOn;
+    previousSpeakerRightOn = speakerRightOn;
+    speakerSaved = true;
+}
+function restoreSpeaker() {
+    if (!speakerSaved) return;
+    speakerLeft = previousSpeakerLeft;
+    speakerRight = previousSpeakerRight;
+    speakerLeftOn = previousSpeakerLeftOn;
+    speakerRightOn = previousSpeakerRightOn;
+}
+// #endregion
 
 /**
  * Get index of string in an array. Because for some reason Array.ofIndex() doesn't work.
