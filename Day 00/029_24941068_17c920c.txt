@@ -925,7 +925,7 @@ code031c        1, 1
 code031f        1
 code040d        60
 code0304        1
-strlen          280, "Î³"
+strlen          280, "γ"
 jumpz           @Cond_252c, ($h216 == 1)
 jumpz           @Cond_24d4, ($b002 == 0)
 dialogtxt       "　　 And so, the two of us began　　　 "
