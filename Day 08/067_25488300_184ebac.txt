@@ -156,12 +156,12 @@ call            @Func_12aa
 code0479        0, 5, 16
 call            @Func_1208
 jumpz           @Cond_0772, ($b002 == 0)
-dialogtxt       "Eh…?"
+dialogtxt       "Eh?"
 dialogtxt       "Go ahead."
 goto            @Label_078a
 
 @Cond_0772:
-dialogtxt       "Eh…?"
+dialogtxt       "Eh?"
 dialogtxt       "Go ahead."
 goto            @Label_078a
 
@@ -488,4 +488,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

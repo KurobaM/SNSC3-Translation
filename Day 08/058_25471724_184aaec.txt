@@ -81,12 +81,12 @@ code047d        1, 2
 call            @Func_1a52
 call            @Func_194e
 jumpz           @Cond_03c0, ($b002 == 0)
-dialogtxt       "What was that…?"
+dialogtxt       "What was that?"
 dialogtxt       "Lemmy…"
 goto            @Label_03dc
 
 @Cond_03c0:
-dialogtxt       "What was that…?"
+dialogtxt       "What was that?"
 dialogtxt       "Lemmy…"
 goto            @Label_03dc
 
@@ -691,4 +691,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
