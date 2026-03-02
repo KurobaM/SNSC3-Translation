@@ -194,7 +194,7 @@ code0479        1, 5, 17
 code047d        1, 107
 call            @Func_13c0
 call            @Func_133e
-dialogtxt       "[NAME 2]!"
+dialogtxt       "[NAME 1]!"
 code047b        
 code0309        
 call            @Func_1416
@@ -204,7 +204,7 @@ code047d        1, 120
 code0301        8, 7
 code047e        1, 1
 dialogtxt       "I told you to keep it down."
-dialogtxt       "I taught you about the bracelet"
+dialogtxt       "I taught you about the bindings"
 dialogtxt       "yesterday. Did you forget already?"
 code047b        
 code0309        
@@ -309,7 +309,7 @@ dialogtxt       "Darn!"
 goto            @Label_0d36
 
 @Cond_0d28:
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh…!"
 goto            @Label_0d36
 
 @Label_0d36:

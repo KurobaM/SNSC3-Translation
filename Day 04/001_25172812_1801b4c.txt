@@ -82,13 +82,13 @@ call            @Func_159a
 code0479        0, 0, 12
 call            @Func_14f8
 jumpz           @Cond_0478, ($b002 == 0)
-dialogtxt       "…er, sorry!"
+dialogtxt       "… Er, sorry!"
 dialogtxt       "We did leave the village,"
 dialogtxt       "at least there's that!"
 goto            @Label_04d2
 
 @Cond_0478:
-dialogtxt       "…er, sorry!"
+dialogtxt       "… Er, sorry!"
 dialogtxt       "We did leave the village,"
 dialogtxt       "at least there's that!"
 goto            @Label_04d2

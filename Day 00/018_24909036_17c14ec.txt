@@ -55,7 +55,7 @@ code0446        0
 code0479        1, 5, 17
 call            @Func_096a
 call            @Func_08e8
-dialogtxt       "H-hey, back off!"
+dialogtxt       "H-Hey, back off!"
 dialogtxt       "I need to get that Stray!"
 code047b        
 code0309        
@@ -271,4 +271,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

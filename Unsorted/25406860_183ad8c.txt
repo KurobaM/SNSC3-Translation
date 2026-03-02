@@ -109,7 +109,7 @@ code0479        1, 2, 15
 call            @Func_1676
 call            @Func_15f4
 dialogtxt       "You guys!"
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 code0309        
 call            @Func_16cc
 call            @Func_1630
@@ -281,7 +281,7 @@ call            @Func_168c
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "… !"
+dialogtxt       "…!"
 code047b        
 code0309        
 call            @Func_16e2

@@ -290,22 +290,22 @@ code047d        1, 2
 call            @Func_46b6
 call            @Func_4634
 jumpz           @Cond_0c8c, ($b003 == 0)
-dialogtxt       "…！"
+dialogtxt       "…!"
 goto            @Cond_0c8c
 
 @Cond_0c8c:
 jumpz           @Cond_0cb2, ($b003 == 1)
-dialogtxt       "Th-this is…!"
+dialogtxt       "Th-This is…!"
 goto            @Cond_0cb2
 
 @Cond_0cb2:
 jumpz           @Cond_0cd8, ($b003 == 2)
-dialogtxt       "Th-this is…!"
+dialogtxt       "Th-This is…!"
 goto            @Cond_0cd8
 
 @Cond_0cd8:
 jumpz           @Cond_0cfe, ($b003 == 3)
-dialogtxt       "Th-this is…!"
+dialogtxt       "Th-This is…!"
 goto            @Cond_0cfe
 
 @Cond_0cfe:
@@ -480,12 +480,12 @@ goto            @Cond_140c
 
 @Cond_140c:
 jumpz           @Cond_1432, ($b003 == 2)
-dialogtxt       "Uu…aAaAh!"
+dialogtxt       "Uu… aAaAh!"
 goto            @Cond_1432
 
 @Cond_1432:
 jumpz           @Cond_1458, ($b003 == 3)
-dialogtxt       "Kya…aAaAh!"
+dialogtxt       "Kya… aAaAh!"
 goto            @Cond_1458
 
 @Cond_1458:
@@ -638,12 +638,12 @@ call            @Func_4688
 code0479        0, 2, 16
 call            @Func_45e6
 jumpz           @Cond_1a70, ($b002 == 0)
-dialogtxt       "Wha… what the hell!?"
+dialogtxt       "Wha… What the hell!?"
 dialogtxt       "Are you serious…"
 goto            @Label_1aa2
 
 @Cond_1a70:
-dialogtxt       "Wh-what…!?"
+dialogtxt       "Wh-What…!?"
 dialogtxt       "Are you serious…"
 goto            @Label_1aa2
 
@@ -658,7 +658,7 @@ dialogtxt       "Then why don't I give"
 dialogtxt       "you a demonstration!"
 code0309        
 code0479        1, 3, 15
-dialogtxt       "…！"
+dialogtxt       "…!"
 code0309        
 call            @Func_46f6
 call            @Func_4688
@@ -686,7 +686,7 @@ goto            @Label_1bda
 code047d        0, 2
 call            @Func_46a0
 call            @Func_45e6
-dialogtxt       "…！"
+dialogtxt       "…!"
 code047b        
 code0309        
 call            @Func_461c
@@ -1337,7 +1337,7 @@ call            @Func_4688
 code0479        0, 5, 16
 call            @Func_45e6
 dialogtxt       "Wha…!"
-dialogtxt       "What… did you… say…?"
+dialogtxt       "What… Did you… Say…?"
 code0309        
 call            @Func_461c
 code0479        1, 2, 16
@@ -1349,7 +1349,7 @@ code0309
 code0479        1, 2, 14
 dialogtxt       "And that's not all. They'll go crazy"
 dialogtxt       "and attack any humans they see."
-dialogtxt       "Just like…yes,"
+dialogtxt       "Just like… Yes,"
 code0309        
 code0479        1, 3, 12
 dialogtxt       "As if they hated all of humanity."
@@ -1455,7 +1455,7 @@ call            @Func_4688
 code0479        0, 3, 15
 call            @Func_45e6
 dialogtxt       "Damn…!"
-dialogtxt       "I won't… forgive you…!"
+dialogtxt       "I won't… Forgive you…!"
 code0309        
 call            @Func_4722
 call            @Func_4604

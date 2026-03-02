@@ -389,7 +389,7 @@ choicewait
 
 @Choice_1098:
 code047e        0, 1
-dialogtxt       "Well…If you use two Workout Guides"
+dialogtxt       "Well… If you use two Workout Guides"
 dialogtxt       "when enhancing, you get Uppercut."
 code0309        
 dialogtxt       "But you can't use it on bows."
@@ -397,7 +397,7 @@ dialogtxt       "So be reeeaally careful, okay?"
 code0309        
 dialogtxt       "But hey, get this, right now"
 dialogtxt       "I'm selling both materials for"
-dialogtxt       "an amazing…2000 Boam!"
+dialogtxt       "an amazing… 2000 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        

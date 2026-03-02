@@ -267,7 +267,7 @@ code047b
 code047d        0, 106
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 dialogtxt       "[NAME 1]!"
 dialogtxt       "[NAME 2]!"
 code0309        

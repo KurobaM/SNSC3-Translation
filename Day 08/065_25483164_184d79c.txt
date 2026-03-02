@@ -231,7 +231,7 @@ code0309
 call            @Func_2744
 code0479        0, 1, 14
 call            @Func_26a2
-dialogtxt       "Th-that's kinda scary…"
+dialogtxt       "Th-That's kinda scary…"
 code0309        
 call            @Func_27de
 call            @Func_26c0
@@ -515,7 +515,7 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 13
 call            @Func_270e
-dialogtxt       "Fu… it's fine."
+dialogtxt       "Fu… It's fine."
 dialogtxt       "Next we meet, I'll pay them"
 dialogtxt       "back for you as well."
 code0309        
@@ -571,7 +571,7 @@ dialogtxt       "I will return it three times over!"
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 16
-dialogtxt       "…So, that's how I feel."
+dialogtxt       "… So, that's how I feel."
 dialogtxt       "[NAME 2], what about you?"
 dialogtxt       "Are you alright?"
 code0309        
@@ -606,7 +606,7 @@ call            @Func_26d8
 code0479        1, 4, 16
 call            @Func_270e
 dialogtxt       "Ahh, truly that was quite…"
-dialogtxt       "Uu…, just imagining it"
+dialogtxt       "Uu… Just imagining it"
 dialogtxt       "gives me goosebumps."
 code0309        
 call            @Func_2744

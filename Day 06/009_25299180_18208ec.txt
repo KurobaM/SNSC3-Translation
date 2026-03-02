@@ -432,7 +432,7 @@ goto            @Label_1080
 @Label_1080:
 call            @Func_19da
 jumpz           @Cond_1174, ($b003 == 0)
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 code0479        0, 3, 12
 dialogtxt       "A-Affirmative."
@@ -470,7 +470,7 @@ dialogtxt       "Understood…"
 code0309        
 code0479        0, 2, 14
 dialogtxt       "(This man…"
-dialogtxt       "　Such powerful spirit…)"
+dialogtxt       "Such powerful spirit…)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8
@@ -484,7 +484,7 @@ dialogtxt       "Meddling human."
 code0309        
 code0479        0, 2, 14
 dialogtxt       "(This man…"
-dialogtxt       "　Such powerful spirit…)"
+dialogtxt       "Such powerful spirit…)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8
@@ -498,7 +498,7 @@ dialogtxt       "U—understood!"
 code0309        
 code0479        0, 4, 16
 dialogtxt       "(Uu…"
-dialogtxt       "　He's scary…)"
+dialogtxt       "He's scary…)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8

@@ -95,7 +95,7 @@ code0479        0, 0, 12
 code047d        0, 138
 call            @Func_0ac6
 call            @Func_0a0c
-dialogtxt       "Master looks… happy."
+dialogtxt       "Master looks… Happy."
 code047b        
 code0309        
 call            @Func_0a42
@@ -129,11 +129,11 @@ code047d        0, 0
 call            @Func_0ac6
 call            @Func_0a0c
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "…I can't tell at all…"
+dialogtxt       "… I can't tell at all…"
 goto            @Label_044c
 
 @Cond_0432:
-dialogtxt       "…I can't tell at all…"
+dialogtxt       "… I can't tell at all…"
 goto            @Label_044c
 
 @Label_044c:

@@ -197,14 +197,14 @@ call            @Func_3ef6
 call            @Func_3e1e
 jumpz           @Cond_07e8, ($b002 == 0)
 dialogtxt       "We're following Master's directions?"
-dialogtxt       "…Can we make it there safely?"
-dialogtxt       "…We should get going."
+dialogtxt       "… Can we make it there safely?"
+dialogtxt       "… We should get going."
 goto            @Label_0840
 
 @Cond_07e8:
 dialogtxt       "We're following Master's directions?"
-dialogtxt       "…Can we make it there safely?"
-dialogtxt       "…We should get going."
+dialogtxt       "… Can we make it there safely?"
+dialogtxt       "… We should get going."
 goto            @Label_0840
 
 @Label_0840:
@@ -791,7 +791,7 @@ call            @Func_3e72
 call            @Func_3f0c
 code0479        1, 0, 13
 call            @Func_3ea8
-dialogtxt       "…Do whatever you want."
+dialogtxt       "… Do whatever you want."
 code047b        
 code0309        
 call            @Func_3f4c
@@ -1066,7 +1066,7 @@ code0309
 call            @Func_3e72
 code0479        1, 5, 17
 call            @Func_3ea8
-dialogtxt       "Th-that would be a problem!"
+dialogtxt       "Th-That would be a problem!"
 dialogtxt       "O-oh, not that I'm scared"
 dialogtxt       "of him or anything!"
 code0309        
@@ -1231,7 +1231,7 @@ call            @Func_3e72
 call            @Func_3f0c
 code0479        1, 0, 13
 call            @Func_3ea8
-dialogtxt       "…Do whatever you want."
+dialogtxt       "… Do whatever you want."
 code047b        
 code0309        
 call            @Func_3f4c
@@ -1359,7 +1359,7 @@ code0309
 call            @Func_3e72
 code0479        1, 0, 12
 call            @Func_3ea8
-dialogtxt       "…That Is True,"
+dialogtxt       "… That Is True,"
 dialogtxt       "However…"
 code0309        
 call            @Func_3f78
@@ -1464,7 +1464,7 @@ code0309
 call            @Func_3e72
 code0479        1, 0, 12
 call            @Func_3ea8
-dialogtxt       "…That's true."
+dialogtxt       "… That's true."
 dialogtxt       "What do we do then…"
 code0309        
 call            @Func_3f78
@@ -1646,7 +1646,7 @@ code047d        1, 2
 call            @Func_3f22
 jumpz           @Cond_3be0, ($b003 == 0)
 call            @Func_3e1e
-dialogtxt       "…Let's meet up with Master."
+dialogtxt       "… Let's meet up with Master."
 code047b        
 code0309        
 call            @Func_3e72
@@ -1725,7 +1725,7 @@ goto            @Cond_3d60
 @Cond_3d60:
 jumpz           @Cond_3e18, ($b003 == 3)
 call            @Func_3e1e
-dialogtxt       "…Let's meet up with Master."
+dialogtxt       "… Let's meet up with Master."
 code047b        
 code0309        
 call            @Func_3e72

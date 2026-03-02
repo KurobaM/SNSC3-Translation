@@ -137,7 +137,7 @@ dialogtxt       "…"
 code047b        
 code0309        
 code0479        0, 4, 12
-dialogtxt       "No… you're right…"
+dialogtxt       "No… You're right…"
 dialogtxt       "I wasn't paying enough attention."
 dialogtxt       "Sorry."
 code0309        
@@ -257,7 +257,7 @@ code047d        0, 110
 call            @Func_200c
 call            @Func_1f08
 dialogtxt       "Helping out is fine,"
-dialogtxt       "but what about the cleanup?"
+dialogtxt       "but what about the clean-up?"
 code047b        
 code0309        
 call            @Func_1f5c
@@ -275,7 +275,7 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_1fe0
 call            @Func_1f26
-dialogtxt       "B…, Brooo…"
+dialogtxt       "B-Brooo…"
 code047b        
 code0309        
 call            @Func_2036
@@ -534,7 +534,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1fe0
 call            @Func_1f26
-dialogtxt       "… !"
+dialogtxt       "…!"
 code047b        
 code0309        
 call            @Func_204c
@@ -557,7 +557,7 @@ code0479        0, 2, 15
 code047d        0, 108
 call            @Func_1fe0
 call            @Func_1f26
-dialogtxt       "…Hey, I'm the one"
+dialogtxt       "… Hey, I'm the one"
 dialogtxt       "who calls the shots here."
 dialogtxt       "Okay, now go!"
 code0309        

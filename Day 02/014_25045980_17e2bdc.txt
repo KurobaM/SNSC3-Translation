@@ -112,7 +112,7 @@ goto            @Cond_040c
 
 @Cond_040c:
 jumpz           @Cond_0452, ($b003 == 3)
-dialogtxt       "There…\"should\" be?"
+dialogtxt       "There… \"should\" be?"
 dialogtxt       "Your intuition is a bit flaky…"
 goto            @Cond_0452
 

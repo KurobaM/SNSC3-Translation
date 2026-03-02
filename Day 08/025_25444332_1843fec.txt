@@ -100,12 +100,12 @@ code047d        0, 0
 call            @Func_13ca
 call            @Func_12f2
 jumpz           @Cond_04dc, ($b002 == 0)
-dialogtxt       "…They get along well."
+dialogtxt       "… They get along well."
 dialogtxt       "It's a bit frustrating…"
 goto            @Label_0512
 
 @Cond_04dc:
-dialogtxt       "…They get along well."
+dialogtxt       "… They get along well."
 dialogtxt       "It's a bit frustrating…"
 goto            @Label_0512
 
@@ -271,7 +271,7 @@ code0309
 call            @Func_1346
 code0479        1, 4, 17
 call            @Func_137c
-dialogtxt       "Wh-what is it…?"
+dialogtxt       "Wh-What is it…?"
 dialogtxt       "Staring so intensely…"
 dialogtxt       "You're scaring me…"
 code0309        

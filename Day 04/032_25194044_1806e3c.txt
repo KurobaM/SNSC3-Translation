@@ -157,7 +157,7 @@ jumpz           @Cond_0704, ($b003 == 3)
 code0479        0, 5, 12
 call            @Func_26d8
 dialogtxt       "Um?"
-dialogtxt       "Your face is… um…"
+dialogtxt       "Your face is… Um…"
 dialogtxt       "S-Scary…"
 goto            @Cond_0704
 
@@ -192,7 +192,7 @@ code0479        1, 4, 12
 call            @Func_2792
 call            @Func_26d8
 dialogtxt       "Brother?"
-dialogtxt       "…She's your sister!?"
+dialogtxt       "… She's your sister!?"
 dialogtxt       "You two are completely different!"
 code047b        
 code0309        
@@ -370,7 +370,7 @@ code0309
 call            @Func_277a
 code0479        0, 4, 16
 call            @Func_26d8
-dialogtxt       "Uh…, no…"
+dialogtxt       "Uh… No…"
 dialogtxt       "I-I'm not…"
 dialogtxt       "S-Sorry…"
 goto            @Cond_105a
@@ -598,7 +598,7 @@ goto            @Label_1ca8
 call            @Func_270e
 code0479        1, 4, 16
 call            @Func_2744
-dialogtxt       "So… you can't…"
+dialogtxt       "So… You can't…"
 code0309        
 call            @Func_277a
 code0479        0, 4, 16
@@ -662,7 +662,7 @@ call            @Func_277a
 code0479        0, 1, 17
 call            @Func_26d8
 jumpz           @Cond_1c1c, ($b002 == 0)
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh…!"
 dialogtxt       "Alright, okay!"
 dialogtxt       "I'll come with you!"
 goto            @Label_1c5a

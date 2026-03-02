@@ -235,14 +235,14 @@ goto            @Cond_0982
 
 @Cond_0982:
 jumpz           @Cond_09e2, ($b003 == 2)
-dialogtxt       "What… this awful ill will…"
+dialogtxt       "What… This awful ill will…"
 dialogtxt       "His body is…"
 dialogtxt       "Being consumed…!"
 goto            @Cond_09e2
 
 @Cond_09e2:
 jumpz           @Cond_0a46, ($b003 == 3)
-dialogtxt       "What… this awful power…"
+dialogtxt       "What… This awful power…"
 dialogtxt       "His body is…"
 dialogtxt       "Being consumed…!"
 goto            @Cond_0a46
@@ -255,11 +255,11 @@ code043c        0, 3
 code0479        0, 2, 16
 call            @Func_16a2
 jumpz           @Cond_0aa0, ($b002 == 0)
-dialogtxt       "Consumed… by the sword!?"
+dialogtxt       "Consumed… By the sword!?"
 goto            @Label_0abe
 
 @Cond_0aa0:
-dialogtxt       "Consumed… by the sword!?"
+dialogtxt       "Consumed… By the sword!?"
 goto            @Label_0abe
 
 @Label_0abe:

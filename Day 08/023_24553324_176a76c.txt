@@ -296,7 +296,6 @@ code040b
 
 @Event_0bf4:
 code0301        8, 7
-dialogtxt       ""
 dialogtxt       "You can cash in your lottery tickets"
 dialogtxt       "once the winning numbers are picked!"
 code0309        

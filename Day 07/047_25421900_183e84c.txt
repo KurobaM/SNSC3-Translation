@@ -228,11 +228,11 @@ dialogbig       48, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_0a82, ($b002 == 0)
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_0a9c
 
 @Cond_0a82:
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_0a9c
 
 @Label_0a9c:
@@ -272,7 +272,7 @@ code0309
 call            @Func_2ace
 code0479        0, 2, 15
 call            @Func_2a2c
-dialogtxt       "Y… yeah!"
+dialogtxt       "Y-Yeah!"
 code0309        
 call            @Func_2b68
 call            @Func_2a4a
@@ -403,11 +403,11 @@ dialogbig       48, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_12fc, ($b002 == 0)
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_1316
 
 @Cond_12fc:
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_1316
 
 @Label_1316:
@@ -435,7 +435,7 @@ code0309
 call            @Func_2ace
 code0479        0, 5, 16
 call            @Func_2a2c
-dialogtxt       "Ah… yeah."
+dialogtxt       "Ah… Yeah."
 code0309        
 call            @Func_2b68
 call            @Func_2a4a
@@ -566,11 +566,11 @@ dialogbig       48, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 0, 16
 jumpz           @Cond_1af0, ($b002 == 0)
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_1b0a
 
 @Cond_1af0:
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_1b0a
 
 @Label_1b0a:
@@ -579,20 +579,20 @@ call            @Func_2a62
 code0479        1, 4, 16
 call            @Func_2a98
 dialogtxt       "Please…"
-dialogtxt       "Don't make me do this."
-code0309        
+dialogtxt       "Don't make me do that."
+code0309		
 call            @Func_2ace
 code0479        0, 5, 17
 call            @Func_2a2c
 jumpz           @Cond_1bc4, ($b002 == 0)
 dialogtxt       "Eh!?"
-dialogtxt       "[NAME 1] is begging me…"
+dialogtxt       "You're actually begging me…"
 dialogtxt       "Do you hate it that much…?"
 goto            @Label_1c08
 
 @Cond_1bc4:
 dialogtxt       "Eh!?"
-dialogtxt       "[NAME 1] is begging me…"
+dialogtxt       "You're actually begging me…"
 dialogtxt       "Do you hate it that much…?"
 goto            @Label_1c08
 
@@ -728,11 +728,11 @@ dialogbig       48, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 0, 14
 jumpz           @Cond_22c6, ($b002 == 0)
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_22e0
 
 @Cond_22c6:
-dialogtxt       "…Hey, what's wrong?"
+dialogtxt       "… Hey, what's wrong?"
 goto            @Label_22e0
 
 @Label_22e0:
@@ -763,7 +763,7 @@ code0309
 call            @Func_2ace
 code0479        0, 5, 14
 call            @Func_2a2c
-dialogtxt       "Ah… yeah."
+dialogtxt       "Ah… Yeah."
 code0309        
 call            @Func_2b68
 call            @Func_2a4a
@@ -985,4 +985,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

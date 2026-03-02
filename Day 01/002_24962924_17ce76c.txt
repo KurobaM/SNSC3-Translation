@@ -50,7 +50,7 @@ code0479        0, 0, 12
 call            @Func_0bea
 call            @Func_0ae6
 dialogtxt       "Alright, let's do this."
-dialogtxt       "I'm counting on you, γ."
+dialogtxt       "I'm counting on you, [NAME 1]."
 goto            @Label_0338
 
 @Label_0338:
@@ -64,7 +64,7 @@ goto            @Cond_0364
 
 @Cond_0364:
 jumpz           @Cond_038a, ($b003 == 1)
-dialogtxt       "Mm, understood."
+dialogtxt       "Understood."
 goto            @Cond_038a
 
 @Cond_038a:
@@ -100,7 +100,7 @@ code0305        1
 dialogtxt       "You can do so at any time"
 dialogtxt       "when you are not in battle."
 code0309        
-dialogtxt       "Press the Select button"
+dialogtxt       "Press the SELECT button"
 dialogtxt       "when your partner is available"
 dialogtxt       "to talk to them."
 code0309        
@@ -318,4 +318,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -245,9 +245,9 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_2050
 call            @Func_1fec
-dialogtxt       "Right…, I'll trade their"
+dialogtxt       "Right… I'll trade their"
 dialogtxt       "lives for the Demon Stone…"
-dialogtxt       "…How's that sound?"
+dialogtxt       "… How's that sound?"
 code047b        
 code0309        
 call            @Func_20bc
@@ -319,12 +319,12 @@ code0479        0, 2, 14
 call            @Func_203a
 call            @Func_1f62
 jumpz           @Cond_0dc2, ($b002 == 0)
-dialogtxt       "O, ow…"
+dialogtxt       "O-ow…"
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 
 @Cond_0dc2:
-dialogtxt       "O, ow…"
+dialogtxt       "O-ow…"
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 

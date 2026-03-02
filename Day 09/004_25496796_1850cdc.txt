@@ -125,7 +125,7 @@ code0479        1, 2, 16
 code047d        1, 109
 call            @Func_145e
 call            @Func_13fa
-dialogtxt       "Back to searching again, huh."
+dialogtxt       "Back to searching again, aren't we?"
 code047b        
 code0309        
 call            @Func_149e
@@ -137,12 +137,12 @@ code047d        0, 0
 call            @Func_1448
 call            @Func_138e
 jumpz           @Cond_070c, ($b002 == 0)
-dialogtxt       "Right… wait,"
+dialogtxt       "Right… Wait,"
 dialogtxt       "you're helping too?"
 goto            @Label_0742
 
 @Cond_070c:
-dialogtxt       "Right… wait,"
+dialogtxt       "Right… Wait,"
 dialogtxt       "you're helping too?"
 goto            @Label_0742
 
@@ -167,7 +167,7 @@ call            @Func_1448
 call            @Func_138e
 dialogtxt       "That's true."
 dialogtxt       "I'm counting on you, Tier."
-dialogtxt       "But Murno is staying here."
+dialogtxt       "But Murno is staying here!"
 code047b        
 code0309        
 call            @Func_14b4
@@ -180,7 +180,7 @@ call            @Func_145e
 call            @Func_13fa
 dialogtxt       "Ah…"
 dialogtxt       "I understand."
-dialogtxt       "…Sorry."
+dialogtxt       "… Sorry."
 code047b        
 code0309        
 call            @Func_1430
@@ -277,7 +277,7 @@ goto            @Label_0bbe
 @Label_0bbe:
 call            @Func_13fa
 jumpz           @Cond_0be4, ($b003 == 0)
-dialogtxt       "…Affirmative."
+dialogtxt       "… Affirmative."
 goto            @Cond_0be4
 
 @Cond_0be4:

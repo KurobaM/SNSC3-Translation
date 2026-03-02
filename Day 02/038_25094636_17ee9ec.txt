@@ -12,7 +12,7 @@ code0309
 code0479        0, 2, 12
 dialogtxt       "I have to concentrate on the match!"
 dialogtxt       "That'll help Murno too…"
-dialogtxt       "…I think."
+dialogtxt       "… I think."
 goto            @Label_01d4
 
 @Cond_0110:
@@ -24,7 +24,7 @@ code0309
 code0479        0, 2, 12
 dialogtxt       "I have to concentrate on the match!"
 dialogtxt       "That'll help Murno too…"
-dialogtxt       "…I think."
+dialogtxt       "… I think."
 goto            @Label_01d4
 
 @Label_01d4:

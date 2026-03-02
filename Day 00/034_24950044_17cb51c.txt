@@ -29,7 +29,7 @@ code0482
 code047d        0, 2
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "So you noticed me…"
+dialogtxt       "So you've noticed me…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,7 +44,7 @@ code0482
 code047d        0, 2
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -59,7 +59,7 @@ code0482
 code047d        0, 2
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "You noticed me!"
+dialogtxt       "Well, you found me."
 code0309        
 code047e        0, 0
 code0302        3
@@ -112,7 +112,7 @@ code047d        1, 2
 call            @Func_338e
 jumpz           @Cond_0df0, ($b003 == 0)
 call            @Func_328a
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 dialogtxt       "Why are you here?"
 code047b        
 code0309        
@@ -125,7 +125,7 @@ code0309
 call            @Func_334a
 code0479        0, 2, 14
 call            @Func_32a8
-dialogtxt       "Followed me…?"
+dialogtxt       "Followed me?"
 dialogtxt       "Why?"
 code0309        
 call            @Func_32de
@@ -197,7 +197,7 @@ code0479        0, 0, 13
 call            @Func_32a8
 dialogtxt       "I'll say it anew."
 dialogtxt       "Let's get along from now on,"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0908
 
 @Label_0908:
@@ -219,7 +219,7 @@ code0309
 call            @Func_32de
 code0479        1, 5, 12
 call            @Func_3314
-dialogtxt       "\"that\"?"
+dialogtxt       "\"That?\""
 code0309        
 call            @Func_334a
 code0479        0, 2, 15
@@ -230,7 +230,7 @@ code0479        1, 4, 12
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_0ab6
 
 @Label_0ab6:
@@ -300,7 +300,7 @@ code0479        0, 2, 13
 call            @Func_3362
 call            @Func_328a
 dialogtxt       "One day, I'll make"
-dialogtxt       "γ understand"
+dialogtxt       "[NAME 1] understand"
 dialogtxt       "what spirit is all about!"
 goto            @Label_0dde
 
@@ -315,7 +315,7 @@ goto            @Cond_0df0
 @Cond_0df0:
 jumpz           @Cond_17cc, ($b003 == 1)
 call            @Func_328a
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 dialogtxt       "Why are you here?"
 code047b        
 code0309        
@@ -323,7 +323,7 @@ call            @Func_32de
 code0479        1, 2, 16
 call            @Func_3314
 dialogtxt       "I followed the footsteps"
-dialogtxt       "you left behind when you went out." 
+dialogtxt       "you left behind when you went out."
 code0309        
 call            @Func_334a
 code0479        0, 2, 14
@@ -380,7 +380,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        1, 4, 12
 code0479        0, 2, 17
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 goto            @Label_11bc
 
 @Cond_115c:
@@ -389,7 +389,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        1, 4, 12
 code0479        0, 2, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Label_11bc
 
 @Label_11bc:
@@ -455,7 +455,7 @@ code0309
 call            @Func_32de
 code0479        1, 5, 16
 call            @Func_3314
-dialogtxt       "\"that\"?"
+dialogtxt       "\"That?\""
 dialogtxt       "Do you mean, that…"
 code0309        
 call            @Func_334a
@@ -467,7 +467,7 @@ code0479        1, 4, 16
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_1632
 
 @Label_1632:
@@ -503,8 +503,7 @@ code0309
 call            @Func_334a
 code0479        0, 5, 15
 call            @Func_32a8
-dialogtxt       "Eh?"
-dialogtxt       "Really?"
+dialogtxt       "Wait, really?"
 code0309        
 call            @Func_33e4
 call            @Func_32c6
@@ -514,7 +513,7 @@ goto            @Cond_17cc
 @Cond_17cc:
 jumpz           @Cond_21ca, ($b003 == 2)
 call            @Func_32a8
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 dialogtxt       "Why are you here?"
 code047b        
 code0309        
@@ -549,7 +548,7 @@ code0309
 call            @Func_32de
 code0479        1, 2, 14
 call            @Func_3314
-dialogtxt       "Tsk…That's stupid."
+dialogtxt       "Tsk… That's stupid."
 dialogtxt       "What about you, why are you here?"
 dialogtxt       "You're an eyesore."
 code0309        
@@ -578,7 +577,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's get along a little better!"
 goto            @Label_1ca6
@@ -589,7 +588,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "…Wait, no!!"
+dialogtxt       "… Wait, no!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's try to get along a bit better!"
 goto            @Label_1ca6
@@ -617,14 +616,14 @@ code0309
 call            @Func_32de
 code0479        1, 2, 14
 call            @Func_3314
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 code0309        
 call            @Func_334a
 code0479        0, 0, 13
 call            @Func_32a8
 dialogtxt       "So! I'll say it once again."
 dialogtxt       "Let's work together,"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_1eac
 
 @Label_1eac:
@@ -632,7 +631,7 @@ code0309
 call            @Func_32de
 code0479        1, 2, 12
 call            @Func_3314
-dialogtxt       "Ahh…fine,"
+dialogtxt       "Ahh… Fine,"
 dialogtxt       "I get it already."
 dialogtxt       "You're so irritating."
 code0309        
@@ -645,7 +644,7 @@ code0309
 call            @Func_32de
 code0479        1, 5, 16
 call            @Func_3314
-dialogtxt       "\"that\"…?"
+dialogtxt       "\"That?\""
 dialogtxt       "You don't mean…!"
 code0309        
 call            @Func_334a
@@ -657,7 +656,7 @@ code0479        1, 2, 12
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_207a
 
 @Label_207a:
@@ -694,7 +693,7 @@ goto            @Cond_21ca
 @Cond_21ca:
 jumpz           @Cond_2cf6, ($b003 == 3)
 call            @Func_328a
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 dialogtxt       "Why are you here?"
 code047b        
 code0309        
@@ -780,11 +779,11 @@ dialogtxt       "That's right."
 code0309        
 code0479        0, 2, 17
 jumpz           @Cond_26a0, ($b002 == 0)
-dialogtxt       "…Hey!!"
+dialogtxt       "… Hey!!"
 goto            @Label_26ba
 
 @Cond_26a0:
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Label_26ba
 
 @Label_26ba:
@@ -839,7 +838,7 @@ code0479        0, 1, 13
 call            @Func_32a8
 dialogtxt       "Then, I'll say it again!"
 dialogtxt       "Let's work together from now on,"
-dialogtxt       "γ!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_2a38
 
 @Label_2a38:
@@ -860,7 +859,7 @@ code0309
 call            @Func_32de
 code0479        1, 5, 17
 call            @Func_3314
-dialogtxt       "\"that\", you say?"
+dialogtxt       "\"That,\" you say?"
 dialogtxt       "Could you mean…?"
 code0309        
 call            @Func_334a
@@ -872,7 +871,7 @@ code0479        1, 4, 16
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
 code030c        
 code0479        0, 5, 16
-dialogtxt       "…Hey, what's the matter?"
+dialogtxt       "… Hey, what's the matter?"
 goto            @Label_2c00
 
 @Label_2c00:
@@ -880,7 +879,7 @@ code0309
 call            @Func_32de
 code0479        1, 4, 13
 call            @Func_3314
-dialogtxt       "E…Excuse me."
+dialogtxt       "E-Excuse me."
 dialogtxt       "This is very embarrassing, still…"
 dialogtxt       "Let us do it another time, please."
 code0309        
@@ -1116,4 +1115,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

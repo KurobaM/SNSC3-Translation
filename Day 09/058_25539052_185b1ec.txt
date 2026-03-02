@@ -533,12 +533,12 @@ call            @Func_349c
 code0479        0, 4, 12
 call            @Func_33fa
 jumpz           @Cond_18ac, ($b002 == 0)
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_18dc
 
 @Cond_18ac:
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_18dc
 
@@ -697,7 +697,7 @@ code0309
 call            @Func_3430
 code0479        1, 2, 12
 call            @Func_3466
-dialogtxt       "It's just… well…"
+dialogtxt       "It's just… Well…"
 dialogtxt       "We were always involved in"
 dialogtxt       "one thing or another…"
 code0309        
@@ -786,12 +786,12 @@ call            @Func_349c
 code0479        0, 4, 12
 call            @Func_33fa
 jumpz           @Cond_23d4, ($b002 == 0)
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_2404
 
 @Cond_23d4:
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_2404
 
@@ -1001,12 +1001,12 @@ call            @Func_349c
 code0479        0, 4, 16
 call            @Func_33fa
 jumpz           @Cond_2dbc, ($b002 == 0)
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_2dec
 
 @Cond_2dbc:
-dialogtxt       "I-is that so…"
+dialogtxt       "I-Is that so…"
 dialogtxt       "That makes me feel kinda lonely…"
 goto            @Label_2dec
 

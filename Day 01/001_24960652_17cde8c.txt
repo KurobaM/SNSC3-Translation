@@ -68,7 +68,7 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_1802
 call            @Func_172a
-dialogtxt       "Oh, it's Master and γ."
+dialogtxt       "Oh, it's Master and [NAME 1]."
 code047b        
 code0309        
 call            @Func_1858
@@ -125,7 +125,7 @@ code0479        0, 5, 16
 code047d        0, 2
 call            @Func_1802
 call            @Func_1748
-dialogtxt       "Wha…?"
+dialogtxt       "Wha-"
 dialogtxt       "I don't know about them,"
 dialogtxt       "but I had no such plans…"
 code047b        
@@ -165,7 +165,7 @@ code0479        1, 4, 13
 call            @Func_17b4
 dialogtxt       "I see, so in other words,"
 dialogtxt       "you were worried about Murno!"
-dialogtxt       "Hehe~…I see~…"
+dialogtxt       "Hehe~… I see~…"
 code0309        
 call            @Func_17ea
 goto            @Label_0950
@@ -292,7 +292,7 @@ call            @Func_17ea
 code0479        0, 1, 17
 call            @Func_1748
 dialogtxt       "Uwah~"
-dialogtxt       "This is too surreal~"
+dialogtxt       "This is too real~"
 code0309        
 call            @Func_177e
 code0479        1, 2, 12
@@ -308,7 +308,7 @@ code0309
 call            @Func_177e
 code0479        1, 2, 14
 call            @Func_17b4
-dialogtxt       "You too, γ!"
+dialogtxt       "You too, [NAME 1]!"
 code0309        
 call            @Func_1858
 call            @Func_17ea
@@ -589,4 +589,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

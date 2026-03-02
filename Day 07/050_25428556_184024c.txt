@@ -107,7 +107,7 @@ code0309
 call            @Func_0f9e
 code0479        1, 5, 12
 call            @Func_0fd4
-dialogtxt       "Ah…, my bad."
+dialogtxt       "Ah… My bad."
 dialogtxt       "I didn't mean to get angry…"
 dialogtxt       "Or rather, I'm not qualified to…"
 code0309        
@@ -160,12 +160,12 @@ call            @Func_100a
 code0479        0, 4, 14
 call            @Func_0f68
 jumpz           @Cond_089e, ($b002 == 0)
-dialogtxt       "O-okay, fine…"
+dialogtxt       "O-Okay, fine…"
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 
 @Cond_089e:
-dialogtxt       "O-okay, fine…"
+dialogtxt       "O-Okay, fine…"
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 

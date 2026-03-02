@@ -544,11 +544,11 @@ call            @Func_4a78
 code0479        0, 2, 16
 call            @Func_49d6
 jumpz           @Cond_1604, ($b002 == 0)
-dialogtxt       "Y-yeah!"
+dialogtxt       "Y-Yeah!"
 goto            @Label_1616
 
 @Cond_1604:
-dialogtxt       "Y-yeah!"
+dialogtxt       "Y-Yeah!"
 goto            @Label_1616
 
 @Label_1616:
@@ -623,11 +623,11 @@ call            @Func_4a78
 code0479        0, 2, 16
 call            @Func_49d6
 jumpz           @Cond_1848, ($b002 == 0)
-dialogtxt       "Y-yeah!"
+dialogtxt       "Y-Yeah!"
 goto            @Label_185a
 
 @Cond_1848:
-dialogtxt       "Y-yeah!"
+dialogtxt       "Y-Yeah!"
 goto            @Label_185a
 
 @Label_185a:
@@ -1531,7 +1531,7 @@ code0309
 call            @Func_4a0c
 code0479        1, 2, 14
 call            @Func_4a42
-dialogtxt       "Tch… that trash…"
+dialogtxt       "Tch… That trash…"
 dialogtxt       "If they lay even a finger on her,"
 dialogtxt       "I'll erase every trace of them!"
 code0309        
@@ -1562,7 +1562,7 @@ call            @Func_4a0c
 code0479        1, 2, 16
 call            @Func_4a42
 dialogtxt       "Lady Murno!"
-dialogtxt       "Please… be unharmed!"
+dialogtxt       "Please… Be unharmed!"
 code0309        
 call            @Func_4b12
 call            @Func_4a60

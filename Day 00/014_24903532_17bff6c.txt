@@ -12,15 +12,15 @@ dialogtxt       "the rhythm of your soul too, huh?"
 code047b        
 code0309        
 code0479        1, 1, 12
-dialogtxt       "But you've still got a ways to"
-dialogtxt       "go to be as good as Cozy!"
+dialogtxt       "But you've still got a ways before"
+dialogtxt       "you really start rock 'n' rollin'!"
 code0309        
 call            @Func_1026
 code0479        0, 0, 16
 call            @Func_0f84
-dialogtxt       "Cozy? Rock? I don't know"
+dialogtxt       "Rolling? Rock? I don't know"
 dialogtxt       "much about the Nameless World's"
-dialogtxt       "\"rock\" music, but…"
+dialogtxt       "music, but,"
 code0309        
 code0479        0, 2, 12
 code0479        1, 0, 12
@@ -56,7 +56,7 @@ code0309
 call            @Func_1026
 code0479        0, 4, 14
 call            @Func_0f84
-dialogtxt       "Oh!"
+dialogtxt       "Oh… !"
 dialogtxt       "Okay…"
 code0309        
 call            @Func_0fba
@@ -96,13 +96,13 @@ call            @Func_0fba
 code0479        1, 0, 12
 call            @Func_0ff0
 dialogtxt       "Earthquakes have been happening"
-dialogtxt       "there recently, so be very careful,"
-dialogtxt       "especially with other strays around."
+dialogtxt       "there recently, so be very careful."
+dialogtxt       "Especially with other strays around."
 code0309        
 call            @Func_1026
 code0479        0, 2, 13
 call            @Func_0f84
-dialogtxt       "I'll be fine,"
+dialogtxt       "I'll be fine!"
 dialogtxt       "I can't call myself a Craftknight"
 dialogtxt       "if I back away from a challenge!"
 code0309        
@@ -345,4 +345,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

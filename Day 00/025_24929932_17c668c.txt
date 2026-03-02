@@ -9,7 +9,7 @@ code047d        0, 2
 call            @Func_2d1c
 call            @Func_2c84
 jumpz           @Cond_0626, ($b003 == 0)
-dialogtxt       "Damn it…!"
+dialogtxt       "Dammit…!"
 dialogtxt       "You're gonna pay for this!"
 code047b        
 code0309        
@@ -104,7 +104,7 @@ call            @Func_2cf0
 code043c        2, 4
 call            @Func_2c36
 dialogtxt       "You look really happy,"
-dialogtxt       "γ"
+dialogtxt       "[NAME 1]."
 code047b        
 code0309        
 call            @Func_2d5c
@@ -115,8 +115,7 @@ code0479        1, 5, 16
 code047d        1, 0
 call            @Func_2d06
 call            @Func_2ca2
-dialogtxt       "Eh?"
-dialogtxt       "Really?"
+dialogtxt       "Really!?"
 goto            @Label_04d2
 
 @Label_04d2:
@@ -143,8 +142,7 @@ call            @Func_2cf0
 code0479        1, 0, 12
 call            @Func_2ca2
 dialogtxt       "I can't tell…"
-dialogtxt       "But anyway, it's great that it ended"
-dialogtxt       "without you having to go along!"
+dialogtxt       "But anyway, all's well that ends well!"
 goto            @Label_061a
 
 @Label_061a:
@@ -164,7 +162,7 @@ code0479        0, 2, 14
 call            @Func_2c36
 dialogtxt       "If you wish to continue,"
 dialogtxt       "I cannot guarantee you will survive,"
-dialogtxt       "youngster."
+dialogtxt       "child."
 code0309        
 call            @Func_2c6c
 code0479        1, 5, 14
@@ -261,7 +259,7 @@ code0309
 call            @Func_2cd8
 code0479        0, 2, 16
 call            @Func_2c36
-dialogtxt       "Ehhh…"
+dialogtxt       "Hmmmm…"
 dialogtxt       "Not at all!"
 code0309        
 call            @Func_2c6c
@@ -289,8 +287,7 @@ call            @Func_2c6c
 code043c        1, 2
 code0479        1, 4, 16
 call            @Func_2ca2
-dialogtxt       "Murno…"
-dialogtxt       "To think I would end up"
+dialogtxt       "Murno, to think I would end up"
 dialogtxt       "exposing this pitiful form…"
 code0309        
 call            @Func_2d5c
@@ -314,7 +311,7 @@ goto            @Cond_0d90
 
 @Cond_0d90:
 jumpz           @Cond_13dc, ($b003 == 2)
-dialogtxt       "Damn it…!"
+dialogtxt       "Dammit…!"
 dialogtxt       "You're gonna pay for this!"
 code047b        
 code0309        
@@ -431,14 +428,14 @@ code047d        0, 107
 call            @Func_2cf0
 code043c        2, 4
 call            @Func_2c36
-dialogtxt       "Stop it, γ."
-dialogtxt       "Don't say things like that…"
+dialogtxt       "Stop it, [NAME 1]."
+dialogtxt       "Don't say things like that."
 code047b        
 code0309        
 call            @Func_2c6c
 code0479        1, 0, 12
 call            @Func_2ca2
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 code0309        
 call            @Func_2d5c
 call            @Func_2cd8
@@ -461,7 +458,7 @@ goto            @Cond_13dc
 
 @Cond_13dc:
 jumpz           @Cond_1aee, ($b003 == 3)
-dialogtxt       "Damn it…!"
+dialogtxt       "Dammit!"
 dialogtxt       "You're gonna pay for this!"
 code047b        
 code0309        
@@ -478,7 +475,7 @@ code0309
 call            @Func_2cd8
 code0479        0, 2, 12
 call            @Func_2c36
-dialogtxt       "That is fine by me."
+dialogtxt       "That's fine by me."
 dialogtxt       "I will defeat you"
 dialogtxt       "as many times as you want!"
 code0309        
@@ -551,8 +548,7 @@ code0309
 call            @Func_2cd8
 code0479        0, 0, 16
 call            @Func_2c36
-dialogtxt       "Yeah,"
-dialogtxt       "you looked much stronger"
+dialogtxt       "Yeah, you looked much stronger"
 dialogtxt       "when I first saw you."
 goto            @Label_1882
 
@@ -581,14 +577,14 @@ call            @Func_2c6c
 code043c        1, 2
 code0479        1, 4, 14
 call            @Func_2ca2
-dialogtxt       "I am sorry, Lady Murno…"
+dialogtxt       "I am sorry, Lady Murno."
 dialogtxt       "For making you worry."
 code0309        
 call            @Func_2cd8
 code0479        0, 0, 13
 call            @Func_2c36
 dialogtxt       "I'm truly glad you're safe,"
-dialogtxt       "γ."
+dialogtxt       "[NAME 1]."
 code0309        
 call            @Func_2d5c
 call            @Func_2c6c
@@ -637,8 +633,8 @@ dialogtxt       "Murno, was it?"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Ah!"
-dialogtxt       "I'm β, a Craftknight!"
-dialogtxt       "…In training."
+dialogtxt       "I'm [NAME 0], a Craftknight!"
+dialogtxt       "… In training."
 goto            @Label_1ca6
 
 @Cond_1c2c:
@@ -648,8 +644,8 @@ dialogtxt       "Murno, was it?"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Ah!"
-dialogtxt       "I'm β, a Craftknight!"
-dialogtxt       "…In training."
+dialogtxt       "I'm [NAME 0], a Craftknight!"
+dialogtxt       "… In training."
 goto            @Label_1ca6
 
 @Label_1ca6:
@@ -680,7 +676,7 @@ call            @Func_2ca2
 jumpz           @Cond_1e48, ($b002 == 0)
 dialogtxt       "Anyway,"
 dialogtxt       "I wanted to ask you something."
-dialogtxt       "…Ah, that's right!"
+dialogtxt       "… Ah, that's right!"
 code0309        
 code0333        2, 30
 code0479        1, 0, 14
@@ -822,7 +818,7 @@ code0479        0, 0, 12
 code047d        0, 108
 call            @Func_2cf0
 call            @Func_2c18
-dialogtxt       "Oh, δ."
+dialogtxt       "Oh, [NAME 2]."
 dialogtxt       "Who's the kid?"
 code047b        
 code0309        
@@ -1115,4 +1111,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

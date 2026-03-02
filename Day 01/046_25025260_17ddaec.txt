@@ -145,7 +145,7 @@ code0309
 call            @Func_2c28
 code0479        1, 0, 12
 call            @Func_2c5e
-dialogtxt       "…Is What Lady Murno"
+dialogtxt       "… Is What Lady Murno"
 dialogtxt       "Wanted To Say To You."
 code0309        
 call            @Func_2c94
@@ -594,7 +594,7 @@ dialogtxt       "What!?"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 14
-dialogtxt       "…Then that means,"
+dialogtxt       "… Then that means,"
 dialogtxt       "you must have an attachment"
 dialogtxt       "to Lady Murno…"
 code0309        

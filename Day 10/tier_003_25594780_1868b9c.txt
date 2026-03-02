@@ -451,7 +451,7 @@ code0309
 call            @Func_1e82
 code0479        0, 2, 16
 call            @Func_1de0
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 call            @Func_1e16
 code0479        1, 0, 12
@@ -459,13 +459,13 @@ call            @Func_1e4c
 jumpz           @Cond_13de, ($b002 == 0)
 dialogtxt       "Well that's how it is,"
 dialogtxt       "so make sure to keep your promise,"
-dialogtxt       "like real woman!"
+dialogtxt       "like a real man!"
 goto            @Label_1430
 
 @Cond_13de:
 dialogtxt       "Well that's how it is,"
 dialogtxt       "so make sure to keep your promise,"
-dialogtxt       "like real woman!"
+dialogtxt       "like a real woman!"
 goto            @Label_1430
 
 @Label_1430:
@@ -479,12 +479,12 @@ code047d        0, 0
 call            @Func_1e9a
 call            @Func_1de0
 jumpz           @Cond_14aa, ($b002 == 0)
-dialogtxt       "L-like a man…"
+dialogtxt       "L-Like a man…"
 dialogtxt       "Alright!"
 goto            @Label_14d4
 
 @Cond_14aa:
-dialogtxt       "L-like a woman…"
+dialogtxt       "L-Like a woman…"
 dialogtxt       "Alright!"
 goto            @Label_14d4
 

@@ -312,7 +312,7 @@ code0309
 call            @Func_237e
 code0479        1, 5, 15
 call            @Func_23b4
-dialogtxt       "… !?"
+dialogtxt       "…!?"
 dialogtxt       "What…"
 dialogtxt       "do you mean…?"
 code0309        
@@ -360,12 +360,12 @@ call            @Func_23ea
 code0479        0, 2, 15
 call            @Func_2348
 jumpz           @Cond_0f00, ($b002 == 0)
-dialogtxt       "Wh… why you…"
+dialogtxt       "Wh-Why you…"
 dialogtxt       "Don't you dare twist her words!"
 goto            @Label_0f38
 
 @Cond_0f00:
-dialogtxt       "Wh… why you…"
+dialogtxt       "Wh-Why you…"
 dialogtxt       "Don't you dare twist her words!"
 goto            @Label_0f38
 

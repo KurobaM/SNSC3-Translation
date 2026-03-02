@@ -6,8 +6,7 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_0b3c
 call            @Func_0a64
-dialogtxt       "Ah!"
-dialogtxt       "It's Master!"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_0b92
@@ -22,7 +21,7 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_0b52
 call            @Func_0ad0
-dialogtxt       "How's it going, δ?"
+dialogtxt       "How's it going, [NAME 2]?"
 dialogtxt       "You seem ready to rock."
 dialogtxt       "Find any interesting materials?"
 code047b        
@@ -34,10 +33,10 @@ code047d        0, 0
 call            @Func_0b3c
 call            @Func_0a82
 dialogtxt       "Yep!"
-dialogtxt       "The Chief gave some to me…"
+dialogtxt       "The Chief…"
 code0309        
 code0479        0, 5, 16
-dialogtxt       "…wait, that was supposed"
+dialogtxt       "… Wait, that was supposed"
 dialogtxt       "to be a secret…"
 
 code0309        
@@ -271,4 +270,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

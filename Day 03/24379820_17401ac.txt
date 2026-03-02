@@ -64,13 +64,13 @@ call            @Func_1f8c
 code0479        0, 0, 16
 call            @Func_1eea
 jumpz           @Cond_02f8, ($b002 == 0)
-dialogtxt       "…Hey, I'm sure Master"
+dialogtxt       "… Hey, I'm sure Master"
 dialogtxt       "won't make her do all"
 dialogtxt       "that much work…"
 goto            @Label_0344
 
 @Cond_02f8:
-dialogtxt       "…Hey, I'm sure Master"
+dialogtxt       "… Hey, I'm sure Master"
 dialogtxt       "won't make her do all"
 dialogtxt       "that much work…"
 goto            @Label_0344
@@ -110,11 +110,11 @@ call            @Func_1f8c
 code0479        0, 5, 16
 call            @Func_1eea
 jumpz           @Cond_04d2, ($b002 == 0)
-dialogtxt       "Y-you really want to go, huh?"
+dialogtxt       "Y-You really want to go, huh?"
 goto            @Label_04fc
 
 @Cond_04d2:
-dialogtxt       "Y-you really want to go, huh?"
+dialogtxt       "Y-You really want to go, huh?"
 goto            @Label_04fc
 
 @Label_04fc:
@@ -156,7 +156,7 @@ code0309
 call            @Func_1f20
 code0479        1, 2, 12
 call            @Func_1f56
-dialogtxt       "Y-yes!"
+dialogtxt       "Y-Yes!"
 dialogtxt       "We're not completely in sync,"
 dialogtxt       "but we do have the same goal!"
 code0309        
@@ -265,7 +265,7 @@ code0309
 call            @Func_1f20
 code0479        1, 5, 16
 call            @Func_1f56
-dialogtxt       "Th-this has nothing to do with her!"
+dialogtxt       "Th-This has nothing to do with her!"
 code0309        
 call            @Func_2026
 call            @Func_1f74

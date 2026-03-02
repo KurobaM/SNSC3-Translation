@@ -258,7 +258,7 @@ goto            @Label_0a66
 @Label_0a66:
 call            @Func_16b2
 jumpz           @Cond_0a86, ($b003 == 0)
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Cond_0a86
 
 @Cond_0a86:
@@ -383,7 +383,7 @@ goto            @Cond_0faa
 
 @Cond_0faa:
 jumpz           @Cond_100c, ($b003 == 3)
-dialogtxt       "I… am most definitely…"
+dialogtxt       "I… Am most definitely…"
 dialogtxt       "not something to be used!"
 dialogtxt       "Reflect on your words!"
 goto            @Cond_100c

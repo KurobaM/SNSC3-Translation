@@ -16,7 +16,8 @@ code0309
 call            @Func_1214
 code0479        1, 0, 16
 call            @Func_124a
-dialogtxt       "What? that's it?"
+dialogtxt       "Well it didn't sound like a very"
+dialogtxt       "sincere apology to me."
 
 code0309        
 code0479        1, 0, 15
@@ -32,8 +33,8 @@ code0309
 call            @Func_1214
 code0479        1, 2, 14
 call            @Func_124a
-dialogtxt       "What? You realize now that you're"
-dialogtxt       "the one who screwed up, right?"
+dialogtxt       "What? You realize you screwed up"
+dialogtxt       "now, huh?"
 code0309        
 call            @Func_1280
 code0479        0, 2, 14
@@ -43,7 +44,7 @@ code0309
 call            @Func_1214
 code0479        1, 5, 16
 call            @Func_124a
-dialogtxt       "Haaaah?"
+dialogtxt       "What are you talking about?"
 code0309        
 code0479        1, 2, 15
 code0479        0, 1, 14
@@ -178,7 +179,7 @@ code0479        1, 2, 13
 call            @Func_124a
 dialogtxt       "Right! So, as an apology,"
 dialogtxt       "come play with me."
-dialogtxt       "…How 'bout that?"
+dialogtxt       "… How 'bout that?"
 code0309        
 call            @Func_1280
 code0479        0, 5, 16
@@ -188,7 +189,6 @@ code0309
 call            @Func_1214
 code0479        1, 2, 15
 call            @Func_124a
-dialogtxt       "Because you OWE me an apology!"
 dialogtxt       "C'mon, let's go!"
 code0309        
 call            @Func_1280
@@ -204,7 +204,7 @@ code0309
 call            @Func_1280
 code0479        0, 5, 16
 call            @Func_11de
-dialogtxt       "…Huh?"
+dialogtxt       "… Huh?"
 code0309        
 code0479        1, 0, 12
 code0479        0, 2, 17
@@ -234,8 +234,8 @@ call            @Func_1280
 code0479        0, 1, 15
 call            @Func_1298
 call            @Func_11de
-dialogtxt       "Nooo! Stoop!"
-dialogtxt       "Let go of me! Someone-!!"
+dialogtxt       "Nooo! Stop!"
+dialogtxt       "Let go of me!"
 code047b        
 code0309        
 call            @Func_131a
@@ -418,4 +418,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

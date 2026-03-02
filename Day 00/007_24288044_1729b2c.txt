@@ -767,8 +767,8 @@ code0301        8, 7
 code047d        0, 122
 code047e        0, 1
 dialogtxt       "It's gotten dangerous here lately…"
-dialogtxt       "It's been about a decade"
-dialogtxt       "since I married into this village,"
+dialogtxt       "It's been about a decade since"
+dialogtxt       "we moved into this village,"
 code0309        
 dialogtxt       "but this is the first time"
 dialogtxt       "I've seen Strays run amok like this."
@@ -776,4 +776,3 @@ code0309
 code047e        0, 0
 code0302        7
 code040b        
-

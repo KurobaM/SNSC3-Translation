@@ -332,7 +332,7 @@ code0446        0
 code0479        1, 4, 16
 call            @Func_1d2c
 call            @Func_1c94
-dialogtxt       "Do this… here…"
+dialogtxt       "Do this… Here…"
 dialogtxt       "Huh?"
 dialogtxt       "What!?"
 code047b        

@@ -50,7 +50,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "G…gr…rrr…"
+dialogtxt       "G… gr… rrr…"
 code0309        
 code047e        0, 0
 code0302        1
@@ -424,7 +424,7 @@ code047d        0, 110
 call            @Func_4bb6
 call            @Func_4ade
 dialogtxt       "M…"
-dialogtxt       "Mas…ter…?"
+dialogtxt       "Mas… ter…?"
 code047b        
 code0309        
 call            @Func_4b32
@@ -483,7 +483,7 @@ code047d        0, 110
 call            @Func_4bb6
 call            @Func_4ade
 dialogtxt       "Ah…!"
-dialogtxt       "Mas, ter…!"
+dialogtxt       "Mas… ter…!"
 code047b        
 code0309        
 call            @Func_4c0c
@@ -495,12 +495,12 @@ code047d        0, 0
 call            @Func_4bb6
 call            @Func_4ade
 jumpz           @Cond_1738, ($b002 == 0)
-dialogtxt       "Wh-what is this…!"
+dialogtxt       "Wh-What is this…!"
 dialogtxt       "Why…!?"
 goto            @Label_176c
 
 @Cond_1738:
-dialogtxt       "W-wait…!"
+dialogtxt       "W-Wait…!"
 dialogtxt       "Why…!?"
 goto            @Label_176c
 
@@ -836,13 +836,13 @@ goto            @Cond_268a
 @Cond_268a:
 jumpz           @Cond_26ba, ($b003 == 2)
 dialogtxt       "It's just a scratch…"
-dialogtxt       "…but…"
+dialogtxt       "… But…"
 goto            @Cond_26ba
 
 @Cond_26ba:
 jumpz           @Cond_26fe, ($b003 == 3)
 dialogtxt       "It only grazed me…"
-dialogtxt       "…but this wound…"
+dialogtxt       "… But this wound…"
 goto            @Cond_26fe
 
 @Cond_26fe:
@@ -869,7 +869,7 @@ code0479        1, 0, 16
 code047d        1, 111
 call            @Func_4bcc
 call            @Func_4b4a
-dialogtxt       "Hmm… it seems it was able to"
+dialogtxt       "Hmm… It seems it was able to"
 dialogtxt       "move without causing a tremor"
 dialogtxt       "this time…"
 code047b        
@@ -974,7 +974,7 @@ code043d        7, $h128, ($h129 - 16)
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "… !"
+dialogtxt       "…!"
 code0309        
 code047e        0, 0
 code0302        1
@@ -1280,7 +1280,7 @@ code047d        1, 108
 call            @Func_4bcc
 code047c        1, 6
 call            @Func_4b4a
-dialogtxt       "…Don't go killing us"
+dialogtxt       "… Don't go killing us"
 dialogtxt       "off that quickly… Ugh…"
 code047b        
 code0309        
@@ -1361,7 +1361,7 @@ code0309
 code043c        10, 2
 code0479        1, 2, 12
 dialogtxt       "Uh, right!"
-dialogtxt       "Y-you can leave it to us!"
+dialogtxt       "Y-You can leave it to us!"
 dialogtxt       "Right, Lemmy!"
 code0309        
 call            @Func_4c0c

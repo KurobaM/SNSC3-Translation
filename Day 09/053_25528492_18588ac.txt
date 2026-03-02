@@ -111,7 +111,7 @@ code0309
 call            @Func_21b6
 code0479        0, 3, 14
 call            @Func_2114
-dialogtxt       "Ku… !"
+dialogtxt       "Ku…!"
 code0309        
 call            @Func_2250
 call            @Func_2132
@@ -125,7 +125,7 @@ code040d        15
 code047d        0, 129
 code0301        8, 4
 code047e        0, 1
-dialogtxt       "…, ugh……"
+dialogtxt       "… Ugh……"
 code0309        
 code047e        0, 0
 code0302        7
@@ -446,12 +446,12 @@ call            @Func_21ce
 call            @Func_20f6
 jumpz           @Cond_14ea, ($b002 == 0)
 dialogtxt       "You!"
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 goto            @Label_150c
 
 @Cond_14ea:
 dialogtxt       "You!"
-dialogtxt       "What are you doing!"
+dialogtxt       "What are you doing!?"
 goto            @Label_150c
 
 @Label_150c:
@@ -486,11 +486,11 @@ code0479        1, 5, 16
 code047d        1, 134
 call            @Func_21e4
 call            @Func_2162
-dialogtxt       "Mag…drad…"
+dialogtxt       "Mag… drad…"
 code047b        
 code0309        
 code0479        1, 4, 12
-dialogtxt       "I see…, that's right…"
+dialogtxt       "I see… that's right…"
 dialogtxt       "If my wish cannot be granted,"
 dialogtxt       "then I don't care what happens…"
 code0309        

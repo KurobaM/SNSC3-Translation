@@ -275,14 +275,14 @@ call            @Func_3d66
 jumpz           @Cond_0cf2, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_3cc4
-dialogtxt       "Tiger…Den?"
+dialogtxt       "Tiger… Den?"
 dialogtxt       "They live in places like this?"
 goto            @Label_0d3e
 
 @Cond_0cf2:
 code0479        0, 8, 16
 call            @Func_3cc4
-dialogtxt       "Tiger…Den?"
+dialogtxt       "Tiger… Den?"
 dialogtxt       "They live in places like this?"
 goto            @Label_0d3e
 
@@ -685,7 +685,7 @@ code0309
 call            @Func_3cfa
 code0479        1, 4, 14
 call            @Func_3d30
-dialogtxt       "…What should I do…"
+dialogtxt       "… What should I do…"
 dialogtxt       "Your bro was"
 dialogtxt       "obviously very angry…"
 code0309        

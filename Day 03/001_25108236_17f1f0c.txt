@@ -50,7 +50,7 @@ code0309
 call            @Func_114a
 code0479        0, 4, 12
 call            @Func_10a8
-dialogtxt       "…Sorry."
+dialogtxt       "… Sorry."
 code0309        
 call            @Func_10de
 code0479        1, 2, 12
@@ -62,7 +62,7 @@ code0309
 call            @Func_114a
 code0479        0, 2, 13
 call            @Func_10a8
-dialogtxt       "…Right!"
+dialogtxt       "… Right!"
 code0309        
 call            @Func_11e4
 call            @Func_10c6
@@ -152,7 +152,7 @@ code0309
 call            @Func_114a
 code0479        0, 5, 12
 call            @Func_10a8
-dialogtxt       "…Hm?"
+dialogtxt       "… Hm?"
 code0309        
 code0479        1, 6, 12
 jumpz           @Cond_07b2, ($b002 == 0)

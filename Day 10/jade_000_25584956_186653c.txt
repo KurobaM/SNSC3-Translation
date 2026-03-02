@@ -201,13 +201,13 @@ call            @Func_154c
 code0479        0, 5, 12
 call            @Func_14aa
 jumpz           @Cond_0984, ($b002 == 0)
-dialogtxt       "A man's… knuckles…"
+dialogtxt       "A man's… Knuckles…"
 dialogtxt       "Heh…"
 dialogtxt       "That's amazing."
 goto            @Label_09aa
 
 @Cond_0984:
-dialogtxt       "A man's… knuckles…"
+dialogtxt       "A man's… Knuckles…"
 dialogtxt       "Amazing~"
 goto            @Label_09aa
 
@@ -240,12 +240,12 @@ call            @Func_154c
 code0479        0, 8, 12
 call            @Func_14aa
 jumpz           @Cond_0afc, ($b002 == 0)
-dialogtxt       "I… want to fight"
+dialogtxt       "I… Want to fight"
 dialogtxt       "against those knuckles."
 goto            @Label_0b2a
 
 @Cond_0afc:
-dialogtxt       "I… want to fight"
+dialogtxt       "I… Want to fight"
 dialogtxt       "against those knuckles."
 goto            @Label_0b2a
 

@@ -45,9 +45,9 @@ code0309
 call            @Func_1c4e
 code0479        0, 4, 16
 call            @Func_1bac
-dialogtxt       "Th… this…"
-dialogtxt       "really hurts…"
-dialogtxt       "this is bad…"
+dialogtxt       "Th… This…"
+dialogtxt       "Really hurts…"
+dialogtxt       "This is bad…"
 code0309        
 call            @Func_1ce8
 call            @Func_1bca
@@ -122,7 +122,7 @@ call            @Func_1c4e
 code0479        0, 1, 14
 call            @Func_1bac
 dialogtxt       "Eh…"
-dialogtxt       "…uh, um…"
+dialogtxt       "… Uh, um…"
 code0309        
 call            @Func_1ce8
 call            @Func_1bca
@@ -190,7 +190,7 @@ code0309
 call            @Func_1c4e
 code0479        0, 2, 15
 call            @Func_1bac
-dialogtxt       "Wh-what!?"
+dialogtxt       "Wh-What!?"
 code0309        
 call            @Func_1ce8
 call            @Func_1bca
@@ -292,9 +292,9 @@ code0479        0, 5, 15
 code047d        0, 132
 call            @Func_1c66
 call            @Func_1bac
-dialogtxt       "Y-you!"
+dialogtxt       "Y-You!"
 dialogtxt       "What did you do!?"
-dialogtxt       "Did you just kick his … !?"
+dialogtxt       "Did you just kick his…!?"
 code047b        
 code0309        
 call            @Func_1be2
@@ -366,7 +366,7 @@ code0479        0, 4, 14
 code047d        0, 116
 call            @Func_1c66
 call            @Func_1bac
-dialogtxt       "Ugh… !"
+dialogtxt       "Ugh…!"
 code047b        
 code0309        
 call            @Func_1be2
@@ -379,7 +379,7 @@ code0309
 call            @Func_1c4e
 code0479        0, 2, 15
 call            @Func_1bac
-dialogtxt       "…ku!"
+dialogtxt       "… Ku!"
 code0309        
 call            @Func_1be2
 code0479        1, 1, 13
@@ -390,7 +390,7 @@ code0309
 call            @Func_1c4e
 code0479        0, 5, 17
 call            @Func_1bac
-dialogtxt       "F, fine…"
+dialogtxt       "F-Fine…"
 dialogtxt       "She's in there."
 code0309        
 call            @Func_1be2

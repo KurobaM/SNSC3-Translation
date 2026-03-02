@@ -173,7 +173,7 @@ goto            @Label_0806
 @Label_0806:
 code0309        
 code0479        0, 4, 12
-dialogtxt       "…No, it's nothing."
+dialogtxt       "… No, it's nothing."
 dialogtxt       "Shall we head back?"
 code0309        
 call            @Func_0e92

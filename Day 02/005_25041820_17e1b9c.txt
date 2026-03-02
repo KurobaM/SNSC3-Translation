@@ -173,7 +173,7 @@ dialogtxt       "Oh really?"
 dialogtxt       "I wouldn't mind another match…"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "…That reminds me,"
+dialogtxt       "… That reminds me,"
 dialogtxt       "it seems like your medicine worked."
 goto            @Label_0822
 
@@ -182,7 +182,7 @@ dialogtxt       "Oh really?"
 dialogtxt       "I wouldn't mind another match…"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "…That reminds me,"
+dialogtxt       "… That reminds me,"
 dialogtxt       "it seems like your medicine worked."
 goto            @Label_0822
 
@@ -195,7 +195,7 @@ dialogtxt       "Yeah!"
 dialogtxt       "That's thanks to you too…"
 code0309        
 code0479        0, 5, 15
-dialogtxt       "…But Lemmy-"
+dialogtxt       "… But Lemmy-"
 code0309        
 call            @Func_1e0c
 code0479        1, 1, 12

@@ -25,9 +25,9 @@ dialogtxt       "Quit running away and face me!"
 goto            @Label_01be
 
 @Cond_0178:
-dialogtxt       "Hey, is that-!? You're"
-dialogtxt       "still around, huh? Come back"
-dialogtxt       "you coward!"
+dialogtxt       "Hey, is that-"
+dialogtxt       "You're still around, huh?"
+dialogtxt       "Come back you coward!"
 goto            @Label_01be
 
 @Label_01be:
@@ -177,4 +177,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

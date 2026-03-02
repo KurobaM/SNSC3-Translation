@@ -101,13 +101,13 @@ call            @Func_0efe
 code0479        0, 0, 16
 call            @Func_0e5c
 jumpz           @Cond_0568, ($b002 == 0)
-dialogtxt       "Hmm…So just like bro, then."
+dialogtxt       "Hmm… So just like bro, then."
 dialogtxt       "By the way, do you patrol"
 dialogtxt       "around Lute Cave too?"
 goto            @Label_05ba
 
 @Cond_0568:
-dialogtxt       "Ooh…So just like bro, then."
+dialogtxt       "Ooh… So just like bro, then."
 dialogtxt       "By the way, do you patrol"
 dialogtxt       "around Lute Cave too?"
 goto            @Label_05ba

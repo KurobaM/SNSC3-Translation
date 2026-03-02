@@ -79,10 +79,10 @@ goto            @Cond_038e
 jumpz           @Cond_047a, ($f0154 == 1)
 code0304        1
 dialogtxt       "　There's no way they're connected. "
-dialogtxt       "　Master Rob killing this Voijin　　…"
+dialogtxt       "　Master Rob killing this Voijin…"
 code030a        6, 1
 dialogtxt       "　"
-dialogtxt       "　　　Anise must be lying! … 　　　"
+dialogtxt       "　　　Anise must be lying!… 　　　"
 dialogtxt       "　"
 code030a        6, 1
 code0304        0

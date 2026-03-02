@@ -318,7 +318,7 @@ dialogtxt       "[NAME 1]'s heart…"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "The you who always trained with"
-dialogtxt       "[NAME 1]… can definitely…"
+dialogtxt       "[NAME 1]… Can definitely…"
 dialogtxt       "So [NAME 2]…"
 code0309        
 code047e        1, 0

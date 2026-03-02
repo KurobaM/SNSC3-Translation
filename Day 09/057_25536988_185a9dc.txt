@@ -220,13 +220,13 @@ call            @Func_1466
 jumpz           @Cond_0b92, ($b002 == 0)
 dialogtxt       "Eh! Is that it?"
 dialogtxt       "That's an easy reque…"
-dialogtxt       "…Hey, wait."
+dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 
 @Cond_0b92:
 dialogtxt       "Eh! Is that it?"
 dialogtxt       "That's an easy reque…"
-dialogtxt       "…Hey, wait."
+dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 
 @Label_0be0:
@@ -256,7 +256,7 @@ code0309
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "Is that… a no…?"
+dialogtxt       "Is that… A no…?"
 dialogtxt       "…"
 dialogtxt       "You meanie…"
 code0309        

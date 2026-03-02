@@ -107,7 +107,7 @@ goto            @Cond_04a2
 
 @Cond_04a2:
 jumpz           @Cond_0502, ($b003 == 3)
-dialogtxt       "Uu… this feeling…"
+dialogtxt       "Uu… This feeling…"
 dialogtxt       "There must be something inside."
 dialogtxt       "Please be careful."
 goto            @Cond_0502
@@ -119,12 +119,12 @@ call            @Func_0ba0
 code0479        1, 2, 14
 call            @Func_0bd6
 jumpz           @Cond_0552, ($b002 == 0)
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "I will!"
 goto            @Label_0572
 
 @Cond_0552:
-dialogtxt       "Y-yeah…"
+dialogtxt       "Y-Yeah…"
 dialogtxt       "I will!"
 goto            @Label_0572
 

@@ -73,25 +73,25 @@ code0331        32, 256
 code0479        0, 2, 12
 call            @Func_2cd6
 jumpz           @Cond_0332, ($b002 == 0)
-dialogtxt       "…Woooow!"
+dialogtxt       "… Woooow!"
 dialogtxt       "It's way better than"
 dialogtxt       "anything I've made on my own…!"
 code0309        
 code043c        0, 4
 code0479        0, 0, 13
-dialogtxt       "Awesome work, γ!"
+dialogtxt       "Awesome work, [NAME 1]!"
 dialogtxt       "Look at it!"
 dialogtxt       "It's so cool!"
 goto            @Label_03d4
 
 @Cond_0332:
-dialogtxt       "…Woooow!"
+dialogtxt       "… Woooow!"
 dialogtxt       "It's way better than"
 dialogtxt       "anything I've made on my own…!"
 code0309        
 code043c        0, 4
 code0479        0, 0, 13
-dialogtxt       "Awesome work, γ!"
+dialogtxt       "Awesome work, [NAME 1]!"
 dialogtxt       "Look, look!"
 dialogtxt       "It's so cool!"
 goto            @Label_03d4
@@ -128,7 +128,7 @@ call            @Func_2d78
 code0479        0, 0, 16
 call            @Func_2cd6
 dialogtxt       "Uh…"
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 code0309        
 call            @Func_2d0c
 code0479        1, 1, 12
@@ -336,19 +336,19 @@ code0309
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "About average."
+dialogtxt       "Decent enough, for now…"
 code0309        
 call            @Func_2d78
 code0479        0, 4, 17
 call            @Func_2cd6
-dialogtxt       "Average, huh…?"
+dialogtxt       "For now, huh…?"
 code0309        
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "So, now do you understand"
-dialogtxt       "how important your partner is"
-dialogtxt       "when you're crafting weapons?"
+dialogtxt       "So, do you understand how important"
+dialogtxt       "your partner is when you're"
+dialogtxt       "crafting weapons now?"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "When you're able to truly understand"
@@ -470,7 +470,7 @@ code0309
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "δ, you should go too."
+dialogtxt       "[NAME 2], you should go too."
 code0309        
 call            @Func_2de6
 call            @Func_2d78
@@ -578,7 +578,7 @@ code0309
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "δ, you should go too."
+dialogtxt       "[NAME 2], you should go too."
 code0309        
 call            @Func_2de6
 call            @Func_2d78
@@ -676,7 +676,7 @@ dialogtxt       "Well, it's about time"
 dialogtxt       "to wake her up anyway."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "Alright, γ."
+dialogtxt       "Alright, [NAME 1]."
 dialogtxt       "You can go."
 code0309        
 call            @Func_2d78
@@ -687,7 +687,7 @@ code0309
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "δ, you should go too."
+dialogtxt       "[NAME 2], you should go too."
 code0309        
 call            @Func_2de6
 call            @Func_2d78
@@ -793,7 +793,7 @@ code0309
 call            @Func_2d0c
 code0479        1, 0, 12
 call            @Func_2d42
-dialogtxt       "δ, you should go too."
+dialogtxt       "[NAME 2], you should go too."
 code0309        
 call            @Func_2de6
 call            @Func_2d78
@@ -863,7 +863,7 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_2da6
 call            @Func_2d42
-dialogtxt       "Ah, δ."
+dialogtxt       "Ah, [NAME 2]."
 dialogtxt       "Remember that it's a girl's room,"
 dialogtxt       "so you can't waltz in whenever."
 code047b        
@@ -879,7 +879,7 @@ dialogtxt       "Yeah, yeah."
 code0309        
 call            @Func_2d0c
 call            @Func_2d42
-dialogtxt       "No extra \"yeah\"s, just one!"
+dialogtxt       "[NAME 0]!!"
 code0309        
 call            @Func_2d78
 code0479        0, 0, 13
@@ -1121,4 +1121,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

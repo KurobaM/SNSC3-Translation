@@ -507,7 +507,7 @@ code0309
 call            @Func_1f4a
 code0479        1, 2, 14
 call            @Func_1f80
-dialogtxt       "…Er, where should we start?"
+dialogtxt       "… Er, where should we start?"
 dialogtxt       "Do you have a plan?"
 code0309        
 call            @Func_1fb6
@@ -515,7 +515,7 @@ code0479        0, 5, 16
 call            @Func_1f14
 dialogtxt       "Huh!?"
 dialogtxt       "That's,"
-dialogtxt       "uh… you know…"
+dialogtxt       "uh… You know…"
 code0309        
 call            @Func_2024
 call            @Func_1f4a

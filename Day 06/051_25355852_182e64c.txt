@@ -191,11 +191,11 @@ call            @Func_2f86
 code0479        0, 5, 15
 call            @Func_2ee4
 jumpz           @Cond_08a2, ($b002 == 0)
-dialogtxt       "Wh-why are you crying!?"
+dialogtxt       "Wh-Why are you crying!?"
 goto            @Label_08be
 
 @Cond_08a2:
-dialogtxt       "Wh-why are you crying!?"
+dialogtxt       "Wh-Why are you crying!?"
 goto            @Label_08be
 
 @Label_08be:
@@ -590,13 +590,13 @@ call            @Func_2ee4
 jumpz           @Cond_1bc0, ($b002 == 0)
 dialogtxt       "What?"
 dialogtxt       "Why are you angry…"
-dialogtxt       "…Hey, why's your face red?"
+dialogtxt       "… Hey, why's your face red?"
 goto            @Label_1c04
 
 @Cond_1bc0:
 dialogtxt       "What?"
 dialogtxt       "Why are you angry…"
-dialogtxt       "…Hey, why's your face red?"
+dialogtxt       "… Hey, why's your face red?"
 goto            @Label_1c04
 
 @Label_1c04:

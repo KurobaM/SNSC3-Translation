@@ -249,7 +249,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_2490
 call            @Func_23b8
-dialogtxt       "… !"
+dialogtxt       "…!"
 code047b        
 code0309        
 call            @Func_24e6
@@ -548,7 +548,7 @@ code0479        0, 5, 14
 code047d        0, 129
 call            @Func_2490
 call            @Func_23b8
-dialogtxt       "… !"
+dialogtxt       "…!"
 code047b        
 code0309        
 call            @Func_240c
@@ -652,7 +652,7 @@ dialogtxt       "…Damn it!"
 goto            @Label_1b68
 
 @Cond_1b5a:
-dialogtxt       "… !"
+dialogtxt       "…!"
 goto            @Label_1b68
 
 @Label_1b68:

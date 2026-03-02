@@ -268,7 +268,7 @@ dialogtxt       "Let's go train!"
 code047b        
 code0309        
 code0479        0, 0, 16
-dialogtxt       "…You seem to be"
+dialogtxt       "… You seem to be"
 dialogtxt       "grumpier than usual…"
 code0309        
 call            @Func_3bd4
@@ -317,12 +317,12 @@ code047b
 code0309        
 code0479        0, 0, 16
 jumpz           @Cond_0d2e, ($b002 == 0)
-dialogtxt       "…Hey, you look sad."
+dialogtxt       "… Hey, you look sad."
 dialogtxt       "What's wrong?"
 goto            @Label_0d6c
 
 @Cond_0d2e:
-dialogtxt       "…Hey, you look sad."
+dialogtxt       "… Hey, you look sad."
 dialogtxt       "What's wrong?"
 goto            @Label_0d6c
 
@@ -657,7 +657,7 @@ code0309
 call            @Func_3bd4
 code0479        1, 0, 13
 call            @Func_3c0a
-dialogtxt       "…Shall I erase him?"
+dialogtxt       "… Shall I erase him?"
 code0309        
 call            @Func_3c40
 code0479        0, 1, 15
@@ -680,7 +680,7 @@ call            @Func_3bd4
 code0479        1, 2, 12
 call            @Func_3c0a
 dialogtxt       "Let's show him our strength!"
-dialogtxt       "…Would that work?"
+dialogtxt       "… Would that work?"
 code0309        
 call            @Func_3c40
 code0479        0, 0, 12
@@ -944,14 +944,14 @@ jumpz           @Cond_259e, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_3b9e
 dialogtxt       "Tiger's den?"
-dialogtxt       "…What?"
+dialogtxt       "… What?"
 goto            @Label_25f0
 
 @Cond_259e:
 code0479        0, 8, 16
 call            @Func_3b9e
 dialogtxt       "Tiger's den?"
-dialogtxt       "…What?"
+dialogtxt       "… What?"
 goto            @Label_25f0
 
 @Label_25f0:
@@ -1057,14 +1057,14 @@ call            @Func_3bd4
 code0479        1, 0, 14
 call            @Func_3c0a
 dialogtxt       "Okay…"
-dialogtxt       "…Mmm"
+dialogtxt       "… Mmm"
 code0309        
 code0479        1, 5, 17
 dialogbig       60, 116, 1, 0, 0, "Hyah!"
 code030c        
 code0479        0, 5, 14
 code0479        1, 5, 15
-dialogtxt       "Wh-wh-what was that!?"
+dialogtxt       "Wh-Wh-What was that!?"
 dialogtxt       "There was something on my neck!"
 code0309        
 call            @Func_3c40
@@ -1233,7 +1233,7 @@ call            @Func_3bd4
 code0479        1, 2, 14
 call            @Func_3c0a
 dialogtxt       "I cannot trust that man!"
-dialogtxt       "…Let's hurry!"
+dialogtxt       "… Let's hurry!"
 code0309        
 call            @Func_3c40
 code0479        0, 0, 12
@@ -1466,11 +1466,11 @@ dialogtxt       "Ah, right! I'm sorry!"
 code0309        
 code0479        0, 1, 14
 jumpz           @Cond_3b2e, ($b002 == 0)
-dialogtxt       "(…wait,"
+dialogtxt       "(… Wait,"
 goto            @Label_3b4e
 
 @Cond_3b2e:
-dialogtxt       "(…wait,"
+dialogtxt       "(… Wait,"
 goto            @Label_3b4e
 
 @Label_3b4e:

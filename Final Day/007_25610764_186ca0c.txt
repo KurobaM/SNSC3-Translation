@@ -92,7 +92,7 @@ dialogbig       24, 116, 1, 0, 0, "What the heck!?"
 goto            @Label_04c2
 
 @Cond_048c:
-dialogbig       24, 116, 1, 0, 0, "O-oh no…!"
+dialogbig       24, 116, 1, 0, 0, "O-Oh no…!"
 goto            @Label_04c2
 
 @Label_04c2:
@@ -194,7 +194,7 @@ call            @Func_260a
 code0333        2, 30
 code0479        0, 4, 14
 call            @Func_2568
-dialogtxt       "W-well…"
+dialogtxt       "W-Well…"
 dialogtxt       "Even if you say that…"
 code0309        
 call            @Func_268e
@@ -207,7 +207,7 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_2638
 call            @Func_25d4
-dialogtxt       "…Hey, this is no time to argue!"
+dialogtxt       "… Hey, this is no time to argue!"
 dialogtxt       "We have to find them!"
 dialogtxt       "So, where did they go?"
 code047b        
@@ -434,7 +434,7 @@ code0479        0, 8, 15
 code047d        0, 108
 call            @Func_2622
 call            @Func_2568
-dialogtxt       "Wh-what?"
+dialogtxt       "Wh-What?"
 dialogtxt       "What's that have to do with this!?"
 dialogtxt       "You know, I…"
 code047b        

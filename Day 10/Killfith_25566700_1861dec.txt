@@ -233,7 +233,7 @@ code0479        0, 4, 14
 call            @Func_1c98
 dialogtxt       "Ummm…"
 dialogtxt       "Murno risked her life,"
-dialogtxt       "to protect you from… a dog?"
+dialogtxt       "to protect you from… A dog?"
 code0309        
 call            @Func_1cce
 code0479        1, 2, 16
@@ -293,7 +293,7 @@ call            @Func_1d3a
 code0479        0, 4, 14
 call            @Func_1c98
 dialogtxt       "Why'd you do tha…"
-dialogtxt       "…Actually, that does sound"
+dialogtxt       "… Actually, that does sound"
 dialogtxt       "like something you'd do."
 code0309        
 call            @Func_1cce
@@ -370,12 +370,12 @@ call            @Func_1d3a
 code0479        0, 5, 17
 call            @Func_1c98
 jumpz           @Cond_1380, ($b002 == 0)
-dialogtxt       "…wait, what!?"
+dialogtxt       "… Wait, what!?"
 dialogtxt       "What do you mean?"
 goto            @Label_13b4
 
 @Cond_1380:
-dialogtxt       "…wait, what!?"
+dialogtxt       "… Wait, what!?"
 dialogtxt       "What do you mean?"
 goto            @Label_13b4
 
@@ -418,7 +418,7 @@ code0309
 call            @Func_1cce
 code0479        1, 6, 12
 call            @Func_1d04
-dialogtxt       "It's fine… with her taken"
+dialogtxt       "It's fine… With her taken"
 dialogtxt       "care of, I can fully devote"
 dialogtxt       "my time towards you."
 code0309        

@@ -438,12 +438,12 @@ code047d        0, 0
 call            @Func_2c3c
 call            @Func_2b82
 jumpz           @Cond_1042, ($b002 == 0)
-dialogtxt       "…If I do this,"
+dialogtxt       "… If I do this,"
 dialogtxt       "you'll return the stone?"
 goto            @Label_108c
 
 @Cond_1042:
-dialogtxt       "…If I do this,"
+dialogtxt       "… If I do this,"
 dialogtxt       "you'll return the stone?"
 goto            @Label_108c
 
@@ -613,7 +613,7 @@ goto            @Cond_163e
 
 @Cond_163e:
 jumpz           @Cond_1660, ($b003 == 2)
-dialogtxt       "…You…"
+dialogtxt       "… You…"
 goto            @Cond_1660
 
 @Cond_1660:
