@@ -120,8 +120,7 @@ code0309
 call            @Func_48ba
 code0479        0, 5, 17
 call            @Func_4818
-dialogtxt       "Hm…"
-dialogtxt       "Then, she should be in bed!"
+dialogtxt       "Then, she should stay in bed!"
 dialogtxt       "I'll go get Master!"
 code047b        
 code0309        
@@ -199,8 +198,8 @@ code0309
 call            @Func_48ba
 code0479        0, 4, 12
 call            @Func_4818
-dialogtxt       "I Am Not…"
-dialogtxt       "Then What Action Should We-…"
+dialogtxt       "I Am Not."
+dialogtxt       "Then What Action Should We-"
 code0309        
 call            @Func_484e
 code0479        1, 0, 12
@@ -212,7 +211,7 @@ code0309
 call            @Func_48ba
 code0479        0, 0, 12
 call            @Func_4818
-dialogtxt       "Roger."
+dialogtxt       "… Roger."
 code0309        
 call            @Func_4954
 call            @Func_4836
@@ -222,17 +221,18 @@ code0479        0, 4, 14
 code047d        0, 0
 call            @Func_48d2
 call            @Func_47fa
-dialogtxt       "But how could she develop"
-dialogtxt       "a fever so suddenly…?"
+dialogtxt       "But why'd she get sick all of a"
+dialogtxt       "sudden?"
 code047b        
 code0309        
 call            @Func_484e
 code0479        1, 0, 14
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "She's been pushing herself so hard."
-dialogtxt       "All of the pent-up stress…"
-dialogtxt       "must have hit her all at once."
+dialogtxt       "She's been pushing herself so hard"
+dialogtxt       "up until now."
+code0309	
+dialogtxt       "It must have all caught up to her."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -243,7 +243,7 @@ call            @Func_48ba
 code0333        2, 30
 code0479        0, 0, 12
 call            @Func_4818
-dialogtxt       "Okay."
+dialogtxt       "Okay…"
 code0309        
 call            @Func_484e
 code0334        
@@ -251,19 +251,18 @@ code046e        13, 256, 2
 code0479        1, 0, 16
 call            @Func_4884
 dialogtxt       "Alright, leave this to me."
-dialogtxt       "You should go introduce γ"
+dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
 call            @Func_4818
-dialogtxt       "Introduce, huh…"
-dialogtxt       "What should I even say?"
+dialogtxt       "But what am I supposed to tell him?"
 code0309        
 call            @Func_484e
 code0479        1, 0, 16
@@ -275,7 +274,8 @@ code0309
 call            @Func_48ba
 code0479        0, 1, 16
 call            @Func_4818
-dialogtxt       "That'll totally work."
+dialogtxt       "Oh, yeah!"
+dialogtxt       "That'll totally work!"
 code0309        
 call            @Func_4928
 call            @Func_484e
@@ -292,7 +292,7 @@ code0309
 call            @Func_484e
 code0479        1, 4, 12
 call            @Func_4884
-dialogtxt       "Or would you rather tell the truth?"
+dialogtxt       "Then would you rather tell the truth?"
 dialogtxt       "Murno has enough problems, yes?"
 code0309        
 call            @Func_48ba
@@ -308,9 +308,9 @@ code0479        0, 0, 12
 code047d        0, 0
 call            @Func_48d2
 call            @Func_4818
-dialogtxt       "You're right"
+dialogtxt       "You're right."
 dialogtxt       "I understand, Master."
-dialogtxt       "Let's get going, γ."
+dialogtxt       "Let's get going, [NAME 1]."
 goto            @Label_0e12
 
 @Label_0e12:
@@ -329,12 +329,12 @@ code0479        0, 0, 16
 call            @Func_48d2
 call            @Func_47fa
 jumpz           @Cond_0eb2, ($b002 == 0)
-dialogtxt       "γ?"
+dialogtxt       "[NAME 1]?"
 dialogtxt       "Why aren't you saying anything?"
 goto            @Label_0ece
 
 @Cond_0eb2:
-dialogtxt       "γ?"
+dialogtxt       "[NAME 1]?"
 dialogtxt       "What's the matter?"
 goto            @Label_0ece
 
@@ -359,7 +359,7 @@ call            @Func_484e
 code0479        1, 1, 16
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "You…"
+dialogtxt       "*sigh*"
 code047b        
 code0309        
 call            @Func_48ba
@@ -376,7 +376,7 @@ dialogtxt       "to feel better…"
 code0309        
 code043c        0, 4
 code0479        1, 2, 15
-dialogbig       10, 116, 1, 0, 0, "But quit loitering!"
+dialogbig       10, 116, 1, 0, 0, "But leave already!"
 code030c        
 call            @Func_4954
 call            @Func_48a2
@@ -387,7 +387,7 @@ code040d        15
 call            @Func_48fe
 call            @Func_4866
 code0479        1, 2, 14
-dialogtxt       "Come on, get out of here!"
+dialogtxt       "Come on, get outta here!"
 dialogtxt       "Go meet the Chief!"
 code0309        
 call            @Func_4928
@@ -448,7 +448,7 @@ code0309
 call            @Func_484e
 code0479        1, 1, 15
 call            @Func_4884
-dialogtxt       "That's not what-…!"
+dialogtxt       "That's not what-"
 code0309        
 call            @Func_4928
 call            @Func_48ba
@@ -459,8 +459,8 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master!?"
-dialogtxt       "Keep it down…!"
+dialogtxt       "M-Master…"
+dialogtxt       "Keep it down…"
 code047b        
 code0309        
 call            @Func_484e
@@ -482,8 +482,8 @@ code0309
 call            @Func_484e
 code0479        1, 0, 16
 call            @Func_4884
-dialogtxt       "…Anyway,"
-dialogtxt       "you two are in the way"
+dialogtxt       "… Anyway,"
+dialogtxt       "you two are in the way."
 dialogtxt       "Just go and see the Chief already."
 code0309        
 code0479        1, 0, 12
@@ -513,7 +513,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "Alright, Master."
 dialogtxt       "We'll be on our way."
-dialogtxt       "Okay,γ?"
+dialogtxt       "Okay, [NAME 1]?"
 goto            @Label_1666
 
 @Label_1666:
@@ -538,7 +538,7 @@ jumpz           @Cond_2528, ($b003 == 1)
 call            @Func_4818
 dialogtxt       "Then we must cure her quickly."
 dialogtxt       "Do we have any medicine?"
-dialogtxt       "Is there anything I can do…?"
+dialogtxt       "Is there anything I can do?"
 code0309        
 call            @Func_484e
 code0479        1, 0, 12
@@ -561,8 +561,8 @@ code0309
 call            @Func_48ba
 code0479        0, 4, 16
 call            @Func_4818
-dialogtxt       "Hm, is that so…"
-dialogtxt       "My apologies…"
+dialogtxt       "I-Is that so…"
+dialogtxt       "My apologies."
 code0309        
 call            @Func_4954
 call            @Func_4836
@@ -572,28 +572,29 @@ code0479        0, 4, 16
 code047d        0, 0
 call            @Func_48d2
 call            @Func_47fa
-dialogtxt       "But how could she develop"
-dialogtxt       "a fever so suddenly…?"
+dialogtxt       "But why'd she get sick all of a"
+dialogtxt       "sudden?"
 code047b        
 code0309        
 call            @Func_484e
 code0479        1, 0, 14
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "She's been pushing herself so hard."
-dialogtxt       "All of the pent-up stress…"
-dialogtxt       "must have hit her all at once."
+dialogtxt       "She's been pushing herself so hard"
+dialogtxt       "up until now."
+code0309	
+dialogtxt       "It must have all caught up to her."
 code047b        
 code0309        
 code0479        1, 0, 12
 dialogtxt       "It'll be best if she just rests."
-dialogtxt       "Leave her alone for now."
+dialogtxt       "Let's leave her alone for now."
 code0309        
 call            @Func_48ba
 code0333        2, 30
 code0479        0, 0, 12
 call            @Func_4818
-dialogtxt       "Okay."
+dialogtxt       "Okay…"
 code0309        
 call            @Func_484e
 code0334        
@@ -601,18 +602,18 @@ code046e        13, 256, 2
 code0479        1, 0, 16
 call            @Func_4884
 dialogtxt       "Alright, leave this to me."
-dialogtxt       "You should go introduce γ"
+dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
 call            @Func_4818
-dialogtxt       "What should I even say?"
+dialogtxt       "But what am I supposed to tell him?"
 code0309        
 call            @Func_484e
 code0479        1, 0, 16
@@ -624,7 +625,8 @@ code0309
 call            @Func_48ba
 code0479        0, 1, 16
 call            @Func_4818
-dialogtxt       "That'll totally work…"
+dialogtxt       "Yeah!"
+dialogtxt       "That'll work for sure!"
 code0309        
 call            @Func_4928
 call            @Func_484e
@@ -659,7 +661,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "You're right."
 dialogtxt       "I understand, Master."
-dialogtxt       "Let's get going, γ."
+dialogtxt       "Let's get going, [NAME 1]."
 goto            @Label_1d84
 
 @Label_1d84:
@@ -673,8 +675,7 @@ code0479        0, 0, 16
 code047d        0, 2
 call            @Func_48d2
 call            @Func_47fa
-dialogtxt       "However…"
-dialogtxt       "I cannot leave Murno alone"
+dialogtxt       "However, I cannot leave Murno alone"
 dialogtxt       "when she is in such bad shape…"
 code047b        
 code0309        
@@ -768,7 +769,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "Huh!?"
+dialogbig       24, 116, 1, 0, 0, "Excuse me!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -779,7 +780,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "Master…!"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_4928
@@ -821,7 +822,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "Alright, Master."
 dialogtxt       "We'll be on our way."
-dialogtxt       "Okay γ?"
+dialogtxt       "Okay, [NAME 1]?"
 goto            @Label_24cc
 
 @Label_24cc:
@@ -855,8 +856,8 @@ code0309
 call            @Func_48ba
 code0479        0, 5, 16
 call            @Func_4818
-dialogtxt       "What…"
-dialogtxt       "I didn't say I was worried…!"
+dialogtxt       "Tsk…"
+dialogtxt       "I didn't say I was worried!"
 code0309        
 call            @Func_484e
 code0479        1, 2, 16
@@ -867,7 +868,7 @@ code0309
 call            @Func_48ba
 code0479        0, 8, 12
 call            @Func_4818
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 code0309        
 call            @Func_4954
 call            @Func_4836
@@ -877,28 +878,29 @@ code0479        0, 4, 16
 code047d        0, 0
 call            @Func_48d2
 call            @Func_47fa
-dialogtxt       "But how could she develop"
-dialogtxt       "a fever so suddenly…?"
+dialogtxt       "But why'd she get sick all of a"
+dialogtxt       "sudden?"
 code047b        
 code0309        
 call            @Func_484e
 code0479        1, 0, 14
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "She's been pushing herself so hard."
-dialogtxt       "All of the pent-up stress…"
-dialogtxt       "must have hit her all at once."
+dialogtxt       "She's been pushing herself so hard"
+dialogtxt       "up until now."
+code0309	
+dialogtxt       "It must have all caught up to her."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "It'll be best if she just rests."
+dialogtxt       "It's best that she gets some rest."
 dialogtxt       "Leave her alone for now."
 code0309        
 call            @Func_48ba
 code0333        2, 30
 code0479        0, 0, 12
 call            @Func_4818
-dialogtxt       "Okay."
+dialogtxt       "Okay…"
 code0309        
 call            @Func_484e
 code0334        
@@ -907,18 +909,18 @@ code0479        1, 0, 12
 code0479        1, 0, 16
 call            @Func_4884
 dialogtxt       "Alright, leave this to me."
-dialogtxt       "You should go introduce γ"
+dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
 call            @Func_4818
-dialogtxt       "What should I even say?"
+dialogtxt       "But what am I supposed to tell him?"
 code0309        
 call            @Func_484e
 code0479        1, 0, 16
@@ -930,7 +932,8 @@ code0309
 call            @Func_48ba
 code0479        0, 1, 16
 call            @Func_4818
-dialogtxt       "That'll totally work…"
+dialogtxt       "Oh, yeah!"
+dialogtxt       "That'll totally work!"
 code0309        
 call            @Func_4928
 call            @Func_484e
@@ -940,7 +943,8 @@ code0479        0, 0, 12
 code047d        0, 2
 call            @Func_48d2
 call            @Func_4818
-dialogtxt       "This kid's partner, huh…?"
+dialogtxt       "Ugh…"
+dialogtxt       "This kid's partner…"
 code047b        
 code0309        
 call            @Func_484e
@@ -965,7 +969,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "You're right."
 dialogtxt       "Alright, let's go,"
-dialogtxt       "γ."
+dialogtxt       "[NAME 1]."
 goto            @Label_2b8c
 
 @Label_2b8c:
@@ -981,7 +985,7 @@ call            @Func_48d2
 call            @Func_47fa
 dialogtxt       "…"
 dialogtxt       "Do you intend to take care"
-dialogtxt       "of her on your own…?"
+dialogtxt       "of her on your own?"
 code047b        
 code0309        
 call            @Func_484e
@@ -1015,7 +1019,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "What, you got a problem!?"
 dialogtxt       "Speak clearly!"
 code0309        
@@ -1091,7 +1095,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "Master…!"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_484e
@@ -1132,7 +1136,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "Alright, Master."
 dialogtxt       "We'll be on our way."
-dialogtxt       "Okay, γ?"
+dialogtxt       "Okay, [NAME 1]?"
 goto            @Label_333a
 
 @Label_333a:
@@ -1156,12 +1160,11 @@ goto            @Cond_33a2
 jumpz           @Cond_4202, ($b003 == 3)
 call            @Func_4818
 dialogtxt       "What should we do!?"
-dialogtxt       "We have to do something…!"
+dialogtxt       "We must do something!"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "Oh, that's right!"
-dialogtxt       "I'll warm her up"
-dialogtxt       "with my body…"
+dialogtxt       "I'll warm her up with my body…"
 code0309        
 call            @Func_484e
 code0479        1, 4, 12
@@ -1194,17 +1197,18 @@ code0479        0, 4, 16
 code047d        0, 0
 call            @Func_48d2
 call            @Func_47fa
-dialogtxt       "But how could she develop"
-dialogtxt       "a fever so suddenly…?"
+dialogtxt       "But why'd she get sick all of a"
+dialogtxt       "sudden?"
 code047b        
 code0309        
 call            @Func_484e
 code0479        1, 0, 14
 call            @Func_48e8
 call            @Func_4884
-dialogtxt       "She's been pushing herself so hard."
-dialogtxt       "All of the pent-up stress…"
-dialogtxt       "must have hit her all at once."
+dialogtxt       "She's been pushing herself so hard"
+dialogtxt       "up until now."
+code0309	
+dialogtxt       "It must have all caught up to her."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -1215,7 +1219,7 @@ call            @Func_48ba
 code0333        2, 30
 code0479        0, 0, 12
 call            @Func_4818
-dialogtxt       "Okay."
+dialogtxt       "Okay…"
 code0309        
 call            @Func_484e
 code0334        
@@ -1223,18 +1227,18 @@ code046e        13, 256, 2
 code0479        1, 0, 16
 call            @Func_4884
 dialogtxt       "Alright, leave this to me."
-dialogtxt       "You should go introduce γ"
+dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
 call            @Func_4818
-dialogtxt       "What should I even say?"
+dialogtxt       "But what am I supposed to tell him?"
 code0309        
 call            @Func_484e
 code0479        1, 0, 16
@@ -1246,7 +1250,8 @@ code0309
 call            @Func_48ba
 code0479        0, 1, 16
 call            @Func_4818
-dialogtxt       "That'll totally work…"
+dialogtxt       "Yeah!"
+dialogtxt       "That'll totally work!"
 code0309        
 call            @Func_4928
 call            @Func_484e
@@ -1281,7 +1286,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "Alright, Master."
 dialogtxt       "We'll be on our way."
-dialogtxt       "Okay, γ?"
+dialogtxt       "Okay, [NAME 1]?"
 goto            @Label_3a8e
 
 @Label_3a8e:
@@ -1319,7 +1324,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "What was that!?"
+dialogbig       24, 116, 1, 0, 0, "Excuse me!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1393,7 +1398,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "Master…!"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_4928
@@ -1416,7 +1421,7 @@ code0309
 call            @Func_48ba
 code0479        0, 5, 16
 call            @Func_4818
-dialogtxt       "Me? I am not inter…"
+dialogtxt       "But-"
 code0309        
 call            @Func_484e
 code0479        1, 2, 12
@@ -1435,7 +1440,7 @@ call            @Func_48d2
 call            @Func_4818
 dialogtxt       "Alright, Master."
 dialogtxt       "We'll be on our way."
-dialogtxt       "Okay γ?"
+dialogtxt       "Okay [NAME 1]?"
 goto            @Label_418c
 
 @Label_418c:
@@ -1688,4 +1693,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

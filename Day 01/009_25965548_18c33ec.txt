@@ -11,20 +11,19 @@ code047d        0, 120
 jumpz           @Cond_025e, ($bv016 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "It's about time to"
-dialogtxt       "replace my weapon,"
-dialogtxt       "but I'm just too busy."
+dialogtxt       "It's about time to replace my"
+dialogtxt       "weapon, but I'm just too busy."
 code0309        
-dialogtxt       "Eh! You can craft weapons already?"
-dialogtxt       "I thought you were V.E's helper."
+dialogtxt       "Wait! You can craft weapons already?"
+dialogtxt       "I thought you were just V.E's helper."
 dialogtxt       "Hmm, I see, then…"
 code0309        
 code037c        $h232
-dialogtxt       "I want this spear, ζ,"
+dialogtxt       "I want this spear, the [NAME 4],"
 dialogtxt       "but…"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you need ζ"
+dialogtxt       "It seems you need [NAME 4]"
 dialogtxt       "for it."
 code0309        
 code047e        0, 0
@@ -56,10 +55,10 @@ jumpz           @Cond_03be, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "I really want that ζ spear…"
+dialogtxt       "I really want that [NAME 4]…"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you need ζ"
+dialogtxt       "It seems you need [NAME 4]"
 dialogtxt       "though."
 code0309        
 code047e        0, 0
@@ -77,7 +76,7 @@ code0366        242, 1
 code0367        
 code0301        8, 7
 code047e        0, 1
-dialogtxt       " I'm so excited~"
+dialogtxt       "I'm so excited~"
 code0309        
 code047e        0, 0
 code0302        7
@@ -109,7 +108,7 @@ jumpz           @Cond_0524, ($bv016 == 7)
 setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "This feels pretty nice."
+dialogtxt       "Hey! This ain't half bad!"
 dialogtxt       "Here, take this."
 code0309        
 code047e        0, 0
@@ -149,11 +148,11 @@ code0309
 code037c        $h232
 dialogtxt       "I know, why don't you make me one?"
 dialogtxt       "I've been thinking about getting"
-dialogtxt       "a ζ drill,"
+dialogtxt       "a [NAME 4],"
 
 code0309        
 code037c        $h233
-dialogtxt       "but it seems I need ζ."
+dialogtxt       "but it seems I need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -184,10 +183,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Do you think you can"
-dialogtxt       "make a ζ drill?"
+dialogtxt       "make me a [NAME 4]?"
 code0309        
 code037c        $h233
-dialogtxt       "You'll need ζ."
+dialogtxt       "You'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -242,7 +241,8 @@ code0302        7
 call            @Func_2dee
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "*squeak, squeak*"
+dialogtxt       "*spin, spin, spin*"
+dialogtxt       "Hmmm…"
 dialogtxt       "Still too complicated…"
 code0309        
 code047e        0, 0
@@ -253,7 +253,8 @@ goto            @Label_0a8c
 jumpz           @Label_0a8c, ($bv016 == 15)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "*squeak, squeak*"
+dialogtxt       "*spin, spin, spin*"
+dialogtxt       "Hmmm…"
 dialogtxt       "Still too complicated…"
 code0309        
 code047e        0, 0
@@ -272,10 +273,10 @@ code047e        0, 1
 dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "A ζ bow."
+dialogtxt       "I'd like the [NAME 4]."
 code0309        
 code037c        $h233
-dialogtxt       "You'll need a ζ"
+dialogtxt       "You'll need a [NAME 4]"
 dialogtxt       "to craft it."
 code0309        
 code047e        0, 0
@@ -294,7 +295,8 @@ code0366        245, 1
 code0367        
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah~, I can't wait to try it out."
+dialogtxt       "Ah~"
+dialogtxt       "I can't wait to try it out."
 code0309        
 code047e        0, 0
 code0302        7
@@ -308,10 +310,10 @@ jumpz           @Cond_0d9c, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "So, about that ζ bow."
+dialogtxt       "So, about that [NAME 4]."
 code0309        
 code037c        $h233
-dialogtxt       "You'll need ζ"
+dialogtxt       "You'll need [NAME 4]"
 dialogtxt       "to make it."
 code0309        
 code047e        0, 0
@@ -330,7 +332,8 @@ code0366        245, 1
 code0367        
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah~, I can't wait to try it out."
+dialogtxt       "Ah~"
+dialogtxt       "I can't wait to try it out."
 code0309        
 code047e        0, 0
 code0302        7
@@ -344,7 +347,8 @@ jumpz           @Cond_0e20, ($bv016 == 3)
 jumpz           @Cond_0e14, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah~, I can't wait to try it out."
+dialogtxt       "Ah~"
+dialogtxt       "I can't wait to try it out."
 code0309        
 code047e        0, 0
 code0302        7
@@ -371,9 +375,9 @@ code0302        7
 call            @Func_2dee
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah~, I can't wait to try this out."
-dialogtxt       "Where could my enemies be?"
-dialogtxt       "Hm~ how troublesome."
+dialogtxt       "I can't wait to try this out."
+dialogtxt       "But I guess I need a target first…"
+dialogtxt       "Hmm…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -383,9 +387,9 @@ goto            @Label_0fce
 jumpz           @Label_0fce, ($bv016 == 15)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah~, I can't wait to try this out."
-dialogtxt       "Where could my enemies be?"
-dialogtxt       "Hm~ how troublesome."
+dialogtxt       "I can't wait to try this out."
+dialogtxt       "But I guess I need a target first…"
+dialogtxt       "Hmm…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -403,11 +407,11 @@ code047e        0, 1
 dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "A ζ knuckle."
+dialogtxt       "The [NAME 4]."
 dialogtxt       "There's a man I'd like to use it on."
 code0309        
 code037c        $h233
-dialogtxt       "You'll need ζ"
+dialogtxt       "You'll need [NAME 4]"
 dialogtxt       "to make it."
 code0309        
 code047e        0, 0
@@ -421,8 +425,8 @@ code0309
 dialogtxt       "I thought the craftsman prepared it."
 dialogtxt       "Is it different in this town?"
 code0309        
-dialogtxt       "I'm looking forward to"
-dialogtxt       "the finished product."
+dialogtxt       "Well, anyways, I'm looking forward"
+dialogtxt       "to the finished product."
 code0309        
 code047e        0, 0
 code0302        7
@@ -437,10 +441,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Can you make me a"
-dialogtxt       "ζ knuckle?"
+dialogtxt       "[NAME 4]?"
 code0309        
 code037c        $h233
-dialogtxt       "You'll need ζ."
+dialogtxt       "You'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -453,8 +457,8 @@ code0309
 dialogtxt       "I thought the craftsman prepared it."
 dialogtxt       "Is it different in this town?"
 code0309        
-dialogtxt       "I'm looking forward to"
-dialogtxt       "the finished product."
+dialogtxt       "Well, anyways, I'm looking forward"
+dialogtxt       "to the finished product."
 code0309        
 code047e        0, 0
 code0302        7
@@ -523,11 +527,11 @@ code047e        0, 1
 dialogtxt       "I want to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "I'd like the"
-dialogtxt       "ζ sword, but…"
+dialogtxt       "A sword called the [NAME 4],"
+dialogtxt       "but…"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -550,11 +554,11 @@ jumpz           @Cond_16d0, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the ζ sword…"
+dialogtxt       "About the [NAME 4]…"
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -639,10 +643,10 @@ dialogtxt       "Well then,"
 dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "I'd like the ζ axe, but"
+dialogtxt       "I'd like the [NAME 4], but"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -665,11 +669,11 @@ jumpz           @Cond_1b38, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the ζ axe…"
+dialogtxt       "About the [NAME 4]…"
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -752,11 +756,11 @@ code047e        0, 1
 dialogtxt       "I want to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "I'd like the"
-dialogtxt       "ζ sword, but…"
+dialogtxt       "I'd like the [NAME 4],"
+dialogtxt       "but…"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -779,11 +783,11 @@ jumpz           @Cond_1fac, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the ζ sword…"
+dialogtxt       "About the [NAME 4]…"
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -860,11 +864,11 @@ code047e        0, 1
 dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "I'd like the"
-dialogtxt       "ζ spear, but…"
+dialogtxt       "I'd like the [NAME 4],"
+dialogtxt       "but…"
 code0309        
 code037c        $h233
-dialogtxt       "You need ζ."
+dialogtxt       "You need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -887,11 +891,11 @@ jumpz           @Cond_2394, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the ζ…"
+dialogtxt       "About the [NAME 4]…"
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
-dialogtxt       "You need ζ."
+dialogtxt       "You need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -934,10 +938,10 @@ setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Would you accept this?"
-dialogtxt       "I'm tight on cash right now"
+dialogtxt       "I'm tight on cash right now…"
 code0309        
-dialogtxt       "Maybe hitting him"
-dialogtxt       "wasn't the right thing to do…"
+dialogtxt       "Maybe hitting him wasn't the"
+dialogtxt       "best idea…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -976,10 +980,11 @@ code047e        0, 1
 dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
-dialogtxt       "I'd like the ζ drill, but…"
+dialogtxt       "I'd like the [NAME 4],"
+dialogtxt       "but…"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -1002,11 +1007,11 @@ jumpz           @Cond_27f0, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the ζ drill…"
-dialogtxt       "Can you do it?？"
+dialogtxt       "About the [NAME 4] drill…"
+dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need ζ."
+dialogtxt       "It seems you'll need [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -1048,14 +1053,14 @@ jumpz           @Cond_2932, ($bv016 == 7)
 setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "はい、報酬はこれで"
+dialogtxt       "Here, your reward."
 code0309        
 code047e        0, 0
 code0302        7
 call            @Func_2dee
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Here, your reward."
+dialogtxt       "I'll ask you again sometime."
 code0309        
 code047e        0, 0
 code0302        7
@@ -1065,7 +1070,7 @@ goto            @Label_2990
 jumpz           @Label_2990, ($bv016 == 15)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Here, your reward."
+dialogtxt       "I'll ask you again sometime."
 code0309        
 code047e        0, 0
 code0302        7
@@ -1537,4 +1542,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

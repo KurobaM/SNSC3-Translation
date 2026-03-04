@@ -13,7 +13,8 @@ jumpz           @Cond_00c8, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "I'd love to have a ζ."
+dialogtxt       "[NAME 4]…"
+dialogtxt       "I want one…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -23,11 +24,11 @@ goto            @Label_01c4
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "That ζ you have,"
+dialogtxt       "That [NAME 4] you have,"
 code0309        
 code037c        $h233
 dialogtxt       "Will you trade it"
-dialogtxt       "for this ζ?"
+dialogtxt       "for this [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -35,7 +36,7 @@ call            @Func_1732
 jumpz           @Cond_01c0, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Thank you so much, my dear."
+dialogtxt       "Thanks so much, dear."
 code0309        
 code047e        0, 0
 code0302        7
@@ -50,7 +51,7 @@ goto            @Label_0224
 @Cond_01c8:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Thank you so much, my dear."
+dialogtxt       "Thanks so much, dear."
 code0309        
 code047e        0, 0
 code0302        7
@@ -67,8 +68,7 @@ jumpz           @Cond_02b6, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "ζ,"
-dialogtxt       "ζ…"
+dialogtxt       "[NAME 4]… [NAME 4]…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -78,10 +78,10 @@ goto            @Label_0394
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "Will you trade your ζ,"
+dialogtxt       "Hey, will you trade your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -89,7 +89,8 @@ call            @Func_1732
 jumpz           @Cond_0390, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -104,7 +105,8 @@ goto            @Label_03ec
 @Cond_0398:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -122,7 +124,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with a ζ around."
+dialogtxt       "with a [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -133,10 +135,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Hey, would you like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -176,7 +178,7 @@ jumpz           @Cond_068a, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "Hey, do you have a ζ?"
+dialogtxt       "Hey, do you have a [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -186,10 +188,10 @@ goto            @Label_077e
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "Wanna trade your ζ,"
+dialogtxt       "Wanna trade your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -198,7 +200,7 @@ jumpz           @Cond_077a, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "This is what I wanted,"
-dialogtxt       "so it's not a loss"
+dialogtxt       "so it's not a loss…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -214,7 +216,7 @@ goto            @Label_07e6
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "This is what I wanted,"
-dialogtxt       "so it's not a loss"
+dialogtxt       "so it's not a loss…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -232,7 +234,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with a ζ around."
+dialogtxt       "with a [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -243,10 +245,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Would you like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -288,8 +290,7 @@ jumpz           @Cond_0a7a, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "ζ,"
-dialogtxt       "ζ…"
+dialogtxt       "[NAME 4]… [NAME 4]…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -299,10 +300,10 @@ goto            @Label_0b58
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "Wanna trade your ζ,"
+dialogtxt       "Wanna trade your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -310,7 +311,8 @@ call            @Func_1732
 jumpz           @Cond_0b54, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh… It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -325,7 +327,8 @@ goto            @Label_0bb0
 @Cond_0b5c:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh… It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -342,8 +345,7 @@ jumpz           @Cond_0c42, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "ζ,"
-dialogtxt       "ζ…"
+dialogtxt       "[NAME 4]… [NAME 4]…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -353,10 +355,10 @@ goto            @Label_0d20
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "Wanna trade your ζ,"
+dialogtxt       "Wanna trade your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -364,7 +366,8 @@ call            @Func_1732
 jumpz           @Cond_0d1c, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh… It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -379,7 +382,8 @@ goto            @Label_0d78
 @Cond_0d24:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh… It's my victory."
+dialogtxt       "Heheh…"
+dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
 code0302        7
@@ -397,7 +401,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with a ζ around."
+dialogtxt       "with a [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -408,10 +412,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Would like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -458,7 +462,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with a ζ around."
+dialogtxt       "with a [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -469,10 +473,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Would like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -515,7 +519,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with a ζ around."
+dialogtxt       "with a [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -526,10 +530,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Would like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -537,7 +541,7 @@ call            @Func_1732
 jumpz           @Cond_131a, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "That was a good trade."
+dialogtxt       "Pleasure doing business with you."
 code0309        
 code047e        0, 0
 code0302        7
@@ -552,7 +556,7 @@ goto            @Label_136c
 @Cond_1322:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "That was a good trade."
+dialogtxt       "Pleasure doing business with you."
 code0309        
 code047e        0, 0
 code0302        7
@@ -570,7 +574,7 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "I wonder if there's anyone"
-dialogtxt       "with ζ around."
+dialogtxt       "with [NAME 4] around."
 code0309        
 code047e        0, 0
 code0302        7
@@ -581,10 +585,10 @@ code0301        8, 7
 code047e        0, 1
 code037c        $h232
 dialogtxt       "Would like to trade"
-dialogtxt       "your ζ,"
+dialogtxt       "your [NAME 4],"
 code0309        
 code037c        $h233
-dialogtxt       "for my ζ?"
+dialogtxt       "for my [NAME 4]?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -592,8 +596,8 @@ call            @Func_1732
 jumpz           @Cond_14f2, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "That was a good trade."
-code0309        
+dialogtxt       "Pleasure doing business with you."
+code0309		
 code047e        0, 0
 code0302        7
 goto            @Cond_14f2
@@ -607,7 +611,7 @@ goto            @Label_1546
 @Cond_14fa:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "That was a good trade."
+dialogtxt       "Pleasure doing business with you."
 code0309        
 code047e        0, 0
 code0302        7
@@ -906,4 +910,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -14,7 +14,7 @@ code049b        0, 0, 0, 0, 224, 160
 code049b        1, 0, 320, 288, 352, 312
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Deckell Village  Fishing Pond"
+placetxt        "Deckell Village　Fishing Pond"
 code040c        1, @Label_0374
 code040c        2, @Label_036a
 code0438        2, 411, 653, 4
@@ -299,9 +299,8 @@ code047d        0, 123
 code047e        0, 1
 dialogtxt       "There's a lot of Strays"
 dialogtxt       "outside the village."
-dialogtxt       "It's not safe to leave."
+dialogtxt       "It's scary out there."
 code0309        
 code047e        0, 0
 code0302        7
 code040b        
-

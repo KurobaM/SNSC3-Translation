@@ -141,7 +141,7 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 dialogtxt       "I need to introduce"
-dialogtxt       "γ to the Chief!"
+dialogtxt       "[NAME 1] to the Chief!"
 goto            @Label_06b8
 
 @Label_06b8:
@@ -160,7 +160,7 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 dialogtxt       "I need to return this hammer…"
-dialogtxt       "Where's Zakk…?"
+dialogtxt       "Where could Zakk be…"
 goto            @Label_079a
 
 @Label_079a:
@@ -524,4 +524,3 @@ walkto          30, -8, -8, 67
 code0461        30
 code0461        31
 code040b        
-

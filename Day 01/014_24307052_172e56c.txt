@@ -53,7 +53,7 @@ goto            @Label_029e
 
 @Label_029e:
 code041d        
-placetxt        "Deckell Village  Mine Entrance"
+placetxt        "Deckell Village　Mine Entrance"
 code040b        
 
 @Event_02be:
@@ -96,7 +96,8 @@ goto            @start
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "No entry for the Stray's lapdog."
+dialogtxt       "No entry for the Stray's"
+dialogtxt       "apprentice."
 code0309        
 code047e        0, 0
 code0302        7
@@ -308,15 +309,12 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "Youngsters these days are no good."
+dialogtxt       "Youngsters these days are slackers."
 dialogtxt       "Breaking rocks with a drill?"
-dialogtxt       "If you do everything with machines,"
 code0309        
-dialogtxt       "you won't learn"
-dialogtxt       "to use a hammer…"
-dialogtxt       "Ah~~, no good."
+dialogtxt       "If you do everything with machines,"
+dialogtxt       "you won't learn to use a hammer!"
 code0309        
 code047e        0, 0
 code0302        7
 code040b        
-

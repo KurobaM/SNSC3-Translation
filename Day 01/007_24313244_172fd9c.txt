@@ -163,7 +163,7 @@ code040b
 code0301        8, 7
 code047d        0, 108
 code047e        0, 1
-dialogtxt       "Be quiet,"
+dialogtxt       "Be quiet."
 dialogtxt       "Murno's sleeping."
 code0309        
 code047e        0, 0
@@ -369,4 +369,3 @@ code031f        7
 code031a        7
 code033e        196
 ret             
-

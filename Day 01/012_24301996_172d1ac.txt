@@ -101,7 +101,7 @@ goto            @Label_0532
 
 @Label_0532:
 code041d        
-placetxt        "Deckell Village　     Plaza"
+placetxt        "Deckell Village　Plaza"
 code040b        
 
 @Event_054c:
@@ -431,4 +431,3 @@ code040b
 setvar          $bv031, 1
 code0006        3917
 code040b        
-
