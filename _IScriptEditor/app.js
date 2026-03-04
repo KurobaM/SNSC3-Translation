@@ -158,7 +158,8 @@ const BAD_TAGS = {
     "â" : "#Heart",
     "Î²" : "#PlayerName",
     "Î´" : "#PlayerNickname",
-    "Î³" : "#PartnerName"
+    "Î³" : "#PartnerName",
+    "Î¶" : "#ItemName",
 }
 
 const TAG_LENGTH = {
