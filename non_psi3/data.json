@@ -1,0 +1,419 @@
+{
+    "0x80bb778": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bb778"
+        },
+        "length": 16,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x806e778"
+            }
+        ],
+        "raw": "＜預かり武器＞\u0000\u0000",
+        "translation": "＜Weapon＞\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bb788": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bb788"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x806e7a4"
+            },
+            {
+                "type": "Address",
+                "value": "0x806e7cc"
+            },
+            {
+                "type": "Address",
+                "value": "0x806e7f0"
+            }
+        ],
+        "raw": "−−−空き−−−\u0000\u0000\u0000\u0000",
+        "translation": "−−−−−−−−\u0000\u0000\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bb79c": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bb79c"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x806e7f8"
+            }
+        ],
+        "raw": "終了　　　　　　\u0000\u0000\u0000\u0000",
+        "translation": "End.　　　　　　\u0000\u0000\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bb7b0": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bb7b0"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x806e928"
+            }
+        ],
+        "raw": "ζを受け取りました\u0000\u0000",
+        "translation": "ζ received.\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bb7c4": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bb7c4"
+        },
+        "length": 24,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x806ecec"
+            }
+        ],
+        "raw": "武器を選択してください\u0000\u0000",
+        "translation": "Choose your weapon\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bff8c": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bff8c"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8089534"
+            }
+        ],
+        "raw": "良い武器ができた！\u0000\u0000",
+        "translation": "Good weapon made!\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bffd8": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bffd8"
+        },
+        "length": 8,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x808b6b0"
+            }
+        ],
+        "raw": "材料\u0000\u0000\u0000\u0000",
+        "translation": "Material\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0040": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0040"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1b9c"
+            }
+        ],
+        "raw": "セーブデータを継承しますか？\u0000\u0000\u0000\u0000",
+        "translation": "Start New Game+?\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0060": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0060"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1bb8"
+            }
+        ],
+        "raw": "　以上を継承します\u0000\u0000",
+        "translation": "・money\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0074": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0074"
+        },
+        "length": 16,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1bb4"
+            }
+        ],
+        "raw": "・預けた武器\u0000\u0000\u0000\u0000",
+        "translation": "・techniques\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0084": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0084"
+        },
+        "length": 36,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1bb0"
+            }
+        ],
+        "raw": "・釣りポイント　・ミニゲーム記録\u0000\u0000\u0000\u0000",
+        "translation": "・stored weapons\u0006・craft ranks\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c00a8": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c00a8"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1bac"
+            }
+        ],
+        "raw": "・必殺技一覧　　・特殊効果一覧\u0000\u0000",
+        "translation": "・special attacks\u0007・effects\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c00c8": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c00c8"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1ba8"
+            }
+        ],
+        "raw": "・鍛冶ランク　　・召喚獣事典\u0000\u0000\u0000\u0000",
+        "translation": "・fishing points\u000f・bestiary\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c00e8": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c00e8"
+        },
+        "length": 24,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1ba4"
+            }
+        ],
+        "raw": "・秘伝　　　　　・お金\u0000\u0000",
+        "translation": "・minigames scores\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0100": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0100"
+        },
+        "length": 28,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd1ba0"
+            }
+        ],
+        "raw": "クリアしたセーブデータから\u0000\u0000",
+        "translation": "Carry over data:\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0178": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0178"
+        },
+        "length": 20,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x80a4560"
+            }
+        ],
+        "raw": "εの効果が切れた\u0000\u0000\u0000\u0000",
+        "translation": "ε's effect expired.\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0210": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0210"
+        },
+        "length": 24,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bda234"
+            }
+        ],
+        "raw": "エサを選択してください\u0000\u0000",
+        "translation": "Select bait to use\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0228": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0228"
+        },
+        "length": 28,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bda238"
+            }
+        ],
+        "raw": "釣り具を選択してください\u0000\u0000\u0000\u0000",
+        "translation": "Select fishing rod\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0244": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0244"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x80b3c58"
+            }
+        ],
+        "raw": "Ａボタン−開始　Ｂボタン−終了\u0000\u0000",
+        "translation": "Press A: Start, Press B: End\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80c0264": {
+        "address": {
+            "type": "Address",
+            "value": "0x80c0264"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x80b4084"
+            }
+        ],
+        "raw": "　今日は、これで営業終了です　\u0000\u0000",
+        "translation": "　　　We're closed today.\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x8bd5874": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bd5874"
+        },
+        "length": 10,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd58a0"
+            }
+        ],
+        "raw": "残り０回\u0000\u0000",
+        "translation": "0 left\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x8bd587e": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bd587e"
+        },
+        "length": 10,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd58a4"
+            }
+        ],
+        "raw": "残り１回\u0000\u0000",
+        "translation": "1 left\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x8bd5888": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bd5888"
+        },
+        "length": 12,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bd58a8"
+            }
+        ],
+        "raw": "残り２回\u0000\u0000\u0000\u0000",
+        "translation": "2 left\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x8bda0a4": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bda0a4"
+        },
+        "length": 28,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8bda108"
+            }
+        ],
+        "raw": "斧やドリルならはじけるぞ\u0000\u0000\u0000\u0000",
+        "translation": "",
+        "type": "SJIS string"
+    },
+    "__version__": "1.0"
+}
