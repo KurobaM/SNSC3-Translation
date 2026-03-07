@@ -172,7 +172,7 @@ const TAG_LENGTH = {
     "[NAME 4]" : 72,
     "◎" : 12,
     "∞" : 12,
-    "●" : 8
+    "●" : 12
 };
 
 const CHARACTER_SPACE = {
@@ -265,8 +265,8 @@ const CHARACTER_SPACE = {
     "~": 8,
     "…": 9,
     " ": 4,
-    "　": 8,
-    "\\": 0,
+    "　": 12,
+    "\\": 12,
 }
 // #endregion
 
