@@ -74,7 +74,6 @@ code0479        1, 0, 12
 call            @Func_2426
 dialogtxt       "That Is Because Your"
 dialogtxt       "Observation Skills Are Weak."
-dialogtxt       "Your Eyes Are Empty Holes."
 code0309        
 call            @Func_245c
 code0479        0, 2, 14
@@ -84,7 +83,7 @@ dialogtxt       "What!?"
 goto            @Label_0410
 
 @Cond_03fa:
-dialogtxt       "Empty!?"
+dialogtxt       "What!?"
 goto            @Label_0410
 
 @Label_0410:
@@ -98,7 +97,7 @@ code0309
 call            @Func_245c
 code0479        0, 5, 16
 call            @Func_23ba
-dialogtxt       "That's not what I was asking…！"
+dialogtxt       "That's not what I was asking!"
 code0309        
 call            @Func_23f0
 code0479        1, 0, 12
@@ -109,7 +108,6 @@ call            @Func_245c
 code0479        0, 2, 14
 call            @Func_23ba
 jumpz           @Cond_056e, ($b002 == 0)
-dialogtxt       "Damn it!"
 dialogtxt       "This is going nowhere!"
 code0309        
 code0479        0, 2, 15
@@ -118,7 +116,7 @@ dialogtxt       "Let's just go!"
 goto            @Label_05c2
 
 @Cond_056e:
-dialogtxt       "Jeez…!"
+dialogtxt       "Jeez…"
 dialogtxt       "This is going nowhere!"
 code0309        
 code0479        0, 2, 15
@@ -161,7 +159,7 @@ code0331        35, 256
 code0479        0, 5, 15
 call            @Func_2474
 call            @Func_239c
-dialogtxt       "γ!?"
+dialogtxt       "[NAME 1]!?"
 dialogtxt       "Watch out!"
 goto            @Cond_07c2
 
@@ -178,16 +176,15 @@ code0309
 call            @Func_23f0
 code0479        1, 2, 16
 call            @Func_2426
-dialogtxt       "Hmmm…?"
+dialogtxt       "Hmmm?"
 dialogtxt       "Did you not believe me?"
 code0309        
 call            @Func_245c
 code0333        2, 30
 code0479        0, 0, 12
 call            @Func_23ba
-dialogtxt       "No, it's just that"
-dialogtxt       "I couldn't tell the"
-dialogtxt       "difference, so…"
+dialogtxt       "No, it's just that I couldn't tell"
+dialogtxt       "the difference, so…"
 goto            @Label_0992
 
 @Label_0992:
@@ -199,13 +196,13 @@ code0479        1, 4, 12
 call            @Func_2426
 dialogtxt       "Hmph. Not being able to"
 dialogtxt       "tell the difference simply"
-dialogtxt       "means that you're still green…"
+dialogtxt       "means that you're still green."
 code0309        
 call            @Func_245c
 code0479        0, 11, 17
 call            @Func_23ba
-dialogtxt       "Wha…!?"
-dialogtxt       "Green where!?"
+dialogtxt       "G-Green!?"
+dialogtxt       "Where?"
 dialogtxt       "Oh no, am I sick or something!?"
 goto            @Label_0a9e
 
@@ -221,11 +218,11 @@ code0309
 call            @Func_245c
 code0479        0, 2, 15
 call            @Func_23ba
-dialogtxt       "No, I'm not!"
+dialogtxt       "I'm not an amateur!"
 goto            @Label_0b6e
 
 @Cond_0b4e:
-dialogtxt       "I'm not an amateur!"
+dialogtxt       "You're an amateur!"
 goto            @Label_0b6e
 
 @Label_0b6e:
@@ -233,6 +230,7 @@ code0309
 call            @Func_23f0
 code0479        1, 4, 12
 call            @Func_2426
+dialogtxt       "*sigh*"
 dialogtxt       "Being so easily provoked"
 dialogtxt       "is another sign."
 code0309        
@@ -244,7 +242,7 @@ code0309
 call            @Func_245c
 code0479        0, 2, 16
 call            @Func_23ba
-dialogtxt       "For real!?"
+dialogtxt       "And why should I listen to you!?"
 goto            @Label_0c80
 
 @Label_0c80:
@@ -259,7 +257,7 @@ call            @Func_245c
 code0479        0, 2, 15
 call            @Func_23ba
 jumpz           @Cond_0d4c, ($b002 == 0)
-dialogtxt       "Damn it!"
+dialogtxt       "Dang it!"
 dialogtxt       "We're getting nowhere!"
 code0309        
 code0479        0, 2, 14
@@ -268,7 +266,7 @@ dialogtxt       "Let's just go!"
 goto            @Label_0da0
 
 @Cond_0d4c:
-dialogtxt       "Jeez…!"
+dialogtxt       "Jeez!"
 dialogtxt       "We're getting nowhere!"
 code0309        
 code0479        0, 2, 14
@@ -311,7 +309,7 @@ code0331        35, 256
 code0479        0, 5, 15
 call            @Func_2474
 call            @Func_239c
-dialogtxt       "γ!?"
+dialogtxt       "[NAME 1]!?"
 dialogtxt       "Watch out!"
 goto            @Cond_0fa0
 
@@ -351,8 +349,7 @@ code0309
 call            @Func_245c
 code0479        0, 0, 14
 call            @Func_23ba
-dialogtxt       "But then,"
-dialogtxt       "why didn't you tell me?"
+dialogtxt       "But then, why didn't you tell me?"
 goto            @Label_11c4
 
 @Label_11c4:
@@ -375,13 +372,13 @@ code0309
 call            @Func_23f0
 code0479        1, 0, 12
 call            @Func_2426
-dialogtxt       "I remember…that's why"
-dialogtxt       "I followed you here."
+dialogtxt       "I remember…"
+dialogtxt       "That's why I followed you here."
 code0309        
 call            @Func_245c
 code0479        0, 2, 14
 call            @Func_23ba
-dialogtxt       "Then why…!"
+dialogtxt       "Then why-"
 code0309        
 call            @Func_23f0
 code0479        1, 0, 13
@@ -393,7 +390,7 @@ code0309
 call            @Func_245c
 code0479        0, 5, 15
 call            @Func_23ba
-dialogtxt       "What's wrong with you…!?"
+dialogtxt       "What's wrong with you!?"
 goto            @Label_1426
 
 @Label_1426:
@@ -407,7 +404,7 @@ call            @Func_245c
 code0479        0, 2, 14
 call            @Func_23ba
 jumpz           @Cond_14ce, ($b002 == 0)
-dialogtxt       "Damn it!"
+dialogtxt       "Dang it!"
 dialogtxt       "We're getting nowhere!"
 code0309        
 code0479        0, 2, 15
@@ -416,7 +413,7 @@ dialogtxt       "Let's just go!"
 goto            @Label_1522
 
 @Cond_14ce:
-dialogtxt       "Jeez…!"
+dialogtxt       "Jeez!"
 dialogtxt       "We're getting nowhere!"
 code0309        
 code0479        0, 2, 15
@@ -459,7 +456,7 @@ code0331        35, 256
 code0479        0, 2, 15
 call            @Func_2474
 call            @Func_239c
-dialogtxt       "γ!?"
+dialogtxt       "[NAME 1]!?"
 dialogtxt       "Watch out!"
 goto            @Cond_1722
 
@@ -523,15 +520,15 @@ code0309
 call            @Func_23f0
 code0479        1, 2, 16
 call            @Func_2426
-dialogtxt       "If you don't believe me,"
-dialogtxt       "then I don't care what happens"
-dialogtxt       "to you. Just do what you want."
+dialogtxt       "No, it is of no consequence."
+dialogtxt       "Just don't blame me if something"
+dialogtxt       "happens to you…"
 code0309        
 call            @Func_245c
 code0479        0, 0, 14
 call            @Func_23ba
 jumpz           @Cond_1b62, ($b002 == 0)
-dialogtxt       "What's with you…"
+dialogtxt       "What's with you?"
 code0309        
 code0479        0, 0, 15
 dialogtxt       "Oh, whatever."
@@ -539,7 +536,7 @@ dialogtxt       "Let's just go."
 goto            @Label_1ba8
 
 @Cond_1b62:
-dialogtxt       "What's with you…"
+dialogtxt       "What's with you?"
 code0309        
 code0479        0, 0, 15
 dialogtxt       "Ugh, whatever!"
@@ -581,7 +578,7 @@ code0331        35, 256
 code0479        0, 2, 15
 call            @Func_2474
 call            @Func_239c
-dialogtxt       "γ!?"
+dialogtxt       "[NAME 1]!?"
 dialogtxt       "Watch out!"
 goto            @Cond_1da8
 
@@ -812,4 +809,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

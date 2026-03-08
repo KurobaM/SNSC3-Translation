@@ -268,16 +268,14 @@ code0445        0, 11
 code0446        0
 code0301        0, 9
 code0305        1
-dialogtxt       "At restoration points,"
-dialogtxt       "you can restore HP"
-dialogtxt       "and Magic uses."
+dialogtxt       "At restoration points you can"
+dialogtxt       "restore HP and Magic uses."
 code0309        
-dialogtxt       "Use it by standing on"
-dialogtxt       "the point and pressing A."
+dialogtxt       "Use it by standing on the point"
+dialogtxt       "and pressing A."
 code0309        
-dialogtxt       "You can only use it once, unless"
-dialogtxt       "you re-enter the dungeon"
-dialogtxt       "once more."
+dialogtxt       "You can only use it once per visit"
+dialogtxt       "to the dungeon."
 code0309        
 code0302        9
 code0461        5
@@ -494,4 +492,3 @@ code031f        7
 code031a        7
 code033e        196
 ret             
-

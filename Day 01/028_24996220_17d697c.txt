@@ -28,8 +28,8 @@ code047d        0, 2
 call            @Func_2152
 call            @Func_20ba
 dialogtxt       "Your attacks didn't work…"
-dialogtxt       "That was a Stray…?"
-dialogtxt       "Are you alright, γ?"
+dialogtxt       "That was a Stray…"
+dialogtxt       "Are you alright, [NAME 1]?"
 goto            @Label_0196
 
 @Label_0196:
@@ -58,8 +58,7 @@ goto            @Label_022e
 jumpz           @Cond_07ee, ($b003 == 0)
 code0333        2, 30
 call            @Func_206c
-dialogtxt       "No Problems Detected,"
-dialogtxt       "Thanks To You."
+dialogtxt       "No Problems Detected."
 code0309        
 code0334        
 code0331        31, 256
@@ -71,14 +70,14 @@ code0309
 call            @Func_20a2
 code0479        1, 5, 16
 call            @Func_20d8
-dialogtxt       "YOU'RE thanking ME…!?"
+dialogtxt       "YOU'RE thanking ME!?"
 code0309        
 call            @Func_210e
 code0479        0, 0, 12
 call            @Func_206c
-dialogtxt       "In A Case Like This,"
-dialogtxt       "You Are Very Deserving"
-dialogtxt       "Of This Gesture."
+dialogtxt       "In A Case Such As This,"
+dialogtxt       "You Are Deserving Of This"
+dialogtxt       "Gesture."
 code0309        
 call            @Func_20a2
 code0479        1, 0, 13
@@ -182,7 +181,7 @@ goto            @Cond_07ee
 jumpz           @Cond_0d44, ($b003 == 1)
 code0333        2, 30
 call            @Func_206c
-dialogtxt       "I am sorry."
+dialogtxt       "My apologies…"
 code0309        
 call            @Func_20a2
 code0479        1, 5, 16
@@ -200,13 +199,13 @@ dialogtxt       "I would have…"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "And I called you an amateur…"
-dialogtxt       "…"
+code0309        
 dialogtxt       "My sincerest apologies!"
 code0309        
 call            @Func_20a2
 code0479        1, 0, 13
 call            @Func_20d8
-dialogtxt       "There's no need for that…!"
+dialogtxt       "There's no need for that!"
 dialogtxt       "We're partners."
 dialogtxt       "It's natural we help each other!"
 goto            @Label_09d6
@@ -294,7 +293,7 @@ code0479        0, 2, 15
 code047d        0, 2
 call            @Func_2126
 call            @Func_204e
-dialogtxt       "That voice"
+dialogtxt       "That voice…"
 dialogtxt       "It sounded like Zakk."
 code047b        
 code0309        
@@ -311,7 +310,7 @@ call            @Func_20a2
 code0479        1, 0, 16
 call            @Func_20d8
 dialogtxt       "Oh, come on…"
-dialogtxt       "You're still like that…?"
+dialogtxt       "You're still like that?"
 goto            @Label_0df6
 
 @Label_0df6:
@@ -336,7 +335,7 @@ code0332
 code0331        31, 256
 code0479        0, 5, 16
 call            @Func_206c
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-"
 code0309        
 call            @Func_20a2
 code0479        1, 0, 13
@@ -351,7 +350,7 @@ code0309
 call            @Func_210e
 code0479        0, 0, 13
 call            @Func_206c
-dialogtxt       "You sure are easygoing…"
+dialogtxt       "Tsk…"
 dialogtxt       "So now you feel like"
 dialogtxt       "helping me all of a sudden?"
 code0309        
@@ -373,8 +372,7 @@ call            @Func_20a2
 code0479        1, 0, 13
 call            @Func_20d8
 jumpz           @Cond_11ac, ($b002 == 0)
-dialogtxt       "Not to mention…"
-dialogtxt       "If you got hurt,"
+dialogtxt       "Not to mention, if you got hurt,"
 dialogtxt       "she'd be sad, right?"
 code0309        
 call            @Func_210e
@@ -390,14 +388,13 @@ dialogtxt       "C'mon, let's just go!"
 goto            @Label_124a
 
 @Cond_11ac:
-dialogtxt       "Not to mention"
-dialogtxt       "If you got hurt,"
+dialogtxt       "Not to mention, if you got hurt,"
 dialogtxt       "Murno would be sad, right?"
 code0309        
 call            @Func_210e
 code0479        0, 0, 14
 call            @Func_206c
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 code0309        
 call            @Func_20a2
 code0479        1, 1, 12
@@ -445,7 +442,7 @@ code0479        0, 2, 16
 code047d        0, 2
 call            @Func_2126
 call            @Func_204e
-dialogtxt       "That voice"
+dialogtxt       "That voice…"
 dialogtxt       "It sounded like that kid Zakk."
 code047b        
 code0309        
@@ -465,7 +462,7 @@ code0332
 code0331        31, 256
 code0479        1, 1, 12
 call            @Func_20d8
-dialogtxt       "There's no need for that…!"
+dialogtxt       "There's no need for that!"
 dialogtxt       "We're partners."
 dialogtxt       "It's natural we help each other!"
 goto            @Label_156c
@@ -519,7 +516,7 @@ call            @Func_210e
 code0479        0, 6, 12
 call            @Func_206c
 dialogtxt       "Y-Yes…"
-dialogtxt       "Um, δ, I…"
+dialogtxt       "Um, [NAME 2], I…"
 code0309        
 call            @Func_21a8
 call            @Func_208a
@@ -822,4 +819,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -25,14 +25,14 @@ code0479        0, 4, 14
 code047d        0, 131
 call            @Func_0e0e
 call            @Func_0d0a
-dialogtxt       "What do I do now…"
+dialogtxt       "What do I do now?"
 dialogtxt       "Because of that Stray,"
-dialogtxt       "the tree's dying…"
+dialogtxt       "the tree's dying."
 code047b        
 code0309        
 code0479        0, 4, 16
-dialogtxt       "We've come this far…"
-dialogtxt       "Now there's no fruit…"
+dialogtxt       "We've come this far."
+dialogtxt       "Now there's no fruit."
 code0309        
 call            @Func_0d5e
 code0479        1, 2, 14
@@ -47,8 +47,7 @@ code0309
 call            @Func_0dca
 code0479        0, 4, 17
 call            @Func_0d28
-dialogtxt       "But…"
-dialogtxt       "The Stray…"
+dialogtxt       "But, the Stray…"
 code0309        
 code0333        2, 30
 call            @Func_0d5e
@@ -71,8 +70,8 @@ code0309
 call            @Func_0d5e
 code0479        1, 2, 13
 call            @Func_0d94
-dialogtxt       "We'll be okay."
-dialogtxt       "A Craftknight must be strong!"
+dialogtxt       "Don't worry."
+dialogtxt       "Craftknights are stronger!"
 goto            @Label_0460
 
 @Label_0460:
@@ -80,12 +79,12 @@ code0309
 call            @Func_0dca
 code0479        0, 0, 16
 call            @Func_0d28
-dialogtxt       "You…"
+dialogtxt       "But…"
 code0309        
 call            @Func_0d5e
 code0479        1, 0, 12
 call            @Func_0d94
-dialogtxt       "Okay! Let's do this, γ!"
+dialogtxt       "Okay! Let's do this, [NAME 1]!"
 goto            @Label_04f2
 
 @Label_04f2:
@@ -122,8 +121,8 @@ goto            @Cond_05d6
 
 @Cond_05d6:
 jumpz           @Cond_062c, ($b003 == 1)
-dialogtxt       "Watch closely and"
-dialogtxt       "Witness our strength!"
+dialogtxt       "Watch closely and witness our"
+dialogtxt       "strength!"
 goto            @Cond_062c
 
 @Cond_062c:
@@ -368,4 +367,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

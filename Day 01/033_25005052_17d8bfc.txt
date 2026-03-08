@@ -8,16 +8,16 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_3014
 call            @Func_2f3c
-dialogtxt       "That was close…"
-dialogtxt       "γ, if you weren't here,"
-dialogtxt       "I'd be done for…"
+dialogtxt       "That was close."
+dialogtxt       "[NAME 1], if you weren't here,"
+dialogtxt       "I'd be done for!"
 goto            @Label_00f8
 
 @Label_00f8:
 code047b        
 code0309        
 code0479        0, 0, 13
-dialogtxt       "Thanks, γ."
+dialogtxt       "Thanks, [NAME 1]."
 code0309        
 call            @Func_2f90
 code0478        1, 2
@@ -45,15 +45,15 @@ call            @Func_302a
 jumpz           @Cond_0be2, ($b003 == 0)
 call            @Func_2fc6
 dialogtxt       "I Do Not Need Thanks."
-dialogtxt       "It Is My Duty As Your"
-dialogtxt       "Partner, Is It Not?"
+dialogtxt       "I Am Just Fulfilling My"
+dialogtxt       "Duty As Your Partner."
 code047b        
 code0309        
 call            @Func_2ffc
 code0479        0, 1, 12
 call            @Func_2f5a
 dialogtxt       "I see…"
-dialogtxt       "I'm still grateful, γ."
+dialogtxt       "I'm still grateful, [NAME 1]."
 code0309        
 call            @Func_2f90
 code0479        1, 5, 12
@@ -89,17 +89,16 @@ call            @Func_2ffc
 code0479        0, 4, 12
 call            @Func_3014
 call            @Func_2f5a
-dialogtxt       "So that's why you came from there…"
-dialogtxt       "But more than that,"
-dialogtxt       "I'm glad you're okay."
+dialogtxt       "So that's why you came from there."
+dialogtxt       "But more than that, I'm glad you're"
+dialogtxt       "okay."
 goto            @Label_04f6
 
 @Label_04f6:
 code0309        
 code0479        1, 1, 16
 code0479        0, 2, 14
-dialogtxt       "Zakk…"
-dialogtxt       "About that…"
+dialogtxt       "But, Zakk, about that…"
 code047b        
 code0309        
 call            @Func_306a
@@ -123,7 +122,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_3014
 call            @Func_2f3c
-dialogtxt       "γ…!?"
+dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        
 call            @Func_306a
@@ -176,9 +175,8 @@ call            @Func_2ffc
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_2f5a
-dialogtxt       "My partner's mistake"
-dialogtxt       "is my mistake too,"
-dialogtxt       "so we apologize together."
+dialogtxt       "My partner's mistake is my mistake too."
+dialogtxt       "We apologize together."
 goto            @Label_08ce
 
 @Label_08ce:
@@ -241,7 +239,7 @@ code0309
 call            @Func_2f90
 code0479        1, 1, 12
 call            @Func_2fc6
-dialogtxt       "Just As Planned."
+dialogtxt       "I Concur."
 code0309        
 call            @Func_2ffc
 code0479        0, 0, 13
@@ -264,7 +262,7 @@ call            @Func_2ffc
 code0479        0, 1, 12
 call            @Func_2f5a
 dialogtxt       "I see…"
-dialogtxt       "I'm still grateful,γ."
+dialogtxt       "I'm still grateful, [NAME 1]."
 code0309        
 call            @Func_2f90
 code0479        1, 7, 17
@@ -301,17 +299,16 @@ call            @Func_2ffc
 code0479        0, 4, 12
 call            @Func_3014
 call            @Func_2f5a
-dialogtxt       "So that's why you came from there…"
-dialogtxt       "But more than that,"
-dialogtxt       "I'm glad you're okay."
+dialogtxt       "So that's why you came from there."
+dialogtxt       "But more than that, I'm glad you're"
+dialogtxt       "okay."
 goto            @Label_0eda
 
 @Label_0eda:
 code0309        
 code0479        1, 1, 16
 code0479        0, 2, 14
-dialogtxt       "Zakk…"
-dialogtxt       "About that…"
+dialogtxt       "But, Zakk, about that…"
 code047b        
 code0309        
 call            @Func_306a
@@ -335,7 +332,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_3014
 call            @Func_2f3c
-dialogtxt       "γ…!?"
+dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        
 call            @Func_306a
@@ -346,8 +343,7 @@ code0479        0, 0, 14
 code047d        0, 2
 call            @Func_3040
 call            @Func_2f3c
-dialogtxt       "You trusted me,"
-dialogtxt       "and I let you down."
+dialogtxt       "You trusted me, and I let you down."
 dialogtxt       "I am ashamed…"
 code047b        
 code0309        
@@ -388,9 +384,8 @@ call            @Func_2ffc
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_2f5a
-dialogtxt       "My partner's mistake"
-dialogtxt       "is my mistake too,"
-dialogtxt       "so we apologize together."
+dialogtxt       "My partner's mistake is my mistake too."
+dialogtxt       "We apologize together."
 goto            @Label_12a4
 
 @Label_12a4:
@@ -469,7 +464,7 @@ goto            @Cond_15ce
 @Cond_15ce:
 jumpz           @Cond_1f9a, ($b003 == 2)
 call            @Func_2fc6
-dialogtxt       "Don't fuss over every little thing…"
+dialogtxt       "Don't fuss over every little thing."
 dialogtxt       "You're the one who said"
 dialogtxt       "thanks is unnecassary."
 code047b        
@@ -482,7 +477,7 @@ code0309
 call            @Func_2f90
 code0479        1, 2, 14
 call            @Func_2fc6
-dialogtxt       "Tch…!"
+dialogtxt       "Hmph!"
 code0309        
 call            @Func_3096
 call            @Func_2fe4
@@ -513,26 +508,25 @@ call            @Func_2ffc
 code0479        0, 4, 12
 call            @Func_3014
 call            @Func_2f5a
-dialogtxt       "So that's why you came from there…"
-dialogtxt       "But more than that,"
-dialogtxt       "I'm glad you're okay."
+dialogtxt       "So that's why you came from there."
+dialogtxt       "But more than that, I'm glad you're"
+dialogtxt       "okay."
 code0309        
 code0479        1, 1, 16
 code0479        0, 2, 14
-dialogtxt       "Zakk…"
-dialogtxt       "I'm sorry about that…"
+dialogtxt       "But, Zakk, I'm sorry about that."
 code0309        
 jumpz           @Cond_1928, ($b002 == 0)
 code0479        1, 0, 14
 code0479        0, 4, 16
-dialogtxt       "Even γ didn't know"
+dialogtxt       "Even [NAME 1] didn't know"
 dialogtxt       "that the bridge would break."
 goto            @Label_1a28
 
 @Cond_1928:
 code0479        1, 0, 14
 code0479        0, 4, 16
-dialogtxt       "γ really didn't know"
+dialogtxt       "[NAME 1] really didn't know"
 dialogtxt       "that the bridge would collapse."
 goto            @Label_1a28
 
@@ -578,8 +572,7 @@ code043c        0, 4
 code0479        0, 0, 14
 call            @Func_2f5a
 dialogtxt       "That's not true."
-dialogtxt       "My partner's mistake"
-dialogtxt       "is my mistake too."
+dialogtxt       "My partner's mistake is my mistake too."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "So we apologize together."
@@ -603,8 +596,8 @@ code047d        1, 131
 call            @Func_302a
 call            @Func_2fa8
 dialogtxt       "Alright, that's enough."
-dialogtxt       "The other bridge"
-dialogtxt       "should be fine, right?"
+dialogtxt       "The other bridge should be fine,"
+dialogtxt       "right?"
 code047b        
 code0309        
 code0479        1, 1, 12
@@ -664,8 +657,8 @@ code0309
 call            @Func_2ffc
 code0479        0, 1, 12
 call            @Func_2f5a
-dialogtxt       "I see…"
-dialogtxt       "Thanks anyway, γ."
+dialogtxt       "I see."
+dialogtxt       "Thanks anyway, [NAME 1]."
 code0309        
 call            @Func_2f90
 code0479        1, 1, 12
@@ -702,17 +695,16 @@ call            @Func_2ffc
 code0479        0, 4, 12
 call            @Func_3014
 call            @Func_2f5a
-dialogtxt       "So that's why you came from there…"
-dialogtxt       "But more than that,"
-dialogtxt       "I'm glad you're okay."
+dialogtxt       "So that's why you came from there."
+dialogtxt       "But more than that, I'm glad you're"
+dialogtxt       "okay."
 goto            @Label_2294
 
 @Label_2294:
 code0309        
 code0479        1, 1, 16
 code0479        0, 2, 14
-dialogtxt       "Zakk…"
-dialogtxt       "About that…"
+dialogtxt       "But, Zakk, about that…"
 code047b        
 code0309        
 call            @Func_306a
@@ -723,7 +715,7 @@ code0479        0, 1, 17
 code047d        0, 2
 call            @Func_3014
 call            @Func_2f5a
-dialogtxt       "My sincerest apologies…"
+dialogtxt       "My sincerest apologies."
 code047b        
 code0309        
 call            @Func_3096
@@ -735,7 +727,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_3014
 call            @Func_2f3c
-dialogtxt       "γ…!?"
+dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        
 call            @Func_306a
@@ -778,7 +770,7 @@ code0479        1, 5, 14
 code047d        1, 2
 call            @Func_302a
 call            @Func_2fc6
-dialogtxt       "Why are you apologizing？"
+dialogtxt       "Why are you apologizing!"
 dialogtxt       "You didn't do anything…"
 code047b        
 code0309        
@@ -786,9 +778,8 @@ call            @Func_2ffc
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_2f5a
-dialogtxt       "My partner's mistake"
-dialogtxt       "is my mistake too,"
-dialogtxt       "so we apologize together."
+dialogtxt       "My partner's mistake is my mistake too."
+dialogtxt       "So we apologize together."
 goto            @Label_2642
 
 @Label_2642:
@@ -1091,4 +1082,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -78,8 +78,8 @@ dialogtxt       "Can we even cross this bridge?"
 goto            @Label_02d8
 
 @Cond_029a:
-dialogtxt       "Hmmm."
-dialogtxt       "γ, You look heavy."
+dialogtxt       "I see."
+dialogtxt       "[NAME 1], you look heavy."
 dialogtxt       "Can we even cross this bridge?"
 goto            @Label_02d8
 
@@ -159,7 +159,7 @@ goto            @Cond_05f2
 
 @Cond_05f2:
 jumpz           @Cond_07b4, ($b003 == 2)
-dialogtxt       "You haven't noticed…?"
+dialogtxt       "You haven't noticed?"
 code0309        
 call            @Func_0fd4
 code0479        0, 0, 16
@@ -472,4 +472,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

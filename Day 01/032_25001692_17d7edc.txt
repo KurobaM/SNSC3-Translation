@@ -17,7 +17,7 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_26c6
 call            @Func_25ee
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "What is it this time?"
 goto            @Label_014c
 
@@ -33,15 +33,15 @@ call            @Func_26dc
 call            @Func_2678
 dialogtxt       "Well, you know…"
 dialogtxt       "The other bridge was broken right?"
-dialogtxt       "I'm worried about this one…"
+dialogtxt       "So…"
 code047b        
 code0309        
 call            @Func_26ae
 code0479        0, 0, 12
 call            @Func_260c
 dialogtxt       "I see you're being careful now."
-dialogtxt       "Though last time you fell,"
-dialogtxt       "the bridge was already broken."
+dialogtxt       "Though last time your eyes were"
+dialogtxt       "more broken than the bridge was."
 goto            @Label_02be
 
 @Label_02be:
@@ -55,7 +55,7 @@ call            @Func_26ae
 code043c        0, 3
 code0479        0, 0, 13
 call            @Func_260c
-dialogtxt       "Hey, γ."
+dialogtxt       "Hey, [NAME 1]."
 dialogtxt       "Any issues with the bridge?"
 goto            @Label_0378
 
@@ -96,7 +96,7 @@ code047d        1, 2
 call            @Func_26f2
 jumpz           @Cond_04d8, ($b003 == 0)
 call            @Func_265a
-dialogtxt       "They're fine this time."
+dialogtxt       "No Problems This Time."
 code047b        
 code0309        
 call            @Func_2748
@@ -106,7 +106,7 @@ goto            @Cond_04d8
 @Cond_04d8:
 jumpz           @Cond_0518, ($b003 == 1)
 call            @Func_265a
-dialogtxt       "They're fine this time."
+dialogtxt       "It looks fine this time."
 code047b        
 code0309        
 call            @Func_2748
@@ -147,8 +147,7 @@ code0479        0, 2, 12
 code047d        0, 2
 call            @Func_26c6
 call            @Func_25ee
-dialogtxt       "This one seems like"
-dialogtxt       "it'll collapse."
+dialogtxt       "This one seems like it'll collapse."
 code047b        
 code0309        
 call            @Func_271c
@@ -165,8 +164,8 @@ code047d        0, 0
 call            @Func_26c6
 call            @Func_25ee
 dialogtxt       "Wow…"
-dialogtxt       "γ is being helpful?"
-dialogtxt       "What does that mean…?"
+dialogtxt       "[NAME 1] is being helpful?"
+dialogtxt       "I see you've finally come around!"
 code047b        
 code0309        
 call            @Func_2642
@@ -183,7 +182,8 @@ code0309
 call            @Func_26ae
 code0479        0, 2, 12
 call            @Func_260c
-dialogtxt       "Of course you aren't…"
+dialogtxt       "O-Of course not!"
+dialogtxt       "Ahahah…"
 code0309        
 call            @Func_2748
 call            @Func_262a
@@ -276,8 +276,7 @@ dialogtxt       "The bridge!"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "A…"
-dialogtxt       "Are you okay!?"
+dialogtxt       "Zakk!?"
 goto            @Label_0c32
 
 @Label_0c32:
@@ -287,7 +286,7 @@ call            @Func_262a
 code0333        2, 30
 code0301        8, 5
 code047e        1, 1
-dialogtxt       "Just fineeee!"
+dialogtxt       "I'm okaaay!"
 code0309        
 code047e        1, 0
 code0302        5
@@ -315,7 +314,7 @@ code047d        1, 2
 code0479        0, 0, 12
 call            @Func_26c6
 call            @Func_25ee
-dialogtxt       "That's a relief…"
+dialogtxt       "That's a relief."
 code047b        
 code0309        
 code043c        0, 3
@@ -347,8 +346,7 @@ call            @Func_2642
 code0479        1, 0, 12
 call            @Func_2678
 dialogtxt       "No Structural Issues Found."
-dialogtxt       "Cause Is User Error."
-dialogtxt       "The Human Is At Fault."
+dialogtxt       "The Human Was Defective."
 code0309        
 call            @Func_26ae
 code0479        0, 2, 14
@@ -373,8 +371,7 @@ dialogtxt       "He trusted you,"
 dialogtxt       "and he fell anyway."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Don't make excuses,"
-dialogtxt       "that's just lame!"
+dialogtxt       "Don't make excuses, that's lame!"
 goto            @Label_10f6
 
 @Cond_1066:
@@ -383,8 +380,8 @@ dialogtxt       "He trusted you,"
 dialogtxt       "and he fell anyway."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Despite that, you're just"
-dialogtxt       "being lame and making excuses!"
+dialogtxt       "You're just being lame and"
+dialogtxt       "making excuses!"
 goto            @Label_10f6
 
 @Label_10f6:
@@ -400,14 +397,14 @@ code0479        0, 2, 16
 call            @Func_260c
 jumpz           @Cond_118e, ($b002 == 0)
 dialogtxt       "That's right!"
-dialogtxt       "If you're a man, then"
-dialogtxt       "in times like this…"
+dialogtxt       "A guy should own up to his"
+dialogtxt       "mistakes!"
 goto            @Label_11c6
 
 @Cond_118e:
 dialogtxt       "That's right!"
-dialogtxt       "You're a man, right?"
-dialogtxt       "So in times like this…"
+dialogtxt       "A guy should own up to his"
+dialogtxt       "mistakes!"
 goto            @Label_11c6
 
 @Label_11c6:
@@ -415,7 +412,7 @@ code0309
 call            @Func_2642
 code0479        1, 0, 12
 call            @Func_2678
-dialogtxt       " I Have No Gender."
+dialogtxt       "I Have No Gender."
 code0309        
 call            @Func_26ae
 code0479        0, 1, 15
@@ -449,14 +446,14 @@ call            @Func_2678
 dialogtxt       "A-About that…"
 dialogtxt       "Running with such force…"
 code0309   
-dialogtxt       "…Would undoubtedly cause"
-dialogtxt       "a bridge like this to…"
-code0309       
+dialogtxt       "… Would undoubtedly cause"
+dialogtxt       "a bridge like this to-"
+code0309   
 call            @Func_26ae
 code0479        0, 2, 15
 call            @Func_260c
 dialogtxt       "I don't want to hear any excuses!"
-dialogtxt       "That's so lame!"
+dialogtxt       "That's lame!"
 goto            @Label_147c
 
 @Label_147c:
@@ -465,7 +462,7 @@ call            @Func_2642
 code0479        1, 5, 14
 call            @Func_2678
 dialogtxt       "Y-You're calling me lame!?"
-dialogtxt       "How dare you…"
+dialogtxt       "How dare you!"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 14
@@ -507,12 +504,12 @@ call            @Func_2642
 code0479        1, 3, 15
 call            @Func_2678
 dialogtxt       "Don't screw with me!"
-dialogtxt       "Why would I…"
+dialogtxt       "Why would I-"
 code0309        
 call            @Func_26ae
 code0479        0, 5, 16
 call            @Func_260c
-dialogtxt       "Huh?"
+dialogtxt       "Wait?"
 dialogtxt       "You actually didn't?"
 goto            @Label_17a0
 
@@ -521,10 +518,10 @@ code0309
 call            @Func_2642
 code0479        1, 5, 17
 call            @Func_2678
-dialogtxt       "…Hmph!"
+dialogtxt       "… Hmph!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "It was…"
+dialogtxt       "O-Of…"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 16
@@ -534,7 +531,7 @@ dialogtxt       "What?"
 goto            @Label_1836
 
 @Cond_182a:
-dialogtxt       "Ehh?"
+dialogtxt       "What?"
 goto            @Label_1836
 
 @Label_1836:
@@ -542,26 +539,25 @@ code0309
 call            @Func_2642
 code0479        1, 1, 13
 call            @Func_2678
-dialogtxt       "T-That's right, I did."
+dialogtxt       "Of course it was on purpose!"
 dialogtxt       "I wanted to see you panic."
-dialogtxt       "Ahaha…ha."
+dialogtxt       "Mwahahaha."
 code0309        
 call            @Func_26ae
 code0479        0, 4, 14
 call            @Func_260c
 jumpz           @Cond_1918, ($b002 == 0)
-dialogtxt       "…I see."
+dialogtxt       "… I see."
 code0309        
 code0479        0, 2, 14
 dialogtxt       "Anyway, let's go find him."
 goto            @Label_1964
 
 @Cond_1918:
-dialogtxt       "…I see."
+dialogtxt       "… I see."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Anyway, let's go"
-dialogtxt       "find him."
+dialogtxt       "Anyway, let's go find him."
 goto            @Label_1964
 
 @Label_1964:
@@ -569,9 +565,8 @@ code0309
 call            @Func_2642
 code0479        1, 2, 14
 call            @Func_2678
-dialogtxt       "What a bother…"
-dialogtxt       "Why do I have to go"
-dialogtxt       "and help him…"
+dialogtxt       "What a bother."
+dialogtxt       "Why do I have to go and help him?"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 15
@@ -599,14 +594,14 @@ code0309
 call            @Func_2642
 code0479        1, 4, 14
 call            @Func_2678
-dialogtxt       "That…"
+dialogtxt       "W-Well…"
 dialogtxt       "I'm sure my intuition is correct…"
-dialogtxt       "Ah, that's it…"
+dialogtxt       "Ah, that's it!"
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 15
 dialogtxt       "I'm sure it's his fault."
-dialogtxt       "He must have done something…"
+dialogtxt       "He must have done something!"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 15
@@ -621,7 +616,7 @@ call            @Func_2642
 code0479        1, 5, 17
 call            @Func_2678
 dialogtxt       "I-I'm lame!?"
-dialogtxt       "That's not possible…"
+dialogtxt       "That's not possible!"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 14
@@ -923,4 +918,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
