@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Chief's Home　  second-hand shop"
+placetxt        "Chief's House　Toolshop"
 code040c        1, @Label_0326
 code040c        2, @Label_031c
 code0438        2, 367, 632, 1
@@ -102,7 +102,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Chief's Home second-hand shop"
+placetxt        "Chief's House　Toolshop"
 code040c        1, @Label_0326
 code040c        2, @Label_031c
 code0438        2, 367, 632, 1
@@ -135,7 +135,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "The chief's inside."
+dialogtxt       "The Chief's inside."
 code0309        
 code047e        0, 0
 code0302        7
@@ -355,9 +355,8 @@ code047e        0, 1
 dialogtxt       "My, a hammer and a Summon Beast…"
 dialogtxt       "You must be a Craftknight."
 code0309        
-dialogtxt       "I'm a traveling peddler who deals"
-dialogtxt       "with Craftknights and blacksmiths."
-dialogtxt       "That girl is my daughter."
+dialogtxt       "I'm a traveling peddler."
+dialogtxt       "That girl over there is my daughter."
 code0309        
 dialogtxt       "I know quite a lot about crafting."
 dialogtxt       "Feel free to ask me anything."
@@ -405,20 +404,19 @@ code0301        8, 7
 code047d        0, 149
 code047e        0, 1
 dialogtxt       "You know, my mom is a peddler."
-dialogtxt       "We're trying to make ourselves known"
-dialogtxt       "with Craftknights and blacksmiths."
+dialogtxt       "We travel to lots of places now, but"
+dialogtxt       "one day we'll open our own shop."
 code0309        
-dialogtxt       "We plan on opening a shop."
 dialogtxt       "That's why I have to work hard"
-dialogtxt       "to save up money."
+dialogtxt       "and save money."
 code0309        
 jumpz           @Cond_1560, ($f1244 == 0)
-dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Want to hear about enhancements?"
+dialogtxt       "You're a Craftknight, right?"
+dialogtxt       "Wanna hear about enhancements?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1302, "Listen to her lecture"
-choicetxt       @Choice_1568, "Not interested"
+choicetxt       @Choice_1302, "Yes please"
+choicetxt       @Choice_1568, "No thank you"
 choicewait      
 
 @Choice_1302:
@@ -429,7 +427,7 @@ dialogtxt       "will gain the Water element."
 code0309        
 dialogtxt       "Astoundingly, for one time only,"
 dialogtxt       "I have an \"Aqua Stone Fragment\""
-dialogtxt       "on sale for only 100 Boam~"
+dialogtxt       "on sale for only 100 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        
@@ -450,7 +448,7 @@ code0445        17, 4
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Thanks~"
+dialogtxt       "Pleasure doing business with you~"
 code0309        
 goto            @Label_15b8
 
@@ -462,19 +460,21 @@ code0445        17, 5
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ehh~ What's this~"
-dialogtxt       "You don't have enough money~"
-dialogtxt       "We can't trade at all~"
-code0309        
+dialogtxt       "You don't have enough money…"
+dialogtxt       "Negotiations have broken down,"
+dialogtxt       "I think…"
+code0309		
 goto            @Label_15b8
 
 goto            @Choice_1516
 
 @Choice_1516:
 code047e        0, 1
-dialogtxt       "Eh~ You made me explain but"
-dialogtxt       "aren't buying anything?"
-dialogtxt       "Cheapskate~"
+dialogtxt       "… Wait?"
+dialogtxt       "You're not buying?"
+dialogtxt       "After all that!?"
+code0309        
+dialogtxt       "Cheapskate! Miser! Scrooge!"
 code0309        
 goto            @Label_15b8
 
@@ -487,12 +487,11 @@ goto            @Choice_1568
 
 @Choice_1568:
 code047e        0, 1
-dialogtxt       "Eeh? You won't even listen!?"
-dialogtxt       "Just when I thought"
-dialogtxt       "I finally had a new client…"
+dialogtxt       "Oh…"
+dialogtxt       "I thought you were a customer…"
+dialogtxt       "Sorry…"
 code0309        
 @Label_15b8:
 code047e        0, 0
 code0302        7
 code040b        
-

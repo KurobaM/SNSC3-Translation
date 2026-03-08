@@ -57,7 +57,7 @@ code0309
 call            @Func_144c
 code0479        0, 5, 14
 call            @Func_13aa
-dialogtxt       "Wha…!"
+dialogtxt       "Wha-"
 code0309        
 jumpz           @Cond_02f8, ($b002 == 0)
 code0479        0, 2, 16
@@ -123,7 +123,7 @@ call            @Func_1490
 call            @Func_13f8
 dialogtxt       "Ah! This is…"
 dialogtxt       "My hammer!?"
-dialogtxt       "I must have dropped it when…!"
+dialogtxt       "I must have dropped it when-"
 code0309        
 call            @Func_144c
 code0479        0, 2, 12
@@ -147,7 +147,7 @@ code0309
 call            @Func_144c
 code0479        0, 0, 12
 call            @Func_13aa
-dialogtxt       "γ found it, not me."
+dialogtxt       "[NAME 1] found it, not me."
 dialogtxt       "Thank them instead."
 goto            @Label_07ae
 
@@ -195,7 +195,7 @@ call            @Func_1416
 dialogtxt       "You're pretty nice."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Cond_0928
 
 @Cond_0928:
@@ -237,7 +237,7 @@ call            @Func_1416
 dialogtxt       "You're pretty nice."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 goto            @Cond_0ad2
 
 @Cond_0ad2:
@@ -275,7 +275,7 @@ code047d        0, 0
 call            @Func_1464
 call            @Func_138c
 dialogtxt       "Yeah, sure."
-dialogtxt       "γ, let's go train."
+dialogtxt       "[NAME 1], let's go train."
 goto            @Label_0c80
 
 @Label_0c80:
@@ -551,4 +551,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

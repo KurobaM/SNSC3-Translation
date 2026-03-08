@@ -237,7 +237,7 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0b44, ($b002 == 0)
 dialogtxt       "That girl earlier was suspicious."
-dialogtxt       "I'll try going after her!"
+dialogtxt       "Let's go after her!"
 goto            @Label_0b86
 
 @Cond_0b44:
@@ -286,7 +286,7 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "I have a match with γ,"
+dialogtxt       "I have a match with [NAME 1],"
 dialogtxt       "so I shouldn't stray too far."
 goto            @Label_0d64
 
@@ -699,4 +699,3 @@ code031f        7
 code031a        7
 code033e        196
 ret             
-

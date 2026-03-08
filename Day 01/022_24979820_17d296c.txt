@@ -5,7 +5,7 @@ code043e        0, 3, 0
 code047d        1, 106
 code0301        8, 0
 code047e        1, 1
-dialogtxt       "Uwah!"
+dialogtxt       "Wah!"
 code0309        
 code047e        1, 0
 code0302        0
@@ -73,14 +73,14 @@ code0309
 code0334        
 code0331        41, 256
 code0479        1, 5, 17
-dialogtxt       "…Wait, aren't you that"
-dialogtxt       "Stray's lapdog!?"
+dialogtxt       "… Wait, aren't you that"
+dialogtxt       "Stray's apprentice!?"
 dialogtxt       "And you have a Summon Beast!?"
 code0309        
 call            @Func_2970
 code0479        0, 2, 12
 call            @Func_28ce
-dialogtxt       "Hey, my name is β!"
+dialogtxt       "Hey, my name is [NAME 0]!"
 dialogtxt       "Don't call my Master a Stray,"
 dialogtxt       "when your leader is so hostile!"
 goto            @Label_0492
@@ -90,12 +90,13 @@ code0309
 call            @Func_2904
 code0479        1, 2, 15
 call            @Func_293a
-dialogtxt       "Hostile… Hey!"
+dialogtxt       "Hostile…"
+dialogtxt       "Hey!"
 dialogtxt       "Are you talking about Lemmy!?"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "He isn't hostile,"
-dialogtxt       "in fact, he's great at socializing!"
+dialogtxt       "He isn't hostile, in fact,"
+dialogtxt       "he's great at socializing!"
 code0309        
 call            @Func_2970
 code0479        0, 2, 13
@@ -107,7 +108,7 @@ call            @Func_2904
 code0479        1, 2, 16
 call            @Func_293a
 dialogtxt       "What was that!?"
-dialogtxt       "You wanna fight…?"
+dialogtxt       "You wanna fight!?"
 code0309        
 call            @Func_2a0a
 call            @Func_2958
@@ -140,7 +141,7 @@ call            @Func_2988
 call            @Func_28ce
 dialogtxt       "Yeah."
 dialogtxt       "This is my partner,"
-dialogtxt       "γ."
+dialogtxt       "[NAME 1]."
 goto            @Label_0738
 
 @Label_0738:
@@ -154,14 +155,13 @@ dialogtxt       "I really want a Summon Beast"
 dialogtxt       "of my own too…"
 code0309        
 code0479        1, 5, 15
-dialogtxt       "…Wait, no!"
+dialogtxt       "… Wait, no!"
 dialogtxt       "What am I doing here!?"
 code0309        
 call            @Func_2970
 code0479        0, 4, 16
 call            @Func_28ce
 dialogtxt       "How should I know?"
-dialogtxt       "You tripped all on your own."
 goto            @Label_0870
 
 @Label_0870:
@@ -473,7 +473,7 @@ code047d        1, 0
 call            @Func_299e
 call            @Func_299e
 call            @Func_291c
-dialogtxt       "Uwah, chief!?"
+dialogtxt       "C-Chief!?"
 dialogtxt       "How long have you been there!?"
 goto            @Label_16b0
 
@@ -492,7 +492,7 @@ code048c
 code0301        8, 4
 code047e        0, 1
 dialogtxt       "Close your eyes,"
-dialogtxt       "δ."
+dialogtxt       "[NAME 2]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -507,15 +507,15 @@ code047b
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Just close them."
-dialogtxt       "Now imagine"
-dialogtxt       "Miss V.E's face!"
+dialogtxt       "Now imagine Miss V.E's face!"
 code0309        
 code047e        0, 0
 code0302        7
 code0479        1, 5, 17
 call            @Func_299e
 call            @Func_293a
-dialogtxt       "Oh… Okay!"
+dialogtxt       "Oh…"
+dialogtxt       "Okay!"
 code0309        
 call            @Func_29f4
 call            @Func_2958
@@ -574,7 +574,7 @@ code0331        32, 256
 code0479        1, 4, 16
 call            @Func_299e
 call            @Func_293a
-dialogtxt       "…Yes"
+dialogtxt       "… Yes."
 dialogtxt       "I'm sorry, Chief…"
 dialogtxt       "I was wrong…"
 goto            @Label_1b7c
@@ -661,7 +661,7 @@ code0479        0, 1, 16
 call            @Func_28ce
 dialogtxt       "Hey, at times like these,"
 dialogtxt       "you should say something like,"
-dialogtxt       "\"Yes! Let's do this!\""
+dialogtxt       "\"Yeah! Let's go!\""
 goto            @Label_1f00
 
 @Label_1f00:
@@ -690,8 +690,8 @@ code0309
 call            @Func_2970
 code0479        0, 5, 16
 call            @Func_28ce
-dialogtxt       "Eh…?"
-dialogtxt       "Did you smile just now, γ?"
+dialogtxt       "Oh…?"
+dialogtxt       "Did you smile just now, [NAME 1]?"
 dialogtxt       "What's so funny?"
 goto            @Label_206e
 
@@ -718,7 +718,7 @@ code0309
 call            @Func_2970
 code0479        0, 0, 16
 call            @Func_28ce
-dialogtxt       " What?"
+dialogtxt       "What?"
 goto            @Label_215c
 
 @Label_215c:
@@ -731,7 +731,6 @@ code0309
 call            @Func_2970
 code0479        0, 0, 12
 call            @Func_28ce
-dialogtxt       "Eh?"
 dialogtxt       "Well, alright then."
 dialogtxt       "Let's get going!"
 goto            @Cond_21cc
@@ -992,4 +991,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
