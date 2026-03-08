@@ -55,8 +55,8 @@ tabletxt 51, "Maiden's Strike" ; "乙女の一撃"
 tabletxt 52, "Blade Rush" ; "ブレードラッシュ"
 tabletxt 53, "Tidal Wave" ; "スプラッシュ"
 tabletxt 54, "Last Boss Attack" ; "ラスボス攻撃"
-tabletxt 55, "名無し" ; "名無し"
-tabletxt 56, "名無し" ; "名無し"
+tabletxt 55, "−−−" ; "名無し"
+tabletxt 56, "−−−" ; "名無し"
 
 ; Descriptions
 table 0x08BC81DC + 28, 68, 40
@@ -115,5 +115,5 @@ tabletxt 51, "[NAME 1]'s Special Move" ; "護衛獣専用必殺技"
 tabletxt 52, "SWORDBOLT's Special Move" ; "ソードボルトの必殺技"
 tabletxt 53, "Phantom Dragon Demon Special Move" ; "水龍の必殺技"
 tabletxt 54, "Velvoren's exclusive Special move" ; "ベルヴォレン専用の必殺技"
-tabletxt 55, "説明" ; "説明"
-tabletxt 56, "説明" ; "説明"
+tabletxt 55, "−−" ; "説明"
+tabletxt 56, "−−" ; "説明"
