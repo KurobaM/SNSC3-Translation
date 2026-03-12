@@ -540,7 +540,7 @@ dialogtxt       "Since…"
 code0309        
 code0479        1, 2, 13
 code0479        0, 0, 16
-dialogtxt       "you didn't end up"
+dialogtxt       "You didn't end up"
 dialogtxt       "needing my help."
 code0309        
 call            @Func_2a1c
@@ -588,7 +588,7 @@ code0479        1, 11, 12
 code047d        1, 110
 call            @Func_29c6
 call            @Func_2962
-dialogtxt       "Wha— !"
+dialogtxt       "Wha-!"
 dialogtxt       "I haven't done anything"
 dialogtxt       "to deserve your thanks."
 code047b        
@@ -780,13 +780,13 @@ call            @Func_29dc
 call            @Func_2944
 jumpz           @Cond_221a, ($b002 == 0)
 dialogtxt       "Eh!?"
-dialogtxt       "Wh—Why!?"
+dialogtxt       "Wh-Why!?"
 dialogtxt       "Did I say something wrong!?"
 goto            @Label_2262
 
 @Cond_221a:
 dialogtxt       "Eh!?"
-dialogtxt       "Wh—Why!?"
+dialogtxt       "Wh-Why!?"
 dialogtxt       "Did I say something wrong!?"
 goto            @Label_2262
 
@@ -1033,4 +1033,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

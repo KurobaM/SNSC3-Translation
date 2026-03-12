@@ -200,8 +200,8 @@ code0309
 call            @Func_1508
 code0479        0, 5, 16
 call            @Func_1466
-dialogtxt       "Eh…?"
-dialogtxt       "That is…?"
+dialogtxt       "Eh?"
+dialogtxt       "That is?"
 code0309        
 call            @Func_149c
 code0479        1, 2, 16
@@ -219,13 +219,13 @@ code0479        0, 5, 15
 call            @Func_1466
 jumpz           @Cond_0b92, ($b002 == 0)
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque…"
+dialogtxt       "That's an easy reque-"
 dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 
 @Cond_0b92:
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque…"
+dialogtxt       "That's an easy reque-"
 dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 
@@ -256,7 +256,7 @@ code0309
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "Is that… A no…?"
+dialogtxt       "Is that… A no?"
 dialogtxt       "…"
 dialogtxt       "You meanie…"
 code0309        
@@ -500,4 +500,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -66,8 +66,8 @@ call            @Func_1f4a
 code0479        1, 2, 16
 call            @Func_1f80
 dialogtxt       "I think they went further in."
-dialogtxt       "Can't say for sure…"
-dialogtxt       "That Summon Beast distracted me…"
+dialogtxt       "I can't say for sure, since"
+dialogtxt       "that Summon Beast suddenly appeared…"
 code0309        
 call            @Func_2050
 call            @Func_1f9e
@@ -194,7 +194,7 @@ code047d        1, 109
 call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "They attacked the workshop."
-dialogtxt       "They…"
+dialogtxt       "Murno…"
 dialogtxt       "They kidnapped Murno…"
 code047b        
 code0309        
@@ -254,7 +254,7 @@ call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "And then,"
 dialogtxt       "Master was…"
-dialogtxt       "Master was— !"
+dialogtxt       "Master was…!"
 code047b        
 code0309        
 call            @Func_2024
@@ -301,12 +301,12 @@ code0309
 code0479        0, 2, 14
 jumpz           @Cond_0cf2, ($b002 == 0)
 choicetxt       @Choice_0d24, "I know!"
-choicetxt       @Choice_0e52, "What do we do…?"
+choicetxt       @Choice_0e52, "What do we do?"
 goto            @Label_0d22
 
 @Cond_0cf2:
 choicetxt       @Choice_0d24, "I know!"
-choicetxt       @Choice_0e52, "What do we do…?"
+choicetxt       @Choice_0e52, "What do we do?"
 goto            @Label_0d22
 
 @Label_0d22:
@@ -826,4 +826,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
