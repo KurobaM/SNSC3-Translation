@@ -648,7 +648,7 @@ code0479        1, 3, 14
 call            @Func_24bc
 call            @Func_23b8
 jumpz           @Cond_1b5a, ($b002 == 0)
-dialogtxt       "…Darn it!"
+dialogtxt       "… Darn it!"
 goto            @Label_1b68
 
 @Cond_1b5a:

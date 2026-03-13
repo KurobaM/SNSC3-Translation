@@ -254,7 +254,7 @@ call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "And then,"
 dialogtxt       "Master was…"
-dialogtxt       "Master was…!"
+dialogtxt       "Master was- !"
 code047b        
 code0309        
 call            @Func_2024
@@ -290,7 +290,7 @@ call            @Func_1ffa
 call            @Func_1f62
 dialogtxt       "I see…"
 dialogtxt       "Even Murno is…"
-dialogtxt       "What do we do…?"
+dialogtxt       "What do we do?"
 code047b        
 code0309        
 call            @Func_1fb6
