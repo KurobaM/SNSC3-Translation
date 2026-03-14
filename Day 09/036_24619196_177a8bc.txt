@@ -375,8 +375,7 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "This village is filthy."
-dialogtxt       "I hate it."
+dialogtxt       "This village is filthy. I hate it."
 code0309        
 dialogtxt       "Is there anywhere quiet around here?"
 code0309        
@@ -392,7 +391,7 @@ dialogtxt       "It was defeated just recently."
 code0309        
 dialogtxt       "However, there are still other"
 dialogtxt       "dangerous Strays in the Mine."
-dialogtxt       "Be careful if you go out∞"
+dialogtxt       "Be careful if you go outâ"
 code0309        
 code0302        7
 code040b        
@@ -408,11 +407,10 @@ code040b
 
 @Event_10d2:
 code0301        8, 7
-dialogtxt       "Look down↓"
+dialogtxt       "Look down ↓"
 code0309        
-dialogtxt       "↑To look up, press"
+dialogtxt       "↑ To look up, press"
 dialogtxt       "START."
 code0309        
 code0302        7
 code040b        
-

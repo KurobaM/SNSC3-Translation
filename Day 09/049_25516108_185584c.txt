@@ -415,7 +415,7 @@ code0479        0, 5, 15
 code047d        0, 115
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Why you…!"
+dialogtxt       "Why you!"
 dialogtxt       "Stop making fun of my hair!"
 dialogtxt       "This time, I'll bash your head in!"
 code047b        
@@ -666,4 +666,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

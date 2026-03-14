@@ -31,12 +31,12 @@ call            @Func_1178
 call            @Func_10be
 jumpz           @Cond_01b0, ($b002 == 0)
 dialogtxt       "Waiting?"
-dialogtxt       "For us…?"
+dialogtxt       "For us?"
 goto            @Label_01d8
 
 @Cond_01b0:
 dialogtxt       "Waiting?"
-dialogtxt       "For us…?"
+dialogtxt       "For us?"
 goto            @Label_01d8
 
 @Label_01d8:
@@ -472,4 +472,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

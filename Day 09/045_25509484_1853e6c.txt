@@ -104,7 +104,7 @@ code047d        0, 109
 call            @Func_11de
 call            @Func_1124
 dialogtxt       "Those guys…"
-dialogtxt       "They didn't hold back, huh…"
+dialogtxt       "They didn't hold back, huh?"
 dialogtxt       "Not even when facing a child…"
 code047b        
 code0309        
@@ -483,4 +483,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
