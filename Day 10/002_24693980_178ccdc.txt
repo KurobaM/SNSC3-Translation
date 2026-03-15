@@ -407,7 +407,7 @@ dialogtxt       "Gallahan's daughter…"
 goto            @Label_0fe8
 
 @Label_0fe8:
-dialogtxt       "…was killed by that man, Voijin."
+dialogtxt       "… was killed by that man, Voijin."
 code0309        
 code047e        0, 0
 code0302        7
