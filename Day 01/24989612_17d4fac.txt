@@ -14,7 +14,7 @@ dialogtxt       "That was a surprise…"
 goto            @Label_00d4
 
 @Cond_00b0:
-dialogtxt       "Fuwah~…"
+dialogtxt       "Fuwah~"
 dialogtxt       "That was a surprise…"
 goto            @Label_00d4
 
@@ -50,7 +50,7 @@ dialogtxt       "That was a surprise…"
 goto            @Label_01f6
 
 @Cond_01d2:
-dialogtxt       "Fuwah~…"
+dialogtxt       "Fuwah~"
 dialogtxt       "That was a surprise…"
 goto            @Label_01f6
 
@@ -86,7 +86,7 @@ dialogtxt       "That was a surprise…"
 goto            @Label_031e
 
 @Cond_02fa:
-dialogtxt       "Fuwah~…"
+dialogtxt       "Fuwah~"
 dialogtxt       "That was a surprise…"
 goto            @Label_031e
 
@@ -103,7 +103,7 @@ call            @Func_0b64
 code0479        0, 5, 14
 call            @Func_0b94
 call            @Func_0abc
-dialogtxt       "…Huh?"
+dialogtxt       "… Huh?"
 code047b        
 code0309        
 call            @Func_0bea
@@ -116,11 +116,11 @@ call            @Func_0b64
 code0479        0, 2, 14
 call            @Func_0b94
 call            @Func_0abc
-dialogtxt       "Wha…"
+dialogtxt       "Wha-"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "γ…!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0402
 
 @Label_0402:
@@ -137,7 +137,7 @@ dialogtxt       "That was a surprise…"
 goto            @Label_0486
 
 @Cond_0462:
-dialogtxt       "Fuwah~…"
+dialogtxt       "Fuwah~"
 dialogtxt       "That was a surprise…"
 goto            @Label_0486
 
@@ -378,4 +378,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

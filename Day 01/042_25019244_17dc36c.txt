@@ -17,7 +17,7 @@ code047d        1, 0
 call            @Func_13c2
 call            @Func_132a
 jumpz           @Cond_011e, ($b002 == 0)
-dialogtxt       "Give up yet?"
+dialogtxt       "Had enough?"
 goto            @Label_0138
 
 @Cond_011e:
@@ -116,7 +116,7 @@ call            @Func_13ac
 call            @Func_1348
 dialogtxt       "Hey, you know Zakk worked"
 dialogtxt       "hard to get you that medicine."
-dialogtxt       "You should be appreciative."
+dialogtxt       "You should be more appreciative."
 goto            @Label_05c0
 
 @Label_05c0:
@@ -149,15 +149,14 @@ code0479        1, 0, 12
 code047d        1, 131
 call            @Func_13c2
 call            @Func_132a
-dialogtxt       "Thanks, δ."
+dialogtxt       "Thanks, [NAME 2]."
 dialogtxt       "Here, take this."
 code047b        
 code0309        
 call            @Func_137e
 code0479        0, 0, 13
 call            @Func_12dc
-dialogtxt       "Oh, right."
-dialogtxt       "You have my thanks too, Zakk."
+dialogtxt       "Oh, right. Thanks."
 goto            @Label_07ae
 
 @Label_07ae:
@@ -186,12 +185,12 @@ code0309
 call            @Func_1312
 code0479        1, 2, 12
 call            @Func_1348
-dialogtxt       "Is it for a girl you like?"
+dialogtxt       "Your girlfriend?"
 code0309        
 call            @Func_137e
 code0479        0, 11, 17
 call            @Func_12dc
-dialogtxt       "W-Wha…!?"
+dialogtxt       "W-Wha-"
 dialogtxt       "Where did that come from!?"
 code0309        
 call            @Func_1312
@@ -209,12 +208,12 @@ code0309
 call            @Func_1312
 code0479        1, 2, 16
 call            @Func_1348
-dialogtxt       "Is this person precious to you?"
+dialogtxt       "A friend of yours?"
 code0309        
 call            @Func_137e
 code0479        0, 1, 12
 call            @Func_12dc
-dialogtxt       "Yeah, they are."
+dialogtxt       "Yeah."
 code0309        
 call            @Func_1312
 code0479        1, 0, 12
@@ -232,14 +231,14 @@ jumpz           @Cond_0b08, ($b002 == 0)
 code0479        0, 7, 17
 call            @Func_12dc
 dialogtxt       "Of course I will!"
-dialogtxt       "Let's go, γ!"
+dialogtxt       "Let's go, [NAME 1]!"
 goto            @Label_0b46
 
 @Cond_0b08:
 code0479        0, 0, 13
 call            @Func_12dc
 dialogtxt       "Right."
-dialogtxt       "Let's go, γ!"
+dialogtxt       "Let's go, [NAME 1]!"
 goto            @Label_0b46
 
 @Label_0b46:
@@ -519,4 +518,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

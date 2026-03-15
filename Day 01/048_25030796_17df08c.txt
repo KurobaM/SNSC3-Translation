@@ -14,7 +14,7 @@ code0482
 code047d        0, 110
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Why are you…?"
+dialogtxt       "Why are you here?"
 code0309        
 code047e        0, 0
 code0302        3
@@ -113,7 +113,7 @@ code0309
 call            @Func_1082
 code0479        0, 0, 16
 call            @Func_0fe0
-dialogtxt       "But man, you work way too hard…"
+dialogtxt       "But man, you work way too hard."
 dialogtxt       "I guess you've got your reasons."
 goto            @Label_06f2
 
@@ -127,13 +127,12 @@ code0309
 call            @Func_1082
 code0479        0, 5, 16
 call            @Func_0fe0
-dialogtxt       "H-Huh…?"
+dialogtxt       "H-Huh?"
 code0309        
 call            @Func_1016
 code0479        1, 2, 16
 call            @Func_104c
-dialogtxt       "Don't act as if"
-dialogtxt       "you understand me."
+dialogtxt       "Don't act as if you understand me."
 code0309        
 call            @Func_1082
 code0479        1, 2, 12
@@ -164,11 +163,10 @@ code0479        0, 5, 17
 call            @Func_109a
 call            @Func_0fc2
 jumpz           @Cond_09ca, ($b002 == 0)
-dialogtxt       "W-Wait…!"
+dialogtxt       "W-Wait!"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "What the hell!?"
-dialogtxt       "He really pisses me off."
+dialogtxt       "That guy really pisses me off."
 dialogtxt       "I was just trying to be friendly…"
 goto            @Label_0a22
 
@@ -403,4 +401,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

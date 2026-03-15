@@ -94,19 +94,19 @@ goto            @Cond_03c0
 @Cond_03c0:
 jumpz           @Cond_03fc, ($b003 == 1)
 dialogtxt       "Jeez…"
-dialogtxt       "What're you doing…?"
+dialogtxt       "What're you doing?"
 goto            @Cond_03fc
 
 @Cond_03fc:
 jumpz           @Cond_042e, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 dialogtxt       "Get a grip…"
 goto            @Cond_042e
 
 @Cond_042e:
 jumpz           @Cond_0466, ($b003 == 3)
 dialogtxt       "Oh my…"
-dialogtxt       "What're you doing…?"
+dialogtxt       "What're you doing?"
 goto            @Cond_0466
 
 @Cond_0466:
@@ -231,13 +231,13 @@ code0331        31, 256
 code0479        1, 0, 16
 call            @Func_150e
 call            @Func_1476
-dialogtxt       "This is… Kicker medicine…?"
+dialogtxt       "This is… Kicker Medicine?"
 code047b        
 code0309        
 call            @Func_14ca
 code0479        0, 2, 12
 call            @Func_1428
-dialogtxt       "Yeah. γ and I"
+dialogtxt       "Yeah. [NAME 1] and I"
 dialogtxt       "thought it would help."
 goto            @Label_09a8
 
@@ -297,9 +297,8 @@ code0309
 call            @Func_145e
 code0479        1, 1, 12
 call            @Func_1494
-dialogtxt       "Ah…!"
-dialogtxt       "Ahhh!"
-dialogtxt       "Yes, of course!"
+dialogtxt       "Y-Yes!"
+dialogtxt       "Of course!"
 code0309        
 call            @Func_1538
 call            @Func_14ca
@@ -325,19 +324,19 @@ code047d        1, 107
 call            @Func_150e
 call            @Func_140a
 dialogtxt       "Did you hear that, Murno?"
-dialogtxt       "Let's give it a shot."
-dialogtxt       "I'll bring you some water."
+dialogtxt       "We got some medicine."
+dialogtxt       "I'll go get some water."
 code047b        
 code0309        
 call            @Func_145e
 code0479        1, 0, 13
 call            @Func_1494
 dialogtxt       "Ah… Thank you so much…"
-dialogtxt       "Ms. V.E, γ…"
+dialogtxt       "Ms. V.E, [NAME 1]…"
 dialogtxt       "And also…"
 code0309        
 code0479        1, 6, 12
-dialogtxt       "β…"
+dialogtxt       "[NAME 0]…"
 code0309        
 call            @Func_1538
 call            @Func_14ca
@@ -347,13 +346,11 @@ code0479        0, 7, 16
 code047d        0, 0
 call            @Func_14e2
 call            @Func_1428
-dialogtxt       "No…"
-dialogtxt       "Don't worry about it…"
+dialogtxt       "No, don't worry about it."
 dialogtxt       "And also…"
 code0309        
 code0479        0, 0, 12
-dialogtxt       "You can just"
-dialogtxt       "call me δ."
+dialogtxt       "You can just call me [NAME 2]."
 goto            @Label_0e08
 
 @Label_0e08:
@@ -362,7 +359,7 @@ call            @Func_145e
 code0479        1, 6, 13
 call            @Func_1494
 dialogtxt       "Then, um…"
-dialogtxt       "δ…"
+dialogtxt       "[NAME 2]…"
 code0309        
 call            @Func_14ca
 code0479        0, 7, 12
@@ -590,4 +587,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

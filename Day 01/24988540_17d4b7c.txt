@@ -39,7 +39,7 @@ code043c        0, 4
 code0479        0, 0, 16
 call            @Func_0bc4
 dialogtxt       "Really?"
-dialogtxt       "Well then…"
+dialogtxt       "It seems fi-"
 code0309        
 call            @Func_0d00
 call            @Func_0be2
@@ -69,7 +69,7 @@ code043c        0, 4
 code0479        0, 0, 16
 call            @Func_0bc4
 dialogtxt       "Really?"
-dialogtxt       "Well then…"
+dialogtxt       "It seems fi-"
 code0309        
 call            @Func_0d00
 call            @Func_0be2
@@ -91,15 +91,14 @@ goto            @Cond_0364
 @Cond_0364:
 jumpz           @Cond_0480, ($b003 == 2)
 call            @Func_0c12
-dialogtxt       "Looks like"
-dialogtxt       "you were unlucky."
+dialogtxt       "Looks like you were unlucky."
 code0309        
 call            @Func_0c66
 code043c        0, 4
 code0479        0, 0, 16
 call            @Func_0bc4
 dialogtxt       "Eh?"
-dialogtxt       "What do you mea…"
+dialogtxt       "What do you mea-"
 code0309        
 call            @Func_0d00
 call            @Func_0be2
@@ -130,7 +129,7 @@ code043c        0, 4
 code0479        0, 0, 16
 call            @Func_0bc4
 dialogtxt       "Really?"
-dialogtxt       "Well then…"
+dialogtxt       "It seems fi-"
 code0309        
 call            @Func_0d00
 call            @Func_0be2
@@ -372,4 +371,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

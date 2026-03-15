@@ -55,8 +55,8 @@ goto            @Cond_0240
 
 @Cond_0240:
 jumpz           @Cond_027c, ($b003 == 1)
-dialogtxt       "If we make medicine with this,"
-dialogtxt       "Murno's fever should…"
+dialogtxt       "Now we just need to make the"
+dialogtxt       "medicine…"
 goto            @Cond_027c
 
 @Cond_027c:
@@ -108,20 +108,19 @@ code0309
 call            @Func_16f2
 code0479        1, 0, 12
 call            @Func_1728
-dialogtxt       "Hey, so, the employees"
-dialogtxt       "at the general store know me."
+dialogtxt       "Hey, so, I know a few guys that"
+dialogtxt       "work at the toolshop…"
 code0309        
 call            @Func_175e
 code0479        0, 0, 16
 call            @Func_16bc
-dialogtxt       "Okay?"
+dialogtxt       "… Okay?"
 code0309        
 call            @Func_16f2
 code0479        1, 1, 12
 call            @Func_1728
-dialogtxt       "So, uh…"
-dialogtxt       "I'll get them to make your"
-dialogtxt       "share of medicine too, δ."
+dialogtxt       "So, uh, I'll ask them to make your"
+dialogtxt       "share of medicine too, [NAME 2]."
 code0309        
 call            @Func_175e
 code0479        0, 5, 12
@@ -135,14 +134,14 @@ code0309
 call            @Func_16f2
 code0479        1, 0, 12
 call            @Func_1728
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah."
 dialogtxt       "As thanks for chasing"
 dialogtxt       "away that Stray."
 code0309        
 call            @Func_175e
 code0479        0, 0, 13
 call            @Func_16bc
-dialogtxt       "I see…"
+dialogtxt       "I see."
 dialogtxt       "Thank you, too."
 dialogtxt       "I'm so happy it all worked out!"
 goto            @Label_0684
@@ -152,8 +151,8 @@ code0309
 call            @Func_16f2
 code0479        1, 4, 12
 call            @Func_1728
-dialogtxt       "But I can't be seen"
-dialogtxt       "talking with you two, so…"
+dialogtxt       "But I can't be seen talking with"
+dialogtxt       "you two, so…"
 code0309        
 call            @Func_175e
 code0479        0, 1, 16
@@ -169,8 +168,7 @@ code0309
 call            @Func_175e
 code0479        0, 0, 13
 call            @Func_16bc
-dialogtxt       "Alright!"
-dialogtxt       "I'm counting on you!"
+dialogtxt       "Alright! I'm counting on you!"
 goto            @Label_07bc
 
 @Label_07bc:
@@ -223,14 +221,13 @@ code047d        1, 2
 call            @Func_17a2
 jumpz           @Cond_0b28, ($b003 == 0)
 call            @Func_170a
-dialogtxt       " Now We Can Obtain The Medicine."
+dialogtxt       "Now We Can Obtain The Medicine."
 code047b        
 code0309        
 call            @Func_175e
 code0479        0, 1, 12
 call            @Func_16bc
-dialogtxt       "Yeah."
-dialogtxt       "He's a big help."
+dialogtxt       "Yeah. He's a big help."
 goto            @Label_0a0c
 
 @Label_0a0c:
@@ -244,7 +241,7 @@ call            @Func_175e
 code0479        0, 4, 12
 call            @Func_16bc
 dialogtxt       "Now that you mention it,"
-dialogtxt       "I'm kinda worried now…"
+dialogtxt       "I'm kinda worried now."
 goto            @Label_0af6
 
 @Label_0af6:
@@ -263,8 +260,7 @@ code0309
 call            @Func_175e
 code0479        0, 1, 12
 call            @Func_16bc
-dialogtxt       "Yeah."
-dialogtxt       "He's a big help."
+dialogtxt       "Yeah. He's a big help."
 goto            @Label_0bb2
 
 @Label_0bb2:
@@ -272,14 +268,14 @@ code0309
 call            @Func_16f2
 code0479        1, 4, 12
 call            @Func_1728
-dialogtxt       "However, the boy is quite clumsy…"
+dialogtxt       "However, the boy is quite clumsy."
 dialogtxt       "I hope he doesn't trip again…"
 code0309        
 call            @Func_175e
 code0479        0, 4, 12
 call            @Func_16bc
 dialogtxt       "Now that you mention it,"
-dialogtxt       "I'm kinda worried now…"
+dialogtxt       "I'm kinda worried now."
 goto            @Label_0cc0
 
 @Label_0cc0:
@@ -298,7 +294,6 @@ code0309
 call            @Func_175e
 code0479        0, 0, 16
 call            @Func_16bc
-dialogtxt       "Eh?"
 dialogtxt       "About what?"
 goto            @Label_0d98
 
@@ -307,9 +302,9 @@ code0309
 call            @Func_16f2
 code0479        1, 4, 12
 call            @Func_1728
-dialogtxt       "I have some doubts"
-dialogtxt       "that he'll actually make"
-dialogtxt       "it back to the village safely."
+dialogtxt       "I have some doubts that he'll"
+dialogtxt       "actually make it back to the"
+dialogtxt       "village safely."
 code0309        
 call            @Func_175e
 code0479        0, 0, 14
@@ -318,7 +313,8 @@ dialogtxt       "Hmm…"
 code0309        
 code0479        0, 0, 16
 dialogtxt       "Now that you mention it,"
-dialogtxt       "I'm kinda worried now…"
+dialogtxt       "I'm kinda worried now."
+code0309	
 dialogtxt       "Anyway, let's head to the station."
 goto            @Label_0ee0
 
@@ -335,8 +331,7 @@ code0309
 call            @Func_175e
 code0479        0, 1, 12
 call            @Func_16bc
-dialogtxt       "Yeah."
-dialogtxt       "He's a big help."
+dialogtxt       "Yeah. He's a big help."
 goto            @Label_0f76
 
 @Label_0f76:
@@ -345,7 +340,7 @@ call            @Func_16f2
 code0479        1, 4, 12
 call            @Func_1728
 dialogtxt       "But he's a bit clumsy."
-dialogtxt       "I hope he returns safely…"
+dialogtxt       "I hope he returns safely."
 code0309        
 call            @Func_175e
 code0479        0, 4, 12
@@ -589,4 +584,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

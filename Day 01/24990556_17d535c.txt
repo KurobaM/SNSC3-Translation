@@ -48,7 +48,7 @@ dialogtxt       "Sorry, my bad."
 goto            @Label_0240
 
 @Cond_022e:
-dialogtxt       "I'm back~"
+dialogtxt       "I'm baaack~"
 goto            @Label_0240
 
 @Label_0240:
@@ -65,9 +65,8 @@ call            @Func_20d8
 code0333        2, 30
 code0479        0, 4, 12
 call            @Func_2036
-dialogtxt       "I was, but…"
-dialogtxt       "I wasn't sure what you meant,"
-dialogtxt       "so I just kept going…"
+dialogtxt       "I was, but, I wasn't sure what"
+dialogtxt       "you meant, so I just kept going…"
 goto            @Label_036e
 
 @Label_036e:
@@ -79,7 +78,7 @@ code0479        1, 0, 12
 call            @Func_20a2
 dialogtxt       "You Are Not Scanning Your"
 dialogtxt       "Surroundings Properly."
-dialogtxt       "Your Eyes Are Simply Holes."
+dialogtxt       "Your Eyes Are Empty Holes."
 code0309        
 call            @Func_20d8
 code0479        0, 2, 14
@@ -97,21 +96,19 @@ code0309
 call            @Func_20d8
 code0479        0, 5, 16
 call            @Func_2036
-dialogtxt       "But…!"
 dialogtxt       "That's not what I meant!"
 code0309        
 call            @Func_206c
 code0479        1, 0, 12
 call            @Func_20a2
-dialogtxt       "Then What Is It"
-dialogtxt       "You Wish To Know?"
+dialogtxt       "Then What Is It You Wish To Know?"
 code0309        
 call            @Func_20d8
 code0479        0, 2, 14
 call            @Func_2036
 jumpz           @Cond_05a2, ($b002 == 0)
-dialogtxt       "Damn it…"
-dialogtxt       "This is going nowhere!"
+dialogtxt       "Darn it…"
+dialogtxt       "This is going nowhere…"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "Forget it!"
@@ -119,7 +116,7 @@ dialogtxt       "Let's go!"
 goto            @Label_05f6
 
 @Cond_05a2:
-dialogtxt       "Ugh…!"
+dialogtxt       "Ugh!"
 dialogtxt       "This is pointless!"
 code0309        
 code0479        0, 2, 15
@@ -151,8 +148,7 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_20f0
 call            @Func_2018
-dialogtxt       "γ!"
-dialogtxt       "Behind you!"
+dialogtxt       "[NAME 1]! Behind you!"
 goto            @Cond_072e
 
 @Cond_072e:
@@ -163,7 +159,7 @@ dialogtxt       "Sorry, my bad."
 goto            @Label_0774
 
 @Cond_0762:
-dialogtxt       "I'm back~"
+dialogtxt       "I'm baaack~"
 goto            @Label_0774
 
 @Label_0774:
@@ -172,8 +168,8 @@ code0309
 call            @Func_206c
 code0479        1, 2, 16
 call            @Func_20a2
-dialogtxt       "This only happened"
-dialogtxt       "because you didn't believe me!"
+dialogtxt       "This only happened because you"
+dialogtxt       "didn't believe me!"
 code0309        
 call            @Func_20d8
 code0333        2, 30
@@ -197,9 +193,8 @@ code0309
 call            @Func_20d8
 code0479        0, 11, 17
 call            @Func_2036
-dialogtxt       "Wha…!?"
-dialogtxt       "I'm green!?"
-dialogtxt       "Where!?"
+dialogtxt       "Wha-"
+dialogtxt       "Green!? Where!?"
 goto            @Label_09c2
 
 @Label_09c2:
@@ -207,8 +202,7 @@ code0309
 call            @Func_206c
 code0479        1, 4, 13
 call            @Func_20a2
-dialogtxt       "Not literally."
-dialogtxt       "It means…"
+dialogtxt       "Not literally. It means…"
 dialogtxt       "You're still an amateur."
 code0309        
 call            @Func_20d8
@@ -248,7 +242,7 @@ call            @Func_20d8
 code0479        0, 2, 15
 call            @Func_2036
 jumpz           @Cond_0c70, ($b002 == 0)
-dialogtxt       "Damn it…"
+dialogtxt       "Darn it…"
 dialogtxt       "This is going nowhere!"
 code0309        
 code0479        0, 2, 14
@@ -257,7 +251,7 @@ dialogtxt       "Let's go!"
 goto            @Label_0cc4
 
 @Cond_0c70:
-dialogtxt       "Ugh…!"
+dialogtxt       "Ugh!"
 dialogtxt       "This is pointless!"
 code0309        
 code0479        0, 2, 14
@@ -289,22 +283,20 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_20f0
 call            @Func_2018
-dialogtxt       "γ!"
-dialogtxt       "Behind you!"
+dialogtxt       "[NAME 1]! Behind you!"
 goto            @Cond_0dfc
 
 @Cond_0dfc:
 jumpz           @Cond_14f0, ($b003 == 2)
 call            @Func_2084
-dialogtxt       "Tch…"
+dialogtxt       "Tak…"
 dialogtxt       "Took you long enough."
 code047b        
 code0309        
 call            @Func_20d8
 code0479        0, 2, 14
 call            @Func_2036
-dialogtxt       "Hey…"
-dialogtxt       "What was that!?"
+dialogtxt       "What is it with you!?"
 goto            @Label_0ea4
 
 @Label_0ea4:
@@ -313,7 +305,7 @@ call            @Func_206c
 code0333        2, 30
 code0479        1, 0, 12
 call            @Func_20a2
-dialogtxt       "What is what?"
+dialogtxt       "What is it with you!?"
 code0309        
 call            @Func_20d8
 code0334        
@@ -348,14 +340,12 @@ code0309
 call            @Func_206c
 code0479        1, 0, 16
 call            @Func_20a2
-dialogtxt       "Was there a reason to?"
+dialogtxt       "Why would I?"
 code0309        
 call            @Func_20d8
 code0479        0, 2, 14
 call            @Func_2036
-dialogtxt       "Huh!?"
-dialogtxt       "We're supposed to be"
-dialogtxt       "partners, remember?"
+dialogtxt       "Huh!? We're partners, remember?"
 goto            @Label_1168
 
 @Label_1168:
@@ -363,31 +353,30 @@ code0309
 call            @Func_206c
 code0479        1, 0, 12
 call            @Func_20a2
-dialogtxt       "I remember, that's why"
-dialogtxt       "I followed you here."
+dialogtxt       "I remember, that's why I even"
+dialogtxt       "came here."
 code0309        
 call            @Func_20d8
 code0479        0, 2, 15
 call            @Func_2036
-dialogtxt       "Then why…！"
+dialogtxt       "Then why-"
 code0309        
 call            @Func_206c
 code0479        1, 0, 13
 call            @Func_20a2
-dialogtxt       "I was hoping you could"
-dialogtxt       "entertain me for a bit."
-dialogtxt       "You know, by falling off a bridge…"
+dialogtxt       "I was hoping you could entertain"
+dialogtxt       "me for a bit. You know, by falling"
+dialogtxt       "off a bridge…"
 code0309        
 call            @Func_20d8
 code0479        0, 2, 15
 call            @Func_2036
 jumpz           @Cond_129a, ($b002 == 0)
-dialogtxt       "What's wrong with you…!?"
+dialogtxt       "What's wrong with you!?"
 goto            @Label_12bc
 
 @Cond_129a:
-dialogtxt       "Wha…"
-dialogtxt       "What's wrong with you!?"
+dialogtxt       "Wha-What's wrong with you!?"
 goto            @Label_12bc
 
 @Label_12bc:
@@ -401,7 +390,7 @@ call            @Func_20d8
 code0479        0, 2, 16
 call            @Func_2036
 jumpz           @Cond_1364, ($b002 == 0)
-dialogtxt       "Damn it…"
+dialogtxt       "Darn it…"
 dialogtxt       "This is going nowhere!"
 code0309        
 code0479        0, 2, 15
@@ -410,7 +399,7 @@ dialogtxt       "Let's go!"
 goto            @Label_13b8
 
 @Cond_1364:
-dialogtxt       "Ugh…!"
+dialogtxt       "Ugh!"
 dialogtxt       "This is pointless!"
 code0309        
 code0479        0, 2, 15
@@ -442,8 +431,7 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_20f0
 call            @Func_2018
-dialogtxt       "γ!"
-dialogtxt       "Behind you!"
+dialogtxt       "[NAME 1]! Behind you!"
 goto            @Cond_14f0
 
 @Cond_14f0:
@@ -454,7 +442,7 @@ dialogtxt       "Sorry, my bad."
 goto            @Label_1536
 
 @Cond_1524:
-dialogtxt       "I'm back~"
+dialogtxt       "I'm baaack~"
 goto            @Label_1536
 
 @Label_1536:
@@ -504,8 +492,7 @@ code0309
 call            @Func_20d8
 code0479        0, 4, 16
 call            @Func_2036
-dialogtxt       "Uh…"
-dialogtxt       "I wasn't…"
+dialogtxt       "Uh… I wasn't…"
 code0309        
 call            @Func_206c
 code0479        1, 2, 14
@@ -557,8 +544,7 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_20f0
 call            @Func_2018
-dialogtxt       "γ!"
-dialogtxt       "behind you!"
+dialogtxt       "[NAME 1]! behind you!"
 goto            @Cond_1a86
 
 @Cond_1a86:
@@ -780,4 +766,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

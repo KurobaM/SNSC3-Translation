@@ -50,12 +50,12 @@ code0479        1, 0, 12
 call            @Func_4722
 dialogtxt       "I See. Understood."
 dialogtxt       "However, This Weapon Has Not"
-dialogtxt       "Been Used For A Long Time…"
+dialogtxt       "Been Used Much…"
 code0309        
 call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
-dialogtxt       "U-Uh, this is for practice!"
+dialogtxt       "U-Uh, this is just for practice!"
 dialogtxt       "You'll understand if you just do it!"
 goto            @Label_0386
 
@@ -473,7 +473,7 @@ code0309
 call            @Func_46ec
 code0479        1, 5, 17
 call            @Func_4722
-dialogtxt       "Wha…!"
+dialogtxt       "Wha-"
 code0309        
 code0479        1, 7, 12
 dialogtxt       "Cut the chatter."
@@ -561,9 +561,8 @@ code0309
 call            @Func_4758
 code0479        0, 1, 12
 call            @Func_46b6
-dialogtxt       "I'm sure Master will"
-dialogtxt       "take care of Murno."
-dialogtxt       "Don't worry about it."
+dialogtxt       "I'm sure Master will take care of"
+dialogtxt       "Murno. Don't worry about it."
 goto            @Label_1b40
 
 @Label_1b40:
@@ -599,7 +598,7 @@ call            @Func_46ec
 code0479        1, 0, 12
 call            @Func_4722
 dialogtxt       "You Are Being Taken Care Of"
-dialogtxt       "By Master… Correct?"
+dialogtxt       "By Master, Correct?"
 code0309        
 call            @Func_4758
 code0479        0, 2, 12
@@ -638,8 +637,7 @@ code0309
 call            @Func_46ec
 code0479        1, 4, 14
 call            @Func_4722
-dialogtxt       "But Murno is,"
-dialogtxt       "unlike you,"
+dialogtxt       "But Murno is, unlike you,"
 dialogtxt       "very delicate…"
 code0309        
 call            @Func_4758
@@ -682,7 +680,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 15
 call            @Func_4722
-dialogtxt       "Wha… No!"
+dialogtxt       "N-No!"
 dialogtxt       "I just don't trust that woman."
 code0309        
 call            @Func_4758
@@ -698,13 +696,13 @@ code0309
 call            @Func_46ec
 code0479        1, 5, 17
 call            @Func_4722
-dialogtxt       "No…!"
-dialogtxt       "That's not…!"
+dialogtxt       "No!"
+dialogtxt       "That's not-"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12
 call            @Func_46b6
-dialogtxt       "Heheh."
+dialogtxt       "Heheh~"
 dialogtxt       "Okay, okay."
 code0309        
 call            @Func_47f2
@@ -875,7 +873,7 @@ code0309
 call            @Func_4758
 code0479        0, 0, 12
 call            @Func_46b6
-dialogtxt       "γ…"
+dialogtxt       "[NAME 1]…"
 dialogtxt       "The way you say things"
 dialogtxt       "always sounds so cool."
 goto            @Label_28ec
@@ -917,14 +915,13 @@ code0309
 call            @Func_46ec
 code0479        1, 5, 14
 call            @Func_4722
-dialogtxt       "Me, worried about her!?"
-dialogtxt       "Why would I…"
+dialogtxt       "ME worried about her!?"
+dialogtxt       "Why would I-"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12
 call            @Func_46b6
-dialogtxt       "Okay okay,"
-dialogtxt       "I get it already."
+dialogtxt       "Okay, okay, I get it already."
 code0309        
 call            @Func_46ec
 code0479        1, 3, 15
@@ -1182,7 +1179,7 @@ code0479        0, 1, 16
 call            @Func_46b6
 dialogtxt       "Umm…"
 dialogtxt       "Can you sound more excited"
-dialogtxt       "about this please…?"
+dialogtxt       "about this please?"
 code0309        
 call            @Func_47f2
 call            @Func_46d4
@@ -1200,12 +1197,12 @@ code0479        1, 2, 12
 call            @Func_4722
 dialogtxt       "Right."
 dialogtxt       "Experience is something one must"
-dialogtxt       "accumulate steadily over time…"
+dialogtxt       "accumulate steadily over time."
 code0309        
 call            @Func_4758
 code0479        0, 0, 13
 call            @Func_46b6
-dialogtxt       "γ come on!"
+dialogtxt       "[NAME 1] come on!"
 dialogtxt       "You're falling behind!"
 code0309        
 call            @Func_46ec
@@ -1236,7 +1233,7 @@ code0479        0, 2, 14
 call            @Func_46b6
 dialogtxt       "Huh!?"
 jumpz           @Cond_3a1c, ($b002 == 0)
-dialogtxt       "Not a complain."
+dialogtxt       "Not a complaint."
 dialogtxt       "That's a first…"
 goto            @Label_3a4c
 
@@ -1257,14 +1254,13 @@ call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
 dialogtxt       "Hey…"
-dialogtxt       "Are you listening"
-dialogtxt       "to me at all!?"
+dialogtxt       "Are you listening to me at all!?"
 code0309        
 call            @Func_46ec
 code0479        1, 2, 14
 call            @Func_4722
 dialogtxt       "Who knows."
-dialogtxt       "You better watch your mouth."
+dialogtxt       "But you better watch your mouth."
 code0309        
 call            @Func_47f2
 call            @Func_4740
@@ -1342,9 +1338,8 @@ code047d        1, 2
 call            @Func_479c
 jumpz           @Cond_3f46, ($b003 == 0)
 call            @Func_4704
-dialogtxt       "It Appears There Are"
-dialogtxt       "Many Stray Summons"
-dialogtxt       "In This Area."
+dialogtxt       "It Appears There Are Many"
+dialogtxt       "Stray Summons In This Area."
 code047b        
 code0309        
 call            @Func_4758
@@ -1400,7 +1395,6 @@ goto            @Label_403e
 @Label_403e:
 code0309        
 code0479        0, 0, 14
-dialogtxt       "Hm?"
 dialogtxt       "Don't cats have a"
 dialogtxt       "good sense of smell?"
 code0309        
@@ -1421,8 +1415,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 14
 call            @Func_4722
-dialogtxt       "Also, I am not"
-dialogtxt       "using my nose!"
+dialogtxt       "Also, I am not using my nose!"
 dialogtxt       "It's their presence!"
 code0309        
 code0479        0, 0, 14
@@ -1470,7 +1463,7 @@ code0309
 call            @Func_46ec
 code0479        1, 0, 14
 call            @Func_4722
-dialogtxt       "Tch…"
+dialogtxt       "Tsk…"
 dialogtxt       "I'm not wasting my time with them."
 code0309        
 call            @Func_4758
@@ -1506,9 +1499,9 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 14
 call            @Func_4722
-dialogtxt       "D-Don't worry…!"
-dialogtxt       "I'm here with you,"
-dialogtxt       "so it will definitely be okay…!"
+dialogtxt       "D-Don't worry…"
+dialogtxt       "I'm here with you, so it will"
+dialogtxt       "definitely be okay…!"
 code0309        
 call            @Func_4758
 code0479        0, 0, 13
@@ -1522,7 +1515,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 15
 call            @Func_4722
-dialogtxt       "S-same to you!"
+dialogtxt       "S-Same to you!"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12
@@ -1601,4 +1594,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

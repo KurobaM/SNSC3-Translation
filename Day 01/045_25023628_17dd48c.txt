@@ -16,7 +16,7 @@ code040d        15
 code047d        0, 107
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Oh, um… δ…"
+dialogtxt       "Oh, um, [NAME 2]…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -61,9 +61,8 @@ code0309
 call            @Func_10b2
 code0479        0, 1, 12
 call            @Func_1010
-dialogtxt       "I see…"
-dialogtxt       "I really am glad"
-dialogtxt       "you're feeling better."
+dialogtxt       "I see. I'm really glad you're feeling"
+dialogtxt       "better."
 goto            @Label_03ba
 
 @Label_03ba:
@@ -72,16 +71,15 @@ call            @Func_1046
 code0479        0, 0, 12
 code0479        1, 4, 16
 call            @Func_107c
-dialogtxt       "I must've been such a bother"
+dialogtxt       "I must've been such a bother."
 dialogtxt       "You even got me medicine…"
-dialogtxt       "I'm truly sorry…"
+dialogtxt       "I'm truly sorry."
 code0309        
 call            @Func_10b2
 code0479        0, 5, 16
 call            @Func_1010
-dialogtxt       "Don't apologize."
-dialogtxt       "I don't really mind."
-dialogtxt       "I just did it cause I wanted to."
+dialogtxt       "Don't apologize. I don't mind."
+dialogtxt       "I did it cause I wanted to."
 goto            @Label_050c
 
 @Label_050c:
@@ -89,23 +87,23 @@ code0309
 call            @Func_1046
 code0479        1, 11, 12
 call            @Func_107c
-dialogtxt       "Y-You wanted to…?"
+dialogtxt       "Y-You wanted to?"
 code0309        
 call            @Func_10b2
 code0479        0, 11, 17
 call            @Func_1010
-dialogtxt       "Uh, well,"
-dialogtxt       "Master said we were in the way,"
-dialogtxt       "and I had nothing to do anyways so…"
+dialogtxt       "Uh, well, Master said we were in"
+dialogtxt       "the way, and I had nothing to do"
+dialogtxt       "anyways, so…"
 goto            @Label_05f8
 
 @Label_05f8:
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 12
-dialogtxt       "Details aside…"
-dialogtxt       "With Zakk and γ's help,"
-dialogtxt       "we were able to get some medicine."
+dialogtxt       "Details aside, with Zakk and"
+dialogtxt       "[NAME 1]'s help, we were"
+dialogtxt       "able to get some medicine."
 code0309        
 call            @Func_1046
 code0479        1, 4, 13
@@ -118,8 +116,8 @@ call            @Func_10b2
 code0479        0, 0, 16
 call            @Func_1010
 dialogtxt       "Don't worry about it."
-dialogtxt       "Murno, you got a fever because"
-dialogtxt       "you wore yourself out, didn't you?"
+dialogtxt       "You got a fever because you wore"
+dialogtxt       "yourself out, didn't you?"
 goto            @Label_0788
 
 @Label_0788:
@@ -142,15 +140,14 @@ dialogtxt       "…"
 code0309        
 code0479        0, 0, 14
 code0479        1, 0, 14
-dialogtxt       "Do you…"
-dialogtxt       "Do you want to know about…"
+dialogtxt       "Do you… want to know about…"
 dialogtxt       "what happened before I came here?"
 code0309        
 call            @Func_10b2
 code0479        0, 5, 16
 call            @Func_1010
-dialogtxt       "Eh? Well, of course I do, but"
-dialogtxt       "you don't have to talk"
+dialogtxt       "Eh? Well, of course I do."
+dialogtxt       "But you don't have to talk"
 dialogtxt       "about it if you don't want to."
 code0309        
 call            @Func_1046
@@ -164,7 +161,9 @@ jumpz           @Cond_09be, ($b002 == 0)
 code0479        0, 7, 17
 call            @Func_1010
 dialogtxt       "N-No I'm not!"
-dialogtxt       "Uh, being here is relaxing, right?"
+dialogtxt       "But anyways, make yourself at"
+dialogtxt       "home here."
+code0309	
 dialogtxt       "So, once you've calmed down…"
 goto            @Label_0a2e
 
@@ -172,7 +171,9 @@ goto            @Label_0a2e
 code0479        0, 0, 13
 call            @Func_1010
 dialogtxt       "I'm not, really…"
-dialogtxt       "Uh, being here is relaxing, right?"
+dialogtxt       "But anyways, make yourself at"
+dialogtxt       "home here."
+code0309	
 dialogtxt       "So, once you've calmed down…"
 goto            @Label_0a2e
 
@@ -400,4 +401,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

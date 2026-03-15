@@ -55,16 +55,15 @@ dialogtxt       "Murno's feeling just fine now."
 dialogtxt       "Thanks to your medicine."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "You went deep in the"
-dialogtxt       "forest for it, right?"
-dialogtxt       "You did well."
+dialogtxt       "You went deep in the forest for"
+dialogtxt       "it, right? You did well."
 code0309        
 call            @Func_11d8
 code0479        1, 0, 12
 code0479        0, 1, 13
 call            @Func_1136
-dialogtxt       "Hehe…"
-dialogtxt       "Well, γ was there too,"
+dialogtxt       "Hehe~"
+dialogtxt       "Well, [NAME 1] was there too,"
 dialogtxt       "so it was no problem at all!"
 code0309        
 call            @Func_116c
@@ -72,29 +71,29 @@ code0479        0, 0, 12
 code0479        1, 4, 12
 call            @Func_11a2
 dialogtxt       "There's that overconfidence again."
-dialogtxt       "though I'm glad to hear you're"
-dialogtxt       "getting along with γ."
+dialogtxt       "Though I'm glad to hear you're"
+dialogtxt       "getting along with [NAME 1]."
 code0309        
 call            @Func_11d8
 code0479        0, 0, 16
 call            @Func_1136
-dialogtxt       "Hmm…"
-dialogtxt       "Really?"
-dialogtxt       "I wouldn't know myself."
+dialogtxt       "Hmm… Are you sure?"
+dialogtxt       "… Are we really getting along"
+dialogtxt       "that well?"
 code0309        
 call            @Func_116c
 code0479        1, 2, 16
 call            @Func_11a2
-dialogtxt       "You know, it kinda feels"
-dialogtxt       "like if I got a fever,"
-dialogtxt       "you wouldn't do the same for me."
+dialogtxt       "What? Are you having problems now?"
+dialogtxt       "I guess I can't count on you two"
+dialogtxt       "for medicine if I get sick next."
 code0309        
 call            @Func_11d8
 code0479        0, 5, 17
 call            @Func_1136
 dialogtxt       "T-That's not true!"
-dialogtxt       "Of course I would!"
-dialogtxt       "I'd even nurse you personally!"
+dialogtxt       "Of course you can!"
+dialogtxt       "I'll even nurse you personally!"
 goto            @Label_05c8
 
 @Label_05c8:
@@ -194,8 +193,7 @@ code0479        1, 2, 14
 code0479        0, 2, 17
 call            @Func_121c
 call            @Func_1118
-dialogtxt       "Ow!"
-dialogtxt       "What was that for!?"
+dialogtxt       "Ow! What was that for!?"
 goto            @Label_0b34
 
 @Label_0b34:
@@ -423,4 +421,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
