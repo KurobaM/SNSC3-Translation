@@ -18,7 +18,7 @@ code0479        1, 11, 13
 code047d        1, 107
 call            @Func_0cc6
 call            @Func_0c44
-dialogtxt       "I did it…!"
+dialogtxt       "I did it!"
 dialogtxt       "Amazing!"
 code047b        
 code0309        
@@ -58,7 +58,7 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_0cdc
 call            @Func_0bd8
-dialogtxt       "Hey…!"
+dialogtxt       "Hey!"
 dialogtxt       "That's dangerous."
 code0309        
 call            @Func_0c2c
@@ -73,12 +73,12 @@ code0479        0, 2, 14
 call            @Func_0bf6
 jumpz           @Cond_038a, ($b002 == 0)
 dialogtxt       "Murno…"
-dialogtxt       "Are you sure…?"
+dialogtxt       "Are you sure?"
 goto            @Label_03b4
 
 @Cond_038a:
 dialogtxt       "Murno…"
-dialogtxt       "Are you sure…?"
+dialogtxt       "Are you sure?"
 goto            @Label_03b4
 
 @Label_03b4:
@@ -86,8 +86,8 @@ code0309
 call            @Func_0c2c
 code0479        1, 2, 14
 call            @Func_0c62
-dialogtxt       "Yes…!"
-dialogtxt       "Please, [NAME 2]…!"
+dialogtxt       "Yes!"
+dialogtxt       "Please, [NAME 2]!"
 code0309        
 call            @Func_0c98
 code0479        0, 4, 12
@@ -355,4 +355,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

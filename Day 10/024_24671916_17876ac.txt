@@ -417,7 +417,7 @@ dialogtxt       "Oh! You're a Craftknight, right?"
 dialogtxt       "I wanted to talk business with you,"
 dialogtxt       "but I'm sold out at the moment…"
 code0309        
-dialogtxt       "I'm so, so sorry!…"
+dialogtxt       "I'm so, so sorry!"
 dialogtxt       "I'll be stocked up next time, so"
 dialogtxt       "please buy my wares soon!"
 code0309        
@@ -444,7 +444,7 @@ code040b
 @Event_12b0:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　∞Searching∞"
+dialogtxt       "　　　　　âSearchingâ"
 code0309        
 dialogtxt       "I'm looking for a brown kitten."
 dialogtxt       "I think it likes dried sardines?"
@@ -488,4 +488,3 @@ walkto          30, -8, -8, 67
 code0461        30
 code0461        31
 code040b        
-

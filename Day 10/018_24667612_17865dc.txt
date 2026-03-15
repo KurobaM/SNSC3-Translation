@@ -192,12 +192,12 @@ code047d        0, 114
 code047e        0, 1
 jumpz           @Cond_0824, ($b002 == 0)
 dialogtxt       "[NAME 2],"
-dialogtxt       "I'm so sorry about Tier"
+dialogtxt       "I'm so sorry about Tier."
 goto            @Label_0844
 
 @Cond_0824:
 dialogtxt       "[NAME 2],"
-dialogtxt       "I'm so sorry about Tier"
+dialogtxt       "I'm so sorry about Tier."
 goto            @Label_0844
 
 @Label_0844:
@@ -423,4 +423,3 @@ ret
 
 @Func_10d8:
 ret             
-

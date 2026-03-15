@@ -76,22 +76,22 @@ goto            @Label_02b2
 @Label_02b2:
 call            @Func_1040
 jumpz           @Cond_02de, ($b003 == 0)
-dialogtxt       "Swordplay…?"
+dialogtxt       "Swordplay?"
 goto            @Cond_02de
 
 @Cond_02de:
 jumpz           @Cond_030a, ($b003 == 1)
-dialogtxt       "Swordplay…?"
+dialogtxt       "Swordplay?"
 goto            @Cond_030a
 
 @Cond_030a:
 jumpz           @Cond_0334, ($b003 == 2)
-dialogtxt       "Swordplay…?"
+dialogtxt       "Swordplay?"
 goto            @Cond_0334
 
 @Cond_0334:
 jumpz           @Cond_0360, ($b003 == 3)
-dialogtxt       "Swordplay…?"
+dialogtxt       "Swordplay?"
 goto            @Cond_0360
 
 @Cond_0360:
@@ -191,7 +191,7 @@ code047d        1, 107
 call            @Func_10a4
 call            @Func_1022
 dialogtxt       "It's okay, [NAME 1]."
-dialogtxt       "Want to practice with us?"
+dialogtxt       "Do you want to practice with us?"
 code047b        
 code0309        
 call            @Func_1076
@@ -516,4 +516,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

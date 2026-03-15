@@ -364,7 +364,7 @@ dialogtxt       "Apparently the one who"
 dialogtxt       "fought off the Red Wing was"
 dialogtxt       "spotted around here…"
 code0309        
-dialogtxt       "… That kinda person seems dangerous"
+dialogtxt       "… That kinda person seems dangerous;"
 dialogtxt       "I can't help but feel scared."
 code0309        
 code047e        0, 0
@@ -388,4 +388,3 @@ walkto          30, -8, -8, 67
 code0461        30
 code0461        31
 code040b        
-

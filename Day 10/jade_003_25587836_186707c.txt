@@ -98,13 +98,13 @@ call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_049a, ($b002 == 0)
 dialogtxt       "Uwah!"
-dialogtxt       "But… I…"
+dialogtxt       "But… I-"
 dialogtxt       "I didn't mean to break it…"
 goto            @Label_04d6
 
 @Cond_049a:
 dialogtxt       "Uwah!"
-dialogtxt       "But… I…"
+dialogtxt       "But… I-"
 dialogtxt       "I didn't mean to break it…"
 goto            @Label_04d6
 
@@ -161,14 +161,14 @@ code0309
 code0479        1, 2, 13
 dialogtxt       "You've definitly inherited"
 dialogtxt       "their techniques."
-dialogtxt       "With this fight, I understood that…"
+dialogtxt       "With this fight, I understood that."
 code0309        
 code0443        2, 16, 1
 code0443        2, 32, 1
 code043b        3
 code0439        3
 code0479        1, 1, 13
-dialogtxt       "So, I acknowlede your strength."
+dialogtxt       "So, I acknowledge your strength."
 dialogtxt       "You've become a fine Craftknight."
 code0309        
 call            @Func_13d8
@@ -500,4 +500,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

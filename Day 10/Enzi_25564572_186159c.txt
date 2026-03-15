@@ -32,7 +32,7 @@ call            @Func_1456
 call            @Func_13d4
 dialogtxt       "O, what misery!"
 dialogtxt       "To think I would lose yet again."
-dialogtxt       "I expected no less…"
+dialogtxt       "I expected no less."
 code047b        
 code0309        
 call            @Func_1428
@@ -87,7 +87,7 @@ call            @Func_13bc
 code0479        1, 1, 12
 call            @Func_13f2
 dialogtxt       "Hm…"
-dialogtxt       "You are truly an interesting person…"
+dialogtxt       "You are truly an interesting person."
 code0309        
 call            @Func_1428
 code0479        0, 5, 14
@@ -126,13 +126,13 @@ call            @Func_1428
 code0479        0, 0, 16
 call            @Func_1386
 jumpz           @Cond_0770, ($b002 == 0)
-dialogtxt       "They hated you…?"
+dialogtxt       "They hated you?"
 dialogtxt       "Why?"
 dialogtxt       "Did you do something bad to them?"
 goto            @Label_07ae
 
 @Cond_0770:
-dialogtxt       "They hated you…?"
+dialogtxt       "They hated you?"
 dialogtxt       "Why?"
 dialogtxt       "Did you do something bad to them?"
 goto            @Label_07ae
@@ -142,9 +142,9 @@ code0309
 call            @Func_13bc
 code0479        1, 0, 12
 call            @Func_13f2
-dialogtxt       "I did not intend to, however…"
+dialogtxt       "I did not intend to, but…"
 dialogtxt       "There was a time where I"
-dialogtxt       "punished a human for their crimes…"
+dialogtxt       "punished a human for their crimes."
 code0309        
 call            @Func_1428
 code0479        0, 2, 14
@@ -164,7 +164,7 @@ code0309
 call            @Func_13bc
 code0479        1, 4, 14
 call            @Func_13f2
-dialogtxt       "Right depends on your viewpoint."
+dialogtxt       "\"Right\" depends on your viewpoint."
 dialogtxt       "One side may view an action as good,"
 dialogtxt       "the other as evil…"
 code0309        
@@ -228,7 +228,7 @@ code0309
 call            @Func_13bc
 code0479        1, 4, 12
 call            @Func_13f2
-dialogtxt       "Hmm, is that so…"
+dialogtxt       "Hmm, is that so?"
 code0309        
 call            @Func_14c2
 call            @Func_1410
@@ -242,7 +242,7 @@ code047d        0, 2
 code0301        16, 7
 code047e        0, 1
 dialogtxt       "If I could continue on like this,"
-dialogtxt       "that might not be so bad…"
+dialogtxt       "that might not be so bad."
 code0309        
 code047e        0, 0
 code0302        7
@@ -461,4 +461,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

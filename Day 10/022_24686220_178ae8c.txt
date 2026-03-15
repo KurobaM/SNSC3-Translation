@@ -267,9 +267,8 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Somehow…"
 dialogtxt       "There's this feeling of unease"
-dialogtxt       "that I can't really shake off…"
+dialogtxt       "that I can't really shake off."
 code0309        
 code047e        0, 0
 code0302        7
 code040b        
-

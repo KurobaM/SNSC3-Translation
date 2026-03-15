@@ -9,7 +9,7 @@ code047d        1, 110
 call            @Func_208a
 call            @Func_1ff2
 dialogtxt       "…"
-dialogtxt       "Ku…!"
+dialogtxt       "Ku!"
 dialogtxt       "Again…"
 code0309        
 call            @Func_2046
@@ -32,20 +32,20 @@ code0309
 call            @Func_1fda
 code0479        1, 5, 12
 call            @Func_2010
-dialogtxt       "Wha…"
-dialogtxt       "you think I'm not trying…?"
+dialogtxt       "Wha-What?"
+dialogtxt       "you think I'm not trying?"
 code0309        
 call            @Func_2046
 code0479        0, 0, 16
 call            @Func_1fa4
 jumpz           @Cond_020e, ($b002 == 0)
-dialogtxt       "How should I put this…"
+dialogtxt       "How should I put this?"
 dialogtxt       "It's like you can't focus…"
 dialogtxt       "It's that, isn't it? Your mother?"
 goto            @Label_026e
 
 @Cond_020e:
-dialogtxt       "How should I put this…"
+dialogtxt       "How should I put this?"
 dialogtxt       "It's like you can't focus…"
 dialogtxt       "It's that, isn't it? Your mother?"
 goto            @Label_026e
@@ -55,8 +55,8 @@ code0309
 call            @Func_1fda
 code0479        1, 2, 15
 call            @Func_2010
-dialogtxt       "Wha…!"
-dialogtxt       "Why would I…!"
+dialogtxt       "Wha-!"
+dialogtxt       "Why would I-!?"
 code0309        
 call            @Func_2046
 code0479        0, 0, 12
@@ -181,7 +181,7 @@ call            @Func_1fda
 code0479        1, 2, 13
 call            @Func_2010
 dialogtxt       "Too late for that…"
-dialogtxt       "You told me to talk.…"
+dialogtxt       "You told me to talk."
 dialogtxt       "So listen."
 code0309        
 call            @Func_2046
@@ -212,13 +212,13 @@ dialogtxt       "as a tool she could use"
 dialogtxt       "to gain power…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "It makes me sick…!"
+dialogtxt       "It makes me sick!"
 code0309        
 call            @Func_2046
 code0479        0, 0, 16
 call            @Func_1fa4
 dialogtxt       "So…"
-dialogtxt       "You complained to Bostaph…?"
+dialogtxt       "You complained to Bostaph?"
 code0309        
 call            @Func_1fda
 code0479        1, 2, 15
@@ -288,7 +288,7 @@ code0309
 call            @Func_1fda
 code0479        1, 2, 17
 call            @Func_2010
-dialogtxt       "Of course…!"
+dialogtxt       "Of course!"
 dialogtxt       "She only wanted to make the Council"
 dialogtxt       "acknowledge the Mortier house…"
 code0309        
@@ -359,7 +359,7 @@ code0309
 call            @Func_1fda
 code0479        1, 2, 14
 call            @Func_2010
-dialogtxt       "What the hell…!"
+dialogtxt       "What the hell!?"
 dialogtxt       "How would you even…"
 code0309        
 code0479        1, 5, 16
@@ -700,4 +700,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
