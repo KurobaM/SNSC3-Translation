@@ -32,7 +32,7 @@ code0309
 call            @Func_1fda
 code0479        1, 5, 12
 call            @Func_2010
-dialogtxt       "Wha-what?"
+dialogtxt       "Wha-What?"
 dialogtxt       "you think I'm not trying?"
 code0309        
 call            @Func_2046
@@ -359,7 +359,7 @@ code0309
 call            @Func_1fda
 code0479        1, 2, 14
 call            @Func_2010
-dialogtxt       "What the hell?!"
+dialogtxt       "What the hell!?"
 dialogtxt       "How would you even…"
 code0309        
 code0479        1, 5, 16

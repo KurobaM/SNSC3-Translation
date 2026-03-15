@@ -319,7 +319,7 @@ dialogtxt       "There's a Master Craftknight"
 dialogtxt       "in town named Bostaph, although…"
 code0309        
 dialogtxt       "It's hard to approach him because"
-dialogtxt       "he's really scary, and all,"
+dialogtxt       "he's really scary and all,"
 dialogtxt       "but I heard he used to be so nice!"
 code0309        
 dialogtxt       "… Though, I think he changed ever"
