@@ -100,7 +100,7 @@ code0309
 call            @Func_0e28
 code0479        0, 2, 14
 call            @Func_0d86
-dialogtxt       "Only one…?"
+dialogtxt       "Only one?"
 code0309        
 call            @Func_0dbc
 code0479        1, 2, 16
@@ -377,4 +377,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

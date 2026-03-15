@@ -22,7 +22,7 @@ code0309
 call            @Func_12ce
 code0479        0, 0, 12
 call            @Func_122c
-dialogtxt       "But, with this the Strays"
+dialogtxt       "But, with this, the Strays"
 dialogtxt       "will finally calm down."
 dialogtxt       "I think."
 code0309        
@@ -495,4 +495,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

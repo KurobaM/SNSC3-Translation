@@ -248,8 +248,8 @@ code0479        0, 5, 16
 code047d        0, 107
 call            @Func_167a
 call            @Func_1594
-dialogtxt       "Ah… [NAME 1]…?"
-dialogtxt       "Why…?"
+dialogtxt       "Ah… [NAME 1]?"
+dialogtxt       "Why?"
 code0309        
 call            @Func_16a4
 call            @Func_15ca
@@ -305,7 +305,7 @@ code0309
 call            @Func_1636
 code0479        0, 5, 17
 call            @Func_1594
-dialogtxt       "Ah! Wai…!"
+dialogtxt       "Ah! Wai-!"
 dialogtxt       "This is Murno's!"
 code0309        
 call            @Func_15ca
@@ -330,7 +330,7 @@ goto            @Label_0ec8
 @Label_0ec8:
 call            @Func_1600
 jumpz           @Cond_0f12, ($b003 == 0)
-dialogbig       24, 116, 1, 0, 0, "Commencing Threat Elimination!!!"
+dialogbig       24, 116, 1, 0, 0, "Eliminating Threat!!!"
 goto            @Cond_0f12
 
 @Cond_0f12:
@@ -345,7 +345,7 @@ goto            @Cond_0f9e
 
 @Cond_0f9e:
 jumpz           @Cond_0fe4, ($b003 == 3)
-dialogbig       24, 116, 1, 0, 0, "I will not forgive you!!"
+dialogbig       24, 116, 1, 0, 0, "I won't forgive you!!"
 goto            @Cond_0fe4
 
 @Cond_0fe4:
@@ -570,4 +570,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

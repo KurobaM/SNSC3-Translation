@@ -63,7 +63,7 @@ goto            @Cond_029c
 @Cond_029c:
 jumpz           @Cond_0300, ($b003 == 1)
 dialogtxt       "I need to talk to Murno about"
-dialogtxt       "our plans from hereon."
+dialogtxt       "our plans from here on out."
 dialogtxt       "My apologies. I will be off."
 goto            @Cond_0300
 
@@ -76,7 +76,7 @@ goto            @Cond_0346
 @Cond_0346:
 jumpz           @Cond_03a2, ($b003 == 3)
 dialogtxt       "I want to talk with Lady Murno"
-dialogtxt       "about what to do from hereon…"
+dialogtxt       "about what to do going forward…"
 dialogtxt       "I'm sorry, but…"
 goto            @Cond_03a2
 
@@ -193,12 +193,12 @@ code0479        0, 2, 16
 call            @Func_10c2
 jumpz           @Cond_091e, ($b002 == 0)
 dialogtxt       "But this…"
-dialogtxt       "Is it really okay for me to…?"
+dialogtxt       "Is it really okay for me to-?"
 goto            @Label_0950
 
 @Cond_091e:
 dialogtxt       "But this…"
-dialogtxt       "Is it really okay for me to…?"
+dialogtxt       "Is it really okay for me to-?"
 goto            @Label_0950
 
 @Label_0950:
@@ -216,13 +216,13 @@ code0479        0, 2, 14
 call            @Func_10c2
 jumpz           @Cond_0a20, ($b002 == 0)
 dialogtxt       "O-of course I can!"
-dialogtxt       "Okay…!"
+dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
 @Cond_0a20:
 dialogtxt       "O-of course I can!"
-dialogtxt       "Okay…!"
+dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
@@ -462,4 +462,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -533,7 +533,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Somehow, full-on butting heads"
 dialogtxt       "seems to be super trendy in"
-dialogtxt       "the dating scene lately…"
+dialogtxt       "the dating scene lately."
 code0309        
 code047e        0, 0
 code0302        7
@@ -547,4 +547,3 @@ dialogtxt       "　　　　　Rearguard Support Squad"
 code0309        
 code0302        7
 code040b        
-

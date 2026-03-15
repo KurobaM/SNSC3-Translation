@@ -71,7 +71,7 @@ dialogtxt       "together during training."
 code0309        
 code0479        0, 2, 16
 dialogtxt       "In other words, this isn't"
-dialogtxt       "just my weapon, its ours…"
+dialogtxt       "just my weapon, its ours."
 dialogtxt       "So, how should I say this…"
 code0309        
 code0479        0, 2, 13
@@ -86,7 +86,7 @@ dialogtxt       "together during training."
 code0309        
 code0479        0, 2, 16
 dialogtxt       "In other words, this isn't"
-dialogtxt       "just my weapon, its ours…"
+dialogtxt       "just my weapon, its ours."
 dialogtxt       "So, how should I say this…"
 code0309        
 code0479        0, 2, 13
@@ -129,7 +129,7 @@ code0309
 call            @Func_149e
 code0479        1, 4, 12
 call            @Func_14d4
-dialogtxt       "Weight Of… Souls?"
+dialogtxt       "The Weight Of… Souls?"
 code0309        
 call            @Func_150a
 code0479        0, 2, 12
@@ -234,7 +234,7 @@ call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
 dialogtxt       "Kind?"
-dialogtxt       "I Am…?"
+dialogtxt       "I Am?"
 code0309        
 call            @Func_150a
 code0479        0, 0, 12
@@ -258,7 +258,7 @@ dialogtxt       "Partner…"
 dialogtxt       "I…"
 code0309        
 code0479        1, 9, 12
-dialogtxt       "I…!"
+dialogtxt       "I-!"
 code0309        
 call            @Func_150a
 code0479        0, 5, 17
@@ -511,4 +511,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

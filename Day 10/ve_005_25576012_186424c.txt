@@ -87,13 +87,13 @@ call            @Func_10e8
 jumpz           @Cond_03e4, ($b002 == 0)
 dialogtxt       "I…"
 dialogtxt       "I won…"
-dialogtxt       "I really won…!"
+dialogtxt       "I really won!"
 goto            @Label_0412
 
 @Cond_03e4:
 dialogtxt       "I…"
 dialogtxt       "I won…"
-dialogtxt       "I really won…!"
+dialogtxt       "I really won!"
 goto            @Label_0412
 
 @Label_0412:
@@ -452,4 +452,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -260,13 +260,13 @@ call            @Func_3064
 code0479        0, 2, 12
 call            @Func_2fc2
 jumpz           @Cond_0d2a, ($b002 == 0)
-dialogtxt       "Front of the workshop."
+dialogtxt       "In front of the workshop."
 dialogtxt       "Alright!"
 dialogtxt       "Just you wait!"
 goto            @Label_0d5c
 
 @Cond_0d2a:
-dialogtxt       "Front of the workshop."
+dialogtxt       "In front of the workshop."
 dialogtxt       "Alright!"
 dialogtxt       "Just you wait!"
 goto            @Label_0d5c
@@ -1138,4 +1138,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
