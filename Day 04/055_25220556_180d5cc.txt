@@ -229,25 +229,25 @@ code031b        8, -2, -2, 0, 30
 code031c        8, 1
 code031f        8
 code0304        1
-dialogtxt       "　In the end, I couldn't　"
-dialogtxt       "　　give her an answer…"
+dialogtxt       "　　　　 In the end, I couldn't"
+dialogtxt       "　　　　  give her an answer…"
 code030a        6, 1
 jumpz           @Cond_0aa2, ($b002 == 0)
-dialogtxt       "　　　I can't just up and say,　　　"
-dialogtxt       "　　　Murno may have caused the 　　"
-dialogtxt       "　　　Strays to go berserk…　　　"
+dialogtxt       "　　　  I can't just up and say,"
+dialogtxt       "　　　 Murno may have caused the"
+dialogtxt       "　　　　Strays to go berserk…"
 goto            @Label_0b1e
 
 @Cond_0aa2:
-dialogtxt       "　　　I can't just up and say,　　　"
-dialogtxt       "　　　Murno may have caused the 　　"
-dialogtxt       "　　　Strays to go berserk…　　　"
+dialogtxt       "　　　  I can't just up and say,"
+dialogtxt       "　　　 Murno may have caused the"
+dialogtxt       "　　　  Strays to go berserk…"
 goto            @Label_0b1e
 
 @Label_0b1e:
 code030a        6, 1
-dialogtxt       "And that it's her fault"
-dialogtxt       "Master Rob was……"
+dialogtxt       "　　　　And that it's her fault"
+dialogtxt       "　　　　　Master Rob was……"
 code030a        6, 1
 code0304        0
 code0334        
@@ -481,4 +481,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

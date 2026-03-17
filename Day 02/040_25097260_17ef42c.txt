@@ -42,7 +42,7 @@ code047d        0, 2
 code0301        16, 3
 code047e        0, 1
 jumpz           @Cond_01ca, ($b003 == 0)
-dialogtxt       "There you are…"
+dialogtxt       "There You Are…"
 goto            @Label_022c
 
 @Cond_01ca:
