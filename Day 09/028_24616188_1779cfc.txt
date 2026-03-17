@@ -362,7 +362,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Ugh…  Today I lost"
+dialogtxt       "Ugh… Today I lost"
 dialogtxt       "all the gift cards I've been saving"
 dialogtxt       "up to a bet with a coworker."
 code0309        
