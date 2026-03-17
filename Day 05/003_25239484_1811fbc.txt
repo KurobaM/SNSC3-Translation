@@ -574,7 +574,7 @@ dialogtxt       "You'll break something!"
 dialogtxt       "So listen…"
 code0309        
 code0479        1, 2, 15
-dialogbig       36, 116, 1, 0, 0, "Absolutely no running!"
+dialogbig       36, 116, 1, 0, 0, "NO RUNNING!"
 code030c        
 call            @Func_206a
 code0479        0, 5, 15
