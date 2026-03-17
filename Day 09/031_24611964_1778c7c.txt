@@ -414,13 +414,7 @@ code040b
 
 @Event_10f2:
 code0301        8, 7
-dialogtxt       "Luxury"
-dialogtxt       ""
-dialogtxt       "feels"
-code0309        
-dialogtxt       "so"
-dialogtxt       ""
-dialogtxt       "lovely"
+dialogtxt       "Luxury feels so lovely~"
 code0309        
 code0302        7
 code040b        
