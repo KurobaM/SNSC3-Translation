@@ -444,7 +444,7 @@ code040b
 @Event_12b0:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　âSearchingâ"
+dialogtxt       "　　　　　∞Searching∞"
 code0309        
 dialogtxt       "I'm looking for a brown kitten."
 dialogtxt       "I think it likes dried sardines?"
