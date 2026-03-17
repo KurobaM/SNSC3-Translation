@@ -442,7 +442,7 @@ call            @Func_25b2
 code0479        1, 2, 13
 call            @Func_25e8
 dialogtxt       "Rejoice…"
-dialogtxt       "You wish is coming true."
+dialogtxt       "Your wish is coming true."
 dialogtxt       "I'm gonna beat the shit out of you."
 code0309        
 call            @Func_268c
