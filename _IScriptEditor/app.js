@@ -735,15 +735,24 @@ function getThatJP(text) {
     for (let lineNum in lines) {
         let line = lines[lineNum];
         if (textCode(line) != "NONE") {
+            currLineType = textCode(line);
             let parts = line.split('"');
             if (parts.length > 1) {
                 line = parts[1];
             }
-            currentLine += line + '\n';
-            currLineType = 'text';
+            if (currLineType.startsWith('menut') || currLineType.startsWith('choicet'))
+            {
+                if (currentLine != '')
+                    storedLines.push(currentLine);
+                currentLine = '';
+                storedLines.push(line + "\n");
+            }
+            else {
+                currentLine += line + '\n';
+            }
         }
         else if (clearCode(line)) {
-            if (currLineType == 'text') {
+            if (currLineType != "NONE") {
                 currentLine += '\n';
             }
         }
@@ -751,7 +760,7 @@ function getThatJP(text) {
             if (currentLine != '')
                 storedLines.push(currentLine);
             currentLine = '';
-            currLineType = 'code';
+            currLineType = "NONE";
         }
     }
     return storedLines;
