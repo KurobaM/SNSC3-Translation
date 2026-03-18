@@ -25,9 +25,8 @@ code0309
 call            @Func_1430
 code0479        0, 0, 12
 call            @Func_138e
-dialogtxt       "Yeah, so it seems."
-dialogtxt       "There are quite a lot of them."
-dialogtxt       "Sorry, but I have to go."
+dialogtxt       "Yeah, so it seems. There are quite"
+dialogtxt       "a lot of them. Sorry, but I have to go."
 code0309        
 call            @Func_14ca
 call            @Func_13ac
@@ -41,29 +40,25 @@ code0479        0, 0, 16
 code047d        0, 108
 call            @Func_1474
 call            @Func_1370
-dialogtxt       "Hmm…"
-dialogtxt       "Need any help?"
+dialogtxt       "Hmm… Need any help?"
 code047b        
 code0309        
 call            @Func_13c4
 code0479        1, 0, 13
 call            @Func_13fa
-dialogtxt       "No, it's fine."
-dialogtxt       "We'll take care of them."
+dialogtxt       "No, it's fine. We'll take care of them."
 dialogtxt       "You guys find Anise."
 code0309        
 call            @Func_1430
 code0479        0, 2, 12
 call            @Func_138e
-dialogtxt       "Got it."
-dialogtxt       "Be careful."
+dialogtxt       "Got it. Be careful."
 code0309        
 call            @Func_13c4
 code043c        4, 4
 code0479        1, 2, 12
 call            @Func_13fa
-dialogtxt       "You too."
-dialogtxt       "We're counting on you!"
+dialogtxt       "You too. We're counting on you!"
 dialogtxt       "[NAME 2], [NAME 1]!"
 code0309        
 call            @Func_149e
@@ -137,13 +132,11 @@ code047d        0, 0
 call            @Func_1448
 call            @Func_138e
 jumpz           @Cond_070c, ($b002 == 0)
-dialogtxt       "Right… Wait,"
-dialogtxt       "you're helping too?"
+dialogtxt       "Right… Wait, you're helping too?"
 goto            @Label_0742
 
 @Cond_070c:
-dialogtxt       "Right… Wait,"
-dialogtxt       "you're helping too?"
+dialogtxt       "Right… Wait, you're helping too?"
 goto            @Label_0742
 
 @Label_0742:
@@ -153,8 +146,8 @@ call            @Func_13c4
 code0479        1, 2, 12
 call            @Func_13fa
 dialogtxt       "We have no leads this time."
-dialogtxt       "Having more people means"
-dialogtxt       "we cover more ground, right?"
+dialogtxt       "Having more people means we cover"
+dialogtxt       "more ground, right?"
 code0309        
 call            @Func_149e
 call            @Func_1430
@@ -165,8 +158,7 @@ code0479        0, 2, 16
 code047d        0, 108
 call            @Func_1448
 call            @Func_138e
-dialogtxt       "That's true."
-dialogtxt       "I'm counting on you, Tier."
+dialogtxt       "That's true. I'm counting on you, Tier."
 dialogtxt       "But Murno is staying here!"
 code047b        
 code0309        
@@ -178,17 +170,15 @@ code0479        1, 4, 14
 code047d        1, 107
 call            @Func_145e
 call            @Func_13fa
-dialogtxt       "Ah…"
-dialogtxt       "I understand."
+dialogtxt       "Ah… I understand."
 dialogtxt       "… Sorry."
 code047b        
 code0309        
 call            @Func_1430
 code0479        0, 2, 12
 call            @Func_138e
-dialogtxt       "Don't worry about it."
-dialogtxt       "It's your job to protect"
-dialogtxt       "the Demon Stone."
+dialogtxt       "Don't worry about it. It's your job"
+dialogtxt       "to protect the Demon Stone."
 code0309        
 call            @Func_13c4
 code0479        1, 2, 12
@@ -287,8 +277,8 @@ goto            @Cond_0c08
 
 @Cond_0c08:
 jumpz           @Cond_0c4a, ($b003 == 2)
-dialogtxt       "I know,"
-dialogtxt       "you don't need to say it every time."
+dialogtxt       "I know, you don't need to say it every"
+dialogtxt       "time."
 goto            @Cond_0c4a
 
 @Cond_0c4a:
@@ -542,4 +532,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

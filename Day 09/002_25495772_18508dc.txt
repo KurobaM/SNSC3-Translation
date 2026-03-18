@@ -74,7 +74,7 @@ goto            @Cond_02c8
 @Cond_02c8:
 jumpz           @Cond_0326, ($b003 == 1)
 dialogtxt       "Something's going on…"
-dialogtxt       "Is it another Stray…?"
+dialogtxt       "Is it another Stray?"
 goto            @Cond_0326
 
 @Cond_0326:
@@ -324,4 +324,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

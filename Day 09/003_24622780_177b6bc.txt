@@ -160,8 +160,8 @@ goto            @start
 code047d        0, 107
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Promise me you'll"
-dialogtxt       "come back safely, [NAME 2]."
+dialogtxt       "Promise me you'll come back safely,"
+dialogtxt       "[NAME 2]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -171,8 +171,7 @@ code040b
 code047d        0, 138
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Go beat up"
-dialogtxt       "those bad guys!"
+dialogtxt       "Go beat up those bad guys!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -212,8 +211,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Ugh… I don't"
-dialogtxt       "want to clean the floors again…"
+dialogtxt       "Ugh… I don't want to clean the floors"
+dialogtxt       "again…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -427,4 +426,3 @@ code031f        7
 code031a        7
 code033e        196
 ret             
-
