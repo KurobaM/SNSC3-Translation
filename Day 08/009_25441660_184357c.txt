@@ -370,13 +370,13 @@ code047d        0, 0
 call            @Func_19c4
 call            @Func_190a
 jumpz           @Cond_1060, ($b002 == 0)
-dialogtxt       "Wha-?"
-dialogtxt       "Why me?!"
+dialogtxt       "Wha-"
+dialogtxt       "Why me!?"
 goto            @Label_107e
 
 @Cond_1060:
-dialogtxt       "Wha-?"
-dialogtxt       "Why me?!"
+dialogtxt       "Wha-"
+dialogtxt       "Why me!?"
 goto            @Label_107e
 
 @Label_107e:

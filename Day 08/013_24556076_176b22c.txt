@@ -356,7 +356,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Red Wing's coloration…"
 dialogtxt       "There's a rumor that it comes"
-dialogtxt       "from its victims?!"
+dialogtxt       "from its victims!?"
 code0309        
 dialogtxt       "It's too frightening to say more."
 code0309        

@@ -643,7 +643,7 @@ dialogtxt       "forget you!"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Because to me…"
-dialogtxt       "You're my-!"
+dialogtxt       "You're my-"
 code0309        
 call            @Func_3a1a
 code0479        0, 4, 12
