@@ -45,7 +45,7 @@ code0309
 call            @Func_29b6
 code0479        0, 2, 14
 call            @Func_2914
-dialogtxt       "Okay…?"
+dialogtxt       "Okay?"
 code0309        
 call            @Func_294a
 code0479        1, 2, 12
@@ -70,7 +70,7 @@ code0309
 call            @Func_29b6
 code0479        0, 2, 16
 call            @Func_2914
-dialogtxt       "Okay…?"
+dialogtxt       "Okay?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 16
@@ -201,7 +201,7 @@ call            @Func_29b6
 code0479        0, 0, 16
 call            @Func_2914
 dialogtxt       "I mean…"
-dialogtxt       "I guess so…?"
+dialogtxt       "I guess so?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 14
@@ -215,7 +215,7 @@ dialogtxt       "people seem to be busy…"
 code0309        
 dialogtxt       "And Lady Ianna won't give me"
 dialogtxt       "much in the way of a budget…"
-code0309  
+code0309        
 code0479        1, 4, 14
 dialogtxt       "And some of the targets seem a"
 dialogtxt       "little too strong for me…"
@@ -223,7 +223,7 @@ code0309
 call            @Func_29b6
 code0479        0, 0, 14
 call            @Func_2914
-dialogtxt       "Okay…?"
+dialogtxt       "Okay?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 12
@@ -252,7 +252,7 @@ code0309
 call            @Func_29b6
 code0479        0, 4, 12
 call            @Func_2914
-dialogtxt       "Okay…?"
+dialogtxt       "Okay?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 12
@@ -340,7 +340,7 @@ code0479        1, 4, 14
 call            @Func_2962
 dialogtxt       "Oh…"
 dialogtxt       "Did you forget your current"
-dialogtxt       "objective…？"
+dialogtxt       "objective?"
 code047b        
 code0309        
 code0479        1, 4, 16
@@ -349,7 +349,7 @@ code0309
 dialogtxt       "Alright."
 dialogtxt       "We'll act like you never accepted"
 dialogtxt       "the request."
-code0309        
+code0309
 call            @Func_2a50
 call            @Func_299e
 goto            @Label_1032
@@ -1091,4 +1091,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

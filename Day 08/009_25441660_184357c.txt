@@ -27,7 +27,7 @@ call            @Func_19f0
 call            @Func_18ec
 dialogtxt       "Wait, Bro!"
 dialogtxt       "I thought Ianna told you to focus"
-dialogtxt       "on your Vigilante Corps work…?"
+dialogtxt       "on your Vigilante Corps work?"
 code047b        
 code0309        
 call            @Func_1940
@@ -117,13 +117,13 @@ goto            @Cond_05b6
 
 @Cond_05b6:
 jumpz           @Cond_05ee, ($b003 == 1)
-dialogtxt       "Red Wing…?"
+dialogtxt       "Red Wing?"
 dialogtxt       "So, its feathers are red?"
 goto            @Cond_05ee
 
 @Cond_05ee:
 jumpz           @Cond_0630, ($b003 == 2)
-dialogtxt       "Red Wing…?"
+dialogtxt       "Red Wing?"
 dialogtxt       "So…"
 dialogtxt       "Does that mean it has red feathers?"
 goto            @Cond_0630
@@ -199,12 +199,12 @@ code047d        1, 2
 call            @Func_19da
 call            @Func_1976
 jumpz           @Cond_08f0, ($b003 == 0)
-dialogtxt       "That Is Cool…?"
+dialogtxt       "That Is Cool?"
 goto            @Cond_08f0
 
 @Cond_08f0:
 jumpz           @Cond_091c, ($b003 == 1)
-dialogtxt       "Cool?"
+dialogtxt       "That's cool?"
 goto            @Cond_091c
 
 @Cond_091c:
@@ -370,13 +370,13 @@ code047d        0, 0
 call            @Func_19c4
 call            @Func_190a
 jumpz           @Cond_1060, ($b002 == 0)
-dialogtxt       "Wha…?"
-dialogtxt       "Why me?!"
+dialogtxt       "Wha-"
+dialogtxt       "Why me!?"
 goto            @Label_107e
 
 @Cond_1060:
-dialogtxt       "Wha…?"
-dialogtxt       "Why me?!"
+dialogtxt       "Wha-"
+dialogtxt       "Why me!?"
 goto            @Label_107e
 
 @Label_107e:
@@ -668,4 +668,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
