@@ -172,7 +172,7 @@ goto            @Cond_08b0
 
 @Cond_08b0:
 jumpz           @Cond_0916, ($b003 == 2)
-dialogtxt       "What…?"
+dialogtxt       "What?"
 dialogtxt       "Isn't that Red Wing living there?"
 dialogtxt       "No one's supposed to go there."
 goto            @Cond_0916
@@ -204,13 +204,13 @@ call            @Func_1878
 jumpz           @Cond_0a96, ($b002 == 0)
 dialogtxt       "Hmm, is that so…"
 dialogtxt       "Well, we've got no other leads…"
-dialogtxt       "Shall we take a look…?"
+dialogtxt       "Shall we take a look?"
 goto            @Label_0aee
 
 @Cond_0a96:
 dialogtxt       "Hmm, is that so…"
 dialogtxt       "Well, we've got no other leads…"
-dialogtxt       "Shall we take a look…?"
+dialogtxt       "Shall we take a look?"
 goto            @Label_0aee
 
 @Label_0aee:
@@ -616,4 +616,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

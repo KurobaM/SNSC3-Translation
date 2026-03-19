@@ -103,7 +103,7 @@ call            @Func_15c6
 code043c        6, 4
 call            @Func_14ee
 dialogtxt       "Master Bostaph is…"
-dialogtxt       "Suspicious…?"
+dialogtxt       "Suspicious?"
 code047b        
 code0309        
 call            @Func_161c
@@ -545,4 +545,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

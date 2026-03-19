@@ -302,11 +302,11 @@ code047d        1, 0
 call            @Func_1956
 call            @Func_18d4
 jumpz           @Cond_0d5a, ($b002 == 0)
-dialogtxt       "What's with him…?"
+dialogtxt       "What's with him?"
 goto            @Label_0d72
 
 @Cond_0d5a:
-dialogtxt       "What's with him…?"
+dialogtxt       "What's with him?"
 goto            @Label_0d72
 
 @Label_0d72:
@@ -645,4 +645,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

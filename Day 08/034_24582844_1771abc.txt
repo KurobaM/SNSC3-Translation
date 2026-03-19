@@ -358,10 +358,9 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "My, that's a Crafknight's hammer."
-dialogtxt       "I'm actually a traveling peddler,"
-dialogtxt       "trying to make a name for myself"
-dialogtxt       "among Craftknights and blacksmiths."
+dialogtxt       "That's a Craftknight's hammer. I'm a "
+dialogtxt       "traveling peddler, trying to make a name"
+dialogtxt       "for myself among fellow professionals."
 code0309        
 dialogtxt       "Eventually I'd like to open"
 dialogtxt       "a shop with my daugher. And for"
@@ -425,4 +424,3 @@ code0309
 code047e        0, 0
 code0302        7
 code040b        
-
