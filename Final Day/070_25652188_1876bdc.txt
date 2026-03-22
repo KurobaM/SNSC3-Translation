@@ -1039,13 +1039,13 @@ code0479        0, 2, 16
 call            @Func_4486
 jumpz           @Cond_2f32, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_2f60
 
 @Cond_2f32:
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_2f60
 
@@ -1116,13 +1116,13 @@ code0479        0, 2, 16
 call            @Func_4486
 jumpz           @Cond_31d8, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_3206
 
 @Cond_31d8:
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_3206
 
@@ -1192,13 +1192,13 @@ code0479        0, 2, 16
 call            @Func_4486
 jumpz           @Cond_347c, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_34aa
 
 @Cond_347c:
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_34aa
 
@@ -1268,13 +1268,13 @@ code0479        0, 2, 16
 call            @Func_4486
 jumpz           @Cond_370c, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_373a
 
 @Cond_370c:
 dialogtxt       "What?"
-dialogtxt       "It's… Hot?"
+dialogtxt       "It's… hot?"
 dialogtxt       "This-"
 goto            @Label_373a
 
