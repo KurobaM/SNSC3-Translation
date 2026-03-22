@@ -100,7 +100,7 @@ const names = {
     113:"Thus",
     114:"Roche",
     115:"Pike",
-    116:"Gillian",
+    116:"Gillan",
     117:"V.E Otome Mode",
     118:"Gatekeeper",
     119:"Chief",
