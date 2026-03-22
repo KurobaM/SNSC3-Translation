@@ -68,8 +68,7 @@ code047d        1, 112
 call            @Func_1772
 call            @Func_16f0
 dialogtxt       "No…"
-dialogtxt       "I, I……"
-dialogtxt       "I want power too………"
+dialogtxt       "I-I… I want power too…"
 code047b        
 code0309        
 call            @Func_1744
@@ -123,7 +122,7 @@ code040d        15
 code0479        1, 3, 15
 call            @Func_1772
 call            @Func_16f0
-dialogbig       24, 116, 1, 0, 0, "Uwaa…!"
+dialogbig       24, 116, 1, 0, 0, "Uwaa!"
 code047b        
 code030c        
 call            @Func_17c8
@@ -223,28 +222,25 @@ call            @Func_170e
 jumpz           @Cond_091a, ($b003 == 0)
 dialogtxt       "The Sword's Energy!"
 dialogtxt       "His Body Is…"
-dialogtxt       "Being Consumed By The Sword…!"
+dialogtxt       "Being Consumed By The Sword!"
 goto            @Cond_091a
 
 @Cond_091a:
 jumpz           @Cond_0982, ($b003 == 1)
 dialogtxt       "What is this dreadful ill will…"
-dialogtxt       "No, his body is…"
-dialogtxt       "Being consumed…!"
+dialogtxt       "No, his body is… being consumed!"
 goto            @Cond_0982
 
 @Cond_0982:
 jumpz           @Cond_09e2, ($b003 == 2)
 dialogtxt       "What… This awful ill will…"
-dialogtxt       "His body is…"
-dialogtxt       "Being consumed…!"
+dialogtxt       "His body is… being consumed!"
 goto            @Cond_09e2
 
 @Cond_09e2:
 jumpz           @Cond_0a46, ($b003 == 3)
 dialogtxt       "What… This awful power…"
-dialogtxt       "His body is…"
-dialogtxt       "Being consumed…!"
+dialogtxt       "His body is… being consumed!"
 goto            @Cond_0a46
 
 @Cond_0a46:
@@ -255,11 +251,11 @@ code043c        0, 3
 code0479        0, 2, 16
 call            @Func_16a2
 jumpz           @Cond_0aa0, ($b002 == 0)
-dialogtxt       "Consumed… By the sword!?"
+dialogtxt       "Consumed… by the sword!?"
 goto            @Label_0abe
 
 @Cond_0aa0:
-dialogtxt       "Consumed… By the sword!?"
+dialogtxt       "Consumed… by the sword!?"
 goto            @Label_0abe
 
 @Label_0abe:
@@ -326,15 +322,15 @@ code0479        0, 2, 15
 call            @Func_175c
 call            @Func_1684
 jumpz           @Cond_0e40, ($b002 == 0)
-dialogtxt       "What is this…!"
-dialogtxt       "I'm getting sucked in…!?"
-dialogtxt       "[NAME 1]…!"
+dialogtxt       "What is this!"
+dialogtxt       "I'm getting sucked in!?"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0e7c
 
 @Cond_0e40:
-dialogtxt       "What is this…!"
-dialogtxt       "I'm getting sucked in…!?"
-dialogtxt       "[NAME 1]…!"
+dialogtxt       "What is this!"
+dialogtxt       "I'm getting sucked in!?"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0e7c
 
 @Label_0e7c:
@@ -622,4 +618,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

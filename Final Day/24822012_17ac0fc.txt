@@ -35,7 +35,7 @@ goto            @Label_019a
 @Cond_0154:
 dialogtxt       "Master Bostaph was supposed to"
 dialogtxt       "be Anise's ally, so why…"
-dialogtxt       "I don't understand…!"
+dialogtxt       "I don't understand!"
 goto            @Label_019a
 
 @Label_019a:
@@ -46,7 +46,7 @@ code0479        1, 0, 12
 call            @Func_2c7e
 dialogtxt       "I Do Not Comprehend Their"
 dialogtxt       "Objective Of Taking Lady Murno"
-dialogtxt       "To The G※an Ruins. However…"
+dialogtxt       "To The Govan Ruins. However…"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "We Do Not Have Much Time Left."
@@ -135,7 +135,7 @@ goto            @Label_060c
 @Cond_05c6:
 dialogtxt       "Master Bostaph was supposed to"
 dialogtxt       "be Anise's ally, so why…"
-dialogtxt       "I don't understand…!"
+dialogtxt       "I don't understand!"
 goto            @Label_060c
 
 @Label_060c:
@@ -186,7 +186,7 @@ goto            @Label_0850
 @Cond_080a:
 dialogtxt       "Master Bostaph was supposed to"
 dialogtxt       "be Anise's ally, so why…"
-dialogtxt       "I don't understand…!"
+dialogtxt       "I don't understand!"
 goto            @Label_0850
 
 @Label_0850:
@@ -531,7 +531,7 @@ call            @Func_2cf8
 jumpz           @Cond_19c0, ($b003 == 0)
 call            @Func_2c60
 dialogtxt       "I Detected A Big Surge Of Energy"
-dialogtxt       "Coming From Deep Within The R※ins."
+dialogtxt       "Coming From Deep Within The Ruins."
 dialogtxt       "Please Exercise Caution."
 code0309        
 call            @Func_2cb4
@@ -1103,4 +1103,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

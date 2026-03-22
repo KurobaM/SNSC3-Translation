@@ -71,17 +71,17 @@ code040d        15
 code0479        0, 5, 14
 call            @Func_450e
 call            @Func_4436
-dialogtxt       "Wai…!"
-dialogtxt       "Why…!?"
+dialogtxt       "Wai-"
+dialogtxt       "Why!?"
 code047b        
 code0309        
 call            @Func_448a
 code0479        1, 2, 13
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "What's wrong…?"
+dialogtxt       "What's wrong?"
 dialogtxt       "If you don't do it,"
-dialogtxt       "I will…!"
+dialogtxt       "I will!"
 code047b        
 code0309        
 call            @Func_44f6
@@ -181,12 +181,12 @@ call            @Func_450e
 call            @Func_4454
 jumpz           @Cond_07f8, ($b002 == 0)
 dialogtxt       "No…"
-dialogtxt       "Stop, [NAME 1]…!"
+dialogtxt       "Stop, [NAME 1]!"
 goto            @Label_081a
 
 @Cond_07f8:
 dialogtxt       "No…"
-dialogtxt       "Stop, [NAME 1]…!"
+dialogtxt       "Stop, [NAME 1]!"
 goto            @Label_081a
 
 @Label_081a:
@@ -286,13 +286,13 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "Ti… Tier!?"
+dialogtxt       "Ti-Tier!?"
 dialogtxt       "Master! Bro!"
 dialogtxt       "Velvoren too?"
 code047b        
 code0309        
 code0479        0, 5, 16
-dialogtxt       "Even Lemmy…!?"
+dialogtxt       "Even Lemmy!?"
 code0309        
 call            @Func_4590
 call            @Func_4472
@@ -501,7 +501,7 @@ call            @Func_448a
 code0479        1, 2, 12
 call            @Func_44c0
 dialogtxt       "Don't underestimate rock and roll."
-dialogtxt       "…Is what I'd like to say,"
+dialogtxt       "… Is what I'd like to say,"
 dialogtxt       "but we had a guide."
 code0309        
 call            @Func_4564
@@ -533,7 +533,7 @@ call            @Func_450e
 call            @Func_4454
 jumpz           @Cond_19ee, ($b003 == 0)
 dialogtxt       "That Reminds Me…"
-dialogtxt       "That Velcoren Person…"
+dialogtxt       "That Velvoren Person…"
 goto            @Cond_19ee
 
 @Cond_19ee:
@@ -652,7 +652,7 @@ code047d        1, 116
 call            @Func_4524
 call            @Func_44c0
 dialogtxt       "Fu… Haha…"
-dialogtxt       "Ahahaha…!"
+dialogtxt       "Ahahaha!"
 code047b        
 code0309        
 call            @Func_44f6
@@ -683,7 +683,7 @@ code0309
 call            @Func_44f6
 code0479        0, 2, 14
 call            @Func_4454
-dialogtxt       "And…?"
+dialogtxt       "And?"
 code0309        
 call            @Func_4590
 call            @Func_4472
@@ -930,7 +930,7 @@ code047d        0, 116
 call            @Func_450e
 code047c        0, 6
 call            @Func_4454
-dialogtxt       "What are you…!?"
+dialogtxt       "What are you!?"
 code047b        
 code0309        
 call            @Func_457a
@@ -968,8 +968,8 @@ code0479        0, 2, 17
 code047d        0, 115
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "Sh… Shit!"
-dialogtxt       "Why you…!"
+dialogtxt       "Sh-Shit!"
+dialogtxt       "Why you!"
 code047b        
 code0309        
 call            @Func_448a
@@ -1282,7 +1282,7 @@ goto            @Cond_3cec
 
 @Cond_3cec:
 jumpz           @Cond_3d24, ($b003 == 1)
-dialogtxt       "Right…!"
+dialogtxt       "Right!"
 dialogtxt       "We have no choice!"
 goto            @Cond_3d24
 
@@ -1546,4 +1546,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

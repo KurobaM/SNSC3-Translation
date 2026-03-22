@@ -15,8 +15,7 @@ call            @Func_0fc0
 code043c        2, 4
 code0479        0, 0, 16
 call            @Func_0f1e
-dialogtxt       "Seriously, and it's put"
-dialogtxt       "us in danger too…"
+dialogtxt       "Seriously, and it put us in danger too…"
 dialogtxt       "I'm amazed we're still alive."
 code0309        
 call            @Func_0f54
@@ -40,8 +39,7 @@ code0309
 code0479        0, 0, 12
 code0479        1, 0, 13
 dialogtxt       "The Demon Stone is"
-dialogtxt       "also the reason"
-dialogtxt       "I met you, Tier."
+dialogtxt       "also the reason I met you, Tier."
 code0309        
 call            @Func_0fc0
 code0479        0, 0, 13
@@ -99,8 +97,7 @@ code0309
 call            @Func_0fc0
 code0479        0, 2, 16
 call            @Func_0f1e
-dialogtxt       "Wait, [NAME 2],"
-dialogtxt       "you're in debt!?"
+dialogtxt       "Wait, [NAME 2], you're in debt!?"
 code0309        
 call            @Func_0f54
 code043c        0, 2
@@ -134,20 +131,17 @@ code043c        2, 4
 code0479        0, 2, 14
 call            @Func_0f1e
 dialogtxt       "Don't worry, [NAME 2]."
-dialogtxt       "That won't be enough"
-dialogtxt       "to keep us apart."
+dialogtxt       "That won't be enough to keep us apart."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Rather, I'm fired up!"
-dialogtxt       "Now, we can overcome"
-dialogtxt       "this, together!"
+dialogtxt       "Now, we can overcome this, together!"
 code0309        
 call            @Func_0f54
 code0479        1, 1, 12
 call            @Func_0f8a
 dialogtxt       "Okay, okay."
-dialogtxt       "Geez…"
-dialogtxt       "I can't keep up with you."
+dialogtxt       "Geez… I can't keep up with you."
 code0309        
 code0479        1, 2, 12
 jumpz           @Cond_086a, ($b002 == 0)
@@ -166,8 +160,7 @@ call            @Func_0fc0
 code0479        0, 7, 12
 call            @Func_0f1e
 dialogtxt       "Thanks, [NAME 2]!"
-dialogtxt       "That's what I"
-dialogtxt       "love about you!"
+dialogtxt       "That's what I love about you!"
 code0309        
 call            @Func_0f54
 code0479        1, 7, 16
@@ -394,4 +387,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

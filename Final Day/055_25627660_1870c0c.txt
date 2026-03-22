@@ -42,11 +42,11 @@ call            @Func_1e48
 code0479        0, 2, 15
 call            @Func_1d70
 jumpz           @Cond_02ba, ($b002 == 0)
-dialogtxt       "Y-You two…!"
+dialogtxt       "Y-You two!"
 goto            @Label_02d4
 
 @Cond_02ba:
-dialogtxt       "Y-You two…!"
+dialogtxt       "Y-You two!"
 goto            @Label_02d4
 
 @Label_02d4:
@@ -82,13 +82,13 @@ call            @Func_1e30
 code0479        0, 2, 14
 call            @Func_1d8e
 jumpz           @Cond_049a, ($b002 == 0)
-dialogtxt       "Why are you here…?"
+dialogtxt       "Why are you here?"
 dialogtxt       "What about Master…"
 dialogtxt       "Where are Master and Jade!?"
 goto            @Label_04e2
 
 @Cond_049a:
-dialogtxt       "Why are you here…?"
+dialogtxt       "Why are you here?"
 dialogtxt       "What about Master…"
 dialogtxt       "Where are Master and Jade!?"
 goto            @Label_04e2
@@ -385,9 +385,9 @@ code0309
 call            @Func_1dc4
 code0479        1, 5, 16
 call            @Func_1dfa
-dialogtxt       "What…!?"
+dialogtxt       "What!?"
 dialogtxt       "What did you say?"
-dialogtxt       "You have brain damage…?"
+dialogtxt       "You have brain damage?"
 code0309        
 call            @Func_1e30
 code0334        
@@ -734,4 +734,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

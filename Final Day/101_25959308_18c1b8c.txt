@@ -75,7 +75,7 @@ code0309
 call            @Func_0ccc
 code0479        1, 2, 16
 call            @Func_0d02
-dialogtxt       "That means…?"
+dialogtxt       "That means?"
 dialogtxt       "I'm pretty lame?"
 code0309        
 call            @Func_0d38
@@ -88,7 +88,7 @@ call            @Func_0ccc
 code0479        1, 11, 13
 call            @Func_0d02
 dialogtxt       "Eh?"
-dialogtxt       "Really…?"
+dialogtxt       "Really?"
 code0309        
 call            @Func_0d38
 code0479        0, 8, 13
@@ -127,7 +127,7 @@ code0309
 call            @Func_0ccc
 code0479        1, 5, 14
 call            @Func_0d02
-dialogtxt       "Eh…?"
+dialogtxt       "Eh?"
 code0309        
 call            @Func_0dd2
 call            @Func_0d20
@@ -343,4 +343,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

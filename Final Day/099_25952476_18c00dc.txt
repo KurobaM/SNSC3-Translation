@@ -50,8 +50,7 @@ goto            @Label_052a
 @Label_052a:
 code031d        8, 0
 dialogtxt       "Well, this way Murno"
-dialogtxt       "is able to live in peace,"
-dialogtxt       "so it's fine."
+dialogtxt       "is able to live in peace, so it's fine."
 code030a        6, 1
 code031f        8
 dialogtxt       "And so,"
@@ -262,4 +261,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

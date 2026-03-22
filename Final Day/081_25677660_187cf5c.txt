@@ -250,7 +250,7 @@ code0479        0, 4, 16
 call            @Func_1c34
 call            @Func_1b7a
 jumpz           @Cond_0a78, ($b002 == 0)
-dialogtxt       "Shit…"
+dialogtxt       "Crap…"
 dialogtxt       "What should I do…"
 goto            @Label_0aae
 
@@ -400,7 +400,7 @@ code0309
 call            @Func_1c1c
 code0479        0, 4, 14
 call            @Func_1b7a
-dialogtxt       "That's true, but…!"
+dialogtxt       "That's true, but-"
 code0309        
 call            @Func_1bb0
 code0479        1, 2, 15
@@ -412,7 +412,7 @@ call            @Func_1c1c
 code0479        0, 5, 13
 call            @Func_1b7a
 jumpz           @Cond_12e2, ($b002 == 0)
-dialogtxt       "I'm… A Craftknight…"
+dialogtxt       "I'm… a Craftknight…"
 dialogtxt       "…"
 dialogtxt       "Heh, so that's it…"
 code0309        
@@ -724,4 +724,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

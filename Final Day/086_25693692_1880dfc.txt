@@ -37,36 +37,36 @@ code0301        8, 1
 code047e        0, 1
 jumpz           @Cond_0142, ($f0261 == 1)
 dialogtxt       "Ah…"
-dialogtxt       "Murno…?"
+dialogtxt       "Murno?"
 goto            @Label_01fe
 
 @Cond_0142:
 jumpz           @Cond_0168, ($f0262 == 1)
 dialogtxt       "Ah…"
-dialogtxt       "[NAME 1]…?"
+dialogtxt       "[NAME 1]?"
 goto            @Label_01fe
 
 @Cond_0168:
 jumpz           @Cond_0190, ($f0263 == 1)
 dialogtxt       "Ah…"
-dialogtxt       "Master…?"
+dialogtxt       "Master?"
 goto            @Label_01fe
 
 @Cond_0190:
 jumpz           @Cond_01ba, ($f0264 == 1)
 dialogtxt       "Ah…"
-dialogtxt       "Lemmy…?"
+dialogtxt       "Lemmy?"
 goto            @Label_01fe
 
 @Cond_01ba:
 jumpz           @Cond_01e4, ($f0265 == 1)
 dialogtxt       "Ah…"
-dialogtxt       "Bro…?"
+dialogtxt       "Bro?"
 goto            @Label_01fe
 
 @Cond_01e4:
 dialogtxt       "Ah…"
-dialogtxt       "Tier…?"
+dialogtxt       "Tier?"
 goto            @Label_01fe
 
 @Label_01fe:
@@ -799,4 +799,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

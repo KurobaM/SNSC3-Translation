@@ -110,13 +110,11 @@ code0479        0, 2, 16
 call            @Func_0d16
 call            @Func_0c3e
 jumpz           @Cond_04e6, ($b002 == 0)
-dialogtxt       "Want to rest"
-dialogtxt       "over there?"
+dialogtxt       "Want to rest over there?"
 goto            @Label_050a
 
 @Cond_04e6:
-dialogtxt       "Want to rest"
-dialogtxt       "over there?"
+dialogtxt       "Want to rest over there?"
 goto            @Label_050a
 
 @Label_050a:
@@ -393,4 +391,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

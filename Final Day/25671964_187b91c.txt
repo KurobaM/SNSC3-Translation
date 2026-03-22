@@ -282,7 +282,7 @@ code0479        0, 5, 16
 call            @Func_178e
 dialogtxt       "Eh…?"
 dialogtxt       "Is that Murno!?"
-dialogtxt       "How…!?"
+dialogtxt       "How!?"
 code047b        
 code0309        
 call            @Func_18bc
@@ -650,4 +650,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

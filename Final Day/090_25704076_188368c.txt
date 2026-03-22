@@ -27,13 +27,13 @@ code047d        0, 0
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_01f6, ($b002 == 0)
-dialogtxt       "What just…?"
-dialogtxt       "Where are we…!?"
+dialogtxt       "What just-"
+dialogtxt       "Where are we!?"
 goto            @Label_0228
 
 @Cond_01f6:
-dialogtxt       "What just…?"
-dialogtxt       "Where are we…!?"
+dialogtxt       "What just-"
+dialogtxt       "Where are we!?"
 goto            @Label_0228
 
 @Label_0228:
@@ -158,8 +158,8 @@ goto            @Label_071a
 call            @Func_20e0
 call            @Func_1fdc
 dialogtxt       "What's that?"
-dialogtxt       "That sword…!"
-dialogtxt       "Is that… Velvoren…?"
+dialogtxt       "That sword!"
+dialogtxt       "Is that… Velvoren?"
 code047b        
 code0309        
 call            @Func_2030
@@ -200,14 +200,14 @@ goto            @Cond_08e0
 jumpz           @Cond_094a, ($b003 == 2)
 dialogtxt       "His body is already gone…"
 dialogtxt       "The sword's malice has taken form!"
-dialogtxt       "It's the power of hatred and anger…!"
+dialogtxt       "It's the power of hatred and anger!"
 goto            @Cond_094a
 
 @Cond_094a:
 jumpz           @Cond_09c0, ($b003 == 3)
 dialogtxt       "H-his entire body has been"
 dialogtxt       "taken in by the power of the sword…"
-dialogtxt       "So much hatred and anger…!"
+dialogtxt       "So much hatred and anger!"
 goto            @Cond_09c0
 
 @Cond_09c0:
@@ -216,15 +216,15 @@ call            @Func_209c
 code0479        0, 2, 16
 call            @Func_1ffa
 jumpz           @Cond_0a42, ($b002 == 0)
-dialogtxt       "Wh-What's this feeling…!"
+dialogtxt       "Wh-What's this feeling!?"
 dialogtxt       "Shit, my entire body's gone cold…"
-dialogtxt       "What should I…!"
+dialogtxt       "What should I-"
 goto            @Label_0a96
 
 @Cond_0a42:
-dialogtxt       "Wh-What's this feeling…!"
+dialogtxt       "Wh-What's this feeling!?"
 dialogtxt       "Uu, my entire body's gone cold…"
-dialogtxt       "What should I…!"
+dialogtxt       "What should I-"
 goto            @Label_0a96
 
 @Label_0a96:
@@ -244,7 +244,7 @@ code047d        0, 112
 code0301        16, 3
 code047e        0, 1
 dialogtxt       "Humans…"
-dialogtxt       "Kill…!"
+dialogtxt       "Kill!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -264,13 +264,13 @@ call            @Func_1fdc
 jumpz           @Cond_0c10, ($b002 == 0)
 dialogtxt       "Ku…"
 dialogtxt       "I-I…"
-dialogtxt       "[NAME 1]…!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0c38
 
 @Cond_0c10:
 dialogtxt       "Uu…"
 dialogtxt       "I-I…"
-dialogtxt       "[NAME 1]…!"
+dialogtxt       "[NAME 1]!"
 goto            @Label_0c38
 
 @Label_0c38:
@@ -482,7 +482,7 @@ code047d        0, 112
 code0301        8, 3
 code047e        0, 1
 dialogtxt       "I won't forgive you…!"
-dialogtxt       "H・u・m・a・n…!"
+dialogtxt       "Hã»uã»mã»aã»n…!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -822,4 +822,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
