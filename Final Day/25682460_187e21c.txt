@@ -389,13 +389,13 @@ call            @Func_1b28
 jumpz           @Cond_110c, ($b002 == 0)
 dialogtxt       "But what should I do!?"
 dialogtxt       "[NAME 1] can't hear"
-dialogtxt       "my voice anymore…!"
+dialogtxt       "my voice anymore!"
 goto            @Label_1148
 
 @Cond_110c:
 dialogtxt       "But what should I do!?"
 dialogtxt       "[NAME 1] can't hear"
-dialogtxt       "my voice anymore…!"
+dialogtxt       "my voice anymore!"
 goto            @Label_1148
 
 @Label_1148:
@@ -415,8 +415,7 @@ code0479        0, 5, 16
 call            @Func_1b28
 jumpz           @Cond_1290, ($b002 == 0)
 dialogtxt       "What do you mean, we're…"
-dialogtxt       "…"
-dialogtxt       "Ah, right…"
+dialogtxt       "… Ah, right…"
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Okay, Bro!"
@@ -426,8 +425,7 @@ goto            @Label_131e
 
 @Cond_1290:
 dialogtxt       "What do you mean, we're…"
-dialogtxt       "…"
-dialogtxt       "Ah, right…"
+dialogtxt       "… Ah, right…"
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Okay, Bro!"
@@ -726,4 +724,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

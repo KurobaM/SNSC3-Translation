@@ -254,7 +254,7 @@ code047d        0, 129
 call            @Func_2320
 call            @Func_2248
 dialogtxt       "This is…"
-dialogtxt       "A miracle…!"
+dialogtxt       "A miracle!"
 code047b        
 code0309        
 call            @Func_2376
@@ -362,8 +362,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
-dialogtxt       "You think so?"
+dialogtxt       "Ehehe… You think so?"
 goto            @Label_1026
 
 @Cond_0d54:
@@ -381,8 +380,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
-dialogtxt       "You think so?"
+dialogtxt       "Ehehe… You think so?"
 goto            @Label_1026
 
 @Cond_0e04:
@@ -393,8 +391,7 @@ code047d        1, 132
 call            @Func_2336
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "Somehow I'm"
-dialogtxt       "not suprised."
+dialogtxt       "Somehow I'm not suprised."
 dialogtxt       "Because…"
 code047b        
 code0309        
@@ -406,8 +403,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
-dialogtxt       "You think so?"
+dialogtxt       "Ehehe… You think so?"
 goto            @Label_1026
 
 @Cond_0f24:
@@ -416,7 +412,7 @@ code0479        1, 7, 13
 code047d        1, 109
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "A miracle…!"
+dialogtxt       "A miracle!"
 dialogtxt       "That suits you perfectly,"
 dialogtxt       "[NAME 2]!"
 code047b        
@@ -429,8 +425,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
-dialogtxt       "You think so?"
+dialogtxt       "Ehehe… You think so?"
 goto            @Label_1026
 
 @Label_1026:
@@ -981,4 +976,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

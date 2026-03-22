@@ -9,7 +9,7 @@ call            @Func_07f6
 call            @Func_075e
 dialogtxt       "I heard something bad happened"
 dialogtxt       "while I was sent away…"
-dialogtxt       "I hope you guys were safe…"
+dialogtxt       "I hope you guys were safe!"
 goto            @Label_015e
 
 @Cond_00d4:
@@ -236,4 +236,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

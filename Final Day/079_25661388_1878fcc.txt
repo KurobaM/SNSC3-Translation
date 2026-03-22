@@ -102,11 +102,11 @@ call            @Func_2e48
 code0479        0, 2, 14
 call            @Func_2da6
 jumpz           @Cond_049c, ($b002 == 0)
-dialogtxt       "This is it…!"
+dialogtxt       "This is it!"
 goto            @Label_04b6
 
 @Cond_049c:
-dialogtxt       "This is it…!"
+dialogtxt       "This is it!"
 goto            @Label_04b6
 
 @Label_04b6:
@@ -290,7 +290,7 @@ code0309
 call            @Func_2e48
 code0479        0, 5, 16
 call            @Func_2da6
-dialogtxt       "Th-That's…!"
+dialogtxt       "Th-That's-"
 code0309        
 call            @Func_2eb6
 call            @Func_2ddc
@@ -483,7 +483,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_2e60
 call            @Func_2d88
-dialogtxt       "Lemmy…!"
+dialogtxt       "Lemmy!"
 code047b        
 code0309        
 call            @Func_2eb6
@@ -557,7 +557,7 @@ dialogtxt       "I must obtain it…"
 dialogtxt       "For my goal…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "To surpass Rob…!"
+dialogtxt       "To surpass Rob!"
 code0309        
 call            @Func_2eb6
 call            @Func_2e48
@@ -612,7 +612,7 @@ call            @Func_2e60
 call            @Func_2d88
 dialogtxt       "Master, can you hear yourself!?"
 dialogtxt       "Please stop!"
-dialogtxt       "Master…!"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_2eb6
@@ -662,7 +662,7 @@ code0479        1, 2, 15
 code047d        1, 0
 call            @Func_2e76
 call            @Func_2df4
-dialogtxt       "Lemmy…!"
+dialogtxt       "Lemmy!"
 code047b        
 code0309        
 call            @Func_2ecc
@@ -704,7 +704,7 @@ dialogtxt       "Bastard!"
 goto            @Label_1ed6
 
 @Cond_1ec2:
-dialogtxt       "You…!"
+dialogtxt       "You!"
 goto            @Label_1ed6
 
 @Label_1ed6:
@@ -781,9 +781,8 @@ code0309
 call            @Func_2e48
 code0479        0, 4, 15
 call            @Func_2da6
-dialogtxt       "That's not true…"
-dialogtxt       "That's not true."
-dialogtxt       "Master, you still…!"
+dialogtxt       "That's not true, Master."
+dialogtxt       "You still-"
 code0309        
 call            @Func_2ddc
 code043c        4, 2
@@ -818,7 +817,7 @@ call            @Func_2da6
 jumpz           @Cond_2508, ($b002 == 0)
 dialogtxt       "…"
 dialogtxt       "Wait…"
-dialogtxt       "That's your goal…?"
+dialogtxt       "That's your goal?"
 code047b        
 code0309        
 code0479        0, 2, 14
@@ -830,7 +829,7 @@ goto            @Label_2588
 @Cond_2508:
 dialogtxt       "…"
 dialogtxt       "Wait…"
-dialogtxt       "That's your goal…?"
+dialogtxt       "That's your goal?"
 code047b        
 code0309        
 code0479        0, 2, 14
@@ -1105,4 +1104,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

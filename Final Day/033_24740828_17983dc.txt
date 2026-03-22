@@ -321,11 +321,10 @@ dialogtxt       "I found out about a really amazing"
 dialogtxt       "Craftknight! Master Rob's skills"
 dialogtxt       "and personality are so FLAWLESS!"
 code0309        
-dialogtxt       "But… The poor man was killed by"
+dialogtxt       "But, the poor man was killed by"
 dialogtxt       "a Stray Summon Beast, so I'll"
-dialogtxt       "never get to see him at all…"
+dialogtxt       "never get to see him…"
 code0309        
 code047e        0, 0
 code0302        7
 code040b        
-

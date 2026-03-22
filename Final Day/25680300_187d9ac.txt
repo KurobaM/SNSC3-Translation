@@ -290,13 +290,13 @@ call            @Func_16d4
 jumpz           @Cond_0c3c, ($b002 == 0)
 dialogtxt       "But what should I do!?"
 dialogtxt       "[NAME 1] can't hear"
-dialogtxt       "my voice anymore…!"
+dialogtxt       "my voice anymore!"
 goto            @Label_0c8a
 
 @Cond_0c3c:
 dialogtxt       "But what should I do!?"
 dialogtxt       "[NAME 1] can't hear"
-dialogtxt       "my voice anymore…!"
+dialogtxt       "my voice anymore!"
 goto            @Label_0c8a
 
 @Label_0c8a:
@@ -321,14 +321,12 @@ call            @Func_178e
 call            @Func_16b6
 jumpz           @Cond_0d86, ($b002 == 0)
 dialogtxt       "What do you mean, I'm a…"
-dialogtxt       "…"
-dialogtxt       "Ah, right…"
+dialogtxt       "… Ah, right…"
 goto            @Label_0dba
 
 @Cond_0d86:
 dialogtxt       "What do you mean, I'm a…"
-dialogtxt       "…"
-dialogtxt       "Ah, right…"
+dialogtxt       "… Ah, right…"
 goto            @Label_0dba
 
 @Label_0dba:
@@ -648,4 +646,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -19,13 +19,13 @@ call            @Func_18f8
 jumpz           @Cond_0122, ($b002 == 0)
 dialogtxt       "We did it!"
 dialogtxt       "Magdrad calmed down…"
-dialogtxt       "Right…?"
+dialogtxt       "Right?"
 goto            @Label_015a
 
 @Cond_0122:
 dialogtxt       "We did it!"
 dialogtxt       "Magdrad calmed down…"
-dialogtxt       "Right…?"
+dialogtxt       "Right?"
 goto            @Label_015a
 
 @Label_015a:
@@ -210,13 +210,13 @@ code047d        0, 0
 call            @Func_19d0
 call            @Func_1916
 jumpz           @Cond_082c, ($b002 == 0)
-dialogtxt       "H-Hey…!"
+dialogtxt       "H-Hey!"
 dialogtxt       "Are…"
 dialogtxt       "Are you okay?"
 goto            @Label_085c
 
 @Cond_082c:
-dialogtxt       "H-Hey…!"
+dialogtxt       "H-Hey!"
 dialogtxt       "Are…"
 dialogtxt       "Are you okay?"
 goto            @Label_085c
@@ -240,7 +240,7 @@ code0309
 call            @Func_194c
 code0479        1, 2, 16
 call            @Func_1982
-dialogtxt       "Ha…!"
+dialogtxt       "Ha!"
 dialogtxt       "I don't really care"
 dialogtxt       "what you do now, but…"
 code0309        
@@ -252,8 +252,8 @@ code0309
 call            @Func_19b8
 code0479        0, 5, 16
 call            @Func_1916
-dialogtxt       "Eh…?"
-dialogtxt       "What do you…"
+dialogtxt       "Eh?"
+dialogtxt       "What do you-"
 code0309        
 call            @Func_194c
 code0479        1, 1, 13
@@ -690,4 +690,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

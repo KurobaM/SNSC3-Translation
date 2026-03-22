@@ -532,7 +532,7 @@ goto            @Cond_14be
 @Cond_14be:
 jumpz           @Cond_14f4, ($b003 == 2)
 dialogtxt       "Tch…"
-dialogtxt       "What's the meaning of this…?"
+dialogtxt       "What's the meaning of this?"
 goto            @Cond_14f4
 
 @Cond_14f4:
@@ -586,7 +586,7 @@ goto            @Cond_166a
 
 @Cond_166a:
 jumpz           @Cond_169a, ($b003 == 3)
-dialogtxt       "Um, did something happen…?"
+dialogtxt       "Um, did something happen?"
 goto            @Cond_169a
 
 @Cond_169a:
@@ -635,7 +635,7 @@ code0479        1, 0, 16
 code047d        1, 0
 call            @Func_1ec4
 call            @Func_1e42
-dialogtxt       "What's going on…?"
+dialogtxt       "What's going on?"
 code047b        
 code0309        
 call            @Func_1f1a
@@ -858,4 +858,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

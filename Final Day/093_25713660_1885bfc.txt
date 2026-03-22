@@ -80,14 +80,12 @@ call            @Func_4f76
 call            @Func_4e9e
 jumpz           @Cond_034c, ($b002 == 0)
 dialogtxt       "This is…"
-dialogtxt       "I…"
-dialogtxt       "I'm back…"
+dialogtxt       "I-I'm back…"
 goto            @Label_0378
 
 @Cond_034c:
 dialogtxt       "This is…"
-dialogtxt       "I…"
-dialogtxt       "I'm back…"
+dialogtxt       "I-I'm back…"
 goto            @Label_0378
 
 @Label_0378:
@@ -127,23 +125,23 @@ call            @Func_4ebc
 jumpz           @Cond_0540, ($b002 == 0)
 dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
-dialogtxt       "To save me, they…!"
+dialogtxt       "To save me, they-"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "So that's why [NAME 1] told me to"
-dialogtxt       "take care of Murno… Damn…!"
-dialogtxt       "I'm…!"
+dialogtxt       "take care of Murno… Damn!"
+dialogtxt       "I'm…"
 goto            @Label_05d8
 
 @Cond_0540:
 dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
-dialogtxt       "To save me, they…!"
+dialogtxt       "To save me, they-"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "So that's why [NAME 1] told me to"
 dialogtxt       "take care of Murno… [NAME 1]…!"
-dialogtxt       "I'm…!"
+dialogtxt       "I'm…"
 goto            @Label_05d8
 
 @Label_05d8:
@@ -171,7 +169,7 @@ call            @Func_4f8c
 call            @Func_4f28
 dialogtxt       "But there must be a way"
 dialogtxt       "to bring them back, right?"
-dialogtxt       "Hey, there must be, right…!"
+dialogtxt       "Hey, there must be, right!?"
 code047b        
 code0309        
 call            @Func_4fe2
@@ -198,8 +196,8 @@ code0482
 code040d        15
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah, that's right…!"
-dialogtxt       "If I use this…!"
+dialogtxt       "Ah, that's right!"
+dialogtxt       "If I use this…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -223,13 +221,13 @@ call            @Func_4ebc
 jumpz           @Cond_08fc, ($b002 == 0)
 dialogtxt       "I won't know"
 dialogtxt       "until I try!"
-dialogtxt       "So…!"
+dialogtxt       "So!"
 goto            @Label_0940
 
 @Cond_08fc:
 dialogtxt       "I won't know"
 dialogtxt       "until I try!"
-dialogtxt       "So…!"
+dialogtxt       "So!"
 goto            @Label_0940
 
 @Label_0940:
@@ -495,13 +493,13 @@ call            @Func_4f76
 call            @Func_4e9e
 jumpz           @Cond_1516, ($b002 == 0)
 dialogtxt       "Everyone…"
-dialogtxt       "Thank you…!"
+dialogtxt       "Thank you!"
 dialogtxt       "I will never give up!"
 goto            @Label_155a
 
 @Cond_1516:
 dialogtxt       "Everyone…"
-dialogtxt       "Thank you…!"
+dialogtxt       "Thank you!"
 dialogtxt       "I will never give up!"
 goto            @Label_155a
 
@@ -648,7 +646,7 @@ call            @Func_4f5e
 code0479        0, 2, 12
 call            @Func_4ebc
 dialogtxt       "Lemmy…"
-dialogtxt       "Yeah, I'll try…!"
+dialogtxt       "Yeah, I'll try!"
 code0309        
 call            @Func_4ff8
 call            @Func_4eda
@@ -1237,22 +1235,22 @@ code047d        1, 2
 call            @Func_4f8c
 call            @Func_4f0a
 jumpz           @Cond_35a8, ($b003 == 0)
-dialogtxt       "Partner…!"
+dialogtxt       "Partner!"
 goto            @Cond_35a8
 
 @Cond_35a8:
 jumpz           @Cond_35c6, ($b003 == 1)
-dialogtxt       "[NAME 2]…!"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_35c6
 
 @Cond_35c6:
 jumpz           @Cond_35e4, ($b003 == 2)
-dialogtxt       "[NAME 2]…!"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_35e4
 
 @Cond_35e4:
 jumpz           @Cond_3606, ($b003 == 3)
-dialogtxt       "[NAME 2]…!"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_3606
 
 @Cond_3606:
@@ -1298,8 +1296,7 @@ call            @Func_4e9e
 goto            @Label_375e
 
 @Label_375e:
-dialogtxt       "This is…"
-dialogtxt       "A miracle…!"
+dialogtxt       "This is… a miracle!"
 code047b        
 code0309        
 call            @Func_4fcc
@@ -1433,8 +1430,7 @@ code047d        1, 110
 call            @Func_4fa2
 call            @Func_4f0a
 dialogtxt       "A miracle, huh…"
-dialogtxt       "How very fitting,"
-dialogtxt       "[NAME 2]"
+dialogtxt       "How very fitting, [NAME 2]"
 code047b        
 code0309        
 call            @Func_4f5e
@@ -1452,8 +1448,7 @@ code047d        1, 132
 call            @Func_4f8c
 call            @Func_4fa2
 call            @Func_4f0a
-dialogtxt       "Somehow I'm"
-dialogtxt       "not suprised."
+dialogtxt       "Somehow I'm not suprised."
 dialogtxt       "Because…"
 code047b        
 code0309        
@@ -1476,8 +1471,7 @@ code047d        1, 109
 call            @Func_4fa2
 call            @Func_4f0a
 dialogtxt       "A miracle…!"
-dialogtxt       "That suits you perfectly,"
-dialogtxt       "[NAME 2]!"
+dialogtxt       "That suits you perfectly, [NAME 2]!"
 code047b        
 code0309        
 code0479        1, 7, 12
@@ -2007,4 +2001,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

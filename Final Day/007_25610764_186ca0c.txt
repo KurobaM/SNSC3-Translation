@@ -92,7 +92,7 @@ dialogbig       24, 116, 1, 0, 0, "What the heck!?"
 goto            @Label_04c2
 
 @Cond_048c:
-dialogbig       24, 116, 1, 0, 0, "O-Oh no…!"
+dialogbig       24, 116, 1, 0, 0, "O-Oh no!"
 goto            @Label_04c2
 
 @Label_04c2:
@@ -175,7 +175,7 @@ goto            @Cond_081c
 
 @Cond_081c:
 jumpz           @Cond_0868, ($b003 == 2)
-dialogtxt       "Betrayed us…?"
+dialogtxt       "Betrayed us?"
 dialogtxt       "Keep that up,"
 dialogtxt       "and I'll erase you!"
 goto            @Cond_0868
@@ -245,7 +245,7 @@ dialogtxt       "Murno earlier, isn't it!?"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogtxt       "They don't know when to give up…!"
+dialogtxt       "They don't know when to give up!"
 dialogtxt       "We have to hurry!"
 goto            @Label_0c1c
 
@@ -326,7 +326,7 @@ code047d        1, 109
 call            @Func_2638
 call            @Func_25d4
 dialogtxt       "Then let's leave it at that."
-dialogtxt       "Let's go…!"
+dialogtxt       "Let's go!"
 code047b        
 code0309        
 call            @Func_2678
@@ -348,12 +348,12 @@ call            @Func_259e
 code0479        1, 2, 16
 call            @Func_25d4
 dialogtxt       "But even I want"
-dialogtxt       "to help Murno…!"
+dialogtxt       "to help Murno!"
 code0309        
 call            @Func_260a
 code0479        0, 2, 15
 call            @Func_2568
-dialogtxt       "No demo, no strike, no revo, no evo!"
+dialogtxt       "No demos, no strikes, no revo, no evo!"
 code0309        
 call            @Func_259e
 code0479        1, 1, 14
@@ -513,9 +513,9 @@ code0479        1, 5, 17
 code047d        1, 108
 call            @Func_2638
 call            @Func_25b6
-dialogtxt       "Hey…!"
+dialogtxt       "Hey!"
 dialogtxt       "I'm not finished"
-dialogtxt       "speaking yet…!"
+dialogtxt       "speaking yet!"
 code047b        
 code0309        
 call            @Func_268e
@@ -923,4 +923,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

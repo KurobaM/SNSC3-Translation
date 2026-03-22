@@ -51,28 +51,24 @@ call            @Func_0fb0
 code0479        1, 4, 14
 call            @Func_0fe6
 dialogtxt       "Huh?"
-dialogtxt       "You brought me out"
-dialogtxt       "here just for that?"
+dialogtxt       "You brought me out here just for that?"
 code0309        
 call            @Func_101c
 code043c        2, 4
 code0479        0, 8, 16
 call            @Func_0f7a
 dialogtxt       "Well…"
-dialogtxt       "I don't want someone"
-dialogtxt       "to see me…"
+dialogtxt       "I don't want someone to see me…"
 code0309        
 call            @Func_0fb0
 code0479        1, 1, 16
 call            @Func_0fe6
 jumpz           @Cond_031e, ($b002 == 0)
-dialogtxt       "Is it really"
-dialogtxt       "that embarrassing…"
+dialogtxt       "Is it really that embarrassing…"
 goto            @Label_035e
 
 @Cond_031e:
-dialogtxt       "Is it really"
-dialogtxt       "that embarrassing…"
+dialogtxt       "Is it really that embarrassing…"
 goto            @Label_035e
 
 @Label_035e:
@@ -88,14 +84,12 @@ code0479        1, 4, 12
 call            @Func_0fe6
 jumpz           @Cond_03f4, ($b002 == 0)
 dialogtxt       "Alright I guess…"
-dialogtxt       "But thanks for"
-dialogtxt       "what, exactly?"
+dialogtxt       "But thanks for what, exactly?"
 goto            @Label_0426
 
 @Cond_03f4:
 dialogtxt       "Alright I guess…"
-dialogtxt       "But thanks for"
-dialogtxt       "what, exactly?"
+dialogtxt       "But thanks for what, exactly?"
 goto            @Label_0426
 
 @Label_0426:
@@ -104,8 +98,7 @@ call            @Func_101c
 code0479        0, 0, 12
 call            @Func_0f7a
 dialogtxt       "Ah… Well… You know…"
-dialogtxt       "I spoke to my mother"
-dialogtxt       "like you said…"
+dialogtxt       "I spoke to my mother like you said…"
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 16
@@ -161,13 +154,11 @@ call            @Func_0fb0
 code0479        1, 0, 12
 call            @Func_0fe6
 jumpz           @Cond_0742, ($b002 == 0)
-dialogtxt       "Huh,"
-dialogtxt       "you don't need to…"
+dialogtxt       "Huh, you don't need to…"
 goto            @Label_0760
 
 @Cond_0742:
-dialogtxt       "Huh,"
-dialogtxt       "you don't need to…"
+dialogtxt       "Huh, you don't need to…"
 goto            @Label_0760
 
 @Label_0760:
@@ -447,4 +438,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

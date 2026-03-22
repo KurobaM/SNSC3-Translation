@@ -57,7 +57,7 @@ code0479        0, 4, 16
 call            @Func_0e12
 dialogtxt       "Thanks to the Demon Stone,"
 dialogtxt       "the villagers all…"
-dialogtxt       "I…"
+dialogtxt       "I-"
 code0309        
 call            @Func_0e48
 code0479        1, 2, 15
@@ -152,13 +152,11 @@ call            @Func_0e48
 code0479        1, 1, 12
 call            @Func_0e7e
 jumpz           @Cond_07ae, ($b002 == 0)
-dialogtxt       "Hey,"
-dialogtxt       "aren't you the same?"
+dialogtxt       "Hey, aren't you the same?"
 goto            @Label_07ce
 
 @Cond_07ae:
-dialogtxt       "Hey,"
-dialogtxt       "aren't you the same?"
+dialogtxt       "Hey, aren't you the same?"
 goto            @Label_07ce
 
 @Label_07ce:
@@ -394,4 +392,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

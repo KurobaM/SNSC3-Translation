@@ -96,12 +96,12 @@ code047d        0, 0
 call            @Func_0af0
 call            @Func_0a36
 jumpz           @Cond_0426, ($b002 == 0)
-dialogtxt       "Dammit, Anise…!"
+dialogtxt       "Darn it, Anise!"
 dialogtxt       "After them!"
 goto            @Label_0456
 
 @Cond_0426:
-dialogtxt       "Ku… Anise…!"
+dialogtxt       "Ku… Anise!"
 dialogtxt       "We have to hurry!"
 goto            @Label_0456
 
@@ -330,4 +330,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -49,7 +49,7 @@ code0309
 call            @Func_3a36
 code0479        0, 2, 16
 call            @Func_3994
-dialogtxt       "I…!"
+dialogtxt       "I-"
 jumpz           @Cond_021e, ($b002 == 0)
 dialogtxt       "I guess you're right…"
 goto            @Label_022e
@@ -132,7 +132,7 @@ code0309
 call            @Func_3a36
 code0479        0, 5, 16
 call            @Func_3994
-dialogtxt       "I…!"
+dialogtxt       "I-"
 jumpz           @Cond_04aa, ($b002 == 0)
 dialogtxt       "… My bad."
 goto            @Label_04b8
@@ -235,7 +235,7 @@ code0309
 call            @Func_3a36
 code0479        0, 2, 16
 call            @Func_3994
-dialogtxt       "Is that so…?"
+dialogtxt       "Is that so?"
 jumpz           @Cond_0824, ($b002 == 0)
 dialogtxt       "I wonder what happend to him…"
 goto            @Label_083c
@@ -268,7 +268,7 @@ code0309
 call            @Func_3a36
 code0479        0, 2, 16
 call            @Func_3994
-dialogtxt       "Is that so…?"
+dialogtxt       "Is that so?"
 jumpz           @Cond_095e, ($b002 == 0)
 dialogtxt       "I wonder what happend to him…"
 goto            @Label_0976
@@ -744,7 +744,7 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 13
 call            @Func_3a00
-dialogtxt       "… Do whatever you want…"
+dialogtxt       "Do whatever you want…"
 code0309        
 call            @Func_3ad0
 call            @Func_3a1e
@@ -1135,7 +1135,7 @@ call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
 dialogtxt       "There Are No ERRORS In My System."
-dialogtxt       "Though We Are Approaching The G※an"
+dialogtxt       "Though We Are Approaching The G※van"
 dialogtxt       "Ruins, The Demon Stone's Origin."
 code0309        
 dialogtxt       "I Am Certain Lady Murno Must"
@@ -1352,7 +1352,7 @@ call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
 dialogtxt       "It Is Most Probable That Lady Murno"
-dialogtxt       "Is Within G※an Ruins, Located Deep"
+dialogtxt       "Is Within G※van Ruins, Located Deep"
 dialogtxt       "Within The Mishus Abandoned Site."
 code047b        
 code0309        
@@ -1360,13 +1360,13 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_31f6, ($b002 == 0)
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_323c
 
 @Cond_31f6:
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_323c
@@ -1412,13 +1412,13 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_3436, ($b002 == 0)
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_347c
 
 @Cond_3436:
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_347c
@@ -1464,13 +1464,13 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_368a, ($b002 == 0)
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_36d0
 
 @Cond_368a:
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_36d0
@@ -1517,13 +1517,13 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_38d2, ($b002 == 0)
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_3918
 
 @Cond_38d2:
-dialogtxt       "Nice…!"
+dialogtxt       "Nice!"
 dialogtxt       "Just a bit more and we'll finally"
 dialogtxt       "take back Murno from Anise!"
 goto            @Label_3918
@@ -1609,4 +1609,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
