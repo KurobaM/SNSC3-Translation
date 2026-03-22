@@ -708,11 +708,11 @@ code0479        0, 2, 15
 call            @Func_55c2
 call            @Func_54ea
 jumpz           @Cond_214e, ($b002 == 0)
-dialogtxt       "I can…make it!"
+dialogtxt       "I can… make it!"
 goto            @Label_2172
 
 @Cond_214e:
-dialogtxt       "I can…make it!"
+dialogtxt       "I can… make it!"
 goto            @Label_2172
 
 @Label_2172:

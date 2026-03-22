@@ -284,7 +284,7 @@ code0304        1
 strlen          280, "[NAME 2]"
 code0333        2, 120
 jumpz           @Cond_0c16, ($f0261 == 1)
-dialogtxt       
+dialogtxt       "　"
 jumpz           @Cond_0afe, ($h216 == 1)
 dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
@@ -315,14 +315,15 @@ dialogtxt       "That's the [NAME 2] I love…"
 goto            @Label_0c0c
 
 @Label_0c0c:
-dialogtxt       
+dialogtxt       "　"
 goto            @Label_1344
 
 @Cond_0c16:
 jumpz           @Cond_0f04, ($f0262 == 1)
 jumpz           @Cond_0c6e, ($b003 == 0)
-dialogtxt       
+dialogtxt       "　"
 dialogtxt       "I Am Happy As Well…"
+dialogtxt       "　"
 goto            @Label_0f00
 
 @Cond_0c6e:

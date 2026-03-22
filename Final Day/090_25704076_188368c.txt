@@ -482,7 +482,7 @@ code047d        0, 112
 code0301        8, 3
 code047e        0, 1
 dialogtxt       "I won't forgive you…!"
-dialogtxt       "Hã»uã»mã»aã»n…!"
+dialogtxt       "H・u・m・a・n!"
 code0309        
 code047e        0, 0
 code0302        3
