@@ -781,9 +781,8 @@ code0309
 call            @Func_2e48
 code0479        0, 4, 15
 call            @Func_2da6
-dialogtxt       "That's not true…"
-dialogtxt       "That's not true."
-dialogtxt       "Master, you still-"
+dialogtxt       "That's not true, Master."
+dialogtxt       "You still-"
 code0309        
 call            @Func_2ddc
 code043c        4, 2
