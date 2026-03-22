@@ -290,7 +290,7 @@ code0479        0, 0, 16
 call            @Func_4476
 dialogtxt       "C'mon, lighten up a bit! What about"
 dialogtxt       "the time we crafted good weapons!?"
-dialogtxt       "Or when we fought strong rivals…?"
+dialogtxt       "Or when we fought strong rivals?"
 code0309        
 code0479        0, 2, 12
 jumpz           @Cond_0c72, ($b002 == 0)
@@ -310,7 +310,7 @@ code0309
 call            @Func_44ac
 code0479        1, 9, 14
 call            @Func_44e2
-dialogtxt       "… Gah…!"
+dialogtxt       "… Gah!"
 dialogtxt       "How can you manage saying lots of"
 dialogtxt       "sappy crap with a straight face!?"
 code0309        
@@ -334,7 +334,7 @@ code0309
 call            @Func_44ac
 code0479        1, 11, 16
 call            @Func_44e2
-dialogtxt       "What…!?"
+dialogtxt       "What!?"
 dialogtxt       "No! That's not what I meant…"
 code0309        
 call            @Func_4518
@@ -570,12 +570,12 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_1766, ($b002 == 0)
-dialogtxt       "His combat prowess…?"
+dialogtxt       "His combat prowess?"
 dialogtxt       "Wait, Wellman knows how to fight!?"
 goto            @Label_179a
 
 @Cond_1766:
-dialogtxt       "His combat prowess…?"
+dialogtxt       "His combat prowess?"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_179a
 
@@ -585,7 +585,7 @@ call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
 dialogtxt       "It Is Necessary For Protectors of"
-dialogtxt       "G※van's Demon Stone To Enhance"
+dialogtxt       "Govan's Demon Stone To Enhance"
 dialogtxt       "Their Combat Skills When Possible."
 code0309        
 call            @Func_4518
@@ -697,12 +697,12 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_1d5c, ($b002 == 0)
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_1d8a
 
 @Cond_1d5c:
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_1d8a
 
@@ -802,6 +802,7 @@ call            @Func_44ac
 code0479        1, 1, 15
 call            @Func_44e2
 dialogbig       24, 116, 1, 0, 0, "Don't act as if you"
+code030c        
 dialogbig       24, 116, 1, 0, 0, "can read my mind!"
 code030c        
 code0479        1, 2, 12
@@ -811,7 +812,7 @@ code0309
 call            @Func_4518
 code0479        0, 2, 16
 call            @Func_4476
-dialogtxt       "But… Isn't her home"
+dialogtxt       "But… isn't her home"
 dialogtxt       "is still infested with Strays?"
 code0309        
 call            @Func_44ac
@@ -824,13 +825,13 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_22e6, ($b002 == 0)
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "So that means…"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_2324
 
 @Cond_22e6:
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "So that means…"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_2324
@@ -951,13 +952,13 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_28be, ($b002 == 0)
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "So that means…"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_28fc
 
 @Cond_28be:
-dialogtxt       "Huh…?"
+dialogtxt       "Huh?"
 dialogtxt       "So that means…"
 dialogtxt       "Wait, Wellman can fight!?"
 goto            @Label_28fc
@@ -1226,7 +1227,7 @@ call            @Func_4518
 code0479        0, 0, 14
 call            @Func_4476
 dialogtxt       "So you can't die at all?"
-dialogtxt       "What do you mean…?"
+dialogtxt       "What do you mean?"
 code0309        
 call            @Func_44ac
 code0479        1, 0, 12
@@ -1409,8 +1410,7 @@ code0479        0, 4, 16
 call            @Func_4476
 jumpz           @Cond_3d20, ($b002 == 0)
 dialogtxt       "I… [NAME 1]…"
-dialogtxt       "Sorry…"
-dialogtxt       "I didn't know…"
+dialogtxt       "Sorry… I didn't know…"
 goto            @Label_3d50
 
 @Cond_3d20:
@@ -1432,7 +1432,7 @@ call            @Func_4518
 code0479        0, 5, 14
 call            @Func_4476
 dialogtxt       "Huh?"
-dialogtxt       "What's wrong…?"
+dialogtxt       "What's wrong?"
 code0309        
 call            @Func_44ac
 code0479        1, 3, 12
@@ -1445,14 +1445,12 @@ code0479        0, 2, 17
 call            @Func_4476
 jumpz           @Cond_3e72, ($b002 == 0)
 dialogtxt       "You're messed up! You liar!"
-dialogtxt       "Daaammmiiiit!"
-dialogtxt       "You fooled me!"
+dialogtxt       "Daaarrrniiiit! You fooled me!"
 goto            @Label_3eac
 
 @Cond_3e72:
 dialogtxt       "You're messed up! You liar!"
-dialogtxt       "You fooled me!"
-dialogtxt       "Meanie!"
+dialogtxt       "You fooled me! Meanie!"
 goto            @Label_3eac
 
 @Label_3eac:
@@ -1527,7 +1525,7 @@ goto            @Label_41ea
 @Cond_41b8:
 dialogtxt       "I see…"
 dialogtxt       "He made you go through a"
-dialogtxt       "lot, didn't he…?"
+dialogtxt       "lot, didn't he?"
 goto            @Label_41ea
 
 @Label_41ea:
@@ -1643,4 +1641,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

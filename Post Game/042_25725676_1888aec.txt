@@ -77,7 +77,7 @@ code047b
 code0309        
 code0479        1, 6, 16
 dialogtxt       "Amazing…"
-dialogtxt       "Simply amazing…!"
+dialogtxt       "Simply amazing!"
 dialogtxt       "You guys are awesome!"
 code0309        
 code0479        1, 7, 13
@@ -428,7 +428,7 @@ code0309
 call            @Func_22d4
 code0479        1, 2, 12
 call            @Func_230a
-dialogtxt       "Don't mkae that face."
+dialogtxt       "Don't make that face."
 dialogtxt       "Here, you can"
 dialogtxt       "have this instead."
 code0309        
@@ -973,4 +973,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
