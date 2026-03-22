@@ -19,11 +19,11 @@ code047b
 code030c        
 code0479        0, 2, 14
 jumpz           @Cond_0156, ($b002 == 0)
-dialogtxt       "Dammit…!"
+dialogtxt       "Dammit!"
 goto            @Label_0166
 
 @Cond_0156:
-dialogtxt       "Ghk…!"
+dialogtxt       "Ghk!"
 goto            @Label_0166
 
 @Label_0166:
@@ -88,13 +88,13 @@ code043c        0, 4
 code0479        0, 2, 15
 call            @Func_0a68
 jumpz           @Cond_0452, ($b002 == 0)
-dialogtxt       "You're right…!"
+dialogtxt       "You're right!"
 dialogtxt       "Murno is futher inside…"
 dialogtxt       "We should still be able to catch up!"
 goto            @Label_04a8
 
 @Cond_0452:
-dialogtxt       "You're right…!"
+dialogtxt       "You're right!"
 dialogtxt       "Murno is futher inside…"
 dialogtxt       "We should still be able to catch up!"
 goto            @Label_04a8
@@ -318,4 +318,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

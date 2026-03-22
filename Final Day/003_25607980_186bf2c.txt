@@ -135,7 +135,7 @@ code0479        0, 2, 14
 call            @Func_0e74
 dialogtxt       "That's right."
 dialogtxt       "Mr. Wellman is gone too."
-dialogtxt       "Maybe they went out together…?"
+dialogtxt       "Maybe they went out together?"
 code0309        
 call            @Func_0fb0
 call            @Func_0e92
@@ -449,4 +449,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

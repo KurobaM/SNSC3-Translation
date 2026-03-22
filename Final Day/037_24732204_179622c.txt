@@ -118,6 +118,7 @@ goto            @start
 
 code0301        8, 7
 dialogtxt       "Some kind of message planned."
+dialogtxt       "[TEST MESSAGE]"
 code0309        
 code0302        7
 code040b        
@@ -508,4 +509,3 @@ dialogtxt       "We're looking for members!"
 code0309        
 code0302        7
 code040b        
-

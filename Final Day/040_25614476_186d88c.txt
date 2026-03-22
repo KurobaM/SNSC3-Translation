@@ -143,7 +143,7 @@ code0309
 call            @Func_36ca
 code0479        1, 2, 14
 call            @Func_3700
-dialogtxt       "Ha…!"
+dialogtxt       "Ha!"
 dialogtxt       "As uppity as always, even though"
 dialogtxt       "you're just a Summon Beast…"
 code0309        
@@ -164,7 +164,7 @@ code0479        1, 2, 16
 call            @Func_377a
 call            @Func_36e2
 dialogtxt       "They don't seem to believe me."
-dialogtxt       "What do you think…?"
+dialogtxt       "What do you think?"
 code047b        
 code0309        
 code0479        1, 2, 12
@@ -263,7 +263,7 @@ code0309
 call            @Func_3736
 code0479        0, 2, 16
 call            @Func_3694
-dialogtxt       "Wha…!?"
+dialogtxt       "Wha!?"
 code0309        
 call            @Func_37ba
 call            @Func_36ca
@@ -316,13 +316,13 @@ goto            @Cond_0ccc
 
 @Cond_0ccc:
 jumpz           @Cond_0d0c, ($b003 == 2)
-dialogtxt       "What…!?"
+dialogtxt       "What!?"
 dialogtxt       "What's going on!?"
 goto            @Cond_0d0c
 
 @Cond_0d0c:
 jumpz           @Cond_0d48, ($b003 == 3)
-dialogtxt       "B-But…!"
+dialogtxt       "B-But!"
 dialogtxt       "Why!?"
 goto            @Cond_0d48
 
@@ -459,12 +459,12 @@ call            @Func_374e
 call            @Func_3676
 jumpz           @Cond_1298, ($b002 == 0)
 dialogtxt       "Murno…"
-dialogtxt       "I…!"
+dialogtxt       "I-"
 goto            @Label_12b8
 
 @Cond_1298:
 dialogtxt       "Murno…"
-dialogtxt       "I…!"
+dialogtxt       "I-"
 goto            @Label_12b8
 
 @Label_12b8:
@@ -783,7 +783,7 @@ code047d        1, 132
 call            @Func_3764
 call            @Func_3700
 dialogtxt       "Then what are you waiting for!?"
-dialogtxt       "We've got to go after her…!"
+dialogtxt       "We've got to go after her!"
 code047b        
 code0309        
 call            @Func_3736
@@ -806,7 +806,7 @@ code0309
 call            @Func_36ca
 code0479        1, 4, 14
 call            @Func_3700
-dialogtxt       "She's leaving…!?"
+dialogtxt       "She's leaving!?"
 dialogtxt       "With the people who trashed"
 dialogtxt       "her village? Why would she…"
 code0309        
@@ -1376,4 +1376,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
