@@ -162,7 +162,7 @@ code0479        0, 5, 12
 call            @Func_348c
 dialogbig       24, 116, 1, 0, 0, "The Hammer Is, "
 code030c        
-dialogbig       24, 116, 1, 0, 0, "Stength!"
+dialogbig       24, 116, 1, 0, 0, "Strength!"
 code030c        
 call            @Func_34c2
 code0301        6, 7

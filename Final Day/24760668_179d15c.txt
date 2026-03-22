@@ -1135,7 +1135,7 @@ call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
 dialogtxt       "There Are No ERRORS In My System."
-dialogtxt       "Though We Are Approaching The Govan"
+dialogtxt       "Though We Are Approaching The G※van"
 dialogtxt       "Ruins, The Demon Stone's Origin."
 code0309        
 dialogtxt       "I Am Certain Lady Murno Must"
@@ -1352,7 +1352,7 @@ call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
 dialogtxt       "It Is Most Probable That Lady Murno"
-dialogtxt       "Is Within Govan Ruins, Located Deep"
+dialogtxt       "Is Within G※van Ruins, Located Deep"
 dialogtxt       "Within The Mishus Abandoned Site."
 code047b        
 code0309        

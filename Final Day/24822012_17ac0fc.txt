@@ -46,7 +46,7 @@ code0479        1, 0, 12
 call            @Func_2c7e
 dialogtxt       "I Do Not Comprehend Their"
 dialogtxt       "Objective Of Taking Lady Murno"
-dialogtxt       "To The Govan Ruins. However…"
+dialogtxt       "To The G※van Ruins. However…"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "We Do Not Have Much Time Left."
@@ -531,7 +531,7 @@ call            @Func_2cf8
 jumpz           @Cond_19c0, ($b003 == 0)
 call            @Func_2c60
 dialogtxt       "I Detected A Big Surge Of Energy"
-dialogtxt       "Coming From Deep Within The Ruins."
+dialogtxt       "Coming From Deep Within The R※ins."
 dialogtxt       "Please Exercise Caution."
 code0309        
 call            @Func_2cb4
