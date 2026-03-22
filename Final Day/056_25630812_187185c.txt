@@ -286,7 +286,7 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "Ti-Tier!?"
+dialogtxt       "T-Tier!?"
 dialogtxt       "Master! Bro!"
 dialogtxt       "Velvoren too?"
 code047b        

@@ -23,7 +23,7 @@ dialogtxt       "Dammit!"
 goto            @Label_0166
 
 @Cond_0156:
-dialogtxt       "Ghk!"
+dialogtxt       "Ghk…!"
 goto            @Label_0166
 
 @Label_0166:
