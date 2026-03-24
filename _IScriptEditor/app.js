@@ -11,6 +11,9 @@ const aboutBtn = document.getElementById('about-button');
 const daySelector = document.getElementById('day-selector');
 const chapterSelector = document.getElementById('chapter-selector');
 const loadBtn = document.getElementById('load-button');
+
+const openJsonBtn = document.getElementById('open-json-button');
+const saveJsonBtn = document.getElementById('save-json-button');
 // Event listeners for buttons
 openBtn.addEventListener('click', readFile);
 saveBtn.addEventListener('click', saveFile);
@@ -20,6 +23,9 @@ specialCharactersBtn.addEventListener('click', showSpecialCharacters);
 aboutBtn.addEventListener('click', showAbout);
 daySelector.addEventListener('change', loadDay);
 loadBtn.addEventListener('click', loadChapter);
+
+openJsonBtn.addEventListener('click', readJsonFile);
+saveJsonBtn.addEventListener('click', saveJsonFile);
 // #endregion
 
 // Variables to hold file data
@@ -29,6 +35,9 @@ let jpText = [];
 let engCodeFile = '';
 let hideCode = true;
 let hideJp = true;
+let jsonText = '';
+let jsonData = null;
+let unsavedJson = false;
 
 // #region conversation variables
 // Variables for tracking speaker
@@ -1204,7 +1213,7 @@ function getStringSize(str) {
         }
         else {
             console.log("Unknown character: " + code);
-            size += 8;
+            size += 12;
         }
     }
     return size;
@@ -1223,12 +1232,240 @@ function showSpecialCharacters() {
 
 // Warn user about unsaved changes when leaving page
 window.onbeforeunload = function() {
-    if (DIRTY) {
+    if (DIRTY || unsavedJson) {
         return "Data will be lost if you leave the page, are you sure?";
     }
 }
 
+function loadTab(e, name) {
+    if (name === 'Iscript'){
+        if (unsavedJson) {
+            if (!confirm("Do you want to change tab? You have unsaved changes that will be lost.")) {
+                return;
+            }
+        }
+    } else {
+        if (DIRTY) {
+            if (!confirm("Do you want to change tab? You have unsaved changes that will be lost.")) {
+                return;
+            }
+        }
+    }
+    var i, content, tablink;
+    content = document.getElementsByClassName('tabcontent');
+    for (i = 0; i < content.length; i++) {
+        content[i].style.display = 'none';
+    }
+    tablink = document.getElementsByClassName('tablink');
+    for (i = 0; i < tablink.length; i++) {
+        tablink[i].className = tablink[i].className.replace(' active', '');
+    }
+    document.getElementById(name).style.display = 'block';
+    e.currentTarget.className += ' active';
+    var script = document.getElementById('content');
+    var other = document.getElementById('json-content');
+    script.innerHTML = '';
+    other.innerHTML = '';
+    if (name === 'Iscript') {
+        script.style.display = 'block';
+        other.style.display = 'none';    
+    } else {
+        script.style.display = 'none';
+        other.style.display = 'block';    
+    }
+}
 
+function getStringWidth(str) {
+    var size = 0;
+    for (const c of str){
+        if (c in CHARACTER_SPACE){
+            size += CHARACTER_SPACE[c];
+        } else {
+            if (c.charCodeAt(0) < 32){
+                size += c.charCodeAt(0);
+            } else {
+                size +=12;   
+            }
+        }
+    }
+    return size;
+}
+
+
+function getStringLength(str) {
+    var len = 0;
+    for (const c of str){
+        if (c.charCodeAt(0) < 128){
+            len += 1;
+        } else {
+            len += 2;   
+        }
+    }
+    return len;
+}
+
+function validateTranslation(e){
+    const value = e.target.value;
+    const div = e.target.parentNode;
+    const widthDiv = div.children[1];
+    const lengthDiv = div.children[2];
+    var width = getStringWidth(JSON.parse('"' + value + '"'));
+    var length = getStringLength(JSON.parse('"' + value + '"'));
+    widthDiv.textContent = 'width=' + width;
+    lengthDiv.textContent = 'len=' + length;
+    const maxLength = parseInt(div.getAttribute('max-length'), 10);
+    if (width > 224){
+        div.style.backgroundColor = '#f1948a';
+    } else if (length > maxLength){
+        div.style.backgroundColor = '#f7dc6f';
+    } else {
+        div.style.backgroundColor = '#ffffff';
+        var data = JSON.parse(div.getAttribute('data'));
+        var key = data['key'];
+        if (data['type'] === 'SJIS string'){
+            jsonData[key]['translation'] = value;
+        } else if (data['type'] === 'SJIS table'){
+            var index = parseInt(data['index'], 10);
+            jsonData[key]['data'][index]['translation'] = value;
+        }  
+        unsavedJson = true;
+    }   
+}
+
+function renderString(obj){
+    const div = document.createElement('div');
+    const metadata = {
+        key: obj['address']['value'], 
+        type: obj['type']};
+    const metadataStr = JSON.stringify(metadata);
+    div.className = 'SJIS';
+    const p1 = document.createElement('p');
+    p1.className = 'address';
+    p1.textContent = obj['address']['value'];
+    div.appendChild(p1)
+    const p2 = document.createElement('p');
+    p2.className = 'raw';
+    p2.textContent = obj['raw'];
+    const span = document.createElement('span');
+    span.className = 'str-length';
+    span.textContent = 'len=' + obj['length'];
+    p2.appendChild(span)
+    div.appendChild(p2)
+    const p3 = document.createElement('p');
+    p3.className = 'translation';
+    const input = document.createElement('input');    
+    input.size = 60;
+    input.setAttribute('value', obj['translation']);
+    input.setAttribute('type', 'text');
+    input.addEventListener('change', validateTranslation);
+    p3.appendChild(input);
+    const span1 = document.createElement('span');
+    span1.className = 'str-width';
+    span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + obj['translation'] + '"'));
+    const span2 = document.createElement('span');
+    span2.className = 'str-length';
+    span2.textContent = 'len=' + getStringLength(JSON.parse('"' + obj['translation'] + '"'));
+    p3.appendChild(span1);
+    p3.appendChild(span2);
+    p3.setAttribute('max-length', obj['length']);
+    p3.setAttribute('data', metadataStr);
+    div.appendChild(p3)
+    document.getElementById('json-content').appendChild(div);
+}
+
+function renderTable(obj){
+    const div = document.createElement('div');
+    div.className = 'SJIS';
+    const p = document.createElement('p');
+    p.className = 'address';
+    p.textContent = obj['address']['value'];
+    div.appendChild(p)
+    for (const idx in obj['data']){
+        var sjis = obj['data'][idx];
+        var metadata = {
+            key: obj['address']['value'], 
+            index: idx,
+            type: obj['type']};
+        var metadataStr = JSON.stringify(metadata);
+        var subDiv = document.createElement('div');
+        var p1 = document.createElement('p');
+        p1.className = 'raw';
+        p1.textContent = sjis['raw'];
+        var span = document.createElement('span');
+        span.className = 'str-length';
+        span.textContent = 'len=' + sjis['length'];
+        p1.appendChild(span)
+        subDiv.appendChild(p1)
+        var p2 = document.createElement('p');
+        p2.className = 'translation';
+        var input = document.createElement('input');    
+        input.size = 80;
+        input.setAttribute('value', sjis['translation']);
+        input.setAttribute('type', 'text');
+        input.addEventListener('change', validateTranslation);
+        p2.appendChild(input);
+        var span1 = document.createElement('span');
+        span1.className = 'str-width';
+        span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'] + '"'));
+        var span2 = document.createElement('span');
+        span2.className = 'str-length';
+        span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'] + '"'));
+        p2.appendChild(span1);
+        p2.appendChild(span2);
+        p2.setAttribute('max-length', sjis['length']);
+        p2.setAttribute('data', metadataStr);
+        subDiv.appendChild(p2);
+        div.appendChild(subDiv);
+    }
+    document.getElementById('json-content').appendChild(div);
+}
+
+
+function displayJsonData(data){
+    for (const key in data) {
+        let obj = data[key];
+        if (Object.hasOwn(obj, 'type')){
+            if (obj['type'] === 'SJIS string'){
+                renderString(obj);
+            } else if (obj['type'] === 'SJIS table'){
+                renderTable(obj);
+            }
+        }
+    }
+}
+
+function readJsonFile() {
+    const inFile = document.getElementById('open-json-input');
+    inFile.click();
+    inFile.onchange = e => {
+        const f = e.target.files[0];
+        if (!f) return;
+        const reader = new FileReader();
+        reader.onload = function(e){
+            jsonText = e.target.result;
+            document.getElementById('json-content').innerHTML = '';
+            jsonData = JSON.parse(jsonText.replaceAll('\\u', '\\\\u'));
+            displayJsonData(jsonData);
+        }
+        reader.readAsText(f,'UTF-8');
+    }
+}
+
+function saveJsonFile(){
+    const a = document.createElement('a');
+    jsonText = JSON.stringify(jsonData, null, 4).replaceAll('\\\\u', '\\u') + '\n';
+    const data = new Blob([jsonText], {type: 'text/plain;charset=utf-8'});
+    const url = URL.createObjectURL(data);
+    a.href = url;
+    a.download = 'data.json';
+    document.body.appendChild(a);
+    a.click();
+    unsavedJson = false;
+    setTimeout( () => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        }, 5000);
+}
 
 
 mainSetup();
