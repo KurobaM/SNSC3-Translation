@@ -1371,6 +1371,8 @@ function renderString(obj){
     p3.setAttribute('data', metadataStr);
     div.appendChild(p3)
     document.getElementById('json-content').appendChild(div);
+    const ev = new Event('change', { bubbles: false });
+    input.dispatchEvent(ev);
 }
 
 function renderTable(obj){
@@ -1416,6 +1418,8 @@ function renderTable(obj){
         p2.setAttribute('data', metadataStr);
         subDiv.appendChild(p2);
         div.appendChild(subDiv);
+        var ev = new Event('change', { bubbles: false });
+        input.dispatchEvent(ev);
     }
     document.getElementById('json-content').appendChild(div);
 }
