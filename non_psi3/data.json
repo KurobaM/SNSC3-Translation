@@ -92,6 +92,57 @@
         "translation": "Choose your weapon\u0000\u0000",
         "type": "SJIS string"
     },
+    "0x80bf560": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bf560"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8078724"
+            }
+        ],
+        "raw": "ミューノが使用可能になりました\u0000\u0000",
+        "translation": "Murno is now available.\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bf580": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bf580"
+        },
+        "length": 36,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8078740"
+            }
+        ],
+        "raw": "ガンヴァルドが使用可能になりました\u0000\u0000",
+        "translation": "Gunvald is now available.\u0000\u0000",
+        "type": "SJIS string"
+    },
+    "0x80bf5a4": {
+        "address": {
+            "type": "Address",
+            "value": "0x80bf5a4"
+        },
+        "length": 32,
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8078764"
+            }
+        ],
+        "raw": "ボルガノが使用可能になりました\u0000\u0000",
+        "translation": "Bogrim is now available.\u0000\u0000",
+        "type": "SJIS string"
+    },
     "0x80bff8c": {
         "address": {
             "type": "Address",
