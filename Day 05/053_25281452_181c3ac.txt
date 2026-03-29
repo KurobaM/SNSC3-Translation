@@ -191,19 +191,19 @@ code0479        0, 4, 12
 call            @Func_5010
 dialogtxt       "Impossible."
 dialogtxt       "My Power Has Been Restrained"
-dialogtxt       "By Some Bracelets."
+dialogtxt       "By Some Shackles."
 code0309        
 call            @Func_5046
 code0479        1, 2, 15
 call            @Func_507c
 jumpz           @Cond_095e, ($b002 == 0)
-dialogtxt       "Bracelets?"
+dialogtxt       "Shackles?"
 dialogtxt       "So you can't move…"
 dialogtxt       "Damn!"
 goto            @Label_09aa
 
 @Cond_095e:
-dialogtxt       "Bracelets?"
+dialogtxt       "Shackles?"
 dialogtxt       "So you can't move…"
 dialogtxt       "That's horrible!"
 goto            @Label_09aa
@@ -530,7 +530,7 @@ code0309
 call            @Func_50b2
 code0479        0, 4, 16
 call            @Func_5010
-dialogtxt       "About that, some strange bracelets"
+dialogtxt       "About that, some strange shackles"
 dialogtxt       "have been put on me, and I"
 dialogtxt       "cannot use my strength…"
 code0309        
@@ -538,12 +538,12 @@ call            @Func_5046
 code0479        1, 2, 15
 call            @Func_507c
 jumpz           @Cond_1a02, ($b002 == 0)
-dialogtxt       "Bracelets…?"
+dialogtxt       "Shackles…?"
 dialogtxt       "Damn!"
 goto            @Label_1a22
 
 @Cond_1a02:
-dialogtxt       "Bracelets…?"
+dialogtxt       "Shackles…?"
 dialogtxt       "That's horrible!"
 goto            @Label_1a22
 
@@ -914,19 +914,19 @@ call            @Func_50b2
 code0479        0, 2, 14
 call            @Func_5010
 dialogtxt       "Tch… I would if I could."
-dialogtxt       "These bracelets are preventing"
+dialogtxt       "These shackles are preventing"
 dialogtxt       "me from using my strength."
 code0309        
 call            @Func_5046
 code0479        1, 2, 15
 call            @Func_507c
 jumpz           @Cond_2c50, ($b002 == 0)
-dialogtxt       "Bracelets?"
+dialogtxt       "Shackles?"
 dialogtxt       "That's horrible!"
 goto            @Label_2c94
 
 @Cond_2c50:
-dialogtxt       "Bracelets?"
+dialogtxt       "Shackles?"
 dialogtxt       "That's horrible!"
 goto            @Label_2c94
 
@@ -1312,19 +1312,19 @@ call            @Func_50b2
 code0479        0, 4, 14
 call            @Func_5010
 dialogtxt       "About that, they put some strange"
-dialogtxt       "bracelets on me, and I cannot"
+dialogtxt       "shackles on me, and I cannot"
 dialogtxt       "use my strength…"
 code0309        
 call            @Func_5046
 code0479        1, 4, 16
 call            @Func_507c
 jumpz           @Cond_3f7c, ($b002 == 0)
-dialogtxt       "Strange bracelets?"
+dialogtxt       "Strange shackles?"
 dialogtxt       "I see…"
 goto            @Label_3fa2
 
 @Cond_3f7c:
-dialogtxt       "Strange bracelets?"
+dialogtxt       "Strange shackles?"
 dialogtxt       "I see…"
 goto            @Label_3fa2
 

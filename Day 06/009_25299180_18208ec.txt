@@ -186,26 +186,26 @@ call            @Func_1ac0
 call            @Func_19bc
 jumpz           @Cond_0730, ($b003 == 0)
 dialogtxt       "If I Am To Craft,"
-dialogtxt       "Will You Not Remove These Bindings?"
+dialogtxt       "Will You Not Remove These Shackles?"
 goto            @Cond_0730
 
 @Cond_0730:
 jumpz           @Cond_0796, ($b003 == 1)
 dialogtxt       "Before that, can't you"
-dialogtxt       "remove these bindings?"
+dialogtxt       "remove these shackles?"
 dialogtxt       "I can't do a good job like this."
 goto            @Cond_0796
 
 @Cond_0796:
 jumpz           @Cond_07ee, ($b003 == 2)
-dialogtxt       "Before that, remove these bindings."
+dialogtxt       "Before that, remove these shackles."
 dialogtxt       "I can't move freely like this."
 goto            @Cond_07ee
 
 @Cond_07ee:
 jumpz           @Cond_084e, ($b003 == 3)
 dialogtxt       "Um, then could you please"
-dialogtxt       "remove these bindings?"
+dialogtxt       "remove these shackles?"
 dialogtxt       "It is very hard to move."
 goto            @Cond_084e
 

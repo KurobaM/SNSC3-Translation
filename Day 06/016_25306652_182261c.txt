@@ -203,12 +203,12 @@ call            @Func_1d2c
 call            @Func_1c94
 jumpz           @Cond_07d0, ($b002 == 0)
 dialogtxt       "Just wait!"
-dialogtxt       "I'll get those bracelets off!"
+dialogtxt       "I'll get those shackles off!"
 goto            @Label_0804
 
 @Cond_07d0:
 dialogtxt       "Just wait!"
-dialogtxt       "I'll get those bracelets off!"
+dialogtxt       "I'll get those shackles off!"
 goto            @Label_0804
 
 @Label_0804:
