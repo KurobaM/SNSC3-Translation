@@ -265,7 +265,7 @@ call            @Func_1608
 code0479        1, 10, 14
 call            @Func_163e
 dialogtxt       "That's punishment…"
-dialogtxt       "For making we worry so much!"
+dialogtxt       "For making us worry so much!"
 code0309        
 call            @Func_1674
 code046d        7, 192
