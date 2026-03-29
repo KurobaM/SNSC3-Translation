@@ -1110,7 +1110,7 @@ call            @Func_42f6
 code047b        
 code0479        1, 5, 15
 call            @Func_432c
-dialogbig       24, 116, 1, 0, 0, "Summon!!!!!"
+dialogbig       24, 116, 1, 0, 0, "Summon!!!"
 code030c        
 call            @Func_43e6
 call            @Func_434a
