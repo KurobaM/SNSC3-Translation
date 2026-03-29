@@ -244,7 +244,7 @@ dialogtxt       "The name's Jade."
 code047b        
 code0309        
 code0479        1, 2, 13
-dialogtxt       "The Immortal Jade!"
+dialogtxt       "The Invincible Jade!"
 code0309        
 call            @Func_2464
 code0479        0, 4, 12
@@ -256,7 +256,7 @@ dialogtxt       "\"Bro\" is just fine."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "And are you really still"
-dialogtxt       "claiming you're immortal?"
+dialogtxt       "claiming you're invincible?"
 goto            @Label_0aac
 
 @Cond_0a2c:
@@ -266,7 +266,7 @@ dialogtxt       "Just \"Bro\" is fine."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "And are you really still"
-dialogtxt       "claiming you're immortal?"
+dialogtxt       "claiming you're invincible?"
 goto            @Label_0aac
 
 @Label_0aac:
