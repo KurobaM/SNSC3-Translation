@@ -879,7 +879,7 @@ dialogtxt       "Yeah, yeah."
 code0309        
 call            @Func_2d0c
 call            @Func_2d42
-dialogtxt       "[NAME 0]!!"
+dialogtxt       "[NAME 0]!!!"
 code0309        
 call            @Func_2d78
 code0479        0, 0, 13

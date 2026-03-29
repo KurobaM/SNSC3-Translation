@@ -159,7 +159,7 @@ code047d        0, 0
 call            @Func_1e5e
 call            @Func_1d86
 dialogtxt       "Murno!"
-dialogtxt       "Murno!!"
+dialogtxt       "Murno!!!"
 code0309        
 call            @Func_1eb4
 call            @Func_1dc2

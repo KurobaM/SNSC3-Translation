@@ -324,13 +324,13 @@ call            @Func_4ebc
 jumpz           @Cond_0d10, ($b002 == 0)
 dialogtxt       "Dammit…"
 dialogtxt       "I…"
-dialogtxt       "I…!!"
+dialogtxt       "I…!"
 goto            @Label_0d40
 
 @Cond_0d10:
 dialogtxt       "No… [NAME 1]…"
 dialogtxt       "I…"
-dialogtxt       "I…!!"
+dialogtxt       "I…!"
 goto            @Label_0d40
 
 @Label_0d40:

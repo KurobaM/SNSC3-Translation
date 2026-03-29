@@ -43,7 +43,7 @@ call            @Func_11a8
 code0479        0, 4, 17
 call            @Func_1106
 dialogtxt       "Uu…!"
-dialogtxt       "Um……!!"
+dialogtxt       "Um……!!!"
 dialogtxt       "I………!!!"
 code0309        
 call            @Func_1242

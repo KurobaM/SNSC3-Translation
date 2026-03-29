@@ -680,7 +680,7 @@ dialogbig       72, 116, 1, 0, 0, "Ahhh!"
 goto            @Label_1fc8
 
 @Cond_1f9a:
-dialogbig       72, 116, 1, 0, 0, "Ahhh!!"
+dialogbig       72, 116, 1, 0, 0, "Ahhh!!!"
 goto            @Label_1fc8
 
 @Label_1fc8:

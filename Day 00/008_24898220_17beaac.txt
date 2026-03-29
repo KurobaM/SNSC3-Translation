@@ -515,7 +515,7 @@ call            @Func_2168
 call            @Func_20e6
 code0479        1, 5, 12
 dialogtxt       "Aahh!"
-dialogtxt       "Wait up, Lemmyyy!!"
+dialogtxt       "Wait up, Lemmyyy!!!"
 code047b        
 code0309        
 call            @Func_21be

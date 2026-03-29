@@ -380,7 +380,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        1, 4, 12
 code0479        0, 2, 17
-dialogtxt       "… Hey!!"
+dialogtxt       "… Hey!!!"
 goto            @Label_11bc
 
 @Cond_115c:
@@ -461,7 +461,7 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       24, 116, 1, 0, 0, "To a Craftknight!!"
+dialogbig       24, 116, 1, 0, 0, "To a Craftknight!!!"
 code030c        
 code0479        1, 4, 16
 dialogbig       24, 116, 1, 0, 0, "The hammer is…"
@@ -577,7 +577,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "… Hey!!"
+dialogtxt       "… Hey!!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's get along a little better!"
 goto            @Label_1ca6
@@ -588,7 +588,7 @@ dialogtxt       "Maybe it is."
 code0309        
 code0479        0, 2, 17
 code0479        1, 0, 12
-dialogtxt       "… Wait, no!!"
+dialogtxt       "… Wait, no!!!"
 dialogtxt       "We're partners, you know!"
 dialogtxt       "Let's try to get along a bit better!"
 goto            @Label_1ca6
@@ -779,7 +779,7 @@ dialogtxt       "That's right."
 code0309        
 code0479        0, 2, 17
 jumpz           @Cond_26a0, ($b002 == 0)
-dialogtxt       "… Hey!!"
+dialogtxt       "… Hey!!!"
 goto            @Label_26ba
 
 @Cond_26a0:

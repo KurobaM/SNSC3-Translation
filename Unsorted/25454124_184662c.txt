@@ -297,13 +297,13 @@ code0479        0, 1, 15
 jumpz           @Cond_0eb8, ($b002 == 0)
 dialogtxt       "What are you doing!?"
 dialogtxt       "Unhand me!"
-dialogtxt       "I said unhand me!!"
+dialogtxt       "I said unhand me!!!"
 goto            @Label_0eec
 
 @Cond_0eb8:
 dialogtxt       "What are you doing!?"
 dialogtxt       "Let me go!"
-dialogtxt       "Let me goooooo~!!"
+dialogtxt       "Let me goooooo~!!!"
 goto            @Label_0eec
 
 @Label_0eec:

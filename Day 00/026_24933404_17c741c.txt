@@ -976,7 +976,7 @@ call            @Func_47fc
 code0479        0, 1, 13
 call            @Func_475a
 dialogtxt       "Really!?"
-dialogtxt       "Alright!!"
+dialogtxt       "Alright!!!"
 code0309        
 call            @Func_4790
 code0479        1, 2, 12

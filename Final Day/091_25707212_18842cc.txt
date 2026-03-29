@@ -1069,7 +1069,7 @@ code0301        8, 9
 strlen          280, "[NAME 2]"
 jumpz           @Cond_350c, ($f0262 == 1)
 jumpz           @Cond_3220, ($b003 == 0)
-dialogbig       72, 116, 0, 8, 0, "Partner!!"
+dialogbig       72, 116, 0, 8, 0, "Partner!!!"
 goto            @Label_3508
 
 @Cond_3220:

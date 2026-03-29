@@ -245,7 +245,7 @@ dialogtxt       "As long as you're there,"
 dialogtxt       "anything is fine."
 code0309        
 code0479        1, 4, 13
-dialogtxt       "Please!! Please!!!"
+dialogtxt       "Please!!! Please!!!"
 code0309        
 call            @Func_1508
 code0479        0, 4, 12

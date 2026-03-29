@@ -1276,7 +1276,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 12
 call            @Func_4722
-dialogtxt       "Okay!!"
+dialogtxt       "Okay!!!"
 code0309        
 call            @Func_4758
 code0479        0, 0, 16
@@ -1287,7 +1287,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 13
 call            @Func_4722
-dialogtxt       "Yes! Of course!!"
+dialogtxt       "Yes! Of course!!!"
 dialogtxt       "I would like to be done with"
 dialogtxt       "this as soon as possible!"
 code0309        

@@ -252,7 +252,7 @@ dialogtxt       "You killed him…"
 code047b        
 code0309        
 code0479        0, 5, 15
-dialogbig       24, 116, 1, 0, 0, "Master Rob!!"
+dialogbig       24, 116, 1, 0, 0, "Master Rob!!!"
 code030c        
 call            @Func_4722
 call            @Func_4604
@@ -428,7 +428,7 @@ code047d        1, 129
 call            @Func_46b6
 call            @Func_4634
 dialogtxt       "Urg…!"
-dialogtxt       "Ugwaaa!!"
+dialogtxt       "Ugwaaa!!!"
 code047b        
 code0309        
 call            @Func_470c

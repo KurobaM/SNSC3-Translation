@@ -181,7 +181,7 @@ call            @Func_1baa
 code0479        0, 4, 16
 call            @Func_1b08
 dialogtxt       "I'm… Fine…"
-dialogtxt       "Ouch!!"
+dialogtxt       "Ouch!!!"
 code0309        
 call            @Func_1b3e
 code0479        1, 4, 16

@@ -25,7 +25,7 @@ code0479        0, 2, 15
 call            @Func_0cc8
 call            @Func_0bf0
 dialogtxt       "Open up!"
-dialogtxt       "Hey!!"
+dialogtxt       "Hey!!!"
 dialogtxt       "Where is everyooone!!!"
 goto            @Label_0274
 
@@ -48,7 +48,7 @@ code0479        0, 2, 15
 call            @Func_0cc8
 call            @Func_0bf0
 dialogtxt       "Open up!"
-dialogtxt       "Hey!!"
+dialogtxt       "Hey!!!"
 dialogtxt       "Where is everyooone!!!"
 goto            @Label_0274
 

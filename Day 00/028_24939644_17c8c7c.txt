@@ -211,7 +211,7 @@ goto            @Label_085a
 setvar          $f0134, 0
 call            @Func_0e34
 call            @Func_0e6a
-dialogtxt       "Just hurry it up!!"
+dialogtxt       "Just hurry it up!!!"
 code0309        
 call            @Func_0f3a
 call            @Func_0e88
