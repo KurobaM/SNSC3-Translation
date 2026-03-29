@@ -10,7 +10,7 @@ code040d        15
 code047d        1, 106
 code0301        8, 5
 code047e        1, 1
-dialogtxt       "Hey. You."
+dialogtxt       "Hey! You."
 dialogtxt       "What are you doing over there?"
 code047b        
 code0309        

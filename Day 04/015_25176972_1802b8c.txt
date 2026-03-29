@@ -225,7 +225,7 @@ call            @Func_1732
 call            @Func_16b0
 dialogtxt       "I am with V.E, so I'm not"
 dialogtxt       "worried either."
-dialogtxt       "Let's go, V.E.!"
+dialogtxt       "Let's go, V.E!"
 code047b        
 code0309        
 call            @Func_1704

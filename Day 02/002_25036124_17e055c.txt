@@ -515,7 +515,7 @@ code0332
 code0479        0, 2, 16
 call            @Func_408e
 dialogtxt       "Master's old clothes are…"
-dialogtxt       "From back then you were…"
+dialogtxt       "From back when you were…"
 code0309        
 call            @Func_40c4
 code0331        41, 256
@@ -1038,7 +1038,7 @@ call            @Func_40c4
 code0479        1, 0, 12
 call            @Func_40fa
 dialogtxt       "Go on, Murno."
-dialogtxt       "Let em have it."
+dialogtxt       "Let'em have it."
 code0309        
 code0333        2, 30
 call            @Func_41b4
@@ -1211,9 +1211,8 @@ code0309
 call            @Func_40c4
 code0479        1, 2, 12
 call            @Func_40fa
-dialogtxt       "So, what do you think,"
-dialogtxt       "[NAME 2]"
-dialogtxt       "Of this incredible forbidden love?"
+dialogtxt       "So,[NAME 2], what do you think"
+dialogtxt       "of this incredible forbidden love?"
 code0309        
 call            @Func_4130
 code0333        2, 30

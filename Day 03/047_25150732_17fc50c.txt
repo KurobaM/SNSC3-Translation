@@ -501,8 +501,7 @@ dialogtxt       "gonna be your co-worker, then…"
 goto            @Label_148a
 
 @Label_148a:
-dialogtxt       "Are you still going to"
-dialogtxt       "make me pay?"
+dialogtxt       "Are you still going to charge us?"
 code047b        
 code0309        
 call            @Func_4452
@@ -1329,7 +1328,7 @@ code047d        0, 132
 call            @Func_4428
 call            @Func_4324
 dialogtxt       "Oh, you know how it is with"
-dialogtxt       "V.E. and money…"
+dialogtxt       "V.E and money…"
 dialogtxt       "I'm terribly sorry, sir."
 code047b        
 code0309        

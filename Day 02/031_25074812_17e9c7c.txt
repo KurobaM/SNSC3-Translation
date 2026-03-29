@@ -613,7 +613,7 @@ goto            @Cond_163e
 
 @Cond_163e:
 jumpz           @Cond_1660, ($b003 == 2)
-dialogtxt       "… You…"
+dialogtxt       "You…"
 goto            @Cond_1660
 
 @Cond_1660:

@@ -172,7 +172,7 @@ dialogtxt       "So I was told to come get you…"
 goto            @Label_07d2
 
 @Cond_074c:
-dialogtxt       "W didn't do anything!"
+dialogtxt       "We didn't do anything!"
 dialogtxt       "It just went berserk!"
 code047b        
 code0309        

@@ -431,7 +431,7 @@ code0309
 call            @Func_2c28
 code0479        1, 2, 14
 call            @Func_2c5e
-dialogtxt       "Have you forgetten!?"
+dialogtxt       "Have you forgotten!?"
 dialogtxt       "This is not my true form!"
 code0309        
 code0479        1, 3, 15
