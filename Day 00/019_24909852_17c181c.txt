@@ -1179,7 +1179,7 @@ goto            @Label_3724
 @Choice_36e4:
 setvar          $f0132, 1
 code0479        1, 4, 12
-dialogtxt       "It's kinda scary anyways,"
+dialogtxt       "It's kinda scary anyway,"
 dialogtxt       "let's not."
 code0309        
 @Label_3724:

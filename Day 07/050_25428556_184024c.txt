@@ -151,7 +151,7 @@ code0479        1, 2, 15
 call            @Func_0fd4
 dialogtxt       "That's how it is."
 dialogtxt       "I can be stubborn too!"
-dialogtxt       "Anyways, patrolling is my job!"
+dialogtxt       "Anyway, patrolling is my job!"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "You go back to the workshop!"

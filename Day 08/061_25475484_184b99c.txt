@@ -312,7 +312,7 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "Anyways, leave the rest to me."
+dialogtxt       "Anyway, leave the rest to me."
 dialogtxt       "You guys fall back!"
 dialogtxt       "Because…"
 code047b        

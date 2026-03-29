@@ -377,7 +377,7 @@ code0479        1, 0, 13
 call            @Func_1fa2
 dialogtxt       "Whaaat!? No way!!!"
 dialogtxt       "… Hmm, but this looks sturdy."
-dialogtxt       "I did ask you to help me, anyways…"
+dialogtxt       "I did ask you to help me, anyway…"
 code0309        
 code0479        0, 0, 12
 code0479        1, 1, 12

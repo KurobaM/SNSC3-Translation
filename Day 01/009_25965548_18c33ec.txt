@@ -425,7 +425,7 @@ code0309
 dialogtxt       "I thought the craftsman prepared it."
 dialogtxt       "Is it different in this town?"
 code0309        
-dialogtxt       "Well, anyways, I'm looking forward"
+dialogtxt       "Well, anyway, I'm looking forward"
 dialogtxt       "to the finished product."
 code0309        
 code047e        0, 0
@@ -457,7 +457,7 @@ code0309
 dialogtxt       "I thought the craftsman prepared it."
 dialogtxt       "Is it different in this town?"
 code0309        
-dialogtxt       "Well, anyways, I'm looking forward"
+dialogtxt       "Well, anyway, I'm looking forward"
 dialogtxt       "to the finished product."
 code0309        
 code047e        0, 0

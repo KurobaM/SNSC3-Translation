@@ -384,7 +384,7 @@ goto            @Label_0fe0
 @Cond_0f9e:
 dialogtxt       "Why is he always in"
 dialogtxt       "such a rush?"
-dialogtxt       "Anyways, let's go."
+dialogtxt       "Anyway, let's go."
 goto            @Label_0fe0
 
 @Label_0fe0:

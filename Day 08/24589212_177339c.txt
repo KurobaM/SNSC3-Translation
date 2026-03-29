@@ -909,13 +909,13 @@ code0479        0, 2, 16
 call            @Func_34d4
 jumpz           @Cond_2508, ($b002 == 0)
 dialogtxt       "It'll be fine, [NAME 1]!"
-dialogtxt       "Anyways, let's keep"
+dialogtxt       "Anyway, let's keep"
 dialogtxt       "going further in."
 goto            @Label_2542
 
 @Cond_2508:
 dialogtxt       "It'll be fine, [NAME 1]!"
-dialogtxt       "Anyways, let's keep"
+dialogtxt       "Anyway, let's keep"
 dialogtxt       "going further in."
 goto            @Label_2542
 

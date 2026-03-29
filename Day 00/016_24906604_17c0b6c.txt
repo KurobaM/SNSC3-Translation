@@ -175,7 +175,7 @@ code0309
 call            @Func_1142
 code0479        0, 0, 16
 call            @Func_10a0
-dialogtxt       "Anyways, I'll inform the Chief"
+dialogtxt       "Anyway, I'll inform the Chief"
 dialogtxt       "about the incident. You should"
 dialogtxt       "stay here and keep out of trouble."
 code0309        
