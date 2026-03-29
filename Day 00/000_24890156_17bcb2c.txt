@@ -7,15 +7,14 @@ code0331        9, 256
 dialogtxt       "　　　  Artisans of weapons."
 dialogtxt       "　　　  Masters of the sword."
 code030a        6, 1
-dialogtxt       "　　A special title only given to those "
-dialogtxt       "　　with a body as firm as a forge,"
-dialogtxt       "　　and a mind as sharp as a sword."
+dialogtxt       "　　A special title only given to those"
+dialogtxt       "　　  with a body as firm as a forge,"
+dialogtxt       "　　  and a mind as sharp as a sword."
 code030a        6, 1
 code0304        0
 code040d        30
 code0301        8, 0
-dialogtxt       "You know the deal, right?"
-dialogtxt       "[NAME 0]…"
+dialogtxt       "You know the deal [NAME 0]…"
 code0309        
 code0302        0
 code033c        381, 0, 0, 3, 240, 3, 128
@@ -29,12 +28,10 @@ code047d        0, 0
 call            @Func_104e
 call            @Func_0f76
 jumpz           @Cond_0260, ($b002 == 0)
-dialogtxt       "…"
 dialogtxt       "V.E…"
 goto            @Label_0278
 
 @Cond_0260:
-dialogtxt       "…"
 dialogtxt       "V.E…"
 goto            @Label_0278
 
@@ -47,9 +44,9 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_1064
 call            @Func_1000
-dialogtxt       "You've done well on enduring"
-dialogtxt       "the training I've given you"
-dialogtxt       "for this long. I'm impressed."
+dialogtxt       "You've done well with enduring the"
+dialogtxt       "training I've given you for this"
+dialogtxt       "long. I'm impressed."
 code047b        
 code0309        
 call            @Func_1036
@@ -61,8 +58,8 @@ call            @Func_0fca
 call            @Func_1000
 code0479        0, 0, 12
 code0479        1, 2, 14
-dialogtxt       "Well then,"
-dialogtxt       "it's time for your final test…"
+dialogtxt       "Well then, it's time for your"
+dialogtxt       "final test."
 code0309        
 call            @Func_1036
 call            @Func_0f94
@@ -72,8 +69,8 @@ code0309
 call            @Func_0fca
 call            @Func_1000
 code0479        1, 2, 16
-dialogtxt       "[NAME 0]"
-dialogtxt       "You brought your hammer, right?"
+dialogtxt       "[NAME 0], you've brought your hammer,"
+dialogtxt       "right?"
 code0309        
 call            @Func_1036
 call            @Func_0f94
