@@ -426,7 +426,7 @@ dialogtxt       "\"Water Shard\", your weapon"
 dialogtxt       "will gain the Water element."
 code0309        
 dialogtxt       "Astoundingly, for one time only,"
-dialogtxt       "I have an \"Water Shard\""
+dialogtxt       "I have a \"Water Shard\""
 dialogtxt       "on sale for only 100 Boam!"
 code0309        
 dialogtxt       "How about it?"
