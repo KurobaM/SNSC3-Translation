@@ -393,7 +393,7 @@ goto            @Label_0f94
 @Cond_0ec6:
 code0479        1, 0, 12
 dialogtxt       "The other girl was"
-dialogtxt       "much cuter anyways."
+dialogtxt       "much cuter anyway."
 code0309        
 call            @Func_39f4
 call            @Func_3986

@@ -105,7 +105,7 @@ code0479        1, 5, 15
 call            @Func_12ae
 call            @Func_124a
 dialogtxt       "Oooh!"
-dialogtxt       "You're a girl!!"
+dialogtxt       "You're a girl!!!"
 code047b        
 code0309        
 call            @Func_131a

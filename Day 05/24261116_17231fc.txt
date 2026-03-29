@@ -86,7 +86,7 @@ goto            @Label_059e
 
 @Cond_04d2:
 jumpz           @Label_059e, ($h311 == 99)
-dialogtxt       "This is it! The ultimate spin!!"
+dialogtxt       "This is it! The ultimate spin!!!"
 dialogtxt       "Available prizes are…"
 code0309        
 dialogtxt       "First Place: Death Note"

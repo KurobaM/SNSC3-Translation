@@ -984,7 +984,7 @@ dialogtxt       "when you attempt the impossible!"
 code047b        
 code0309        
 code0479        0, 3, 15
-dialogtxt       "Magdrad!! Go!"
+dialogtxt       "Magdrad!!! Go!!!"
 dialogtxt       "Burn them to ashes!!!"
 code0309        
 call            @Func_3b3a

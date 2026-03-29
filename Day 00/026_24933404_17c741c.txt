@@ -91,7 +91,7 @@ goto            @Cond_03f2
 code0479        1, 0, 16
 call            @Func_47c6
 call            @Func_4814
-dialogtxt       "Anyways, [NAME 1] came here"
+dialogtxt       "Anyway, [NAME 1] came here"
 dialogtxt       "looking for food,"
 dialogtxt       "and ran into me."
 code047b        
@@ -976,7 +976,7 @@ call            @Func_47fc
 code0479        0, 1, 13
 call            @Func_475a
 dialogtxt       "Really!?"
-dialogtxt       "Alright!!"
+dialogtxt       "Alright!!!"
 code0309        
 call            @Func_4790
 code0479        1, 2, 12

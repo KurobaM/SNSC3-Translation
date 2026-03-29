@@ -447,7 +447,7 @@ code0309
 call            @Func_4cec
 code0479        0, 0, 12
 call            @Func_4c4a
-dialogtxt       "Anyways, it's delicious."
+dialogtxt       "Anyway, it's delicious."
 dialogtxt       "But I didnt know you could"
 dialogtxt       "make medicine out of it."
 goto            @Label_135c
@@ -494,7 +494,7 @@ code0309
 call            @Func_4cec
 code0479        0, 0, 12
 call            @Func_4c4a
-dialogtxt       "Anyways, it's delicious."
+dialogtxt       "Anyway, it's delicious."
 dialogtxt       "But I didn't know you could"
 dialogtxt       "make medicine out of it."
 goto            @Label_165e
@@ -597,7 +597,7 @@ code0309
 call            @Func_4cec
 code0479        0, 0, 12
 call            @Func_4c4a
-dialogtxt       "Anyways, it's delicious."
+dialogtxt       "Anyway, it's delicious."
 dialogtxt       "But I didn't know you could"
 dialogtxt       "make medicine out of it."
 goto            @Label_1cba
@@ -1141,7 +1141,7 @@ call            @Func_4cec
 code0479        0, 2, 16
 call            @Func_4c4a
 dialogtxt       "That's impossible… I hope…"
-dialogtxt       "Anyways, let's go to the station!"
+dialogtxt       "Anyway, let's go to the station!"
 code0309        
 call            @Func_4d86
 call            @Func_4c68

@@ -13,7 +13,7 @@ call            @Func_1e14
 call            @Func_1d92
 dialogtxt       "… Hey, don't start"
 dialogtxt       "celebrating just yet!"
-dialogtxt       "Start training at once!!"
+dialogtxt       "Start training at once!!!"
 code047b        
 code0309        
 call            @Func_1de6
@@ -127,7 +127,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       8, 108, 0, 0, 0, "1 million Boam!!??"
+dialogbig       8, 108, 0, 0, 0, "1 million Boam!!!??"
 code030c        
 call            @Func_1e54
 call            @Func_1d62

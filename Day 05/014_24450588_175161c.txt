@@ -493,7 +493,7 @@ dialogtxt       "to save up money."
 code0309        
 jumpz           @Cond_1650, ($f1248 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Want to hear about enhancement?"
+dialogtxt       "Want to hear about upgrading?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_13f2, "Sure thing!"
@@ -503,7 +503,7 @@ choicewait
 @Choice_13f2:
 code047e        0, 1
 dialogtxt       "Let's see… Using a \"Fabled"
-dialogtxt       "Skewer\" to enhance your weapon will"
+dialogtxt       "Skewer\" to upgrade your weapon will"
 dialogtxt       "give it the \"Piercing\" effect."
 code0309        
 dialogtxt       "Anyway, I have this special"

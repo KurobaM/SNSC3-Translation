@@ -134,7 +134,7 @@ goto            @Cond_0596
 
 @Cond_0596:
 jumpz           @Cond_05f8, ($b003 == 3)
-dialogtxt       "Th, that's quite a stir"
+dialogtxt       "Th-That's quite a stir"
 dialogtxt       "coming from over there…"
 dialogtxt       "What shall we do?"
 goto            @Cond_05f8

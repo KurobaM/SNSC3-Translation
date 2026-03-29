@@ -307,8 +307,8 @@ menutxtp 0x08bd58a8, "2 left", 12 ; 0x08bd5888="残り２回"
 
 ; Post battle text
 menutxtp 0x08bbc9d0, " ", 4 ; 0x080bac78=""
-menutxtp 0x08bbc9d4, "　[NAME 0] leveled up!", 22 ; 0x08bbc8f4="[NAME 0]　レベルアップ！！"
-menutxtp 0x08bbc9d8, "　[NAME 1] leveled up!", 22 ; 0x08bbc90a="[NAME 1]　レベルアップ！！"
+menutxtp 0x08bbc9d4, "[NAME 0] leveled up!!!", 22 ; 0x08bbc8f4="[NAME 0]　レベルアップ！！"
+menutxtp 0x08bbc9d8, "[NAME 1] leveled up!!!", 22 ; 0x08bbc90a="[NAME 1]　レベルアップ！！"
 menutxtp 0x08bbc9dc, "Assign points", 18 ; 0x08bbc920="ポイント振り分け"
 ;menutxtp 0x08bbc9e0, "Leave Skill Points", 18 ; 0x08bbc932="ポイントを残して"
 menutxtp 0x08bbc9e4, "unallocated?", 16 ; 0x08bbc944="終了しますか？"

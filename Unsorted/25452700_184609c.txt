@@ -63,7 +63,7 @@ call            @Func_0f22
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "!!"
+dialogtxt       "!!!"
 code047b        
 code0309        
 call            @Func_0f4c
@@ -165,7 +165,7 @@ code0479        1, 0, 15
 code047d        1, 120
 call            @Func_0f22
 call            @Func_0e8a
-dialogbig       96, 116, 1, 0, 0, "!!"
+dialogbig       96, 116, 1, 0, 0, "!!!"
 code047b        
 code030c        
 code0479        1, 0, 14

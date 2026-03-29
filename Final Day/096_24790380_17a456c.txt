@@ -763,7 +763,7 @@ dialogtxt       "don't know how to have fun, y'know!"
 code0309        
 jumpz           @Cond_219e, ($f1252 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Wanna hear about enhancement tips?"
+dialogtxt       "Wanna hear an upgrade tip?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_1f3c, "Sure thing!"
@@ -773,7 +773,7 @@ choicewait
 @Choice_1f3c:
 code047e        0, 1
 dialogtxt       "Let's see… Using an \"Old"
-dialogtxt       "Grindstone\" to enhance your weapon"
+dialogtxt       "Grindstone\" to upgrade your weapon"
 dialogtxt       "imbues the \"Battle Repair\" effect."
 code0309        
 dialogtxt       "And would you look at that,"

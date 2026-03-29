@@ -320,7 +320,7 @@ dialogtxt       "I don't know those"
 dialogtxt       "people very well…"
 code0309        
 code0479        0, 0, 12
-dialogtxt       "Anyways, we'll return"
+dialogtxt       "Anyway, we'll return"
 dialogtxt       "to town for the time being."
 code0309        
 call            @Func_2062

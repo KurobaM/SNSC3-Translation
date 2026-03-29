@@ -836,7 +836,7 @@ code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
 dialogtxt       "Bastard!"
-dialogtxt       "Stop messing around!!"
+dialogtxt       "Stop messing around!!!"
 dialogtxt       "Hand it over!!!"
 code047b        
 code0309        
@@ -845,7 +845,7 @@ code043e        8, 1, 0
 code043e        11, 1, 0
 code0479        1, 3, 17
 call            @Func_432c
-dialogbig       24, 116, 1, 0, 0, "Shut up!!"
+dialogbig       24, 116, 1, 0, 0, "Shut up!!!"
 code047b        
 code030c        
 call            @Func_43fc

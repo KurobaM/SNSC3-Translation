@@ -348,8 +348,8 @@ goto            @Label_1266
 code0479        0, 0, 13
 call            @Func_2cc8
 dialogtxt       "Why are you all angry?"
-dialogtxt       "I think it'd be super cute!!"
-dialogtxt       "I'm sure it'd look great on you!!"
+dialogtxt       "I think it'd be super cute!!!"
+dialogtxt       "I'm sure it'd look great on you!!!"
 goto            @Label_1266
 
 @Label_1266:

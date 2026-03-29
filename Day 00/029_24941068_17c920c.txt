@@ -126,7 +126,7 @@ call            @Func_2fc8
 code043c        3, 3
 call            @Func_2f64
 jumpz           @Cond_05a0, ($b002 == 0)
-dialogtxt       "Anyways, now you know I'm strong!"
+dialogtxt       "Anyway, now you know I'm strong!"
 dialogtxt       "Therefore I can protect Murno!"
 dialogtxt       "So now you have to help me craft!"
 code0309        
@@ -136,7 +136,7 @@ dialogtxt       "[NAME 1]!"
 goto            @Label_062e
 
 @Cond_05a0:
-dialogtxt       "Anyways, I won,"
+dialogtxt       "Anyway, I won,"
 dialogtxt       "so I can protect Murno."
 dialogtxt       "So now you have to help me craft!"
 code0309        
@@ -257,7 +257,7 @@ call            @Func_2fc8
 code0479        0, 4, 14
 call            @Func_2f64
 jumpz           @Cond_0afc, ($b002 == 0)
-dialogtxt       "Anyways, I've beaten you!"
+dialogtxt       "Anyway, I've beaten you!"
 dialogtxt       "Therefore, I can protect Murno!"
 dialogtxt       "So now you have to help me craft!"
 code0309        
@@ -267,7 +267,7 @@ dialogtxt       "[NAME 1]!"
 goto            @Label_0b8a
 
 @Cond_0afc:
-dialogtxt       "Anyways, I won,"
+dialogtxt       "Anyway, I won,"
 dialogtxt       "meaning I can protect Murno."
 dialogtxt       "So now you have to help me craft!"
 code0309        
@@ -529,7 +529,7 @@ code047d        1, 0
 call            @Func_2fde
 call            @Func_2f46
 jumpz           @Cond_1578, ($b002 == 0)
-dialogtxt       "Anyways, I'm strong!"
+dialogtxt       "Anyway, I'm strong!"
 dialogtxt       "Therefore I can protect Murno!"
 dialogtxt       "So you help me with the crafting!"
 code0309        
@@ -539,7 +539,7 @@ dialogtxt       "[NAME 1]!"
 goto            @Label_1606
 
 @Cond_1578:
-dialogtxt       "Anyways, I won,"
+dialogtxt       "Anyway, I won,"
 dialogtxt       "meaning I can protect Murno."
 dialogtxt       "So you help me with the crafting!"
 code0309        

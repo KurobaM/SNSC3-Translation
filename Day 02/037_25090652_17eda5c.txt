@@ -102,7 +102,7 @@ call            @Func_13d4
 code0479        0, 4, 16
 call            @Func_1332
 dialogtxt       "Uh, sure…"
-dialogtxt       "Anyways, I recommend you take"
+dialogtxt       "Anyway, I recommend you take"
 dialogtxt       "[NAME 2] with you."
 code0309        
 call            @Func_1368

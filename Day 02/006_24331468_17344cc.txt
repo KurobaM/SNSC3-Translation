@@ -520,7 +520,7 @@ dialogtxt       "for our future."
 code0309        
 jumpz           @Cond_191a, ($f1245 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Want to hear about enhancement?"
+dialogtxt       "Want to hear about upgrading?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_1658, "Sure!"

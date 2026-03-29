@@ -245,7 +245,7 @@ call            @Func_15dc
 code0479        1, 2, 15
 call            @Func_1612
 dialogtxt       "[NAME 1]! Murno!"
-dialogtxt       "You guys!!"
+dialogtxt       "You guys!!!"
 code0309        
 call            @Func_16e2
 call            @Func_1630

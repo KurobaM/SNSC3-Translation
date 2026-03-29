@@ -120,13 +120,13 @@ code0479        0, 1, 15
 jumpz           @Cond_065a, ($b002 == 0)
 dialogtxt       "What are you doing!?"
 dialogtxt       "Let go!"
-dialogtxt       "Let me go!!"
+dialogtxt       "Let me go!!!"
 goto            @Label_068e
 
 @Cond_065a:
 dialogtxt       "What are you doing!?"
 dialogtxt       "Let go!"
-dialogtxt       "Let me go!!"
+dialogtxt       "Let me go!!!"
 goto            @Label_068e
 
 @Label_068e:

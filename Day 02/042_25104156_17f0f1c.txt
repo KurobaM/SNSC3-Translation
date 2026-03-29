@@ -167,7 +167,7 @@ code0309
 call            @Func_10ae
 code0479        1, 0, 16
 call            @Func_10e4
-dialogtxt       "Anyways, make sure to"
+dialogtxt       "Anyway, make sure to"
 dialogtxt       "deliver a solid victory"
 dialogtxt       "in the match tomorrow."
 code0309        

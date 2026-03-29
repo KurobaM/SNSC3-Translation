@@ -94,7 +94,7 @@ code0479        0, 11, 17
 call            @Func_1010
 dialogtxt       "Uh, well, Master said we were in"
 dialogtxt       "the way, and I had nothing to do"
-dialogtxt       "anyways, so…"
+dialogtxt       "anyway, so…"
 goto            @Label_05f8
 
 @Label_05f8:
@@ -161,7 +161,7 @@ jumpz           @Cond_09be, ($b002 == 0)
 code0479        0, 7, 17
 call            @Func_1010
 dialogtxt       "N-No I'm not!"
-dialogtxt       "But anyways, make yourself at"
+dialogtxt       "But anyway, make yourself at"
 dialogtxt       "home here."
 code0309	
 dialogtxt       "So, once you've calmed down…"
@@ -171,7 +171,7 @@ goto            @Label_0a2e
 code0479        0, 0, 13
 call            @Func_1010
 dialogtxt       "I'm not, really…"
-dialogtxt       "But anyways, make yourself at"
+dialogtxt       "But anyway, make yourself at"
 dialogtxt       "home here."
 code0309	
 dialogtxt       "So, once you've calmed down…"

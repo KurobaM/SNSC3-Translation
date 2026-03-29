@@ -91,13 +91,13 @@ jumpz           @Cond_0486, ($b003 == 3)
 jumpz           @Cond_0430, ($b002 == 0)
 dialogtxt       "Damn it!"
 dialogtxt       "You're here aren't you!?"
-dialogtxt       "Show yourself, spiky-furball!!"
+dialogtxt       "Show yourself, spiky-furball!!!"
 goto            @Label_0482
 
 @Cond_0430:
 dialogtxt       "Heey!"
 dialogtxt       "You're here aren't you!?"
-dialogtxt       "Show yourself, spiky-furball!!"
+dialogtxt       "Show yourself, spiky-furball!!!"
 goto            @Label_0482
 
 @Label_0482:
@@ -563,7 +563,7 @@ call            @Func_3f92
 dialogtxt       "Nn…"
 code0309        
 code0479        0, 7, 15
-dialogbig       70, 116, 1, 0, 0, "Nooooo!!"
+dialogbig       70, 116, 1, 0, 0, "Nooooo!!!"
 code030c        
 call            @Func_40a2
 code047c        0, 24
@@ -1179,7 +1179,7 @@ goto            @Label_3724
 @Choice_36e4:
 setvar          $f0132, 1
 code0479        1, 4, 12
-dialogtxt       "It's kinda scary anyways,"
+dialogtxt       "It's kinda scary anyway,"
 dialogtxt       "let's not."
 code0309        
 @Label_3724:
@@ -1225,7 +1225,7 @@ goto            @Label_39e2
 @Cond_3962:
 dialogtxt       "… Pshh."
 dialogtxt       "Like I really care about it anyway."
-dialogtxt       "Let's use it as material!!"
+dialogtxt       "Let's use it as material!!!"
 code0309        
 dialogtxt       "I should go and find that girl"
 dialogtxt       "though, she's very suspicious!"
