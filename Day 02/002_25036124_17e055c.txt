@@ -1211,7 +1211,7 @@ code0309
 call            @Func_40c4
 code0479        1, 2, 12
 call            @Func_40fa
-dialogtxt       "So,[NAME 2], what do you think"
+dialogtxt       "So, [NAME 2], what do you think"
 dialogtxt       "of this incredible forbidden love?"
 code0309        
 call            @Func_4130
