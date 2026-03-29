@@ -421,7 +421,7 @@ choicewait
 
 @Choice_1302:
 code047e        0, 1
-dialogtxt       "Um, let's see. If you use an"
+dialogtxt       "Um, let's see. If you use a"
 dialogtxt       "\"Water Shard\", your weapon"
 dialogtxt       "will gain the Water element."
 code0309        
