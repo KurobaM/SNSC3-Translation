@@ -68,7 +68,7 @@ code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
 dialogtxt       "You're working hard today too."
-dialogtxt       "I want V.E. to let you be"
+dialogtxt       "I want V.E to let you be"
 dialogtxt       "independent soon."
 code047b        
 code0309        

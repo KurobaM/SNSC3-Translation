@@ -340,7 +340,7 @@ goto            @Cond_0f58
 
 @Cond_0f58:
 jumpz           @Cond_0f9e, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "Shut up!!!!"
+dialogbig       24, 116, 1, 0, 0, "Shut up!!!"
 goto            @Cond_0f9e
 
 @Cond_0f9e:

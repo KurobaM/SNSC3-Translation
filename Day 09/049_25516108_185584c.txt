@@ -228,7 +228,7 @@ dialogtxt       "the workshop,"
 code047b        
 code0309        
 code0479        1, 2, 16
-dialogtxt       "and now you're hurting V.E.?"
+dialogtxt       "and now you're hurting V.E?"
 code0309        
 call            @Func_1a64
 code0479        0, 0, 13

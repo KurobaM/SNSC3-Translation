@@ -10,7 +10,7 @@ code040d        15
 code047d        1, 106
 code0301        8, 5
 code047e        1, 1
-dialogtxt       "Hey. You."
+dialogtxt       "Hey! You."
 dialogtxt       "What are you doing over there?"
 code047b        
 code0309        
@@ -244,7 +244,7 @@ dialogtxt       "The name's Jade."
 code047b        
 code0309        
 code0479        1, 2, 13
-dialogtxt       "The Immortal Jade!"
+dialogtxt       "The Invincible Jade!"
 code0309        
 call            @Func_2464
 code0479        0, 4, 12
@@ -256,7 +256,7 @@ dialogtxt       "\"Bro\" is just fine."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "And are you really still"
-dialogtxt       "claiming you're immortal?"
+dialogtxt       "claiming you're invincible?"
 goto            @Label_0aac
 
 @Cond_0a2c:
@@ -266,7 +266,7 @@ dialogtxt       "Just \"Bro\" is fine."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "And are you really still"
-dialogtxt       "claiming you're immortal?"
+dialogtxt       "claiming you're invincible?"
 goto            @Label_0aac
 
 @Label_0aac:
@@ -464,7 +464,7 @@ goto            @Label_12ae
 code0309        
 code0479        0, 1, 16
 dialogtxt       "Uhh… Well…"
-dialogtxt       "Chief was saying it was about time"
+dialogtxt       "Master was saying it was about time"
 dialogtxt       "that I got a partner of my own…"
 code0309        
 call            @Func_24d2

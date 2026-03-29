@@ -27,7 +27,7 @@ code037c        $h232
 dialogtxt       "That [NAME 4] you have,"
 code0309        
 code037c        $h233
-dialogtxt       "Will you trade it"
+dialogtxt       "will you trade it"
 dialogtxt       "for this [NAME 4]?"
 code0309        
 code047e        0, 0

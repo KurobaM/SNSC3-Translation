@@ -117,7 +117,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       8, 108, 0, 0, 0, "Wha-!!!!"
+dialogbig       8, 108, 0, 0, 0, "Wha-!!!"
 code030c        
 call            @Func_1e54
 call            @Func_1d62

@@ -291,7 +291,7 @@ code047d        0, 132
 call            @Func_13ec
 call            @Func_1314
 dialogtxt       "Dammit! Don't ignore me!"
-dialogtxt       "I am the Immortal Jade!"
+dialogtxt       "I am the Invincible Jade!"
 code047b        
 code0309        
 call            @Func_1442

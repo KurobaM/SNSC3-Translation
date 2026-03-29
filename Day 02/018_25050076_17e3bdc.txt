@@ -74,7 +74,7 @@ goto            @Cond_0264
 @Cond_0264:
 jumpz           @Cond_0294, ($b003 == 2)
 dialogtxt       "… Hmph."
-dialogtxt       "It was a mere weakling."
+dialogtxt       "It was merely a weakling."
 goto            @Cond_0294
 
 @Cond_0294:

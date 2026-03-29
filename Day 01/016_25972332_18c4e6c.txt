@@ -16,7 +16,7 @@ dialogtxt       "[NAME 4]…"
 dialogtxt       "Got any?"
 code0309        
 dialogtxt       "[NAME 4]…"
-dialogtxt       "It's my favorite, y'know…"
+dialogtxt       "They're my favorites, y'know…"
 code0309        
 dialogtxt       "I want to own every"
 dialogtxt       "[NAME 4] in the world…"

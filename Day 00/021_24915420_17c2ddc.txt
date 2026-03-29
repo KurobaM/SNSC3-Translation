@@ -22,7 +22,7 @@ dialogtxt       "sincere apology to me."
 code0309        
 code0479        1, 0, 15
 dialogtxt       "If you think you can knock into"
-dialogtxt       "me and get off the hook so easy,"
+dialogtxt       "me and get off the hook so easily,"
 dialogtxt       "you're dumber than you look!"
 code0309        
 call            @Func_1280

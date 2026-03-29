@@ -58,7 +58,7 @@ tabletxt 0, "Keep it up!!" ; "いい感じだ！！"
 table 0x08BDA056 + 0, 14, 14
 tabletxt 0, "Well done!!!" ; "うまい！！！"
 table 0x08BDA064 + 0, 14, 14
-tabletxt 0, "Awesome!!!!" ; "すごい！！！！"
+tabletxt 0, "Awesome!!!" ; "すごい！！！！"
 table 0x08BDA074 + 0, 8, 8
 tabletxt 0, "Close!" ; "おしい"
 table 0x08BDA07C + 0, 26, 26

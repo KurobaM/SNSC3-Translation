@@ -1459,7 +1459,7 @@ goto            @Label_3e70
 @Label_3e70:
 code0309        
 code0479        0, 2, 15
-dialogbig       24, 116, 1, 0, 0, "Phantom Dragon!!!!!"
+dialogbig       24, 116, 1, 0, 0, "Phantom Dragon!!!"
 code030c        
 call            @Func_4596
 call            @Func_44a4
