@@ -50,11 +50,11 @@ tabletxt 0, "Lookin' good!" ; "よく見るんだ！"
 table 0x08BDA01C + 0, 18, 18
 tabletxt 0, "Now, try this!" ; "これでどうだ！"
 table 0x08BDA02C + 0, 14, 14
-tabletxt 0, "Keep it up!!" ; "いい感じだ！！"
+tabletxt 0, "Keep it up!" ; "いい感じだ！！"
 table 0x08BDA03C + 0, 10, 10
 tabletxt 0, "Nice job!" ; "いいぞ！"
 table 0x08BDA046 + 0, 14, 14
-tabletxt 0, "Keep it up!!" ; "いい感じだ！！"
+tabletxt 0, "Keep it up!" ; "いい感じだ！！"
 table 0x08BDA056 + 0, 14, 14
 tabletxt 0, "Well done!!!" ; "うまい！！！"
 table 0x08BDA064 + 0, 14, 14
