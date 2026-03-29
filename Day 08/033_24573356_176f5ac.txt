@@ -377,7 +377,7 @@ dialogtxt       "really hard to ensure our future!"
 code0309        
 jumpz           @Cond_1376, ($f1249 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Wanna hear about enhancement tips?"
+dialogtxt       "Wanna hear an upgrade tip?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_105c, "Sure thing!"
@@ -390,7 +390,7 @@ dialogtxt       "Um, let's see. If you use"
 dialogtxt       "Fighting Spirit Headband"
 dialogtxt       "and Proof of the Master"
 code0309        
-dialogtxt       "while enhancing, your weapon will"
+dialogtxt       "while upgrading, your weapon will"
 dialogtxt       "gain the ability 100 Fists."
 code0309        
 dialogtxt       "But this will only work with"

@@ -565,7 +565,7 @@ dialogtxt       "to save up money."
 code0309        
 jumpz           @Cond_18aa, ($f1246 == 0)
 dialogtxt       "You're a Craftknight, right?"
-dialogtxt       "Want to hear about enhancement?"
+dialogtxt       "Want to hear about upgrading?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_15f6, "Listen to her lecture"

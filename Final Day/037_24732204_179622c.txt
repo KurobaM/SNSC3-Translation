@@ -381,7 +381,7 @@ dialogtxt       "And Mr. Lemmy is lovely too~…!"
 code0309        
 jumpz           @Cond_133c, ($f1251 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Wanna hear about enhancement tips?"
+dialogtxt       "Wanna hear an upgrade tip?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_1098, "Sure thing!"
@@ -391,7 +391,7 @@ choicewait
 @Choice_1098:
 code047e        0, 1
 dialogtxt       "Well… If you use two Workout Guides"
-dialogtxt       "when enhancing, you get Uppercut."
+dialogtxt       "when upgrading, you get Uppercut."
 code0309        
 dialogtxt       "But you can't use it on bows."
 dialogtxt       "So be reeeaally careful, okay?"

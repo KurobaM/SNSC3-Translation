@@ -441,7 +441,7 @@ dialogtxt       "finding a place to stay."
 code0309        
 jumpz           @Cond_14c8, ($f1250 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Wanna hear about enhancement tips?"
+dialogtxt       "Wanna hear an upgrade tip?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_126c, "Sure thing!"

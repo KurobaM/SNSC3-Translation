@@ -587,7 +587,7 @@ code040b
 
 @Event_18b4:
 code0301        8, 7
-dialogtxt       "A weapon enhancement tip"
+dialogtxt       "A weapon upgrading tip"
 dialogtxt       "will be posted here tomorrow."
 dialogtxt       "Please watch out for it."
 code0309        

@@ -451,7 +451,7 @@ dialogtxt       "earning money for our future."
 code0309        
 jumpz           @Cond_15fc, ($f1247 == 0)
 dialogtxt       "You're a Craftknight, aren't you?"
-dialogtxt       "Wanna hear about enhancement tips?"
+dialogtxt       "Wanna hear an upgrade tip?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_13a6, "Sure thing!"
@@ -460,7 +460,7 @@ choicewait
 
 @Choice_13a6:
 code047e        0, 1
-dialogtxt       "Enhancing with a \"Ruin Switch\""
+dialogtxt       "Upgrading with a \"Ruin Switch\""
 dialogtxt       "will add the \"DUR Attack\""
 dialogtxt       "to your weapon."
 code0309        

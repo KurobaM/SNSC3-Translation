@@ -346,7 +346,7 @@ dialogtxt       "I know a lot about smithing,"
 dialogtxt       "so feel free to ask anything."
 code0309        
 code047e        0, 0
-choicetxt       @Choice_0f52, "About enhancing…"
+choicetxt       @Choice_0f52, "About upgrading…"
 choicetxt       @Choice_1098, "About refining…"
 choicetxt       @Choice_11a4, "Nothing"
 choicewait      
@@ -354,11 +354,11 @@ choicewait
 @Choice_0f52:
 code047e        0, 1
 dialogtxt       "Pay attention, this is important."
-dialogtxt       "Enhancing can add special"
+dialogtxt       "Upgrading can add special"
 dialogtxt       "moves and effects to your weapon."
 code0309        
 dialogtxt       "Some items are categorized"
-dialogtxt       "specifically as enhancement"
+dialogtxt       "specifically as upgrade"
 dialogtxt       "materials."
 code0309        
 dialogtxt       "But if it isn't compatible,"
