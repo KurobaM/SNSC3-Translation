@@ -464,7 +464,7 @@ goto            @Label_12ae
 code0309        
 code0479        0, 1, 16
 dialogtxt       "Uhh… Well…"
-dialogtxt       "Chief was saying it was about time"
+dialogtxt       "Master was saying it was about time"
 dialogtxt       "that I got a partner of my own…"
 code0309        
 call            @Func_24d2
