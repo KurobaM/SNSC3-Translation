@@ -1038,7 +1038,7 @@ call            @Func_40c4
 code0479        1, 0, 12
 call            @Func_40fa
 dialogtxt       "Go on, Murno."
-dialogtxt       "Let'em have it."
+dialogtxt       "Let 'em have it."
 code0309        
 code0333        2, 30
 call            @Func_41b4
