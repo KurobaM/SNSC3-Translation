@@ -173,7 +173,7 @@ call            @Func_11ac
 code0479        1, 2, 14
 code0479        0, 4, 16
 call            @Func_110a
-dialogtxt       "Th-that…"
+dialogtxt       "Th-That…"
 dialogtxt       "Sorry…"
 code0309        
 call            @Func_1140

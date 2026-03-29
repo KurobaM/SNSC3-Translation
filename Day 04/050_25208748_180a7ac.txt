@@ -485,7 +485,7 @@ code043c        3, 3
 code047d        1, 120
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "A-anyway,"
+dialogtxt       "A-Anyway,"
 dialogtxt       "I'm going to contact the village!"
 dialogtxt       "You should head back too!"
 code0309        
