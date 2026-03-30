@@ -89,15 +89,15 @@ goto            @Cond_03c2
 @Cond_03c2:
 jumpz           @Cond_0486, ($b003 == 3)
 jumpz           @Cond_0430, ($b002 == 0)
-dialogtxt       "Damn it!"
+dialogtxt       "Hey!"
 dialogtxt       "You're here aren't you!?"
-dialogtxt       "Show yourself, spiky-furball!!!"
+dialogtxt       "Show yourself, spiky-furball!"
 goto            @Label_0482
 
 @Cond_0430:
 dialogtxt       "Heey!"
 dialogtxt       "You're here aren't you!?"
-dialogtxt       "Show yourself, spiky-furball!!!"
+dialogtxt       "Show yourself, spiky-furball!"
 goto            @Label_0482
 
 @Label_0482:
@@ -620,7 +620,7 @@ call            @Func_3fc8
 code0479        1, 11, 17
 call            @Func_4062
 call            @Func_3ffe
-dialogtxt       "Y-you're a girl!?"
+dialogtxt       "Wait, y-you're a girl!?"
 dialogtxt       "I-I'm sorry."
 dialogtxt       "I didn't notice!"
 code047b        
@@ -805,7 +805,7 @@ goto            @Label_2636
 @Label_2636:
 code0479        0, 8, 16
 call            @Func_3f92
-dialogtxt       "You're SO awful…!"
+dialogtxt       "How DARE you!"
 code0309        
 call            @Func_40ce
 call            @Func_3fb0
@@ -817,7 +817,7 @@ code0479        0, 2, 14
 call            @Func_4078
 call            @Func_3fe0
 jumpz           @Cond_26fc, ($b002 == 0)
-dialogtxt       "What? How am I supposed to know!"
+dialogtxt       "What? How was I supposed to know!"
 dialogtxt       "I couldn't tell with that outfit!"
 goto            @Label_274a
 
@@ -871,9 +871,9 @@ code047b
 call            @Func_3fc8
 code0479        1, 6, 14
 call            @Func_3ffe
-dialogtxt       "Tsk, what's with you!"
-dialogtxt       "It's not like I did it"
-dialogtxt       "because I wanted to!"
+dialogtxt       "Tch… What's with you!?"
+dialogtxt       "It's not like I did it 'cause"
+dialogtxt       "I wanted to, y'know!"
 goto            @Label_2a14
 
 @Cond_2978:
@@ -1019,7 +1019,7 @@ code0479        1, 2, 16
 call            @Func_4062
 call            @Func_3fe0
 jumpz           @Cond_3188, ($b002 == 0)
-dialogtxt       "What's her deal…?"
+dialogtxt       "What's her deal?"
 dialogtxt       "Misfortune!?"
 dialogtxt       "I don't get her at all!"
 code0309        
@@ -1047,13 +1047,12 @@ code0481        1
 code043c        0, 1
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Huh, did she drop this…?"
-dialogtxt       "It must be hers…"
-dialogtxt       "Is this…? Something important?"
+dialogtxt       "Huh, did she drop this?"
+dialogtxt       "It sure looks important."
 code0309        
-dialogtxt       "A Summon Stone…!"
-dialogtxt       "Was this used to call"
-dialogtxt       "that Summon Beast?"
+dialogtxt       "Wait! This is Summonite!"
+dialogtxt       "Was this used to call that"
+dialogtxt       "Summon Beast?"
 goto            @Label_3366
 
 @Cond_3188:
@@ -1087,11 +1086,10 @@ code0301        8, 7
 code047e        1, 1
 dialogtxt       "This stone… It's pretty unusual…"
 dialogtxt       "Is it hers?"
-dialogtxt       "Is it…? Something important?"
 code0309        
-dialogtxt       "This is… A Summon Stone?"
-dialogtxt       "Was this used to call"
-dialogtxt       "that Summon Beast?"
+dialogtxt       "Wait! This is Summonite!"
+dialogtxt       "Was this used to call that"
+dialogtxt       "Summon Beast?"
 goto            @Label_3366
 
 @Label_3366:
@@ -1202,8 +1200,8 @@ choicewait
 setvar          $f0133, 0
 code0479        1, 0, 12
 dialogtxt       "I guess I'll give it back."
-dialogtxt       "While I'm at it, I'll make her"
-dialogtxt       "tell me about that Summon Beast!"
+dialogtxt       "While I'm at it, I'll make her tell me"
+dialogtxt       "about that Summon Beast!"
 goto            @Label_38a4
 
 @Label_38a4:
@@ -1213,9 +1211,8 @@ goto            @Label_39e2
 setvar          $f0133, 1
 code0479        1, 2, 14
 jumpz           @Cond_3962, ($b002 == 0)
-dialogtxt       "…"
-dialogtxt       "Like I actually care.."
-dialogtxt       "I'll use it as a material!"
+dialogtxt       "Like I care…"
+dialogtxt       "I'll make a weapon out of this!"
 code0309        
 code0479        1, 0, 14
 dialogtxt       "But anyway, she is suspicious."
@@ -1225,7 +1222,7 @@ goto            @Label_39e2
 @Cond_3962:
 dialogtxt       "… Pshh."
 dialogtxt       "Like I really care about it anyway."
-dialogtxt       "Let's use it as material!!!"
+dialogtxt       "Let's use it as a material!!!"
 code0309        
 dialogtxt       "I should go and find that girl"
 dialogtxt       "though, she's very suspicious!"

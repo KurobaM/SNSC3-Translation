@@ -59,7 +59,7 @@ code0482
 code047d        0, 2
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Well, you found me."
+dialogtxt       "Well, you found me out."
 code0309        
 code047e        0, 0
 code0302        3
@@ -700,14 +700,13 @@ code0309
 call            @Func_32de
 code0479        1, 4, 16
 call            @Func_3314
-dialogtxt       "That is…"
-dialogtxt       "To make sure of where"
-dialogtxt       "you were going…"
+dialogtxt       "I just…"
+dialogtxt       "Wanted to know where you"
+dialogtxt       "were going…"
 code0309        
 call            @Func_334a
 code0479        0, 2, 14
 call            @Func_32a8
-dialogtxt       "Eh…?"
 dialogtxt       "You were following me?"
 dialogtxt       "Why?"
 goto            @Label_2306
@@ -723,7 +722,7 @@ code0309
 call            @Func_334a
 code0479        0, 5, 17
 call            @Func_32a8
-dialogtxt       "Protect Murno…?"
+dialogtxt       "Protect Murno?"
 dialogtxt       "You thought I was gonna"
 dialogtxt       "do something to her!?"
 goto            @Label_242a
@@ -751,15 +750,15 @@ code0309
 call            @Func_32de
 code0479        1, 2, 14
 call            @Func_3314
-dialogtxt       "You cannot guarantee"
-dialogtxt       "that it would definitely not happen."
+dialogtxt       "You cannot guarantee that it"
+dialogtxt       "would definitely not happen."
 code0309        
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
 dialogtxt       "I can! Absolutely!"
-dialogtxt       "A lot happened today, so"
-dialogtxt       "I was just organizing my thoughts!"
+dialogtxt       "A lot happened today, so I was"
+dialogtxt       "just organizing my thoughts!"
 goto            @Label_25e2
 
 @Label_25e2:
@@ -812,15 +811,15 @@ code0309
 call            @Func_32de
 code0479        1, 4, 16
 call            @Func_3314
-dialogtxt       "Uugh…"
-dialogtxt       "I feel as though your"
-dialogtxt       "words hold some truth…"
+dialogtxt       "Ugh…"
+dialogtxt       "I feel as though your words"
+dialogtxt       "hold some truth…"
 code0309        
 call            @Func_334a
 code0479        0, 0, 12
 call            @Func_32a8
-dialogtxt       "It's also important for"
-dialogtxt       "making good weapons!"
+dialogtxt       "It's also important for crafting"
+dialogtxt       "good weapons!"
 dialogtxt       "Right?"
 goto            @Label_2946
 
@@ -829,8 +828,7 @@ code0309
 call            @Func_32de
 code0479        1, 0, 12
 call            @Func_3314
-dialogtxt       "Certainly,"
-dialogtxt       "it does seem that way."
+dialogtxt       "Certainly, it does seem that way."
 dialogtxt       "I understand."
 code0309        
 call            @Func_334a
@@ -846,8 +844,7 @@ code0309
 call            @Func_32de
 code0479        1, 1, 13
 call            @Func_3314
-dialogtxt       "Yes."
-dialogtxt       "Likewise!"
+dialogtxt       "Yes. Likewise!"
 code0309        
 call            @Func_334a
 code0479        1, 0, 12
@@ -886,8 +883,7 @@ code0309
 call            @Func_334a
 code0479        0, 0, 16
 call            @Func_32a8
-dialogtxt       "Ah…"
-dialogtxt       "Is it really that embarassing?"
+dialogtxt       "I-Is it really that embarassing?"
 goto            @Label_2ce6
 
 @Label_2ce6:

@@ -20,12 +20,12 @@ code0479        0, 0, 16
 call            @Func_0f84
 dialogtxt       "Rolling? Rock? I don't know"
 dialogtxt       "much about the Nameless World's"
-dialogtxt       "music, but,"
+dialogtxt       "music…"
 code0309        
 code0479        0, 2, 12
 code0479        1, 0, 12
-dialogtxt       "I think this weapon"
-dialogtxt       "turned out pretty well!"
+dialogtxt       "But, I think this weapon turned out"
+dialogtxt       "pretty well!"
 code0309        
 call            @Func_0fba
 code0479        1, 0, 13
@@ -49,34 +49,33 @@ code0479        1, 0, 14
 call            @Func_106a
 call            @Func_0fd2
 dialogtxt       "Hmm~"
-dialogtxt       "I suppose it's okay, but it's not"
-dialogtxt       "good enough to sell in a store."
+dialogtxt       "Decent, but not quite good enough"
+dialogtxt       "to sell in a store."
 code047b        
 code0309        
 call            @Func_1026
 code0479        0, 4, 14
 call            @Func_0f84
-dialogtxt       "Oh… !"
-dialogtxt       "Okay…"
+dialogtxt       "O-Oh, okay…"
 code0309        
 call            @Func_0fba
 code0479        1, 2, 12
 call            @Func_0ff0
 dialogtxt       "Yep, that's right."
-dialogtxt       "You gotta make many,"
-dialogtxt       "many more weapons, and"
+dialogtxt       "You've still gotta make many,"
+dialogtxt       "many more weapons."
 code047b        
 code0309 
 call            @Func_0fba
 code0479        1, 2, 12
 call            @Func_0ff0
 jumpz           @Cond_03b6, ($b002 == 0)
-dialogtxt       "polish your skills,"
+dialogtxt       "You must polish your skills,"
 dialogtxt       "and your own grit as a man!"
 goto            @Label_03d4
 
 @Cond_03b6:
-dialogtxt       "polish your skills,"
+dialogtxt       "You must polish your skills,"
 dialogtxt       "and your discipline as a woman!"
 goto            @Label_03d4
 
@@ -127,13 +126,13 @@ code0321        7, 30
 code040d        30
 code0301        0, 9
 code0305        1
-dialogtxt       "Attacking with weapons decreases"
-dialogtxt       "durability. When a weapon's"
-dialogtxt       "durability reaches 0, it will break."
+dialogtxt       " Attacking with weapons decreases"
+dialogtxt       " durability. When a weapon's"
+dialogtxt       " durability reaches 0, it will break."
 code0309        
-dialogtxt       "To restore a weapon's durability,"
-dialogtxt       "you may use a repairing item or"
-dialogtxt       "bring it to a furnace."
+dialogtxt       " To restore a weapon's durability,"
+dialogtxt       " you may use a repairing item or"
+dialogtxt       " bring it to a furnace."
 code0309        
 code0302        9
 code0320        7, 2
@@ -188,13 +187,13 @@ call            @Func_0fa2
 code047b        
 code0301        0, 9
 code0305        1
-dialogtxt       "Equip weapons by pressing"
-dialogtxt       "the Start button, and opening"
-dialogtxt       "the equipment menu."
+dialogtxt       " Equip weapons by pressing"
+dialogtxt       " the Start button, and opening"
+dialogtxt       " the equipment menu."
 code0309        
-dialogtxt       "You can equip up to 3 weapons."
-dialogtxt       "Pressing the L button in battle"
-dialogtxt       "will switch your equipped weapon."
+dialogtxt       " You can equip up to 3 weapons."
+dialogtxt       " Pressing the L button in battle"
+dialogtxt       " will switch your equipped weapon."
 code0309        
 code0302        9
 done            

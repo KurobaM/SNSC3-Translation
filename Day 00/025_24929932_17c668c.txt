@@ -476,8 +476,8 @@ call            @Func_2cd8
 code0479        0, 2, 12
 call            @Func_2c36
 dialogtxt       "That's fine by me."
-dialogtxt       "I will defeat you"
-dialogtxt       "as many times as you want!"
+dialogtxt       "I will defeat you as many times"
+dialogtxt       "as you'd like!"
 code0309        
 call            @Func_2c6c
 code0479        1, 2, 15
@@ -542,13 +542,13 @@ call            @Func_2c6c
 code0479        1, 1, 12
 call            @Func_2ca2
 dialogtxt       "Thank you very much."
-dialogtxt       "But I am even more"
-dialogtxt       "stronger than this, you know!"
+dialogtxt       "But I am much more stronger"
+dialogtxt       "than this, you know!"
 code0309        
 call            @Func_2cd8
 code0479        0, 0, 16
 call            @Func_2c36
-dialogtxt       "Yeah, you looked much stronger"
+dialogtxt       "Yeah, you looked a lot stronger"
 dialogtxt       "when I first saw you."
 goto            @Label_1882
 
@@ -594,9 +594,8 @@ code0479        1, 0, 12
 code047d        1, 0
 call            @Func_2d06
 call            @Func_2ca2
-dialogtxt       "Besides,"
-dialogtxt       "we drove them off."
-dialogtxt       "Well, I'd say it's all good!"
+dialogtxt       "Besides, we drove them off."
+dialogtxt       "I'd say it's all good!"
 goto            @Label_1ae2
 
 @Label_1ae2:
@@ -676,23 +675,21 @@ call            @Func_2ca2
 jumpz           @Cond_1e48, ($b002 == 0)
 dialogtxt       "Anyway,"
 dialogtxt       "I wanted to ask you something."
-dialogtxt       "… Ah, that's right!"
 code0309        
 code0333        2, 30
 code0479        1, 0, 14
 dialogtxt       "What's happening here?"
-dialogtxt       "That Summon Beast, was it yours?"
+dialogtxt       "That Summon Beast, is it yours?"
 goto            @Label_1eec
 
 @Cond_1e48:
 dialogtxt       "Anyway,"
 dialogtxt       "I wanted to ask you something, too."
-dialogtxt       "…Ah, that's right!"
 code0309        
 code0333        2, 30
 code0479        1, 0, 14
 dialogtxt       "What's happening here?"
-dialogtxt       "That Summon Beast, was it yours?"
+dialogtxt       "That Summon Beast, is it yours?"
 goto            @Label_1eec
 
 @Label_1eec:

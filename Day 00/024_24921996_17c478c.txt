@@ -195,7 +195,7 @@ code0479        1, 5, 17
 code047d        1, 120
 call            @Func_62b8
 call            @Func_6236
-dialogtxt       "What the!?"
+dialogtxt       "What the hell!?"
 code047b        
 code0309        
 call            @Func_630e
@@ -207,7 +207,7 @@ code047d        0, 106
 call            @Func_62a2
 call            @Func_61ca
 dialogtxt       "You can't!"
-dialogtxt       "That Summon Stone is too pure!"
+dialogtxt       "That Summonite is too pure!"
 dialogtxt       "There's no way you could handle it!"
 code047b        
 code0309        
@@ -221,7 +221,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       50, 116, 3, 8, 0, "Uwaaaaaaah!!!"
+dialogbig       70, 116, 3, 8, 0, "Uwaaaaaaah!!!"
 goto            @Label_0c1a
 
 @Label_0c1a:
@@ -524,7 +524,7 @@ code043e        4, 3, 0
 code043c        4, 2
 call            @Func_62b8
 call            @Func_6236
-dialogtxt       "Hah!  So it's broken, huh!"
+dialogtxt       "Hah! So it's broken, huh!"
 dialogtxt       "Just as we'd expect from your"
 dialogtxt       "Summon Beast!"
 code047b        
@@ -1636,8 +1636,8 @@ jumpz           @Cond_5c28, ($b003 == 3)
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "Huh…?"
-dialogtxt       "I cannot muster any strength…?"
+dialogtxt       "Huh?"
+dialogtxt       "I cannot muster any strength…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -1691,7 +1691,7 @@ code047d        1, 2
 call            @Func_62ce
 call            @Func_61ca
 dialogtxt       "What happened?"
-dialogtxt       "You're looking weaker now."
+dialogtxt       "You look weaker now."
 goto            @Label_4efc
 
 @Label_4efc:
@@ -1700,9 +1700,7 @@ code0309
 call            @Func_621e
 code0479        1, 2, 15
 call            @Func_6254
-dialogtxt       "Huh?"
-dialogtxt       "Yah!"
-dialogtxt       "Hnng…!"
+dialogtxt       "Huh? Yah! Hrnng…!"
 code0309        
 call            @Func_6324
 call            @Func_6272
@@ -1732,9 +1730,9 @@ code0479        1, 0, 12
 code047d        1, 120
 call            @Func_62ce
 call            @Func_6236
-dialogtxt       "I admit I was surprised"
-dialogtxt       "you had a Summon Beast, but"
-dialogtxt       "turns out it was just a kid!"
+dialogtxt       "I'll admit I was surprised you"
+dialogtxt       "had a Summon Beast, but turns"
+dialogtxt       "out it was just a kid!"
 code047b        
 code0309        
 code0479        1, 0, 13
@@ -1747,11 +1745,11 @@ code0479        0, 2, 12
 call            @Func_61e8
 jumpz           @Cond_5144, ($b002 == 0)
 dialogtxt       "Haha…"
-dialogtxt       "It surely is surprising."
+dialogtxt       "You don't say…"
 goto            @Label_5164
 
 @Cond_5144:
-dialogtxt       "A surprise indeed…"
+dialogtxt       "You don't say…"
 goto            @Label_5164
 
 @Label_5164:
@@ -1767,8 +1765,8 @@ code0479        1, 4, 16
 code047d        1, 2
 call            @Func_62ce
 call            @Func_6236
-dialogtxt       "H-Huh…?"
-dialogtxt       "No way, what should I do…?"
+dialogtxt       "H-Huh?"
+dialogtxt       "No way, what should I do?"
 dialogtxt       "I can't gather any strength!"
 code047b        
 code0309        
@@ -1802,7 +1800,7 @@ code047d        1, 120
 call            @Func_62ce
 call            @Func_6236
 dialogtxt       "What's with you, huh?"
-dialogtxt       "Ain't you scared!"
+dialogtxt       "You look like you've seen a ghost."
 dialogtxt       "Can you even fight like that?"
 code047b        
 code0309        
@@ -1810,9 +1808,9 @@ call            @Func_628a
 code043c        1, 4
 code0479        0, 5, 17
 call            @Func_61e8
-dialogtxt       "I-I am not scared at all!"
+dialogtxt       "I-I am perfectly fine!"
 dialogtxt       "Anyway, please prepare yourself…"
-dialogtxt       "I am reeally strong, you see!"
+dialogtxt       "I'm really strong, you know!"
 code0309        
 call            @Func_6324
 call            @Func_6206
@@ -1827,7 +1825,7 @@ call            @Func_62ce
 call            @Func_61ca
 dialogtxt       "You can't, [NAME 1]."
 dialogtxt       "With the way you are now,"
-dialogtxt       "it's dangerous!"
+dialogtxt       "it's too dangerous!"
 code047b        
 code0309        
 call            @Func_621e
@@ -1848,8 +1846,8 @@ call            @Func_62b8
 call            @Func_6236
 code0334        
 code046e        34, 256, 1
-dialogtxt       "You're pretty confident"
-dialogtxt       "for a Summon Beast!"
+dialogtxt       "You're pretty confident for a"
+dialogtxt       "Summon Beast!"
 dialogtxt       "How about I teach you a lesson!"
 code047b        
 code0309        
@@ -1955,8 +1953,8 @@ code047d        1, 120
 call            @Func_62ce
 call            @Func_61ca
 dialogtxt       "I will not forgive you…"
-dialogtxt       "I will absolutely"
-dialogtxt       "not forgive you!"
+dialogtxt       "I will absolutely never, ever"
+dialogtxt       "forgive you!"
 code047b        
 code0309        
 call            @Func_621e

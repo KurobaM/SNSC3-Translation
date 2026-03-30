@@ -252,9 +252,9 @@ code0301        8, 7
 code047d        0, 126
 code047e        0, 1
 dialogtxt       "Instead of relying on something"
-dialogtxt       "so outlandish like a Summon Beast,"
-code0309        
+dialogtxt       "as outlandish like a Summon Beast,"
 dialogtxt       "believing in your own strength"
+code0309        
 dialogtxt       "is what makes us human, isn't it?"
 goto            @Label_0ae2
 

@@ -62,7 +62,7 @@ call            @Func_11d2
 code0479        1, 0, 12
 code0479        0, 0, 12
 call            @Func_1130
-dialogtxt       "Ah, me?…"
+dialogtxt       "Oh, uh…"
 dialogtxt       "Well, a lot happened today,"
 dialogtxt       "so I was clearing my head…"
 goto            @Label_0412
@@ -75,9 +75,8 @@ code0309
 call            @Func_1166
 code0479        1, 5, 12
 call            @Func_119c
-dialogtxt       "Ah, well…"
-dialogtxt       "Yes."
-dialogtxt       "I wanted to thank you."
+dialogtxt       "Um, well…"
+dialogtxt       "Yes. I wanted to thank you."
 code0309        
 call            @Func_11d2
 code0479        0, 0, 14
@@ -106,15 +105,14 @@ code0309
 call            @Func_1166
 code0479        1, 5, 12
 call            @Func_119c
-dialogtxt       "Apologize?"
-dialogtxt       "For what?"
+dialogtxt       "Apologize? For what?"
 code0309        
 call            @Func_11d2
 code0479        0, 10, 16
 call            @Func_1130
 dialogtxt       "Um, during the day…"
 dialogtxt       "Look, it wasn't on purpose, but"
-dialogtxt       "Your… You know…"
+dialogtxt       "your… you know…"
 code0309        
 call            @Func_1166
 code0479        1, 11, 15
@@ -130,8 +128,7 @@ code0309
 call            @Func_11d2
 code0479        0, 0, 16
 call            @Func_1130
-dialogtxt       "Eh…"
-dialogtxt       "But…"
+dialogtxt       "Eh, but…"
 code0309        
 call            @Func_1166
 code0479        1, 10, 14

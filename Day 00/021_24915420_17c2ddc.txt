@@ -49,7 +49,7 @@ code0309
 code0479        1, 2, 15
 code0479        0, 1, 14
 dialogtxt       "You're the one that bumped into ME!"
-dialogtxt       "you really wanna get a black eye!?"
+dialogtxt       "You really wanna get a black eye!?"
 code0309        
 call            @Func_12ee
 call            @Func_1304
@@ -104,8 +104,7 @@ call            @Func_1214
 code0479        1, 5, 15
 call            @Func_12ae
 call            @Func_124a
-dialogtxt       "Oooh!"
-dialogtxt       "You're a girl!!!"
+dialogtxt       "Oooh! A girlie!"
 code047b        
 code0309        
 call            @Func_131a
@@ -138,7 +137,7 @@ code043c        2, 2
 call            @Func_12ae
 code0479        1, 0, 12
 call            @Func_122c
-dialogtxt       "Hold on!"
+dialogtxt       "Stay right there!"
 code047b        
 code0309        
 call            @Func_1280
@@ -208,8 +207,8 @@ dialogtxt       "… Huh?"
 code0309        
 code0479        1, 0, 12
 code0479        0, 2, 17
-dialogtxt       "What…?"
-dialogtxt       "My stone…! It's gone!?"
+dialogtxt       "What?"
+dialogtxt       "My stone! It's gone!?"
 code0309        
 call            @Func_131a
 call            @Func_11fc

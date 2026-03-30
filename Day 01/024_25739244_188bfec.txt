@@ -261,12 +261,12 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0c34, ($b002 == 0)
 dialogtxt       "I'll follow that girl and get her"
-dialogtxt       "to talk about the summon beast!"
+dialogtxt       "to talk about that Summon Beast!"
 goto            @Label_0c7a
 
 @Cond_0c34:
 dialogtxt       "I'll follow that kid and get her"
-dialogtxt       "to talk about the summon beast!"
+dialogtxt       "to talk about the Summon Beast!"
 goto            @Label_0c7a
 
 @Label_0c7a:

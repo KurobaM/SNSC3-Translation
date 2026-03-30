@@ -568,8 +568,8 @@ code0309
 code0479        1, 4, 14
 code0479        0, 4, 14
 dialogtxt       "Life was hard before we moved here,"
-dialogtxt       "but with Rob by my side, we"
-dialogtxt       "managed to make it work."
+dialogtxt       "but with Rob by my side, we managed"
+dialogtxt       "to make it work."
 code0309        
 code0479        1, 10, 16
 dialogtxt       "And yet…"

@@ -171,8 +171,7 @@ goto            @Cond_07a2
 
 @Cond_07a2:
 jumpz           @Cond_0838, ($b003 == 3)
-dialogtxt       "What the heck!?"
-dialogtxt       "That spiky hair!?"
+dialogtxt       "What the heck!? That spiky hair!?"
 dialogtxt       "A Summon Beast!"
 goto            @Label_0834
 
@@ -197,7 +196,7 @@ code047d        0, 108
 call            @Func_100c
 call            @Func_0f34
 dialogtxt       "Just, wait a minute!"
-dialogtxt       "Ugh…!"
+dialogtxt       "Urk…!"
 code0309        
 call            @Func_0f88
 call            @Func_1062

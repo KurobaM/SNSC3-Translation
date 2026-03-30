@@ -606,14 +606,14 @@ code0309
 call            @Func_2d6a
 code0479        0, 0, 16
 call            @Func_2cc8
-dialogtxt       "What are you talking about…?"
+dialogtxt       "What are you talking about?"
 code0309        
 call            @Func_2cfe
 code0479        1, 0, 17
 call            @Func_2d34
 dialogtxt       "Master came and told me"
 dialogtxt       "that we're gonna greet the"
-dialogtxt       "village Chief!"
+dialogtxt       "Village Chief!"
 code0309        
 code0479        1, 0, 14
 dialogtxt       "So, I have to make sure my"
@@ -661,14 +661,14 @@ code0309
 call            @Func_2cfe
 code0479        1, 0, 12
 call            @Func_2d34
-dialogtxt       "In that case, it may be"
-dialogtxt       "alright to go as I am now…"
+dialogtxt       "In that case, it may be alright"
+dialogtxt       "to go as I am now…"
 code0309        
 call            @Func_2d6a
 code0479        0, 2, 12
 call            @Func_2cc8
 jumpz           @Cond_23a2, ($b002 == 0)
-dialogtxt       "Hey, that kinda hurts…"
+dialogtxt       "What's that mean?"
 goto            @Label_23ca
 
 @Cond_23a2:
@@ -681,7 +681,7 @@ code0309
 call            @Func_2cfe
 code0479        1, 2, 14
 call            @Func_2d34
-dialogtxt       "Anyyy~waaaaaays…"
+dialogtxt       "Anyyywaaaaaays~"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Ah, that's right!"
@@ -720,12 +720,12 @@ code0479        0, 0, 16
 call            @Func_2d82
 call            @Func_2caa
 dialogtxt       "There she goes…"
-dialogtxt       "Looks like she wants"
-dialogtxt       "to be with Murno…"
+dialogtxt       "Looks like she wants to be with"
+dialogtxt       "Murno…"
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "Murno's in the room upstairs"
+dialogtxt       "Murno's in the room upstairs."
 dialogtxt       "Hm, what should I do?"
 goto            @Label_2712
 

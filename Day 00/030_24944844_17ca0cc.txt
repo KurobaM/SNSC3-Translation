@@ -11,8 +11,8 @@ code0479        1, 2, 15
 code047d        1, 108
 call            @Func_1e14
 call            @Func_1d92
-dialogtxt       "… Hey, don't start"
-dialogtxt       "celebrating just yet!"
+dialogtxt       "… Hey, don't start celebrating"
+dialogtxt       "just yet!"
 dialogtxt       "Start training at once!!!"
 code047b        
 code0309        
@@ -32,8 +32,7 @@ code0309
 call            @Func_1d7a
 code0479        1, 2, 16
 call            @Func_1db0
-dialogtxt       "Of course!"
-dialogtxt       "Thanks to my injury,"
+dialogtxt       "Of course! Thanks to my injury,"
 dialogtxt       "I can't do any serious work myself!"
 code0309        
 code0479        0, 0, 16
@@ -66,8 +65,8 @@ code047d        0, 2
 call            @Func_1dfe
 call            @Func_1d44
 dialogtxt       "Right…"
-dialogtxt       "Some kind of grave"
-dialogtxt       "financial situation, it seems…"
+dialogtxt       "Some kind of grave financial"
+dialogtxt       "situation, it seems…"
 code0309        
 call            @Func_1d7a
 goto            @Cond_037e
@@ -103,8 +102,8 @@ code043c        2, 1
 code0479        1, 2, 15
 call            @Func_1db0
 dialogtxt       "Let's do it!"
-dialogtxt       "Your target is…"
-dialogtxt       "1 million Boam!!!"
+dialogtxt       "For now, your target is…"
+dialogtxt       "One million Boam!!!"
 code0309        
 call            @Func_1e80
 call            @Func_1dce
@@ -117,7 +116,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       8, 108, 0, 0, 0, "Wha-!!!"
+dialogbig       80, 116, 1, 0, 0, "What!!!???"
 code030c        
 call            @Func_1e54
 call            @Func_1d62
@@ -127,7 +126,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       8, 108, 0, 0, 0, "1 million Boam!!!??"
+dialogbig       48, 108, 1, 0, 0, "One million Boam!!!???"
 code030c        
 call            @Func_1e54
 call            @Func_1d62
@@ -138,7 +137,7 @@ call            @Func_1e14
 call            @Func_1d92
 dialogtxt       "The more unrealistic the goal,"
 dialogtxt       "the cooler it is when you reach it!"
-dialogtxt       "Come on now, we've got work to do~!"
+dialogtxt       "Come on now, we've got work to do~"
 code0309        
 call            @Func_1de6
 code0478        0, 0
@@ -146,20 +145,19 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_1dfe
 call            @Func_1d44
-dialogtxt       "Wai-!"
-dialogtxt       "Wait just a minute!"
+dialogtxt       "W-Wait just a minute!"
 code0309        
 call            @Func_1d7a
 code0479        1, 2, 14
 call            @Func_1db0
-dialogtxt       "Ahh, and also,"
-dialogtxt       "in order to make effective weapons,"
-dialogtxt       "you two getting along is essential."
+dialogtxt       "Ahh, and also, in order to make"
+dialogtxt       "effective weapons, you two getting"
+dialogtxt       "along is essential."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "That's why, from today onwards"
-dialogtxt       "you two will be living"
-dialogtxt       "together in the workshop."
+dialogtxt       "you two will be living together"
+dialogtxt       "in the workshop."
 code0309        
 call            @Func_1e80
 call            @Func_1dce
@@ -193,7 +191,7 @@ code047d        1, 2
 call            @Func_1e2a
 jumpz           @Cond_0934, ($b003 == 0)
 call            @Func_1d26
-dialogbig       65, 116, 1, 0, 0, "Say what!?"
+dialogbig       70, 116, 1, 0, 0, "Say what!?"
 code047b        
 code030c        
 call            @Func_1d7a
@@ -470,7 +468,7 @@ call            @Func_1d7a
 code043c        2, 2
 code0479        1, 2, 15
 call            @Func_1db0
-dialogtxt       "Well then,"
+dialogtxt       "Well then, the both of you"
 dialogtxt       "gather in the workshop!"
 dialogtxt       "Quickly now!"
 code0309        

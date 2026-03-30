@@ -14,7 +14,7 @@ code030a        6, 1
 code0304        0
 code040d        30
 code0301        8, 0
-dialogtxt       "You know the deal [NAME 0]…"
+dialogtxt       "You know the deal, [NAME 0]…"
 code0309        
 code0302        0
 code033c        381, 0, 0, 3, 240, 3, 128
@@ -69,8 +69,7 @@ code0309
 call            @Func_0fca
 call            @Func_1000
 code0479        1, 2, 16
-dialogtxt       "[NAME 0], you've brought your hammer,"
-dialogtxt       "right?"
+dialogtxt       "You've brought your hammer, right?"
 code0309        
 call            @Func_1036
 call            @Func_0f94
@@ -118,7 +117,7 @@ code047d        0, 0
 call            @Func_104e
 call            @Func_0f94
 jumpz           @Cond_0600, ($b002 == 0)
-dialogtxt       "Of course!"
+dialogtxt       "Thank you!"
 goto            @Label_0618
 
 @Cond_0600:

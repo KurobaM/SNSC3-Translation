@@ -74,8 +74,8 @@ code0309
 call            @Func_1124
 code0479        1, 0, 16
 call            @Func_115a
-dialogtxt       "Why are you the one"
-dialogtxt       "thanking me?"
+dialogtxt       "Why are YOU the one thanking"
+dialogtxt       "me?"
 code0309        
 call            @Func_1190
 code0479        0, 4, 16
@@ -125,8 +125,8 @@ call            @Func_1124
 code0479        0, 0, 12
 code0479        1, 0, 16
 call            @Func_115a
-dialogtxt       "[NAME 2],"
-dialogtxt       "have you ever heard this saying?"
+dialogtxt       "[NAME 2], have you ever"
+dialogtxt       "heard this saying?"
 dialogtxt       "\"Good things come in threes.\""
 code0309        
 code0479        1, 1, 12
@@ -141,9 +141,9 @@ code0309
 call            @Func_1124
 code0479        1, 2, 12
 call            @Func_115a
-dialogtxt       "So in other words,"
-dialogtxt       "since you've obtained a partner,"
-dialogtxt       "you'll improve your skills…"
+dialogtxt       "So in other words, since you've"
+dialogtxt       "found a partner, you'll improve"
+dialogtxt       "your skills…"
 code0309        
 code0479        1, 2, 13
 dialogtxt       "And bring in lots of money."
@@ -152,19 +152,18 @@ code0309
 call            @Func_1190
 code0479        0, 5, 15
 call            @Func_10ee
-dialogtxt       "Ehhhh!?"
+dialogtxt       "Say what!?"
 code0309        
 call            @Func_1124
 code0479        1, 2, 15
 call            @Func_115a
-dialogtxt       "Don't \"Ehh\" me!"
-dialogtxt       "Your goal is to be like"
-dialogtxt       "Rob, right!?"
+dialogtxt       "Don't \"Say what!?\" me!"
+dialogtxt       "Your goal is to be like Rob, right!?"
 code0309        
 code0479        1, 2, 12
 code0479        0, 2, 16
-dialogtxt       "Then work hard enough"
-dialogtxt       "to surpass me!"
+dialogtxt       "Then work hard enough to"
+dialogtxt       "surpass me!"
 code0309        
 call            @Func_1190
 code0479        0, 0, 12
@@ -181,8 +180,7 @@ code0309
 call            @Func_1124
 code0479        1, 1, 12
 call            @Func_115a
-dialogtxt       "Good!"
-dialogtxt       "That's the spirit!"
+dialogtxt       "Good! That's the spirit!"
 code0309        
 code0479        0, 0, 12
 code0479        1, 0, 13

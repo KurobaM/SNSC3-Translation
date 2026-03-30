@@ -11,7 +11,7 @@ code0479        0, 5, 17
 code047d        0, 106
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "I-It's you…!"
+dialogtxt       "I-It's you!"
 code047b        
 code0309        
 call            @Func_1628
@@ -24,7 +24,7 @@ code047d        0, 120
 call            @Func_15d2
 call            @Func_1518
 dialogtxt       "What!?"
-dialogtxt       "The Stray's lap dog again, huh?"
+dialogtxt       "The Stray's apprentice again, huh?"
 dialogtxt       "You want something, kid?"
 code047b        
 code0309        
@@ -118,7 +118,7 @@ code0479        0, 0, 15
 code047d        0, 120
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "Then, hurry up and…"
+dialogtxt       "Then, hurry up and-"
 code047b        
 code0309        
 call            @Func_154e
@@ -132,7 +132,7 @@ code0309
 call            @Func_15ba
 code0479        0, 5, 17
 call            @Func_1518
-dialogtxt       "Wha-!"
+dialogtxt       "What!?"
 code0309        
 call            @Func_1654
 call            @Func_1536
@@ -162,9 +162,9 @@ code0479        1, 5, 14
 code047d        1, 120
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "Sorry, but I need to talk to"
-dialogtxt       "her. And it's important."
-dialogtxt       "So could you let her go?"
+dialogtxt       "Sorry, but I need to talk to her."
+dialogtxt       "And it's important, so you'll"
+dialogtxt       "have to let her go."
 goto            @Label_0838
 
 @Label_0838:
@@ -174,15 +174,15 @@ call            @Func_154e
 code0479        1, 2, 14
 call            @Func_1584
 dialogtxt       "You little runt…"
-dialogtxt       "You're just a Stray's lap dog,"
+dialogtxt       "You're just a Stray's apprentice,"
 dialogtxt       "don't get so cocky!"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 14
 call            @Func_1518
 dialogtxt       "You're one to talk!"
-dialogtxt       "Guys ganging up and picking"
-dialogtxt       "on a girl, pathetic!"
+dialogtxt       "Ganging up and picking on a girl…"
+dialogtxt       "Pathetic!"
 goto            @Label_0988
 
 @Label_0988:
@@ -190,12 +190,11 @@ code0309
 call            @Func_154e
 code0479        1, 2, 15
 call            @Func_1584
-dialogtxt       "What did you say, you-!"
+dialogtxt       "What did you say, you-"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "First of all,"
-dialogtxt       "she ran into me,"
-dialogtxt       "and didn't even apologize, so…"
+dialogtxt       "First of all, SHE ran into ME."
+dialogtxt       "And didn't even apologize, so-"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 12
@@ -222,13 +221,11 @@ call            @Func_15ba
 code0479        0, 2, 15
 call            @Func_1518
 jumpz           @Cond_0b42, ($b002 == 0)
-dialogtxt       "Go ahead and try, see"
-dialogtxt       "if you can take me!"
+dialogtxt       "Go ahead and try!"
 goto            @Label_0b6a
 
 @Cond_0b42:
-dialogtxt       "I won't lose"
-dialogtxt       "to a jerk like you!"
+dialogtxt       "I won't lose to a jerk like you!"
 goto            @Label_0b6a
 
 @Label_0b6a:
@@ -254,12 +251,12 @@ call            @Func_15e8
 call            @Func_1584
 jumpz           @Cond_0c44, ($b002 == 0)
 dialogtxt       "Huh?"
-dialogtxt       "What's up?"
+dialogtxt       "What do you mean?"
 goto            @Label_0c5a
 
 @Cond_0c44:
 dialogtxt       "Huh?"
-dialogtxt       "What?"
+dialogtxt       "What do you mean?"
 goto            @Label_0c5a
 
 @Label_0c5a:
@@ -271,8 +268,8 @@ dialogtxt       "I always end up burdening others."
 dialogtxt       "This is why…"
 code0309        
 code0479        0, 4, 15
-dialogtxt       "I told you not to get involved"
-dialogtxt       "with me…"
+dialogtxt       "I told you, you shouldn't get"
+dialogtxt       "involved with me…"
 code0309        
 call            @Func_154e
 code0479        1, 2, 12
@@ -285,12 +282,12 @@ code0309
 call            @Func_15ba
 code0479        0, 4, 16
 call            @Func_1518
-dialogtxt       "Why…?"
+dialogtxt       "But, why…?"
 code0309        
 call            @Func_154e
 code0479        1, 0, 16
 call            @Func_1584
-dialogtxt       "\"Why\", you ask…?"
+dialogtxt       "\"Why,\" you ask?"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Because if I didn't step in now,"
@@ -312,7 +309,7 @@ dialogtxt       "What I'm trying to say is…"
 code0309        
 code043c        0, 4
 code0479        1, 2, 13
-dialogtxt       "If misfortunes always befall you,"
+dialogtxt       "If misfortune always befalls you,"
 dialogtxt       "then I'll be the one to protect you!"
 goto            @Label_0f42
 

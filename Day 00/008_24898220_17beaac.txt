@@ -54,8 +54,8 @@ call            @Func_20ce
 call            @Func_2104
 code0479        1, 4, 13
 dialogtxt       "A Summon Beast without a master"
-dialogtxt       "is a Stray, so please"
-dialogtxt       "hurry up and get rid of her."
+dialogtxt       "is a Stray, so please hurry up"
+dialogtxt       "and get rid of her."
 code0309        
 code0479        0, 2, 14
 code0479        1, 0, 13
@@ -70,8 +70,8 @@ code047d        0, 120
 call            @Func_2152
 call            @Func_2098
 dialogtxt       "That's right!"
-dialogtxt       "It was one of those Strays"
-dialogtxt       "that seriously injured our Master!"
+dialogtxt       "It was one of those Strays that"
+dialogtxt       "seriously injured our Master!"
 code0309        
 dialogtxt       "We can't just leave it be!"
 dialogtxt       "Where was it summoned from?"
@@ -88,13 +88,13 @@ call            @Func_213a
 call            @Func_2098
 code0479        0, 0, 13
 dialogtxt       "Totally wrong!"
-dialogtxt       "A demon from Sapureth? … Maybe not."
-dialogtxt       "Not a beast from Maetropa either…"
+dialogtxt       "Not a demon from Sapureth,"
+dialogtxt       "or a beast from Maetropa either…"
 code0309        
 call            @Func_20ce
 call            @Func_2104
 code0479        1, 0, 13
-dialogtxt       "It must be from an unknown world!"
+dialogtxt       "It must be from some unknown world!"
 dialogtxt       "What a worthless Summon Beast!"
 code0309        
 call            @Func_21a8
@@ -215,8 +215,7 @@ code047d        1, 110
 call            @Func_2168
 call            @Func_20e6
 dialogtxt       "Did you not hear me?"
-dialogtxt       "You're in the way."
-dialogtxt       "Step aside."
+dialogtxt       "You're in the way. Step aside."
 code047b        
 code0309        
 call            @Func_213a
@@ -227,8 +226,8 @@ code047d        0, 120
 call            @Func_2152
 call            @Func_2098
 dialogtxt       "What're you talking about?"
-dialogtxt       "Don't you have a bone"
-dialogtxt       "to pick with them too?"
+dialogtxt       "Don't you have a bone to pick with"
+dialogtxt       "them too?"
 code0309        
 code0479        0, 0, 13
 dialogtxt       "That's one of the Stray's buddies"
@@ -439,8 +438,8 @@ call            @Func_2152
 call            @Func_2098
 jumpz           @Cond_15ca, ($b002 == 0)
 dialogtxt       "Oh really?"
-dialogtxt       "So that run-down face is"
-dialogtxt       "because you aren't feeling well?"
+dialogtxt       "So that run-down face is because"
+dialogtxt       "you're not feeling well, huh?"
 goto            @Label_1616
 
 @Cond_15ca:
@@ -462,8 +461,8 @@ code047d        1, 131
 call            @Func_2168
 call            @Func_2104
 dialogtxt       "What was that!?"
-dialogtxt       "… Wait, aren't you"
-dialogtxt       "that Stray's apprentice!?"
+dialogtxt       "… Wait, aren't you tht Stray's"
+dialogtxt       "apprentice!?"
 code047b        
 code0309        
 code0479        1, 2, 15

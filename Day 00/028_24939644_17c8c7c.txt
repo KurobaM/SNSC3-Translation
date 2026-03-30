@@ -83,11 +83,11 @@ code047b
 jumpz           @Cond_04fa, ($b003 != 2)
 jumpz           @Cond_044c, ($b002 == 0)
 dialogtxt       "Alright, let's go!"
-dialogtxt       "First, I'll make you eat dirt!"
+dialogtxt       "First, I'll show you who's boss!"
 code0309        
 code0479        0, 2, 13
-dialogtxt       "And then I'll have you"
-dialogtxt       "help with the crafting too!"
+dialogtxt       "And then I'll have you help with"
+dialogtxt       "help me craft stuff too!"
 goto            @Label_04f6
 
 @Cond_044c:
@@ -97,7 +97,7 @@ dialogtxt       "attitude of yours!"
 code0309        
 code0479        0, 2, 13
 dialogtxt       "And then I'll have you"
-dialogtxt       "help with the crafting too!"
+dialogtxt       "help me craft stuff too!"
 goto            @Label_04f6
 
 @Label_04f6:

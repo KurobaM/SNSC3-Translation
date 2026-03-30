@@ -12,7 +12,7 @@ code047b
 code0309        
 call            @Func_25a4
 call            @Func_25da
-dialogtxt       "Hngg!"
+dialogtxt       "Hngg…!"
 code0309        
 call            @Func_26aa
 call            @Func_25f8
@@ -36,14 +36,12 @@ call            @Func_263e
 call            @Func_25bc
 jumpz           @Cond_01fe, ($b002 == 0)
 dialogtxt       "As I was saying…"
-dialogtxt       "Hey, you."
-dialogtxt       "I picked this up earlier."
+dialogtxt       "Hey, you. I picked this up earlier."
 goto            @Label_0254
 
 @Cond_01fe:
 dialogtxt       "As I was saying…"
-dialogtxt       "Hey, you."
-dialogtxt       "I picked this up earlier."
+dialogtxt       "Hey, you. I picked this up earlier."
 goto            @Label_0254
 
 @Label_0254:
@@ -96,8 +94,8 @@ jumpz           @Cond_059a, ($f0133 == 1)
 code0479        1, 0, 16
 call            @Func_2654
 call            @Func_25da
-dialogtxt       "I thought I'd use it"
-dialogtxt       "as crafting material."
+dialogtxt       "I thought I'd use it for"
+dialogtxt       "crafting material."
 dialogtxt       "Can I have it?"
 code0309        
 call            @Func_2610
@@ -111,8 +109,7 @@ call            @Func_25a4
 code0479        1, 5, 17
 call            @Func_25da
 jumpz           @Cond_0558, ($b002 == 0)
-dialogtxt       "Whaaat!?"
-dialogtxt       "Really?"
+dialogtxt       "Whaaat!? Really?"
 dialogtxt       "Sorry, here…"
 goto            @Label_0596
 
@@ -193,8 +190,7 @@ code047d        1, 120
 call            @Func_2654
 call            @Func_2550
 jumpz           @Cond_095e, ($b002 == 0)
-dialogtxt       "What!?"
-dialogtxt       "Let me go!!!"
+dialogtxt       "What!? Let me go!!!"
 dialogtxt       "You dirty bastard!"
 goto            @Label_0992
 
@@ -334,8 +330,8 @@ code0309
 call            @Func_25a4
 code0479        1, 2, 13
 call            @Func_25da
-dialogtxt       "You think we're unfair?"
-dialogtxt       "I'm just giving my friend here"
+dialogtxt       "You think this is unfair?"
+dialogtxt       "I'm just giving my buddy here"
 dialogtxt       "a helping hand."
 code0309        
 call            @Func_267e
@@ -384,15 +380,14 @@ code047d        0, 106
 call            @Func_2654
 code0479        1, 0, 13
 call            @Func_25bc
-dialogtxt       "So, miss,"
-dialogtxt       "I'm asking you to come along"
-dialogtxt       "with me for a little bit!"
+dialogtxt       "So, miss, I'm asking you to come"
+dialogtxt       "along with me for a little bit!"
 
 code0309        
 call            @Func_2610
 code0479        0, 2, 15
 call            @Func_256e
-dialogtxt       "No…!"
+dialogtxt       "No!"
 code0309        
 call            @Func_267e
 call            @Func_25a4
@@ -484,7 +479,7 @@ code0479        0, 4, 16
 code047d        0, 106
 call            @Func_2628
 call            @Func_2550
-dialogtxt       "I-I'm sorry…"
+dialogtxt       "I-I'm so sorry…"
 code047b        
 code0309        
 call            @Func_25a4
@@ -499,7 +494,7 @@ code0309
 call            @Func_2610
 code0479        0, 4, 15
 call            @Func_256e
-dialogtxt       "I'm really sorry."
+dialogtxt       "I'm sorry."
 dialogtxt       "I didn't want to cause any trouble."
 dialogtxt       "If I play along, then they'll-"
 code0309        
@@ -570,8 +565,8 @@ code0479        1, 0, 10
 code047d        1, 120
 call            @Func_263e
 call            @Func_25bc
-dialogtxt       "Hahaha…! You heard the girl!"
-dialogtxt       "She's agreed to come along with us,"
+dialogtxt       "Haha! You heard the girl!"
+dialogtxt       "She's agreed to come with us,"
 dialogtxt       "and you can't do anything about it!"
 code047b        
 code0309        
@@ -586,13 +581,11 @@ code047d        0, 0
 call            @Func_2628
 call            @Func_2550
 jumpz           @Cond_1b0a, ($b002 == 0)
-dialogtxt       "I'm…"
-dialogtxt       "So pathetic…"
+dialogtxt       "I'm… so pathetic…"
 goto            @Label_1b3c
 
 @Cond_1b0a:
-dialogtxt       "I'm…"
-dialogtxt       "So weak…"
+dialogtxt       "I'm… so weak…"
 goto            @Label_1b3c
 
 @Label_1b3c:
@@ -631,8 +624,7 @@ goto            @Label_1c3c
 @Label_1c3c:
 code0309        
 code0479        0, 2, 15
-dialogtxt       "I'll save her!"
-dialogtxt       "I have to…"
+dialogtxt       "I'll save her! I have to!"
 dialogtxt       "I will…"
 code0309        
 call            @Func_267e

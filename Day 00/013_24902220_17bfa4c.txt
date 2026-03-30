@@ -12,8 +12,9 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_0ce0
 call            @Func_0c48
-dialogtxt       "Well then, it's time"
-dialogtxt       "to craft a weapon."
+dialogtxt       "Well then, it's time to craft a"
+dialogtxt       "weapon."
+code0309
 dialogtxt       "When you're using the forge…"
 code047b        
 code0309        
@@ -57,8 +58,8 @@ call            @Func_0cb4
 call            @Func_0bdc
 code047e        0, 1
 dialogtxt       "The first step to craft a weapon…"
-dialogtxt       "You need to put the"
-dialogtxt       "materials into the furnace."
+dialogtxt       "You need to put the materials"
+dialogtxt       "into the furnace."
 code047b        
 code0309        
 call            @Func_0d0a
@@ -70,17 +71,17 @@ code0321        7, 30
 code040d        30
 code0301        0, 9
 code0305        1
-dialogtxt       "Approach the furnace,"
-dialogtxt       "then press the A button to open"
-dialogtxt       "the menu and select Create."
+dialogtxt       " Approach the furnace, then press"
+dialogtxt       " the A button to open the menu"
+dialogtxt       " and select Create."
 code0309        
-dialogtxt       "Choose a Shapestone for the base,"
-dialogtxt       "add the synthesis material,"
-dialogtxt       "and you're done."
+dialogtxt       " Choose a Shapestone for the base,"
+dialogtxt       " add the synthesis material,"
+dialogtxt       " and you're done."
 code0309        
-dialogtxt       "Shapestones determine weapon type,"
-dialogtxt       "while the synthesis material"
-dialogtxt       "determines strength and appearance."
+dialogtxt       " Shapestones determine weapon type,"
+dialogtxt       " while the synthesis material"
+dialogtxt       " determines strength and appearance."
 code0309        
 code0302        9
 code0320        7, 2
@@ -90,7 +91,6 @@ code031a        7
 code0479        0, 1, 12
 call            @Func_0cb4
 call            @Func_0bdc
-dialogtxt       "Alright!"
 dialogtxt       "Perfect!"
 code047b        
 code0309        
