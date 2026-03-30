@@ -268,7 +268,7 @@ code0309
 call            @Func_1a64
 code0479        0, 5, 17
 call            @Func_19c2
-dialogtxt       "Wha… What was that!?"
+dialogtxt       "Wha-What was that!?"
 code0309        
 call            @Func_19f8
 code0479        1, 3, 15
@@ -395,7 +395,7 @@ code0479        0, 8, 14
 code047d        0, 108
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Sh-shut up,"
+dialogtxt       "Sh-Shut up,"
 dialogtxt       "idiot…"
 code047b        
 code0309        
@@ -415,7 +415,7 @@ code0479        0, 5, 15
 code047d        0, 115
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Why you!"
+dialogtxt       "Damn you!"
 dialogtxt       "Stop making fun of my hair!"
 dialogtxt       "This time, I'll bash your head in!"
 code047b        

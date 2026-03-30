@@ -10,13 +10,11 @@ code047d        1, 115
 call            @Func_2662
 call            @Func_255e
 jumpz           @Cond_00ce, ($b002 == 0)
-dialogtxt       "Now,"
-dialogtxt       "take me to where Murno is!"
+dialogtxt       "Now, take me to where Murno is!"
 goto            @Label_0108
 
 @Cond_00ce:
-dialogtxt       "Now,"
-dialogtxt       "take me to where Murno is!"
+dialogtxt       "Now, take me to where Murno is!"
 goto            @Label_0108
 
 @Label_0108:
@@ -302,7 +300,7 @@ code047d        0, 0
 code0479        1, 2, 14
 call            @Func_2662
 call            @Func_255e
-dialogtxt       "M-master!?"
+dialogtxt       "M-Master!?"
 code047b        
 code0309        
 call            @Func_25b2
@@ -634,11 +632,11 @@ code047d        0, 0
 call            @Func_2662
 call            @Func_255e
 jumpz           @Cond_1e2e, ($b002 == 0)
-dialogtxt       "L-let's go!"
+dialogtxt       "L-Let's go!"
 goto            @Label_1e4e
 
 @Cond_1e2e:
-dialogtxt       "L-let's go!"
+dialogtxt       "L-Let's go!"
 goto            @Label_1e4e
 
 @Label_1e4e:

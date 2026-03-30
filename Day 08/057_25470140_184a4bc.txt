@@ -80,7 +80,7 @@ goto            @Cond_02ca
 @Cond_02ca:
 jumpz           @Cond_031a, ($b003 == 1)
 dialogtxt       "Of course…"
-dialogtxt       "But that bracelet is"
+dialogtxt       "But that shackle is"
 dialogtxt       "stopping me again…"
 goto            @Cond_031a
 
@@ -88,14 +88,14 @@ goto            @Cond_031a
 jumpz           @Cond_0372, ($b003 == 2)
 dialogtxt       "Obviously…"
 dialogtxt       "It's just that annoying"
-dialogtxt       "bracelet is…"
+dialogtxt       "shackle is…"
 goto            @Cond_0372
 
 @Cond_0372:
 jumpz           @Cond_03c6, ($b003 == 3)
 dialogtxt       "Yes…"
 dialogtxt       "But they put that"
-dialogtxt       "bracelet on me again…"
+dialogtxt       "shackle on me again…"
 goto            @Cond_03c6
 
 @Cond_03c6:

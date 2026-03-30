@@ -137,12 +137,12 @@ code0479        0, 0, 12
 call            @Func_1208
 jumpz           @Cond_06be, ($b002 == 0)
 dialogtxt       "And with Bostaph."
-dialogtxt       "Since you were there…"
+dialogtxt       "Since you were there—"
 goto            @Label_06f2
 
 @Cond_06be:
 dialogtxt       "And with Bostaph."
-dialogtxt       "Since you were there…"
+dialogtxt       "Since you were there—"
 goto            @Label_06f2
 
 @Label_06f2:
@@ -249,13 +249,13 @@ call            @Func_1208
 jumpz           @Cond_0b72, ($b002 == 0)
 dialogtxt       "Consider it!?"
 dialogtxt       "You aren't honest at all, huh."
-dialogtxt       "Because you're always like that…"
+dialogtxt       "Because you're always like that—"
 goto            @Label_0bc4
 
 @Cond_0b72:
 dialogtxt       "Consider it!?"
 dialogtxt       "You aren't honest at all, huh."
-dialogtxt       "Because you're always like that…"
+dialogtxt       "Because you're always like that—"
 goto            @Label_0bc4
 
 @Label_0bc4:
@@ -263,7 +263,7 @@ code0309
 call            @Func_123e
 code0479        1, 2, 14
 call            @Func_1274
-dialogtxt       "… Hey,"
+dialogtxt       "Hey,"
 dialogtxt       "don't get too cocky…"
 code0309        
 call            @Func_12aa

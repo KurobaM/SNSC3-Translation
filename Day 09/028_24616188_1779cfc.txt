@@ -351,8 +351,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "I've personally learned that you"
-dialogtxt       "both having weapons is dangerous."
+dialogtxt       "When both sides have weapons,"
+dialogtxt       "conflict tends to escalate…"
+dialogtxt       "I learned that the hard way."
 code0309        
 code047e        0, 0
 code0302        7
@@ -389,7 +390,7 @@ code040b
 code0301        8, 7
 dialogtxt       "When fighting a human opponent,"
 dialogtxt       "breaking their weapon is a win."
-dialogtxt       "Committee for Weapon Destruction"
+dialogtxt       "　　 　 —Weapon Destruction Committee"
 code0309        
 code0302        7
 code040b        
@@ -398,7 +399,7 @@ code040b
 code0301        8, 7
 dialogtxt       "Don't do today,"
 dialogtxt       "what you can do tomorrow!"
-dialogtxt       "　　　　　　　　　　-A lazy person"
+dialogtxt       "　　　　　　　　　—A lazy person"
 code0309        
 code0302        7
 code040b        
