@@ -3,7 +3,7 @@ dialogtxt       "By the time we returned,"
 dialogtxt       "the sun had completely sunk"
 dialogtxt       "beyond the horizon."
 code030a        6, 1
-dialogtxt       "Anise's examination begins now."
+dialogtxt       "Anise's interrogation begins now."
 dialogtxt       "I still don't know what happened"
 dialogtxt       "between Master Rob and Voijin…"
 code030a        6, 1

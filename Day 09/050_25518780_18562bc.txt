@@ -170,7 +170,7 @@ call            @Func_1c4e
 code0479        0, 1, 16
 call            @Func_1bac
 dialogtxt       "You still haven't gotten"
-dialogtxt       "over it have you…"
+dialogtxt       "over it have you?"
 code0309        
 call            @Func_1cbc
 call            @Func_1be2

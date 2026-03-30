@@ -169,8 +169,8 @@ call            @Func_2490
 code0479        1, 2, 14
 call            @Func_2442
 dialogtxt       "Pathetic… Well,"
-dialogtxt       "it's our fault anyway,"
-dialogtxt       "so we'll do something about it."
+dialogtxt       "it's your fault it turned out like this,"
+dialogtxt       "Deal with it yourselves."
 code047b        
 code0309        
 code0479        1, 0, 12

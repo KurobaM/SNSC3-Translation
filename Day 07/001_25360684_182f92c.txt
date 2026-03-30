@@ -219,12 +219,12 @@ call            @Func_16ec
 code0479        0, 0, 16
 call            @Func_164a
 jumpz           @Cond_09e0, ($b002 == 0)
-dialogtxt       "What's this… ?"
+dialogtxt       "What's this…?"
 dialogtxt       "Are you worried about me?"
 goto            @Label_0a14
 
 @Cond_09e0:
-dialogtxt       "What's this… ?"
+dialogtxt       "What's this…?"
 dialogtxt       "Are you worried about me?"
 goto            @Label_0a14
 

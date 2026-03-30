@@ -375,7 +375,7 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "This village is filthy. I hate it."
+dialogtxt       "This town is filthy. I hate it."
 code0309        
 dialogtxt       "Is there anywhere quiet around here?"
 code0309        
