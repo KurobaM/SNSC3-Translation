@@ -62,11 +62,11 @@ code047d        0, 0
 call            @Func_176c
 call            @Func_1694
 jumpz           @Cond_02a6, ($b002 == 0)
-dialogtxt       "W-what!?"
+dialogtxt       "W-What!?"
 goto            @Label_02c0
 
 @Cond_02a6:
-dialogtxt       "W-what!?"
+dialogtxt       "W-What!?"
 goto            @Label_02c0
 
 @Label_02c0:
@@ -112,7 +112,7 @@ code0309
 call            @Func_1754
 code0479        0, 2, 16
 call            @Func_16b2
-dialogtxt       "S-sorry."
+dialogtxt       "S-Sorry."
 dialogtxt       "Um…"
 dialogtxt       "I was thinking, maybe I could help?"
 code0309        
@@ -223,7 +223,7 @@ code047d        0, 2
 call            @Func_176c
 code0479        0, 2, 12
 call            @Func_16b2
-dialogtxt       "D-despite my appearance,"
+dialogtxt       "D-Despite my appearance,"
 dialogtxt       "I am quite capable."
 code047b        
 code0309        

@@ -86,7 +86,7 @@ code030c
 call            @Func_2340
 code0479        0, 7, 13
 call            @Func_229e
-dialogtxt       "T-thanks, Master."
+dialogtxt       "T-Thanks, Master."
 code0309        
 call            @Func_22d4
 code0479        1, 0, 13
@@ -184,7 +184,7 @@ goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_076c, ($b003 == 1)
-dialogbig       24, 116, 1, 0, 0, "W-what's this?"
+dialogbig       24, 116, 1, 0, 0, "W-What's this?"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "Did we not agree to end"
@@ -194,7 +194,7 @@ goto            @Cond_076c
 
 @Cond_076c:
 jumpz           @Cond_0820, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "W-what!?"
+dialogbig       24, 116, 1, 0, 0, "W-What!?"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "Didn't we agree to end this"

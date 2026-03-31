@@ -127,7 +127,7 @@ dialogtxt       "didn't come to Murno's village?"
 goto            @Label_0726
 
 @Cond_0688:
-dialogtxt       "S-sorry…"
+dialogtxt       "S-Sorry…"
 dialogtxt       "But you know, your mom"
 dialogtxt       "is so worried about you…"
 code047b        

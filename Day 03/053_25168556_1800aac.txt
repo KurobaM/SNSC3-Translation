@@ -188,7 +188,7 @@ code0309
 call            @Func_1088
 code0479        1, 5, 15
 call            @Func_10be
-dialogtxt       "H-hey…"
+dialogtxt       "H-Hey…"
 dialogtxt       "That's not what"
 dialogtxt       "I was trying to say…"
 code0309        

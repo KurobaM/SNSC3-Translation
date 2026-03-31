@@ -188,7 +188,7 @@ goto            @Cond_078a
 
 @Cond_078a:
 jumpz           @Cond_07e8, ($b003 == 3)
-dialogtxt       "O-our enemies, yes…"
+dialogtxt       "O-Our enemies, yes…"
 dialogtxt       "I'm worried about Lady Murno!"
 dialogtxt       "Let's hurry back!"
 goto            @Cond_07e8

@@ -205,7 +205,7 @@ goto            @Cond_094a
 
 @Cond_094a:
 jumpz           @Cond_09c0, ($b003 == 3)
-dialogtxt       "H-his entire body has been"
+dialogtxt       "H-His entire body has been"
 dialogtxt       "taken in by the power of the sword…"
 dialogtxt       "So much hatred and anger!"
 goto            @Cond_09c0

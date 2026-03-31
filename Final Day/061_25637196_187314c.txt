@@ -213,7 +213,7 @@ goto            @Cond_09b2
 
 @Cond_09b2:
 jumpz           @Cond_0a0a, ($b003 == 3)
-dialogtxt       "W-what is this!?"
+dialogtxt       "W-What is this!?"
 dialogtxt       "I can feel a surge of power…!"
 goto            @Cond_0a0a
 

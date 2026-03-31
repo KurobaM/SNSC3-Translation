@@ -184,7 +184,7 @@ code0309
 call            @Func_0e40
 code0479        1, 2, 16
 call            @Func_0e76
-dialogtxt       "N-no, that's not true."
+dialogtxt       "N-No, that's not true."
 dialogtxt       "That is…"
 code0309        
 code0479        1, 5, 14

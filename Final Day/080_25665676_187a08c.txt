@@ -181,7 +181,7 @@ code033e        154
 code0479        1, 5, 14
 call            @Func_46b6
 call            @Func_4634
-dialogtxt       "L-lemmy…"
+dialogtxt       "L-Lemmy…"
 code047b        
 code0309        
 call            @Func_4688

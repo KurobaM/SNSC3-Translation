@@ -948,7 +948,7 @@ code0309
 call            @Func_38b6
 code0479        1, 4, 17
 call            @Func_38ec
-dialogtxt       "W-w-w-what do we do?"
+dialogtxt       "W-W-w-what do we do?"
 code0309        
 call            @Func_3922
 code0479        0, 2, 14

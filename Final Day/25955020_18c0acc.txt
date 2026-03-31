@@ -606,7 +606,7 @@ call            @Func_352e
 code043c        1, 4
 code0479        0, 11, 15
 call            @Func_348c
-dialogtxt       "O-of course not!"
+dialogtxt       "O-Of course not!"
 dialogtxt       "I never said that!"
 dialogtxt       "Stop twisting my words!"
 code0309        

@@ -330,7 +330,7 @@ code0309
 call            @Func_18c4
 code0479        0, 6, 12
 call            @Func_1822
-dialogtxt       "I-it's nothing."
+dialogtxt       "I-It's nothing."
 dialogtxt       "Well that's all,"
 dialogtxt       "see ya!"
 code0309        

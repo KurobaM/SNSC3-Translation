@@ -95,7 +95,7 @@ code0309
 call            @Func_0fd6
 code0479        0, 5, 17
 call            @Func_0f34
-dialogtxt       "N-no, you're wrong!"
+dialogtxt       "N-No, you're wrong!"
 goto            @Label_044a
 
 @Label_044a:

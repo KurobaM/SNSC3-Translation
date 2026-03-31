@@ -818,7 +818,7 @@ goto            @Cond_1f40
 
 @Cond_1f40:
 jumpz           @Cond_1fa2, ($b003 == 3)
-dialogtxt       "P-perhaps it is our Master!"
+dialogtxt       "P-Perhaps it is our Master!"
 dialogtxt       "She's going to be so mad when"
 dialogtxt       "she finds us!"
 goto            @Cond_1fa2
@@ -828,7 +828,7 @@ code0309
 call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
-dialogtxt       "N-now you're freaking me out…"
+dialogtxt       "N-Now you're freaking me out…"
 dialogtxt       "Bro wouldn't won't stick his"
 dialogtxt       "neck out for me either…"
 code0309        
@@ -847,7 +847,7 @@ code0309
 call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
-dialogtxt       "L-let's make sure we're ready."
+dialogtxt       "L-Let's make sure we're ready."
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c

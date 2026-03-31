@@ -88,12 +88,12 @@ call            @Func_44f6
 code0479        0, 2, 16
 call            @Func_4454
 jumpz           @Cond_0496, ($b002 == 0)
-dialogtxt       "D-don't move!"
+dialogtxt       "D-Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
 @Cond_0496:
-dialogtxt       "D-don't move!"
+dialogtxt       "D-Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
@@ -1171,7 +1171,7 @@ code0479        1, 5, 15
 code047d        1, 112
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "H-hey, wait!"
+dialogtxt       "H-Hey, wait!"
 dialogtxt       "I don't wanna!"
 dialogtxt       "I won't go!"
 code047b        

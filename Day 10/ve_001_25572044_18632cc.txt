@@ -215,13 +215,13 @@ call            @Func_1164
 code0479        0, 2, 14
 call            @Func_10c2
 jumpz           @Cond_0a20, ($b002 == 0)
-dialogtxt       "O-of course I can!"
+dialogtxt       "O-Of course I can!"
 dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
 @Cond_0a20:
-dialogtxt       "O-of course I can!"
+dialogtxt       "O-Of course I can!"
 dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e

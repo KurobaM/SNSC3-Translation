@@ -776,7 +776,7 @@ goto            @Cond_208a
 @Cond_208a:
 jumpz           @Cond_229a, ($b003 == 3)
 dialogtxt       "Phantom Dragon…"
-dialogtxt       "T-this beast is the town's"
+dialogtxt       "T-This beast is the town's"
 dialogtxt       "Guardian Beast…"
 code047b        
 code0309        

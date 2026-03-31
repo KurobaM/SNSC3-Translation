@@ -517,7 +517,7 @@ code0309
 call            @Func_3aa0
 code0479        0, 2, 15
 call            @Func_39fe
-dialogtxt       "N-now you've done it."
+dialogtxt       "N-Now you've done it."
 dialogtxt       "You're not leaving here alive!"
 dialogtxt       "I'll crush you! Head first!"
 code0309        

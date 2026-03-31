@@ -608,7 +608,7 @@ code0309
 call            @Func_3ef8
 code0479        0, 2, 16
 call            @Func_3e56
-dialogtxt       "W-wow."
+dialogtxt       "W-Wow."
 dialogtxt       "That's kinda awesome…"
 code0309        
 call            @Func_3f92
@@ -1099,7 +1099,7 @@ call            @Func_3ef8
 code0479        0, 2, 16
 call            @Func_3e56
 jumpz           @Cond_2ba6, ($b002 == 0)
-dialogtxt       "O-of course not!"
+dialogtxt       "O-Of course not!"
 dialogtxt       "Let's go!"
 goto            @Label_2bd4
 

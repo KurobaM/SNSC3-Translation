@@ -501,7 +501,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1fa4
 call            @Func_1eea
-dialogtxt       "D-don't fight!"
+dialogtxt       "D-Don't fight!"
 code047b        
 code0309        
 call            @Func_2010
@@ -630,7 +630,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1fa4
 call            @Func_1eea
-dialogtxt       "D-don't fight!"
+dialogtxt       "D-Don't fight!"
 code047b        
 code0309        
 call            @Func_2010

@@ -83,12 +83,12 @@ call            @Func_113c
 code0479        0, 2, 15
 call            @Func_109a
 jumpz           @Cond_04a4, ($b002 == 0)
-dialogtxt       "W-what does being a Craftknight"
+dialogtxt       "W-What does being a Craftknight"
 dialogtxt       "have to do with this!?"
 goto            @Label_04ca
 
 @Cond_04a4:
-dialogtxt       "W-what does being a Craftknight"
+dialogtxt       "W-What does being a Craftknight"
 dialogtxt       "have to do with this!?"
 goto            @Label_04ca
 
@@ -115,7 +115,7 @@ call            @Func_113c
 jumpz           @Cond_064a, ($b002 == 0)
 code0479        0, 0, 14
 call            @Func_109a
-dialogtxt       "A-and? So what?"
+dialogtxt       "A-And? So what?"
 code0309        
 call            @Func_10d0
 goto            @Label_070a

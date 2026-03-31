@@ -688,13 +688,13 @@ code047d        0, 0
 call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_1f7e, ($b002 == 0)
-dialogtxt       "I-its mad!?"
+dialogtxt       "I-Its mad!?"
 dialogtxt       "Wait!"
 dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe
 
 @Cond_1f7e:
-dialogtxt       "I-its mad!?"
+dialogtxt       "I-Its mad!?"
 dialogtxt       "Wait!"
 dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe

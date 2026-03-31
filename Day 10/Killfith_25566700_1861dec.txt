@@ -262,7 +262,7 @@ code0309
 call            @Func_1cce
 code0479        1, 5, 15
 call            @Func_1d04
-dialogtxt       "N-no way!"
+dialogtxt       "N-No way!"
 dialogtxt       "There's no way I'd be"
 dialogtxt       "scared of a mere dog!"
 code0309        

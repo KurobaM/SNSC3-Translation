@@ -206,7 +206,7 @@ goto            @Cond_077a
 
 @Cond_077a:
 jumpz           @Cond_07a2, ($b003 == 3)
-dialogtxt       "I-is this your friend?"
+dialogtxt       "I-Is this your friend?"
 goto            @Cond_07a2
 
 @Cond_07a2:
@@ -249,7 +249,7 @@ code0309
 call            @Func_3986
 code0479        0, 2, 16
 call            @Func_38e4
-dialogtxt       "B-beautiful… Gillan…"
+dialogtxt       "B-Beautiful… Gillan…"
 code0309        
 call            @Func_39f4
 call            @Func_391a
@@ -296,7 +296,7 @@ goto            @Cond_0ad2
 
 @Cond_0ad2:
 jumpz           @Cond_0b0e, ($b003 == 3)
-dialogtxt       "I-is he serious!?"
+dialogtxt       "I-Is he serious!?"
 dialogtxt       "[NAME 2]!"
 goto            @Cond_0b0e
 

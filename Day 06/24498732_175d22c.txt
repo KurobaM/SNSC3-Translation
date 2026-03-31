@@ -1028,7 +1028,7 @@ code0309
 call            @Func_2fd2
 code0479        0, 1, 16
 call            @Func_2f30
-dialogtxt       "H-hey, that's not what"
+dialogtxt       "H-Hey, that's not what"
 dialogtxt       "we're using this for!"
 code0309        
 call            @Func_306c

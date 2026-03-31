@@ -1076,7 +1076,7 @@ call            @Func_3bd4
 code0479        1, 1, 16
 call            @Func_3c0a
 dialogtxt       "Ohohohoho!"
-dialogtxt       "N-now then, let's move on!"
+dialogtxt       "N-Now then, let's move on!"
 code0309        
 call            @Func_3cda
 call            @Func_3c28
@@ -1309,7 +1309,7 @@ code0309
 call            @Func_3c40
 code0479        0, 1, 15
 call            @Func_3b9e
-dialogtxt       "W-what!?"
+dialogtxt       "W-What!?"
 dialogtxt       "You're so cruel!"
 code0309        
 call            @Func_3cda

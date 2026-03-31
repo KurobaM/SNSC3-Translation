@@ -197,7 +197,7 @@ code0309
 call            @Func_1206
 code0479        1, 5, 17
 call            @Func_123c
-dialogtxt       "W-wait, why?"
+dialogtxt       "W-Wait, why?"
 code0309        
 code0479        1, 4, 14
 dialogtxt       "I still haven't finished"

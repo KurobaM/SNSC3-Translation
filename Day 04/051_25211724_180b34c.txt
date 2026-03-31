@@ -475,7 +475,7 @@ dialogtxt       "Y-Yeah!"
 goto            @Label_1400
 
 @Cond_13ee:
-dialogtxt       "O-okay!"
+dialogtxt       "O-Okay!"
 goto            @Label_1400
 
 @Label_1400:

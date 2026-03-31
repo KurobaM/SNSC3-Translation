@@ -513,7 +513,7 @@ code047d        0, 0
 call            @Func_43fc
 call            @Func_4342
 jumpz           @Cond_1520, ($b002 == 0)
-dialogtxt       "H-husband!?"
+dialogtxt       "H-Husband!?"
 goto            @Label_1546
 
 @Cond_1520:

@@ -1136,7 +1136,7 @@ code0309
 call            @Func_50b2
 code0479        0, 5, 17
 call            @Func_5010
-dialogtxt       "O-of all the things…"
+dialogtxt       "O-Of all the things…"
 code0309        
 call            @Func_5046
 code0479        1, 2, 12

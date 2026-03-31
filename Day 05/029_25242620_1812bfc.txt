@@ -45,7 +45,7 @@ code0479        0, 5, 15
 call            @Func_1a3e
 call            @Func_1984
 dialogtxt       "What!?"
-dialogtxt       "H-how…"
+dialogtxt       "H-How…"
 code047b        
 code0309        
 call            @Func_1a94
@@ -311,7 +311,7 @@ code0479        0, 5, 15
 call            @Func_1a3e
 call            @Func_1984
 dialogtxt       "What!?"
-dialogtxt       "H-how…"
+dialogtxt       "H-How…"
 code047b        
 code0309        
 call            @Func_1a94
