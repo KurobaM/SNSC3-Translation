@@ -29,13 +29,13 @@ call            @Func_34da
 jumpz           @Cond_0168, ($b002 == 0)
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_01bc
 
 @Cond_0168:
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_01bc
 
 @Label_01bc:
@@ -47,7 +47,7 @@ code0479        0, 0, 12
 call            @Func_348c
 dialogtxt       "If She Had Not Met You,"
 dialogtxt       "Lady Murno Would Not Have"
-dialogtxt       "Dropped The Summonstone."
+dialogtxt       "Dropped The summonite."
 code0309        
 call            @Func_34c2
 code043c        0, 2
@@ -239,13 +239,13 @@ call            @Func_34da
 jumpz           @Cond_0b52, ($b002 == 0)
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_0ba6
 
 @Cond_0b52:
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_0ba6
 
 @Label_0ba6:
@@ -257,7 +257,7 @@ code0479        0, 4, 12
 call            @Func_348c
 dialogtxt       "Though if Murno had not"
 dialogtxt       "met you, she would not have"
-dialogtxt       "dropped my Summonstone…"
+dialogtxt       "dropped my summonite…"
 code0309        
 call            @Func_34c2
 code043c        0, 2
@@ -437,13 +437,13 @@ call            @Func_34da
 jumpz           @Cond_1510, ($b002 == 0)
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_1564
 
 @Cond_1510:
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_1564
 
 @Label_1564:
@@ -455,7 +455,7 @@ code0479        0, 0, 13
 call            @Func_348c
 dialogtxt       "If she hadn't met you,"
 dialogtxt       "she would have dropped"
-dialogtxt       "my Summonstone…"
+dialogtxt       "my summonite…"
 code0309        
 call            @Func_34c2
 code043c        0, 2
@@ -763,13 +763,13 @@ call            @Func_34da
 jumpz           @Cond_247c, ($b002 == 0)
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_24d0
 
 @Cond_247c:
 dialogtxt       "A lot's happened since I"
 dialogtxt       "met Murno and picked"
-dialogtxt       "up your Summonstone."
+dialogtxt       "up your summonite."
 goto            @Label_24d0
 
 @Label_24d0:
@@ -781,7 +781,7 @@ code0479        0, 4, 12
 call            @Func_348c
 dialogtxt       "Though if Lady Murno had not"
 dialogtxt       "met you, she wouldn't have"
-dialogtxt       "dropped my Summonstone."
+dialogtxt       "dropped my summonite."
 code0309        
 call            @Func_34c2
 code043c        0, 2
