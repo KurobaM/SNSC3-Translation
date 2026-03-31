@@ -583,7 +583,7 @@ code0479        1, 2, 16
 code047d        1, 129
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "A failed experiment relased many"
+dialogtxt       "A failed experiment released many"
 dialogtxt       "of the sacrifices. We were forced"
 dialogtxt       "to seal the ruins."
 code047b        
