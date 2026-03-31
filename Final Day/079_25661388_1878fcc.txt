@@ -746,7 +746,6 @@ code0479        1, 2, 14
 call            @Func_2e12
 dialogtxt       "I sacrificed everything"
 dialogtxt       "hoping to catch up to him…"
-dialogtxt       "Even my late wife…"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Eventually, everyone left me."
