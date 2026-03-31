@@ -224,12 +224,12 @@ code0301        16, 7
 code047e        0, 1
 jumpz           @Cond_0afe, ($b002 == 0)
 dialogtxt       "That's what makes you the"
-dialogtxt       "man I've been anticipating!"
+dialogtxt       "man I've been expecting!"
 goto            @Label_0b32
 
 @Cond_0afe:
 dialogtxt       "That's what makes you the"
-dialogtxt       "woman I've been anticipating!"
+dialogtxt       "woman I've been expecting!"
 goto            @Label_0b32
 
 @Label_0b32:

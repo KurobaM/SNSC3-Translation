@@ -437,7 +437,7 @@ code0479        0, 0, 14
 code047d        0, 129
 call            @Func_1eae
 call            @Func_1df4
-dialogtxt       "[NAME 2]…"
+dialogtxt       "…"
 code047b        
 code0309        
 call            @Func_1f30

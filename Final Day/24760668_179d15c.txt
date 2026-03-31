@@ -673,13 +673,13 @@ call            @Func_3994
 jumpz           @Cond_18fa, ($b002 == 0)
 dialogtxt       "Bingo, [NAME 1]!"
 dialogtxt       "Yeah, I was thinking how you're"
-dialogtxt       "my best partner ever! Anyway, go!"
+dialogtxt       "the best partner ever! Anyway, go!"
 goto            @Label_1938
 
 @Cond_18fa:
 dialogtxt       "Bingo, [NAME 1]!"
 dialogtxt       "Yeah, I was thinking how you're"
-dialogtxt       "my best partner ever! Anyway, go!"
+dialogtxt       "the best partner ever! Anyway, go!"
 goto            @Label_1938
 
 @Label_1938:
@@ -730,13 +730,13 @@ call            @Func_3994
 jumpz           @Cond_1ae6, ($b002 == 0)
 dialogtxt       "Bingo, [NAME 1]!"
 dialogtxt       "Yeah, I was thinking how you're"
-dialogtxt       "my best partner ever! Anyway, go!"
+dialogtxt       "the best partner ever! Anyway, go!"
 goto            @Label_1b24
 
 @Cond_1ae6:
 dialogtxt       "Bingo, [NAME 1]!"
 dialogtxt       "Yeah, I was thinking how you're"
-dialogtxt       "my best partner ever! Anyway, go!"
+dialogtxt       "the best partner ever! Anyway, go!"
 goto            @Label_1b24
 
 @Label_1b24:
