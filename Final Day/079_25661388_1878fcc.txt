@@ -722,7 +722,7 @@ call            @Func_2e76
 call            @Func_2e12
 dialogtxt       "Ever since we met…"
 dialogtxt       "Rob was…"
-dialogtxt       "Alawys one step ahead of me…"
+dialogtxt       "Always one step ahead of me…"
 code047b        
 code0309        
 code0479        1, 2, 14

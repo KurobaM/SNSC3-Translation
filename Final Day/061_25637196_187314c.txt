@@ -675,7 +675,7 @@ call            @Func_2c16
 code0479        1, 2, 16
 call            @Func_2bc8
 dialogtxt       "What about you?"
-dialogtxt       "Are you watching?"
+dialogtxt       "Are you just gonna stand back?"
 code047b        
 code0309        
 call            @Func_2bfe

@@ -937,12 +937,12 @@ call            @Func_374e
 call            @Func_3676
 jumpz           @Cond_2854, ($b002 == 0)
 dialogtxt       "Owww!"
-dialogtxt       "What was that for!"
+dialogtxt       "What was that for!?"
 goto            @Label_287a
 
 @Cond_2854:
 dialogtxt       "Owww!"
-dialogtxt       "What was that for!"
+dialogtxt       "What was that for!?"
 goto            @Label_287a
 
 @Label_287a:

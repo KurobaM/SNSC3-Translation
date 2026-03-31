@@ -29,7 +29,7 @@ code047d        1, 115
 call            @Func_4524
 call            @Func_44c0
 dialogtxt       "But we won't put aside our"
-dialogtxt       "swords just because we're"
+dialogtxt       "weapons just because we're"
 dialogtxt       "impressed with your spirit."
 code047b        
 code0309        

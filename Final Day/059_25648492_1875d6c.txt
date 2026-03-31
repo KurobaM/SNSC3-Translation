@@ -30,28 +30,28 @@ code047d        1, 2
 call            @Func_0b88
 call            @Func_0af0
 jumpz           @Cond_017a, ($b003 == 0)
-dialogtxt       "Just Ahead Is The Govan Ruins,"
+dialogtxt       "This Is The Entrance Of The Govan Ruins,"
 dialogtxt       "Where The Demon Stone Is Stored."
 dialogtxt       "It Is Likely That…"
 goto            @Cond_017a
 
 @Cond_017a:
 jumpz           @Cond_01dc, ($b003 == 1)
-dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
 dialogtxt       "Most likely…"
 goto            @Cond_01dc
 
 @Cond_01dc:
 jumpz           @Cond_023c, ($b003 == 2)
-dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
 dialogtxt       "Most likely…"
 goto            @Cond_023c
 
 @Cond_023c:
 jumpz           @Cond_029e, ($b003 == 3)
-dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
 dialogtxt       "Surely…"
 goto            @Cond_029e
