@@ -71,7 +71,7 @@ goto            @Cond_030c
 @Cond_030c:
 jumpz           @Cond_0352, ($b003 == 2)
 dialogtxt       "I have to talk to Murno."
-dialogtxt       "It has nothing to dowith you."
+dialogtxt       "It has nothing to do with you."
 goto            @Cond_0352
 
 @Cond_0352:

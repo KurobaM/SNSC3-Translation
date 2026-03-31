@@ -88,8 +88,8 @@ call            @Func_1202
 code0479        1, 2, 15
 call            @Func_1238
 dialogtxt       "What do you mean, creepy!?"
-dialogtxt       "At that time, you talked like"
-dialogtxt       "you believe me!"
+dialogtxt       "Earlier, you talked like"
+dialogtxt       "you actually believe in me!"
 code0309        
 call            @Func_1308
 call            @Func_1256
