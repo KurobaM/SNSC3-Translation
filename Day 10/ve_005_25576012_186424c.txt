@@ -178,7 +178,7 @@ code0479        1, 2, 13
 call            @Func_1172
 dialogtxt       "Together, all of Lyndbaum will"
 dialogtxt       "shiver in the face of your skills"
-dialogtxt       "and my rock and roll."
+dialogtxt       "and my rock 'n' roll."
 code0309        
 code0479        1, 2, 15
 dialogtxt       "Until I hold the world in these"

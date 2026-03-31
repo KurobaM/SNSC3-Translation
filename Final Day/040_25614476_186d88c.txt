@@ -1017,7 +1017,7 @@ call            @Func_3764
 call            @Func_3700
 dialogtxt       "Of course, I'll be going too."
 dialogtxt       "Humans have to pave their own path!"
-dialogtxt       "That's the rock and roll way."
+dialogtxt       "That's the rock 'n' roll way."
 code047b        
 code0309        
 call            @Func_3736

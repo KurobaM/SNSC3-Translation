@@ -205,7 +205,7 @@ code0479        1, 1, 13
 call            @Func_1176
 dialogtxt       "When that happens, I'll be there,"
 dialogtxt       "singing a lullaby."
-dialogtxt       "A rock n' roll lullaby."
+dialogtxt       "A rock 'n' roll lullaby."
 code0309        
 call            @Func_11ac
 code0479        0, 1, 16

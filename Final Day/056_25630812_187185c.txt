@@ -500,7 +500,7 @@ code0309
 call            @Func_448a
 code0479        1, 2, 12
 call            @Func_44c0
-dialogtxt       "Don't underestimate rock and roll."
+dialogtxt       "Don't underestimate rock 'n' roll."
 dialogtxt       "… Is what I'd like to say,"
 dialogtxt       "but we had a guide."
 code0309        
