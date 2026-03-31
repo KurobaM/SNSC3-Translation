@@ -288,9 +288,9 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Today's the day for our"
-dialogtxt       "meeting with the Gold Faction."
-dialogtxt       "I'll do my best!"
+dialogtxt       "He hasn't fully healed yet,"
+dialogtxt       "but he was called upon"
+dialogtxt       "by the Gold Faction…"
 goto            @Label_0b4e
 
 @Cond_0aa4:
@@ -299,9 +299,9 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Today's the day for our"
-dialogtxt       "meeting with the Gold Faction."
-dialogtxt       "I'll do my best!"
+dialogtxt       "He hasn't fully healed yet,"
+dialogtxt       "but he was called upon"
+dialogtxt       "by the Gold Faction…"
 goto            @Label_0b4e
 
 @Label_0b4e:
