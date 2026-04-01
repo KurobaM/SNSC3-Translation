@@ -128,13 +128,13 @@ call            @Func_34c2
 code0479        1, 2, 12
 call            @Func_34f8
 jumpz           @Cond_069c, ($b002 == 0)
-dialogtxt       "R-right… It's all about spirit…"
+dialogtxt       "R-Right… It's all about spirit…"
 dialogtxt       "Okay!"
 dialogtxt       "This is the perfect time for that!"
 goto            @Label_06e6
 
 @Cond_069c:
-dialogtxt       "R-right… It's all about spirit…"
+dialogtxt       "R-Right… It's all about spirit…"
 dialogtxt       "Okay!"
 dialogtxt       "This is the perfect time for that!"
 goto            @Label_06e6
@@ -347,13 +347,13 @@ call            @Func_34c2
 code0479        1, 2, 12
 call            @Func_34f8
 jumpz           @Cond_113c, ($b002 == 0)
-dialogtxt       "R-right… It's all about spirit…"
+dialogtxt       "R-Right… It's all about spirit…"
 dialogtxt       "Okay!"
 dialogtxt       "This is the perfect time for that!"
 goto            @Label_1186
 
 @Cond_113c:
-dialogtxt       "R-right… It's all about spirit…"
+dialogtxt       "R-Right… It's all about spirit…"
 dialogtxt       "Okay!"
 dialogtxt       "This is the perfect time for that!"
 goto            @Label_1186
@@ -884,7 +884,7 @@ dialogtxt       "This is the perfect time for that!"
 goto            @Label_2ad2
 
 @Cond_2a88:
-dialogtxt       "R-right… It's all about spirit…"
+dialogtxt       "R-Right… It's all about spirit…"
 dialogtxt       "Okay!"
 dialogtxt       "This is the perfect time for that!"
 goto            @Label_2ad2

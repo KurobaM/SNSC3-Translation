@@ -325,11 +325,11 @@ call            @Func_14f4
 code0479        0, 2, 12
 call            @Func_1452
 jumpz           @Cond_0e2e, ($b002 == 0)
-dialogtxt       "R-right!"
+dialogtxt       "R-Right!"
 goto            @Label_0e44
 
 @Cond_0e2e:
-dialogtxt       "R-right!"
+dialogtxt       "R-Right!"
 goto            @Label_0e44
 
 @Label_0e44:

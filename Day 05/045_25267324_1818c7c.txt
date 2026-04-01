@@ -835,7 +835,7 @@ goto            @Cond_26e4
 
 @Cond_26e4:
 jumpz           @Cond_2710, ($b003 == 3)
-dialogtxt       "R-really!?"
+dialogtxt       "R-Really!?"
 goto            @Cond_2710
 
 @Cond_2710:
