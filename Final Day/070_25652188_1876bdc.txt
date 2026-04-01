@@ -694,7 +694,7 @@ dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe
 
 @Cond_1f7e:
-dialogtxt       "I-Its mad!?"
+dialogtxt       "I-It's mad!?"
 dialogtxt       "Wait!"
 dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe
