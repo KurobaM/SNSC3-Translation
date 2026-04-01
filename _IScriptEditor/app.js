@@ -156,6 +156,7 @@ const TAGS = {
     "[NAME 4]" : "#ItemName",
     "..." : "…",
     "   " : "　",
+    "--" : "—",
     "◎" : "#Heart",
     "∞" : "#Paw",
     "●" : "#Dot"
@@ -244,10 +245,10 @@ const CHARACTER_SPACE = {
     "f": 6,
     "g": 6,
     "h": 6,
-    "i": 3,
-    "j": 4,
+    "i": 4,
+    "j": 5,
     "k": 5,
-    "l": 3,
+    "l": 4,
     "m": 6,
     "n": 6,
     "o": 6,
@@ -262,7 +263,7 @@ const CHARACTER_SPACE = {
     "x": 6,
     "y": 6,
     "z": 6,
-    ":": 4,
+    ":": 3,
     ";": 4,
     "<": 7,
     "=": 8,
@@ -271,8 +272,9 @@ const CHARACTER_SPACE = {
     "{": 5,
     "}": 5,
     "^": 6,
-    "~": 8,
+    "~": 10,
     "…": 9,
+    "_": 6,
     " ": 4,
     "　": 12,
     "\\": 12,
@@ -422,7 +424,7 @@ function saveFile() {
     // Extract text from the relevant elements
     let txt = extractText();
     Object.keys(TAGS).forEach(element => {
-        if (element == "..." || element == "   ") return;
+        if (element == "   ") return;
         txt = txt.replaceAll(TAGS[element], element);
     });
 
@@ -1224,7 +1226,7 @@ function showAbout() {
 }
 
 function showSpecialCharacters() {
-    alert("Special Characters:\n\nPlayer Name = #PlayerName\nPlayer Nickname = #PlayerNickname\nPartner Name = #PartnerName\nItem Name: #ItemName\nEllipses = …\nIDSP = 　\nHeart symbol = #Heart\nPaw = #Paw\n● = #Dot");
+    alert("Special Characters:\n\nPlayer Name = #PlayerName\nPlayer Nickname = #PlayerNickname\nPartner Name = #PartnerName\nItem Name: #ItemName\nEllipses = …\nEmdash = --\nIDSP = 　\nHeart symbol = #Heart\nPaw = #Paw\n● = #Dot");
 }
 
 
