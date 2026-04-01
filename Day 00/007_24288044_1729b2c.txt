@@ -524,7 +524,7 @@ goto            @Label_1738
 
 @Cond_16e8:
 jumpz           @Cond_1718, ($b003 == 2)
-ialogtxt       "I can't believe you two are"
+dialogtxt       "I can't believe you two are"
 dialogtxt       "fighting..."
 goto            @Label_1738
 
