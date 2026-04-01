@@ -156,7 +156,7 @@ const TAGS = {
     "[NAME 4]" : "#ItemName",
     "..." : "…",
     "   " : "　",
-    "--" : "—",
+    "—" : "--",
     "◎" : "#Heart",
     "∞" : "#Paw",
     "●" : "#Dot"
@@ -276,6 +276,7 @@ const CHARACTER_SPACE = {
     "…": 9,
     "_": 6,
     " ": 4,
+    "—": 12,
     "　": 12,
     "\\": 12,
 }
@@ -1201,7 +1202,7 @@ function getStringSize(str) {
     let size = 0;
     let copy = str;
     Object.keys(TAGS).forEach(element => {
-        if (element == "..." || element == "   ") return;
+        if (element == "..." || element == "   " || element == "—") return;
         if (!copy.includes(TAGS[element])) return;
         let count = (copy.split(TAGS[element]).length - 1);
         size += count * TAG_LENGTH[element];
