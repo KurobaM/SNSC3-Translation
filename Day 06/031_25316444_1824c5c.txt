@@ -88,25 +88,25 @@ call            @Func_15ec
 jumpz           @Cond_0390, ($b003 == 0)
 dialogtxt       "My Sensors Had Picked Something Up."
 dialogtxt       "However, The Probability You Had"
-dialogtxt       "Made It This Far Was…"
+dialogtxt       "Made It This Far Was..."
 goto            @Cond_0390
 
 @Cond_0390:
 jumpz           @Cond_03da, ($b003 == 1)
 dialogtxt       "I can't believe you"
-dialogtxt       "made it here alone…"
+dialogtxt       "made it here alone..."
 goto            @Cond_03da
 
 @Cond_03da:
 jumpz           @Cond_0424, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "That unpleasant aura"
 dialogtxt       "is messing with my senses."
 goto            @Cond_0424
 
 @Cond_0424:
 jumpz           @Cond_0480, ($b003 == 3)
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 dialogtxt       "I cannot believe that you managed"
 dialogtxt       "to come this far alone."
 goto            @Cond_0480
@@ -125,8 +125,8 @@ goto            @Label_0516
 
 @Cond_04c6:
 code0479        0, 2, 14
-dialogtxt       "… Hey,"
-dialogtxt       "hasn't this happened before…"
+dialogtxt       "... Hey,"
+dialogtxt       "hasn't this happened before..."
 code0309        
 call            @Func_1622
 goto            @Label_0516
@@ -134,7 +134,7 @@ goto            @Label_0516
 @Label_0516:
 code0479        1, 4, 16
 call            @Func_1658
-dialogtxt       "Help me…"
+dialogtxt       "Help me..."
 dialogtxt       "I can't stand this place anymore!"
 code047b        
 code0309        
@@ -155,8 +155,8 @@ call            @Func_1622
 code0479        1, 4, 12
 call            @Func_1658
 dialogtxt       "There were so many Strays,"
-dialogtxt       "I thought I was done for…"
-dialogtxt       "If not for you, [NAME 2]…"
+dialogtxt       "I thought I was done for..."
+dialogtxt       "If not for you, [NAME 2]..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Let's head back to town, okay?"
@@ -166,12 +166,12 @@ code0479        0, 4, 16
 call            @Func_15ec
 jumpz           @Cond_06c4, ($b002 == 0)
 dialogtxt       "Sorry, not yet."
-dialogtxt       "Tier, we're…"
+dialogtxt       "Tier, we're..."
 goto            @Label_06f6
 
 @Cond_06c4:
 dialogtxt       "Sorry, not yet."
-dialogtxt       "Tier, we're…"
+dialogtxt       "Tier, we're..."
 goto            @Label_06f6
 
 @Label_06f6:
@@ -213,7 +213,7 @@ goto            @Cond_081c
 jumpz           @Cond_087c, ($b003 == 1)
 dialogtxt       "Right."
 dialogtxt       "If we don't find her quickly,"
-dialogtxt       "something terrible will happen…"
+dialogtxt       "something terrible will happen..."
 goto            @Cond_087c
 
 @Cond_087c:
@@ -242,14 +242,14 @@ code047d        1, 109
 call            @Func_16bc
 call            @Func_1658
 dialogtxt       "No!"
-dialogtxt       "I don't wanna stay here…"
+dialogtxt       "I don't wanna stay here..."
 dialogtxt       "Please, let's go back!"
 code047b        
 code0309        
 call            @Func_168e
 code0479        0, 2, 16
 call            @Func_15ec
-dialogtxt       "What do I do…?"
+dialogtxt       "What do I do...?"
 code0309        
 code0479        0, 2, 14
 choicetxt       @Choice_0a30, "Take Tier back to town!"
@@ -286,14 +286,14 @@ dialogtxt       "Thank you, [NAME 2]!"
 dialogtxt       "I love you!"
 code0309        
 code0479        1, 2, 12
-dialogtxt       "And also…"
-dialogtxt       "Don't come back here…"
+dialogtxt       "And also..."
+dialogtxt       "Don't come back here..."
 code0309        
 call            @Func_168e
 code0479        0, 5, 16
 call            @Func_15ec
 dialogtxt       "Eh?"
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 code033a        113, 0
 setvar          $h136, 32767
@@ -331,21 +331,21 @@ code043e        2, 3, 0
 code043c        2, 1
 code0479        1, 4, 16
 call            @Func_1658
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 dialogtxt       "So Murno is more important"
-dialogtxt       "to you than I am…"
+dialogtxt       "to you than I am..."
 code0309        
 call            @Func_168e
 code0479        0, 2, 16
 call            @Func_15ec
 jumpz           @Cond_0e28, ($b002 == 0)
 dialogtxt       "Come on,"
-dialogtxt       "now's not the time…"
+dialogtxt       "now's not the time..."
 goto            @Label_0e52
 
 @Cond_0e28:
 dialogtxt       "Come on,"
-dialogtxt       "now's not the time…"
+dialogtxt       "now's not the time..."
 goto            @Label_0e52
 
 @Label_0e52:
@@ -381,13 +381,13 @@ call            @Func_15ec
 jumpz           @Cond_0ff8, ($b002 == 0)
 dialogtxt       "Hey, Tier,"
 dialogtxt       "calm down!"
-dialogtxt       "W-Wait!"
+dialogtxt       "W—Wait!"
 goto            @Label_103c
 
 @Cond_0ff8:
 dialogtxt       "Hey, Tier,"
 dialogtxt       "calm down!"
-dialogtxt       "W-Wait!"
+dialogtxt       "W—Wait!"
 goto            @Label_103c
 
 @Label_103c:

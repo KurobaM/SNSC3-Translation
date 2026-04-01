@@ -279,7 +279,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "This is all hearsay, but I heard"
 dialogtxt       "that there are ruins beyond the"
-dialogtxt       "far end of Sproat Grotto…"
+dialogtxt       "far end of Sproat Grotto..."
 code0309        
 dialogtxt       "Apparently a village used to"
 dialogtxt       "exist there, why not check"

@@ -150,7 +150,7 @@ code047d        0, 109
 code0301        8, 4
 code047e        0, 1
 dialogtxt       "Ah!?"
-dialogtxt       "That's…!"
+dialogtxt       "That's...!"
 code0309        
 code047e        0, 0
 code0302        4

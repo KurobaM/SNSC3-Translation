@@ -32,8 +32,8 @@ code0479        0, 4, 14
 code047d        0, 108
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "They got me…"
-dialogtxt       "I'm so lame…"
+dialogtxt       "They got me..."
+dialogtxt       "I'm so lame..."
 code047b        
 code0309        
 call            @Func_1ae8
@@ -76,22 +76,22 @@ code047d        0, 2
 call            @Func_1a7c
 call            @Func_19c2
 jumpz           @Cond_035a, ($b003 == 0)
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 goto            @Cond_035a
 
 @Cond_035a:
 jumpz           @Cond_037c, ($b003 == 1)
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 goto            @Cond_037c
 
 @Cond_037c:
 jumpz           @Cond_03a0, ($b003 == 2)
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 goto            @Cond_03a0
 
 @Cond_03a0:
 jumpz           @Cond_03c6, ($b003 == 3)
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 goto            @Cond_03c6
 
 @Cond_03c6:
@@ -105,15 +105,15 @@ code0479        0, 4, 14
 code047d        0, 108
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "These weirdos messed"
-dialogtxt       "with my cute apprentice…"
+dialogtxt       "with my cute apprentice..."
 code047b        
 code0309        
 code0479        0, 4, 13
 dialogtxt       "The shock caused blood to rush to"
 dialogtxt       "my head, and I couldn't help it."
-dialogtxt       "I couldn't hold back any longer…"
+dialogtxt       "I couldn't hold back any longer..."
 code0309        
 call            @Func_19f8
 code0479        1, 2, 14
@@ -157,7 +157,7 @@ code0479        0, 2, 14
 code047d        0, 108
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Kh…!"
+dialogtxt       "Kh...!"
 code047b        
 code0309        
 call            @Func_1afe
@@ -167,7 +167,7 @@ code0333        2, 30
 code047d        0, 106
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "You bastards…"
+dialogtxt       "You bastards..."
 code0309        
 code047e        0, 0
 code0302        0
@@ -222,7 +222,7 @@ code0479        0, 0, 12
 code047d        0, 116
 call            @Func_1a7c
 code0479        1, 2, 12
-dialogtxt       "Bastards…"
+dialogtxt       "Bastards..."
 dialogtxt       "First you mess up"
 dialogtxt       "the workshop,"
 code047b        
@@ -254,7 +254,7 @@ code0309
 call            @Func_19f8
 code0479        1, 3, 13
 call            @Func_1a2e
-dialogtxt       "Interesting…"
+dialogtxt       "Interesting..."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "I'm glad you understand. To teach"
@@ -268,7 +268,7 @@ code0309
 call            @Func_1a64
 code0479        0, 5, 17
 call            @Func_19c2
-dialogtxt       "Wha-What was that!?"
+dialogtxt       "Wha—What was that!?"
 code0309        
 call            @Func_19f8
 code0479        1, 3, 15
@@ -293,7 +293,7 @@ call            @Func_19f8
 code043c        5, 1
 code0479        1, 2, 14
 call            @Func_1a2e
-dialogtxt       "… Hey, come on [NAME 2],"
+dialogtxt       "... Hey, come on [NAME 2],"
 dialogtxt       "I was just getting to the good part!"
 code0309        
 call            @Func_1a64
@@ -301,13 +301,13 @@ code0331        5, 256
 code0479        0, 2, 14
 call            @Func_19c2
 jumpz           @Cond_0e4a, ($b002 == 0)
-dialogtxt       "Sorry, Bro…"
+dialogtxt       "Sorry, Bro..."
 dialogtxt       "But, I want you to leave"
 dialogtxt       "that Gillan guy to me."
 goto            @Label_0e9c
 
 @Cond_0e4a:
-dialogtxt       "Sorry, Bro…"
+dialogtxt       "Sorry, Bro..."
 dialogtxt       "But, I want you to leave"
 dialogtxt       "that Gillan guy to me."
 goto            @Label_0e9c
@@ -317,14 +317,14 @@ code0309
 call            @Func_19f8
 code0479        1, 5, 16
 call            @Func_1a2e
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_1a64
 code0479        0, 2, 16
 call            @Func_19c2
 dialogtxt       "My master may be a Summon Beast."
 dialogtxt       "She's also messy, violent,"
-dialogtxt       "and foul mouthed, but…"
+dialogtxt       "and foul mouthed, but..."
 code0309        
 call            @Func_1ae8
 call            @Func_19f8
@@ -334,8 +334,8 @@ code0479        1, 1, 16
 code047d        1, 108
 call            @Func_1a92
 call            @Func_1a2e
-dialogtxt       "Ah… You…"
-dialogtxt       "So that's how you see me…"
+dialogtxt       "Ah... You..."
+dialogtxt       "So that's how you see me..."
 code047b        
 code0309        
 call            @Func_1ae8
@@ -348,13 +348,13 @@ call            @Func_1a92
 code0479        0, 2, 14
 call            @Func_19c2
 jumpz           @Cond_1070, ($b002 == 0)
-dialogtxt       "I want to prove it to them…"
+dialogtxt       "I want to prove it to them..."
 dialogtxt       "That Master has never taught"
 dialogtxt       "me anything wrong."
 goto            @Label_10d0
 
 @Cond_1070:
-dialogtxt       "I want to prove it to them…"
+dialogtxt       "I want to prove it to them..."
 dialogtxt       "That Master has never taught"
 dialogtxt       "me anything wrong."
 goto            @Label_10d0
@@ -370,7 +370,7 @@ code0479        1, 5, 16
 code047d        1, 108
 call            @Func_1a92
 call            @Func_1a2e
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 code047b        
 code0309        
 call            @Func_1ae8
@@ -395,8 +395,8 @@ code0479        0, 8, 14
 code047d        0, 108
 call            @Func_1a7c
 call            @Func_19c2
-dialogtxt       "Sh-Shut up,"
-dialogtxt       "idiot…"
+dialogtxt       "Sh—Shut up,"
+dialogtxt       "idiot..."
 code047b        
 code0309        
 call            @Func_19f8

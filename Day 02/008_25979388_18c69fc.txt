@@ -418,7 +418,7 @@ jumpz           @Cond_0a9e, ($bv033 > 0)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Shiro has disappeared."
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 dialogtxt       "I don't think she's lost."
 dialogtxt       "I think she set out"
@@ -563,7 +563,7 @@ dialogtxt       "white cat somewhere?"
 code0309        
 jumpz           @Cond_1040, ($h311 == 8 && ($bv034 != 0 ? 1 : 0))
 dialogtxt       "They came back the other day,"
-dialogtxt       "but disappeared again…"
+dialogtxt       "but disappeared again..."
 code0309        
 goto            @Cond_1040
 
@@ -617,7 +617,7 @@ code047d        0, 145
 jumpz           @Cond_1316, ($bv035 > 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Shiro went off somewhere…"
+dialogtxt       "Shiro went off somewhere..."
 code0309        
 dialogtxt       "Mysteriously, I'm at peace."
 dialogtxt       "I can feel they're happy,"

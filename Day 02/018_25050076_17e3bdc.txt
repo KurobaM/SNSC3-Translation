@@ -73,7 +73,7 @@ goto            @Cond_0264
 
 @Cond_0264:
 jumpz           @Cond_0294, ($b003 == 2)
-dialogtxt       "… Hmph."
+dialogtxt       "... Hmph."
 dialogtxt       "It was merely a weakling."
 goto            @Cond_0294
 
@@ -131,11 +131,11 @@ code047d        1, 2
 call            @Func_10f2
 call            @Func_0fee
 jumpz           @Cond_047a, ($b002 == 0)
-dialogtxt       "I let my guard down…"
+dialogtxt       "I let my guard down..."
 goto            @Label_0498
 
 @Cond_047a:
-dialogtxt       "I let my guard down…"
+dialogtxt       "I let my guard down..."
 goto            @Label_0498
 
 @Label_0498:
@@ -176,15 +176,15 @@ goto            @Cond_05da
 
 @Cond_05da:
 jumpz           @Cond_0628, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "Letting an opponent like that"
-dialogtxt       "throw you around so easily…"
+dialogtxt       "throw you around so easily..."
 goto            @Cond_0628
 
 @Cond_0628:
 jumpz           @Cond_066c, ($b003 == 3)
-dialogtxt       "Th-That was just"
-dialogtxt       "a liiiitle bit dangerous…"
+dialogtxt       "Th—That was just"
+dialogtxt       "a liiiitle bit dangerous..."
 goto            @Cond_066c
 
 @Cond_066c:
@@ -275,14 +275,14 @@ goto            @Cond_090a
 
 @Cond_090a:
 jumpz           @Cond_0942, ($b003 == 1)
-dialogtxt       "Hm…"
+dialogtxt       "Hm..."
 dialogtxt       "That went alright."
 goto            @Cond_0942
 
 @Cond_0942:
 jumpz           @Cond_098a, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "Should've been an easy win…"
+dialogtxt       "Tch..."
+dialogtxt       "Should've been an easy win..."
 goto            @Cond_098a
 
 @Cond_098a:

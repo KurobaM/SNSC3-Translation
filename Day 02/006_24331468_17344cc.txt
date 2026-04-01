@@ -583,7 +583,7 @@ goto            @Choice_18d0
 code047e        0, 1
 dialogtxt       "Aww~"
 dialogtxt       "You won't buy it?"
-dialogtxt       "Cheapskate…"
+dialogtxt       "Cheapskate..."
 code0309        
 goto            @Label_1972
 
@@ -598,7 +598,7 @@ goto            @Choice_1922
 code047e        0, 1
 dialogtxt       "Aww~ You don't want to listen?"
 dialogtxt       "And I thought I finally had"
-dialogtxt       "a customer…"
+dialogtxt       "a customer..."
 code0309        
 @Label_1972:
 code047e        0, 0

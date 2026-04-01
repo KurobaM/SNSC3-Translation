@@ -12,7 +12,7 @@ code0309
 code0479        0, 4, 12
 dialogtxt       "Speaking of which,"
 dialogtxt       "no one knows what we're up to."
-dialogtxt       "They must be worried…"
+dialogtxt       "They must be worried..."
 goto            @Label_01cc
 
 @Cond_010a:
@@ -24,15 +24,15 @@ code0309
 code0479        0, 4, 12
 dialogtxt       "Speaking of which,"
 dialogtxt       "no one knows what we're up to."
-dialogtxt       "They must be worried…"
+dialogtxt       "They must be worried..."
 goto            @Label_01cc
 
 @Label_01cc:
 code0309        
 code0479        0, 4, 17
 dialogtxt       "I wonder how everyone"
-dialogtxt       "is doing right now…"
-dialogtxt       "Sigh…"
+dialogtxt       "is doing right now..."
+dialogtxt       "Sigh..."
 code0309        
 code0479        0, 4, 12
 choicetxt       @Choice_0290, "I want to eat Master's stew."
@@ -64,7 +64,7 @@ code0479        0, 0, 16
 call            @Func_09de
 call            @Func_0906
 dialogtxt       "Is someone there?"
-dialogtxt       "It looks like…"
+dialogtxt       "It looks like..."
 code047b        
 code0309        
 call            @Func_0a34

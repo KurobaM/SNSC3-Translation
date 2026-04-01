@@ -48,8 +48,8 @@ code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
 dialogtxt       "You came to see me."
-dialogtxt       "I'm so happy…"
-dialogtxt       "I wanted to see you too…"
+dialogtxt       "I'm so happy..."
+dialogtxt       "I wanted to see you too..."
 code047b        
 code0309        
 code0479        1, 0, 13
@@ -119,11 +119,11 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "You know [NAME 2], I've been"
 dialogtxt       "learning swordplay from Father."
-dialogtxt       "So…"
+dialogtxt       "So..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 6, 13
-dialogtxt       "I'd like to practice with you…"
+dialogtxt       "I'd like to practice with you..."
 code0309        
 goto            @Label_064c
 
@@ -165,7 +165,7 @@ call            @Func_0cd2
 code0479        0, 4, 12
 code0479        1, 0, 16
 call            @Func_0d08
-dialogtxt       "I see… That's too bad."
+dialogtxt       "I see... That's too bad."
 code0309        
 call            @Func_0dd8
 call            @Func_0d26

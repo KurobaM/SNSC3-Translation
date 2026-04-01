@@ -222,13 +222,13 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0ac6, ($b002 == 0)
 dialogtxt       "This is Bostaph"
-dialogtxt       "Workshop's headquarters…"
+dialogtxt       "Workshop's headquarters..."
 dialogtxt       "It'd be best not to intrude."
 goto            @Label_0b08
 
 @Cond_0ac6:
 dialogtxt       "This is Bostaph"
-dialogtxt       "Workshop's headquarters…"
+dialogtxt       "Workshop's headquarters..."
 dialogtxt       "It'd be best not to intrude."
 goto            @Label_0b08
 

@@ -322,7 +322,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "Phew…"
+dialogtxt       "Phew..."
 dialogtxt       "I wouldn't replace this kind of"
 dialogtxt       "peace for anything in the world!"
 code0309        
@@ -338,7 +338,7 @@ dialogtxt       "Get this! I heard a Craftknight's"
 dialogtxt       "apprentice saved the world!"
 dialogtxt       "And they're so young!"
 code0309        
-dialogtxt       "… Frankly, rumors like that are"
+dialogtxt       "... Frankly, rumors like that are"
 dialogtxt       "a little hard to believe, though."
 code0309        
 code047e        0, 0
@@ -350,7 +350,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "Damn, they caught onto my schemes!"
-dialogtxt       "… What're you looking at?"
+dialogtxt       "... What're you looking at?"
 dialogtxt       "Don't you laugh at me!"
 code0309        
 code047e        0, 0

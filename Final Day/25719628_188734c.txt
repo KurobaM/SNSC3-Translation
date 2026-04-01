@@ -127,15 +127,15 @@ code0479        0, 6, 13
 call            @Func_2266
 jumpz           @Cond_04aa, ($f0261 == 1)
 jumpz           @Cond_0466, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_04a6
 
 @Cond_0466:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_04a6
 
 @Label_04a6:
@@ -144,15 +144,15 @@ goto            @Label_07c4
 @Cond_04aa:
 jumpz           @Cond_054a, ($f0262 == 1)
 jumpz           @Cond_0506, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_0546
 
 @Cond_0506:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_0546
 
 @Label_0546:
@@ -161,15 +161,15 @@ goto            @Label_07c4
 @Cond_054a:
 jumpz           @Cond_05ea, ($f0263 == 1)
 jumpz           @Cond_05a8, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Master's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Master's..."
 goto            @Label_05e6
 
 @Cond_05a8:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Master's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Master's..."
 goto            @Label_05e6
 
 @Label_05e6:
@@ -178,15 +178,15 @@ goto            @Label_07c4
 @Cond_05ea:
 jumpz           @Cond_068c, ($f0264 == 1)
 jumpz           @Cond_0648, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_0688
 
 @Cond_0648:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Yours…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Yours..."
 goto            @Label_0688
 
 @Label_0688:
@@ -195,15 +195,15 @@ goto            @Label_07c4
 @Cond_068c:
 jumpz           @Cond_0730, ($f0265 == 1)
 jumpz           @Cond_06ec, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Bro's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Bro's..."
 goto            @Label_072c
 
 @Cond_06ec:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Bro's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Bro's..."
 goto            @Label_072c
 
 @Label_072c:
@@ -211,15 +211,15 @@ goto            @Label_07c4
 
 @Cond_0730:
 jumpz           @Cond_0780, ($b002 == 0)
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Tier's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Tier's..."
 goto            @Label_07c0
 
 @Cond_0780:
-dialogtxt       "I heard it…"
-dialogtxt       "Everyone's voices… And then…"
-dialogtxt       "Tier's…"
+dialogtxt       "I heard it..."
+dialogtxt       "Everyone's voices... And then..."
+dialogtxt       "Tier's..."
 goto            @Label_07c0
 
 @Label_07c0:
@@ -253,7 +253,7 @@ code0479        0, 5, 16
 code047d        0, 129
 call            @Func_2320
 call            @Func_2248
-dialogtxt       "This is…"
+dialogtxt       "This is..."
 dialogtxt       "A miracle!"
 code047b        
 code0309        
@@ -269,7 +269,7 @@ code0479        1, 7, 13
 code047d        1, 107
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "Ufufu…"
+dialogtxt       "Ufufu..."
 dialogtxt       "A miracle, huh."
 dialogtxt       "That's our [NAME 2]."
 code047b        
@@ -281,7 +281,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
+dialogtxt       "Ehehe..."
 dialogtxt       "You think so?"
 goto            @Label_1026
 
@@ -318,16 +318,16 @@ goto            @Cond_0b58
 
 @Cond_0b58:
 jumpz           @Cond_0bac, ($b003 == 1)
-dialogtxt       "A miracle…"
+dialogtxt       "A miracle..."
 dialogtxt       "That's just like you."
 dialogtxt       "Very impressive, [NAME 2]."
 goto            @Cond_0bac
 
 @Cond_0bac:
 jumpz           @Cond_0bf0, ($b003 == 2)
-dialogtxt       "A miracle, hm…"
+dialogtxt       "A miracle, hm..."
 dialogtxt       "That's just like you,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_0bf0
 
 @Cond_0bf0:
@@ -343,7 +343,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe…"
+dialogtxt       "Ehehe..."
 dialogtxt       "You think so?"
 goto            @Label_1026
 
@@ -362,7 +362,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe… You think so?"
+dialogtxt       "Ehehe... You think so?"
 goto            @Label_1026
 
 @Cond_0d54:
@@ -372,7 +372,7 @@ code0479        1, 7, 13
 code047d        1, 110
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "A miracle, huh…"
+dialogtxt       "A miracle, huh..."
 dialogtxt       "How very fitting,"
 dialogtxt       "[NAME 2]"
 code047b        
@@ -380,7 +380,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe… You think so?"
+dialogtxt       "Ehehe... You think so?"
 goto            @Label_1026
 
 @Cond_0e04:
@@ -392,7 +392,7 @@ call            @Func_2336
 call            @Func_234c
 call            @Func_22b4
 dialogtxt       "Somehow I'm not suprised."
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code047b        
 code0309        
 code0479        0, 11, 12
@@ -403,7 +403,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe… You think so?"
+dialogtxt       "Ehehe... You think so?"
 goto            @Label_1026
 
 @Cond_0f24:
@@ -425,7 +425,7 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "Ehehe… You think so?"
+dialogtxt       "Ehehe... You think so?"
 goto            @Label_1026
 
 @Label_1026:

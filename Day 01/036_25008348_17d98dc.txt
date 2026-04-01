@@ -72,7 +72,7 @@ goto            @Label_02be
 call            @Func_0a6c
 jumpz           @Cond_0306, ($b003 == 0)
 dialogtxt       "The Grass?"
-dialogtxt       "Then, Is The Kicker Berry-"
+dialogtxt       "Then, Is The Kicker Berry—"
 goto            @Cond_0306
 
 @Cond_0306:
@@ -82,12 +82,12 @@ goto            @Cond_0334
 
 @Cond_0334:
 jumpz           @Cond_0368, ($b003 == 2)
-dialogtxt       "Does that mean the Kicker Berry-"
+dialogtxt       "Does that mean the Kicker Berry—"
 goto            @Cond_0368
 
 @Cond_0368:
 jumpz           @Cond_039e, ($b003 == 3)
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "But the Kicker Berry!?"
 goto            @Cond_039e
 

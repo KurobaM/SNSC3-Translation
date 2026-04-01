@@ -115,7 +115,7 @@ call            @Func_17ec
 code0479        0, 5, 12
 call            @Func_174a
 dialogtxt       "Owner!?"
-dialogtxt       "I…"
+dialogtxt       "I..."
 goto            @Cond_05da
 
 @Cond_05da:
@@ -215,7 +215,7 @@ call            @Func_17ec
 code0479        0, 2, 15
 call            @Func_174a
 dialogtxt       "Owner!?"
-dialogtxt       "You-!"
+dialogtxt       "You—!"
 goto            @Cond_0b26
 
 @Cond_0b26:
@@ -228,7 +228,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Uooooh…"
+dialogtxt       "Uooooh..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -318,13 +318,13 @@ code0479        1, 3, 15
 call            @Func_1830
 call            @Func_1798
 dialogtxt       "Don't touch me!"
-dialogtxt       "As if I'd let his apprentice-!"
+dialogtxt       "As if I'd let his apprentice—!"
 code0309        
 call            @Func_17ec
 code0479        0, 2, 16
 call            @Func_174a
 jumpz           @Cond_10b6, ($b002 == 0)
-dialogtxt       "About that…"
+dialogtxt       "About that..."
 dialogtxt       "I'll have to ask you about"
 dialogtxt       "what happened with Rob later."
 code0309        
@@ -334,7 +334,7 @@ dialogtxt       "Let's go!"
 goto            @Label_1136
 
 @Cond_10b6:
-dialogtxt       "About that…"
+dialogtxt       "About that..."
 dialogtxt       "I'll have to ask you about"
 dialogtxt       "what happened with Rob later."
 code0309        

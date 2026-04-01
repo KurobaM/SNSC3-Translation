@@ -18,7 +18,7 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_0ac6
 call            @Func_0a0c
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "I'm sorry."
 code047b        
 code0309        
@@ -30,13 +30,13 @@ code0309
 call            @Func_0aae
 code0479        0, 4, 16
 call            @Func_0a0c
-dialogtxt       "Umm…"
+dialogtxt       "Umm..."
 dialogtxt       "Are you angry?"
 code0309        
 call            @Func_0a42
 code0479        1, 0, 12
 call            @Func_0a78
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0b1c
 call            @Func_0aae
@@ -65,22 +65,22 @@ code047d        0, 2
 call            @Func_0ac6
 call            @Func_0a0c
 jumpz           @Cond_025c, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Cond_025c
 
 @Cond_025c:
 jumpz           @Cond_0278, ($b003 == 1)
-dialogtxt       "Uh…"
+dialogtxt       "Uh..."
 goto            @Cond_0278
 
 @Cond_0278:
 jumpz           @Cond_0296, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 goto            @Cond_0296
 
 @Cond_0296:
 jumpz           @Cond_02b4, ($b003 == 3)
-dialogtxt       "Uhm…"
+dialogtxt       "Uhm..."
 goto            @Cond_02b4
 
 @Cond_02b4:
@@ -95,7 +95,7 @@ code0479        0, 0, 12
 code047d        0, 138
 call            @Func_0ac6
 call            @Func_0a0c
-dialogtxt       "Master looks… Happy."
+dialogtxt       "Master looks... Happy."
 code047b        
 code0309        
 call            @Func_0a42
@@ -111,8 +111,8 @@ code0479        0, 1, 13
 code047d        0, 107
 call            @Func_0ac6
 call            @Func_0a0c
-dialogtxt       "Fufufu…"
-dialogtxt       "He's embarrassed…"
+dialogtxt       "Fufufu..."
+dialogtxt       "He's embarrassed..."
 code047b        
 code0309        
 call            @Func_0a42
@@ -129,11 +129,11 @@ code047d        0, 0
 call            @Func_0ac6
 call            @Func_0a0c
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "… I can't tell at all…"
+dialogtxt       "... I can't tell at all..."
 goto            @Label_044c
 
 @Cond_0432:
-dialogtxt       "… I can't tell at all…"
+dialogtxt       "... I can't tell at all..."
 goto            @Label_044c
 
 @Label_044c:

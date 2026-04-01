@@ -105,7 +105,7 @@ goto            @Cond_0436
 
 @Cond_0436:
 jumpz           @Cond_0488, ($b003 == 3)
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "Thank you very much"
 dialogtxt       "for believing in me."
 goto            @Cond_0488
@@ -238,9 +238,9 @@ code0309
 call            @Func_1dce
 code0479        0, 4, 14
 call            @Func_1d2c
-dialogtxt       "…"
-dialogtxt       "Sorry, [NAME 1]…"
-dialogtxt       "For doubting you…"
+dialogtxt       "..."
+dialogtxt       "Sorry, [NAME 1]..."
+dialogtxt       "For doubting you..."
 code0309        
 call            @Func_1d62
 code0479        1, 0, 12
@@ -268,7 +268,7 @@ dialogtxt       "Same to you."
 goto            @Label_0a46
 
 @Label_0a46:
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_1d62
 code0479        1, 0, 12
@@ -323,9 +323,9 @@ code0309
 call            @Func_1dce
 code0479        0, 4, 14
 call            @Func_1d2c
-dialogtxt       "…"
-dialogtxt       "Sorry, [NAME 1]…"
-dialogtxt       "For doubting you…"
+dialogtxt       "..."
+dialogtxt       "Sorry, [NAME 1]..."
+dialogtxt       "For doubting you..."
 code0309        
 call            @Func_1d62
 code0479        1, 0, 12
@@ -353,7 +353,7 @@ dialogtxt       "Same to you."
 goto            @Label_0dce
 
 @Label_0dce:
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_1d62
 code0479        1, 2, 12
@@ -399,9 +399,9 @@ code0309
 call            @Func_1dce
 code0479        0, 4, 14
 call            @Func_1d2c
-dialogtxt       "…"
-dialogtxt       "Sorry, [NAME 1]…"
-dialogtxt       "For doubting you…"
+dialogtxt       "..."
+dialogtxt       "Sorry, [NAME 1]..."
+dialogtxt       "For doubting you..."
 code0309        
 call            @Func_1d62
 code0479        1, 0, 16
@@ -418,15 +418,15 @@ call            @Func_1dce
 code0479        0, 11, 16
 call            @Func_1d2c
 jumpz           @Cond_10fe, ($b002 == 0)
-dialogtxt       "Wh-what?"
+dialogtxt       "Wh—What?"
 dialogtxt       "Of course I think about"
-dialogtxt       "other things…"
+dialogtxt       "other things..."
 goto            @Label_114c
 
 @Cond_10fe:
-dialogtxt       "Wh-what?"
+dialogtxt       "Wh—What?"
 dialogtxt       "Of course I think about"
-dialogtxt       "other things…"
+dialogtxt       "other things..."
 goto            @Label_114c
 
 @Label_114c:
@@ -440,7 +440,7 @@ code0309
 call            @Func_1dce
 code0479        0, 1, 14
 call            @Func_1d2c
-dialogtxt       "Argh…"
+dialogtxt       "Argh..."
 dialogtxt       "Fine!"
 goto            @Cond_11be
 
@@ -478,9 +478,9 @@ code0309
 call            @Func_1dce
 code0479        0, 4, 14
 call            @Func_1d2c
-dialogtxt       "…"
-dialogtxt       "Sorry, [NAME 1]…"
-dialogtxt       "For doubting you…"
+dialogtxt       "..."
+dialogtxt       "Sorry, [NAME 1]..."
+dialogtxt       "For doubting you..."
 code0309        
 call            @Func_1d62
 code0479        1, 0, 12
@@ -508,7 +508,7 @@ dialogtxt       "Same to you."
 goto            @Label_14cc
 
 @Label_14cc:
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_1d62
 code0479        1, 2, 12

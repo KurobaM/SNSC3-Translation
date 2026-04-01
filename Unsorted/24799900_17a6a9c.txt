@@ -261,7 +261,7 @@ dialogtxt       "from their side."
 code0309        
 dialogtxt       "Moreso, they're searching for"
 dialogtxt       "*that* memorable item."
-dialogtxt       "They remembered…"
+dialogtxt       "They remembered..."
 code0309        
 code047e        0, 0
 code0302        7

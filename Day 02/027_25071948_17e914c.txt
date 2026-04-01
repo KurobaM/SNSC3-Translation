@@ -53,7 +53,7 @@ goto            @Label_0262
 code047d        1, 2
 call            @Func_0d10
 call            @Func_0c8e
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0ce2
@@ -103,20 +103,20 @@ goto            @Cond_0400
 @Cond_0400:
 jumpz           @Cond_046a, ($b003 == 1)
 dialogtxt       "I felt a presence that"
-dialogtxt       "seems to be following us…"
+dialogtxt       "seems to be following us..."
 goto            @Cond_046a
 
 @Cond_046a:
 jumpz           @Cond_04c0, ($b003 == 2)
 dialogtxt       "It feels like we're being watched."
-dialogtxt       "… Tsk!"
-dialogtxt       "It's pissing me off…"
+dialogtxt       "... Tsk!"
+dialogtxt       "It's pissing me off..."
 goto            @Cond_04c0
 
 @Cond_04c0:
 jumpz           @Cond_053c, ($b003 == 3)
-dialogtxt       "I think someone is following us…"
-dialogtxt       "I have a very unpleasant feeling…"
+dialogtxt       "I think someone is following us..."
+dialogtxt       "I have a very unpleasant feeling..."
 dialogtxt       "I'm certain it may be one of them!"
 goto            @Cond_053c
 
@@ -126,12 +126,12 @@ call            @Func_0ce2
 code0479        0, 2, 16
 call            @Func_0c40
 jumpz           @Cond_05a4, ($b002 == 0)
-dialogtxt       "What are talking about…"
+dialogtxt       "What are talking about..."
 dialogtxt       "I don't see anyone else here."
 goto            @Label_05da
 
 @Cond_05a4:
-dialogtxt       "What are talking about…"
+dialogtxt       "What are talking about..."
 dialogtxt       "I don't see anyone else here."
 goto            @Label_05da
 
@@ -139,7 +139,7 @@ goto            @Label_05da
 code0309        
 code0479        0, 2, 14
 dialogtxt       "Anyway, for now,"
-dialogtxt       "we just have to hurry…"
+dialogtxt       "we just have to hurry..."
 code0309        
 call            @Func_0d7c
 call            @Func_0c5e

@@ -240,7 +240,7 @@ goto            @Label_0b34
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "Umm…"
+dialogtxt       "Umm..."
 dialogtxt       "Who are you?"
 code0309        
 code047e        0, 0
@@ -427,7 +427,7 @@ goto            @Label_125e
 
 @Label_125e:
 code0309        
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 dialogtxt       "I will be waiting for you"
 dialogtxt       "until you've finished"

@@ -46,7 +46,7 @@ code047d        1, 108
 call            @Func_1180
 code0479        0, 4, 16
 call            @Func_107c
-dialogtxt       "Ah, Master…"
+dialogtxt       "Ah, Master..."
 code047b        
 code0309        
 call            @Func_10d0
@@ -83,12 +83,12 @@ call            @Func_113c
 code0479        0, 2, 15
 call            @Func_109a
 jumpz           @Cond_04a4, ($b002 == 0)
-dialogtxt       "W-What does being a Craftknight"
+dialogtxt       "W—What does being a Craftknight"
 dialogtxt       "have to do with this!?"
 goto            @Label_04ca
 
 @Cond_04a4:
-dialogtxt       "W-What does being a Craftknight"
+dialogtxt       "W—What does being a Craftknight"
 dialogtxt       "have to do with this!?"
 goto            @Label_04ca
 
@@ -115,7 +115,7 @@ call            @Func_113c
 jumpz           @Cond_064a, ($b002 == 0)
 code0479        0, 0, 14
 call            @Func_109a
-dialogtxt       "A-And? So what?"
+dialogtxt       "A—And? So what?"
 code0309        
 call            @Func_10d0
 goto            @Label_070a
@@ -123,7 +123,7 @@ goto            @Label_070a
 @Cond_064a:
 code0479        0, 4, 12
 call            @Func_109a
-dialogtxt       "But I'm a girl…"
+dialogtxt       "But I'm a girl..."
 code0309        
 call            @Func_10d0
 code0479        1, 2, 12
@@ -154,13 +154,13 @@ call            @Func_10d0
 code0479        1, 1, 13
 call            @Func_1106
 dialogtxt       "And finally, everyone realized."
-dialogtxt       "The fact that… I was the"
+dialogtxt       "The fact that... I was the"
 dialogtxt       "only one he had eyes for."
 code0309        
 call            @Func_113c
 code0479        0, 0, 13
 call            @Func_109a
-dialogtxt       "How cool…"
+dialogtxt       "How cool..."
 code0309        
 call            @Func_10d0
 code0479        1, 2, 13
@@ -172,8 +172,8 @@ code0309
 call            @Func_113c
 code0479        0, 4, 12
 call            @Func_109a
-dialogtxt       "Hmmm…"
-dialogtxt       "Really…?"
+dialogtxt       "Hmmm..."
+dialogtxt       "Really...?"
 code0309        
 call            @Func_10d0
 call            @Func_1106
@@ -194,7 +194,7 @@ code0309
 call            @Func_113c
 code0479        0, 5, 16
 call            @Func_109a
-dialogtxt       "Oh…"
+dialogtxt       "Oh..."
 dialogtxt       "I see."
 code0309        
 call            @Func_10d0

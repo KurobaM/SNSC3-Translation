@@ -36,7 +36,7 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_0c20
 call            @Func_0b48
-dialogtxt       "It's just like Bro said…"
+dialogtxt       "It's just like Bro said..."
 code047b        
 code0309        
 call            @Func_0b9c
@@ -57,8 +57,8 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_0c20
 call            @Func_0b66
-dialogtxt       "…"
-dialogtxt       "Even here…"
+dialogtxt       "..."
+dialogtxt       "Even here..."
 code047b        
 code0309        
 call            @Func_0c8c
@@ -89,22 +89,22 @@ code047d        1, 2
 call            @Func_0c36
 call            @Func_0bd2
 jumpz           @Cond_0428, ($b003 == 0)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_0428
 
 @Cond_0428:
 jumpz           @Cond_044a, ($b003 == 1)
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 goto            @Cond_044a
 
 @Cond_044a:
 jumpz           @Cond_046c, ($b003 == 2)
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 goto            @Cond_046c
 
 @Cond_046c:
 jumpz           @Cond_0490, ($b003 == 3)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_0490
 
 @Cond_0490:

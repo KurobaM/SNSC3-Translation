@@ -343,7 +343,7 @@ dialogtxt       "This town is so stuffy."
 dialogtxt       "I hate it here."
 code0309        
 dialogtxt       "I wonder if there's any place"
-dialogtxt       "a bit more peaceful…"
+dialogtxt       "a bit more peaceful..."
 code0309        
 code047e        0, 0
 code0302        7

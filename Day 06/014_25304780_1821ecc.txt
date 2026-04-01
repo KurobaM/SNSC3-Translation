@@ -37,7 +37,7 @@ code046e        38, 256, 1
 code047d        1, 151
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "… Zzz"
+dialogtxt       "... Zzz"
 code0309        
 code047e        1, 0
 code0302        7
@@ -53,13 +53,13 @@ code0479        0, 2, 14
 call            @Func_0d56
 call            @Func_0c7e
 jumpz           @Cond_02a2, ($b002 == 0)
-dialogtxt       "He's sleeping…?"
-dialogtxt       "… Right?"
+dialogtxt       "He's sleeping...?"
+dialogtxt       "... Right?"
 goto            @Label_02c4
 
 @Cond_02a2:
-dialogtxt       "He's sleeping…?"
-dialogtxt       "… Right?"
+dialogtxt       "He's sleeping...?"
+dialogtxt       "... Right?"
 goto            @Label_02c4
 
 @Label_02c4:
@@ -70,7 +70,7 @@ call            @Func_0cd2
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "…Zzz"
+dialogtxt       "...Zzz"
 code0309        
 code047e        1, 0
 code0302        7

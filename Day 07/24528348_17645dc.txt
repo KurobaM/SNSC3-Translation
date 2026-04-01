@@ -294,7 +294,7 @@ code0479        1, 2, 16
 call            @Func_2a7a
 dialogtxt       "Even if she is Magdrad's master,"
 dialogtxt       "I don't think taking her with"
-dialogtxt       "us is going to help…"
+dialogtxt       "us is going to help..."
 code0309        
 call            @Func_2ab0
 code0479        0, 2, 15
@@ -429,7 +429,7 @@ call            @Func_2af4
 call            @Func_29f0
 dialogtxt       "To the ruins with Anise!"
 dialogtxt       "I really hope this"
-dialogtxt       "will work…"
+dialogtxt       "will work..."
 code047b        
 code0309        
 call            @Func_2b1e
@@ -525,12 +525,12 @@ call            @Func_2af4
 call            @Func_29f0
 jumpz           @Cond_144e, ($b002 == 0)
 dialogtxt       "Tram and the others are waiting"
-dialogtxt       "for us at the gate…"
+dialogtxt       "for us at the gate..."
 goto            @Label_148e
 
 @Cond_144e:
 dialogtxt       "Tram and the others are waiting"
-dialogtxt       "for us at the gate…"
+dialogtxt       "for us at the gate..."
 goto            @Label_148e
 
 @Label_148e:
@@ -587,11 +587,11 @@ call            @Func_2ab0
 code0479        0, 4, 14
 call            @Func_2a0e
 jumpz           @Cond_1692, ($b002 == 0)
-dialogtxt       "Anise ran away…"
+dialogtxt       "Anise ran away..."
 goto            @Label_16b6
 
 @Cond_1692:
-dialogtxt       "Anise ran away…"
+dialogtxt       "Anise ran away..."
 goto            @Label_16b6
 
 @Label_16b6:
@@ -606,14 +606,14 @@ call            @Func_2ade
 call            @Func_2a7a
 dialogtxt       "It's certainly not going well."
 dialogtxt       "Nothing we can do about it now."
-dialogtxt       "You tried your best, [NAME 2]…"
+dialogtxt       "You tried your best, [NAME 2]..."
 code047b        
 code0309        
 call            @Func_2ab0
 code0479        0, 2, 12
 call            @Func_2a0e
 dialogtxt       "Thanks,"
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c
@@ -651,13 +651,13 @@ call            @Func_29f0
 jumpz           @Cond_18e6, ($b002 == 0)
 dialogtxt       "I don't really want to have"
 dialogtxt       "Master scold me, but we have to"
-dialogtxt       "go back to Prosban eventually…"
+dialogtxt       "go back to Prosban eventually..."
 goto            @Label_193e
 
 @Cond_18e6:
 dialogtxt       "I don't really want to have"
 dialogtxt       "Master scold me, but we have to"
-dialogtxt       "go back to Prosban eventually…"
+dialogtxt       "go back to Prosban eventually..."
 goto            @Label_193e
 
 @Label_193e:
@@ -699,14 +699,14 @@ goto            @Cond_1a72
 jumpz           @Cond_1ac6, ($b003 == 2)
 dialogtxt       "I'm sure your Bro"
 dialogtxt       "will do the same."
-dialogtxt       "Heh… I'm looking forward to this.…"
+dialogtxt       "Heh... I'm looking forward to this...."
 goto            @Cond_1ac6
 
 @Cond_1ac6:
 jumpz           @Cond_1b1c, ($b003 == 3)
 dialogtxt       "I'm certain your Bro"
 dialogtxt       "will put on the scariest"
-dialogtxt       "expression he can manage…"
+dialogtxt       "expression he can manage..."
 goto            @Cond_1b1c
 
 @Cond_1b1c:
@@ -727,7 +727,7 @@ code0309
 call            @Func_2ab0
 code0479        0, 1, 16
 call            @Func_2a0e
-dialogtxt       "(Now it's Murno I'm scared of…)"
+dialogtxt       "(Now it's Murno I'm scared of...)"
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c
@@ -764,12 +764,12 @@ call            @Func_2af4
 call            @Func_29f0
 jumpz           @Cond_1d3c, ($b002 == 0)
 dialogtxt       "I heard someone looking for me."
-dialogtxt       "I wonder who it is…"
+dialogtxt       "I wonder who it is..."
 goto            @Label_1d70
 
 @Cond_1d3c:
 dialogtxt       "I heard someone looking for me."
-dialogtxt       "I wonder who it is…"
+dialogtxt       "I wonder who it is..."
 goto            @Label_1d70
 
 @Label_1d70:
@@ -804,7 +804,7 @@ goto            @Cond_1e76
 
 @Cond_1e76:
 jumpz           @Cond_1eec, ($b003 == 1)
-dialogtxt       "Perhaps our Master…"
+dialogtxt       "Perhaps our Master..."
 dialogtxt       "You should prepare yourself."
 dialogtxt       "Who knows what she's going to do."
 goto            @Cond_1eec
@@ -813,12 +813,12 @@ goto            @Cond_1eec
 jumpz           @Cond_1f40, ($b003 == 2)
 dialogtxt       "Maybe our Master."
 dialogtxt       "Wonder how she'll react."
-dialogtxt       "Heh… This'll be fun."
+dialogtxt       "Heh... This'll be fun."
 goto            @Cond_1f40
 
 @Cond_1f40:
 jumpz           @Cond_1fa2, ($b003 == 3)
-dialogtxt       "P-Perhaps it is our Master!"
+dialogtxt       "P—Perhaps it is our Master!"
 dialogtxt       "She's going to be so mad when"
 dialogtxt       "she finds us!"
 goto            @Cond_1fa2
@@ -828,9 +828,9 @@ code0309
 call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
-dialogtxt       "N-Now you're freaking me out…"
+dialogtxt       "N—Now you're freaking me out..."
 dialogtxt       "Bro wouldn't won't stick his"
-dialogtxt       "neck out for me either…"
+dialogtxt       "neck out for me either..."
 code0309        
 call            @Func_2b34
 call            @Func_2a44
@@ -841,13 +841,13 @@ code047d        1, 107
 call            @Func_2ade
 call            @Func_2a7a
 dialogtxt       "I wonder what"
-dialogtxt       "Tier would do…"
+dialogtxt       "Tier would do..."
 code047b        
 code0309        
 call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
-dialogtxt       "L-Let's make sure we're ready."
+dialogtxt       "L—Let's make sure we're ready."
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c
@@ -871,7 +871,7 @@ code0479        1, 1, 12
 code047d        1, 107
 call            @Func_2ade
 call            @Func_2a7a
-dialogtxt       "Heehee! Oh, [NAME 2]…"
+dialogtxt       "Heehee! Oh, [NAME 2]..."
 dialogtxt       "Although I am hungry, too."
 code047b        
 code0309        
@@ -916,7 +916,7 @@ goto            @Cond_234e
 
 @Cond_234e:
 jumpz           @Cond_23ae, ($b003 == 2)
-dialogtxt       "Tch… You're too careless…"
+dialogtxt       "Tch... You're too careless..."
 dialogtxt       "Master Benson is waiting"
 dialogtxt       "for us at the workhop."
 goto            @Cond_23ae
@@ -934,7 +934,7 @@ call            @Func_2ab0
 code0479        0, 1, 14
 call            @Func_2a0e
 dialogtxt       "Now you're making"
-dialogtxt       "me uneasy…"
+dialogtxt       "me uneasy..."
 code0309        
 call            @Func_2b4a
 call            @Func_2a2c

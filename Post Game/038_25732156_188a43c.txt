@@ -49,13 +49,13 @@ code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
 dialogtxt       "That Phantom Dragon's actions seems to"
-dialogtxt       "have become a big problem…"
+dialogtxt       "have become a big problem..."
 code047b        
 code0309        
 call            @Func_0b14
 code0479        0, 0, 14
 call            @Func_0a72
-dialogtxt       "That's right, actually…"
+dialogtxt       "That's right, actually..."
 code0309        
 setvar          $h137, 60
 setvar          $h136, 0
@@ -68,14 +68,14 @@ call            @Func_0510
 code0479        1, 0, 14
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "About that…"
+dialogtxt       "About that..."
 code047b        
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 12
 dialogtxt       "I have a feeling that somewhere"
 dialogtxt       "out there, Anise is still"
-dialogtxt       "alive and kicking…"
+dialogtxt       "alive and kicking..."
 code0309        
 call            @Func_0bae
 call            @Func_0afc
@@ -95,7 +95,7 @@ code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
 dialogtxt       "Seems like you've grown"
-dialogtxt       "quite strong…"
+dialogtxt       "quite strong..."
 dialogtxt       "Shall we have another match?"
 code047b        
 code0309        

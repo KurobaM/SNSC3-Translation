@@ -83,7 +83,7 @@ code0479        0, 0, 14
 code047d        0, 108
 call            @Func_0d92
 call            @Func_0cd8
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0d0e
@@ -135,12 +135,12 @@ code0309
 call            @Func_0d0e
 code0479        1, 2, 16
 call            @Func_0d44
-dialogtxt       "Not quite…"
+dialogtxt       "Not quite..."
 code0309        
 call            @Func_0d7a
 code0479        0, 4, 16
 call            @Func_0cd8
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0d0e
 code0479        1, 0, 12

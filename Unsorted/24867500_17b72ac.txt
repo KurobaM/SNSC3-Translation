@@ -86,7 +86,7 @@ dialogtxt       "What's inside?"
 goto            @Label_03ea
 
 @Cond_03d2:
-dialogtxt       "I wonder what's inside…"
+dialogtxt       "I wonder what's inside..."
 goto            @Label_03ea
 
 @Label_03ea:

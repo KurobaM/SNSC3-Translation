@@ -58,7 +58,7 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_1890
 call            @Func_17d6
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_18e6
@@ -93,12 +93,12 @@ goto            @Cond_0436
 
 @Cond_0436:
 jumpz           @Cond_047a, ($b003 == 1)
-dialogtxt       "You smell suspicious…"
+dialogtxt       "You smell suspicious..."
 goto            @Cond_047a
 
 @Cond_047a:
 jumpz           @Cond_04b4, ($b003 == 2)
-dialogtxt       "This girl…"
+dialogtxt       "This girl..."
 dialogtxt       "Is very suspicous."
 goto            @Cond_04b4
 
@@ -126,7 +126,7 @@ code0479        0, 2, 16
 code047d        0, 107
 call            @Func_1890
 call            @Func_17d6
-dialogtxt       "Is that so…"
+dialogtxt       "Is that so..."
 code047b        
 code0309        
 call            @Func_18e6
@@ -140,7 +140,7 @@ code0479        1, 0, 16
 call            @Func_1842
 dialogtxt       "Now, as you've seen,"
 dialogtxt       "the area is riddle with holes."
-dialogtxt       "So…"
+dialogtxt       "So..."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -185,7 +185,7 @@ code0479        0, 2, 14
 call            @Func_1890
 call            @Func_17d6
 dialogtxt       "By the way,"
-dialogtxt       "you said the fee was…"
+dialogtxt       "you said the fee was..."
 code047b        
 code0309        
 call            @Func_180c
@@ -207,7 +207,7 @@ call            @Func_180c
 code0479        1, 1, 15
 call            @Func_1842
 dialogtxt       "Oh!?"
-dialogtxt       "Ohohohoho…"
+dialogtxt       "Ohohohoho..."
 code0309        
 code033e        396
 code0479        1, 2, 14
@@ -215,7 +215,7 @@ dialogtxt       "Tch!"
 dialogtxt       "She's sharp!"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "How about…"
+dialogtxt       "How about..."
 code0309        
 call            @Func_1878
 code0479        0, 2, 12
@@ -229,7 +229,7 @@ dialogbig       84, 116, 1, 0, 0, "Half!?"
 code030c        
 code0479        1, 2, 16
 dialogtxt       "Tch!"
-dialogtxt       "Cheapskate…"
+dialogtxt       "Cheapskate..."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Alright, fine."
@@ -243,11 +243,11 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_1890
 call            @Func_17d6
-dialogtxt       "100 Boam…"
-dialogtxt       "Hmm…"
+dialogtxt       "100 Boam..."
+dialogtxt       "Hmm..."
 code047b        
 code0309        
-choicetxt       @Choice_0b6e, "That might be worth it…"
+choicetxt       @Choice_0b6e, "That might be worth it..."
 choicetxt       @Choice_0e34, "Nah, I'll figure it out myself!"
 choicewait      
 
@@ -268,7 +268,7 @@ code047b
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Tch!"
-dialogtxt       "Not much profit from the second…"
+dialogtxt       "Not much profit from the second..."
 code0309        
 call            @Func_1878
 code0479        0, 0, 16
@@ -290,7 +290,7 @@ code0479        0, 0, 14
 code047d        0, 108
 call            @Func_1890
 call            @Func_17d6
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_180c
@@ -305,8 +305,8 @@ goto            @Label_10ec
 goto            @Choice_0e34
 
 @Cond_0d74:
-dialogtxt       "Huh…"
-dialogtxt       "You don't have enough money…"
+dialogtxt       "Huh..."
+dialogtxt       "You don't have enough money..."
 code0309        
 call            @Func_180c
 code0479        1, 2, 15
@@ -376,7 +376,7 @@ code047b
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Tch!"
-dialogtxt       "Not much profit from the second…"
+dialogtxt       "Not much profit from the second..."
 code0309        
 call            @Func_1878
 code0479        0, 0, 16

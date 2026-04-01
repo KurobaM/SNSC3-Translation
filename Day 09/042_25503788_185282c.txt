@@ -35,7 +35,7 @@ code0479        0, 2, 15
 call            @Func_099c
 dialogtxt       "[NAME 2]!"
 dialogtxt       "Be careful."
-dialogtxt       "That Summon Beast is…"
+dialogtxt       "That Summon Beast is..."
 code0309        
 call            @Func_0ad8
 call            @Func_09ba
@@ -86,7 +86,7 @@ goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_0376, ($b003 == 3)
-dialogtxt       "I-It's heading this way!"
+dialogtxt       "I—It's heading this way!"
 goto            @Cond_0376
 
 @Cond_0376:

@@ -16,9 +16,9 @@ code0479        1, 0, 15
 code047d        1, 120
 call            @Func_0f22
 call            @Func_0e8a
-dialogtxt       "I didnt forget…"
+dialogtxt       "I didnt forget..."
 dialogtxt       "I was just about to give an"
-dialogtxt       "answer…"
+dialogtxt       "answer..."
 code047b        
 code0309        
 code046d        0, 192
@@ -95,23 +95,23 @@ code047d        0, 2
 call            @Func_0ef6
 call            @Func_0e3c
 jumpz           @Cond_03d4, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "They Found Us."
 goto            @Cond_03d4
 
 @Cond_03d4:
 jumpz           @Cond_03fc, ($b003 == 1)
-dialogtxt       "What a blunder…"
+dialogtxt       "What a blunder..."
 goto            @Cond_03fc
 
 @Cond_03fc:
 jumpz           @Cond_0426, ($b003 == 2)
-dialogtxt       "What are you doing…?"
+dialogtxt       "What are you doing...?"
 goto            @Cond_0426
 
 @Cond_0426:
 jumpz           @Cond_0452, ($b003 == 3)
-dialogtxt       "We've been found…"
+dialogtxt       "We've been found..."
 goto            @Cond_0452
 
 @Cond_0452:
@@ -130,7 +130,7 @@ call            @Func_0f22
 code0479        0, 0, 16
 call            @Func_0e1e
 dialogtxt       "What are you looking at?"
-dialogtxt       "Get back to guarding…"
+dialogtxt       "Get back to guarding..."
 dialogtxt       "Hmm?"
 code047b        
 code0309        
@@ -181,7 +181,7 @@ code047d        0, 120
 call            @Func_0ef6
 call            @Func_0e3c
 dialogtxt       "You must have been followed."
-dialogtxt       "How pitiable…"
+dialogtxt       "How pitiable..."
 dialogtxt       "I'll have to report this."
 code047b        
 code0309        

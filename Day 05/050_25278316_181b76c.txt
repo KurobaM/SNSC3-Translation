@@ -7,13 +7,13 @@ call            @Func_08c0
 call            @Func_07e8
 jumpz           @Cond_00c6, ($b002 == 0)
 dialogtxt       "Why am I"
-dialogtxt       "locked up in here…"
+dialogtxt       "locked up in here..."
 dialogtxt       "Just what in the world is going on?"
 goto            @Label_012c
 
 @Cond_00c6:
 dialogtxt       "Why am I"
-dialogtxt       "locked up in here…"
+dialogtxt       "locked up in here..."
 dialogtxt       "Just what in the world is going on?"
 goto            @Label_012c
 
@@ -26,7 +26,7 @@ code047b
 code047d        1, 106
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -42,7 +42,7 @@ code0479        0, 5, 16
 call            @Func_08c0
 call            @Func_07e8
 dialogtxt       "Eh?"
-dialogtxt       "That voice, could it be…"
+dialogtxt       "That voice, could it be..."
 code047b        
 code0309        
 call            @Func_0916
@@ -50,7 +50,7 @@ call            @Func_0824
 code047b        
 code0312        
 menutxt         @Menu_024a, "Murno"
-menutxt         @Menu_0256, "…"
+menutxt         @Menu_0256, "..."
 menuwait        
 
 @Menu_024a:

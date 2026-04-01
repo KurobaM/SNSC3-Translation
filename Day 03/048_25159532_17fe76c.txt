@@ -3,17 +3,17 @@ code0479        0, 4, 17
 code047d        0, 0
 call            @Func_08b4
 call            @Func_07dc
-dialogbig       24, 116, 1, 0, 0, "Sigh~~~~…"
+dialogbig       24, 116, 1, 0, 0, "Sigh~~~~..."
 code030c        
 code0479        0, 4, 16
 jumpz           @Cond_00ca, ($b002 == 0)
-dialogtxt       "Ugh…"
-dialogtxt       "Why is this happening to me…?"
+dialogtxt       "Ugh..."
+dialogtxt       "Why is this happening to me...?"
 goto            @Label_0106
 
 @Cond_00ca:
-dialogtxt       "Ugh…"
-dialogtxt       "Why is this happening to me…?"
+dialogtxt       "Ugh..."
+dialogtxt       "Why is this happening to me...?"
 goto            @Label_0106
 
 @Label_0106:
@@ -31,13 +31,13 @@ call            @Func_07dc
 jumpz           @Cond_018e, ($b002 == 0)
 dialogtxt       "Huh?"
 dialogtxt       "Is someone there?"
-dialogtxt       "Is that…"
+dialogtxt       "Is that..."
 goto            @Label_01b8
 
 @Cond_018e:
 dialogtxt       "Huh?"
 dialogtxt       "Is someone there?"
-dialogtxt       "Is that…"
+dialogtxt       "Is that..."
 goto            @Label_01b8
 
 @Label_01b8:

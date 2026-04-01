@@ -323,7 +323,7 @@ dialogtxt       "and personality are so FLAWLESS!"
 code0309        
 dialogtxt       "But, the poor man was killed by"
 dialogtxt       "a Stray Summon Beast, so I'll"
-dialogtxt       "never get to see him…"
+dialogtxt       "never get to see him..."
 code0309        
 code047e        0, 0
 code0302        7

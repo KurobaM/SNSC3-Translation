@@ -9,7 +9,7 @@ code0479        1, 0, 12
 code047d        1, 133
 call            @Func_0b1c
 call            @Func_0a84
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0ad8
@@ -17,12 +17,12 @@ code0334
 code046e        36, 256, 1
 code0479        0, 5, 16
 call            @Func_0a36
-dialogtxt       "Umm…"
+dialogtxt       "Umm..."
 code0309        
 call            @Func_0a6c
 code0479        1, 0, 12
 call            @Func_0aa2
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0b46
 call            @Func_0ad8
@@ -51,22 +51,22 @@ code047d        0, 2
 call            @Func_0af0
 call            @Func_0a36
 jumpz           @Cond_01e6, ($b003 == 0)
-dialogtxt       "… !"
+dialogtxt       "... !"
 goto            @Cond_01e6
 
 @Cond_01e6:
 jumpz           @Cond_0206, ($b003 == 1)
-dialogtxt       "Hmmm…"
+dialogtxt       "Hmmm..."
 goto            @Cond_0206
 
 @Cond_0206:
 jumpz           @Cond_0222, ($b003 == 2)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Cond_0222
 
 @Cond_0222:
 jumpz           @Cond_0246, ($b003 == 3)
-dialogtxt       "S-Scary…"
+dialogtxt       "S—Scary..."
 goto            @Cond_0246
 
 @Cond_0246:
@@ -116,13 +116,13 @@ code0479        1, 0, 12
 code047d        1, 133
 call            @Func_0b06
 call            @Func_0aa2
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0ad8
 code0479        0, 1, 14
 call            @Func_0a36
-dialogtxt       "Uhhh…"
+dialogtxt       "Uhhh..."
 code0309        
 call            @Func_0b72
 call            @Func_0a54

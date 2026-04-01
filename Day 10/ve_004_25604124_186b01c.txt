@@ -9,11 +9,11 @@ code047d        1, 108
 call            @Func_0888
 call            @Func_0784
 jumpz           @Cond_00b2, ($b002 == 0)
-dialogtxt       "With this weapon, I'm sure…"
+dialogtxt       "With this weapon, I'm sure..."
 goto            @Label_00de
 
 @Cond_00b2:
-dialogtxt       "With this weapon, I'm sure…"
+dialogtxt       "With this weapon, I'm sure..."
 goto            @Label_00de
 
 @Label_00de:
@@ -22,20 +22,20 @@ code0309
 call            @Func_07d8
 code0479        1, 2, 14
 call            @Func_080e
-dialogtxt       "Hmmm…"
+dialogtxt       "Hmmm..."
 dialogtxt       "So that is your"
-dialogtxt       "answer to Rob's axe…"
+dialogtxt       "answer to Rob's axe..."
 code0309        
 call            @Func_0844
 code0479        0, 2, 12
 call            @Func_07a2
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_07d8
 code0479        1, 2, 13
 call            @Func_080e
-dialogtxt       "Hmm…"
-dialogtxt       "I see…"
+dialogtxt       "Hmm..."
+dialogtxt       "I see..."
 code0309        
 code0479        1, 2, 15
 dialogtxt       "Okay."

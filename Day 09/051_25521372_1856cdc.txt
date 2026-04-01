@@ -78,24 +78,24 @@ code047d        1, 2
 call            @Func_24a6
 call            @Func_2424
 jumpz           @Cond_035e, ($b003 == 0)
-dialogtxt       "Master Wellman…"
+dialogtxt       "Master Wellman..."
 goto            @Cond_035e
 
 @Cond_035e:
 jumpz           @Cond_0392, ($b003 == 1)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Lord Wellman!"
 goto            @Cond_0392
 
 @Cond_0392:
 jumpz           @Cond_03c4, ($b003 == 2)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Wellman!"
 goto            @Cond_03c4
 
 @Cond_03c4:
 jumpz           @Cond_03f8, ($b003 == 3)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Master Wellman!"
 goto            @Cond_03f8
 
@@ -108,7 +108,7 @@ code0479        0, 0, 14
 code047d        0, 129
 call            @Func_2490
 call            @Func_23d6
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_24fc
@@ -119,7 +119,7 @@ code0479        1, 5, 16
 code047d        1, 0
 call            @Func_24a6
 call            @Func_2442
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Murno's father?"
 code047b        
 code0309        
@@ -136,7 +136,7 @@ code0479        0, 4, 16
 code047d        0, 116
 call            @Func_24bc
 call            @Func_2424
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 dialogtxt       "What are you doing?"
 code047b        
 code0309        
@@ -168,7 +168,7 @@ code047d        0, 116
 call            @Func_2490
 code0479        1, 2, 14
 call            @Func_2442
-dialogtxt       "Pathetic… Well,"
+dialogtxt       "Pathetic... Well,"
 dialogtxt       "it's your fault it turned out like this,"
 dialogtxt       "Deal with it yourselves."
 code047b        
@@ -249,7 +249,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_2490
 call            @Func_23b8
-dialogtxt       "…!"
+dialogtxt       "...!"
 code047b        
 code0309        
 call            @Func_24e6
@@ -283,7 +283,7 @@ code047d        0, 132
 call            @Func_2490
 call            @Func_23d6
 dialogtxt       "Hey, hey,"
-dialogtxt       "we've got hostages over here…"
+dialogtxt       "we've got hostages over here..."
 code047b        
 code0309        
 call            @Func_240c
@@ -311,8 +311,8 @@ code047d        0, 108
 code0479        1, 2, 12
 call            @Func_24bc
 call            @Func_23b8
-dialogtxt       "You…"
-dialogtxt       "These guys…"
+dialogtxt       "You..."
+dialogtxt       "These guys..."
 code047b        
 code0309        
 call            @Func_240c
@@ -333,14 +333,14 @@ code0479        0, 3, 14
 code047d        0, 132
 call            @Func_2490
 call            @Func_23d6
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_240c
 code0479        1, 1, 13
 call            @Func_2442
-dialogtxt       "Kukuku…"
-dialogtxt       "Ahahaha…"
+dialogtxt       "Kukuku..."
+dialogtxt       "Ahahaha..."
 dialogtxt       "Are we done? I'll be leaving then."
 code0309        
 call            @Func_2512
@@ -359,13 +359,13 @@ code047d        0, 0
 call            @Func_2490
 call            @Func_23b8
 jumpz           @Cond_0ef0, ($b002 == 0)
-dialogtxt       "Wait…"
-dialogtxt       "Let Murno go…"
+dialogtxt       "Wait..."
+dialogtxt       "Let Murno go..."
 goto            @Label_0f16
 
 @Cond_0ef0:
-dialogtxt       "Wait…"
-dialogtxt       "Let Murno go…"
+dialogtxt       "Wait..."
+dialogtxt       "Let Murno go..."
 goto            @Label_0f16
 
 @Label_0f16:
@@ -375,8 +375,8 @@ call            @Func_240c
 call            @Func_24a6
 code0479        1, 3, 14
 call            @Func_2442
-dialogtxt       "Sheesh…"
-dialogtxt       "I've had enough of you…"
+dialogtxt       "Sheesh..."
+dialogtxt       "I've had enough of you..."
 code047b        
 code0309        
 call            @Func_2512
@@ -548,13 +548,13 @@ code0479        0, 5, 14
 code047d        0, 129
 call            @Func_2490
 call            @Func_23b8
-dialogtxt       "…!"
+dialogtxt       "...!"
 code047b        
 code0309        
 call            @Func_240c
 call            @Func_24a6
 call            @Func_2442
-dialogtxt       "Father…"
+dialogtxt       "Father..."
 code047b        
 code0309        
 call            @Func_2512
@@ -591,11 +591,11 @@ code047d        0, 0
 call            @Func_2490
 call            @Func_23d6
 jumpz           @Cond_1870, ($b002 == 0)
-dialogtxt       "Y-You!"
+dialogtxt       "Y—You!"
 goto            @Label_188a
 
 @Cond_1870:
-dialogtxt       "Y-You!"
+dialogtxt       "Y—You!"
 goto            @Label_188a
 
 @Label_188a:
@@ -648,11 +648,11 @@ code0479        1, 3, 14
 call            @Func_24bc
 call            @Func_23b8
 jumpz           @Cond_1b5a, ($b002 == 0)
-dialogtxt       "… Darn it!"
+dialogtxt       "... Darn it!"
 goto            @Label_1b68
 
 @Cond_1b5a:
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Label_1b68
 
 @Label_1b68:
@@ -673,9 +673,9 @@ code0309
 call            @Func_240c
 code0479        1, 2, 16
 call            @Func_2442
-dialogtxt       "That reminds me…"
+dialogtxt       "That reminds me..."
 dialogtxt       "You're that Craftknight's Summon."
-dialogtxt       "Then, after I deal with this one…"
+dialogtxt       "Then, after I deal with this one..."
 code0309        
 code0479        1, 3, 12
 code0479        0, 2, 14
@@ -716,7 +716,7 @@ code0479        0, 5, 14
 code047d        0, 0
 call            @Func_2490
 call            @Func_23b8
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code047b        
 code0309        
 call            @Func_24e6

@@ -96,20 +96,20 @@ goto            @Cond_03e0
 
 @Cond_03e0:
 jumpz           @Cond_041e, ($b003 == 1)
-dialogtxt       "Ho…"
+dialogtxt       "Ho..."
 dialogtxt       "Weren't we in a hurry?"
 goto            @Cond_041e
 
 @Cond_041e:
 jumpz           @Cond_0458, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Did you forget what we came"
 dialogtxt       "here for?"
 goto            @Cond_0458
 
 @Cond_0458:
 jumpz           @Cond_04a2, ($b003 == 3)
-dialogtxt       "My…"
+dialogtxt       "My..."
 dialogtxt       "You were in a hurry"
 dialogtxt       "just a moment ago."
 goto            @Cond_04a2
@@ -121,7 +121,7 @@ call            @Func_1066
 code043c        0, 3
 code0479        0, 5, 16
 call            @Func_0fc4
-dialogtxt       "… Right."
+dialogtxt       "... Right."
 code0309        
 call            @Func_10ea
 code047b        
@@ -148,7 +148,7 @@ code0309
 call            @Func_0ffa
 code0479        1, 2, 16
 call            @Func_1030
-dialogtxt       "… What was that?"
+dialogtxt       "... What was that?"
 code0309        
 call            @Func_1066
 code0479        0, 2, 12
@@ -192,7 +192,7 @@ code0309
 call            @Func_0ffa
 code0479        1, 2, 16
 call            @Func_1030
-dialogtxt       "… Dammit!"
+dialogtxt       "... Dammit!"
 code0309        
 call            @Func_1100
 call            @Func_104e
@@ -230,7 +230,7 @@ goto            @Cond_0992
 
 @Cond_0992:
 jumpz           @Cond_09b6, ($b003 == 2)
-dialogtxt       "Yeah, yeah…"
+dialogtxt       "Yeah, yeah..."
 goto            @Cond_09b6
 
 @Cond_09b6:

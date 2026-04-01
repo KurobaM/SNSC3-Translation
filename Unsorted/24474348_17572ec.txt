@@ -90,7 +90,7 @@ dialogtxt       "What's inside?"
 goto            @Label_041a
 
 @Cond_0402:
-dialogtxt       "I wonder what's inside…"
+dialogtxt       "I wonder what's inside..."
 goto            @Label_041a
 
 @Label_041a:

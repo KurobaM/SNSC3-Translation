@@ -147,7 +147,7 @@ code0301        8, 7
 code047d        0, 114
 code047e        0, 1
 dialogtxt       "It looks like the Strays have"
-dialogtxt       "become more active, but…"
+dialogtxt       "become more active, but..."
 dialogtxt       "Come back safely."
 code0309        
 code047e        0, 0
@@ -178,7 +178,7 @@ code040b
 code0301        8, 7
 dialogtxt       "A lady's secret lies beyond here◎"
 dialogtxt       "NO TRESPASSING!!!"
-dialogtxt       "　　　　　　　　　　　-Tier"
+dialogtxt       "　　　　　　　　　　　—Tier"
 code0309        
 code0302        7
 code040b        
@@ -406,7 +406,7 @@ code0301        8, 7
 code047d        0, 122
 code047e        0, 1
 dialogtxt       "I feel like something bad is"
-dialogtxt       "going to happen…"
+dialogtxt       "going to happen..."
 code0309        
 code047e        0, 0
 code0302        7

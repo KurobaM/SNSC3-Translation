@@ -32,28 +32,28 @@ call            @Func_0af0
 jumpz           @Cond_017a, ($b003 == 0)
 dialogtxt       "This Is The Entrance Of The Govan Ruins,"
 dialogtxt       "Where The Demon Stone Is Stored."
-dialogtxt       "It Is Likely That…"
+dialogtxt       "It Is Likely That..."
 goto            @Cond_017a
 
 @Cond_017a:
 jumpz           @Cond_01dc, ($b003 == 1)
 dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
-dialogtxt       "Most likely…"
+dialogtxt       "Most likely..."
 goto            @Cond_01dc
 
 @Cond_01dc:
 jumpz           @Cond_023c, ($b003 == 2)
 dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
-dialogtxt       "Most likely…"
+dialogtxt       "Most likely..."
 goto            @Cond_023c
 
 @Cond_023c:
 jumpz           @Cond_029e, ($b003 == 3)
 dialogtxt       "This is the entrance of the Govan Ruins,"
 dialogtxt       "where the demon stone is stored."
-dialogtxt       "Surely…"
+dialogtxt       "Surely..."
 goto            @Cond_029e
 
 @Cond_029e:
@@ -63,22 +63,22 @@ call            @Func_0b44
 code0479        0, 2, 16
 call            @Func_0aa2
 jumpz           @Cond_034a, ($b002 == 0)
-dialogtxt       "Murno will be there…"
-dialogtxt       "Along with Anise…"
-dialogtxt       "I have to give it my all…"
+dialogtxt       "Murno will be there..."
+dialogtxt       "Along with Anise..."
+dialogtxt       "I have to give it my all..."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Let's go…"
+dialogtxt       "Let's go..."
 dialogtxt       "[NAME 1]!"
 goto            @Label_03c4
 
 @Cond_034a:
-dialogtxt       "Murno will be there…"
-dialogtxt       "Along with Anise…"
-dialogtxt       "I have to give it my all…"
+dialogtxt       "Murno will be there..."
+dialogtxt       "Along with Anise..."
+dialogtxt       "I have to give it my all..."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Let's go…"
+dialogtxt       "Let's go..."
 dialogtxt       "[NAME 1]!"
 goto            @Label_03c4
 

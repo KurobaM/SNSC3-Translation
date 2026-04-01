@@ -30,12 +30,12 @@ call            @Func_0fac
 jumpz           @Cond_01e6, ($b003 == 0)
 code0479        0, 2, 12
 jumpz           @Cond_016a, ($b002 == 0)
-dialogtxt       "With this weapon…"
+dialogtxt       "With this weapon..."
 dialogtxt       "I'll show you my determination!"
 goto            @Label_01a8
 
 @Cond_016a:
-dialogtxt       "With this weapon…"
+dialogtxt       "With this weapon..."
 dialogtxt       "I'll show you my determination!"
 goto            @Label_01a8
 
@@ -53,12 +53,12 @@ jumpz           @Cond_02b4, ($b003 == 1)
 code0479        0, 2, 12
 jumpz           @Cond_0244, ($b002 == 0)
 dialogtxt       "Show me what you're made of,"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Label_0270
 
 @Cond_0244:
 dialogtxt       "Show me what you're made of,"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Label_0270
 
 @Label_0270:
@@ -66,7 +66,7 @@ code0309
 call            @Func_1000
 code0479        1, 2, 12
 call            @Func_1036
-dialogtxt       "Mm…"
+dialogtxt       "Mm..."
 dialogtxt       "Try not to regret it!"
 goto            @Cond_02b4
 
@@ -75,12 +75,12 @@ jumpz           @Cond_0382, ($b003 == 2)
 code0479        0, 2, 12
 jumpz           @Cond_030a, ($b002 == 0)
 dialogtxt       "Don't hold back,"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Label_032e
 
 @Cond_030a:
 dialogtxt       "Don't hold back,"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Label_032e
 
 @Label_032e:
@@ -88,9 +88,9 @@ code0309
 call            @Func_1000
 code0479        1, 2, 13
 call            @Func_1036
-dialogtxt       "Fu…"
+dialogtxt       "Fu..."
 dialogtxt       "As always, your mouth is"
-dialogtxt       "as quick as ever…"
+dialogtxt       "as quick as ever..."
 goto            @Cond_0382
 
 @Cond_0382:
@@ -111,8 +111,8 @@ code0309
 call            @Func_1000
 code0479        1, 2, 12
 call            @Func_1036
-dialogtxt       "That's true…"
-dialogtxt       "Well then, I shall also get serious…"
+dialogtxt       "That's true..."
+dialogtxt       "Well then, I shall also get serious..."
 goto            @Cond_0470
 
 @Cond_0470:
@@ -245,7 +245,7 @@ goto            @Cond_0964
 @Cond_0964:
 jumpz           @Cond_09c0, ($b003 == 2)
 dialogtxt       "I'll soon make you"
-dialogtxt       "regret those words…"
+dialogtxt       "regret those words..."
 code0309        
 code047e        0, 0
 code0302        1

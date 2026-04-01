@@ -65,7 +65,7 @@ code047d        1, 2
 call            @Func_0b4e
 call            @Func_0ab6
 jumpz           @Cond_02c0, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Cond_02c0
 
 @Cond_02c0:
@@ -75,12 +75,12 @@ goto            @Cond_02e2
 
 @Cond_02e2:
 jumpz           @Cond_0302, ($b003 == 2)
-dialogtxt       "You…"
+dialogtxt       "You..."
 goto            @Cond_0302
 
 @Cond_0302:
 jumpz           @Cond_0322, ($b003 == 3)
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_0322
 
 @Cond_0322:
@@ -92,12 +92,12 @@ code043c        3, 1
 code0479        0, 5, 17
 call            @Func_0a68
 jumpz           @Cond_039a, ($b002 == 0)
-dialogtxt       "M-Me!?"
+dialogtxt       "M—Me!?"
 dialogtxt       "I didn't do anything!"
 goto            @Label_03ca
 
 @Cond_039a:
-dialogtxt       "M-Me!?"
+dialogtxt       "M—Me!?"
 dialogtxt       "I didn't do anything!"
 goto            @Label_03ca
 

@@ -216,12 +216,12 @@ code047d        1, 0
 call            @Func_13c0
 call            @Func_135c
 jumpz           @Cond_0928, ($b002 == 0)
-dialogtxt       "Why you…!"
+dialogtxt       "Why you...!"
 dialogtxt       "What did you do to [NAME 1]!?"
 goto            @Label_0950
 
 @Cond_0928:
-dialogtxt       "Why you…!"
+dialogtxt       "Why you...!"
 dialogtxt       "What did you do to [NAME 1]!?"
 goto            @Label_0950
 
@@ -309,7 +309,7 @@ dialogtxt       "Darn!"
 goto            @Label_0d36
 
 @Cond_0d28:
-dialogtxt       "Ugh…!"
+dialogtxt       "Ugh...!"
 goto            @Label_0d36
 
 @Label_0d36:

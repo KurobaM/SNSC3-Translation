@@ -10,7 +10,7 @@ code0479        1, 1, 13
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "You've gotten stronger…"
+dialogtxt       "You've gotten stronger..."
 dialogtxt       "As expected of my rival!"
 goto            @Label_016e
 
@@ -23,7 +23,7 @@ code0479        1, 2, 13
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "You've gotten stronger…"
+dialogtxt       "You've gotten stronger..."
 dialogtxt       "As expected of Rob's disciple!"
 goto            @Label_016e
 
@@ -42,7 +42,7 @@ code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
 dialogtxt       "You can't defeat me with those skills."
-dialogtxt       "Because I'm…"
+dialogtxt       "Because I'm..."
 dialogtxt       "Jade the invincible!"
 code047b        
 code0309        
@@ -69,7 +69,7 @@ call            @Func_0b0e
 call            @Func_0a76
 dialogtxt       "There's only one reason you'd come"
 dialogtxt       "to see me. A  match right?"
-dialogtxt       "How'd I know? Because…"
+dialogtxt       "How'd I know? Because..."
 code047b        
 code0309        
 code0479        1, 2, 13

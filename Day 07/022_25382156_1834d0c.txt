@@ -31,9 +31,9 @@ code0309
 call            @Func_36f4
 code0479        0, 0, 16
 call            @Func_3652
-dialogtxt       "This Crystal Pillar…"
+dialogtxt       "This Crystal Pillar..."
 dialogtxt       "Like I thought, maybe it's the"
-dialogtxt       "same as the one in my village…"
+dialogtxt       "same as the one in my village..."
 code0309        
 call            @Func_3778
 call            @Func_3688
@@ -71,7 +71,7 @@ call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "The Demon Stone…?"
+dialogtxt       "The Demon Stone...?"
 code0309        
 call            @Func_3688
 code0479        1, 0, 12
@@ -88,7 +88,7 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Huh…"
+dialogtxt       "Huh..."
 dialogtxt       "I don't get it!"
 jumpz           @Cond_046a, ($b002 == 0)
 dialogtxt       "What do you mean?"
@@ -129,7 +129,7 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "I Advise Caution. The Demon Stone Is…"
+dialogtxt       "I Advise Caution. The Demon Stone Is..."
 code047b        
 code0309        
 call            @Func_3762
@@ -170,7 +170,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grrrrrr…"
+dialogtxt       "Grrrrrr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -215,7 +215,7 @@ call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "Oh no…"
+dialogtxt       "Oh no..."
 code0309        
 dialogtxt       "Could it be that whatever it felt"
 dialogtxt       "from the stone made it go mad?"
@@ -294,7 +294,7 @@ goto            @Cond_0c86
 
 @Cond_0c86:
 jumpz           @Cond_1622, ($b003 == 1)
-dialogtxt       "The air makes me naught but unease…"
+dialogtxt       "The air makes me naught but unease..."
 dialogtxt       "Was Govan's Demon Stone attached"
 dialogtxt       "To the Crystal Pillars?"
 code047b        
@@ -303,13 +303,13 @@ call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "The Demon Stone…?"
+dialogtxt       "The Demon Stone...?"
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "Where have I felt this before…"
-dialogtxt       "… Indeed, I recognized its aura"
+dialogtxt       "Where have I felt this before..."
+dialogtxt       "... Indeed, I recognized its aura"
 dialogtxt       "from when we fled our village!"
 code0309        
 call            @Func_378e
@@ -321,7 +321,7 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Huh…"
+dialogtxt       "Huh..."
 dialogtxt       "I don't get it!"
 jumpz           @Cond_0e22, ($b002 == 0)
 dialogtxt       "What do you mean by that!?"
@@ -362,8 +362,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "I sense something amiss…"
-dialogtxt       "… The Demon Stone!"
+dialogtxt       "I sense something amiss..."
+dialogtxt       "... The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -404,7 +404,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grrrrrr…"
+dialogtxt       "Grrrrrr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -449,7 +449,7 @@ call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "Oh no…"
+dialogtxt       "Oh no..."
 dialogtxt       "Could it be that whatever it felt"
 dialogtxt       "from the stone made it go mad?"
 code0309        
@@ -528,7 +528,7 @@ goto            @Cond_1622
 
 @Cond_1622:
 jumpz           @Cond_1f88, ($b003 == 2)
-dialogtxt       "Tch… I can sense malice."
+dialogtxt       "Tch... I can sense malice."
 dialogtxt       "Was Govan's Demon Stone attached"
 dialogtxt       "To the Crystal Pillars?"
 code047b        
@@ -537,12 +537,12 @@ call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "The Demon Stone…?"
+dialogtxt       "The Demon Stone...?"
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "This feeling…"
+dialogtxt       "This feeling..."
 code0309        
 dialogtxt       "I remember now!"
 dialogtxt       "Last I felt this malice was when"
@@ -557,7 +557,7 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Huh…"
+dialogtxt       "Huh..."
 dialogtxt       "I don't get it!"
 jumpz           @Cond_17a6, ($b002 == 0)
 dialogtxt       "What do you mean!?"
@@ -598,9 +598,9 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "Something feels off here…"
+dialogtxt       "Something feels off here..."
 code0309	
-dialogtxt       "… The Demon Stone!"
+dialogtxt       "... The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -641,7 +641,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grrrrrr…"
+dialogtxt       "Grrrrrr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -677,7 +677,7 @@ code0479        1, 2, 14
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "… Tsk!"
+dialogtxt       "... Tsk!"
 dialogtxt       "I can feel its malice"
 dialogtxt       "grow even stronger!"
 code047b        
@@ -685,7 +685,7 @@ code0309
 call            @Func_36f4
 code0479        0, 5, 16
 call            @Func_3652
-dialogtxt       "Oh no…"
+dialogtxt       "Oh no..."
 code0309        
 dialogtxt       "Could it be that whatever it felt"
 dialogtxt       "from the stone made it go mad?"
@@ -764,23 +764,23 @@ goto            @Cond_1f88
 
 @Cond_1f88:
 jumpz           @Cond_2926, ($b003 == 3)
-dialogtxt       "I feel queasy… I wonder if I"
+dialogtxt       "I feel queasy... I wonder if I"
 dialogtxt       "sensed Govan's Demon Stone?"
-dialogtxt       "It belonged to Lady Murno…"
+dialogtxt       "It belonged to Lady Murno..."
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "Then, that meant the Demon Stone…"
+dialogtxt       "Then, that meant the Demon Stone..."
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "This feeling…"
+dialogtxt       "This feeling..."
 code0309        
-dialogtxt       "Indeed…"
+dialogtxt       "Indeed..."
 dialogtxt       "This was the very same thing I"
 dialogtxt       "felt when we fled the village!"
 code0309        
@@ -834,8 +834,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "I can sense something amiss…"
-dialogtxt       "… The Demon Stone!"
+dialogtxt       "I can sense something amiss..."
+dialogtxt       "... The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -876,7 +876,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grrrrrr…"
+dialogtxt       "Grrrrrr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -920,7 +920,7 @@ code0309
 call            @Func_36f4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "Oh no…"
+dialogtxt       "Oh no..."
 dialogtxt       "Could it be that whatever it felt"
 dialogtxt       "from the stone made it go mad?"
 code0309        

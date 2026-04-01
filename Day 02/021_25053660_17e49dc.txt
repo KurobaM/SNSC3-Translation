@@ -43,7 +43,7 @@ code0479        1, 0, 12
 code047d        1, 106
 call            @Func_2492
 call            @Func_2410
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_2464
@@ -87,14 +87,14 @@ goto            @Cond_03a4
 @Cond_03a4:
 jumpz           @Cond_03f4, ($b003 == 1)
 dialogtxt       "When did you!?"
-dialogtxt       "How did I…"
+dialogtxt       "How did I..."
 dialogtxt       "How could I not notice!?"
 goto            @Cond_03f4
 
 @Cond_03f4:
 jumpz           @Cond_0432, ($b003 == 2)
-dialogtxt       "You…"
-dialogtxt       "When did you…"
+dialogtxt       "You..."
+dialogtxt       "When did you..."
 dialogtxt       "Who are you!?"
 goto            @Cond_0432
 
@@ -144,19 +144,19 @@ goto            @Cond_05b8
 
 @Cond_05b8:
 jumpz           @Cond_05e6, ($b003 == 1)
-dialogtxt       "You…"
+dialogtxt       "You..."
 dialogtxt       "So you must be a foe!"
 goto            @Cond_05e6
 
 @Cond_05e6:
 jumpz           @Cond_0610, ($b003 == 2)
-dialogtxt       "This person…"
+dialogtxt       "This person..."
 dialogtxt       "An enemy!?"
 goto            @Cond_0610
 
 @Cond_0610:
 jumpz           @Cond_0644, ($b003 == 3)
-dialogtxt       "T-This person…"
+dialogtxt       "T—This person..."
 dialogtxt       "He's an enemy, right!?"
 goto            @Cond_0644
 
@@ -171,7 +171,7 @@ code0479        0, 5, 15
 code047d        0, 0
 call            @Func_247c
 call            @Func_23a4
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        
@@ -205,7 +205,7 @@ call            @Func_2492
 call            @Func_2410
 dialogtxt       "You're lucky that you"
 dialogtxt       "get to fight me."
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code047b        
 code0309        
 code0479        1, 2, 15
@@ -250,8 +250,8 @@ call            @Func_2464
 code0479        0, 4, 12
 call            @Func_23c2
 jumpz           @Cond_0a2c, ($b002 == 0)
-dialogtxt       "Jeez…"
-dialogtxt       "It's too late for that…"
+dialogtxt       "Jeez..."
+dialogtxt       "It's too late for that..."
 dialogtxt       "\"Bro\" is just fine."
 code0309        
 code0479        0, 0, 16
@@ -260,8 +260,8 @@ dialogtxt       "claiming you're invincible?"
 goto            @Label_0aac
 
 @Cond_0a2c:
-dialogtxt       "Jeez…"
-dialogtxt       "It's too late for that…"
+dialogtxt       "Jeez..."
+dialogtxt       "It's too late for that..."
 dialogtxt       "Just \"Bro\" is fine."
 code0309        
 code0479        0, 0, 16
@@ -280,7 +280,7 @@ dialogtxt       "even if you try to whittle me down!"
 code0309        
 code0479        1, 2, 17
 dialogtxt       "From that day forward,"
-dialogtxt       "I am… the Invincible Jade!"
+dialogtxt       "I am... the Invincible Jade!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "And I threw away the part of"
@@ -289,8 +289,8 @@ code0309
 call            @Func_2464
 code0479        0, 0, 14
 call            @Func_23c2
-dialogtxt       "… I don't think you"
-dialogtxt       "have at all, though…"
+dialogtxt       "... I don't think you"
+dialogtxt       "have at all, though..."
 code0309        
 call            @Func_23f8
 code0479        1, 3, 17
@@ -335,19 +335,19 @@ goto            @Cond_0d94
 
 @Cond_0d94:
 jumpz           @Cond_0ddc, ($b003 == 1)
-dialogtxt       "So, this \"Bro\"…"
+dialogtxt       "So, this \"Bro\"..."
 dialogtxt       "He is not an enemy?"
 goto            @Cond_0ddc
 
 @Cond_0ddc:
 jumpz           @Cond_0e1e, ($b003 == 2)
 dialogtxt       "\"Bro\"!?"
-dialogtxt       "So he's… not an enemy?"
+dialogtxt       "So he's... not an enemy?"
 goto            @Cond_0e1e
 
 @Cond_0e1e:
 jumpz           @Cond_0e7c, ($b003 == 3)
-dialogtxt       "T-This man is your Bro?"
+dialogtxt       "T—This man is your Bro?"
 dialogtxt       "I was sure he was a villian!"
 goto            @Cond_0e7c
 
@@ -408,7 +408,7 @@ goto            @Cond_1054
 
 @Cond_1054:
 jumpz           @Cond_10a2, ($b003 == 3)
-dialogtxt       "B-But…"
+dialogtxt       "B—But..."
 dialogtxt       "Just look at his face!"
 dialogtxt       "Doesn't he look like a bully?"
 goto            @Cond_10a2
@@ -418,7 +418,7 @@ code0309
 call            @Func_2464
 code0479        0, 0, 12
 call            @Func_23c2
-dialogtxt       "I guess that's true…"
+dialogtxt       "I guess that's true..."
 dialogtxt       "But, believe me! He's a good guy."
 dialogtxt       "Right, Bro?"
 code0309        
@@ -439,7 +439,7 @@ code0309
 call            @Func_2464
 code0479        0, 1, 14
 call            @Func_23c2
-dialogtxt       "Ah… There it is…"
+dialogtxt       "Ah... There it is..."
 code0309        
 call            @Func_23f8
 code0479        1, 0, 16
@@ -463,9 +463,9 @@ goto            @Label_12ae
 @Label_12ae:
 code0309        
 code0479        0, 1, 16
-dialogtxt       "Uhh… Well…"
+dialogtxt       "Uhh... Well..."
 dialogtxt       "Master was saying it was about time"
-dialogtxt       "that I got a partner of my own…"
+dialogtxt       "that I got a partner of my own..."
 code0309        
 call            @Func_24d2
 call            @Func_23f8
@@ -507,17 +507,17 @@ call            @Func_23f8
 code0479        1, 0, 12
 call            @Func_242e
 dialogtxt       "From some reason, looking at"
-dialogtxt       "this one reminds me of my Master…"
+dialogtxt       "this one reminds me of my Master..."
 code0309        
 call            @Func_2464
 code0479        0, 0, 12
 call            @Func_23c2
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_23f8
 code0479        1, 0, 16
 call            @Func_242e
-dialogtxt       "Hey…?"
+dialogtxt       "Hey...?"
 code0309        
 call            @Func_2464
 code0479        0, 3, 12
@@ -527,8 +527,8 @@ code0309
 call            @Func_23f8
 code0479        1, 5, 16
 call            @Func_242e
-dialogtxt       "W-Why are you crying!?"
-dialogtxt       "It's not malfunctioning, is it…?"
+dialogtxt       "W—Why are you crying!?"
+dialogtxt       "It's not malfunctioning, is it...?"
 code0309        
 call            @Func_24fe
 call            @Func_244c
@@ -582,7 +582,7 @@ call            @Func_23f8
 code0479        1, 0, 12
 call            @Func_242e
 dialogtxt       "It's great that's he's got spirit,"
-dialogtxt       "but man, he's such a short fuse…"
+dialogtxt       "but man, he's such a short fuse..."
 code0309        
 code0479        1, 0, 13
 dialogtxt       "You need to chill out, y'know,"
@@ -592,7 +592,7 @@ code0309
 call            @Func_2464
 code0479        0, 3, 14
 call            @Func_23c2
-dialogtxt       "L-Like you!?"
+dialogtxt       "L—Like you!?"
 code0309        
 call            @Func_24fe
 call            @Func_23e0
@@ -610,24 +610,24 @@ code0309
 call            @Func_2464
 code0479        0, 2, 14
 call            @Func_23c2
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Are you mocking me?"
 code0309        
 code0479        0, 2, 12
 dialogtxt       "I'll have you know,"
 dialogtxt       "I am quite strong!"
-dialogtxt       "I'm not a-afraid of you!"
+dialogtxt       "I'm not a—afraid of you!"
 code0309        
 call            @Func_23f8
 code0479        1, 1, 13
 call            @Func_242e
-dialogtxt       "Haha…"
+dialogtxt       "Haha..."
 dialogtxt       "She's a real cutie when mad too."
 code0309        
 call            @Func_2464
 code0479        0, 2, 16
 call            @Func_23c2
-dialogtxt       "You… you definitely"
+dialogtxt       "You... you definitely"
 dialogtxt       "are mocking me!"
 code0309        
 call            @Func_24fe
@@ -668,7 +668,7 @@ code0302        7
 code0479        0, 1, 16
 call            @Func_247c
 call            @Func_23c2
-dialogtxt       "Umm… Well…"
+dialogtxt       "Umm... Well..."
 code047b        
 code0309        
 call            @Func_24d2
@@ -677,7 +677,7 @@ code047b
 code0301        8, 7
 code047e        1, 1
 dialogtxt       "I see!"
-dialogtxt       "I know you wanted to help, but…"
+dialogtxt       "I know you wanted to help, but..."
 code0309        
 dialogtxt       "You're too late."
 dialogtxt       "The Strays you were after"

@@ -7,7 +7,7 @@ code0479        1, 0, 14
 code047d        1, 106
 call            @Func_237e
 call            @Func_227a
-dialogtxt       "What's with these kids…"
+dialogtxt       "What's with these kids..."
 dialogtxt       "How are they so strong?"
 code047b        
 code0309        
@@ -60,7 +60,7 @@ code047d        0, 109
 call            @Func_2352
 call            @Func_227a
 dialogtxt       "Ah, wait!"
-dialogtxt       "At least stay for dinner…"
+dialogtxt       "At least stay for dinner..."
 code047b        
 code0309        
 call            @Func_23a8
@@ -88,9 +88,9 @@ code0479        1, 2, 14
 code047d        1, 109
 call            @Func_237e
 call            @Func_22e6
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 dialogtxt       "That was supposed to be"
-dialogtxt       "our third customer…"
+dialogtxt       "our third customer..."
 code047b        
 code0309        
 call            @Func_233a
@@ -114,26 +114,26 @@ call            @Func_22ce
 code0333        2, 30
 code0479        1, 2, 12
 call            @Func_2304
-dialogtxt       "Well obviously…"
-dialogtxt       "… Oh, wait…"
+dialogtxt       "Well obviously..."
+dialogtxt       "... Oh, wait..."
 code0309        
 code0334        
 code0331        31, 256
 code0479        1, 5, 16
-dialogtxt       "Were you…"
+dialogtxt       "Were you..."
 dialogtxt       "Trying to protect me?"
 code0309        
 call            @Func_233a
 code0479        0, 5, 17
 call            @Func_2298
-dialogtxt       "Ah, well…"
-dialogtxt       "I was just…"
+dialogtxt       "Ah, well..."
+dialogtxt       "I was just..."
 code0309        
 call            @Func_22ce
 code0479        1, 7, 12
 call            @Func_2304
-dialogtxt       "Thanks, um…"
-dialogtxt       "[NAME 2], right…?"
+dialogtxt       "Thanks, um..."
+dialogtxt       "[NAME 2], right...?"
 code0309        
 call            @Func_233a
 code0479        0, 0, 12
@@ -145,7 +145,7 @@ code0309
 call            @Func_22ce
 code0479        1, 0, 16
 call            @Func_2304
-dialogtxt       "That reminds me…"
+dialogtxt       "That reminds me..."
 dialogtxt       "You two are Craftknights,"
 dialogtxt       "right?"
 code0309        
@@ -169,7 +169,7 @@ code033b        396, 0, 0, 0, 1, 0
 code0479        1, 3, 13
 call            @Func_2368
 call            @Func_22e6
-dialogtxt       "(I just got a great idea…"
+dialogtxt       "(I just got a great idea..."
 dialogtxt       "　This could really work!)"
 code047b        
 code0309        
@@ -196,7 +196,7 @@ code0309
 call            @Func_233a
 code0479        0, 0, 16
 call            @Func_2298
-dialogtxt       "Yeah, I guess they are…"
+dialogtxt       "Yeah, I guess they are..."
 code0309        
 call            @Func_22ce
 code0479        1, 11, 12
@@ -243,10 +243,10 @@ code0309
 call            @Func_233a
 code0479        0, 2, 16
 call            @Func_2298
-dialogtxt       "Hmm…"
-dialogtxt       "What should I do…"
+dialogtxt       "Hmm..."
+dialogtxt       "What should I do..."
 code0309        
-choicetxt       @Choice_0bee, "Maybe I should consider it…"
+choicetxt       @Choice_0bee, "Maybe I should consider it..."
 choicetxt       @Choice_10d4, "Nuh uh! No way!"
 choicewait      
 
@@ -364,12 +364,12 @@ code0479        1, 2, 14
 call            @Func_2298
 jumpz           @Cond_1080, ($b002 == 0)
 dialogtxt       "Well, we were just passing"
-dialogtxt       "through to begin with…"
+dialogtxt       "through to begin with..."
 goto            @Label_10ca
 
 @Cond_1080:
 dialogtxt       "Well, we were just passing"
-dialogtxt       "through to begin with…"
+dialogtxt       "through to begin with..."
 goto            @Label_10ca
 
 @Label_10ca:
@@ -403,12 +403,12 @@ code0309
 call            @Func_233a
 code0479        0, 0, 16
 call            @Func_2298
-dialogtxt       "That's not what I…"
+dialogtxt       "That's not what I..."
 code0309        
 call            @Func_22ce
 code0479        1, 2, 12
 call            @Func_2304
-dialogtxt       "Heh heh heh…"
+dialogtxt       "Heh heh heh..."
 dialogtxt       "Resist while you can."
 dialogtxt       "I'll make you come around!"
 code0309        
@@ -451,7 +451,7 @@ code0446        0
 code0479        0, 4, 16
 call            @Func_2352
 call            @Func_227a
-dialogtxt       "What just happened…?"
+dialogtxt       "What just happened...?"
 code047b        
 code0309        
 call            @Func_22ce
@@ -479,22 +479,22 @@ code047d        1, 2
 call            @Func_2368
 call            @Func_2304
 jumpz           @Cond_152c, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Cond_152c
 
 @Cond_152c:
 jumpz           @Cond_1552, ($b003 == 1)
-dialogtxt       "What an odd girl…"
+dialogtxt       "What an odd girl..."
 goto            @Cond_1552
 
 @Cond_1552:
 jumpz           @Cond_157c, ($b003 == 2)
-dialogtxt       "What a weirdo…"
+dialogtxt       "What a weirdo..."
 goto            @Cond_157c
 
 @Cond_157c:
 jumpz           @Cond_15a8, ($b003 == 3)
-dialogtxt       "She's quite troublesome…"
+dialogtxt       "She's quite troublesome..."
 goto            @Cond_15a8
 
 @Cond_15a8:
@@ -506,13 +506,13 @@ code043c        0, 4
 code0479        0, 2, 14
 call            @Func_2298
 jumpz           @Cond_1636, ($b002 == 0)
-dialogtxt       "Oh, I forgot to ask…"
+dialogtxt       "Oh, I forgot to ask..."
 dialogtxt       "Who were those guys earlier?"
 dialogtxt       "What's their deal with Murno?"
 goto            @Label_167e
 
 @Cond_1636:
-dialogtxt       "Oh, I forgot to ask…"
+dialogtxt       "Oh, I forgot to ask..."
 dialogtxt       "Who were those guys earlier?"
 dialogtxt       "What's their deal with Murno?"
 goto            @Label_167e
@@ -559,7 +559,7 @@ goto            @Cond_17c6
 
 @Cond_17c6:
 jumpz           @Cond_1806, ($b003 == 3)
-dialogtxt       "I'm sorry…"
+dialogtxt       "I'm sorry..."
 dialogtxt       "I can't tell you right now."
 goto            @Cond_1806
 
@@ -568,7 +568,7 @@ code0309
 call            @Func_233a
 code0479        0, 5, 16
 call            @Func_2298
-dialogtxt       "Wha…"
+dialogtxt       "Wha..."
 code0309        
 call            @Func_22ce
 jumpz           @Cond_185c, ($b003 == 0)
@@ -605,15 +605,15 @@ goto            @Cond_195c
 
 @Cond_195c:
 jumpz           @Cond_19c2, ($b003 == 2)
-dialogtxt       "I made a promise with Murno…"
+dialogtxt       "I made a promise with Murno..."
 dialogtxt       "What makes you think I'll"
 dialogtxt       "break it for you?"
 goto            @Cond_19c2
 
 @Cond_19c2:
 jumpz           @Cond_19fa, ($b003 == 3)
-dialogtxt       "I made a promise with Milady…"
-dialogtxt       "So…"
+dialogtxt       "I made a promise with Milady..."
+dialogtxt       "So..."
 goto            @Cond_19fa
 
 @Cond_19fa:
@@ -621,7 +621,7 @@ code0309
 call            @Func_233a
 code0479        0, 2, 16
 call            @Func_2298
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 dialogtxt       "That's fair."
 code0309        
 call            @Func_22ce
@@ -645,17 +645,17 @@ goto            @Label_1ac4
 
 @Label_1ac4:
 call            @Func_2304
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_233a
 code0479        0, 0, 12
 call            @Func_2298
 jumpz           @Cond_1b14, ($b002 == 0)
-dialogtxt       "So…"
+dialogtxt       "So..."
 goto            @Label_1b2e
 
 @Cond_1b14:
-dialogtxt       "So…"
+dialogtxt       "So..."
 goto            @Label_1b2e
 
 @Label_1b2e:
@@ -683,25 +683,25 @@ goto            @Label_1be0
 @Label_1be0:
 call            @Func_2304
 jumpz           @Cond_1c06, ($b003 == 0)
-dialogtxt       "Affirmative…"
+dialogtxt       "Affirmative..."
 goto            @Cond_1c06
 
 @Cond_1c06:
 jumpz           @Cond_1c3a, ($b003 == 1)
-dialogtxt       "Understood…"
-dialogtxt       "Sorry, [NAME 2]…"
+dialogtxt       "Understood..."
+dialogtxt       "Sorry, [NAME 2]..."
 goto            @Cond_1c3a
 
 @Cond_1c3a:
 jumpz           @Cond_1c5c, ($b003 == 2)
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 goto            @Cond_1c5c
 
 @Cond_1c5c:
 jumpz           @Cond_1ca0, ($b003 == 3)
-dialogtxt       "Yes…"
-dialogtxt       "[NAME 2]…"
-dialogtxt       "Thanks for understanding…"
+dialogtxt       "Yes..."
+dialogtxt       "[NAME 2]..."
+dialogtxt       "Thanks for understanding..."
 goto            @Cond_1ca0
 
 @Cond_1ca0:

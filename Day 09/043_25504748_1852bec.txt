@@ -43,7 +43,7 @@ goto            @Label_01e6
 @Cond_01aa:
 code0479        0, 2, 16
 call            @Func_1f14
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "We're safe, somehow."
 code0309        
 goto            @Label_01e6
@@ -67,7 +67,7 @@ code0479        1, 2, 16
 call            @Func_1f80
 dialogtxt       "I think they went further in."
 dialogtxt       "I can't say for sure, since"
-dialogtxt       "that Summon Beast suddenly appeared…"
+dialogtxt       "that Summon Beast suddenly appeared..."
 code0309        
 call            @Func_2050
 call            @Func_1f9e
@@ -133,8 +133,8 @@ call            @Func_1f4a
 code0479        1, 4, 17
 call            @Func_1f80
 dialogtxt       "Big trouble!"
-dialogtxt       "Master is…"
-dialogtxt       "Miss Murno is…"
+dialogtxt       "Master is..."
+dialogtxt       "Miss Murno is..."
 code0309        
 call            @Func_2024
 call            @Func_1fb6
@@ -194,8 +194,8 @@ code047d        1, 109
 call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "They attacked the workshop."
-dialogtxt       "Murno…"
-dialogtxt       "They kidnapped Murno…"
+dialogtxt       "Murno..."
+dialogtxt       "They kidnapped Murno..."
 code047b        
 code0309        
 call            @Func_2050
@@ -236,7 +236,7 @@ code0479        1, 2, 16
 call            @Func_1f80
 dialogtxt       "About that, somehow they took"
 dialogtxt       "Murno's father hostage,"
-dialogtxt       "and no one could do anything…"
+dialogtxt       "and no one could do anything..."
 code0309        
 call            @Func_1fb6
 code0479        0, 5, 15
@@ -253,8 +253,8 @@ code047d        1, 138
 call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "And then,"
-dialogtxt       "Master was…"
-dialogtxt       "Master was- !"
+dialogtxt       "Master was..."
+dialogtxt       "Master was— !"
 code047b        
 code0309        
 call            @Func_2024
@@ -272,7 +272,7 @@ code0309
 call            @Func_1f4a
 code0479        1, 4, 15
 call            @Func_1f80
-dialogtxt       "I didn't know what I…"
+dialogtxt       "I didn't know what I..."
 code0309        
 call            @Func_2050
 call            @Func_1f9e
@@ -288,15 +288,15 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_1ffa
 call            @Func_1f62
-dialogtxt       "I see…"
-dialogtxt       "Even Murno is…"
+dialogtxt       "I see..."
+dialogtxt       "Even Murno is..."
 dialogtxt       "What do we do?"
 code047b        
 code0309        
 call            @Func_1fb6
 code0479        0, 2, 16
 call            @Func_1f14
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_0cf2, ($b002 == 0)
@@ -334,8 +334,8 @@ code0309
 call            @Func_1f4a
 code0479        1, 2, 16
 call            @Func_1f80
-dialogtxt       "[NAME 2]…"
-dialogtxt       "…"
+dialogtxt       "[NAME 2]..."
+dialogtxt       "..."
 dialogtxt       "Sorry."
 code0309        
 call            @Func_2024
@@ -395,7 +395,7 @@ goto            @Cond_103e
 
 @Cond_103e:
 jumpz           @Cond_10d8, ($b003 == 2)
-dialogtxt       "Guess I have no choice…"
+dialogtxt       "Guess I have no choice..."
 code047b        
 code0309        
 code0334        
@@ -415,7 +415,7 @@ code0334
 code0331        23, 256
 code0479        0, 2, 12
 dialogtxt       "Please leave Lady Murno to us!"
-dialogtxt       "You should hurry back, Master…"
+dialogtxt       "You should hurry back, Master..."
 goto            @Cond_1178
 
 @Cond_1178:
@@ -444,7 +444,7 @@ code0309
 call            @Func_1f4a
 code0479        1, 2, 16
 call            @Func_1f80
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "I'm really sorry."
 dialogtxt       "I'll do that."
 code0309        
@@ -464,7 +464,7 @@ code0309
 call            @Func_1f4a
 code0479        1, 2, 12
 call            @Func_1f80
-dialogtxt       "Is that so… Thanks."
+dialogtxt       "Is that so... Thanks."
 dialogtxt       "Everyone, head out."
 dialogtxt       "Eliez, you're with me!"
 code0309        
@@ -507,7 +507,7 @@ code0309
 call            @Func_1f4a
 code0479        1, 2, 14
 call            @Func_1f80
-dialogtxt       "… Er, where should we start?"
+dialogtxt       "... Er, where should we start?"
 dialogtxt       "Do you have a plan?"
 code0309        
 call            @Func_1fb6
@@ -515,7 +515,7 @@ code0479        0, 5, 16
 call            @Func_1f14
 dialogtxt       "Huh!?"
 dialogtxt       "That's,"
-dialogtxt       "uh… You know…"
+dialogtxt       "uh... You know..."
 code0309        
 call            @Func_2024
 call            @Func_1f4a
@@ -585,7 +585,7 @@ code0479        0, 2, 12
 code047d        0, 0
 call            @Func_1fce
 call            @Func_1f14
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 dialogtxt       "Okay!"
 code047b        
 code0309        

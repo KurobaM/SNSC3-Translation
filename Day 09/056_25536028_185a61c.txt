@@ -6,13 +6,13 @@ call            @Func_0958
 call            @Func_0880
 dialogtxt       "Though we planned on returning"
 dialogtxt       "the Demon Stone, Ianna wants to"
-dialogtxt       "conduct an investigation…"
+dialogtxt       "conduct an investigation..."
 code047b        
 code0309        
 code0479        0, 0, 16
 dialogtxt       "There's Wellman's thing too,"
 dialogtxt       "so they most likely won't be"
-dialogtxt       "able to return the Stone soon…"
+dialogtxt       "able to return the Stone soon..."
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_018c, ($b002 == 0)
@@ -41,7 +41,7 @@ code0479        0, 0, 16
 call            @Func_0958
 call            @Func_0880
 dialogtxt       "Huh?"
-dialogtxt       "Who's that…?"
+dialogtxt       "Who's that...?"
 code0309        
 call            @Func_09ae
 call            @Func_08bc

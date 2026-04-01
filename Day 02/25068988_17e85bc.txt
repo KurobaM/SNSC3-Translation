@@ -26,13 +26,13 @@ code0479        0, 0, 16
 call            @Func_0d6c
 call            @Func_0cb2
 jumpz           @Cond_01ae, ($b002 == 0)
-dialogtxt       "Um…"
-dialogtxt       "I'm looking for someone…"
+dialogtxt       "Um..."
+dialogtxt       "I'm looking for someone..."
 goto            @Label_01d8
 
 @Cond_01ae:
-dialogtxt       "Um…"
-dialogtxt       "I'm looking for someone…"
+dialogtxt       "Um..."
+dialogtxt       "I'm looking for someone..."
 goto            @Label_01d8
 
 @Label_01d8:
@@ -70,7 +70,7 @@ goto            @Label_02c2
 code047d        0, 2
 call            @Func_0d6c
 call            @Func_0cb2
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0dc2
@@ -120,13 +120,13 @@ call            @Func_0d6c
 call            @Func_0c94
 jumpz           @Cond_0538, ($b002 == 0)
 dialogtxt       "Ah, hey!"
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Lemmy!"
 goto            @Label_056a
 
 @Cond_0538:
 dialogtxt       "Ah, hey!"
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "Lemmy!"
 goto            @Label_056a
 
@@ -138,7 +138,7 @@ code043c        3, 1
 code0479        1, 0, 12
 call            @Func_0d82
 call            @Func_0d1e
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0dee

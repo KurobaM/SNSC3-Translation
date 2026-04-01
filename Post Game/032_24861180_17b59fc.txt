@@ -288,7 +288,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "I wonder where has Sir"
-dialogtxt       "Velvoren gone off to…"
+dialogtxt       "Velvoren gone off to..."
 code0309        
 dialogtxt       "I already asked Ms. Ianna, but she"
 dialogtxt       "refused to tell me for some reason."

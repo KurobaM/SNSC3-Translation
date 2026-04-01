@@ -237,7 +237,7 @@ code0301        8, 7
 code047d        0, 132
 code047e        0, 1
 dialogtxt       "Looks like they're getting serious."
-dialogtxt       "This'll be interesting…"
+dialogtxt       "This'll be interesting..."
 code0309        
 dialogtxt       "You'll have to work hard"
 dialogtxt       "to get the stone back."

@@ -33,7 +33,7 @@ call            @Func_0cb0
 call            @Func_0bd8
 dialogtxt       "You've done well."
 dialogtxt       "Is your hand okay?"
-dialogtxt       "You might want to rest a bit…"
+dialogtxt       "You might want to rest a bit..."
 code047b        
 code0309        
 call            @Func_0c2c
@@ -45,7 +45,7 @@ code0479        1, 2, 12
 call            @Func_0cc6
 call            @Func_0c62
 dialogtxt       "I'm fine!"
-dialogtxt       "Next…"
+dialogtxt       "Next..."
 dialogtxt       "Teach me how to use this!"
 code0309        
 call            @Func_0d32
@@ -72,12 +72,12 @@ call            @Func_0c98
 code0479        0, 2, 14
 call            @Func_0bf6
 jumpz           @Cond_038a, ($b002 == 0)
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 dialogtxt       "Are you sure?"
 goto            @Label_03b4
 
 @Cond_038a:
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 dialogtxt       "Are you sure?"
 goto            @Label_03b4
 
@@ -92,8 +92,8 @@ code0309
 call            @Func_0c98
 code0479        0, 4, 12
 call            @Func_0bf6
-dialogtxt       "Alright…"
-dialogtxt       "If you insist…"
+dialogtxt       "Alright..."
+dialogtxt       "If you insist..."
 dialogtxt       "I guess I have to."
 code0309        
 call            @Func_0c2c

@@ -8,14 +8,14 @@ code047d        1, 0
 call            @Func_1004
 call            @Func_0f6c
 dialogtxt       "Thanks to that Demon Stone,"
-dialogtxt       "it's been very eventful…"
+dialogtxt       "it's been very eventful..."
 code047b        
 code0309        
 call            @Func_0fc0
 code043c        2, 4
 code0479        0, 0, 16
 call            @Func_0f1e
-dialogtxt       "Seriously, and it put us in danger too…"
+dialogtxt       "Seriously, and it put us in danger too..."
 dialogtxt       "I'm amazed we're still alive."
 code0309        
 call            @Func_0f54
@@ -25,13 +25,13 @@ call            @Func_0f8a
 jumpz           @Cond_01b4, ($b002 == 0)
 dialogtxt       "Well, it's not like"
 dialogtxt       "everything was that bad."
-dialogtxt       "You know…"
+dialogtxt       "You know..."
 goto            @Label_0200
 
 @Cond_01b4:
 dialogtxt       "Well, it's not like"
 dialogtxt       "everything was that bad."
-dialogtxt       "You know…"
+dialogtxt       "You know..."
 goto            @Label_0200
 
 @Label_0200:
@@ -44,19 +44,19 @@ code0309
 call            @Func_0fc0
 code0479        0, 0, 13
 call            @Func_0f1e
-dialogtxt       "That's right…"
+dialogtxt       "That's right..."
 dialogtxt       "But even without the Stone,"
 dialogtxt       "I believe we would've met."
 code0309        
 code0479        0, 10, 12
 dialogtxt       "After all, it was our"
-dialogtxt       "destiny to be drawn together…"
+dialogtxt       "destiny to be drawn together..."
 code0309        
 call            @Func_0f54
 code0479        1, 1, 16
 call            @Func_0f8a
 dialogtxt       "When you put it that way,"
-dialogtxt       "you remind me of Master…"
+dialogtxt       "you remind me of Master..."
 code0309        
 call            @Func_0fc0
 code033b        396, 0, 0, 0, 1, 1
@@ -65,13 +65,13 @@ call            @Func_0f1e
 jumpz           @Cond_0428, ($b002 == 0)
 dialogtxt       "Now that that's settled,"
 dialogtxt       "I'll have you continue on"
-dialogtxt       "as my exclusive Craftknight…"
+dialogtxt       "as my exclusive Craftknight..."
 goto            @Label_048c
 
 @Cond_0428:
 dialogtxt       "Now that that's settled,"
 dialogtxt       "I'll have you continue on "
-dialogtxt       "as my exclusive poster girl…"
+dialogtxt       "as my exclusive poster girl..."
 goto            @Label_048c
 
 @Label_048c:
@@ -83,13 +83,13 @@ call            @Func_0f8a
 jumpz           @Cond_051e, ($b002 == 0)
 dialogtxt       "Well, I still have to do something"
 dialogtxt       "about that 1 million boam"
-dialogtxt       "I promised Master…"
+dialogtxt       "I promised Master..."
 goto            @Label_0572
 
 @Cond_051e:
 dialogtxt       "Well, I still have to do something"
 dialogtxt       "about that 1 million boam"
-dialogtxt       "I promised Master…"
+dialogtxt       "I promised Master..."
 goto            @Label_0572
 
 @Label_0572:
@@ -109,19 +109,19 @@ call            @Func_0fc0
 code043c        2, 1
 code0479        0, 4, 17
 call            @Func_0f1e
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "So this is how it feels"
-dialogtxt       "to be torn apart by fate…"
+dialogtxt       "to be torn apart by fate..."
 code0309        
 call            @Func_0f54
 code0479        1, 2, 16
 call            @Func_0f8a
 jumpz           @Cond_06ba, ($b002 == 0)
-dialogtxt       "You're exaggerating…"
+dialogtxt       "You're exaggerating..."
 goto            @Label_06dc
 
 @Cond_06ba:
-dialogtxt       "You're exaggerating…"
+dialogtxt       "You're exaggerating..."
 goto            @Label_06dc
 
 @Label_06dc:
@@ -141,7 +141,7 @@ call            @Func_0f54
 code0479        1, 1, 12
 call            @Func_0f8a
 dialogtxt       "Okay, okay."
-dialogtxt       "Geez… I can't keep up with you."
+dialogtxt       "Geez... I can't keep up with you."
 code0309        
 code0479        1, 2, 12
 jumpz           @Cond_086a, ($b002 == 0)
@@ -165,7 +165,7 @@ code0309
 call            @Func_0f54
 code0479        1, 7, 16
 call            @Func_0f8a
-dialogtxt       "Hey, give me a break…"
+dialogtxt       "Hey, give me a break..."
 code0309        
 call            @Func_0fc0
 code0479        0, 8, 12

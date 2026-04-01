@@ -8,7 +8,7 @@ code047d        0, 110
 call            @Func_140c
 call            @Func_1334
 dialogtxt       "Damn it!"
-dialogtxt       "Why…!?"
+dialogtxt       "Why...!?"
 code047b        
 code0309        
 call            @Func_1388
@@ -28,7 +28,7 @@ code0479        0, 4, 16
 call            @Func_1352
 dialogtxt       "Bostaph is working with"
 dialogtxt       "the attackers?"
-dialogtxt       "That's not possible…"
+dialogtxt       "That's not possible..."
 code0309        
 call            @Func_148e
 call            @Func_1370
@@ -40,7 +40,7 @@ code0479        0, 4, 14
 code047d        0, 0
 call            @Func_140c
 call            @Func_1334
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code047b        
 code0309        
 call            @Func_1462
@@ -78,11 +78,11 @@ call            @Func_140c
 call            @Func_1334
 dialogtxt       "Wait!"
 jumpz           @Cond_03d2, ($b002 == 0)
-dialogtxt       "What are you…!"
+dialogtxt       "What are you...!"
 goto            @Label_03ea
 
 @Cond_03d2:
-dialogtxt       "What are you…!"
+dialogtxt       "What are you...!"
 goto            @Label_03ea
 
 @Label_03ea:
@@ -116,8 +116,8 @@ code0479        1, 4, 14
 code047d        1, 108
 call            @Func_1422
 call            @Func_13a0
-dialogtxt       "Sigh…"
-dialogtxt       "There he goes…"
+dialogtxt       "Sigh..."
+dialogtxt       "There he goes..."
 code047b        
 code0309        
 code043c        2, 1
@@ -170,24 +170,24 @@ code047d        0, 2
 call            @Func_140c
 call            @Func_1352
 jumpz           @Cond_07f0, ($b003 == 0)
-dialogtxt       "That Is True, But…"
+dialogtxt       "That Is True, But..."
 goto            @Cond_07f0
 
 @Cond_07f0:
 jumpz           @Cond_0826, ($b003 == 1)
-dialogtxt       "That may be true, but…"
+dialogtxt       "That may be true, but..."
 goto            @Cond_0826
 
 @Cond_0826:
 jumpz           @Cond_085c, ($b003 == 2)
-dialogtxt       "… Tsk!"
+dialogtxt       "... Tsk!"
 dialogtxt       "You'd like that, wouldn't you?"
 goto            @Cond_085c
 
 @Cond_085c:
 jumpz           @Cond_089c, ($b003 == 3)
 dialogtxt       "Now that you mention it,"
-dialogtxt       "it might be true. But…"
+dialogtxt       "it might be true. But..."
 goto            @Cond_089c
 
 @Cond_089c:
@@ -252,7 +252,7 @@ code0479        0, 4, 16
 code047d        0, 107
 call            @Func_140c
 call            @Func_1352
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1478
@@ -276,8 +276,8 @@ code0309
 call            @Func_13f4
 code0479        0, 0, 12
 call            @Func_1352
-dialogtxt       "…"
-dialogtxt       "Okay…"
+dialogtxt       "..."
+dialogtxt       "Okay..."
 code0309        
 call            @Func_148e
 call            @Func_1370

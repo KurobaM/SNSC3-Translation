@@ -27,7 +27,7 @@ call            @Func_0e0a
 call            @Func_0d50
 dialogtxt       "No, nothing at all."
 dialogtxt       "Like I thought, they don't seem"
-dialogtxt       "to be inside the workshop…"
+dialogtxt       "to be inside the workshop..."
 code047b        
 code0309        
 call            @Func_0e8c
@@ -41,12 +41,12 @@ code047d        1, 0
 call            @Func_0e20
 call            @Func_0d9e
 jumpz           @Cond_024a, ($b002 == 0)
-dialogtxt       "… Which means they left together?"
+dialogtxt       "... Which means they left together?"
 dialogtxt       "Where to?"
 goto            @Label_0288
 
 @Cond_024a:
-dialogtxt       "… Which means they left together?"
+dialogtxt       "... Which means they left together?"
 dialogtxt       "Where to?"
 goto            @Label_0288
 

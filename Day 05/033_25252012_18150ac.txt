@@ -34,7 +34,7 @@ code0479        1, 2, 16
 call            @Func_0b04
 dialogtxt       "For some reason Tier"
 dialogtxt       "was with her too."
-dialogtxt       "Geez, what is she doing…"
+dialogtxt       "Geez, what is she doing..."
 code0309        
 call            @Func_0ba8
 call            @Func_0b3a
@@ -63,22 +63,22 @@ code047d        0, 2
 call            @Func_0b52
 call            @Func_0a98
 jumpz           @Cond_0314, ($b003 == 0)
-dialogtxt       "Tier…?"
+dialogtxt       "Tier...?"
 goto            @Cond_0314
 
 @Cond_0314:
 jumpz           @Cond_0334, ($b003 == 1)
-dialogtxt       "That girl…"
+dialogtxt       "That girl..."
 goto            @Cond_0334
 
 @Cond_0334:
 jumpz           @Cond_035a, ($b003 == 2)
-dialogtxt       "That human…"
+dialogtxt       "That human..."
 goto            @Cond_035a
 
 @Cond_035a:
 jumpz           @Cond_0380, ($b003 == 3)
-dialogtxt       "That girl is…!?"
+dialogtxt       "That girl is...!?"
 goto            @Cond_0380
 
 @Cond_0380:

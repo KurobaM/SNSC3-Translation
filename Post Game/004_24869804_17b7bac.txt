@@ -454,7 +454,7 @@ code047d        0, 122
 code047e        0, 1
 dialogtxt       "Gallahan's late wife and"
 dialogtxt       "child were slain by a man"
-dialogtxt       "named Voijin…"
+dialogtxt       "named Voijin..."
 code0309        
 code047e        0, 0
 code0302        7

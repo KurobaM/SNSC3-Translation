@@ -13,7 +13,7 @@ call            @Func_0cc2
 code0479        0, 0, 12
 call            @Func_0c20
 choicetxt       @Choice_00e2, "Totally ready!"
-choicetxt       @Choice_0672, "Um, wait a bit longer…"
+choicetxt       @Choice_0672, "Um, wait a bit longer..."
 choicewait      
 
 @Choice_00e2:
@@ -112,7 +112,7 @@ goto            @Cond_0452
 
 @Cond_0452:
 jumpz           @Cond_047c, ($b003 == 2)
-dialogtxt       "Yeah, yeah…"
+dialogtxt       "Yeah, yeah..."
 goto            @Cond_047c
 
 @Cond_047c:

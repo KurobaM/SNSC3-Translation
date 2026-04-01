@@ -14,7 +14,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_1004
 call            @Func_0f82
-dialogtxt       "You're late…"
+dialogtxt       "You're late..."
 dialogtxt       "I got tired of waiting."
 code0309        
 call            @Func_105a
@@ -34,13 +34,13 @@ setvar          $w000, 3
 call            @Func_0fee
 call            @Func_0f16
 jumpz           @Cond_01be, ($b002 == 0)
-dialogtxt       "Ugh…"
-dialogtxt       "Y-You guys!"
+dialogtxt       "Ugh..."
+dialogtxt       "Y—You guys!"
 goto            @Label_01e0
 
 @Cond_01be:
-dialogtxt       "Ugh…"
-dialogtxt       "Y-You guys!"
+dialogtxt       "Ugh..."
+dialogtxt       "Y—You guys!"
 goto            @Label_01e0
 
 @Label_01e0:
@@ -83,7 +83,7 @@ code0309
 call            @Func_0fd6
 code0479        0, 5, 17
 call            @Func_0f34
-dialogtxt       "Wh-Who would!?"
+dialogtxt       "Wh—Who would!?"
 goto            @Label_044a
 
 @Cond_03c2:
@@ -95,7 +95,7 @@ code0309
 call            @Func_0fd6
 code0479        0, 5, 17
 call            @Func_0f34
-dialogtxt       "N-No, you're wrong!"
+dialogtxt       "N—No, you're wrong!"
 goto            @Label_044a
 
 @Label_044a:
@@ -128,25 +128,25 @@ call            @Func_0fee
 call            @Func_0f34
 jumpz           @Cond_0558, ($b003 == 0)
 dialogtxt       "It is True We Were"
-dialogtxt       "Searching For You, But…"
+dialogtxt       "Searching For You, But..."
 goto            @Cond_0558
 
 @Cond_0558:
 jumpz           @Cond_059c, ($b003 == 1)
 dialogtxt       "It's true we were looking"
-dialogtxt       "for you, but…"
+dialogtxt       "for you, but..."
 goto            @Cond_059c
 
 @Cond_059c:
 jumpz           @Cond_05dc, ($b003 == 2)
 dialogtxt       "It's true we were looking"
-dialogtxt       "for you, but…"
+dialogtxt       "for you, but..."
 goto            @Cond_05dc
 
 @Cond_05dc:
 jumpz           @Cond_0622, ($b003 == 3)
 dialogtxt       "It's true we were looking"
-dialogtxt       "for you, but…"
+dialogtxt       "for you, but..."
 goto            @Cond_0622
 
 @Cond_0622:
@@ -194,7 +194,7 @@ call            @Func_0fee
 call            @Func_0f34
 dialogtxt       "If the next guard had simply"
 dialogtxt       "shown up when they were"
-dialogtxt       "supposed to, this wouldn't…"
+dialogtxt       "supposed to, this wouldn't..."
 code0309        
 call            @Func_0f6a
 code0479        1, 3, 15

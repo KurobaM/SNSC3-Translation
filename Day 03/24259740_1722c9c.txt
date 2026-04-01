@@ -1,5 +1,5 @@
 code0301        0, 7
-dialogtxt       "Your firewood chopping level is:…"
+dialogtxt       "Your firewood chopping level is:..."
 code0309        
 jumpz           @Cond_0052, ($h045 < 10)
 dialogtxt       "Chopping novice."

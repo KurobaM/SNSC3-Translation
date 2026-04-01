@@ -89,11 +89,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_042e, ($b002 == 0)
-dialogtxt       "Nothing to do here…"
+dialogtxt       "Nothing to do here..."
 goto            @Label_0454
 
 @Cond_042e:
-dialogtxt       "I shouldn't wander off…"
+dialogtxt       "I shouldn't wander off..."
 goto            @Label_0454
 
 @Label_0454:
@@ -419,7 +419,7 @@ code040b
 
 @Talk_1220:
 code0301        8, 7
-dialogtxt       "… Meow?"
+dialogtxt       "... Meow?"
 code0309        
 code0302        7
 code040b        
@@ -440,7 +440,7 @@ code040b
 code0301        8, 7
 dialogtxt       "Look down"
 code0309        
-dialogtxt       "… And you actually did it."
+dialogtxt       "... And you actually did it."
 code0309        
 code0302        7
 code040b        

@@ -35,7 +35,7 @@ goto            @Label_016c
 code047d        1, 2
 call            @Func_0a7c
 call            @Func_0978
-dialogtxt       "Gallahan's workshop…"
+dialogtxt       "Gallahan's workshop..."
 dialogtxt       "I wish we could use it."
 code047b        
 code0309        
@@ -68,18 +68,18 @@ goto            @Cond_029e
 @Cond_029e:
 jumpz           @Cond_02d8, ($b003 == 1)
 dialogtxt       "I can't sense any"
-dialogtxt       "presence inside…"
+dialogtxt       "presence inside..."
 goto            @Cond_02d8
 
 @Cond_02d8:
 jumpz           @Cond_031c, ($b003 == 2)
 dialogtxt       "I can't sense"
-dialogtxt       "any humans inside…"
+dialogtxt       "any humans inside..."
 goto            @Cond_031c
 
 @Cond_031c:
 jumpz           @Cond_035e, ($b003 == 3)
-dialogtxt       "There's no one inside…"
+dialogtxt       "There's no one inside..."
 dialogtxt       "That's just my intuition though."
 goto            @Cond_035e
 

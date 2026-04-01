@@ -37,28 +37,28 @@ code0309
 call            @Func_1112
 code0479        1, 5, 16
 call            @Func_1148
-dialogtxt       "Oh…"
-dialogtxt       "Why are you apologizing…"
+dialogtxt       "Oh..."
+dialogtxt       "Why are you apologizing..."
 code0309        
 call            @Func_117e
 code0479        0, 2, 12
 call            @Func_10dc
 dialogtxt       "'Cause you saved not only this town!"
 jumpz           @Cond_0306, ($b002 == 0)
-dialogtxt       "… You're the hero of Lyndbaum!"
+dialogtxt       "... You're the hero of Lyndbaum!"
 goto            @Label_032a
 
 @Cond_0306:
 dialogtxt       "'Cause you saved not only this town!"
-dialogtxt       "… You're the heroine of Lyndbaum!"
+dialogtxt       "... You're the heroine of Lyndbaum!"
 goto            @Label_032a
 
 @Label_032a:
-dialogtxt       "… In my eyes."
+dialogtxt       "... In my eyes."
 code0309        
 code0479        1, 5, 14
 code0479        0, 2, 14
-dialogtxt       "And they treat you like this…"
+dialogtxt       "And they treat you like this..."
 dialogtxt       "As someone who lives here,"
 dialogtxt       "I have to apologize for them."
 code0309        
@@ -66,12 +66,12 @@ call            @Func_1112
 code0479        1, 7, 17
 call            @Func_1148
 jumpz           @Cond_0428, ($b002 == 0)
-dialogtxt       "…Bro, you're exaggerating!"
+dialogtxt       "...Bro, you're exaggerating!"
 dialogtxt       "Me!? Saving the world!?"
 goto            @Label_046a
 
 @Cond_0428:
-dialogtxt       "…Bro, you're exaggerating!"
+dialogtxt       "...Bro, you're exaggerating!"
 dialogtxt       "Me!? Saving the world!?"
 goto            @Label_046a
 
@@ -87,7 +87,7 @@ code0309
 call            @Func_1112
 code0479        1, 6, 13
 call            @Func_1148
-dialogtxt       "Ehehe…"
+dialogtxt       "Ehehe..."
 dialogtxt       "You think so?"
 code0309        
 call            @Func_117e
@@ -96,25 +96,25 @@ call            @Func_10dc
 jumpz           @Cond_059a, ($b002 == 0)
 dialogtxt       "Yeah, you're quite the man."
 dialogtxt       "As Rob's apprentice, you were like"
-dialogtxt       "a little bro to me, but now…"
+dialogtxt       "a little bro to me, but now..."
 goto            @Label_05f4
 
 @Cond_059a:
 dialogtxt       "Yeah, you're quite the lady."
 dialogtxt       "As Rob's apprentice, you were like"
-dialogtxt       "a little sis to me, but now…"
+dialogtxt       "a little sis to me, but now..."
 goto            @Label_05f4
 
 @Label_05f4:
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 16
-dialogtxt       "I've got to change the way I see you…"
+dialogtxt       "I've got to change the way I see you..."
 code0309        
 call            @Func_1112
 code0479        1, 0, 16
 call            @Func_1148
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 call            @Func_117e
 code0479        0, 2, 12
@@ -122,20 +122,20 @@ call            @Func_10dc
 jumpz           @Cond_06fa, ($b002 == 0)
 dialogtxt       "I told you, didn't I? You're not"
 dialogtxt       "like a lil bro to me anymore!"
-dialogtxt       "You're a Craftknight…"
+dialogtxt       "You're a Craftknight..."
 goto            @Label_074c
 
 @Cond_06fa:
 dialogtxt       "I told you, didn't I? You're not"
 dialogtxt       "like a lil sis to me anymore!"
-dialogtxt       "You're a Craftknight…"
+dialogtxt       "You're a Craftknight..."
 goto            @Label_074c
 
 @Label_074c:
 code0309        
 code0479        1, 6, 16
 code0479        0, 2, 13
-dialogtxt       "… A very splendid Craftknight!"
+dialogtxt       "... A very splendid Craftknight!"
 dialogtxt       "That's why you don't have to"
 dialogtxt       "call me your \"Bro\" anymore!"
 code0309        
@@ -143,15 +143,15 @@ call            @Func_1112
 code0479        1, 11, 14
 call            @Func_1148
 jumpz           @Cond_0836, ($b002 == 0)
-dialogtxt       "What…But…"
-dialogtxt       "If you're no longer my Bro, then…"
-dialogtxt       "What do I call you now…"
+dialogtxt       "What...But..."
+dialogtxt       "If you're no longer my Bro, then..."
+dialogtxt       "What do I call you now..."
 goto            @Label_0884
 
 @Cond_0836:
-dialogtxt       "What…But…"
-dialogtxt       "If you're no longer my Bro, then…"
-dialogtxt       "What do I call you now…"
+dialogtxt       "What...But..."
+dialogtxt       "If you're no longer my Bro, then..."
+dialogtxt       "What do I call you now..."
 goto            @Label_0884
 
 @Label_0884:
@@ -160,8 +160,8 @@ call            @Func_117e
 code0479        0, 8, 12
 call            @Func_10dc
 dialogtxt       "That's right,"
-dialogtxt       "I'm no longer your \"Bro\"…"
-dialogtxt       "From now on…"
+dialogtxt       "I'm no longer your \"Bro\"..."
+dialogtxt       "From now on..."
 code0309        
 call            @Func_1112
 jumpz           @Cond_092e, ($b002 == 0)
@@ -181,7 +181,7 @@ code0309
 call            @Func_117e
 code0479        0, 2, 13
 call            @Func_10dc
-dialogtxt       "… I'll be your rival!"
+dialogtxt       "... I'll be your rival!"
 code0309        
 call            @Func_1112
 code0479        1, 5, 17
@@ -206,9 +206,9 @@ code0309
 call            @Func_1112
 code0479        1, 5, 12
 call            @Func_1148
-dialogtxt       "Ha…"
-dialogtxt       "Haha…"
-dialogtxt       "Hahaha…"
+dialogtxt       "Ha..."
+dialogtxt       "Haha..."
+dialogtxt       "Hahaha..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "So that's what the fuss is about!"

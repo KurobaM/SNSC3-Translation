@@ -27,12 +27,12 @@ code047d        0, 0
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_01f6, ($b002 == 0)
-dialogtxt       "What just-"
+dialogtxt       "What just—"
 dialogtxt       "Where are we!?"
 goto            @Label_0228
 
 @Cond_01f6:
-dialogtxt       "What just-"
+dialogtxt       "What just—"
 dialogtxt       "Where are we!?"
 goto            @Label_0228
 
@@ -64,30 +64,30 @@ code047d        1, 2
 call            @Func_20ca
 call            @Func_2066
 jumpz           @Cond_0356, ($b003 == 0)
-dialogtxt       "We Have Been Swallowed By The Gate…"
+dialogtxt       "We Have Been Swallowed By The Gate..."
 dialogtxt       "However, There Is Still An Opening."
-dialogtxt       "We Should Be Able to Return…"
+dialogtxt       "We Should Be Able to Return..."
 goto            @Cond_0356
 
 @Cond_0356:
 jumpz           @Cond_03d0, ($b003 == 1)
-dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "We've been swallowed by the gate..."
 dialogtxt       "But there's still an opening."
-dialogtxt       "We should be able to go back…"
+dialogtxt       "We should be able to go back..."
 goto            @Cond_03d0
 
 @Cond_03d0:
 jumpz           @Cond_0440, ($b003 == 2)
-dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "We've been swallowed by the gate..."
 dialogtxt       "But there's still an opening."
-dialogtxt       "We should be able to go back…"
+dialogtxt       "We should be able to go back..."
 goto            @Cond_0440
 
 @Cond_0440:
 jumpz           @Cond_04b8, ($b003 == 3)
-dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "We've been swallowed by the gate..."
 dialogtxt       "But there's still an opening."
-dialogtxt       "We should be able to go back…"
+dialogtxt       "We should be able to go back..."
 goto            @Cond_04b8
 
 @Cond_04b8:
@@ -100,7 +100,7 @@ code043c        0, 4
 code047d        0, 106
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "Hu… man…"
+dialogtxt       "Hu... man..."
 code0309        
 code047e        0, 0
 code0302        0
@@ -123,7 +123,7 @@ code040d        15
 code047d        0, 106
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -159,7 +159,7 @@ call            @Func_20e0
 call            @Func_1fdc
 dialogtxt       "What's that?"
 dialogtxt       "That sword!"
-dialogtxt       "Is that… Velvoren?"
+dialogtxt       "Is that... Velvoren?"
 code047b        
 code0309        
 call            @Func_2030
@@ -191,22 +191,22 @@ goto            @Cond_0862
 
 @Cond_0862:
 jumpz           @Cond_08e0, ($b003 == 1)
-dialogtxt       "His body is already gone…"
-dialogtxt       "The sword is running wild…"
+dialogtxt       "His body is already gone..."
+dialogtxt       "The sword is running wild..."
 dialogtxt       "What a frightening amount of hatred!"
 goto            @Cond_08e0
 
 @Cond_08e0:
 jumpz           @Cond_094a, ($b003 == 2)
-dialogtxt       "His body is already gone…"
+dialogtxt       "His body is already gone..."
 dialogtxt       "The sword's malice has taken form!"
 dialogtxt       "It's the power of hatred and anger!"
 goto            @Cond_094a
 
 @Cond_094a:
 jumpz           @Cond_09c0, ($b003 == 3)
-dialogtxt       "H-His entire body has been"
-dialogtxt       "taken in by the power of the sword…"
+dialogtxt       "H—His entire body has been"
+dialogtxt       "taken in by the power of the sword..."
 dialogtxt       "So much hatred and anger!"
 goto            @Cond_09c0
 
@@ -216,15 +216,15 @@ call            @Func_209c
 code0479        0, 2, 16
 call            @Func_1ffa
 jumpz           @Cond_0a42, ($b002 == 0)
-dialogtxt       "Wh-What's this feeling!?"
-dialogtxt       "Shit, my entire body's gone cold…"
-dialogtxt       "What should I-"
+dialogtxt       "Wh—What's this feeling!?"
+dialogtxt       "Shit, my entire body's gone cold..."
+dialogtxt       "What should I—"
 goto            @Label_0a96
 
 @Cond_0a42:
-dialogtxt       "Wh-What's this feeling!?"
-dialogtxt       "Uu, my entire body's gone cold…"
-dialogtxt       "What should I-"
+dialogtxt       "Wh—What's this feeling!?"
+dialogtxt       "Uu, my entire body's gone cold..."
+dialogtxt       "What should I—"
 goto            @Label_0a96
 
 @Label_0a96:
@@ -243,7 +243,7 @@ code040d        15
 code047d        0, 112
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Humans…"
+dialogtxt       "Humans..."
 dialogtxt       "Kill!"
 code0309        
 code047e        0, 0
@@ -262,14 +262,14 @@ code047d        0, 0
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_0c10, ($b002 == 0)
-dialogtxt       "Ku…"
-dialogtxt       "I-I…"
+dialogtxt       "Ku..."
+dialogtxt       "I—I..."
 dialogtxt       "[NAME 1]!"
 goto            @Label_0c38
 
 @Cond_0c10:
-dialogtxt       "Uu…"
-dialogtxt       "I-I…"
+dialogtxt       "Uu..."
+dialogtxt       "I—I..."
 dialogtxt       "[NAME 1]!"
 goto            @Label_0c38
 
@@ -350,16 +350,16 @@ goto            @Cond_0f70
 
 @Cond_0f70:
 jumpz           @Cond_0fd6, ($b003 == 1)
-dialogtxt       "What's this…"
+dialogtxt       "What's this..."
 dialogtxt       "You're scared?"
 dialogtxt       "Strange things do happen."
 goto            @Cond_0fd6
 
 @Cond_0fd6:
 jumpz           @Cond_101c, ($b003 == 2)
-dialogtxt       "Fu…"
+dialogtxt       "Fu..."
 dialogtxt       "Getting all scared."
-dialogtxt       "How pathetic…"
+dialogtxt       "How pathetic..."
 goto            @Cond_101c
 
 @Cond_101c:
@@ -376,7 +376,7 @@ call            @Func_209c
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_1ffa
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_2030
 jumpz           @Cond_10e6, ($b003 == 0)
@@ -417,7 +417,7 @@ dialogtxt       "hasn't been one we cannot defeat."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "This time is no different!"
-dialogtxt       "I swear upon this topknot…"
+dialogtxt       "I swear upon this topknot..."
 dialogtxt       "Together, we can win!"
 goto            @Cond_12e0
 
@@ -429,7 +429,7 @@ dialogtxt       "There's no reason to be afraid!"
 code0309        
 code0479        1, 3, 13
 dialogtxt       "This is no different!"
-dialogtxt       "You and I…"
+dialogtxt       "You and I..."
 dialogtxt       "Are unbeatable!"
 goto            @Cond_13a8
 
@@ -450,24 +450,24 @@ call            @Func_209c
 code0479        0, 5, 12
 call            @Func_1ffa
 jumpz           @Cond_151c, ($b002 == 0)
-dialogtxt       "Ha…"
-dialogtxt       "Haha…"
-dialogtxt       "I see…"
+dialogtxt       "Ha..."
+dialogtxt       "Haha..."
+dialogtxt       "I see..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "You're right…"
-dialogtxt       "You and I…"
+dialogtxt       "You're right..."
+dialogtxt       "You and I..."
 dialogtxt       "Together, we can win!"
 goto            @Label_1596
 
 @Cond_151c:
-dialogtxt       "Ha…"
-dialogtxt       "Ahaha…"
-dialogtxt       "I see…"
+dialogtxt       "Ha..."
+dialogtxt       "Ahaha..."
+dialogtxt       "I see..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "You're right…"
-dialogtxt       "You and I…"
+dialogtxt       "You're right..."
+dialogtxt       "You and I..."
 dialogtxt       "Together, we can win!"
 goto            @Label_1596
 
@@ -481,7 +481,7 @@ code048c
 code047d        0, 112
 code0301        8, 3
 code047e        0, 1
-dialogtxt       "I won't forgive you…!"
+dialogtxt       "I won't forgive you...!"
 dialogtxt       "H・u・m・a・n!"
 code0309        
 code047e        0, 0

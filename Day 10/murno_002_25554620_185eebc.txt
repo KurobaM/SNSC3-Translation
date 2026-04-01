@@ -34,7 +34,7 @@ call            @Func_07b4
 code0479        1, 0, 16
 call            @Func_07ea
 dialogtxt       "It looks like you've"
-dialogtxt       "brought more than one…"
+dialogtxt       "brought more than one..."
 code0309        
 call            @Func_0820
 code0479        0, 5, 16

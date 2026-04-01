@@ -459,7 +459,7 @@ code047d        0, 118
 code047e        0, 1
 dialogtxt       "Seems like the gatekeeper at"
 dialogtxt       "the west gate is injured."
-dialogtxt       "I have to be careful too…"
+dialogtxt       "I have to be careful too..."
 code0309        
 code047e        0, 0
 code0302        7

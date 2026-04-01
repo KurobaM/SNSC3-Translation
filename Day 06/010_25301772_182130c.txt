@@ -13,7 +13,7 @@ code0309
 call            @Func_0a82
 code0479        1, 0, 14
 call            @Func_0ab8
-dialogtxt       "Mm…"
+dialogtxt       "Mm..."
 code0309        
 call            @Func_0b88
 call            @Func_0ad6
@@ -114,7 +114,7 @@ call            @Func_0b1c
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0b88

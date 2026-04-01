@@ -20,7 +20,7 @@ code047d        1, 2
 call            @Func_0b9a
 call            @Func_0a96
 dialogtxt       "Um, if I remember correctly,"
-dialogtxt       "the Gold Faction is…"
+dialogtxt       "the Gold Faction is..."
 code047b        
 code0309        
 call            @Func_0aea
@@ -47,7 +47,7 @@ call            @Func_0b20
 jumpz           @Cond_0252, ($b003 == 0)
 dialogtxt       "Downtown, Past The"
 dialogtxt       "Turn At the Dead End."
-dialogtxt       "… Is What Jade Said."
+dialogtxt       "... Is What Jade Said."
 code0309        
 dialogtxt       "Based On That,"
 dialogtxt       "I Believe It Is That Way."
@@ -56,15 +56,15 @@ goto            @Cond_0252
 @Cond_0252:
 jumpz           @Cond_02b0, ($b003 == 1)
 dialogtxt       "Past the bend in the"
-dialogtxt       "street at the dead end…"
+dialogtxt       "street at the dead end..."
 dialogtxt       "That way."
 goto            @Cond_02b0
 
 @Cond_02b0:
 jumpz           @Cond_02f6, ($b003 == 2)
-dialogtxt       "… Tsk!"
+dialogtxt       "... Tsk!"
 dialogtxt       "Over there."
-dialogtxt       "You have terrible memory…"
+dialogtxt       "You have terrible memory..."
 goto            @Cond_02f6
 
 @Cond_02f6:
@@ -102,11 +102,11 @@ code047d        1, 0
 call            @Func_0b84
 call            @Func_0b02
 jumpz           @Cond_04c8, ($b002 == 0)
-dialogtxt       "Right right…"
+dialogtxt       "Right right..."
 goto            @Label_04e4
 
 @Cond_04c8:
-dialogtxt       "Right right…"
+dialogtxt       "Right right..."
 goto            @Label_04e4
 
 @Label_04e4:

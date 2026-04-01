@@ -9,8 +9,8 @@ code0479        0, 0, 14
 code047d        0, 120
 call            @Func_203a
 call            @Func_1f62
-dialogtxt       "Dammit…"
-dialogtxt       "They're too strong…"
+dialogtxt       "Dammit..."
+dialogtxt       "They're too strong..."
 code047b        
 code0309        
 call            @Func_1fb6
@@ -19,8 +19,8 @@ code0479        1, 4, 14
 code047d        1, 134
 call            @Func_2050
 call            @Func_1fec
-dialogtxt       "Haa…"
-dialogtxt       "You're so useless…"
+dialogtxt       "Haa..."
+dialogtxt       "You're so useless..."
 code047b        
 code0309        
 call            @Func_20a6
@@ -81,7 +81,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_203a
 call            @Func_1f62
-dialogtxt       "Gh…!?"
+dialogtxt       "Gh...!?"
 code047b        
 code0309        
 call            @Func_2090
@@ -190,13 +190,13 @@ call            @Func_1fec
 jumpz           @Cond_0882, ($b002 == 0)
 dialogtxt       "You, Summon Beast, quiet down."
 dialogtxt       "If you don't,"
-dialogtxt       "the boy's neck will…"
+dialogtxt       "the boy's neck will..."
 goto            @Label_08dc
 
 @Cond_0882:
 dialogtxt       "You, Summon Beast, quiet down."
 dialogtxt       "If you don't,"
-dialogtxt       "the girl's neck will…"
+dialogtxt       "the girl's neck will..."
 goto            @Label_08dc
 
 @Label_08dc:
@@ -245,9 +245,9 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_2050
 call            @Func_1fec
-dialogtxt       "Right… I'll trade their"
-dialogtxt       "lives for the Demon Stone…"
-dialogtxt       "… How's that sound?"
+dialogtxt       "Right... I'll trade their"
+dialogtxt       "lives for the Demon Stone..."
+dialogtxt       "... How's that sound?"
 code047b        
 code0309        
 call            @Func_20bc
@@ -287,7 +287,7 @@ code047d        1, 116
 call            @Func_2050
 call            @Func_1fce
 dialogtxt       "Hey."
-dialogtxt       "What was that…"
+dialogtxt       "What was that..."
 code047b        
 code0309        
 call            @Func_20a6
@@ -319,12 +319,12 @@ code0479        0, 2, 14
 call            @Func_203a
 call            @Func_1f62
 jumpz           @Cond_0dc2, ($b002 == 0)
-dialogtxt       "O-Ow…"
+dialogtxt       "O—Ow..."
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 
 @Cond_0dc2:
-dialogtxt       "O-Ow…"
+dialogtxt       "O—Ow..."
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 
@@ -334,8 +334,8 @@ call            @Func_1fb6
 code0479        1, 5, 13
 call            @Func_2050
 call            @Func_1fec
-dialogtxt       "You just…"
-dialogtxt       "Said I was disgusting…"
+dialogtxt       "You just..."
+dialogtxt       "Said I was disgusting..."
 code0309        
 call            @Func_20bc
 call            @Func_200a
@@ -386,8 +386,8 @@ code0479        1, 2, 12
 code047d        1, 116
 call            @Func_2050
 call            @Func_1fce
-dialogtxt       "This kid…"
-dialogtxt       "Needs to be punished…"
+dialogtxt       "This kid..."
+dialogtxt       "Needs to be punished..."
 code047b        
 code0309        
 call            @Func_2022
@@ -396,7 +396,7 @@ code0479        0, 2, 12
 code047d        0, 134
 call            @Func_203a
 call            @Func_1f80
-dialogtxt       "Fu…"
+dialogtxt       "Fu..."
 dialogtxt       "Fine."
 dialogtxt       "Do as you like."
 code047b        
@@ -428,9 +428,9 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_2066
 call            @Func_1fce
-dialogtxt       "Kukuku…"
+dialogtxt       "Kukuku..."
 dialogtxt       "Prepare yourself."
-dialogtxt       "I'm going give you loots of love…"
+dialogtxt       "I'm going give you loots of love..."
 code047b        
 code0309        
 call            @Func_2022

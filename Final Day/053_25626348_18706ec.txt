@@ -38,8 +38,8 @@ code047d        1, 2
 call            @Func_0d2c
 call            @Func_0caa
 jumpz           @Cond_021e, ($b003 == 0)
-dialogtxt       "…"
-dialogtxt       "Waves Are Increasing In Strength…"
+dialogtxt       "..."
+dialogtxt       "Waves Are Increasing In Strength..."
 dialogtxt       "Increasing Protection."
 code047b        
 code0309        
@@ -49,38 +49,38 @@ goto            @Cond_021e
 
 @Cond_021e:
 jumpz           @Cond_02ca, ($b003 == 1)
-dialogtxt       "Mmm…"
-dialogtxt       "The air itself is so oppressive…"
-dialogtxt       "As I expected…"
+dialogtxt       "Mmm..."
+dialogtxt       "The air itself is so oppressive..."
+dialogtxt       "As I expected..."
 code047b        
 code0309        
 code0479        1, 4, 14
 dialogtxt       "We must be getting"
-dialogtxt       "closer to the ruins…"
+dialogtxt       "closer to the ruins..."
 goto            @Cond_02ca
 
 @Cond_02ca:
 jumpz           @Cond_0368, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "It feels disgusting here…"
-dialogtxt       "How annoying…"
+dialogtxt       "Tch..."
+dialogtxt       "It feels disgusting here..."
+dialogtxt       "How annoying..."
 code047b        
 code0309        
 code0479        1, 4, 16
 dialogtxt       "We must be getting"
-dialogtxt       "closer to the ruins…"
+dialogtxt       "closer to the ruins..."
 goto            @Cond_0368
 
 @Cond_0368:
 jumpz           @Cond_0406, ($b003 == 3)
-dialogtxt       "Uu…"
-dialogtxt       "This place is very unsettling…"
-dialogtxt       "We're almost there…"
+dialogtxt       "Uu..."
+dialogtxt       "This place is very unsettling..."
+dialogtxt       "We're almost there..."
 code047b        
 code0309        
 code0479        1, 4, 16
 dialogtxt       "I'm certain we are"
-dialogtxt       "approaching the ruins…"
+dialogtxt       "approaching the ruins..."
 goto            @Cond_0406
 
 @Cond_0406:
@@ -149,7 +149,7 @@ goto            @Label_05ce
 call            @Func_0d2c
 call            @Func_0caa
 jumpz           @Cond_05fa, ($b003 == 0)
-dialogtxt       "It Is Your Decision…"
+dialogtxt       "It Is Your Decision..."
 goto            @Cond_05fa
 
 @Cond_05fa:

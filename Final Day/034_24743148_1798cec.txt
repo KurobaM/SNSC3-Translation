@@ -319,7 +319,7 @@ code047d        0, 125
 code047e        0, 1
 dialogtxt       "The forest beyond Spoat Grotto"
 dialogtxt       "is dark, and you'll get lost"
-dialogtxt       "easily if you're not careful…"
+dialogtxt       "easily if you're not careful..."
 code0309        
 dialogtxt       "Prices skyrocket high in places"
 dialogtxt       "where people don't frequent often"
