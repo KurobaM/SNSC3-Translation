@@ -111,37 +111,7 @@ code0479        0, 2, 15
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-strlen          280, "γ"
-jumpz           @Cond_0674, ($h216 == 1)
-dialogbig       80, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Cond_0674:
-jumpz           @Cond_06b0, ($h216 == 2)
-dialogbig       66, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Cond_06b0:
-jumpz           @Cond_06ec, ($h216 == 3)
-dialogbig       56, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Cond_06ec:
-jumpz           @Cond_0728, ($h216 == 4)
-dialogbig       48, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Cond_0728:
-jumpz           @Cond_0764, ($h216 == 5)
-dialogbig       36, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Cond_0764:
-jumpz           @Label_07a0, ($h216 == 6)
-dialogbig       24, 116, 1, 0, 0, "[NAME 1]!!!"
-goto            @Label_07a0
-
-@Label_07a0:
+dialogbig       255, 116, 1, 0, 0, "[NAME 1]!!!"
 code047b        
 code030c        
 call            @Func_62f8
