@@ -404,7 +404,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Just between you and me, I heard"
 dialogtxt       "there's something weird lurking"
-dialogtxt       "far beneath the ruins…"
+dialogtxt       "far beneath the ruins..."
 code0309        
 dialogtxt       "Well, if you want some thrill in"
 dialogtxt       "your life, why not give it a shot?"

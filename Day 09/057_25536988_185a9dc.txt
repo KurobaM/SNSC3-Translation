@@ -15,7 +15,7 @@ code0482
 code047d        0, 107
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -45,7 +45,7 @@ code0479        1, 0, 16
 code047d        1, 107
 call            @Func_154c
 call            @Func_14b4
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 call            @Func_1508
@@ -81,9 +81,9 @@ code0309
 call            @Func_149c
 code0479        1, 0, 12
 call            @Func_14d2
-dialogtxt       "Yes… Thank you…"
+dialogtxt       "Yes... Thank you..."
 dialogtxt       "This is also thanks to [NAME 2]"
-dialogtxt       "and everyone's effort…"
+dialogtxt       "and everyone's effort..."
 code0309        
 call            @Func_1508
 code0479        0, 0, 15
@@ -108,13 +108,13 @@ code0309
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "But…"
+dialogtxt       "But..."
 dialogtxt       "That's really the only "
-dialogtxt       "thing that's left to do…"
+dialogtxt       "thing that's left to do..."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "I don't want to get you involved"
-dialogtxt       "more than I have to, [NAME 2]…"
+dialogtxt       "more than I have to, [NAME 2]..."
 code0309        
 call            @Func_1508
 code0479        0, 2, 12
@@ -137,21 +137,21 @@ call            @Func_149c
 code0479        1, 5, 17
 call            @Func_14d2
 dialogtxt       "I wouldn't tell you not to go."
-dialogtxt       "[NAME 2]…"
-dialogtxt       "Thank you…"
+dialogtxt       "[NAME 2]..."
+dialogtxt       "Thank you..."
 code0309        
 call            @Func_1508
 code0479        1, 0, 12
 code0479        0, 0, 16
 call            @Func_1466
 jumpz           @Cond_07ac, ($b002 == 0)
-dialogtxt       "Still… Ever since we met,"
+dialogtxt       "Still... Ever since we met,"
 dialogtxt       "It's been quite a ride."
 dialogtxt       "Everything went by so fast."
 goto            @Label_0804
 
 @Cond_07ac:
-dialogtxt       "Still… Ever since we met,"
+dialogtxt       "Still... Ever since we met,"
 dialogtxt       "It's been quite a ride."
 dialogtxt       "Everything went by so fast."
 goto            @Label_0804
@@ -195,7 +195,7 @@ code0479        1, 0, 13
 call            @Func_14d2
 dialogtxt       "Really? Truth is,"
 dialogtxt       "there's something I want to do"
-dialogtxt       "with you too, [NAME 2]…"
+dialogtxt       "with you too, [NAME 2]..."
 code0309        
 call            @Func_1508
 code0479        0, 5, 16
@@ -206,9 +206,9 @@ code0309
 call            @Func_149c
 code0479        1, 2, 16
 call            @Func_14d2
-dialogtxt       "Um…"
-dialogtxt       "I……"
-dialogtxt       "Well………"
+dialogtxt       "Um..."
+dialogtxt       "I......"
+dialogtxt       "Well........."
 code0309        
 code0479        1, 6, 12
 dialogtxt       "I want to craft a weapon"
@@ -219,23 +219,23 @@ code0479        0, 5, 15
 call            @Func_1466
 jumpz           @Cond_0b92, ($b002 == 0)
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque-"
-dialogtxt       "… Hey, wait."
+dialogtxt       "That's an easy reque—"
+dialogtxt       "... Hey, wait."
 goto            @Label_0be0
 
 @Cond_0b92:
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque-"
-dialogtxt       "… Hey, wait."
+dialogtxt       "That's an easy reque—"
+dialogtxt       "... Hey, wait."
 goto            @Label_0be0
 
 @Label_0be0:
 code0309        
 code0479        1, 4, 14
 code0479        0, 2, 14
-dialogtxt       "but it's pretty dangerous…"
-dialogtxt       "I wonder if you can do it…"
-dialogtxt       "If you get hurt…"
+dialogtxt       "but it's pretty dangerous..."
+dialogtxt       "I wonder if you can do it..."
+dialogtxt       "If you get hurt..."
 code0309        
 call            @Func_149c
 code0479        1, 4, 15
@@ -250,15 +250,15 @@ code0309
 call            @Func_1508
 code0479        0, 4, 12
 call            @Func_1466
-dialogtxt       "Hmmm…"
-dialogtxt       "I wonder…"
+dialogtxt       "Hmmm..."
+dialogtxt       "I wonder..."
 code0309        
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "Is that… a no?"
-dialogtxt       "…"
-dialogtxt       "You meanie…"
+dialogtxt       "Is that... a no?"
+dialogtxt       "..."
+dialogtxt       "You meanie..."
 code0309        
 call            @Func_1508
 code0479        0, 0, 13

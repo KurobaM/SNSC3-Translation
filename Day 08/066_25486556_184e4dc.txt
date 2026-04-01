@@ -46,32 +46,32 @@ call            @Func_1092
 call            @Func_0ffa
 dialogtxt       "Sorry about today."
 dialogtxt       "Looks like I dealt you a bad hand."
-dialogtxt       "All because of Jade…"
+dialogtxt       "All because of Jade..."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "He said they wouldn't go"
-dialogtxt       "to Surange Mine…"
+dialogtxt       "to Surange Mine..."
 code0309        
 call            @Func_1036
 code0479        0, 4, 13
 call            @Func_0fac
 dialogtxt       "Now, now, Master."
-dialogtxt       "Calm down…"
+dialogtxt       "Calm down..."
 code0309        
 call            @Func_0fe2
 code0479        1, 2, 17
 call            @Func_1018
-dialogtxt       "And Anise and her people…"
+dialogtxt       "And Anise and her people..."
 dialogtxt       "Have put my [NAME 2] through"
-dialogtxt       "terrible things…"
+dialogtxt       "terrible things..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "I won't ever forgive them…"
+dialogtxt       "I won't ever forgive them..."
 code0309        
 call            @Func_104e
 code0479        0, 0, 16
 call            @Func_0fac
-dialogtxt       "Isn't that considered revenge…?"
+dialogtxt       "Isn't that considered revenge...?"
 code0309        
 call            @Func_0fe2
 code0479        1, 2, 12
@@ -83,11 +83,11 @@ code0309
 call            @Func_104e
 code0479        0, 1, 14
 call            @Func_0fac
-dialogtxt       "That's not helpful at all…"
+dialogtxt       "That's not helpful at all..."
 code0309        
 code0479        1, 0, 14
 code0479        0, 0, 16
-dialogtxt       "That reminds me, um…"
+dialogtxt       "That reminds me, um..."
 dialogtxt       "When Rob was, well, done in,"
 dialogtxt       "he was there alone, right, Master?"
 code0309        
@@ -102,27 +102,27 @@ code0479        1, 0, 14
 code0479        0, 2, 14
 dialogtxt       "He was worried about rumor of"
 dialogtxt       "suspicious people around Prosban."
-dialogtxt       "So he went out alone…"
+dialogtxt       "So he went out alone..."
 code0309        
 code0479        1, 4, 14
 dialogtxt       "Bostaph came across the scene."
 dialogtxt       "Covered with wounds, all he could"
-dialogtxt       "bring back was a momento of Rob…"
+dialogtxt       "bring back was a momento of Rob..."
 code0309        
 code0479        1, 4, 16
-dialogtxt       "It was the guitar pick I gave him…"
+dialogtxt       "It was the guitar pick I gave him..."
 code0309        
 call            @Func_104e
 code0479        0, 2, 16
 call            @Func_0fac
-dialogtxt       "And, um…"
+dialogtxt       "And, um..."
 dialogtxt       "Have you ever met"
 dialogtxt       "a person named Voijin?"
 code0309        
 call            @Func_0fe2
 code0479        1, 0, 14
 call            @Func_1018
-dialogtxt       "Voijin… Ummm, I feel like I've…"
+dialogtxt       "Voijin... Ummm, I feel like I've..."
 dialogtxt       "Hey, isn't that the guy"
 dialogtxt       "you brought up in the meeting?"
 code0309        
@@ -135,13 +135,13 @@ call            @Func_104e
 code0479        0, 4, 12
 call            @Func_0fac
 jumpz           @Cond_08d2, ($b002 == 0)
-dialogtxt       "I see… Of course…"
-dialogtxt       "That's fine then…"
+dialogtxt       "I see... Of course..."
+dialogtxt       "That's fine then..."
 goto            @Label_0900
 
 @Cond_08d2:
-dialogtxt       "I see… Of course…"
-dialogtxt       "That's fine then…"
+dialogtxt       "I see... Of course..."
+dialogtxt       "That's fine then..."
 goto            @Label_0900
 
 @Label_0900:
@@ -163,8 +163,8 @@ code0309
 call            @Func_0fe2
 code0479        1, 4, 14
 call            @Func_1018
-dialogtxt       "What's with that…?"
-dialogtxt       "Seriously, you…"
+dialogtxt       "What's with that...?"
+dialogtxt       "Seriously, you..."
 code0309        
 call            @Func_10e8
 call            @Func_1036

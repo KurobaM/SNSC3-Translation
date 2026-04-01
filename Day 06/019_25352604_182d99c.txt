@@ -64,13 +64,13 @@ code047d        1, 0
 call            @Func_092a
 call            @Func_08c6
 jumpz           @Cond_0254, ($b002 == 0)
-dialogtxt       "There's someone there…"
-dialogtxt       "Can't go this way…"
+dialogtxt       "There's someone there..."
+dialogtxt       "Can't go this way..."
 goto            @Label_027c
 
 @Cond_0254:
-dialogtxt       "There's someone there…"
-dialogtxt       "Can't go this way…"
+dialogtxt       "There's someone there..."
+dialogtxt       "Can't go this way..."
 goto            @Label_027c
 
 @Label_027c:

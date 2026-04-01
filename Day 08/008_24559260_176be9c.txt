@@ -117,13 +117,13 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_05f8, ($b002 == 0)
 dialogtxt       "I shouldn't wander around while"
-dialogtxt       "Murno is still in danger…"
+dialogtxt       "Murno is still in danger..."
 dialogtxt       "Let's head to the workshop."
 goto            @Label_065a
 
 @Cond_05f8:
 dialogtxt       "I shouldn't wander around while"
-dialogtxt       "Murno is still in danger…"
+dialogtxt       "Murno is still in danger..."
 dialogtxt       "Let's head to the workshop."
 goto            @Label_065a
 
@@ -404,7 +404,7 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "The usual gatekeeper caught a cold."
-dialogtxt       "Now I have to take his place…"
+dialogtxt       "Now I have to take his place..."
 dialogtxt       "What a pain."
 code0309        
 dialogtxt       "Just ahead is a really scary Stray"

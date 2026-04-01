@@ -59,7 +59,7 @@ setvar          $f0133, 1
 call            @Func_0ee4
 code0479        1, 0, 14
 call            @Func_0f1a
-dialogtxt       "Then, let us begin…"
+dialogtxt       "Then, let us begin..."
 code0309        
 call            @Func_0fea
 call            @Func_0f38
@@ -101,7 +101,7 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_0f68
 call            @Func_0e90
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 call            @Func_0ee4
@@ -139,12 +139,12 @@ goto            @Cond_0560
 jumpz           @Cond_05c2, ($b003 == 1)
 dialogtxt       "Be at ease, Murno. I would "
 dialogtxt       "bet this topknot on the outcome."
-dialogtxt       "Believe in them…"
+dialogtxt       "Believe in them..."
 goto            @Cond_05c2
 
 @Cond_05c2:
 jumpz           @Cond_0628, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "If you look that worried,"
 dialogtxt       "[NAME 2] might get anxious too."
 goto            @Cond_0628
@@ -162,10 +162,10 @@ call            @Func_0f50
 code043c        2, 4
 code0479        0, 5, 16
 call            @Func_0eae
-dialogtxt       "Ah, I'm sorry, [NAME 1]…"
+dialogtxt       "Ah, I'm sorry, [NAME 1]..."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I believe in [NAME 2] too."
 code0309        
 call            @Func_0fea
@@ -186,7 +186,7 @@ call            @Func_0f94
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 code047e        0, 0
 code047e        1, 0
@@ -198,8 +198,8 @@ code0479        1, 0, 14
 code047d        1, 136
 call            @Func_0f7e
 call            @Func_0efc
-dialogtxt       "Alright…"
-dialogtxt       "Well then…"
+dialogtxt       "Alright..."
+dialogtxt       "Well then..."
 code0309        
 code0479        1, 2, 15
 dialogbig       60, 116, 1, 0, 0, "Begin!"
@@ -215,7 +215,7 @@ goto            @Label_090a
 call            @Func_0ee4
 call            @Func_0f1a
 code0479        1, 0, 12
-dialogtxt       "Alright…"
+dialogtxt       "Alright..."
 dialogtxt       "Whenever you're ready,"
 dialogtxt       "let me know."
 code0309        

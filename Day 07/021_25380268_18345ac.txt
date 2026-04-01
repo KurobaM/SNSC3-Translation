@@ -43,23 +43,23 @@ goto            @Cond_01ca
 
 @Cond_01ca:
 jumpz           @Cond_0202, ($b003 == 1)
-dialogtxt       "Mmm…"
+dialogtxt       "Mmm..."
 dialogtxt       "That unpleasant aura"
-dialogtxt       "has grown stronger…"
+dialogtxt       "has grown stronger..."
 goto            @Cond_0202
 
 @Cond_0202:
 jumpz           @Cond_024e, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "That unpleasant feeling"
 dialogtxt       "is stronger here."
 goto            @Cond_024e
 
 @Cond_024e:
 jumpz           @Cond_029a, ($b003 == 3)
-dialogtxt       "Uu…"
+dialogtxt       "Uu..."
 dialogtxt       "For some reason, this room gives"
-dialogtxt       "off an unpleasant feeling…"
+dialogtxt       "off an unpleasant feeling..."
 goto            @Cond_029a
 
 @Cond_029a:
@@ -84,7 +84,7 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_1354
 call            @Func_12d2
-dialogtxt       "Huh…"
+dialogtxt       "Huh..."
 dialogtxt       "There they are."
 code047b        
 code0309        
@@ -97,7 +97,7 @@ code048c
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grr…"
+dialogtxt       "Grr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -107,13 +107,13 @@ code047d        1, 0
 call            @Func_1354
 call            @Func_12d2
 jumpz           @Cond_04ba, ($b002 == 0)
-dialogtxt       "So this is Magdrad…"
-dialogtxt       "Amazing…"
+dialogtxt       "So this is Magdrad..."
+dialogtxt       "Amazing..."
 goto            @Label_04ea
 
 @Cond_04ba:
-dialogtxt       "So this is Magdrad…"
-dialogtxt       "Amazing…"
+dialogtxt       "So this is Magdrad..."
+dialogtxt       "Amazing..."
 goto            @Label_04ea
 
 @Label_04ea:
@@ -195,7 +195,7 @@ code0479        0, 0, 13
 call            @Func_133e
 call            @Func_1266
 dialogtxt       "It's okay. It looks scary,"
-dialogtxt       "but this one is docile…"
+dialogtxt       "but this one is docile..."
 code047b        
 code0309        
 call            @Func_12ba
@@ -205,7 +205,7 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_1354
 call            @Func_12f0
-dialogtxt       "Really…?"
+dialogtxt       "Really...?"
 code047b        
 code0309        
 call            @Func_1394
@@ -288,7 +288,7 @@ goto            @Cond_0ba4
 
 @Cond_0ba4:
 jumpz           @Cond_0c32, ($b003 == 3)
-dialogtxt       "Th-That's right!"
+dialogtxt       "Th—That's right!"
 dialogtxt       "We aren't afraid!"
 code047b        
 code0309        

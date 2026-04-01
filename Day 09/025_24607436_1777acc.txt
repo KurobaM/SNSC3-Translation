@@ -159,11 +159,11 @@ code040b
 code0301        8, 7
 code047d        0, 113
 code047e        0, 1
-dialogtxt       "So you defeated Red Wing…"
+dialogtxt       "So you defeated Red Wing..."
 dialogtxt       "Impressive!"
 code0309        
 dialogtxt       "That must be why my daughter"
-dialogtxt       "fell for you…"
+dialogtxt       "fell for you..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -173,7 +173,7 @@ code040b
 code0301        8, 7
 dialogtxt       "A lady's secret lies beyond here◎"
 dialogtxt       "NO TRESPASSING!!!"
-dialogtxt       "　　　　　　　　　　　-Tier"
+dialogtxt       "　　　　　　　　　　　—Tier"
 code0309        
 code0302        7
 code040b        
@@ -383,7 +383,7 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "The girl here isn't reliable…"
+dialogtxt       "The girl here isn't reliable..."
 code0309        
 code047e        0, 0
 code0302        7

@@ -46,12 +46,12 @@ code047d        1, 2
 call            @Func_0f22
 call            @Func_0e1e
 jumpz           @Cond_0238, ($b002 == 0)
-dialogtxt       "Looks like Gramps isn't here…"
+dialogtxt       "Looks like Gramps isn't here..."
 dialogtxt       "I'll be borrowing his workshop."
 goto            @Label_0276
 
 @Cond_0238:
-dialogtxt       "Looks like Gallahan isn't here…"
+dialogtxt       "Looks like Gallahan isn't here..."
 dialogtxt       "I'll be borrowing his workshop."
 goto            @Label_0276
 
@@ -130,7 +130,7 @@ code0309
 call            @Func_0e72
 code0479        1, 2, 14
 call            @Func_0ea8
-dialogtxt       "That is true, however…"
+dialogtxt       "That is true, however..."
 dialogtxt       "You shouldn't think that way."
 goto            @Cond_059a
 
@@ -165,7 +165,7 @@ goto            @Cond_06c6
 
 @Cond_06c6:
 jumpz           @Cond_085e, ($b003 == 3)
-dialogtxt       "W-Without permission?"
+dialogtxt       "W—Without permission?"
 code0309        
 call            @Func_0ede
 code0479        0, 0, 14

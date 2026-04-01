@@ -140,8 +140,8 @@ jumpz           @Cond_053e, ($bv029 == 2)
 code0479        0, 4, 16
 code0479        1, 4, 13
 call            @Func_1fa2
-dialogtxt       "Hey, hey…"
-dialogtxt       "I'm not accepting that…"
+dialogtxt       "Hey, hey..."
+dialogtxt       "I'm not accepting that..."
 dialogtxt       "Give the order a once-over, kid."
 code0309        
 goto            @Label_073e
@@ -168,7 +168,7 @@ code0479        0, 0, 16
 code0479        1, 0, 12
 call            @Func_203a
 call            @Func_1f36
-dialogtxt       "Well, that was weird…"
+dialogtxt       "Well, that was weird..."
 code047b        
 code0309        
 call            @Func_1f8a
@@ -179,7 +179,7 @@ code0309
 call            @Func_1ff6
 code0479        0, 1, 14
 call            @Func_1f54
-dialogtxt       "O-Oh, it's nothing!"
+dialogtxt       "O—Oh, it's nothing!"
 code0309        
 call            @Func_1f8a
 code0479        0, 0, 12
@@ -251,24 +251,24 @@ code0479        1, 0, 16
 call            @Func_1fc0
 dialogtxt       "Someone I know requested an order"
 dialogtxt       "for me, and I wanted Lemmy to"
-dialogtxt       "help me and all, but…"
+dialogtxt       "help me and all, but..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 4, 12
-dialogtxt       "But Lemmy's busy, and I'm at…"
+dialogtxt       "But Lemmy's busy, and I'm at..."
 dialogtxt       "at a loss, so I thought maybe"
-dialogtxt       "you can take over for him…"
+dialogtxt       "you can take over for him..."
 code0309        
 call            @Func_1ff6
 code0479        0, 2, 14
 call            @Func_1f54
 jumpz           @Cond_0a4c, ($b002 == 0)
-dialogtxt       "Lemmy this, Lemmy that…"
+dialogtxt       "Lemmy this, Lemmy that..."
 dialogtxt       "Why do you want me, then!?"
 goto            @Label_0a74
 
 @Cond_0a4c:
-dialogtxt       "Gosh, what's with you…"
+dialogtxt       "Gosh, what's with you..."
 dialogtxt       "You always mope about Lemmy!"
 goto            @Label_0a74
 
@@ -376,8 +376,8 @@ code0479        0, 0, 12
 code0479        1, 0, 13
 call            @Func_1fa2
 dialogtxt       "Whaaat!? No way!!!"
-dialogtxt       "… Hmm, but this looks sturdy."
-dialogtxt       "I did ask you to help me, anyway…"
+dialogtxt       "... Hmm, but this looks sturdy."
+dialogtxt       "I did ask you to help me, anyway..."
 code0309        
 code0479        0, 0, 12
 code0479        1, 1, 12
@@ -393,20 +393,20 @@ code0479        0, 0, 12
 code0479        1, 4, 12
 call            @Func_203a
 call            @Func_1fa2
-dialogtxt       "Speaking of…"
+dialogtxt       "Speaking of..."
 dialogtxt       "You better not tell Lemmy that I"
 dialogtxt       "had you make a weapon for me, okay!"
 code0309        
 call            @Func_1ff6
 code0479        0, 1, 12
 call            @Func_1f54
-dialogtxt       "Yeah, yeah, I know already…"
+dialogtxt       "Yeah, yeah, I know already..."
 code0309        
 call            @Func_1f8a
 code0479        1, 4, 16
 call            @Func_1fc0
 dialogtxt       "I'm being serious here!"
-dialogtxt       "Don't you forget it…"
+dialogtxt       "Don't you forget it..."
 code0309        
 goto            @Label_0f80
 
@@ -454,7 +454,7 @@ code047d        1, 109
 call            @Func_203a
 jumpz           @Cond_1264, ($bv017 == 0)
 call            @Func_1fa2
-dialogtxt       "You know, I've been wondering…"
+dialogtxt       "You know, I've been wondering..."
 dialogtxt       "[NAME 2], just how"
 dialogtxt       "good are you with the forge?"
 code047b        
@@ -462,22 +462,22 @@ code0309
 call            @Func_1ff6
 call            @Func_1f54
 dialogtxt       "Maybe at least decently enough to"
-dialogtxt       "have clients here and there…?"
+dialogtxt       "have clients here and there...?"
 code0309        
 call            @Func_1f8a
 call            @Func_1fc0
 dialogtxt       "Hmm, then I'll just have you"
 dialogtxt       "prove your skills, then!"
-dialogtxt       "And! As for my order…"
+dialogtxt       "And! As for my order..."
 code0309        
 call            @Func_1ff6
 call            @Func_1f54
-dialogtxt       "If you get it done, that means…"
+dialogtxt       "If you get it done, that means..."
 code0309        
 call            @Func_1f8a
 call            @Func_1fc0
-dialogtxt       "… I'll pay you up real nicely!"
-dialogtxt       "(Not with money, though…)"
+dialogtxt       "... I'll pay you up real nicely!"
+dialogtxt       "(Not with money, though...)"
 code0309        
 call            @Func_2090
 call            @Func_1fde
@@ -547,7 +547,7 @@ goto            @Label_14c6
 @Cond_1396:
 jumpz           @Cond_13d4, ($bv029 == 2)
 call            @Func_1fa2
-dialogtxt       "Heeey…"
+dialogtxt       "Heeey..."
 dialogtxt       "Did you even properly read"
 dialogtxt       "the order form I gave you?"
 code0309        
@@ -566,15 +566,15 @@ code047b
 call            @Func_191e
 call            @Func_203a
 call            @Func_1f36
-dialogtxt       "Ahahah…"
+dialogtxt       "Ahahah..."
 dialogtxt       "So you're not going to"
-dialogtxt       "pay me, after all…"
+dialogtxt       "pay me, after all..."
 code0309        
 call            @Func_1f8a
 call            @Func_1fc0
 dialogtxt       "Isn't this a good enough payment"
 dialogtxt       "already? You didn't say that"
-dialogtxt       "I have to pay in cash…"
+dialogtxt       "I have to pay in cash..."
 code0309        
 dialogtxt       "Well, if ever I get to, I'll make"
 dialogtxt       "sure to commission you again!"
@@ -667,15 +667,15 @@ code0479        1, 0, 16
 call            @Func_203a
 call            @Func_1f54
 jumpz           @Cond_1702, ($b002 == 0)
-dialogtxt       "Well, I uh…"
+dialogtxt       "Well, I uh..."
 goto            @Label_1720
 
 @Cond_1702:
-dialogtxt       "Well, I uh…"
+dialogtxt       "Well, I uh..."
 goto            @Label_1720
 
 @Label_1720:
-dialogtxt       "Would rather not…"
+dialogtxt       "Would rather not..."
 code0309        
 call            @Func_2090
 call            @Func_1f72

@@ -349,7 +349,7 @@ code0309
 dialogtxt       "Doesn't that sound REALLY awesome!?"
 code0309        
 jumpz           @Cond_0f7e, (($f1268 == 0 || $f1269 == 0) || $f1270 == 0)
-dialogtxt       "… Anyway, how far have you"
+dialogtxt       "... Anyway, how far have you"
 dialogtxt       "come along as a Craftknight?"
 dialogtxt       "Come on, I wanna know!"
 code0309        
@@ -442,13 +442,13 @@ jumpz           @Cond_1428, ($h134 == 1)
 setvar          $f1269, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Wow…! Did you"
+dialogtxt       "Wow...! Did you"
 dialogtxt       "get all the Secret Techniques?"
 dialogtxt       "That's such an amazing feat!"
 code0309        
 dialogtxt       "Here! This is for you. They call"
 dialogtxt       "this an \"Audio Listening Device\"?"
-dialogtxt       "I have no idea what it's for…"
+dialogtxt       "I have no idea what it's for..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -479,7 +479,7 @@ dialogtxt       "You are so unreal!◎"
 code0309        
 dialogtxt       "Here! This is for you. They call"
 dialogtxt       "this an \"Ultimate War Ticket\"?"
-dialogtxt       "I have no idea what it's for…"
+dialogtxt       "I have no idea what it's for..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -527,7 +527,7 @@ goto            @Label_172c
 code047e        0, 1
 dialogtxt       "Whaaat!? You don't wanna talk about"
 dialogtxt       "it!? Gee, at least tell me a bit!"
-dialogtxt       "… Or not. You will soon enough!"
+dialogtxt       "... Or not. You will soon enough!"
 code0309        
 @Label_172c:
 code047e        0, 0

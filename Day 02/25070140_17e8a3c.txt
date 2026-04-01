@@ -66,15 +66,15 @@ call            @Func_1284
 code0479        0, 2, 16
 call            @Func_11e2
 jumpz           @Cond_0392, ($b002 == 0)
-dialogtxt       "You know! Umm…"
+dialogtxt       "You know! Umm..."
 dialogtxt       "They always want to fight me,"
-dialogtxt       "glare at me, and have spiky hair…"
+dialogtxt       "glare at me, and have spiky hair..."
 goto            @Label_03f2
 
 @Cond_0392:
-dialogtxt       "You know! Umm…"
+dialogtxt       "You know! Umm..."
 dialogtxt       "They always want to fight me,"
-dialogtxt       "glare at me, and have spiky hair…"
+dialogtxt       "glare at me, and have spiky hair..."
 goto            @Label_03f2
 
 @Label_03f2:
@@ -90,14 +90,14 @@ code0479        0, 2, 16
 call            @Func_11e2
 jumpz           @Cond_04c0, ($b002 == 0)
 dialogtxt       "They took something"
-dialogtxt       "very important to us…"
-dialogtxt       "So…"
+dialogtxt       "very important to us..."
+dialogtxt       "So..."
 goto            @Label_0510
 
 @Cond_04c0:
 dialogtxt       "They took something"
-dialogtxt       "very important to us…"
-dialogtxt       "So…"
+dialogtxt       "very important to us..."
+dialogtxt       "So..."
 goto            @Label_0510
 
 @Label_0510:
@@ -105,18 +105,18 @@ code0309
 call            @Func_1218
 code0479        1, 4, 15
 call            @Func_124e
-dialogtxt       "Those two…"
-dialogtxt       "They're going too far…"
+dialogtxt       "Those two..."
+dialogtxt       "They're going too far..."
 code0309        
 code0479        1, 0, 14
 dialogtxt       "You know,"
 dialogtxt       "they have been pretty angry"
-dialogtxt       "ever since you beat them…"
+dialogtxt       "ever since you beat them..."
 code0309        
 call            @Func_1284
 code0479        0, 4, 16
 call            @Func_11e2
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_12f2
 call            @Func_1218
@@ -177,7 +177,7 @@ code043c        2, 2
 code0479        1, 0, 16
 call            @Func_124e
 dialogtxt       "I know they hang out at"
-dialogtxt       "Deckell Mine often…"
+dialogtxt       "Deckell Mine often..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "You'll find them deep inside,"
@@ -195,12 +195,12 @@ code047d        0, 0
 call            @Func_129c
 call            @Func_11e2
 jumpz           @Cond_097a, ($b002 == 0)
-dialogtxt       "A door deep inside the mine…"
+dialogtxt       "A door deep inside the mine..."
 dialogtxt       "I'll go check it out."
 goto            @Label_09b8
 
 @Cond_097a:
-dialogtxt       "A door deep inside the mine…"
+dialogtxt       "A door deep inside the mine..."
 dialogtxt       "I'll go check it out."
 goto            @Label_09b8
 
@@ -212,7 +212,7 @@ code0479        1, 5, 16
 call            @Func_124e
 dialogtxt       "One more thing!"
 dialogtxt       "Strays have appeared in there,"
-dialogtxt       "so I told them to be careful…"
+dialogtxt       "so I told them to be careful..."
 code0309        
 call            @Func_1284
 code0479        0, 2, 12
@@ -223,14 +223,14 @@ code0309
 call            @Func_1218
 code0479        1, 0, 13
 call            @Func_124e
-dialogtxt       "Good luck…"
+dialogtxt       "Good luck..."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "… Er, not!"
-dialogtxt       "Gah, I've done it again…"
+dialogtxt       "... Er, not!"
+dialogtxt       "Gah, I've done it again..."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "But… I guess it's fine."
+dialogtxt       "But... I guess it's fine."
 code0309        
 call            @Func_131e
 call            @Func_126c

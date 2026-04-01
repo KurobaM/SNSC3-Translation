@@ -352,7 +352,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "When both sides have weapons,"
-dialogtxt       "conflict tends to escalate…"
+dialogtxt       "conflict tends to escalate..."
 dialogtxt       "I learned that the hard way."
 code0309        
 code047e        0, 0
@@ -363,7 +363,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Ugh… Today I lost"
+dialogtxt       "Ugh... Today I lost"
 dialogtxt       "all the gift cards I've been saving"
 dialogtxt       "up to a bet with a coworker."
 code0309        
@@ -408,7 +408,7 @@ code040b
 code0301        8, 7
 dialogtxt       "If you get hit by a sleep attack,"
 dialogtxt       "you become immobile and recover HP!"
-dialogtxt       "But when you awaken, it'll hurt…"
+dialogtxt       "But when you awaken, it'll hurt..."
 code0309        
 code0302        7
 code040b        
@@ -419,7 +419,7 @@ dialogtxt       "　"
 dialogtxt       "　"
 dialogtxt       "　●←Peep hole"
 code0309        
-dialogtxt       "I should've known you'd trick me…"
+dialogtxt       "I should've known you'd trick me..."
 code0309        
 code0302        7
 code040b        

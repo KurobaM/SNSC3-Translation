@@ -351,7 +351,7 @@ code0309
 dialogtxt       "When moving with a group, make"
 dialogtxt       "sure you still have everyone."
 code0309        
-dialogtxt       "You never know…"
+dialogtxt       "You never know..."
 dialogtxt       "You might be missing someone."
 code0309        
 code0302        7

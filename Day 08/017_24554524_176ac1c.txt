@@ -59,13 +59,13 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_032a, ($b002 == 0)
 dialogtxt       "I shouldn't wander around while"
-dialogtxt       "Murno is still in danger…"
+dialogtxt       "Murno is still in danger..."
 dialogtxt       "Let's head to the workshop."
 goto            @Label_038c
 
 @Cond_032a:
 dialogtxt       "I shouldn't wander around while"
-dialogtxt       "Murno is still in danger…"
+dialogtxt       "Murno is still in danger..."
 dialogtxt       "Let's head to the workshop."
 goto            @Label_038c
 

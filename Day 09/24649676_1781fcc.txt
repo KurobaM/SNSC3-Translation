@@ -26,7 +26,7 @@ code047d        1, 2
 call            @Func_2a86
 jumpz           @Cond_023e, ($b003 == 0)
 call            @Func_2982
-dialogtxt       "Murno has been kidnapped…"
+dialogtxt       "Murno has been kidnapped..."
 dialogtxt       "We need to hurry and find"
 dialogtxt       "where they are taking her!"
 code047b        
@@ -41,11 +41,11 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_01ee, ($b002 == 0)
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 goto            @Label_0200
 
 @Cond_01ee:
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 goto            @Label_0200
 
 @Label_0200:
@@ -59,7 +59,7 @@ goto            @Cond_023e
 @Cond_023e:
 jumpz           @Cond_03a4, ($b003 == 1)
 call            @Func_2982
-dialogtxt       "Murno has been kidnapped…"
+dialogtxt       "Murno has been kidnapped..."
 dialogtxt       "We need to hurry and find"
 dialogtxt       "where they are taking her!"
 code047b        
@@ -93,7 +93,7 @@ goto            @Cond_03a4
 @Cond_03a4:
 jumpz           @Cond_04fe, ($b003 == 2)
 call            @Func_2982
-dialogtxt       "Murno has been kidnapped…"
+dialogtxt       "Murno has been kidnapped..."
 dialogtxt       "We need to hurry and find"
 dialogtxt       "where they are taking her!"
 code047b        
@@ -126,7 +126,7 @@ goto            @Cond_04fe
 @Cond_04fe:
 jumpz           @Cond_064a, ($b003 == 3)
 call            @Func_2982
-dialogtxt       "Murno has been kidnapped…"
+dialogtxt       "Murno has been kidnapped..."
 dialogtxt       "We need to hurry and find"
 dialogtxt       "where they are taking her!"
 code047b        
@@ -141,11 +141,11 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_05fa, ($b002 == 0)
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 goto            @Label_060c
 
 @Cond_05fa:
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 goto            @Label_060c
 
 @Label_060c:
@@ -214,11 +214,11 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_08d4, ($b002 == 0)
-dialogtxt       "Yeah, you're right…"
+dialogtxt       "Yeah, you're right..."
 goto            @Label_08e6
 
 @Cond_08d4:
-dialogtxt       "True, you're right…"
+dialogtxt       "True, you're right..."
 goto            @Label_08e6
 
 @Label_08e6:
@@ -258,11 +258,11 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_0a9c, ($b002 == 0)
-dialogtxt       "Yeah, you're right…"
+dialogtxt       "Yeah, you're right..."
 goto            @Label_0aae
 
 @Cond_0a9c:
-dialogtxt       "True, you're right…"
+dialogtxt       "True, you're right..."
 goto            @Label_0aae
 
 @Label_0aae:
@@ -301,7 +301,7 @@ code0309
 call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 dialogtxt       "We have to hurry and save him!"
 code0309        
 call            @Func_2adc
@@ -332,17 +332,17 @@ code0479        1, 2, 14
 call            @Func_2a0c
 dialogtxt       "There's no telling what they"
 dialogtxt       "would do if they found him."
-dialogtxt       "I hope he's okay…"
+dialogtxt       "I hope he's okay..."
 code0309        
 call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_0e26, ($b002 == 0)
-dialogtxt       "Yeah, you're right…"
+dialogtxt       "Yeah, you're right..."
 goto            @Label_0e38
 
 @Cond_0e26:
-dialogtxt       "True, you're right…"
+dialogtxt       "True, you're right..."
 goto            @Label_0e38
 
 @Label_0e38:
@@ -386,13 +386,13 @@ call            @Func_2a86
 jumpz           @Cond_1160, ($b003 == 0)
 call            @Func_2982
 jumpz           @Cond_0fbe, ($b002 == 0)
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "They hurt Zakk!"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_1012
 
 @Cond_0fbe:
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "Why would they hurt Zakk like this!?"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_1012
@@ -411,13 +411,13 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_1102, ($b002 == 0)
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1150
 
 @Cond_1102:
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1150
@@ -433,13 +433,13 @@ goto            @Cond_1160
 jumpz           @Cond_1376, ($b003 == 1)
 call            @Func_2982
 jumpz           @Cond_11d6, ($b002 == 0)
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "They hurt Zakk!"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_122a
 
 @Cond_11d6:
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "Why would they hurt Zakk like this!?"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_122a
@@ -458,13 +458,13 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_1318, ($b002 == 0)
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1366
 
 @Cond_1318:
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1366
@@ -480,13 +480,13 @@ goto            @Cond_1376
 jumpz           @Cond_1590, ($b003 == 2)
 call            @Func_2982
 jumpz           @Cond_13ec, ($b002 == 0)
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "They hurt Zakk!"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_1440
 
 @Cond_13ec:
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "Why would they hurt Zakk like this!?"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_1440
@@ -497,7 +497,7 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 13
 call            @Func_2a0c
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "You think you can even stand up to"
 dialogtxt       "them with that hot head of yours?"
 code0309        
@@ -505,13 +505,13 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_1526, ($b002 == 0)
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1580
 
 @Cond_1526:
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1580
@@ -527,13 +527,13 @@ goto            @Cond_1590
 jumpz           @Cond_17a2, ($b003 == 3)
 call            @Func_2982
 jumpz           @Cond_1606, ($b002 == 0)
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "They hurt Zakk!"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_165a
 
 @Cond_1606:
-dialogtxt       "Those jerks…"
+dialogtxt       "Those jerks..."
 dialogtxt       "Why would they hurt Zakk like this!?"
 dialogtxt       "I absolutely won't forgive them!"
 goto            @Label_165a
@@ -552,13 +552,13 @@ call            @Func_2a42
 code0479        0, 2, 14
 call            @Func_29a0
 jumpz           @Cond_1744, ($b002 == 0)
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1792
 
 @Cond_1744:
-dialogtxt       "Oh yeah… I get it now."
+dialogtxt       "Oh yeah... I get it now."
 dialogtxt       "They went to Spoat Grotto!"
 dialogtxt       "Let's go!"
 goto            @Label_1792
@@ -618,15 +618,15 @@ call            @Func_2a42
 code0479        0, 1, 16
 call            @Func_29a0
 jumpz           @Cond_19de, ($b002 == 0)
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1a10
 
 @Cond_19de:
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1a10
 
 @Label_1a10:
@@ -655,15 +655,15 @@ call            @Func_2a42
 code0479        0, 1, 16
 call            @Func_29a0
 jumpz           @Cond_1b62, ($b002 == 0)
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1b94
 
 @Cond_1b62:
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1b94
 
 @Label_1b94:
@@ -684,7 +684,7 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 14
 call            @Func_2a0c
-dialogtxt       "Yes…"
+dialogtxt       "Yes..."
 dialogtxt       "But I am the only one who gets"
 dialogtxt       "to finish him. Not her."
 code0309        
@@ -692,13 +692,13 @@ call            @Func_2a42
 code0479        0, 4, 12
 call            @Func_29a0
 jumpz           @Cond_1ce2, ($b002 == 0)
-dialogtxt       "Please don't do it…"
+dialogtxt       "Please don't do it..."
 dialogtxt       "He's the only one who knows where"
 dialogtxt       "Murno is! We need him alive."
 goto            @Label_1d2e
 
 @Cond_1ce2:
-dialogtxt       "Please don't do it…"
+dialogtxt       "Please don't do it..."
 dialogtxt       "He's the only one who knows where"
 dialogtxt       "Murno is! We need him alive."
 goto            @Label_1d2e
@@ -729,15 +729,15 @@ call            @Func_2a42
 code0479        0, 1, 16
 call            @Func_29a0
 jumpz           @Cond_1e82, ($b002 == 0)
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1eb4
 
 @Cond_1e82:
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 dialogtxt       "I beg of you please, don't do"
-dialogtxt       "anything too rash…!"
+dialogtxt       "anything too rash...!"
 goto            @Label_1eb4
 
 @Label_1eb4:

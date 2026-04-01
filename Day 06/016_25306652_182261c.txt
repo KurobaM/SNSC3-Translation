@@ -287,13 +287,13 @@ goto            @Label_0a22
 call            @Func_1d2c
 call            @Func_1c94
 jumpz           @Cond_0a6e, ($b002 == 0)
-dialogtxt       "Okay, here we go…"
+dialogtxt       "Okay, here we go..."
 dialogtxt       "Hm?"
 dialogtxt       "Is this it?"
 goto            @Label_0aa6
 
 @Cond_0a6e:
-dialogtxt       "Okay, here we go…"
+dialogtxt       "Okay, here we go..."
 dialogtxt       "Hm?"
 dialogtxt       "Is this it?"
 goto            @Label_0aa6
@@ -322,7 +322,7 @@ goto            @Label_0b3e
 
 @Label_0b3e:
 call            @Func_1c46
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1d82
 call            @Func_1c64
@@ -332,7 +332,7 @@ code0446        0
 code0479        1, 4, 16
 call            @Func_1d2c
 call            @Func_1c94
-dialogtxt       "Do this… Here…"
+dialogtxt       "Do this... Here..."
 dialogtxt       "Huh?"
 dialogtxt       "What!?"
 code047b        
@@ -358,7 +358,7 @@ goto            @Label_0c4e
 
 @Label_0c4e:
 call            @Func_1c46
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1d82
 call            @Func_1c64
@@ -397,7 +397,7 @@ dialogtxt       "I'll just break them!"
 goto            @Label_0dba
 
 @Cond_0d8c:
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Forget it. This is annoying."
 dialogtxt       "I'll just break them!"
 goto            @Label_0dba
@@ -432,12 +432,12 @@ goto            @Cond_0e80
 
 @Cond_0e80:
 jumpz           @Cond_0eaa, ($b003 == 1)
-dialogtxt       "Hey, watch it…"
+dialogtxt       "Hey, watch it..."
 goto            @Cond_0eaa
 
 @Cond_0eaa:
 jumpz           @Cond_0ed4, ($b003 == 2)
-dialogtxt       "Hey, watch it…"
+dialogtxt       "Hey, watch it..."
 goto            @Cond_0ed4
 
 @Cond_0ed4:
@@ -567,7 +567,7 @@ goto            @Cond_1390
 @Cond_1390:
 jumpz           @Cond_13e0, ($b003 == 1)
 dialogtxt       "Hey, be careful!"
-dialogtxt       "If you had missed…"
+dialogtxt       "If you had missed..."
 goto            @Cond_13e0
 
 @Cond_13e0:

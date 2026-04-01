@@ -83,8 +83,8 @@ code040b
 code0301        8, 7
 code047d        0, 107
 code047e        0, 1
-dialogtxt       "He's seems nice…"
-dialogtxt       "What a relief…"
+dialogtxt       "He's seems nice..."
+dialogtxt       "What a relief..."
 code0309        
 code047e        0, 0
 code0302        7

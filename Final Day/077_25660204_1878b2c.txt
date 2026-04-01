@@ -87,27 +87,27 @@ call            @Func_0c24
 call            @Func_0b6a
 jumpz           @Cond_03e8, ($b003 == 0)
 dialogtxt       "I Detect A Strong Energy"
-dialogtxt       "Coming From Inside…"
+dialogtxt       "Coming From Inside..."
 dialogtxt       "Please Be Careful."
 goto            @Cond_03e8
 
 @Cond_03e8:
 jumpz           @Cond_0448, ($b003 == 1)
-dialogtxt       "What is this mass of emotion…"
+dialogtxt       "What is this mass of emotion..."
 dialogtxt       "There's something inside."
 dialogtxt       "Be careful."
 goto            @Cond_0448
 
 @Cond_0448:
 jumpz           @Cond_04a2, ($b003 == 2)
-dialogtxt       "This disgusting feeling again…"
+dialogtxt       "This disgusting feeling again..."
 dialogtxt       "There's something inside."
-dialogtxt       "Be prepared…"
+dialogtxt       "Be prepared..."
 goto            @Cond_04a2
 
 @Cond_04a2:
 jumpz           @Cond_0502, ($b003 == 3)
-dialogtxt       "Uu… This feeling…"
+dialogtxt       "Uu... This feeling..."
 dialogtxt       "There must be something inside."
 dialogtxt       "Please be careful."
 goto            @Cond_0502
@@ -119,12 +119,12 @@ call            @Func_0ba0
 code0479        1, 2, 14
 call            @Func_0bd6
 jumpz           @Cond_0552, ($b002 == 0)
-dialogtxt       "Y-Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "I will!"
 goto            @Label_0572
 
 @Cond_0552:
-dialogtxt       "Y-Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "I will!"
 goto            @Label_0572
 

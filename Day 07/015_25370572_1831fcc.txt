@@ -58,7 +58,7 @@ code0479        1, 2, 12
 call            @Func_1326
 dialogtxt       "Only one who is worthy can win"
 dialogtxt       "a match held here."
-dialogtxt       "… Or so the legend says."
+dialogtxt       "... Or so the legend says."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Many things were decided by"
@@ -96,7 +96,7 @@ goto            @Cond_04ea
 
 @Cond_04ea:
 jumpz           @Cond_052a, ($b003 == 1)
-dialogtxt       "In other words…"
+dialogtxt       "In other words..."
 dialogtxt       "A place for sacred bouts."
 goto            @Cond_052a
 
@@ -135,11 +135,11 @@ call            @Func_135c
 code0479        0, 5, 16
 call            @Func_12ba
 jumpz           @Cond_0702, ($b002 == 0)
-dialogtxt       "Intruders get thrown into the lava…?"
+dialogtxt       "Intruders get thrown into the lava...?"
 goto            @Label_0738
 
 @Cond_0702:
-dialogtxt       "Intruders get thrown into the lava…?"
+dialogtxt       "Intruders get thrown into the lava...?"
 goto            @Label_0738
 
 @Label_0738:
@@ -249,19 +249,19 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_12ba
 jumpz           @Cond_0b8e, ($b002 == 0)
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "Sorry."
 goto            @Label_0bac
 
 @Cond_0b8e:
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "Sorry."
 goto            @Label_0bac
 
 @Label_0bac:
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Thanks, [NAME 1]…"
+dialogtxt       "Thanks, [NAME 1]..."
 code0309        
 call            @Func_13e0
 call            @Func_12f0
@@ -274,7 +274,7 @@ code0479        1, 0, 13
 code047d        1, 136
 call            @Func_138a
 call            @Func_1326
-dialogtxt       "Hoh…"
+dialogtxt       "Hoh..."
 dialogtxt       "I like that look in your eyes."
 code047b        
 code0309        

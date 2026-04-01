@@ -365,7 +365,7 @@ code047d        0, 148
 code047e        0, 1
 dialogtxt       "You know, I'm searching for an amazing"
 dialogtxt       "Craftknight. If I could do business"
-dialogtxt       "with them, I'd make loads of money…"
+dialogtxt       "with them, I'd make loads of money..."
 code0309        
 dialogtxt       "I could even let my daughter"
 dialogtxt       "live without worry."

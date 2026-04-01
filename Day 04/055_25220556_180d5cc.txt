@@ -99,9 +99,9 @@ code0309
 call            @Func_1206
 code0479        1, 0, 16
 call            @Func_123c
-dialogtxt       "Y-Yeah,"
+dialogtxt       "Y—Yeah,"
 dialogtxt       "she's back."
-dialogtxt       "I think she's inside…"
+dialogtxt       "I think she's inside..."
 code0309        
 call            @Func_1272
 jumpz           @Cond_04d4, ($b003 == 0)
@@ -131,19 +131,19 @@ goto            @Cond_0576
 
 @Cond_0576:
 jumpz           @Cond_05c0, ($b003 == 1)
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 dialogtxt       "Excuse me, I must have"
 dialogtxt       "a word with her."
 goto            @Cond_05c0
 
 @Cond_05c0:
 jumpz           @Cond_05de, ($b003 == 2)
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 goto            @Cond_05de
 
 @Cond_05de:
 jumpz           @Cond_063e, ($b003 == 3)
-dialogtxt       "Is that so…"
+dialogtxt       "Is that so..."
 dialogtxt       "Please excuse me, I must"
 dialogtxt       "speak with her."
 goto            @Cond_063e
@@ -189,15 +189,15 @@ code0479        0, 4, 16
 code047d        0, 0
 call            @Func_128a
 call            @Func_11d0
-dialogtxt       "Well, uh…"
+dialogtxt       "Well, uh..."
 dialogtxt       "That is, [NAME 1] wants"
-dialogtxt       "to skip town…"
+dialogtxt       "to skip town..."
 code047b        
 code0309        
 call            @Func_1206
 code0479        1, 5, 17
 call            @Func_123c
-dialogtxt       "W-Wait, why?"
+dialogtxt       "W—Wait, why?"
 code0309        
 code0479        1, 4, 14
 dialogtxt       "I still haven't finished"
@@ -206,7 +206,7 @@ code0309
 call            @Func_1272
 code0479        0, 4, 14
 call            @Func_11d0
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1206
 code0479        1, 2, 16
@@ -217,7 +217,7 @@ code0309
 call            @Func_1272
 code0479        0, 4, 16
 call            @Func_11d0
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 code0309        
 call            @Func_130c
 call            @Func_11ee
@@ -230,24 +230,24 @@ code031c        8, 1
 code031f        8
 code0304        1
 dialogtxt       "　　　　 In the end, I couldn't"
-dialogtxt       "　　　　  give her an answer…"
+dialogtxt       "　　　　  give her an answer..."
 code030a        6, 1
 jumpz           @Cond_0aa2, ($b002 == 0)
 dialogtxt       "　　　  I can't just up and say,"
 dialogtxt       "　　　 Murno may have caused the"
-dialogtxt       "　　　　Strays to go berserk…"
+dialogtxt       "　　　　Strays to go berserk..."
 goto            @Label_0b1e
 
 @Cond_0aa2:
 dialogtxt       "　　　  I can't just up and say,"
 dialogtxt       "　　　 Murno may have caused the"
-dialogtxt       "　　　  Strays to go berserk…"
+dialogtxt       "　　　  Strays to go berserk..."
 goto            @Label_0b1e
 
 @Label_0b1e:
 code030a        6, 1
 dialogtxt       "　　　　And that it's her fault"
-dialogtxt       "　　　　　Master Rob was……"
+dialogtxt       "　　　　　Master Rob was......"
 code030a        6, 1
 code0304        0
 code0334        

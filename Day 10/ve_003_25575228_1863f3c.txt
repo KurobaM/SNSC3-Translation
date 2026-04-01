@@ -14,7 +14,7 @@ call            @Func_07f2
 code0479        0, 0, 16
 call            @Func_0750
 choicetxt       @Choice_0102, "Yes, I have."
-choicetxt       @Choice_01a2, "Not yet…"
+choicetxt       @Choice_01a2, "Not yet..."
 choicewait      
 
 @Choice_0102:

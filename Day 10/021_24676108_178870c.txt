@@ -335,7 +335,7 @@ code040b
 
 @Talk_0e2a:
 code0301        8, 7
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code0302        7
 code040b        
@@ -355,7 +355,7 @@ code040b
 code0301        8, 7
 dialogtxt       "Chin up! It'll be just peachy"
 dialogtxt       "come today or tomorrow!"
-dialogtxt       "　　　　　　　　　　　-A Free Person"
+dialogtxt       "　　　　　　　　　　　—A Free Person"
 code0309        
 code0302        7
 code040b        
@@ -364,7 +364,7 @@ code040b
 code0301        8, 7
 dialogtxt       "If you get hit by a sleep attack,"
 dialogtxt       "you become immobile and recover HP!"
-dialogtxt       "But when you awaken, it'll hurt…"
+dialogtxt       "But when you awaken, it'll hurt..."
 code0309        
 code0302        7
 code040b        

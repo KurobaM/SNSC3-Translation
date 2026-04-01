@@ -243,7 +243,7 @@ code047d        0, 125
 code047e        0, 1
 dialogtxt       "I managed to scrape some profit"
 dialogtxt       "here and there, but I don't think"
-dialogtxt       "my business will stay afloat…"
+dialogtxt       "my business will stay afloat..."
 code0309        
 dialogtxt       "Here to buy something?"
 code0309        

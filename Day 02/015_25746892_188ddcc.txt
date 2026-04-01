@@ -234,12 +234,12 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_087a, ($b002 == 0)
 dialogtxt       "Hnnnn!"
-dialogtxt       "It won't open…"
+dialogtxt       "It won't open..."
 goto            @Label_089a
 
 @Cond_087a:
 dialogtxt       "Hnnnn!"
-dialogtxt       "It won't open…"
+dialogtxt       "It won't open..."
 goto            @Label_089a
 
 @Label_089a:

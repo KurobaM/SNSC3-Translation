@@ -59,7 +59,7 @@ code047d        1, 2
 call            @Func_1052
 call            @Func_0fee
 jumpz           @Cond_030c, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1092
@@ -130,8 +130,8 @@ call            @Func_0f82
 goto            @Label_0464
 
 @Label_0464:
-dialogtxt       "…"
-dialogtxt       "Thanks…"
+dialogtxt       "..."
+dialogtxt       "Thanks..."
 code047b        
 code0309        
 call            @Func_0fb8
@@ -217,7 +217,7 @@ goto            @Cond_07d8
 
 @Cond_07d8:
 jumpz           @Cond_0842, ($b003 == 2)
-dialogtxt       "Tsk…"
+dialogtxt       "Tsk..."
 dialogtxt       "Quite the chit chat. Let's"
 dialogtxt       "go find that fruit already."
 goto            @Cond_0842

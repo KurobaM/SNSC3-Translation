@@ -263,7 +263,7 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "Gallahan, huh…"
+dialogtxt       "Gallahan, huh..."
 dialogtxt       "It's been very difficult for him."
 dialogtxt       "He's coping with it well."
 code0309        

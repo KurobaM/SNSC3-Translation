@@ -47,7 +47,7 @@ code0309
 call            @Func_0dca
 code0479        0, 4, 17
 call            @Func_0d28
-dialogtxt       "But, the Stray…"
+dialogtxt       "But, the Stray..."
 code0309        
 code0333        2, 30
 call            @Func_0d5e
@@ -79,7 +79,7 @@ code0309
 call            @Func_0dca
 code0479        0, 0, 16
 call            @Func_0d28
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 call            @Func_0d5e
 code0479        1, 0, 12

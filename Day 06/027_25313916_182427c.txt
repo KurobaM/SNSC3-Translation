@@ -44,14 +44,14 @@ call            @Func_0b1c
 call            @Func_0a18
 jumpz           @Cond_0216, ($b002 == 0)
 dialogtxt       "This is the ruins where"
-dialogtxt       "their master is…"
-dialogtxt       "It's huge…"
+dialogtxt       "their master is..."
+dialogtxt       "It's huge..."
 goto            @Label_0252
 
 @Cond_0216:
 dialogtxt       "This is the ruins where"
-dialogtxt       "their master is…"
-dialogtxt       "It's huge…"
+dialogtxt       "their master is..."
+dialogtxt       "It's huge..."
 goto            @Label_0252
 
 @Label_0252:
@@ -94,7 +94,7 @@ goto            @Cond_03ae
 @Cond_03ae:
 jumpz           @Cond_0402, ($b003 == 2)
 dialogtxt       "Murno is being held underground."
-dialogtxt       "There should be a way in…"
+dialogtxt       "There should be a way in..."
 goto            @Cond_0402
 
 @Cond_0402:

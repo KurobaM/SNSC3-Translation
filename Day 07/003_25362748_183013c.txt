@@ -37,7 +37,7 @@ code0491        0
 setvar          0x0000, 0x0000, 2
 call            @Func_1b28
 call            @Func_1a24
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 code047b        
 code0309        
 call            @Func_1a78
@@ -60,9 +60,9 @@ code0309
 call            @Func_1ae4
 code0479        0, 4, 16
 call            @Func_1a42
-dialogtxt       "But even so, a match is just…"
+dialogtxt       "But even so, a match is just..."
 dialogtxt       "I'll ask them to change it again."
-dialogtxt       "Maybe…"
+dialogtxt       "Maybe..."
 code0309		
 call            @Func_1a78
 code0479        1, 1, 12
@@ -127,9 +127,9 @@ goto            @Cond_0632
 
 @Cond_0632:
 jumpz           @Cond_06b2, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "I'm sure [NAME 2] just wants"
-dialogtxt       "to show off, but…"
+dialogtxt       "to show off, but..."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -159,11 +159,11 @@ code047d        0, 0
 call            @Func_1afc
 call            @Func_1a42
 jumpz           @Cond_07d0, ($b002 == 0)
-dialogtxt       "Hey, don't put it like that…"
+dialogtxt       "Hey, don't put it like that..."
 goto            @Label_07f0
 
 @Cond_07d0:
-dialogtxt       "Don't put it like that…"
+dialogtxt       "Don't put it like that..."
 goto            @Label_07f0
 
 @Label_07f0:
@@ -267,7 +267,7 @@ goto            @Cond_0bde
 
 @Cond_0bde:
 jumpz           @Cond_0c34, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "He mean's he'll be there to watch"
 dialogtxt       "the fight and see how it ends."
 goto            @Cond_0c34
@@ -302,7 +302,7 @@ code0479        0, 0, 16
 code047d        0, 107
 call            @Func_1afc
 call            @Func_1a42
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "Am I not allowed to be a witness?"
 code047b        
 code0309        
@@ -320,13 +320,13 @@ call            @Func_1b28
 call            @Func_1a90
 dialogtxt       "What?!"
 dialogtxt       "The ruins inside are very dangerous."
-dialogtxt       "You aren't even a Craftknight…"
+dialogtxt       "You aren't even a Craftknight..."
 code047b        
 code0309        
 call            @Func_1ae4
 code0479        0, 2, 14
 call            @Func_1a42
-dialogtxt       "Even so…"
+dialogtxt       "Even so..."
 dialogtxt       "I want to go with you all."
 code0309        
 call            @Func_1b68
@@ -338,7 +338,7 @@ code0479        1, 0, 16
 code047d        1, 0
 call            @Func_1b12
 call            @Func_1aae
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code047b        
 code0309        
 call            @Func_1b7e
@@ -351,7 +351,7 @@ code0479        1, 0, 12
 code047d        1, 136
 call            @Func_1b28
 call            @Func_1a90
-dialogtxt       "Mm… I see…"
+dialogtxt       "Mm... I see..."
 dialogtxt       "Then, I'll see what Tram thinks."
 code047b        
 code0309        
@@ -437,13 +437,13 @@ code047d        0, 0
 call            @Func_1afc
 call            @Func_1a42
 jumpz           @Cond_1362, ($b002 == 0)
-dialogtxt       "The Rekui Water Ruins…"
+dialogtxt       "The Rekui Water Ruins..."
 dialogtxt       "That's where your master was, right?"
 dialogtxt       "Got it!"
 goto            @Label_13a6
 
 @Cond_1362:
-dialogtxt       "The Rekui Water Ruins…"
+dialogtxt       "The Rekui Water Ruins..."
 dialogtxt       "That's where your master was, right?"
 dialogtxt       "Got it!"
 goto            @Label_13a6

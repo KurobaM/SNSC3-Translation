@@ -51,9 +51,9 @@ code0309
 call            @Func_0da6
 code0479        0, 4, 16
 call            @Func_0d04
-dialogtxt       "Oh, uh, sorry…"
+dialogtxt       "Oh, uh, sorry..."
 dialogtxt       "I took a walk, and somehow"
-dialogtxt       "ended up coming here…"
+dialogtxt       "ended up coming here..."
 code0309        
 call            @Func_0d3a
 code0479        1, 0, 16
@@ -65,7 +65,7 @@ code0309
 call            @Func_0da6
 code0479        0, 4, 14
 call            @Func_0d04
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 code0309        
 call            @Func_0d3a
 code0479        1, 4, 16
@@ -126,7 +126,7 @@ code0309
 call            @Func_0d3a
 code0479        1, 0, 13
 call            @Func_0d70
-dialogtxt       "Fufu…"
+dialogtxt       "Fufu..."
 dialogtxt       "That's it, [NAME 2],"
 dialogtxt       "that's how you should be!"
 code0309        

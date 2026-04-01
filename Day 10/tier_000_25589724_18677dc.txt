@@ -77,8 +77,8 @@ goto            @Cond_0352
 @Cond_0352:
 jumpz           @Cond_03ae, ($b003 == 3)
 dialogtxt       "I want to talk with Lady Murno"
-dialogtxt       "about what to do going forward…"
-dialogtxt       "I'm sorry, but…"
+dialogtxt       "about what to do going forward..."
+dialogtxt       "I'm sorry, but..."
 goto            @Cond_03ae
 
 @Cond_03ae:
@@ -88,14 +88,14 @@ call            @Func_0f20
 code0479        1, 0, 12
 call            @Func_0f56
 jumpz           @Cond_040a, ($b002 == 0)
-dialogtxt       "Oh…"
-dialogtxt       "Okay…"
+dialogtxt       "Oh..."
+dialogtxt       "Okay..."
 dialogtxt       "Understood."
 goto            @Label_0436
 
 @Cond_040a:
-dialogtxt       "Oh…"
-dialogtxt       "Okay…"
+dialogtxt       "Oh..."
+dialogtxt       "Okay..."
 dialogtxt       "Understood."
 goto            @Label_0436
 

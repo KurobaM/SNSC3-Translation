@@ -73,7 +73,7 @@ code0479        0, 4, 16
 call            @Func_15ce
 dialogtxt       "The inn over there will do."
 dialogtxt       "It's called the Smile Inn."
-dialogtxt       "The staff know me well, so…"
+dialogtxt       "The staff know me well, so..."
 code0309        
 call            @Func_170a
 call            @Func_15ec
@@ -114,7 +114,7 @@ code047b
 code0309        
 code0479        0, 1, 12
 dialogtxt       "Their specialty homemade cake"
-dialogtxt       "just melts in your mouth…"
+dialogtxt       "just melts in your mouth..."
 code0309        
 call            @Func_16f4
 call            @Func_1604
@@ -124,7 +124,7 @@ code0479        1, 0, 16
 code047d        1, 107
 call            @Func_169e
 call            @Func_163a
-dialogtxt       "Cake…"
+dialogtxt       "Cake..."
 code047b        
 code0309        
 call            @Func_16de
@@ -135,9 +135,9 @@ code0479        0, 4, 12
 code047d        0, 108
 call            @Func_1688
 call            @Func_15ce
-dialogtxt       "Cake…?"
+dialogtxt       "Cake...?"
 dialogtxt       "I don't really care"
-dialogtxt       "for sweet things…"
+dialogtxt       "for sweet things..."
 code0309        
 call            @Func_170a
 call            @Func_15ec
@@ -146,7 +146,7 @@ code0331        14, 128
 code040d        20
 code033b        242, 0, 0, 0, 1, 0
 code0301        8, 7
-dialogbig       102, 116, 0, 8, 0, "*Grumble*…"
+dialogbig       102, 116, 0, 8, 0, "*Grumble*..."
 code030c        
 code0302        7
 code033e        242
@@ -156,7 +156,7 @@ code0331        14, 256
 code0479        1, 11, 17
 call            @Func_169e
 call            @Func_161c
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 code047b        
 code0309        
 call            @Func_1670
@@ -166,8 +166,8 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1688
 call            @Func_15ce
-dialogtxt       "Ah…"
-dialogtxt       "Was that…"
+dialogtxt       "Ah..."
+dialogtxt       "Was that..."
 code047b        
 code0309        
 call            @Func_16f4
@@ -208,7 +208,7 @@ code0479        0, 7, 17
 code047d        0, 107
 call            @Func_1688
 call            @Func_15ce
-dialogtxt       "Wha…!"
+dialogtxt       "Wha...!"
 dialogtxt       "[NAME 1]!"
 code047b        
 code0309        
@@ -226,7 +226,7 @@ dialogtxt       "I'm kinda hungry too!"
 goto            @Label_0a26
 
 @Cond_0a04:
-dialogtxt       "I'm hungry too…"
+dialogtxt       "I'm hungry too..."
 goto            @Label_0a26
 
 @Label_0a26:
@@ -235,7 +235,7 @@ code0309
 call            @Func_1670
 code0479        0, 10, 16
 call            @Func_15ce
-dialogtxt       "*Grumble*…"
+dialogtxt       "*Grumble*..."
 code0309        
 call            @Func_170a
 call            @Func_15ec
@@ -251,9 +251,9 @@ call            @Func_1670
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_15ce
-dialogtxt       "…?"
-dialogtxt       "Are you…"
-dialogtxt       "Trying to cover for her…?"
+dialogtxt       "...?"
+dialogtxt       "Are you..."
+dialogtxt       "Trying to cover for her...?"
 code0309        
 call            @Func_1604
 code043c        1, 2
@@ -271,8 +271,8 @@ code0479        0, 4, 13
 code047d        0, 107
 call            @Func_1688
 call            @Func_15ce
-dialogtxt       "[NAME 1]…"
-dialogtxt       "Thank you…"
+dialogtxt       "[NAME 1]..."
+dialogtxt       "Thank you..."
 code047b        
 code0309        
 call            @Func_170a
@@ -289,13 +289,13 @@ code0309
 call            @Func_1670
 code0479        0, 5, 13
 call            @Func_15ce
-dialogtxt       "What… Oh…"
+dialogtxt       "What... Oh..."
 jumpz           @Cond_0c5e, ($b002 == 0)
-dialogtxt       "M-Me neither."
+dialogtxt       "M—Me neither."
 goto            @Label_0c72
 
 @Cond_0c5e:
-dialogtxt       "Y-Yup, not a thing."
+dialogtxt       "Y—Yup, not a thing."
 goto            @Label_0c72
 
 @Label_0c72:
@@ -308,7 +308,7 @@ code0479        0, 10, 16
 code047d        0, 107
 call            @Func_1688
 call            @Func_15b0
-dialogtxt       "*Grumble*…"
+dialogtxt       "*Grumble*..."
 code047b        
 code0309        
 call            @Func_16de
@@ -327,8 +327,8 @@ call            @Func_1670
 code043c        0, 4
 code0479        0, 0, 12
 call            @Func_15ce
-dialogtxt       "Oh…"
-dialogtxt       "So it was you, [NAME 1]…"
+dialogtxt       "Oh..."
+dialogtxt       "So it was you, [NAME 1]..."
 code0309        
 call            @Func_1604
 code043c        1, 2
@@ -345,8 +345,8 @@ code0479        0, 0, 12
 code047d        0, 107
 call            @Func_1688
 call            @Func_15ce
-dialogtxt       "[NAME 1]…"
-dialogtxt       "Thank you…"
+dialogtxt       "[NAME 1]..."
+dialogtxt       "Thank you..."
 code047b        
 code0309        
 call            @Func_170a

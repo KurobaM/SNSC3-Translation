@@ -2,31 +2,31 @@ code040d        60
 code0301        8, 3
 jumpz           @Cond_00c2, ($f0262 == 1)
 jumpz           @Cond_0066, ($b003 == 0)
-dialogtxt       "………"
-dialogtxt       "…… Partner"
-dialogtxt       "…Partner"
+dialogtxt       "........."
+dialogtxt       "...... Partner"
+dialogtxt       "...Partner"
 goto            @Label_00be
 
 @Cond_0066:
 jumpz           @Cond_009e, ($b003 == 3)
-dialogtxt       "………"
-dialogtxt       "…… [NAME 2]"
-dialogtxt       "… [NAME 2]"
+dialogtxt       "........."
+dialogtxt       "...... [NAME 2]"
+dialogtxt       "... [NAME 2]"
 goto            @Label_00be
 
 @Cond_009e:
-dialogtxt       "………"
-dialogtxt       "…… [NAME 2]"
-dialogtxt       "… [NAME 2]"
+dialogtxt       "........."
+dialogtxt       "...... [NAME 2]"
+dialogtxt       "... [NAME 2]"
 goto            @Label_00be
 
 @Label_00be:
 goto            @Label_00e2
 
 @Cond_00c2:
-dialogtxt       "………"
-dialogtxt       "…… [NAME 2]"
-dialogtxt       "… [NAME 2]"
+dialogtxt       "........."
+dialogtxt       "...... [NAME 2]"
+dialogtxt       "... [NAME 2]"
 goto            @Label_00e2
 
 @Label_00e2:
@@ -36,36 +36,36 @@ code047d        0, 0
 code0301        8, 1
 code047e        0, 1
 jumpz           @Cond_0142, ($f0261 == 1)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Murno?"
 goto            @Label_01fe
 
 @Cond_0142:
 jumpz           @Cond_0168, ($f0262 == 1)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "[NAME 1]?"
 goto            @Label_01fe
 
 @Cond_0168:
 jumpz           @Cond_0190, ($f0263 == 1)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Master?"
 goto            @Label_01fe
 
 @Cond_0190:
 jumpz           @Cond_01ba, ($f0264 == 1)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Lemmy?"
 goto            @Label_01fe
 
 @Cond_01ba:
 jumpz           @Cond_01e4, ($f0265 == 1)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Bro?"
 goto            @Label_01fe
 
 @Cond_01e4:
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Tier?"
 goto            @Label_01fe
 
@@ -167,9 +167,9 @@ goto            @Cond_0618
 
 @Cond_0618:
 jumpz           @Cond_0660, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "If you're okay,"
-dialogtxt       "you should've woken up faster…"
+dialogtxt       "you should've woken up faster..."
 goto            @Cond_0660
 
 @Cond_0660:
@@ -250,13 +250,13 @@ goto            @Label_08e8
 
 @Label_08e8:
 jumpz           @Cond_0918, ($b002 == 0)
-dialogtxt       "Ah, huh…"
-dialogtxt       "I…?"
+dialogtxt       "Ah, huh..."
+dialogtxt       "I...?"
 goto            @Label_0938
 
 @Cond_0918:
-dialogtxt       "Ah, huh…"
-dialogtxt       "I…?"
+dialogtxt       "Ah, huh..."
+dialogtxt       "I...?"
 goto            @Label_0938
 
 @Label_0938:
@@ -345,8 +345,8 @@ goto            @Label_0be6
 @Label_0be6:
 code0479        0, 2, 16
 call            @Func_1a52
-dialogtxt       "I see…"
-dialogtxt       "… Hey, you okay?"
+dialogtxt       "I see..."
+dialogtxt       "... Hey, you okay?"
 dialogtxt       "Are you hurt?"
 code0309        
 jumpz           @Cond_0c4c, ($f0262 == 1)
@@ -379,7 +379,7 @@ dialogtxt       "Thanks, [NAME 1]."
 goto            @Label_0d32
 
 @Cond_0d10:
-dialogtxt       "I'm so glad…"
+dialogtxt       "I'm so glad..."
 dialogtxt       "Thanks, [NAME 1]."
 goto            @Label_0d32
 
@@ -440,7 +440,7 @@ jumpz           @Cond_0f84, ($f0261 == 1 || $f0262 == 1)
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "Heeey, [NAME 2]…"
+dialogtxt       "Heeey, [NAME 2]..."
 dialogtxt       "You okay~?"
 code0309        
 code047e        0, 0

@@ -42,20 +42,20 @@ goto            @Cond_01b4
 
 @Cond_01b4:
 jumpz           @Cond_01ee, ($b003 == 1)
-dialogtxt       "A Stray Summon…"
+dialogtxt       "A Stray Summon..."
 dialogtxt       "Is that the one Zakk mentioned?"
 goto            @Cond_01ee
 
 @Cond_01ee:
 jumpz           @Cond_0220, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "A Stray Summon…"
+dialogtxt       "Tch..."
+dialogtxt       "A Stray Summon..."
 goto            @Cond_0220
 
 @Cond_0220:
 jumpz           @Cond_0268, ($b003 == 3)
-dialogtxt       "I-It's a Stray Summon."
-dialogtxt       "It seems kinda strong…"
+dialogtxt       "I—It's a Stray Summon."
+dialogtxt       "It seems kinda strong..."
 goto            @Cond_0268
 
 @Cond_0268:
@@ -106,12 +106,12 @@ call            @Func_108e
 code0479        0, 2, 14
 call            @Func_0fec
 jumpz           @Cond_0482, ($b002 == 0)
-dialogtxt       "This is the only way out…"
+dialogtxt       "This is the only way out..."
 dialogtxt       "We have to make it move!"
 goto            @Label_04d6
 
 @Cond_0482:
-dialogtxt       "This is the only way out…"
+dialogtxt       "This is the only way out..."
 dialogtxt       "We have to make it move!"
 goto            @Label_04d6
 
@@ -127,7 +127,7 @@ code0309
 call            @Func_108e
 code0479        0, 2, 12
 call            @Func_0fec
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 dialogtxt       "Yeah! Let's do this!"
 goto            @Cond_0572
 
@@ -210,9 +210,9 @@ goto            @Cond_0846
 
 @Cond_0846:
 jumpz           @Cond_09bc, ($b003 == 3)
-dialogtxt       "Wh-What should we do?"
+dialogtxt       "Wh—What should we do?"
 dialogtxt       "It doesn't seem like"
-dialogtxt       "it'll just let us through…"
+dialogtxt       "it'll just let us through..."
 code0309        
 call            @Func_108e
 code0479        0, 2, 14
@@ -234,8 +234,8 @@ code0309
 call            @Func_1022
 code0479        1, 2, 12
 call            @Func_1058
-dialogtxt       "O-Okay."
-dialogtxt       "Together…"
+dialogtxt       "O—Okay."
+dialogtxt       "Together..."
 dialogtxt       "We'll definitely win!"
 code0309        
 call            @Func_108e

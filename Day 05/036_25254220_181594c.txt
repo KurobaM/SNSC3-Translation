@@ -74,7 +74,7 @@ goto            @Cond_0266
 
 @Cond_0266:
 jumpz           @Cond_0296, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "Hurry up!"
 goto            @Cond_0296
 

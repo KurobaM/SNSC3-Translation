@@ -46,7 +46,7 @@ goto            @Label_0224
 code047d        1, 2
 call            @Func_0d02
 call            @Func_0c80
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_0cd4
@@ -93,20 +93,20 @@ goto            @Cond_0382
 @Cond_0382:
 jumpz           @Cond_03ec, ($b003 == 1)
 dialogtxt       "I felt something."
-dialogtxt       "Someone's following us…"
+dialogtxt       "Someone's following us..."
 goto            @Cond_03ec
 
 @Cond_03ec:
 jumpz           @Cond_0446, ($b003 == 2)
-dialogtxt       "Something's been watching us…"
+dialogtxt       "Something's been watching us..."
 dialogtxt       "I have a bad feeling about this."
 goto            @Cond_0446
 
 @Cond_0446:
 jumpz           @Cond_04b4, ($b003 == 3)
 dialogtxt       "It feels as if someone"
-dialogtxt       "is following us…"
-dialogtxt       "I have a bad feeling about this…"
+dialogtxt       "is following us..."
+dialogtxt       "I have a bad feeling about this..."
 goto            @Cond_04b4
 
 @Cond_04b4:
@@ -114,7 +114,7 @@ code0309
 call            @Func_0cd4
 code0479        0, 4, 14
 call            @Func_0c32
-dialogtxt       "Just like before…"
+dialogtxt       "Just like before..."
 dialogtxt       "It might be my bro again."
 code0309        
 call            @Func_0d58
@@ -133,9 +133,9 @@ call            @Func_0cd4
 code043c        0, 1
 code0479        0, 0, 16
 call            @Func_0c32
-dialogtxt       "So I thought, but…"
+dialogtxt       "So I thought, but..."
 dialogtxt       "Of course he's not here."
-dialogtxt       "What is it…"
+dialogtxt       "What is it..."
 code0309        
 code0479        0, 0, 14
 dialogtxt       "I hope it's just my imagination."

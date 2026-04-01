@@ -16,8 +16,8 @@ call            @Func_13d4
 jumpz           @Cond_00f2, ($b062 == 0)
 code0479        0, 0, 17
 call            @Func_1332
-dialogtxt       "Ugh…"
-dialogtxt       "You got me good…"
+dialogtxt       "Ugh..."
+dialogtxt       "You got me good..."
 code0309        
 call            @Func_1368
 goto            @Label_0156
@@ -25,8 +25,8 @@ goto            @Label_0156
 @Cond_00f2:
 code0479        0, 0, 17
 call            @Func_1332
-dialogtxt       "You broke my weapon…"
-dialogtxt       "You got me good…"
+dialogtxt       "You broke my weapon..."
+dialogtxt       "You got me good..."
 code0309        
 call            @Func_1368
 goto            @Label_0156
@@ -77,7 +77,7 @@ code0479        0, 0, 16
 call            @Func_1332
 dialogtxt       "Now, let's discuss your journey."
 dialogtxt       "So you know the bridge collapsed."
-dialogtxt       "There is a way past, but…"
+dialogtxt       "There is a way past, but..."
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 13
@@ -101,7 +101,7 @@ code0309
 call            @Func_13d4
 code0479        0, 4, 16
 call            @Func_1332
-dialogtxt       "Uh, sure…"
+dialogtxt       "Uh, sure..."
 dialogtxt       "Anyway, I recommend you take"
 dialogtxt       "[NAME 2] with you."
 code0309        
@@ -163,13 +163,13 @@ call            @Func_1332
 jumpz           @Cond_083a, ($b002 == 0)
 dialogtxt       "Wait, Master!"
 dialogtxt       "You mean have a match?"
-dialogtxt       "But you're still injured…"
+dialogtxt       "But you're still injured..."
 goto            @Label_0894
 
 @Cond_083a:
 dialogtxt       "Wait, Master!"
 dialogtxt       "You mean have a match?"
-dialogtxt       "But you're still injured…"
+dialogtxt       "But you're still injured..."
 goto            @Label_0894
 
 @Label_0894:
@@ -189,7 +189,7 @@ code047d        0, 132
 call            @Func_13ec
 call            @Func_1332
 dialogtxt       "Wait a sec!"
-dialogtxt       "Then you're saying that I'm…"
+dialogtxt       "Then you're saying that I'm..."
 code047b        
 code0309        
 call            @Func_1442

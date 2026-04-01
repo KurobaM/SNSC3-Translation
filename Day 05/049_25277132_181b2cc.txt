@@ -7,7 +7,7 @@ code047d        0, 0
 call            @Func_0cc8
 call            @Func_0bf0
 jumpz           @Cond_0168, ($b002 == 0)
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "It won't open!?"
 dialogtxt       "I'm stuck!"
 code0309        
@@ -30,7 +30,7 @@ dialogtxt       "Where is everyooone!!!"
 goto            @Label_0274
 
 @Cond_0168:
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "It won't open!?"
 dialogtxt       "I can't get out!?"
 code0309        
@@ -71,13 +71,13 @@ code0479        0, 5, 16
 call            @Func_0cc8
 call            @Func_0c0e
 jumpz           @Cond_035a, ($b002 == 0)
-dialogtxt       "Wha…?"
+dialogtxt       "Wha...?"
 dialogtxt       "Who's there?"
 goto            @Label_037e
 
 @Cond_035a:
-dialogtxt       "Wha…?"
-dialogtxt       "Um… Who's there?"
+dialogtxt       "Wha...?"
+dialogtxt       "Um... Who's there?"
 goto            @Label_037e
 
 @Label_037e:
@@ -88,9 +88,9 @@ call            @Func_0c44
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Jeez…"
+dialogtxt       "Jeez..."
 dialogtxt       "And just when the other"
-dialogtxt       "girl had quieted down…"
+dialogtxt       "girl had quieted down..."
 code0309        
 dialogtxt       "I'm only saying this once!"
 dialogtxt       "Your investigation is tomorrow."
@@ -104,13 +104,13 @@ call            @Func_0c0e
 jumpz           @Cond_04de, ($b002 == 0)
 dialogtxt       "Other girl!?"
 dialogtxt       "Hey! Wait!"
-dialogtxt       "Do you mean…!?"
+dialogtxt       "Do you mean...!?"
 goto            @Label_0528
 
 @Cond_04de:
 dialogtxt       "Eh? Other girl!?"
 dialogtxt       "Hey! Wait!"
-dialogtxt       "Do you mean…!?"
+dialogtxt       "Do you mean...!?"
 goto            @Label_0528
 
 @Label_0528:
@@ -130,15 +130,15 @@ code0302        7
 code0479        0, 2, 14
 call            @Func_0cc8
 call            @Func_0c0e
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_05ee, ($b002 == 0)
-dialogtxt       "Dammit…"
-dialogtxt       "What's going on…"
+dialogtxt       "Dammit..."
+dialogtxt       "What's going on..."
 goto            @Label_0610
 
 @Cond_05ee:
-dialogtxt       "Seriously…"
-dialogtxt       "What is going on…"
+dialogtxt       "Seriously..."
+dialogtxt       "What is going on..."
 goto            @Label_0610
 
 @Label_0610:

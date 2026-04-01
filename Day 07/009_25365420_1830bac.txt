@@ -11,7 +11,7 @@ code047d        1, 135
 call            @Func_1c44
 call            @Func_1bc2
 dialogtxt       "Now everyone has arrived."
-dialogtxt       "Though there's quite a crowd…"
+dialogtxt       "Though there's quite a crowd..."
 code047b        
 code0309        
 call            @Func_1c16
@@ -21,7 +21,7 @@ code047d        0, 136
 call            @Func_1c2e
 code043c        4, 4
 call            @Func_1b74
-dialogtxt       "About that…"
+dialogtxt       "About that..."
 dialogtxt       "They said they wanted to be"
 dialogtxt       "present for the match."
 code047b        
@@ -33,13 +33,13 @@ call            @Func_1baa
 code043c        2, 2
 code0479        1, 5, 16
 call            @Func_1be0
-dialogtxt       "That's… Even the villagers"
+dialogtxt       "That's... Even the villagers"
 dialogtxt       "are usually forbidden from"
 dialogtxt       "entering the ruins."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Even just holding a match"
-dialogtxt       "there is problematic…"
+dialogtxt       "there is problematic..."
 code0309        
 call            @Func_1c84
 call            @Func_1c16
@@ -69,7 +69,7 @@ code043c        4, 1
 code043c        2, 1
 code0479        1, 2, 12
 call            @Func_1be0
-dialogtxt       "Heh…"
+dialogtxt       "Heh..."
 dialogtxt       "You think you can beat me?"
 dialogtxt       "I pity you."
 code0309        
@@ -164,14 +164,14 @@ goto            @Cond_07a2
 
 @Cond_07a2:
 jumpz           @Cond_07f2, ($b003 == 2)
-dialogtxt       "So you have to win to see it…"
+dialogtxt       "So you have to win to see it..."
 dialogtxt       "And he's confident in his abilities."
 goto            @Cond_07f2
 
 @Cond_07f2:
 jumpz           @Cond_0854, ($b003 == 3)
 dialogtxt       "Meaning we won't be allowed to"
-dialogtxt       "see it if you are unable to win…"
+dialogtxt       "see it if you are unable to win..."
 dialogtxt       "Please do your best!"
 goto            @Cond_0854
 
@@ -225,7 +225,7 @@ code0309
 call            @Func_1c16
 code0479        0, 2, 16
 call            @Func_1b74
-dialogtxt       "Only one weapon, huh…"
+dialogtxt       "Only one weapon, huh..."
 code0309        
 call            @Func_1baa
 code0479        0, 2, 14
@@ -261,7 +261,7 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_1c2e
 call            @Func_1b56
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 call            @Func_1baa
@@ -309,7 +309,7 @@ code043c        3, 4
 code0479        0, 0, 17
 call            @Func_1c2e
 call            @Func_1b74
-dialogtxt       "Ah, wai-"
+dialogtxt       "Ah, wai—"
 code0309        
 call            @Func_1c84
 call            @Func_1b92
@@ -386,7 +386,7 @@ goto            @Cond_1196
 
 @Cond_1196:
 jumpz           @Cond_11ec, ($b003 == 2)
-dialogtxt       "Tch… Murno is…"
+dialogtxt       "Tch... Murno is..."
 dialogtxt       "Hey, pick up the pace!"
 dialogtxt       "We gotta go!"
 goto            @Cond_11ec
@@ -405,11 +405,11 @@ code043c        0, 2
 code0479        1, 2, 15
 call            @Func_1be0
 jumpz           @Cond_1296, ($b002 == 0)
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_12b0
 
 @Cond_1296:
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_12b0
 
 @Label_12b0:

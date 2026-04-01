@@ -72,9 +72,9 @@ goto            @Cond_0298
 
 @Cond_0298:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "If I said I don't want to…"
+dialogtxt       "If I said I don't want to..."
 dialogtxt       "I suppose it wouldn't matter."
-dialogtxt       "Fine, I'll tag along…"
+dialogtxt       "Fine, I'll tag along..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Let's get on with it."
@@ -95,13 +95,13 @@ call            @Func_0df0
 jumpz           @Cond_042c, ($b002 == 0)
 dialogtxt       "Hmm, I wanted to make a new weapon,"
 dialogtxt       "and also have a match with Lemmy"
-dialogtxt       "and his Summon Beast…"
+dialogtxt       "and his Summon Beast..."
 goto            @Label_048e
 
 @Cond_042c:
 dialogtxt       "Hmm, I wanted to make a new weapon,"
 dialogtxt       "and also have a match with Lemmy"
-dialogtxt       "and his Summon Beast…"
+dialogtxt       "and his Summon Beast..."
 goto            @Label_048e
 
 @Label_048e:
@@ -142,7 +142,7 @@ goto            @Cond_05ae
 
 @Cond_05ae:
 jumpz           @Cond_05fa, ($b003 == 2)
-dialogtxt       "Tch… In other words,"
+dialogtxt       "Tch... In other words,"
 dialogtxt       "whatever randomly comes to mind."
 dialogtxt       "As always."
 goto            @Cond_05fa
@@ -203,7 +203,7 @@ goto            @Cond_07c0
 
 @Cond_07c0:
 jumpz           @Cond_07ec, ($b003 == 2)
-dialogtxt       "Fu…"
+dialogtxt       "Fu..."
 dialogtxt       "Whatever."
 goto            @Cond_07ec
 

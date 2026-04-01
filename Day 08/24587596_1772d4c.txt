@@ -44,7 +44,7 @@ code0309
 call            @Func_1294
 code0479        1, 0, 12
 call            @Func_12ca
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1300
 code0479        0, 1, 16
@@ -89,7 +89,7 @@ code0479        1, 2, 12
 call            @Func_12ca
 dialogtxt       "That it is."
 dialogtxt       "As the saying goes, listen twice"
-dialogtxt       "as much as you speak. Meaning…"
+dialogtxt       "as much as you speak. Meaning..."
 code0309        
 call            @Func_1300
 code0479        0, 0, 13
@@ -244,7 +244,7 @@ code0309
 call            @Func_1294
 code0479        1, 0, 12
 call            @Func_12ca
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1300
 code0479        0, 1, 16
@@ -289,7 +289,7 @@ code0479        1, 2, 12
 call            @Func_12ca
 dialogtxt       "That it is."
 dialogtxt       "As the saying goes, listen twice"
-dialogtxt       "as much as you speak. Meaning…"
+dialogtxt       "as much as you speak. Meaning..."
 code0309        
 call            @Func_1300
 code0479        0, 0, 13
@@ -414,9 +414,9 @@ code0479        1, 4, 14
 code047d        1, 107
 call            @Func_132e
 call            @Func_12ca
-dialogtxt       "I'm sorry…"
+dialogtxt       "I'm sorry..."
 dialogtxt       "I ask so much of you,"
-dialogtxt       "but I'm always so useless…"
+dialogtxt       "but I'm always so useless..."
 code047b        
 code0309        
 call            @Func_1300
@@ -496,7 +496,7 @@ code0479        1, 1, 12
 call            @Func_12ca
 dialogtxt       "Thank you,"
 dialogtxt       "[NAME 2],"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_139a
 call            @Func_12e8

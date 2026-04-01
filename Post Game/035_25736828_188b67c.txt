@@ -6,7 +6,7 @@ code0479        1, 0, 12
 code047d        1, 133
 call            @Func_0708
 call            @Func_0670
-dialogtxt       "Hm…"
+dialogtxt       "Hm..."
 code047b        
 code0309        
 call            @Func_075e

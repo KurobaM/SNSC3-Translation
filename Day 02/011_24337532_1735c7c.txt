@@ -73,11 +73,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0350, ($b002 == 0)
-dialogtxt       "Nothing to do here…"
+dialogtxt       "Nothing to do here..."
 goto            @Label_036e
 
 @Cond_0350:
-dialogtxt       "I have nothing to do here…"
+dialogtxt       "I have nothing to do here..."
 goto            @Label_036e
 
 @Label_036e:

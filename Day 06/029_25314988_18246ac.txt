@@ -40,14 +40,14 @@ code047d        1, 2
 call            @Func_0f52
 call            @Func_0e4e
 jumpz           @Cond_01ea, ($b002 == 0)
-dialogtxt       "Brr…"
-dialogtxt       "It's cold in here…"
+dialogtxt       "Brr..."
+dialogtxt       "It's cold in here..."
 dialogtxt       "Is it because of the water?"
 goto            @Label_0220
 
 @Cond_01ea:
-dialogtxt       "Brr…"
-dialogtxt       "It's cold in here…"
+dialogtxt       "Brr..."
+dialogtxt       "It's cold in here..."
 dialogtxt       "Is it because of the water?"
 goto            @Label_0220
 
@@ -97,7 +97,7 @@ call            @Func_0ea2
 code0479        1, 0, 12
 call            @Func_0ed8
 dialogtxt       "You May Understand, But You Must"
-dialogtxt       "Also Show That In Your Actions…"
+dialogtxt       "Also Show That In Your Actions..."
 code0309        
 call            @Func_0f0e
 code0479        0, 1, 17
@@ -115,7 +115,7 @@ goto            @Cond_0420
 
 @Cond_0420:
 jumpz           @Cond_0578, ($b003 == 1)
-dialogtxt       "I can feel an unpleasant presence…"
+dialogtxt       "I can feel an unpleasant presence..."
 dialogtxt       "Be cautious."
 code0309        
 call            @Func_0f0e
@@ -152,9 +152,9 @@ goto            @Cond_0578
 
 @Cond_0578:
 jumpz           @Cond_0708, ($b003 == 2)
-dialogtxt       "What the? This energy…"
+dialogtxt       "What the? This energy..."
 dialogtxt       "An unpleasant aura"
-dialogtxt       "different from yours…"
+dialogtxt       "different from yours..."
 code0309        
 call            @Func_0f0e
 code0479        0, 2, 14
@@ -214,7 +214,7 @@ code0309
 call            @Func_0ea2
 code0479        1, 5, 17
 call            @Func_0ed8
-dialogtxt       "I-I never said that."
+dialogtxt       "I—I never said that."
 dialogtxt       "Just that it's unpleasant."
 dialogtxt       "Anyway, please be careful!"
 code0309        

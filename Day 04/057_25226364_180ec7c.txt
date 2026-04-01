@@ -14,7 +14,7 @@ code0482
 code047d        0, 107
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 dialogtxt       "There you are."
 code0309        
 code047e        0, 0
@@ -52,9 +52,9 @@ code0309
 call            @Func_0efe
 code0479        0, 4, 16
 call            @Func_0e5c
-dialogtxt       "Ah, sorry…"
+dialogtxt       "Ah, sorry..."
 dialogtxt       "I took a walk, and just"
-dialogtxt       "ended up here…"
+dialogtxt       "ended up here..."
 code0309        
 code0479        0, 2, 14
 code0479        1, 0, 12
@@ -74,25 +74,25 @@ call            @Func_0e92
 code0479        0, 2, 14
 code0479        1, 0, 12
 call            @Func_0ec8
-dialogtxt       "I wonder…"
+dialogtxt       "I wonder..."
 dialogtxt       "That Bostaph person is"
-dialogtxt       "searching for me too…"
+dialogtxt       "searching for me too..."
 code0309        
 code0479        1, 4, 13
 dialogtxt       "He'd be surprised if he knew"
-dialogtxt       "I was this close…"
+dialogtxt       "I was this close..."
 code0309        
 call            @Func_0efe
 code0479        0, 2, 15
 call            @Func_0e5c
 jumpz           @Cond_04f4, ($b002 == 0)
-dialogtxt       "Murno…!"
+dialogtxt       "Murno...!"
 dialogtxt       "Are you sure you don't"
 dialogtxt       "want to leave town?"
 goto            @Label_0530
 
 @Cond_04f4:
-dialogtxt       "Murno…!"
+dialogtxt       "Murno...!"
 dialogtxt       "Are you sure you don't"
 dialogtxt       "want to leave town?"
 goto            @Label_0530
@@ -102,49 +102,49 @@ code0309
 call            @Func_0e92
 code0479        1, 2, 16
 call            @Func_0ec8
-dialogtxt       "But, I…"
+dialogtxt       "But, I..."
 dialogtxt       "There are still things"
-dialogtxt       "I must do here…"
+dialogtxt       "I must do here..."
 code0309        
 call            @Func_0efe
 code0479        0, 5, 16
 call            @Func_0e5c
-dialogtxt       "Like what…?"
+dialogtxt       "Like what...?"
 code0309        
 call            @Func_0e92
 code0479        1, 4, 12
 call            @Func_0ec8
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0efe
 code0479        0, 4, 12
 call            @Func_0e5c
-dialogtxt       "So it's a secret…"
+dialogtxt       "So it's a secret..."
 dialogtxt       "Well, no different from the"
 dialogtxt       "usual."
 code0309        
 call            @Func_0e92
 code0479        1, 5, 17
 call            @Func_0ec8
-dialogtxt       "That's…!"
+dialogtxt       "That's...!"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "…"
-dialogtxt       "I'm sorry…"
+dialogtxt       "..."
+dialogtxt       "I'm sorry..."
 code0309        
 call            @Func_0efe
 code0479        0, 5, 15
 call            @Func_0e5c
 jumpz           @Cond_06f0, ($b002 == 0)
-dialogtxt       "Ah…"
-dialogtxt       "No, I'm sorry…"
-dialogtxt       "I shouldn't have said that…"
+dialogtxt       "Ah..."
+dialogtxt       "No, I'm sorry..."
+dialogtxt       "I shouldn't have said that..."
 goto            @Label_072c
 
 @Cond_06f0:
-dialogtxt       "Ah…"
-dialogtxt       "No, I'm sorry…"
-dialogtxt       "I shouldn't have said that…"
+dialogtxt       "Ah..."
+dialogtxt       "No, I'm sorry..."
+dialogtxt       "I shouldn't have said that..."
 goto            @Label_072c
 
 @Label_072c:
@@ -152,41 +152,41 @@ code0309
 call            @Func_0e92
 code0479        1, 4, 13
 call            @Func_0ec8
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "It's not your fault, [NAME 2]."
-dialogtxt       "I'm the one to blame…"
+dialogtxt       "I'm the one to blame..."
 code0309        
 call            @Func_0efe
 code0479        1, 4, 12
 code0479        0, 2, 16
 call            @Func_0e5c
 jumpz           @Cond_07e2, ($b002 == 0)
-dialogtxt       "Murno…"
-dialogtxt       "Just what did you…"
+dialogtxt       "Murno..."
+dialogtxt       "Just what did you..."
 goto            @Label_0806
 
 @Cond_07e2:
-dialogtxt       "Murno…"
-dialogtxt       "Just what did you…"
+dialogtxt       "Murno..."
+dialogtxt       "Just what did you..."
 goto            @Label_0806
 
 @Label_0806:
 code0309        
 code0479        0, 4, 12
-dialogtxt       "… No, it's nothing."
+dialogtxt       "... No, it's nothing."
 dialogtxt       "Shall we head back?"
 code0309        
 call            @Func_0e92
 code0479        1, 4, 16
 call            @Func_0ec8
-dialogtxt       "…"
-dialogtxt       "Okay…"
+dialogtxt       "..."
+dialogtxt       "Okay..."
 dialogtxt       "I'm sorry, [NAME 2]"
 code0309        
 call            @Func_0efe
 code0479        0, 4, 12
 call            @Func_0e5c
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0f98
 call            @Func_0e7a

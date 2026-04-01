@@ -7,7 +7,7 @@ code047d        1, 120
 call            @Func_2864
 call            @Func_27cc
 dialogtxt       "Damn!"
-dialogtxt       "These guys…"
+dialogtxt       "These guys..."
 code047b        
 code0309        
 call            @Func_28ba
@@ -41,7 +41,7 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_284e
 call            @Func_27cc
-dialogtxt       "Making a scene again…"
+dialogtxt       "Making a scene again..."
 code047b        
 code0309        
 call            @Func_2820
@@ -77,14 +77,14 @@ code0479        1, 2, 14
 call            @Func_2864
 call            @Func_27cc
 dialogtxt       "To think,"
-dialogtxt       "they've gotten this far…"
+dialogtxt       "they've gotten this far..."
 dialogtxt       "You'll pay for this."
 code047b        
 code0309        
 call            @Func_2820
 code0479        0, 0, 12
 call            @Func_277e
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes..."
 code0309        
 call            @Func_28ba
 call            @Func_279c
@@ -171,7 +171,7 @@ code0309
 call            @Func_2820
 code0479        0, 5, 17
 call            @Func_277e
-dialogtxt       "Y-You're wrong!"
+dialogtxt       "Y—You're wrong!"
 goto            @Label_092c
 
 @Label_092c:
@@ -367,13 +367,13 @@ call            @Func_27ea
 jumpz           @Cond_10e0, ($b002 == 0)
 dialogtxt       "Summon Beast's should stay quiet."
 dialogtxt       "Else I take this boy's"
-dialogtxt       "neck and…"
+dialogtxt       "neck and..."
 goto            @Label_113a
 
 @Cond_10e0:
 dialogtxt       "Summon Beast's should stay quiet."
 dialogtxt       "Else I take the lady's"
-dialogtxt       "neck and…"
+dialogtxt       "neck and..."
 goto            @Label_113a
 
 @Label_113a:
@@ -400,7 +400,7 @@ goto            @Label_11d2
 
 @Label_11d2:
 call            @Func_277e
-dialogtxt       "…!"
+dialogtxt       "...!"
 code0309        
 call            @Func_28ba
 call            @Func_279c
@@ -422,9 +422,9 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_284e
 call            @Func_27ea
-dialogtxt       "Let's see…"
+dialogtxt       "Let's see..."
 dialogtxt       "How about we exchange"
-dialogtxt       "Govan's Demon Stone for them…"
+dialogtxt       "Govan's Demon Stone for them..."
 code047b        
 code0309        
 call            @Func_28ba
@@ -561,8 +561,8 @@ code0479        1, 2, 12
 code047d        1, 116
 call            @Func_284e
 call            @Func_27cc
-dialogtxt       "This child…"
-dialogtxt       "Needs a little punishment…"
+dialogtxt       "This child..."
+dialogtxt       "Needs a little punishment..."
 code047b        
 code0309        
 call            @Func_2820
@@ -571,7 +571,7 @@ code0479        0, 2, 12
 code047d        0, 134
 call            @Func_2838
 call            @Func_277e
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 dialogtxt       "That's fine."
 dialogtxt       "Do as you please."
 code047b        

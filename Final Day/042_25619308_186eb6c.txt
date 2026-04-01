@@ -28,7 +28,7 @@ call            @Func_2300
 code043c        5, 1
 code0479        0, 2, 12
 call            @Func_225e
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 call            @Func_239a
 call            @Func_227c
@@ -106,7 +106,7 @@ code0479        1, 2, 12
 code047d        1, 115
 call            @Func_232e
 call            @Func_22ca
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 dialogtxt       "In the end, it's all about force."
 dialogtxt       "I'm fine with that though."
 code047b        
@@ -121,7 +121,7 @@ call            @Func_232e
 call            @Func_22ca
 dialogtxt       "As am I~"
 dialogtxt       "It's about time we get some stress"
-dialogtxt       "relief, and we owe these guys…"
+dialogtxt       "relief, and we owe these guys..."
 code047b        
 code0309        
 call            @Func_2300
@@ -141,7 +141,7 @@ call            @Func_232e
 call            @Func_22ca
 dialogtxt       "I bet they won't give up"
 dialogtxt       "until they end up dead."
-dialogtxt       "Let's go…!"
+dialogtxt       "Let's go...!"
 code047b        
 code0309        
 call            @Func_239a
@@ -242,9 +242,9 @@ code0309
 call            @Func_2294
 code0479        1, 4, 14
 call            @Func_22ca
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 dialogtxt       "But my father had a plan"
-dialogtxt       "and everything…"
+dialogtxt       "and everything..."
 code0309        
 call            @Func_236e
 call            @Func_2300
@@ -274,28 +274,28 @@ call            @Func_2318
 call            @Func_225e
 jumpz           @Cond_0e96, ($b003 == 0)
 dialogtxt       "Lord Wellman's Conduct Is Suspect."
-dialogtxt       "The Reason-"
+dialogtxt       "The Reason—"
 goto            @Cond_0e96
 
 @Cond_0e96:
 jumpz           @Cond_0efa, ($b003 == 1)
 dialogtxt       "However, Lord Wellman seems much"
 dialogtxt       "different from before!"
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0efa
 
 @Cond_0efa:
 jumpz           @Cond_0f62, ($b003 == 2)
 dialogtxt       "You should have noticed"
 dialogtxt       "Wellman acting strange."
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0f62
 
 @Cond_0f62:
 jumpz           @Cond_0fc0, ($b003 == 3)
 dialogtxt       "But something is strange"
 dialogtxt       "about Lord Wellman!"
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0fc0
 
 @Cond_0fc0:
@@ -375,7 +375,7 @@ code047d        1, 116
 call            @Func_232e
 call            @Func_22ac
 dialogtxt       "Well then,"
-dialogtxt       "time for a little fun…"
+dialogtxt       "time for a little fun..."
 code047b        
 code0309        
 call            @Func_2300
@@ -384,7 +384,7 @@ code0479        0, 2, 12
 code047d        0, 115
 call            @Func_2318
 call            @Func_225e
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "We'll teach you the true"
 dialogtxt       "meaning of fear!"
 code047b        
@@ -437,7 +437,7 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_2318
 call            @Func_2240
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "Ah, Bro!"
 code047b        
 code0309        
@@ -540,7 +540,7 @@ call            @Func_232e
 call            @Func_22ac
 dialogtxt       "We're counting on you, [NAME 2]."
 dialogtxt       "It's okay, you can do it!"
-dialogtxt       "Because you're…"
+dialogtxt       "Because you're..."
 code047b        
 code0309        
 code0479        1, 3, 15

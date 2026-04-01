@@ -12,7 +12,7 @@ call            @Func_0ef8
 call            @Func_0df4
 dialogtxt       "It seems the higher-ups at the"
 dialogtxt       "Gold Faction don't want to"
-dialogtxt       "meet with us anymore…"
+dialogtxt       "meet with us anymore..."
 code047b        
 code0309        
 call            @Func_0e48
@@ -22,13 +22,13 @@ call            @Func_0e7e
 jumpz           @Cond_0168, ($b002 == 0)
 dialogtxt       "Really."
 dialogtxt       "It's not like it's our fault"
-dialogtxt       "any of this happened…"
+dialogtxt       "any of this happened..."
 goto            @Label_01ac
 
 @Cond_0168:
 dialogtxt       "Really."
 dialogtxt       "It's not like it's our fault"
-dialogtxt       "any of this happened…"
+dialogtxt       "any of this happened..."
 goto            @Label_01ac
 
 @Label_01ac:
@@ -43,50 +43,50 @@ code0309
 code043c        2, 1
 code0479        1, 0, 16
 code0479        0, 4, 12
-dialogtxt       "We have a long way to go…"
-dialogtxt       "It's in a terrible state…"
-dialogtxt       "Sigh…"
+dialogtxt       "We have a long way to go..."
+dialogtxt       "It's in a terrible state..."
+dialogtxt       "Sigh..."
 code0309        
 call            @Func_0e48
 code0479        1, 4, 14
 call            @Func_0e7e
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 call            @Func_0eb4
 code0479        0, 4, 16
 call            @Func_0e12
 dialogtxt       "Thanks to the Demon Stone,"
-dialogtxt       "the villagers all…"
-dialogtxt       "I-"
+dialogtxt       "the villagers all..."
+dialogtxt       "I—"
 code0309        
 call            @Func_0e48
 code0479        1, 2, 15
 call            @Func_0e7e
 dialogtxt       "No!"
-dialogtxt       "It's not your fault…"
+dialogtxt       "It's not your fault..."
 dialogtxt       "Nor is it the Demon Stones!"
 code0309        
 code043c        2, 4
 code0479        1, 2, 16
 dialogtxt       "The real problem here is those"
-dialogtxt       "that attacked your village…"
+dialogtxt       "that attacked your village..."
 code0309        
 call            @Func_0eb4
 code0479        0, 4, 12
 call            @Func_0e12
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_0e48
 code0479        1, 0, 12
 call            @Func_0e7e
 jumpz           @Cond_0468, ($b002 == 0)
 dialogtxt       "And its because of the"
-dialogtxt       "Demon Stone that I met you, Murno…"
+dialogtxt       "Demon Stone that I met you, Murno..."
 goto            @Label_04ac
 
 @Cond_0468:
 dialogtxt       "And its because of the"
-dialogtxt       "Demon Stone that I met you, Murno…"
+dialogtxt       "Demon Stone that I met you, Murno..."
 goto            @Label_04ac
 
 @Label_04ac:
@@ -94,12 +94,12 @@ code0309
 call            @Func_0eb4
 code0479        0, 0, 16
 call            @Func_0e12
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "You're right…"
-dialogtxt       "I won't give up…"
-dialogtxt       "I have to be strong, like you…"
+dialogtxt       "You're right..."
+dialogtxt       "I won't give up..."
+dialogtxt       "I have to be strong, like you..."
 code0309        
 call            @Func_0e48
 code0479        1, 2, 12
@@ -172,9 +172,9 @@ code0479        1, 1, 12
 code0479        0, 6, 13
 call            @Func_0ef8
 call            @Func_0df4
-dialogtxt       "But I…"
-dialogtxt       "Don't mind that [NAME 2]…"
-dialogtxt       "Actually I…"
+dialogtxt       "But I..."
+dialogtxt       "Don't mind that [NAME 2]..."
+dialogtxt       "Actually I..."
 code047b        
 code0309        
 call            @Func_0f4e

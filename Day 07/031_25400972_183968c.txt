@@ -13,7 +13,7 @@ code0309
 call            @Func_074a
 call            @Func_06a8
 choicetxt       @Choice_00ea, "Ready!"
-choicetxt       @Choice_00fa, "I'm forgetting something…"
+choicetxt       @Choice_00fa, "I'm forgetting something..."
 choicewait      
 
 @Choice_00ea:

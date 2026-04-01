@@ -28,8 +28,8 @@ code0309
 call            @Func_2044
 code0479        1, 1, 12
 call            @Func_207a
-dialogtxt       "[NAME 2]…"
-dialogtxt       "Thank goodness…"
+dialogtxt       "[NAME 2]..."
+dialogtxt       "Thank goodness..."
 code0309        
 call            @Func_2134
 call            @Func_20b0
@@ -48,7 +48,7 @@ code047d        1, 135
 code0479        0, 0, 12
 call            @Func_20de
 call            @Func_207a
-dialogtxt       "It's my loss…"
+dialogtxt       "It's my loss..."
 dialogtxt       "Sorry for all the rude"
 dialogtxt       "things I said before."
 code047b        
@@ -81,7 +81,7 @@ code0309
 call            @Func_2044
 code0479        1, 0, 13
 call            @Func_207a
-dialogtxt       "Haha…"
+dialogtxt       "Haha..."
 dialogtxt       "Thank you."
 code0309        
 call            @Func_214a
@@ -221,7 +221,7 @@ code043c        0, 4
 code043c        1, 1
 code0479        0, 0, 16
 call            @Func_200e
-dialogtxt       "Now that I think about it…"
+dialogtxt       "Now that I think about it..."
 dialogtxt       "Just what are these Summon"
 dialogtxt       "Beasts protecting?"
 code0309        
@@ -247,15 +247,15 @@ code047d        0, 0
 call            @Func_20f4
 call            @Func_1ff0
 jumpz           @Cond_0b1a, ($b002 == 0)
-dialogtxt       "Magdrad…"
+dialogtxt       "Magdrad..."
 dialogtxt       "Could that be the Summon Beast"
-dialogtxt       "that was with Anise…?"
+dialogtxt       "that was with Anise...?"
 goto            @Label_0b62
 
 @Cond_0b1a:
-dialogtxt       "Magdrad…"
+dialogtxt       "Magdrad..."
 dialogtxt       "Could that be the Summon Beast"
-dialogtxt       "that was with Anise…?"
+dialogtxt       "that was with Anise...?"
 goto            @Label_0b62
 
 @Label_0b62:
@@ -295,7 +295,7 @@ code0479        1, 2, 14
 call            @Func_207a
 dialogtxt       "I believe I told you earlier."
 dialogtxt       "Anise took Magdrad"
-dialogtxt       "to protect this village…"
+dialogtxt       "to protect this village..."
 code0309        
 code0479        1, 4, 14
 dialogtxt       "I believe that even now."
@@ -303,7 +303,7 @@ code0309
 call            @Func_20b0
 code0479        0, 4, 16
 call            @Func_200e
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_2044
 code0479        1, 2, 16
@@ -508,20 +508,20 @@ goto            @Cond_1756
 
 @Cond_1756:
 jumpz           @Cond_17b0, ($b003 == 1)
-dialogtxt       "Once again she's…"
+dialogtxt       "Once again she's..."
 dialogtxt       "What are you doing, [NAME 2]!"
 dialogtxt       "We must hurry!"
 goto            @Cond_17b0
 
 @Cond_17b0:
 jumpz           @Cond_1802, ($b003 == 2)
-dialogtxt       "Tsk, again Murno is…"
+dialogtxt       "Tsk, again Murno is..."
 dialogtxt       "Hey, can't you move faster!?"
 goto            @Cond_1802
 
 @Cond_1802:
 jumpz           @Cond_185e, ($b003 == 3)
-dialogtxt       "Ahh… Lady Murno was…"
+dialogtxt       "Ahh... Lady Murno was..."
 dialogtxt       "[NAME 2]!"
 dialogtxt       "We should hurry!"
 goto            @Cond_185e
@@ -535,12 +535,12 @@ call            @Func_20c8
 call            @Func_200e
 jumpz           @Cond_18bc, ($b002 == 0)
 dialogtxt       "Again!?"
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 goto            @Label_18da
 
 @Cond_18bc:
-dialogtxt       "Again…"
-dialogtxt       "Ugh…"
+dialogtxt       "Again..."
+dialogtxt       "Ugh..."
 goto            @Label_18da
 
 @Label_18da:

@@ -36,8 +36,8 @@ dialogtxt       "Why are you here!?"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "… Wait, haven't I"
-dialogtxt       "said this before…"
+dialogtxt       "... Wait, haven't I"
+dialogtxt       "said this before..."
 goto            @Label_020e
 
 @Label_020e:
@@ -69,13 +69,13 @@ code0309
 call            @Func_13f0
 code0479        0, 4, 14
 call            @Func_134e
-dialogtxt       "Y-Yeah…"
+dialogtxt       "Y—Yeah..."
 jumpz           @Cond_038e, ($b002 == 0)
-dialogtxt       "We're fine, but Murno is…"
+dialogtxt       "We're fine, but Murno is..."
 goto            @Label_03be
 
 @Cond_038e:
-dialogtxt       "We're fine, but Murno is…"
+dialogtxt       "We're fine, but Murno is..."
 goto            @Label_03be
 
 @Label_03be:
@@ -96,7 +96,7 @@ code0479        0, 2, 16
 call            @Func_134e
 dialogtxt       "She's going to be food"
 dialogtxt       "for the Summon Beast"
-dialogtxt       "these people call their master…"
+dialogtxt       "these people call their master..."
 code0309        
 call            @Func_1474
 call            @Func_1384
@@ -144,14 +144,14 @@ call            @Func_1408
 call            @Func_134e
 jumpz           @Cond_0636, ($b003 == 0)
 dialogtxt       "Our Mission Is To"
-dialogtxt       "Protect Lady Murno…"
+dialogtxt       "Protect Lady Murno..."
 goto            @Cond_0636
 
 @Cond_0636:
 jumpz           @Cond_0688, ($b003 == 1)
 dialogtxt       "That's right."
 dialogtxt       "We made a promise"
-dialogtxt       "to protect her…"
+dialogtxt       "to protect her..."
 goto            @Cond_0688
 
 @Cond_0688:
@@ -163,7 +163,7 @@ goto            @Cond_06d4
 @Cond_06d4:
 jumpz           @Cond_0722, ($b003 == 3)
 dialogtxt       "But it's our duty to"
-dialogtxt       "protect her…"
+dialogtxt       "protect her..."
 goto            @Cond_0722
 
 @Cond_0722:
@@ -189,13 +189,13 @@ call            @Func_1434
 call            @Func_139c
 dialogtxt       "So let us take care of it."
 dialogtxt       "Please, don't make us"
-dialogtxt       "worry anymore…"
+dialogtxt       "worry anymore..."
 code047b        
 code0309        
 call            @Func_13f0
 code0479        0, 4, 14
 call            @Func_134e
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 code0479        0, 4, 14
 choicetxt       @Choice_0908, "Do as they say"
@@ -206,15 +206,15 @@ choicewait
 setvar          $f0144, 1
 code0479        0, 2, 14
 jumpz           @Cond_0980, ($b002 == 0)
-dialogtxt       "Okay… I'll go back…"
+dialogtxt       "Okay... I'll go back..."
 dialogtxt       "You have to protect her"
-dialogtxt       "in my place…"
+dialogtxt       "in my place..."
 goto            @Label_09cc
 
 @Cond_0980:
-dialogtxt       "Okay… I'll go back…"
+dialogtxt       "Okay... I'll go back..."
 dialogtxt       "You have to protect her"
-dialogtxt       "in my place…"
+dialogtxt       "in my place..."
 goto            @Label_09cc
 
 @Label_09cc:
@@ -235,14 +235,14 @@ call            @Func_141e
 call            @Func_13ba
 dialogtxt       "Leave the rest to us."
 dialogtxt       "This way you two won't have"
-dialogtxt       "to come here again…"
+dialogtxt       "to come here again..."
 code047b        
 code0309        
 call            @Func_13f0
 code0479        0, 2, 16
 call            @Func_134e
-dialogtxt       "Bro…"
-dialogtxt       "Master…"
+dialogtxt       "Bro..."
+dialogtxt       "Master..."
 code0309        
 code033a        113, 0
 setvar          $h136, 32767
@@ -278,9 +278,9 @@ call            @Func_141e
 call            @Func_13ba
 code0334        
 code0331        37, 256
-dialogtxt       "You guys…"
+dialogtxt       "You guys..."
 dialogtxt       "You really don't have"
-dialogtxt       "any faith in us…"
+dialogtxt       "any faith in us..."
 code047b        
 code0309        
 call            @Func_1474
@@ -293,20 +293,20 @@ code0479        0, 5, 14
 call            @Func_141e
 call            @Func_13ba
 dialogtxt       "Is it really that fun to"
-dialogtxt       "make us worry about you…?"
-dialogtxt       "Really, we're so miserable…"
+dialogtxt       "make us worry about you...?"
+dialogtxt       "Really, we're so miserable..."
 code047b        
 code0309        
 call            @Func_13f0
 code0479        0, 5, 17
 call            @Func_134e
-dialogtxt       "Th-That's not what I meant…"
+dialogtxt       "Th—That's not what I meant..."
 code0309        
 call            @Func_1384
 code0479        1, 2, 14
 call            @Func_13ba
 dialogtxt       "That kind of apprentice"
-dialogtxt       "must be punished…"
+dialogtxt       "must be punished..."
 code0309        
 call            @Func_148a
 call            @Func_13d8

@@ -49,7 +49,7 @@ code043c        3, 2
 code0479        1, 5, 17
 call            @Func_1956
 call            @Func_18f2
-dialogtxt       "… Hey, you're not coming with us!"
+dialogtxt       "... Hey, you're not coming with us!"
 code047b        
 code0309        
 call            @Func_1928
@@ -81,7 +81,7 @@ code0309
 call            @Func_1928
 code0479        0, 2, 16
 call            @Func_1886
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "Fine, I'm going out then."
 code0309        
 call            @Func_19c2
@@ -95,7 +95,7 @@ code0479        1, 5, 16
 call            @Func_1956
 call            @Func_18d4
 dialogtxt       "Ah, hey,"
-dialogtxt       "wait…"
+dialogtxt       "wait..."
 code0309        
 call            @Func_19ac
 call            @Func_1910
@@ -270,7 +270,7 @@ code0479        0, 2, 14
 code047d        0, 110
 call            @Func_1940
 call            @Func_1868
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1996

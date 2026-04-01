@@ -83,7 +83,7 @@ call            @Func_0d9a
 call            @Func_0d36
 dialogtxt       "[NAME 2]!"
 dialogtxt       "[NAME 1]!"
-dialogtxt       "I'm so glad you're okay…"
+dialogtxt       "I'm so glad you're okay..."
 code047b        
 code0309        
 call            @Func_0df0

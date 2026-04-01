@@ -111,7 +111,7 @@ code040d        30
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 code047e        0, 0
@@ -181,7 +181,7 @@ code048c
 code0479        0, 4, 14
 call            @Func_1c34
 call            @Func_1b5c
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 code047b        
 code0309        
 call            @Func_1bb0
@@ -190,7 +190,7 @@ code0479        1, 1, 13
 code047d        1, 134
 call            @Func_1c4a
 call            @Func_1be6
-dialogtxt       "Hahaha…"
+dialogtxt       "Hahaha..."
 dialogtxt       "They've already forgotten"
 dialogtxt       "who you are."
 code0309        
@@ -205,12 +205,12 @@ code047b
 code0479        0, 4, 15
 call            @Func_1b7a
 jumpz           @Cond_08f6, ($b002 == 0)
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "That's a lie, right, [NAME 1]!"
 goto            @Label_092a
 
 @Cond_08f6:
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "That's a lie, right, [NAME 1]!"
 goto            @Label_092a
 
@@ -242,7 +242,7 @@ goto            @Label_09d4
 code047d        1, 2
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -250,13 +250,13 @@ code0479        0, 4, 16
 call            @Func_1c34
 call            @Func_1b7a
 jumpz           @Cond_0a78, ($b002 == 0)
-dialogtxt       "Crap…"
-dialogtxt       "What should I do…"
+dialogtxt       "Crap..."
+dialogtxt       "What should I do..."
 goto            @Label_0aae
 
 @Cond_0a78:
-dialogtxt       "Then…"
-dialogtxt       "What should I do…"
+dialogtxt       "Then..."
+dialogtxt       "What should I do..."
 goto            @Label_0aae
 
 @Label_0aae:
@@ -368,13 +368,13 @@ call            @Func_1b7a
 jumpz           @Cond_1042, ($b002 == 0)
 dialogtxt       "Even if you say that,"
 dialogtxt       "[NAME 1] doesn't"
-dialogtxt       "recognize me anymore…"
+dialogtxt       "recognize me anymore..."
 goto            @Label_1090
 
 @Cond_1042:
 dialogtxt       "Even if you say that,"
 dialogtxt       "[NAME 1] doesn't"
-dialogtxt       "recognize me anymore…"
+dialogtxt       "recognize me anymore..."
 goto            @Label_1090
 
 @Label_1090:
@@ -382,13 +382,13 @@ code0309
 call            @Func_1bb0
 code0479        1, 2, 16
 call            @Func_1be6
-dialogtxt       "How pathetic…"
+dialogtxt       "How pathetic..."
 dialogtxt       "Have more faith in [NAME 1]."
 code0309        
 call            @Func_1c1c
 code0479        0, 5, 16
 call            @Func_1b7a
-dialogtxt       "Faith… In [NAME 1]?"
+dialogtxt       "Faith... In [NAME 1]?"
 code0309        
 call            @Func_1bb0
 code0479        1, 2, 12
@@ -400,7 +400,7 @@ code0309
 call            @Func_1c1c
 code0479        0, 4, 14
 call            @Func_1b7a
-dialogtxt       "That's true, but-"
+dialogtxt       "That's true, but—"
 code0309        
 call            @Func_1bb0
 code0479        1, 2, 15
@@ -412,9 +412,9 @@ call            @Func_1c1c
 code0479        0, 5, 13
 call            @Func_1b7a
 jumpz           @Cond_12e2, ($b002 == 0)
-dialogtxt       "I'm… a Craftknight…"
-dialogtxt       "…"
-dialogtxt       "Heh, so that's it…"
+dialogtxt       "I'm... a Craftknight..."
+dialogtxt       "..."
+dialogtxt       "Heh, so that's it..."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "I understand now, Master."
@@ -423,9 +423,9 @@ dialogtxt       "[NAME 1] snap out of it."
 goto            @Label_136e
 
 @Cond_12e2:
-dialogtxt       "I'm… A Craftknight…"
-dialogtxt       "…"
-dialogtxt       "Ahah, so that's it…"
+dialogtxt       "I'm... A Craftknight..."
+dialogtxt       "..."
+dialogtxt       "Ahah, so that's it..."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "I understand now, Master."
@@ -476,7 +476,7 @@ code033e        396
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        0, 0
 code0302        7

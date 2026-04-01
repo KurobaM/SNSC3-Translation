@@ -333,7 +333,7 @@ code040b
 
 @Talk_0d70:
 code0301        8, 7
-dialogtxt       "Purr…"
+dialogtxt       "Purr..."
 code0309        
 code0302        7
 code040b        

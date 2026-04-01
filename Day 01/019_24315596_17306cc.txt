@@ -352,7 +352,7 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "My, a hammer and a Summon Beast…"
+dialogtxt       "My, a hammer and a Summon Beast..."
 dialogtxt       "You must be a Craftknight."
 code0309        
 dialogtxt       "I'm a traveling peddler."
@@ -460,9 +460,9 @@ code0445        17, 5
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "You don't have enough money…"
+dialogtxt       "You don't have enough money..."
 dialogtxt       "Negotiations have broken down,"
-dialogtxt       "I think…"
+dialogtxt       "I think..."
 code0309		
 goto            @Label_15b8
 
@@ -470,7 +470,7 @@ goto            @Choice_1516
 
 @Choice_1516:
 code047e        0, 1
-dialogtxt       "… Wait?"
+dialogtxt       "... Wait?"
 dialogtxt       "You're not buying?"
 dialogtxt       "After all that!?"
 code0309        
@@ -487,9 +487,9 @@ goto            @Choice_1568
 
 @Choice_1568:
 code047e        0, 1
-dialogtxt       "Oh…"
-dialogtxt       "I thought you were a customer…"
-dialogtxt       "Sorry…"
+dialogtxt       "Oh..."
+dialogtxt       "I thought you were a customer..."
+dialogtxt       "Sorry..."
 code0309        
 @Label_15b8:
 code047e        0, 0

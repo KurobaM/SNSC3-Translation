@@ -40,19 +40,19 @@ goto            @Cond_018a
 
 @Cond_018a:
 jumpz           @Cond_01aa, ($b003 == 1)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Cond_01aa
 
 @Cond_01aa:
 jumpz           @Cond_01d4, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "That's…"
+dialogtxt       "Tch..."
+dialogtxt       "That's..."
 goto            @Cond_01d4
 
 @Cond_01d4:
 jumpz           @Cond_01fc, ($b003 == 3)
 dialogtxt       "[NAME 2]."
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Cond_01fc
 
 @Cond_01fc:
@@ -73,7 +73,7 @@ call            @Func_12ba
 call            @Func_11e2
 dialogtxt       "What is that guy doing!"
 dialogtxt       "It's way past time to"
-dialogtxt       "change shifts! Damn it…"
+dialogtxt       "change shifts! Damn it..."
 code047b        
 code0309        
 call            @Func_1310
@@ -148,7 +148,7 @@ goto            @Label_05fe
 code047d        0, 2
 call            @Func_12e6
 call            @Func_124e
-dialogtxt       "That must be…"
+dialogtxt       "That must be..."
 dialogtxt       "I knew they were here!"
 dialogtxt       "Their hideout must be nearby!"
 code047b        
@@ -190,15 +190,15 @@ goto            @Cond_07a4
 
 @Cond_07a4:
 jumpz           @Cond_07e2, ($b003 == 2)
-dialogtxt       "You…"
+dialogtxt       "You..."
 dialogtxt       "And what about the guard?"
 goto            @Cond_07e2
 
 @Cond_07e2:
 jumpz           @Cond_082a, ($b003 == 3)
-dialogtxt       "Uu…"
+dialogtxt       "Uu..."
 dialogtxt       "But there's still a strong-looking"
-dialogtxt       "Summon Beast there…"
+dialogtxt       "Summon Beast there..."
 goto            @Cond_082a
 
 @Cond_082a:

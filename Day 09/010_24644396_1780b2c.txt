@@ -255,7 +255,7 @@ code047d        0, 122
 code047e        0, 1
 dialogtxt       "We've been trying to"
 dialogtxt       "live our lives peacefully,"
-dialogtxt       "but that girl…"
+dialogtxt       "but that girl..."
 code0309        
 dialogtxt       "I hope nothing like that"
 dialogtxt       "incident will happen again."

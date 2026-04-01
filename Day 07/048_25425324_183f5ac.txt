@@ -14,7 +14,7 @@ code0482
 code047d        0, 108
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "Geez…"
+dialogtxt       "Geez..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -83,13 +83,13 @@ call            @Func_110a
 jumpz           @Cond_04ec, ($b002 == 0)
 dialogtxt       "It's fine, it's for Murno."
 dialogtxt       "It's thanks to that energy"
-dialogtxt       "I can patrol like this…"
+dialogtxt       "I can patrol like this..."
 goto            @Label_0544
 
 @Cond_04ec:
 dialogtxt       "It's fine, it's for Murno."
 dialogtxt       "It's thanks to that energy"
-dialogtxt       "I can patrol like this…"
+dialogtxt       "I can patrol like this..."
 goto            @Label_0544
 
 @Label_0544:
@@ -97,9 +97,9 @@ code0309
 call            @Func_1140
 code0479        1, 0, 16
 call            @Func_1176
-dialogtxt       "Patrolling…"
+dialogtxt       "Patrolling..."
 dialogtxt       "Are you looking for that"
-dialogtxt       "Anise girl's comrades…?"
+dialogtxt       "Anise girl's comrades...?"
 code0309        
 call            @Func_11ac
 code0479        0, 2, 17
@@ -131,12 +131,12 @@ code0479        0, 4, 16
 call            @Func_110a
 jumpz           @Cond_0736, ($b002 == 0)
 dialogtxt       "Ehhh?"
-dialogtxt       "But, even I…"
+dialogtxt       "But, even I..."
 goto            @Label_075a
 
 @Cond_0736:
 dialogtxt       "Ehhh?"
-dialogtxt       "But, even I…"
+dialogtxt       "But, even I..."
 goto            @Label_075a
 
 @Label_075a:
@@ -173,8 +173,8 @@ call            @Func_11ac
 code0479        1, 2, 14
 code0479        0, 4, 16
 call            @Func_110a
-dialogtxt       "Th-That…"
-dialogtxt       "Sorry…"
+dialogtxt       "Th—That..."
+dialogtxt       "Sorry..."
 code0309        
 call            @Func_1140
 code0479        1, 0, 16
@@ -187,15 +187,15 @@ call            @Func_11ac
 code0479        0, 4, 14
 call            @Func_110a
 jumpz           @Cond_0a02, ($b002 == 0)
-dialogtxt       "Uu…"
+dialogtxt       "Uu..."
 dialogtxt       "I feel like I won't be able"
-dialogtxt       "to fall asleep if I do that…"
+dialogtxt       "to fall asleep if I do that..."
 goto            @Label_0a40
 
 @Cond_0a02:
-dialogtxt       "Uu…"
+dialogtxt       "Uu..."
 dialogtxt       "I feel like I won't be able"
-dialogtxt       "to fall asleep if I do that…"
+dialogtxt       "to fall asleep if I do that..."
 goto            @Label_0a40
 
 @Label_0a40:
@@ -211,13 +211,13 @@ call            @Func_11ac
 code0479        0, 1, 16
 call            @Func_110a
 jumpz           @Cond_0b1a, ($b002 == 0)
-dialogtxt       "Ugh…"
-dialogtxt       "That just makes it worse…"
+dialogtxt       "Ugh..."
+dialogtxt       "That just makes it worse..."
 goto            @Label_0b4c
 
 @Cond_0b1a:
-dialogtxt       "Ugh…"
-dialogtxt       "That just makes it worse…"
+dialogtxt       "Ugh..."
+dialogtxt       "That just makes it worse..."
 goto            @Label_0b4c
 
 @Label_0b4c:

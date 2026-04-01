@@ -27,12 +27,12 @@ call            @Func_0918
 code0479        0, 0, 13
 call            @Func_0876
 jumpz           @Cond_0158, ($b002 == 0)
-dialogtxt       "Thank goodness…"
+dialogtxt       "Thank goodness..."
 dialogtxt       "Everyone was worried."
 goto            @Label_0180
 
 @Cond_0158:
-dialogtxt       "Thank goodness…"
+dialogtxt       "Thank goodness..."
 dialogtxt       "Everyone was worried."
 goto            @Label_0180
 
@@ -41,8 +41,8 @@ code0309
 call            @Func_08ac
 code0479        1, 4, 16
 call            @Func_08e2
-dialogtxt       "Ah, yeah…"
-dialogtxt       "Sorry…"
+dialogtxt       "Ah, yeah..."
+dialogtxt       "Sorry..."
 code0309        
 call            @Func_0918
 code0479        0, 0, 12

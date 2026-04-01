@@ -1,6 +1,6 @@
 code0304        1
 dialogtxt       "In the end, Anise was"
-dialogtxt       "nowhere to be found…"
+dialogtxt       "nowhere to be found..."
 code030a        6, 1
 code0304        0
 code048b        136, 112, 32
@@ -18,13 +18,13 @@ code047d        1, 0
 call            @Func_1640
 call            @Func_15be
 jumpz           @Cond_0130, ($b002 == 0)
-dialogtxt       "Dang it…"
-dialogtxt       "We let our guard down…"
+dialogtxt       "Dang it..."
+dialogtxt       "We let our guard down..."
 goto            @Label_0152
 
 @Cond_0130:
-dialogtxt       "Sigh…"
-dialogtxt       "We let our guard down…"
+dialogtxt       "Sigh..."
+dialogtxt       "We let our guard down..."
 goto            @Label_0152
 
 @Label_0152:
@@ -54,7 +54,7 @@ code0309
 call            @Func_15a6
 code0479        1, 4, 16
 call            @Func_15dc
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_16ac
 call            @Func_15fa
@@ -78,7 +78,7 @@ dialogtxt       "Yes, it's just like the one in"
 dialogtxt       "my village."
 code0309        
 dialogtxt       "Its mysterious power, and influence"
-dialogtxt       "over Summons…"
+dialogtxt       "over Summons..."
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 14
@@ -89,12 +89,12 @@ code0309
 code0479        1, 2, 16
 dialogtxt       "That power is the same as"
 dialogtxt       "what [NAME 1] sensed when"
-dialogtxt       "we ran from our village…"
+dialogtxt       "we ran from our village..."
 code0309        
 code0479        1, 4, 14
 dialogtxt       "Maybe we really shouldn't have"
 dialogtxt       "taken the Demon Stone outside"
-dialogtxt       "the village…"
+dialogtxt       "the village..."
 code0309        
 call            @Func_1680
 call            @Func_1612
@@ -125,7 +125,7 @@ code047d        0, 2
 call            @Func_162a
 call            @Func_1570
 jumpz           @Cond_05d8, ($b003 == 0)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_05d8
 
 @Cond_05d8:
@@ -140,7 +140,7 @@ goto            @Cond_0618
 
 @Cond_0618:
 jumpz           @Cond_063c, ($b003 == 3)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_063c
 
 @Cond_063c:
@@ -178,13 +178,13 @@ call            @Func_162a
 call            @Func_1570
 dialogtxt       "Those people wanted the"
 dialogtxt       "Demon Stone so much, and"
-dialogtxt       "I didn't know anything about it…"
+dialogtxt       "I didn't know anything about it..."
 code047b        
 code0309        
 code0479        0, 4, 16
-dialogtxt       "My father told me to protect it…"
+dialogtxt       "My father told me to protect it..."
 dialogtxt       "That I musn't let anyone else"
-dialogtxt       "have it…"
+dialogtxt       "have it..."
 code0309        
 call            @Func_1680
 call            @Func_15a6
@@ -206,16 +206,16 @@ code0479        1, 2, 14
 code0479        0, 2, 16
 dialogtxt       "That is why stories of the Demon"
 dialogtxt       "Stone are told here. But all we know"
-dialogtxt       "is that it possesses great power…"
+dialogtxt       "is that it possesses great power..."
 code0309        
 code0479        0, 2, 14
 dialogtxt       "So I think this is all Anise"
-dialogtxt       "knows as well…"
+dialogtxt       "knows as well..."
 code0309        
 call            @Func_15a6
 code0479        1, 2, 16
 call            @Func_15dc
-dialogtxt       "Erm…"
+dialogtxt       "Erm..."
 jumpz           @Cond_0a64, ($b002 == 0)
 dialogtxt       "So if we put it back, will everything"
 dialogtxt       "return to normal?"
@@ -285,7 +285,7 @@ goto            @Label_0ce6
 @Label_0ce6:
 code0309        
 code0479        1, 2, 14
-dialogtxt       "What about your village's secret…?"
+dialogtxt       "What about your village's secret...?"
 code0309        
 call            @Func_1612
 code0479        0, 1, 12

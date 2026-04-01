@@ -42,12 +42,12 @@ call            @Func_0bca
 code0479        0, 2, 14
 call            @Func_0b28
 jumpz           @Cond_023c, ($b002 == 0)
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "You mean, alone?"
 goto            @Label_0268
 
 @Cond_023c:
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "You mean, alone?"
 goto            @Label_0268
 
@@ -81,24 +81,24 @@ call            @Func_0be2
 call            @Func_0b28
 jumpz           @Cond_036a, ($b003 == 0)
 dialogtxt       "I Judge His Actions"
-dialogtxt       "To Be Reckless…"
+dialogtxt       "To Be Reckless..."
 goto            @Cond_036a
 
 @Cond_036a:
 jumpz           @Cond_03bc, ($b003 == 1)
 dialogtxt       "Being so reckless!"
-dialogtxt       "Like a moth to the flame…"
+dialogtxt       "Like a moth to the flame..."
 goto            @Cond_03bc
 
 @Cond_03bc:
 jumpz           @Cond_03ee, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "He doesn't know his place…"
+dialogtxt       "Tch..."
+dialogtxt       "He doesn't know his place..."
 goto            @Cond_03ee
 
 @Cond_03ee:
 jumpz           @Cond_041e, ($b003 == 3)
-dialogtxt       "No… Zakk!"
+dialogtxt       "No... Zakk!"
 goto            @Cond_041e
 
 @Cond_041e:

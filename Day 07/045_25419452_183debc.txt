@@ -10,7 +10,7 @@ dialogtxt       "for Louise Village."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "They must be hiding somewhere…"
+dialogtxt       "They must be hiding somewhere..."
 code0309        
 goto            @Label_018e
 
@@ -21,7 +21,7 @@ dialogtxt       "for Louise Village."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "They must be hiding somewhere…"
+dialogtxt       "They must be hiding somewhere..."
 code0309        
 goto            @Label_018e
 
@@ -37,7 +37,7 @@ call            @Func_08fc
 call            @Func_0824
 dialogtxt       "Huh?"
 dialogtxt       "Someone's coming."
-dialogtxt       "It looks like…"
+dialogtxt       "It looks like..."
 code0309        
 call            @Func_0952
 call            @Func_0860

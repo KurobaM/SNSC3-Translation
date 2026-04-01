@@ -14,22 +14,22 @@ code0479        1, 5, 17
 code047d        1, 108
 call            @Func_11ec
 call            @Func_1154
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 code047b        
 code0309        
 call            @Func_11a8
 code0479        0, 4, 16
 call            @Func_1106
 jumpz           @Cond_0132, ($b002 == 0)
-dialogtxt       "Uwah…"
-dialogtxt       "Sorry, Master…"
-dialogtxt       "I broke it again…"
+dialogtxt       "Uwah..."
+dialogtxt       "Sorry, Master..."
+dialogtxt       "I broke it again..."
 goto            @Label_0172
 
 @Cond_0132:
-dialogtxt       "Uwah…"
-dialogtxt       "Sorry, Master…"
-dialogtxt       "I broke it again…"
+dialogtxt       "Uwah..."
+dialogtxt       "Sorry, Master..."
+dialogtxt       "I broke it again..."
 goto            @Label_0172
 
 @Label_0172:
@@ -37,14 +37,14 @@ code0309
 call            @Func_113c
 code0479        1, 2, 14
 call            @Func_1172
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_11a8
 code0479        0, 4, 17
 call            @Func_1106
-dialogtxt       "Uu…!"
-dialogtxt       "Um……!!!"
-dialogtxt       "I………!!!"
+dialogtxt       "Uu...!"
+dialogtxt       "Um......!!!"
+dialogtxt       "I.........!!!"
 code0309        
 call            @Func_1242
 call            @Func_1124
@@ -59,7 +59,7 @@ code0479        1, 7, 13
 call            @Func_11ec
 call            @Func_1154
 dialogtxt       "You've gotten much better,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 code0479        0, 0, 16
@@ -85,14 +85,14 @@ code0479        1, 0, 12
 call            @Func_11ec
 call            @Func_10e8
 jumpz           @Cond_03e4, ($b002 == 0)
-dialogtxt       "I…"
-dialogtxt       "I won…"
+dialogtxt       "I..."
+dialogtxt       "I won..."
 dialogtxt       "I really won!"
 goto            @Label_0412
 
 @Cond_03e4:
-dialogtxt       "I…"
-dialogtxt       "I won…"
+dialogtxt       "I..."
+dialogtxt       "I won..."
 dialogtxt       "I really won!"
 goto            @Label_0412
 
@@ -103,7 +103,7 @@ call            @Func_113c
 code0479        1, 7, 13
 call            @Func_1172
 dialogtxt       "You've gotten much better,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 12
@@ -117,8 +117,8 @@ goto            @Label_04da
 @Label_04da:
 code0479        0, 5, 12
 call            @Func_1106
-dialogtxt       "Ah…"
-dialogtxt       "Master…"
+dialogtxt       "Ah..."
+dialogtxt       "Master..."
 dialogtxt       "Thank you!"
 code0309        
 call            @Func_113c
@@ -131,8 +131,8 @@ code0309
 call            @Func_11a8
 code0479        0, 4, 14
 call            @Func_1106
-dialogtxt       "That's right…"
-dialogtxt       "[NAME 1] is…"
+dialogtxt       "That's right..."
+dialogtxt       "[NAME 1] is..."
 code0309        
 call            @Func_113c
 code0479        1, 4, 12
@@ -148,7 +148,7 @@ code0309
 call            @Func_11a8
 code0479        0, 5, 16
 call            @Func_1106
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Yes!"
@@ -169,7 +169,7 @@ call            @Func_11a8
 code0333        2, 30
 code0479        0, 2, 16
 call            @Func_1106
-dialogtxt       "Second master…"
+dialogtxt       "Second master..."
 code0309        
 call            @Func_113c
 code0334        

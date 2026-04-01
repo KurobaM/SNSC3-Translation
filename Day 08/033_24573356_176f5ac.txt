@@ -395,13 +395,13 @@ dialogtxt       "gain the ability 100 Fists."
 code0309        
 dialogtxt       "But this will only work with"
 dialogtxt       "Knuckle type weapons. As for what"
-dialogtxt       "you get with other weapon types…"
+dialogtxt       "you get with other weapon types..."
 code0309        
 dialogtxt       "Buy the materials, and try it out~"
 code0309        
 dialogtxt       "But hey, get this, right now"
 dialogtxt       "I'm selling both materials for"
-dialogtxt       "an amazing…1200 Boam!"
+dialogtxt       "an amazing...1200 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        
@@ -463,7 +463,7 @@ goto            @Choice_137e
 code047e        0, 1
 dialogtxt       "Whaaat? You're not interested?!"
 dialogtxt       "Just when I thought"
-dialogtxt       "I finally had a customer…"
+dialogtxt       "I finally had a customer..."
 code0309        
 @Label_13ce:
 code047e        0, 0
@@ -472,7 +472,7 @@ code040b
 
 @Talk_13e6:
 code0301        8, 7
-dialogtxt       "Miiii…"
+dialogtxt       "Miiii..."
 code0309        
 code0302        7
 code040b        

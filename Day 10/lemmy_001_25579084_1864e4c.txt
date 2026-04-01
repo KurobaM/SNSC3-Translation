@@ -61,7 +61,7 @@ code0309
 call            @Func_1612
 code0479        0, 2, 14
 call            @Func_1570
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_16ac
 call            @Func_158e
@@ -118,7 +118,7 @@ call            @Func_15be
 jumpz           @Cond_0688, ($b002 == 0)
 dialogtxt       "Ah, no, nothing."
 dialogtxt       "But hey, if she's that"
-dialogtxt       "worried about you…"
+dialogtxt       "worried about you..."
 code047b        
 code0309        
 code0479        1, 4, 16
@@ -127,9 +127,9 @@ dialogtxt       "didn't come to Murno's village?"
 goto            @Label_0726
 
 @Cond_0688:
-dialogtxt       "S-Sorry…"
+dialogtxt       "S—Sorry..."
 dialogtxt       "But you know, your mom"
-dialogtxt       "is so worried about you…"
+dialogtxt       "is so worried about you..."
 code047b        
 code0309        
 code0479        1, 4, 16
@@ -149,7 +149,7 @@ code0309
 code0479        1, 0, 16
 code0479        0, 2, 17
 dialogtxt       "She doesn't know just how"
-dialogtxt       "much I've changed…"
+dialogtxt       "much I've changed..."
 code0309        
 call            @Func_15a6
 code0479        1, 0, 14
@@ -181,13 +181,13 @@ call            @Func_15dc
 jumpz           @Cond_09da, ($b002 == 0)
 dialogtxt       "What's that!?"
 dialogtxt       "Even without [NAME 1],"
-dialogtxt       "I'm…"
+dialogtxt       "I'm..."
 goto            @Label_0a14
 
 @Cond_09da:
 dialogtxt       "What's that!?"
 dialogtxt       "Even without [NAME 1],"
-dialogtxt       "I'm…"
+dialogtxt       "I'm..."
 goto            @Label_0a14
 
 @Label_0a14:

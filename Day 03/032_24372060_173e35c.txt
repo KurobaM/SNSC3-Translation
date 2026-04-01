@@ -185,7 +185,7 @@ goto            @Label_0858
 
 @Cond_0828:
 dialogtxt       "I should really check out"
-dialogtxt       "this \"Smile Inn\" first…"
+dialogtxt       "this \"Smile Inn\" first..."
 goto            @Label_0858
 
 @Label_0858:
@@ -253,7 +253,7 @@ goto            @Label_0a60
 
 @Cond_0a30:
 dialogtxt       "I should really check out"
-dialogtxt       "this \"Smile Inn\" first…"
+dialogtxt       "this \"Smile Inn\" first..."
 goto            @Label_0a60
 
 @Label_0a60:
@@ -626,7 +626,7 @@ goto            @Choice_1860
 
 @Choice_1860:
 code047e        0, 1
-dialogtxt       "Ehh…"
+dialogtxt       "Ehh..."
 dialogtxt       "You're not buying anything?"
 dialogtxt       "Cheapskate~"
 code0309        
@@ -643,7 +643,7 @@ goto            @Choice_18b2
 code047e        0, 1
 dialogtxt       "You won't even listen?!"
 dialogtxt       "Just when I thought"
-dialogtxt       "I finally had a new client…"
+dialogtxt       "I finally had a new client..."
 code0309        
 @Label_1902:
 code047e        0, 0

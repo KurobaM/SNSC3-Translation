@@ -256,7 +256,7 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "I don't feel like chasing"
 dialogtxt       "them out anymore."
 code0309        

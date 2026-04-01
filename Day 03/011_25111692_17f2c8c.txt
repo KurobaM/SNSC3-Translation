@@ -30,21 +30,21 @@ code047d        1, 108
 code0479        0, 0, 16
 call            @Func_1696
 call            @Func_1632
-dialogtxt       "Damn it…"
-dialogtxt       "How could I lose…?"
+dialogtxt       "Damn it..."
+dialogtxt       "How could I lose...?"
 code047b        
 code0309        
 code0331        31, 256
 code0479        1, 4, 12
 dialogtxt       "I must have gotten rusty."
 dialogtxt       "Sure I haven't been training,"
-dialogtxt       "but this is just pathetic…"
+dialogtxt       "but this is just pathetic..."
 code0309        
 call            @Func_1668
 code0479        0, 2, 16
 call            @Func_15c6
-dialogtxt       "Master…"
-dialogtxt       "Your injuries must be…"
+dialogtxt       "Master..."
+dialogtxt       "Your injuries must be..."
 code0309        
 call            @Func_16d6
 call            @Func_15fc
@@ -96,7 +96,7 @@ goto            @Cond_0420
 
 @Cond_0420:
 jumpz           @Cond_04c2, ($b003 == 2)
-dialogtxt       "Jeez…"
+dialogtxt       "Jeez..."
 dialogtxt       "It's like you were a different"
 dialogtxt       "person last time we fought."
 code047b        
@@ -119,9 +119,9 @@ code0309
 call            @Func_15fc
 code0479        1, 0, 13
 call            @Func_1632
-dialogtxt       "Heh…"
+dialogtxt       "Heh..."
 dialogtxt       "Thanks, [NAME 1]."
-dialogtxt       "You're kinder than I thought…"
+dialogtxt       "You're kinder than I thought..."
 code0309        
 call            @Func_1668
 jumpz           @Cond_05b0, ($b003 == 0)
@@ -145,22 +145,22 @@ goto            @Label_0618
 @Label_0618:
 call            @Func_15c6
 jumpz           @Cond_0640, ($b003 == 0)
-dialogtxt       "Kind…?"
+dialogtxt       "Kind...?"
 goto            @Cond_0640
 
 @Cond_0640:
 jumpz           @Cond_0666, ($b003 == 1)
-dialogtxt       "What are you saying…"
+dialogtxt       "What are you saying..."
 goto            @Cond_0666
 
 @Cond_0666:
 jumpz           @Cond_0698, ($b003 == 2)
-dialogtxt       "K-Kind? Me!?"
+dialogtxt       "K—Kind? Me!?"
 goto            @Cond_0698
 
 @Cond_0698:
 jumpz           @Cond_06c6, ($b003 == 3)
-dialogtxt       "Not really…"
+dialogtxt       "Not really..."
 goto            @Cond_06c6
 
 @Cond_06c6:
@@ -174,7 +174,7 @@ code047d        0, 0
 call            @Func_1680
 code0479        1, 0, 12
 call            @Func_1632
-dialogtxt       "But you know, even like this…"
+dialogtxt       "But you know, even like this..."
 dialogtxt       "I could've easily"
 dialogtxt       "beat you two before."
 code047b        
@@ -185,7 +185,7 @@ code0309
 call            @Func_1668
 code0479        0, 6, 13
 call            @Func_15c6
-dialogtxt       "Th-Thank you, Master!"
+dialogtxt       "Th—Thank you, Master!"
 code0309        
 call            @Func_15fc
 code0479        1, 0, 13
@@ -220,20 +220,20 @@ code047d        0, 2
 call            @Func_1680
 call            @Func_15c6
 jumpz           @Cond_0920, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "The Probability Of That"
 dialogtxt       "Is Exceptionally High."
 goto            @Cond_0920
 
 @Cond_0920:
 jumpz           @Cond_0948, ($b003 == 1)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Of course."
 goto            @Cond_0948
 
 @Cond_0948:
 jumpz           @Cond_0972, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Obviously."
 goto            @Cond_0972
 
@@ -275,7 +275,7 @@ call            @Func_1668
 code043c        0, 3
 code0479        0, 0, 12
 call            @Func_15c6
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 call            @Func_15fc
 code0479        1, 2, 12
@@ -340,20 +340,20 @@ code040d        15
 code0479        1, 4, 17
 call            @Func_1696
 call            @Func_1614
-dialogtxt       "Ugh…"
-dialogtxt       "Not just [NAME 2]…"
-dialogtxt       "But also [NAME 1], and Murno…"
+dialogtxt       "Ugh..."
+dialogtxt       "Not just [NAME 2]..."
+dialogtxt       "But also [NAME 1], and Murno..."
 code047b        
 code0309        
 code0479        1, 4, 12
 dialogtxt       "A blade made with the feelings"
-dialogtxt       "of three people is quite sharp…"
-dialogtxt       "But…"
+dialogtxt       "of three people is quite sharp..."
+dialogtxt       "But..."
 code0309        
 code0479        1, 1, 13
 dialogtxt       "I'm glad that kid has other"
 dialogtxt       "reasons to fight now."
-dialogtxt       "Right, Rob…?"
+dialogtxt       "Right, Rob...?"
 code0309        
 call            @Func_1668
 code0478        0, 6
@@ -361,7 +361,7 @@ code0479        0, 0, 16
 code047d        0, 107
 call            @Func_1680
 call            @Func_15c6
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "V.E?"
 code047b        
 code0309        

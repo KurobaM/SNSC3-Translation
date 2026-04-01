@@ -56,7 +56,7 @@ code047b
 code0309        
 code0479        1, 2, 12
 dialogtxt       "If I can do anything"
-dialogtxt       "to help…"
+dialogtxt       "to help..."
 dialogtxt       "How about I be your opponent?"
 code0309        
 goto            @Label_03cc
@@ -97,7 +97,7 @@ goto            @Label_0460
 call            @Func_0a3a
 code0479        1, 0, 12
 call            @Func_0a70
-dialogtxt       "Oh, okay…"
+dialogtxt       "Oh, okay..."
 dialogtxt       "Well, good luck with"
 dialogtxt       "training, then!"
 code0309        

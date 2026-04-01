@@ -11,7 +11,7 @@ code0479        0, 5, 17
 code047d        0, 106
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "I-It's you!"
+dialogtxt       "I—It's you!"
 code047b        
 code0309        
 call            @Func_1628
@@ -31,7 +31,7 @@ code0309
 call            @Func_154e
 call            @Func_1584
 choicetxt       @Choice_0196, "Of course I do!"
-choicetxt       @Choice_045e, "Not really…"
+choicetxt       @Choice_045e, "Not really..."
 choicewait      
 
 @Choice_0196:
@@ -107,7 +107,7 @@ code047d        0, 106
 call            @Func_15d2
 code0479        0, 4, 16
 call            @Func_14fa
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1628
@@ -118,7 +118,7 @@ code0479        0, 0, 15
 code047d        0, 120
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "Then, hurry up and-"
+dialogtxt       "Then, hurry up and—"
 code047b        
 code0309        
 call            @Func_154e
@@ -173,7 +173,7 @@ call            @Func_154e
 @Label_083e:
 code0479        1, 2, 14
 call            @Func_1584
-dialogtxt       "You little runt…"
+dialogtxt       "You little runt..."
 dialogtxt       "You're just a Stray's apprentice,"
 dialogtxt       "don't get so cocky!"
 code0309        
@@ -181,7 +181,7 @@ call            @Func_15ba
 code0479        0, 2, 14
 call            @Func_1518
 dialogtxt       "You're one to talk!"
-dialogtxt       "Ganging up and picking on a girl…"
+dialogtxt       "Ganging up and picking on a girl..."
 dialogtxt       "Pathetic!"
 goto            @Label_0988
 
@@ -190,11 +190,11 @@ code0309
 call            @Func_154e
 code0479        1, 2, 15
 call            @Func_1584
-dialogtxt       "What did you say, you-"
+dialogtxt       "What did you say, you—"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "First of all, SHE ran into ME."
-dialogtxt       "And didn't even apologize, so-"
+dialogtxt       "And didn't even apologize, so—"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 12
@@ -214,7 +214,7 @@ code0309
 call            @Func_154e
 code0479        1, 2, 15
 call            @Func_1584
-dialogtxt       "Damn runt…"
+dialogtxt       "Damn runt..."
 dialogtxt       "I'll pummel you into the dirt!"
 code0309        
 call            @Func_15ba
@@ -241,8 +241,8 @@ code0479        0, 4, 16
 code047d        0, 106
 call            @Func_15d2
 call            @Func_14fa
-dialogtxt       "This is…"
-dialogtxt       "This is all my fault…"
+dialogtxt       "This is..."
+dialogtxt       "This is all my fault..."
 code047b        
 code0309        
 call            @Func_154e
@@ -265,11 +265,11 @@ call            @Func_15ba
 code0479        0, 4, 14
 call            @Func_1518
 dialogtxt       "I always end up burdening others."
-dialogtxt       "This is why…"
+dialogtxt       "This is why..."
 code0309        
 code0479        0, 4, 15
 dialogtxt       "I told you, you shouldn't get"
-dialogtxt       "involved with me…"
+dialogtxt       "involved with me..."
 code0309        
 call            @Func_154e
 code0479        1, 2, 12
@@ -282,7 +282,7 @@ code0309
 call            @Func_15ba
 code0479        0, 4, 16
 call            @Func_1518
-dialogtxt       "But, why…?"
+dialogtxt       "But, why...?"
 code0309        
 call            @Func_154e
 code0479        1, 0, 16
@@ -305,7 +305,7 @@ call            @Func_154e
 code0479        1, 0, 12
 code0479        0, 0, 16
 call            @Func_1584
-dialogtxt       "What I'm trying to say is…"
+dialogtxt       "What I'm trying to say is..."
 code0309        
 code043c        0, 4
 code0479        1, 2, 13
@@ -318,7 +318,7 @@ code0309
 call            @Func_15ba
 code0479        0, 11, 14
 call            @Func_1518
-dialogtxt       "…!"
+dialogtxt       "...!"
 code0309        
 call            @Func_1654
 call            @Func_1536

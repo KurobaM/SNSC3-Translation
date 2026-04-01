@@ -93,12 +93,12 @@ code0479        1, 0, 16
 call            @Func_0f40
 jumpz           @Cond_047c, ($b002 == 0)
 dialogtxt       "Well, stuff."
-dialogtxt       "She wants to have a meeting…"
+dialogtxt       "She wants to have a meeting..."
 goto            @Label_04a8
 
 @Cond_047c:
 dialogtxt       "Well, stuff."
-dialogtxt       "She wants to have a meeting…"
+dialogtxt       "She wants to have a meeting..."
 goto            @Label_04a8
 
 @Label_04a8:
@@ -142,13 +142,13 @@ goto            @Cond_05ec
 
 @Cond_05ec:
 jumpz           @Cond_063c, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "Stop wasting time."
 goto            @Cond_063c
 
 @Cond_063c:
 jumpz           @Cond_067c, ($b003 == 3)
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "Lady Murno has left."
 goto            @Cond_067c
 

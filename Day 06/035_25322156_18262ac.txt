@@ -63,20 +63,20 @@ goto            @Cond_0244
 
 @Cond_0244:
 jumpz           @Cond_0296, ($b003 == 1)
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 dialogtxt       "It did sound like her."
 dialogtxt       "But keep your guard up."
 goto            @Cond_0296
 
 @Cond_0296:
 jumpz           @Cond_02c4, ($b003 == 2)
-dialogtxt       "… I heard it too."
+dialogtxt       "... I heard it too."
 dialogtxt       "Is it the real Master?"
 goto            @Cond_02c4
 
 @Cond_02c4:
 jumpz           @Cond_030c, ($b003 == 3)
-dialogtxt       "Yes, I'm sure it was her…"
+dialogtxt       "Yes, I'm sure it was her..."
 goto            @Cond_030c
 
 @Cond_030c:
@@ -115,13 +115,13 @@ code0479        0, 2, 14
 call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_0458, ($b002 == 0)
-dialogtxt       "Huh…?"
-dialogtxt       "Someone's there…"
+dialogtxt       "Huh...?"
+dialogtxt       "Someone's there..."
 goto            @Label_0476
 
 @Cond_0458:
-dialogtxt       "Huh…?"
-dialogtxt       "Someone's there…"
+dialogtxt       "Huh...?"
+dialogtxt       "Someone's there..."
 goto            @Label_0476
 
 @Label_0476:

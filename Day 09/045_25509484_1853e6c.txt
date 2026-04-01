@@ -38,14 +38,14 @@ code0309
 call            @Func_11c6
 code0479        0, 4, 14
 call            @Func_1124
-dialogtxt       "Sorry, [NAME 2]…"
-dialogtxt       "They…"
-dialogtxt       "They took Murno…"
+dialogtxt       "Sorry, [NAME 2]..."
+dialogtxt       "They..."
+dialogtxt       "They took Murno..."
 code0309        
 code0479        0, 4, 16
 code0479        1, 2, 14
 dialogtxt       "I tried to follow them,"
-dialogtxt       "but they found me and…"
+dialogtxt       "but they found me and..."
 code0309        
 call            @Func_124a
 call            @Func_115a
@@ -74,22 +74,22 @@ code047d        1, 2
 call            @Func_11f4
 call            @Func_1190
 jumpz           @Cond_0348, ($b003 == 0)
-dialogtxt       "He Was… Attacked…"
+dialogtxt       "He Was... Attacked..."
 goto            @Cond_0348
 
 @Cond_0348:
 jumpz           @Cond_0372, ($b003 == 1)
-dialogtxt       "They attacked him…"
+dialogtxt       "They attacked him..."
 goto            @Cond_0372
 
 @Cond_0372:
 jumpz           @Cond_0398, ($b003 == 2)
-dialogtxt       "They attacked him…"
+dialogtxt       "They attacked him..."
 goto            @Cond_0398
 
 @Cond_0398:
 jumpz           @Cond_03ca, ($b003 == 3)
-dialogtxt       "They beat him up…"
+dialogtxt       "They beat him up..."
 goto            @Cond_03ca
 
 @Cond_03ca:
@@ -103,9 +103,9 @@ code0479        0, 4, 14
 code047d        0, 109
 call            @Func_11de
 call            @Func_1124
-dialogtxt       "Those guys…"
+dialogtxt       "Those guys..."
 dialogtxt       "They didn't hold back, huh?"
-dialogtxt       "Not even when facing a child…"
+dialogtxt       "Not even when facing a child..."
 code047b        
 code0309        
 call            @Func_124a
@@ -117,8 +117,8 @@ code047d        1, 0
 call            @Func_11f4
 call            @Func_1190
 jumpz           @Cond_0552, ($b002 == 0)
-dialogtxt       "(Tier, she's…"
-dialogtxt       "shaking…?)"
+dialogtxt       "(Tier, she's..."
+dialogtxt       "shaking...?)"
 code047b        
 code0309        
 call            @Func_1234
@@ -128,13 +128,13 @@ code0479        0, 4, 16
 code047d        0, 131
 call            @Func_11de
 code0479        1, 2, 14
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "They went further in, right?"
 goto            @Label_0610
 
 @Cond_0552:
-dialogtxt       "(Tier, she's…"
-dialogtxt       "shaking…?)"
+dialogtxt       "(Tier, she's..."
+dialogtxt       "shaking...?)"
 code047b        
 code0309        
 call            @Func_1234
@@ -144,7 +144,7 @@ code0479        0, 4, 16
 code047d        0, 131
 call            @Func_11de
 code0479        1, 2, 14
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "They went further in, right?"
 goto            @Label_0610
 
@@ -155,9 +155,9 @@ call            @Func_11c6
 code0333        2, 30
 code0479        0, 4, 14
 call            @Func_1124
-dialogtxt       "Yeah…"
-dialogtxt       "Through that door…"
-dialogtxt       "It's connected to Spoat Grotto…"
+dialogtxt       "Yeah..."
+dialogtxt       "Through that door..."
+dialogtxt       "It's connected to Spoat Grotto..."
 code0309        
 call            @Func_1234
 call            @Func_115a
@@ -171,13 +171,13 @@ call            @Func_11de
 code0479        1, 2, 16
 call            @Func_1190
 jumpz           @Cond_073c, ($b002 == 0)
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 dialogtxt       "Okay Tier, take Zakk"
 dialogtxt       "and return to town."
 goto            @Label_077e
 
 @Cond_073c:
-dialogtxt       "Got it…"
+dialogtxt       "Got it..."
 dialogtxt       "Okay Tier, take Zakk"
 dialogtxt       "and return to town."
 goto            @Label_077e
@@ -208,7 +208,7 @@ code0309
 call            @Func_11c6
 code0479        0, 4, 14
 call            @Func_1124
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Okay."
 dialogtxt       "Take care."
 code0309        

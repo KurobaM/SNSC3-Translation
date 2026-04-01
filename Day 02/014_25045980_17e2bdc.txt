@@ -100,20 +100,20 @@ goto            @Cond_038c
 
 @Cond_038c:
 jumpz           @Cond_03ce, ($b003 == 1)
-dialogtxt       "Should… You say?"
-dialogtxt       "That's not reliable…"
+dialogtxt       "Should... You say?"
+dialogtxt       "That's not reliable..."
 goto            @Cond_03ce
 
 @Cond_03ce:
 jumpz           @Cond_040c, ($b003 == 2)
-dialogtxt       "Should…?"
-dialogtxt       "This better not be a fool's errand…"
+dialogtxt       "Should...?"
+dialogtxt       "This better not be a fool's errand..."
 goto            @Cond_040c
 
 @Cond_040c:
 jumpz           @Cond_0452, ($b003 == 3)
-dialogtxt       "There… \"should\" be?"
-dialogtxt       "Your intuition is a bit flaky…"
+dialogtxt       "There... \"should\" be?"
+dialogtxt       "Your intuition is a bit flaky..."
 goto            @Cond_0452
 
 @Cond_0452:
@@ -122,12 +122,12 @@ call            @Func_0bc6
 code0479        0, 0, 12
 call            @Func_0b24
 jumpz           @Cond_04b0, ($b002 == 0)
-dialogtxt       "S-Shut up!"
+dialogtxt       "S—Shut up!"
 dialogtxt       "I'll remember when we get there!"
 goto            @Label_04de
 
 @Cond_04b0:
-dialogtxt       "S-Shut up!"
+dialogtxt       "S—Shut up!"
 dialogtxt       "I'll remember when we get there!"
 goto            @Label_04de
 

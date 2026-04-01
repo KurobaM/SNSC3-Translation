@@ -57,7 +57,7 @@ code0309
 call            @Func_0e00
 code0479        1, 4, 16
 call            @Func_0e36
-dialogtxt       "I'm sorry…"
+dialogtxt       "I'm sorry..."
 dialogtxt       "I'm always being selfish,"
 dialogtxt       "and now I've made you fight again."
 code0309        
@@ -87,19 +87,19 @@ call            @Func_0e00
 code0479        1, 1, 12
 call            @Func_0e36
 dialogtxt       "Thank you, [NAME 2]."
-dialogtxt       "You're very kind…"
+dialogtxt       "You're very kind..."
 code0309        
 call            @Func_0e6c
 code0479        0, 11, 16
 call            @Func_0dca
 jumpz           @Cond_0578, ($b002 == 0)
-dialogtxt       "Eh! No…"
-dialogtxt       "I'm really not…"
+dialogtxt       "Eh! No..."
+dialogtxt       "I'm really not..."
 goto            @Label_05a2
 
 @Cond_0578:
-dialogtxt       "Eh! Um…"
-dialogtxt       "I'm really not…"
+dialogtxt       "Eh! Um..."
+dialogtxt       "I'm really not..."
 goto            @Label_05a2
 
 @Label_05a2:
@@ -108,19 +108,19 @@ call            @Func_0e00
 code0479        1, 4, 12
 call            @Func_0e36
 dialogtxt       "And today, you fought that giant"
-dialogtxt       "Summon Beast to save me…"
+dialogtxt       "Summon Beast to save me..."
 code0309        
 call            @Func_0e6c
 code0479        0, 4, 12
 call            @Func_0dca
 jumpz           @Cond_0688, ($b002 == 0)
-dialogtxt       "Anise really fooled us…"
-dialogtxt       "I'm so lame…"
+dialogtxt       "Anise really fooled us..."
+dialogtxt       "I'm so lame..."
 goto            @Label_06ce
 
 @Cond_0688:
-dialogtxt       "Anise really fooled us…"
-dialogtxt       "I'm so lame…"
+dialogtxt       "Anise really fooled us..."
+dialogtxt       "I'm so lame..."
 goto            @Label_06ce
 
 @Label_06ce:
@@ -130,12 +130,12 @@ code0479        1, 8, 15
 call            @Func_0e36
 dialogtxt       "That's not true!"
 dialogtxt       "I was happy to see how much"
-dialogtxt       "you cared about me…"
+dialogtxt       "you cared about me..."
 code0309        
 call            @Func_0e6c
 code0479        0, 5, 16
 call            @Func_0dca
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 call            @Func_0e00
 code0479        1, 0, 12
