@@ -284,7 +284,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Master Bostaph is gone right"
 dialogtxt       "now, so we currently have a lotta"
-dialogtxt       "work piling up on us…"
+dialogtxt       "work piling up on us..."
 code0309        
 code047e        0, 0
 code0302        7

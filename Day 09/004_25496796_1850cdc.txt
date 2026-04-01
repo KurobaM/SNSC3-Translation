@@ -40,7 +40,7 @@ code0479        0, 0, 16
 code047d        0, 108
 call            @Func_1474
 call            @Func_1370
-dialogtxt       "Hmm… Need any help?"
+dialogtxt       "Hmm... Need any help?"
 code047b        
 code0309        
 call            @Func_13c4
@@ -132,11 +132,11 @@ code047d        0, 0
 call            @Func_1448
 call            @Func_138e
 jumpz           @Cond_070c, ($b002 == 0)
-dialogtxt       "Right… Wait, you're helping too?"
+dialogtxt       "Right... Wait, you're helping too?"
 goto            @Label_0742
 
 @Cond_070c:
-dialogtxt       "Right… Wait, you're helping too?"
+dialogtxt       "Right... Wait, you're helping too?"
 goto            @Label_0742
 
 @Label_0742:
@@ -170,8 +170,8 @@ code0479        1, 4, 14
 code047d        1, 107
 call            @Func_145e
 call            @Func_13fa
-dialogtxt       "Ah… I understand."
-dialogtxt       "… Sorry."
+dialogtxt       "Ah... I understand."
+dialogtxt       "... Sorry."
 code047b        
 code0309        
 call            @Func_1430
@@ -214,22 +214,22 @@ code047d        1, 2
 call            @Func_145e
 call            @Func_13dc
 jumpz           @Cond_0a38, ($b003 == 0)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_0a38
 
 @Cond_0a38:
 jumpz           @Cond_0a5a, ($b003 == 1)
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 goto            @Cond_0a5a
 
 @Cond_0a5a:
 jumpz           @Cond_0a7c, ($b003 == 2)
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 goto            @Cond_0a7c
 
 @Cond_0a7c:
 jumpz           @Cond_0aa0, ($b003 == 3)
-dialogtxt       "Lady Murno…"
+dialogtxt       "Lady Murno..."
 goto            @Cond_0aa0
 
 @Cond_0aa0:
@@ -267,7 +267,7 @@ goto            @Label_0bbe
 @Label_0bbe:
 call            @Func_13fa
 jumpz           @Cond_0be4, ($b003 == 0)
-dialogtxt       "… Affirmative."
+dialogtxt       "... Affirmative."
 goto            @Cond_0be4
 
 @Cond_0be4:

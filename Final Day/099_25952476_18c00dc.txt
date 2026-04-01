@@ -55,7 +55,7 @@ code030a        6, 1
 code031f        8
 dialogtxt       "And so,"
 dialogtxt       "this concludes the chain of events"
-dialogtxt       "involving Govan's Demon Stone…"
+dialogtxt       "involving Govan's Demon Stone..."
 code030a        6, 1
 code0304        0
 done            

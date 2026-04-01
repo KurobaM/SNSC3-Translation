@@ -58,13 +58,13 @@ code0479        0, 2, 14
 call            @Func_0bc8
 call            @Func_0b0e
 jumpz           @Cond_030e, ($b002 == 0)
-dialogtxt       "Ugh…"
-dialogtxt       "I got it already…"
+dialogtxt       "Ugh..."
+dialogtxt       "I got it already..."
 goto            @Label_032c
 
 @Cond_030e:
-dialogtxt       "Ugh…"
-dialogtxt       "I got it already…"
+dialogtxt       "Ugh..."
+dialogtxt       "I got it already..."
 goto            @Label_032c
 
 @Label_032c:

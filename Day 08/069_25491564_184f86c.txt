@@ -61,7 +61,7 @@ code0309
 call            @Func_0dd8
 code0479        0, 4, 12
 call            @Func_0d36
-dialogtxt       "Ah, that…"
+dialogtxt       "Ah, that..."
 dialogtxt       "I'm fine."
 dialogtxt       "Physically."
 code0309        
@@ -74,20 +74,20 @@ code0309
 call            @Func_0dd8
 code0479        0, 4, 16
 call            @Func_0d36
-dialogtxt       "Um… This really creepy guy"
-dialogtxt       "bear hugged me and…"
-dialogtxt       "I don't want to talk about it…"
+dialogtxt       "Um... This really creepy guy"
+dialogtxt       "bear hugged me and..."
+dialogtxt       "I don't want to talk about it..."
 code0309        
 call            @Func_0d6c
 code0479        1, 5, 15
 call            @Func_0da2
 dialogtxt       "Wh—Wh—Wh—What!"
 dialogtxt       "Ah, I got it!"
-dialogtxt       "That man… Er… Woman…"
+dialogtxt       "That man... Er... Woman..."
 code0309        
 code0479        1, 2, 15
 dialogtxt       "No, that man!"
-dialogtxt       "They defiled my [NAME 2]…"
+dialogtxt       "They defiled my [NAME 2]..."
 code0309        
 call            @Func_0dd8
 code0479        0, 1, 15
@@ -105,28 +105,28 @@ code0309
 call            @Func_0d6c
 code0479        1, 4, 12
 call            @Func_0da2
-dialogtxt       "Poor [NAME 2]…"
+dialogtxt       "Poor [NAME 2]..."
 dialogtxt       "But don't worry."
 dialogtxt       "I won't grow to hate you"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "over something like that…"
+dialogtxt       "over something like that..."
 code0309        
 call            @Func_0dd8
 code0479        0, 4, 12
 call            @Func_0d36
 dialogtxt       "I don't know if I should"
-dialogtxt       "be happy or not…"
+dialogtxt       "be happy or not..."
 code0309        
 call            @Func_0d6c
 code0479        1, 4, 12
 call            @Func_0da2
 dialogtxt       "It's okay, [NAME 2]."
-dialogtxt       "You don't have to hold back…"
-dialogtxt       "Here, come…"
+dialogtxt       "You don't have to hold back..."
+dialogtxt       "Here, come..."
 code0309        
 code0479        1, 10, 12
-dialogtxt       "Fall into my arms…"
+dialogtxt       "Fall into my arms..."
 code0309        
 call            @Func_0dd8
 code0479        0, 7, 15
@@ -139,12 +139,12 @@ call            @Func_0d6c
 code0479        1, 11, 12
 call            @Func_0da2
 dialogtxt       "Oh [NAME 2],"
-dialogtxt       "you really are strong…"
+dialogtxt       "you really are strong..."
 code0309        
 call            @Func_0dd8
 code0479        0, 1, 16
 call            @Func_0d36
-dialogtxt       "I wonder why…"
+dialogtxt       "I wonder why..."
 code0309        
 call            @Func_0e72
 call            @Func_0d54

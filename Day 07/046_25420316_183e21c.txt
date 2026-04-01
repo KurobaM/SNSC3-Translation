@@ -14,7 +14,7 @@ code0482
 code047d        0, 107
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "There you are…"
+dialogtxt       "There you are..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -45,22 +45,22 @@ code047d        1, 107
 call            @Func_10d2
 call            @Func_103a
 dialogtxt       "What is it?"
-dialogtxt       "Thinking…?"
+dialogtxt       "Thinking...?"
 code047b        
 code0309        
 call            @Func_108e
 code0479        0, 4, 12
 call            @Func_0fec
 jumpz           @Cond_0312, ($b002 == 0)
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "I know I have to do something,"
-dialogtxt       "but I don't know what…"
+dialogtxt       "but I don't know what..."
 goto            @Label_0368
 
 @Cond_0312:
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "I know I have to do something,"
-dialogtxt       "but I don't know what…"
+dialogtxt       "but I don't know what..."
 goto            @Label_0368
 
 @Label_0368:
@@ -99,15 +99,15 @@ call            @Func_108e
 code0479        1, 0, 12
 code0479        0, 2, 16
 call            @Func_0fec
-dialogtxt       "But…"
+dialogtxt       "But..."
 dialogtxt       "We don't know when or"
-dialogtxt       "where Anise will show up…"
+dialogtxt       "where Anise will show up..."
 code0309        
 call            @Func_1022
 code0479        1, 4, 16
 call            @Func_1058
-dialogtxt       "Sorry…"
-dialogtxt       "This is all my fault…"
+dialogtxt       "Sorry..."
+dialogtxt       "This is all my fault..."
 code0309        
 call            @Func_108e
 code0479        0, 0, 12
@@ -139,7 +139,7 @@ code0309
 call            @Func_1022
 code0479        1, 5, 12
 call            @Func_1058
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_108e
 code0479        1, 0, 12
@@ -164,7 +164,7 @@ code0479        1, 4, 14
 call            @Func_1058
 dialogtxt       "I wonder if they'll"
 dialogtxt       "actually listen to"
-dialogtxt       "what I have to say…"
+dialogtxt       "what I have to say..."
 code0309        
 call            @Func_108e
 code0479        0, 2, 13
@@ -184,7 +184,7 @@ code0309
 call            @Func_1022
 code0479        1, 7, 12
 call            @Func_1058
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "I'm not sure I understand,"
 dialogtxt       "but thanks."
 code0309        

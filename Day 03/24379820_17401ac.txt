@@ -40,7 +40,7 @@ call            @Func_1f8c
 code0479        0, 0, 14
 call            @Func_1eea
 dialogtxt       "You only get excited when"
-dialogtxt       "it involves Murno, huh…"
+dialogtxt       "it involves Murno, huh..."
 code0309        
 call            @Func_2026
 call            @Func_1f08
@@ -64,15 +64,15 @@ call            @Func_1f8c
 code0479        0, 0, 16
 call            @Func_1eea
 jumpz           @Cond_02f8, ($b002 == 0)
-dialogtxt       "… Hey, I'm sure Master"
+dialogtxt       "... Hey, I'm sure Master"
 dialogtxt       "won't make her do all"
-dialogtxt       "that much work…"
+dialogtxt       "that much work..."
 goto            @Label_0344
 
 @Cond_02f8:
-dialogtxt       "… Hey, I'm sure Master"
+dialogtxt       "... Hey, I'm sure Master"
 dialogtxt       "won't make her do all"
-dialogtxt       "that much work…"
+dialogtxt       "that much work..."
 goto            @Label_0344
 
 @Label_0344:
@@ -101,7 +101,7 @@ code0479        1, 2, 14
 call            @Func_1f56
 dialogtxt       "Of course."
 dialogtxt       "If you even think about losing"
-dialogtxt       "even for a second…"
+dialogtxt       "even for a second..."
 code0309        
 code0479        1, 3, 16
 dialogtxt       "I'll erase you."
@@ -345,7 +345,7 @@ call            @Func_1f20
 code0479        1, 4, 12
 call            @Func_1f56
 dialogtxt       "Hmmm."
-dialogtxt       "Do I, or do I not…"
+dialogtxt       "Do I, or do I not..."
 code0309        
 call            @Func_2026
 call            @Func_1f74
@@ -377,7 +377,7 @@ code047d        1, 2
 call            @Func_1fd0
 call            @Func_1ecc
 dialogtxt       "Now I'm worried"
-dialogtxt       "about both of them…"
+dialogtxt       "about both of them..."
 code0309        
 call            @Func_1f20
 call            @Func_1f56
@@ -512,7 +512,7 @@ code0479        1, 0, 16
 code047d        1, 0
 call            @Func_1fba
 call            @Func_1f56
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 code047b        
 code0309        
 call            @Func_2010
@@ -523,7 +523,7 @@ code0479        1, 1, 12
 code047d        1, 108
 call            @Func_1fba
 call            @Func_1f56
-dialogtxt       "Haha…"
+dialogtxt       "Haha..."
 dialogtxt       "You're so kind, Murno!"
 dialogtxt       "Really, you're a good kid."
 code047b        
@@ -641,7 +641,7 @@ code0479        1, 0, 16
 code047d        1, 0
 call            @Func_1fba
 call            @Func_1f56
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 code047b        
 code0309        
 call            @Func_2010
@@ -652,7 +652,7 @@ code0479        1, 1, 12
 code047d        1, 108
 call            @Func_1fba
 call            @Func_1f56
-dialogtxt       "Haha…"
+dialogtxt       "Haha..."
 dialogtxt       "You're so kind, Murno!"
 dialogtxt       "Really, you're a good kid."
 code047b        
@@ -701,25 +701,25 @@ code0309
 call            @Func_1f20
 call            @Func_1f56
 jumpz           @Cond_1bc8, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Are You Certain"
 dialogtxt       "We Can Trust Her?"
 goto            @Label_1c90
 
 @Cond_1bc8:
 jumpz           @Cond_1c08, ($b003 == 1)
-dialogtxt       "That girl…"
-dialogtxt       "Can we trust her…?"
+dialogtxt       "That girl..."
+dialogtxt       "Can we trust her...?"
 goto            @Label_1c90
 
 @Cond_1c08:
 jumpz           @Cond_1c4c, ($b003 == 2)
-dialogtxt       "That girl…"
+dialogtxt       "That girl..."
 dialogtxt       "Are you sure we can trust her?"
 goto            @Label_1c90
 
 @Cond_1c4c:
-dialogtxt       "That girl…"
+dialogtxt       "That girl..."
 dialogtxt       "Are you sure about this?"
 code0479        1, 2, 14
 goto            @Label_1c90
@@ -770,12 +770,12 @@ code047d        1, 108
 call            @Func_1fba
 call            @Func_1f38
 jumpz           @Cond_1e9a, ($b002 == 0)
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "So young and innocent."
 goto            @Label_1eb8
 
 @Cond_1e9a:
-dialogtxt       "I suppose she's that age now…"
+dialogtxt       "I suppose she's that age now..."
 goto            @Label_1eb8
 
 @Label_1eb8:

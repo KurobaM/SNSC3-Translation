@@ -306,7 +306,7 @@ dialogtxt       "Eh? You think that's amazing?"
 goto            @Label_0cc2
 
 @Label_0cc2:
-dialogtxt       "… You're strange."
+dialogtxt       "... You're strange."
 code0309        
 code047e        0, 0
 code0302        7

@@ -57,7 +57,7 @@ code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
 dialogtxt       "I'm so glad!"
-dialogtxt       "Everyone…"
+dialogtxt       "Everyone..."
 dialogtxt       "You're all okay!"
 code047b        
 code0309        
@@ -81,8 +81,8 @@ code047d        1, 132
 code0479        0, 4, 12
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "Tier…"
-dialogtxt       "But, really…"
+dialogtxt       "Tier..."
+dialogtxt       "But, really..."
 dialogtxt       "I'm glad you're safe."
 code047b        
 code0309        
@@ -103,8 +103,8 @@ code0309
 call            @Func_4362
 code0479        0, 1, 14
 call            @Func_42c0
-dialogtxt       "Ehehe…"
-dialogtxt       "Sorry…"
+dialogtxt       "Ehehe..."
+dialogtxt       "Sorry..."
 code0309        
 call            @Func_43fc
 call            @Func_42de
@@ -123,7 +123,7 @@ code0479        0, 11, 12
 code047d        0, 107
 call            @Func_43a6
 call            @Func_42a2
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Father!"
 code0309        
 call            @Func_43fc
@@ -141,21 +141,21 @@ code040d        15
 code0479        1, 4, 16
 call            @Func_43a6
 call            @Func_430e
-dialogtxt       "I'm sorry, Murno…"
-dialogtxt       "All I've done is get captured…"
+dialogtxt       "I'm sorry, Murno..."
+dialogtxt       "All I've done is get captured..."
 code047b        
 code0309        
 call            @Func_4362
 code0479        0, 10, 13
 call            @Func_42c0
-dialogtxt       "No… It's fine…"
-dialogtxt       "Father…"
+dialogtxt       "No... It's fine..."
+dialogtxt       "Father..."
 dialogtxt       "Are you okay now?"
 code0309        
 call            @Func_42f6
 code0479        1, 1, 12
 call            @Func_432c
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "Thanks to Velvoren."
 code0309        
 call            @Func_43fc
@@ -214,7 +214,7 @@ code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
 dialogtxt       "Why are you"
-dialogtxt       "so surprised…"
+dialogtxt       "so surprised..."
 code047b        
 code0309        
 call            @Func_43d0
@@ -246,7 +246,7 @@ code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
 dialogtxt       "Don't say that."
-dialogtxt       "I guided you here too…"
+dialogtxt       "I guided you here too..."
 code047b        
 code0309        
 code043c        8, 4
@@ -294,7 +294,7 @@ code0333        2, 30
 code0479        0, 2, 14
 call            @Func_42c0
 dialogtxt       "Ah!"
-dialogtxt       "That reminds me…"
+dialogtxt       "That reminds me..."
 dialogtxt       "Where are Anise and Bostaph?"
 code0309        
 call            @Func_43e6
@@ -305,8 +305,8 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "Well…"
-dialogtxt       "We don't know…"
+dialogtxt       "Well..."
+dialogtxt       "We don't know..."
 code047b        
 code0309        
 call            @Func_43e6
@@ -320,22 +320,22 @@ code047d        1, 110
 call            @Func_4390
 call            @Func_432c
 dialogtxt       "I'm sure they were caught up"
-dialogtxt       "in that explosion…"
+dialogtxt       "in that explosion..."
 code047b        
 code0309        
 call            @Func_4362
 code0479        0, 4, 16
 call            @Func_42c0
 jumpz           @Cond_109c, ($b002 == 0)
-dialogtxt       "Ah… Um…"
+dialogtxt       "Ah... Um..."
 dialogtxt       "We got out of it fine,"
-dialogtxt       "so I'm sure…"
+dialogtxt       "so I'm sure..."
 goto            @Label_10ec
 
 @Cond_109c:
-dialogtxt       "Ah… Um…"
+dialogtxt       "Ah... Um..."
 dialogtxt       "We got out of it fine,"
-dialogtxt       "so I'm sure…"
+dialogtxt       "so I'm sure..."
 goto            @Label_10ec
 
 @Label_10ec:
@@ -359,7 +359,7 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "It's said to be cursed…"
+dialogtxt       "It's said to be cursed..."
 code047b        
 code0309        
 call            @Func_43e6
@@ -372,23 +372,23 @@ call            @Func_4390
 call            @Func_432c
 dialogtxt       "That is correct."
 dialogtxt       "Not only was it made using"
-dialogtxt       "Summon Beasts as materials…"
+dialogtxt       "Summon Beasts as materials..."
 code047b        
 code0309        
 code0479        1, 2, 14
 dialogtxt       "It holds the grudges of all Summon"
-dialogtxt       "Beasts sacrificed to it until now…"
-dialogtxt       "A cursed sword…"
+dialogtxt       "Beasts sacrificed to it until now..."
+dialogtxt       "A cursed sword..."
 code0309        
 call            @Func_4362
 code0479        0, 2, 16
 call            @Func_42c0
 jumpz           @Cond_12fc, ($b002 == 0)
-dialogtxt       "What the…"
+dialogtxt       "What the..."
 goto            @Label_1312
 
 @Cond_12fc:
-dialogtxt       "What the…"
+dialogtxt       "What the..."
 goto            @Label_1312
 
 @Label_1312:
@@ -397,7 +397,7 @@ call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
 dialogtxt       "Most likely used for posession."
-dialogtxt       "It controls its victims…"
+dialogtxt       "It controls its victims..."
 dialogtxt       "That's why the sword was made."
 code0309        
 code0479        1, 0, 14
@@ -414,7 +414,7 @@ code047d        1, 108
 call            @Func_4390
 call            @Func_432c
 dialogtxt       "I believe the sword gets"
-dialogtxt       "stronger with each cut…"
+dialogtxt       "stronger with each cut..."
 dialogtxt       "Absorbing the souls of Beasts."
 code047b        
 code0309        
@@ -429,7 +429,7 @@ code0479        0, 5, 16
 code047d        0, 109
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "A Summon Beast's soul…"
+dialogtxt       "A Summon Beast's soul..."
 dialogtxt       "Can it really do that?"
 code047b        
 code0309        
@@ -438,7 +438,7 @@ code0479        1, 2, 16
 call            @Func_432c
 dialogtxt       "In the past, that technique existed."
 dialogtxt       "I heard it from Rob."
-dialogtxt       "Though it's closer to magic…"
+dialogtxt       "Though it's closer to magic..."
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -475,22 +475,22 @@ goto            @Cond_16c0
 @Cond_16c0:
 jumpz           @Cond_1722, ($b003 == 1)
 dialogtxt       "True, I can feel several kinds"
-dialogtxt       "of ill will from the sword…"
-dialogtxt       "A sinister object…"
+dialogtxt       "of ill will from the sword..."
+dialogtxt       "A sinister object..."
 goto            @Cond_1722
 
 @Cond_1722:
 jumpz           @Cond_1780, ($b003 == 2)
 dialogtxt       "True, I can feel all sorts of"
-dialogtxt       "malice from the sword…"
-dialogtxt       "The aura of an anger stained black…"
+dialogtxt       "malice from the sword..."
+dialogtxt       "The aura of an anger stained black..."
 goto            @Cond_1780
 
 @Cond_1780:
 jumpz           @Cond_17ec, ($b003 == 3)
 dialogtxt       "True, I can feel many kinds"
-dialogtxt       "of ill will from the sword…"
-dialogtxt       "Also, it feels very sorrowful…"
+dialogtxt       "of ill will from the sword..."
+dialogtxt       "Also, it feels very sorrowful..."
 goto            @Cond_17ec
 
 @Cond_17ec:
@@ -505,8 +505,8 @@ code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
 dialogtxt       "The sword's nature has already"
-dialogtxt       "become that of a monster…"
-dialogtxt       "They've made something horrendous…"
+dialogtxt       "become that of a monster..."
+dialogtxt       "They've made something horrendous..."
 code047b        
 code0309        
 call            @Func_43e6
@@ -519,12 +519,12 @@ call            @Func_4390
 call            @Func_432c
 dialogtxt       "Using the Demon Pillar to amplify"
 dialogtxt       "its power, one can bring every Beast"
-dialogtxt       "in the world under its influence…"
+dialogtxt       "in the world under its influence..."
 code047b        
 code0309        
 code0479        1, 4, 14
 dialogtxt       "And so the girl's ancestors created"
-dialogtxt       "a catalyst to fulfill that goal…"
+dialogtxt       "a catalyst to fulfill that goal..."
 dialogtxt       "The Govan Ruins."
 code0309        
 call            @Func_43d0
@@ -543,7 +543,7 @@ code0479        1, 0, 16
 call            @Func_432c
 dialogtxt       "I am not the legitimate successor."
 dialogtxt       "It was my wife,"
-dialogtxt       "the girl's mother…"
+dialogtxt       "the girl's mother..."
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -559,7 +559,7 @@ code0309
 call            @Func_42f6
 code0479        1, 4, 14
 call            @Func_432c
-dialogtxt       "Yes… She is gone now."
+dialogtxt       "Yes... She is gone now."
 dialogtxt       "At the moment, she is"
 dialogtxt       "the sole successor."
 code0309        
@@ -572,7 +572,7 @@ code047d        1, 107
 code0479        0, 4, 16
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_43e6
@@ -597,22 +597,22 @@ code0309
 call            @Func_4362
 code0479        0, 0, 16
 call            @Func_42c0
-dialogtxt       "Then if we destroy the sword…"
+dialogtxt       "Then if we destroy the sword..."
 code0309        
 call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
 dialogtxt       "You saw that explosion."
 dialogtxt       "If the energy within the sword"
-dialogtxt       "was released all at once…"
+dialogtxt       "was released all at once..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "I cannot guess what may happen…"
+dialogtxt       "I cannot guess what may happen..."
 code0309        
 call            @Func_4362
 code0479        0, 2, 14
 call            @Func_42c0
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 code0309        
 call            @Func_42f6
 code0479        1, 2, 15
@@ -668,7 +668,7 @@ code0479        0, 4, 14
 code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "Seal it…"
+dialogtxt       "Seal it..."
 code047b        
 code0309        
 call            @Func_43d0
@@ -697,7 +697,7 @@ call            @Func_437a
 call            @Func_42a2
 dialogtxt       "Hey!"
 dialogtxt       "What are you doing?"
-dialogtxt       "If we don't do it soon…"
+dialogtxt       "If we don't do it soon..."
 code047b        
 code0309        
 call            @Func_43d0
@@ -723,8 +723,8 @@ code0479        0, 5, 16
 code047d        0, 129
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "Yes, but… only those with"
-dialogtxt       "magical power can wield it…"
+dialogtxt       "Yes, but... only those with"
+dialogtxt       "magical power can wield it..."
 code047b        
 code0309        
 call            @Func_42f6
@@ -732,7 +732,7 @@ code0479        1, 5, 13
 call            @Func_432c
 dialogtxt       "Then, if I used this sword,"
 dialogtxt       "I can have any Summon I want"
-dialogtxt       "do my bidding…"
+dialogtxt       "do my bidding..."
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -742,15 +742,15 @@ code0479        0, 2, 14
 code047d        0, 108
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "Wait, you…"
+dialogtxt       "Wait, you..."
 dialogtxt       "Don't be stupid."
-dialogtxt       "Wellman just told you…"
+dialogtxt       "Wellman just told you..."
 code047b        
 code0309        
 code0479        0, 2, 16
 dialogtxt       "Only those with magical power can"
 dialogtxt       "wield the sword. But you could never"
-dialogtxt       "use Summoning properly right? So…"
+dialogtxt       "use Summoning properly right? So..."
 code0309        
 call            @Func_43fc
 call            @Func_42de
@@ -941,22 +941,22 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_2d5a, ($b003 == 0)
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Cond_2d5a
 
 @Cond_2d5a:
 jumpz           @Cond_2d78, ($b003 == 1)
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Cond_2d78
 
 @Cond_2d78:
 jumpz           @Cond_2d96, ($b003 == 2)
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Cond_2d96
 
 @Cond_2d96:
 jumpz           @Cond_2db4, ($b003 == 3)
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Cond_2db4
 
 @Cond_2db4:
@@ -971,7 +971,7 @@ code0479        1, 4, 17
 code047d        1, 108
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "Tch…!"
+dialogtxt       "Tch...!"
 dialogtxt       "This pressure again!"
 code047b        
 code0309        
@@ -1090,7 +1090,7 @@ call            @Func_4390
 call            @Func_430e
 dialogtxt       "With this, no one can call"
 dialogtxt       "me a useless Summoner anymore!"
-dialogtxt       "I will have my own Beast…"
+dialogtxt       "I will have my own Beast..."
 code047b        
 code0309        
 code0479        1, 3, 13
@@ -1158,13 +1158,13 @@ code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_36fe, ($b002 == 0)
-dialogtxt       "It's…"
-dialogtxt       "It's huge…"
+dialogtxt       "It's..."
+dialogtxt       "It's huge..."
 goto            @Label_3720
 
 @Cond_36fe:
-dialogtxt       "It's…"
-dialogtxt       "It's huge…"
+dialogtxt       "It's..."
+dialogtxt       "It's huge..."
 goto            @Label_3720
 
 @Label_3720:
@@ -1190,7 +1190,7 @@ code0479        1, 4, 17
 code047d        1, 107
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "What do I do…"
+dialogtxt       "What do I do..."
 dialogtxt       "What do I do!"
 code047b        
 code0309        
@@ -1211,7 +1211,7 @@ dialogtxt       "Like I'll let you!"
 goto            @Label_38d2
 
 @Cond_38b0:
-dialogtxt       "Ku…!"
+dialogtxt       "Ku...!"
 dialogtxt       "Like I'll let you do that!"
 goto            @Label_38d2
 

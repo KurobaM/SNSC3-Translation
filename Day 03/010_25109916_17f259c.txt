@@ -15,7 +15,7 @@ call            @Func_121c
 code0479        0, 0, 12
 call            @Func_117a
 choicetxt       @Choice_010e, "Of course!"
-choicetxt       @Choice_0b34, "I need some more time…"
+choicetxt       @Choice_0b34, "I need some more time..."
 choicewait      
 
 @Choice_010e:
@@ -25,7 +25,7 @@ jumpz           @Cond_01ec, ($b071 == 0)
 code0479        0, 0, 16
 code0479        1, 2, 16
 call            @Func_11e6
-dialogtxt       "… Seriously?"
+dialogtxt       "... Seriously?"
 dialogtxt       "What're you planning to"
 dialogtxt       "do without equipment?"
 code0309        
@@ -92,8 +92,8 @@ code0479        1, 4, 16
 code047d        1, 107
 call            @Func_124a
 call            @Func_11c8
-dialogtxt       "[NAME 2]…"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 2]..."
+dialogtxt       "[NAME 1]..."
 code047b        
 code0309        
 call            @Func_12a0
@@ -112,18 +112,18 @@ code047d        1, 108
 code0479        0, 2, 14
 call            @Func_1260
 call            @Func_11c8
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 code047b        
 code0309        
 call            @Func_121c
 code0479        0, 2, 16
 call            @Func_117a
-dialogtxt       "So…?"
+dialogtxt       "So...?"
 code0309        
 call            @Func_11b0
 code0479        1, 0, 12
 call            @Func_11e6
-dialogtxt       "Well… It's not bad."
+dialogtxt       "Well... It's not bad."
 dialogtxt       "Definitely full of your spirit."
 dialogtxt       "And [NAME 1]'s as well."
 code0309        
@@ -154,7 +154,7 @@ code047d        0, 2
 call            @Func_1234
 call            @Func_117a
 jumpz           @Cond_06ac, ($b003 == 0)
-dialogtxt       "My… Spirit…?"
+dialogtxt       "My... Spirit...?"
 goto            @Cond_06ac
 
 @Cond_06ac:
@@ -192,8 +192,8 @@ code0309
 call            @Func_121c
 code0479        0, 2, 14
 call            @Func_117a
-dialogtxt       "Master…"
-dialogtxt       "Are you sure about this…?"
+dialogtxt       "Master..."
+dialogtxt       "Are you sure about this...?"
 code0309        
 call            @Func_11b0
 code0479        1, 2, 14
@@ -209,7 +209,7 @@ code0309
 call            @Func_121c
 code0479        0, 2, 16
 call            @Func_117a
-dialogtxt       "…!"
+dialogtxt       "...!"
 code0309        
 call            @Func_12a0
 call            @Func_11b0
@@ -220,8 +220,8 @@ code0479        1, 4, 16
 code047d        1, 107
 call            @Func_124a
 call            @Func_11e6
-dialogtxt       "…"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "..."
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 call            @Func_121c

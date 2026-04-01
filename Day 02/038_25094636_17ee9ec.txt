@@ -4,27 +4,27 @@ code047d        0, 0
 call            @Func_0968
 call            @Func_0890
 jumpz           @Cond_0110, ($b002 == 0)
-dialogtxt       "It's hopeless…"
+dialogtxt       "It's hopeless..."
 dialogtxt       "Murno doesn't want to talk."
 dialogtxt       "I'll just leave it be."
 code047b        
 code0309        
 code0479        0, 2, 12
 dialogtxt       "I have to concentrate on the match!"
-dialogtxt       "That'll help Murno too…"
-dialogtxt       "… I think."
+dialogtxt       "That'll help Murno too..."
+dialogtxt       "... I think."
 goto            @Label_01d4
 
 @Cond_0110:
-dialogtxt       "It's no good…"
+dialogtxt       "It's no good..."
 dialogtxt       "Murno doesn't want to talk,"
 dialogtxt       "I'll just have to leave it be."
 code047b        
 code0309        
 code0479        0, 2, 12
 dialogtxt       "I have to concentrate on the match!"
-dialogtxt       "That'll help Murno too…"
-dialogtxt       "… I think."
+dialogtxt       "That'll help Murno too..."
+dialogtxt       "... I think."
 goto            @Label_01d4
 
 @Label_01d4:
@@ -39,15 +39,15 @@ code0479        0, 0, 16
 call            @Func_0968
 call            @Func_0890
 jumpz           @Cond_025a, ($b002 == 0)
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "Is somebody there?"
-dialogtxt       "Is that…"
+dialogtxt       "Is that..."
 goto            @Label_0284
 
 @Cond_025a:
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "Is somebody there?"
-dialogtxt       "Is that…"
+dialogtxt       "Is that..."
 goto            @Label_0284
 
 @Label_0284:

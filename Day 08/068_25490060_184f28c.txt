@@ -57,19 +57,19 @@ call            @Func_0e6c
 jumpz           @Cond_03d8, ($b002 == 0)
 dialogtxt       "Both of those were thanks to Lemmy."
 dialogtxt       "If he hadn't shown up when"
-dialogtxt       "Anise captured us…"
+dialogtxt       "Anise captured us..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "We might have been done for…"
+dialogtxt       "We might have been done for..."
 goto            @Label_048a
 
 @Cond_03d8:
 dialogtxt       "Both of those were thanks to Lemmy."
 dialogtxt       "If he hadn't shown up when"
-dialogtxt       "Anise captured us…"
+dialogtxt       "Anise captured us..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "We might have been done for…"
+dialogtxt       "We might have been done for..."
 goto            @Label_048a
 
 @Label_048a:
@@ -83,15 +83,15 @@ dialogtxt       "Taking all the good parts."
 code0309        
 code0479        0, 0, 12
 code0479        1, 4, 16
-dialogtxt       "Then look at me…"
+dialogtxt       "Then look at me..."
 dialogtxt       "I show up late and"
-dialogtxt       "constantly get interrupted…"
+dialogtxt       "constantly get interrupted..."
 code0309        
 call            @Func_0f0e
 code0479        0, 4, 13
 call            @Func_0e6c
 dialogtxt       "Now now,"
-dialogtxt       "don't get so down…"
+dialogtxt       "don't get so down..."
 code0309        
 call            @Func_0ea2
 code0479        1, 0, 12
@@ -120,7 +120,7 @@ code0309
 call            @Func_0ea2
 code0479        1, 2, 16
 call            @Func_0ed8
-dialogtxt       "Lemmy… I see…"
+dialogtxt       "Lemmy... I see..."
 dialogtxt       "Which reminds me, did you"
 dialogtxt       "see a Summon Beast then?"
 code0309        
@@ -128,13 +128,13 @@ call            @Func_0f0e
 code0479        0, 0, 16
 call            @Func_0e6c
 dialogtxt       "Summon Beast?"
-dialogtxt       "None besides Red Wing…"
+dialogtxt       "None besides Red Wing..."
 code0309        
 call            @Func_0ea2
 code0479        1, 4, 12
 call            @Func_0ed8
-dialogtxt       "I see…"
-dialogtxt       "Like I thought, he's still…"
+dialogtxt       "I see..."
+dialogtxt       "Like I thought, he's still..."
 code0309        
 call            @Func_0f0e
 code0479        0, 5, 16
@@ -152,7 +152,7 @@ call            @Func_0f0e
 code0479        0, 2, 14
 call            @Func_0e6c
 dialogtxt       "S—Suspicious."
-dialogtxt       "Very suspicious…"
+dialogtxt       "Very suspicious..."
 code0309        
 call            @Func_0fa8
 call            @Func_0e8a

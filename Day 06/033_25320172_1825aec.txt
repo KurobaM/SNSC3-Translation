@@ -30,7 +30,7 @@ call            @Func_150c
 call            @Func_1434
 dialogtxt       "Geez!"
 dialogtxt       "What were you thinking,"
-dialogtxt       "going in there alone…"
+dialogtxt       "going in there alone..."
 code047b        
 code0309        
 call            @Func_1562
@@ -69,7 +69,7 @@ code0479        0, 5, 17
 call            @Func_150c
 call            @Func_1434
 dialogtxt       "Huh!?"
-dialogtxt       "Wait…"
+dialogtxt       "Wait..."
 dialogtxt       "What do you mean!?"
 code047b        
 code0309        
@@ -106,7 +106,7 @@ code043c        0, 4
 code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
-dialogtxt       "She disappeared…"
+dialogtxt       "She disappeared..."
 jumpz           @Cond_049a, ($b002 == 0)
 dialogtxt       "Just what do you mean by that!?"
 goto            @Label_04b0
@@ -149,9 +149,9 @@ goto            @Cond_05f0
 
 @Cond_05f0:
 jumpz           @Cond_08be, ($b003 == 1)
-dialogtxt       "She's gone…"
+dialogtxt       "She's gone..."
 dialogtxt       "I can no longer feel"
-dialogtxt       "her presence…"
+dialogtxt       "her presence..."
 code047b        
 code0309        
 call            @Func_14f4
@@ -160,12 +160,12 @@ code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_06c0, ($b002 == 0)
-dialogtxt       "…What!?"
+dialogtxt       "...What!?"
 dialogtxt       "People don't just disappear, right?"
 goto            @Label_06fc
 
 @Cond_06c0:
-dialogtxt       "…What!?"
+dialogtxt       "...What!?"
 dialogtxt       "People don't just disappear, right?"
 goto            @Label_06fc
 
@@ -182,13 +182,13 @@ call            @Func_14f4
 code0479        0, 2, 14
 call            @Func_1452
 jumpz           @Cond_07c0, ($b002 == 0)
-dialogtxt       "Wait, so does that mean…"
+dialogtxt       "Wait, so does that mean..."
 dialogtxt       "The Tier we saw just"
 dialogtxt       "now isn't human?"
 goto            @Label_080c
 
 @Cond_07c0:
-dialogtxt       "Wait, so does that mean…"
+dialogtxt       "Wait, so does that mean..."
 dialogtxt       "The Tier we saw just"
 dialogtxt       "now isn't human?"
 goto            @Label_080c
@@ -218,12 +218,12 @@ code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_0972, ($b002 == 0)
-dialogtxt       "…What!?"
+dialogtxt       "...What!?"
 dialogtxt       "People don't just disappear, right?"
 goto            @Label_09ae
 
 @Cond_0972:
-dialogtxt       "…What!?"
+dialogtxt       "...What!?"
 dialogtxt       "People don't just disappear, right?"
 goto            @Label_09ae
 
@@ -239,13 +239,13 @@ call            @Func_14f4
 code0479        0, 2, 14
 call            @Func_1452
 jumpz           @Cond_0a60, ($b002 == 0)
-dialogtxt       "Wait, so does that mean…"
+dialogtxt       "Wait, so does that mean..."
 dialogtxt       "The Tier we saw just"
 dialogtxt       "now isn't human?"
 goto            @Label_0aac
 
 @Cond_0a60:
-dialogtxt       "Wait, so does that mean…"
+dialogtxt       "Wait, so does that mean..."
 dialogtxt       "The Tier we saw just"
 dialogtxt       "now isn't human?"
 goto            @Label_0aac
@@ -297,13 +297,13 @@ call            @Func_14f4
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_0d1c, ($b002 == 0)
-dialogtxt       "That'd be nice…"
-dialogtxt       "But maybe…"
+dialogtxt       "That'd be nice..."
+dialogtxt       "But maybe..."
 goto            @Label_0d44
 
 @Cond_0d1c:
-dialogtxt       "That'd be nice…"
-dialogtxt       "But maybe…"
+dialogtxt       "That'd be nice..."
+dialogtxt       "But maybe..."
 goto            @Label_0d44
 
 @Label_0d44:

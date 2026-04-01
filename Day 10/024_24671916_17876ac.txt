@@ -415,7 +415,7 @@ code047d        0, 149
 code047e        0, 1
 dialogtxt       "Oh! You're a Craftknight, right?"
 dialogtxt       "I wanted to talk business with you,"
-dialogtxt       "but I'm sold out at the moment…"
+dialogtxt       "but I'm sold out at the moment..."
 code0309        
 dialogtxt       "I'm so, so sorry!"
 dialogtxt       "I'll be stocked up next time, so"
@@ -429,8 +429,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "I have so much to do recently…"
-dialogtxt       "Sigh…"
+dialogtxt       "I have so much to do recently..."
+dialogtxt       "Sigh..."
 code0309        
 code047e        0, 0
 code0302        7

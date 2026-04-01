@@ -77,7 +77,7 @@ code0309
 call            @Func_0efc
 code0479        0, 4, 16
 call            @Func_0e5a
-dialogtxt       "I am, but…"
+dialogtxt       "I am, but..."
 code0309        
 call            @Func_0e90
 code0479        1, 0, 17
@@ -91,15 +91,15 @@ code0479        1, 5, 14
 code0479        0, 0, 16
 call            @Func_0e5a
 jumpz           @Cond_0536, ($b002 == 0)
-dialogtxt       "W—Well…"
+dialogtxt       "W—Well..."
 dialogtxt       "I guess losing their Craftknight"
-dialogtxt       "would be tough for the inn…"
+dialogtxt       "would be tough for the inn..."
 goto            @Label_0582
 
 @Cond_0536:
-dialogtxt       "W—Well…"
+dialogtxt       "W—Well..."
 dialogtxt       "I guess losing a poster girl"
-dialogtxt       "would be tough for the inn…"
+dialogtxt       "would be tough for the inn..."
 goto            @Label_0582
 
 @Label_0582:
@@ -132,14 +132,14 @@ dialogtxt       "I was seriously"
 dialogtxt       "worried about you!"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "I mean, you fell off a cliff…"
-dialogtxt       "What if you had…"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "I mean, you fell off a cliff..."
+dialogtxt       "What if you had..."
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_0efc
 code0479        0, 4, 16
 call            @Func_0e5a
-dialogtxt       "S—Sorry…"
+dialogtxt       "S—Sorry..."
 code0309        
 call            @Func_0e90
 code0479        1, 2, 14
@@ -167,7 +167,7 @@ code0309
 call            @Func_0efc
 code0479        0, 4, 13
 call            @Func_0e5a
-dialogtxt       "A—Ahaha…"
+dialogtxt       "A—Ahaha..."
 code0309        
 call            @Func_0f96
 call            @Func_0e78

@@ -35,12 +35,12 @@ call            @Func_0862
 code0479        0, 2, 15
 call            @Func_07c0
 jumpz           @Cond_01ea, ($b002 == 0)
-dialogtxt       "Oh, shut up…"
+dialogtxt       "Oh, shut up..."
 dialogtxt       "Here I come!"
 goto            @Label_0210
 
 @Cond_01ea:
-dialogtxt       "Oh, shut up…"
+dialogtxt       "Oh, shut up..."
 dialogtxt       "Here I come!"
 goto            @Label_0210
 

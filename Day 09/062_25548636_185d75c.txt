@@ -53,8 +53,8 @@ code0309
 call            @Func_1512
 code0479        0, 6, 12
 call            @Func_1470
-dialogtxt       "Eh…"
-dialogtxt       "Is that so…"
+dialogtxt       "Eh..."
+dialogtxt       "Is that so..."
 code0309        
 call            @Func_14a6
 code0479        1, 0, 16
@@ -72,12 +72,12 @@ call            @Func_1512
 code0479        0, 2, 16
 call            @Func_1470
 jumpz           @Cond_0422, ($b002 == 0)
-dialogtxt       "… Wait, you're"
+dialogtxt       "... Wait, you're"
 dialogtxt       "coming too?"
 goto            @Label_0452
 
 @Cond_0422:
-dialogtxt       "… Wait, you're"
+dialogtxt       "... Wait, you're"
 dialogtxt       "coming too?"
 goto            @Label_0452
 
@@ -119,13 +119,13 @@ call            @Func_14a6
 code0479        1, 1, 12
 call            @Func_14dc
 jumpz           @Cond_068e, ($b002 == 0)
-dialogtxt       "That may be true, but…"
+dialogtxt       "That may be true, but..."
 dialogtxt       "It'll be okay!"
 dialogtxt       "I do this out of love!"
 goto            @Label_06d6
 
 @Cond_068e:
-dialogtxt       "That may be true, but…"
+dialogtxt       "That may be true, but..."
 dialogtxt       "It'll be okay!"
 dialogtxt       "It's for [NAME 2]'s sake!"
 goto            @Label_06d6
@@ -152,9 +152,9 @@ code0309
 call            @Func_14a6
 code0479        1, 2, 15
 call            @Func_14dc
-dialogtxt       "I… don't want that!"
+dialogtxt       "I... don't want that!"
 dialogtxt       "Everyone else is going,"
-dialogtxt       "I'm the only one left behind…"
+dialogtxt       "I'm the only one left behind..."
 code0309        
 call            @Func_1512
 code0479        0, 2, 15
@@ -172,7 +172,7 @@ code0309
 call            @Func_14a6
 code0479        1, 5, 14
 call            @Func_14dc
-dialogtxt       "…!?"
+dialogtxt       "...!?"
 code0309        
 call            @Func_1512
 code0479        0, 2, 16
@@ -180,13 +180,13 @@ call            @Func_1470
 jumpz           @Cond_0940, ($b002 == 0)
 dialogtxt       "Your parents have been worried"
 dialogtxt       "about you the whole time, right?"
-dialogtxt       "Yet you keep running off…"
+dialogtxt       "Yet you keep running off..."
 goto            @Label_099c
 
 @Cond_0940:
 dialogtxt       "Your parents have been worried"
 dialogtxt       "about you the whole time, right?"
-dialogtxt       "Yet you keep running off…"
+dialogtxt       "Yet you keep running off..."
 goto            @Label_099c
 
 @Label_099c:
@@ -194,25 +194,25 @@ code0309
 call            @Func_14a6
 code0479        1, 4, 16
 call            @Func_14dc
-dialogtxt       "That's right…"
+dialogtxt       "That's right..."
 dialogtxt       "If I head off somewhere dangerous,"
-dialogtxt       "everyone will worry…"
+dialogtxt       "everyone will worry..."
 code0309        
 code0479        0, 2, 14
 code0479        1, 4, 14
 dialogtxt       "And if that happens, it might"
-dialogtxt       "affect the store's business…"
+dialogtxt       "affect the store's business..."
 dialogtxt       "I can't let that happen."
 code0309        
 call            @Func_1512
 code0479        0, 0, 14
 call            @Func_1470
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 call            @Func_14a6
 code0479        1, 4, 13
 call            @Func_14dc
-dialogtxt       "Okay…"
+dialogtxt       "Okay..."
 dialogtxt       "I'll go home."
 code0309        
 call            @Func_1512
@@ -240,12 +240,12 @@ call            @Func_1512
 code0479        0, 0, 14
 call            @Func_1470
 jumpz           @Cond_0c28, ($b002 == 0)
-dialogtxt       "Hmm…?"
+dialogtxt       "Hmm...?"
 dialogtxt       "What is it?"
 goto            @Label_0c44
 
 @Cond_0c28:
-dialogtxt       "Hmm…?"
+dialogtxt       "Hmm...?"
 dialogtxt       "What is it?"
 goto            @Label_0c44
 
@@ -262,13 +262,13 @@ call            @Func_1470
 jumpz           @Cond_0d12, ($b002 == 0)
 dialogtxt       "Eh?"
 dialogtxt       "Just me?"
-dialogtxt       "It'd be better if everyone…"
+dialogtxt       "It'd be better if everyone..."
 goto            @Label_0d5c
 
 @Cond_0d12:
 dialogtxt       "Eh?"
 dialogtxt       "Just me?"
-dialogtxt       "It'd be better if everyone…"
+dialogtxt       "It'd be better if everyone..."
 goto            @Label_0d5c
 
 @Label_0d5c:
@@ -278,18 +278,18 @@ code0479        1, 0, 16
 call            @Func_14dc
 dialogtxt       "I don't need everyone to come."
 dialogtxt       "It's not like this will be"
-dialogtxt       "the last time we meet…"
+dialogtxt       "the last time we meet..."
 code0309        
 code0479        1, 10, 16
 dialogtxt       "But, it's just,"
 dialogtxt       "I'll be lonely without you,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_1512
 code0479        0, 1, 14
 call            @Func_1470
-dialogtxt       "You're exaggerating…"
-dialogtxt       "But, well…"
+dialogtxt       "You're exaggerating..."
+dialogtxt       "But, well..."
 dialogtxt       "I can do that much at least."
 code0309        
 call            @Func_14a6

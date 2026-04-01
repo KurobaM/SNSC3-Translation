@@ -68,14 +68,14 @@ code0309
 call            @Func_1070
 code0479        1, 2, 14
 call            @Func_10a6
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 dialogtxt       "Zakk told me that Anise"
 dialogtxt       "was hiding somewhere in here."
 code0309        
 call            @Func_10dc
 code0479        0, 4, 14
 call            @Func_103a
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "Meddling again."
 code0309        
 call            @Func_1160
@@ -134,7 +134,7 @@ code0309
 call            @Func_10dc
 code0479        0, 5, 17
 call            @Func_103a
-dialogtxt       "I—I'm… Weapons…"
+dialogtxt       "I—I'm... Weapons..."
 dialogtxt       "Right, I'm here to"
 dialogtxt       "strengthen my weapons."
 code0309        

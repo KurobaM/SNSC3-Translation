@@ -222,7 +222,7 @@ code043c        0, 4
 code0479        0, 2, 14
 call            @Func_18dc
 call            @Func_1822
-dialogtxt       "I wonder…?"
+dialogtxt       "I wonder...?"
 goto            @Cond_09c8
 
 @Cond_09c8:
@@ -248,7 +248,7 @@ goto            @Cond_0a60
 
 @Cond_0a60:
 jumpz           @Cond_0aea, ($b003 == 3)
-dialogtxt       "How should I say this…"
+dialogtxt       "How should I say this..."
 dialogtxt       "That's just like her."
 code047b        
 code0309        
@@ -257,7 +257,7 @@ code043c        0, 4
 code0479        0, 1, 16
 call            @Func_18dc
 call            @Func_1822
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Cond_0aea
 
 @Cond_0aea:
@@ -305,9 +305,9 @@ call            @Func_1822
 dialogtxt       "It's no big deal."
 code0309        
 code0479        0, 5, 15
-dialogtxt       "… Wait, no!"
+dialogtxt       "... Wait, no!"
 dialogtxt       "I was only telling you because"
-dialogtxt       "of Eliez…"
+dialogtxt       "of Eliez..."
 code0309        
 call            @Func_1858
 code0479        1, 1, 12
@@ -414,7 +414,7 @@ code0479        0, 0, 12
 code047d        0, 120
 call            @Func_18dc
 call            @Func_1804
-dialogtxt       "Heh…"
+dialogtxt       "Heh..."
 code047b        
 code0309        
 call            @Func_1932

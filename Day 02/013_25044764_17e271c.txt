@@ -56,7 +56,7 @@ code0479        0, 4, 16
 call            @Func_0be2
 call            @Func_0b28
 code047b        
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 code0309        
 call            @Func_0b5e
 code0478        1, 2
@@ -96,7 +96,7 @@ goto            @Cond_03fa
 
 @Cond_03fa:
 jumpz           @Cond_045c, ($b003 == 2)
-dialogtxt       "I can't just erase him, can I…?"
+dialogtxt       "I can't just erase him, can I...?"
 dialogtxt       "What do you intend to do?"
 goto            @Cond_045c
 
@@ -104,7 +104,7 @@ goto            @Cond_045c
 jumpz           @Cond_04b2, ($b003 == 3)
 dialogtxt       "Looks like we can't just"
 dialogtxt       "barge in, huh?"
-dialogtxt       "What shall we do…?"
+dialogtxt       "What shall we do...?"
 goto            @Cond_04b2
 
 @Cond_04b2:
@@ -113,8 +113,8 @@ code0309
 call            @Func_0bca
 code0479        0, 0, 14
 call            @Func_0b28
-dialogtxt       "… I guess I'll just"
-dialogtxt       "have to go train…"
+dialogtxt       "... I guess I'll just"
+dialogtxt       "have to go train..."
 code0309        
 call            @Func_0c64
 call            @Func_0b46

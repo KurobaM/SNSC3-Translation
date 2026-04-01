@@ -46,7 +46,7 @@ code047d        1, 108
 call            @Func_121c
 code0479        0, 0, 16
 call            @Func_1118
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 call            @Func_116c
 code0479        1, 1, 12
@@ -77,8 +77,8 @@ code0309
 call            @Func_11d8
 code0479        0, 0, 16
 call            @Func_1136
-dialogtxt       "Hmm… Are you sure?"
-dialogtxt       "… Are we really getting along"
+dialogtxt       "Hmm... Are you sure?"
+dialogtxt       "... Are we really getting along"
 dialogtxt       "that well?"
 code0309        
 call            @Func_116c
@@ -101,7 +101,7 @@ code0309
 call            @Func_116c
 code0479        1, 1, 13
 call            @Func_11a2
-dialogtxt       "Hahahaha…"
+dialogtxt       "Hahahaha..."
 dialogtxt       "Thanks for the offer."
 dialogtxt       "I'll be counting on you then."
 code0309        

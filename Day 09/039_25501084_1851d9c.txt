@@ -72,22 +72,22 @@ code047d        0, 2
 call            @Func_1190
 call            @Func_10b8
 jumpz           @Cond_02e0, ($b003 == 0)
-dialogtxt       "That Is…"
+dialogtxt       "That Is..."
 goto            @Cond_02e0
 
 @Cond_02e0:
 jumpz           @Cond_0300, ($b003 == 1)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0320, ($b003 == 2)
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Cond_0320
 
 @Cond_0320:
 jumpz           @Cond_0340, ($b003 == 3)
-dialogtxt       "That person…"
+dialogtxt       "That person..."
 goto            @Cond_0340
 
 @Cond_0340:
@@ -113,7 +113,7 @@ code047d        0, 0
 call            @Func_1190
 call            @Func_10b8
 dialogtxt       "Ever since the earthquake, no one's"
-dialogtxt       "been allowed to enter that place…"
+dialogtxt       "been allowed to enter that place..."
 code047b        
 code0309        
 call            @Func_11e6
@@ -168,7 +168,7 @@ call            @Func_1178
 code0479        0, 5, 17
 call            @Func_10d6
 dialogtxt       "Eh~!?"
-dialogtxt       "No way…"
+dialogtxt       "No way..."
 code0309        
 call            @Func_110c
 code0479        1, 2, 16
@@ -180,7 +180,7 @@ code0309
 call            @Func_1178
 code0479        0, 2, 16
 call            @Func_10d6
-dialogtxt       "Most qualified…"
+dialogtxt       "Most qualified..."
 code0309        
 call            @Func_1212
 call            @Func_10f4
@@ -192,8 +192,8 @@ code033b        396, 0, 0, 0, 1, 0
 code0479        0, 3, 12
 call            @Func_1190
 call            @Func_10b8
-dialogtxt       "Maybe this is…"
-dialogtxt       "Could you…"
+dialogtxt       "Maybe this is..."
+dialogtxt       "Could you..."
 code047b        
 code0309        
 call            @Func_110c

@@ -19,8 +19,8 @@ code0479        1, 2, 12
 code047d        1, 115
 call            @Func_118e
 call            @Func_110c
-dialogtxt       "There you are…"
-dialogtxt       "I'm tired of waiting…"
+dialogtxt       "There you are..."
+dialogtxt       "I'm tired of waiting..."
 code047b        
 code0309        
 call            @Func_1160
@@ -47,10 +47,10 @@ code0479        1, 2, 13
 call            @Func_112a
 dialogtxt       "Yep. I figured you guys"
 dialogtxt       "were too stubborn to give up."
-dialogtxt       "And here you are…"
+dialogtxt       "And here you are..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "Well then, let's get right to it…"
+dialogtxt       "Well then, let's get right to it..."
 dialogtxt       "How about we settle this for good!"
 code0309        
 call            @Func_11ce
@@ -105,7 +105,7 @@ goto            @Label_047c
 @Label_047c:
 call            @Func_10be
 jumpz           @Cond_049c, ($b003 == 0)
-dialogtxt       "…!"
+dialogtxt       "...!"
 goto            @Cond_049c
 
 @Cond_049c:
@@ -115,7 +115,7 @@ goto            @Cond_04c0
 
 @Cond_04c0:
 jumpz           @Cond_04fc, ($b003 == 2)
-dialogtxt       "You…"
+dialogtxt       "You..."
 dialogtxt       "Wanna die that badly?"
 goto            @Cond_04fc
 
@@ -159,12 +159,12 @@ call            @Func_10f4
 code0479        1, 5, 15
 call            @Func_112a
 jumpz           @Cond_0700, ($b002 == 0)
-dialogtxt       "The fuck, you brat…"
+dialogtxt       "The fuck, you brat..."
 dialogtxt       "Don't underestimate me!"
 goto            @Label_072a
 
 @Cond_0700:
-dialogtxt       "The fuck, you brat…"
+dialogtxt       "The fuck, you brat..."
 dialogtxt       "Don't underestimate me!"
 goto            @Label_072a
 
@@ -220,7 +220,7 @@ call            @Func_10f4
 code0479        1, 2, 16
 call            @Func_112a
 dialogtxt       "Aahh? Whazzat!?"
-dialogtxt       "There you go again…"
+dialogtxt       "There you go again..."
 code0309        
 call            @Func_1160
 code0479        0, 2, 14
@@ -238,7 +238,7 @@ code0309
 call            @Func_10f4
 code0479        1, 2, 12
 call            @Func_112a
-dialogtxt       "Hah…"
+dialogtxt       "Hah..."
 dialogtxt       "And if I am?"
 code0309        
 call            @Func_1160

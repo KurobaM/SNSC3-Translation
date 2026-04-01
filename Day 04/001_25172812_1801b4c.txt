@@ -9,7 +9,7 @@ call            @Func_14da
 jumpz           @Cond_0162, ($b002 == 0)
 dialogtxt       "Well, we got to stay for free"
 dialogtxt       "after agreeing to bring Tier along."
-dialogtxt       "Only a single room, though…"
+dialogtxt       "Only a single room, though..."
 code047b        
 code0309        
 code0479        0, 1, 17
@@ -21,7 +21,7 @@ goto            @Label_024e
 @Cond_0162:
 dialogtxt       "Well, we got to stay for free"
 dialogtxt       "after agreeing to bring Tier along."
-dialogtxt       "Only a single room, though…"
+dialogtxt       "Only a single room, though..."
 code047b        
 code0309        
 code0479        0, 1, 17
@@ -54,7 +54,7 @@ goto            @Label_02e4
 @Label_02e4:
 call            @Func_1564
 jumpz           @Cond_05ae, ($b003 == 0)
-dialogtxt       "Like Always…?"
+dialogtxt       "Like Always...?"
 dialogtxt       "This Workshop Is"
 dialogtxt       "Different From Ours."
 code0309        
@@ -76,19 +76,19 @@ code0309
 call            @Func_152e
 code0479        1, 0, 12
 call            @Func_1564
-dialogtxt       "Feels…"
+dialogtxt       "Feels..."
 code0309        
 call            @Func_159a
 code0479        0, 0, 12
 call            @Func_14f8
 jumpz           @Cond_0478, ($b002 == 0)
-dialogtxt       "… Er, sorry!"
+dialogtxt       "... Er, sorry!"
 dialogtxt       "We did leave the village,"
 dialogtxt       "at least there's that!"
 goto            @Label_04d2
 
 @Cond_0478:
-dialogtxt       "… Er, sorry!"
+dialogtxt       "... Er, sorry!"
 dialogtxt       "We did leave the village,"
 dialogtxt       "at least there's that!"
 goto            @Label_04d2
@@ -98,7 +98,7 @@ code0309
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
-dialogtxt       "Feels…"
+dialogtxt       "Feels..."
 code0309        
 call            @Func_159a
 code0479        0, 2, 13
@@ -164,7 +164,7 @@ call            @Func_1564
 dialogtxt       "That's not it!"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "Unbelievable…"
+dialogtxt       "Unbelievable..."
 dialogtxt       "You're so incredibly obtuse."
 code0309        
 call            @Func_159a
@@ -176,7 +176,7 @@ dialogtxt       "Something to do with smells?"
 goto            @Label_083c
 
 @Cond_0808:
-dialogtxt       "Obtuse…? What's that mean?"
+dialogtxt       "Obtuse...? What's that mean?"
 dialogtxt       "Something to do with smells?"
 goto            @Label_083c
 
@@ -185,7 +185,7 @@ code0309
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Enough,"
 dialogtxt       "let's just get moving."
 code0309        
@@ -238,7 +238,7 @@ call            @Func_152e
 code0479        1, 0, 13
 call            @Func_1564
 dialogtxt       "Either way, you'll be"
-dialogtxt       "rolling around in your sleep…"
+dialogtxt       "rolling around in your sleep..."
 code0309        
 call            @Func_159a
 code0479        0, 5, 12
@@ -254,7 +254,7 @@ code0309
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
-dialogtxt       "Changing the subject…?"
+dialogtxt       "Changing the subject...?"
 code0309        
 call            @Func_1634
 call            @Func_1582
@@ -320,8 +320,8 @@ code0309
 call            @Func_159a
 code0479        0, 7, 16
 call            @Func_14f8
-dialogtxt       "That's…"
-dialogtxt       "Well…"
+dialogtxt       "That's..."
+dialogtxt       "Well..."
 code0309        
 code043c        0, 1
 code0479        0, 2, 12
@@ -332,8 +332,8 @@ code0309
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
-dialogtxt       "Good grief…"
-dialogtxt       "What were you dreaming about…?"
+dialogtxt       "Good grief..."
+dialogtxt       "What were you dreaming about...?"
 code0309        
 call            @Func_1634
 call            @Func_1582

@@ -71,7 +71,7 @@ code047d        0, 108
 call            @Func_305c
 call            @Func_2f84
 dialogtxt       "Hey, wait!"
-dialogtxt       "We never said…!"
+dialogtxt       "We never said...!"
 code047b        
 code0309        
 call            @Func_2fd8
@@ -126,7 +126,7 @@ code0479        1, 2, 15
 code047d        1, 108
 call            @Func_3072
 call            @Func_300e
-dialogtxt       "Wait, what…?"
+dialogtxt       "Wait, what...?"
 dialogtxt       "What are you doing here?"
 code047b        
 code0309        
@@ -135,13 +135,13 @@ code0479        0, 1, 12
 call            @Func_2fa2
 dialogtxt       "Well, I came across the girl"
 dialogtxt       "and she seemed quite troubled."
-dialogtxt       "I couldn't just abandon her…"
+dialogtxt       "I couldn't just abandon her..."
 code0309        
 call            @Func_2fd8
 code0479        1, 4, 12
 call            @Func_300e
-dialogtxt       "Right…"
-dialogtxt       "…"
+dialogtxt       "Right..."
+dialogtxt       "..."
 dialogtxt       "You just wanted some cake, right?"
 code0309        
 call            @Func_3044
@@ -149,7 +149,7 @@ code0479        0, 2, 12
 call            @Func_2fa2
 dialogtxt       "Hey, hey!"
 dialogtxt       "Do you really think I could be"
-dialogtxt       "lured by some cake…?"
+dialogtxt       "lured by some cake...?"
 code0309        
 call            @Func_2fd8
 code0479        1, 0, 12
@@ -169,7 +169,7 @@ code0309
 call            @Func_3044
 code0479        0, 3, 17
 call            @Func_2fa2
-dialogtxt       "Why you…!"
+dialogtxt       "Why you...!"
 code0309        
 call            @Func_2fd8
 code0479        1, 0, 12
@@ -205,26 +205,26 @@ code047d        1, 2
 call            @Func_3072
 call            @Func_300e
 jumpz           @Cond_0a6c, ($b003 == 0)
-dialogtxt       "Meaning…"
-dialogtxt       "If It Was Bad He'd Cause A Scene…"
+dialogtxt       "Meaning..."
+dialogtxt       "If It Was Bad He'd Cause A Scene..."
 goto            @Cond_0a6c
 
 @Cond_0a6c:
 jumpz           @Cond_0a98, ($b003 == 1)
 dialogtxt       "So, he'd make a fuss if it"
-dialogtxt       "was bad…"
+dialogtxt       "was bad..."
 goto            @Cond_0a98
 
 @Cond_0a98:
 jumpz           @Cond_0ac6, ($b003 == 2)
 dialogtxt       "So, if it was bad he'd cause"
-dialogtxt       "a scene…"
+dialogtxt       "a scene..."
 goto            @Cond_0ac6
 
 @Cond_0ac6:
 jumpz           @Cond_0af6, ($b003 == 3)
 dialogtxt       "So, if it was bad he'd cause"
-dialogtxt       "a scene…"
+dialogtxt       "a scene..."
 goto            @Cond_0af6
 
 @Cond_0af6:
@@ -385,7 +385,7 @@ call            @Func_305c
 call            @Func_2fa2
 dialogtxt       "Miss,"
 dialogtxt       "I assure you there were some"
-dialogtxt       "very specific circumstances…"
+dialogtxt       "very specific circumstances..."
 code047b        
 code0309        
 call            @Func_30c8
@@ -396,7 +396,7 @@ code0479        1, 1, 12
 code047d        1, 109
 call            @Func_3072
 call            @Func_300e
-dialogtxt       "Aaanyway…"
+dialogtxt       "Aaanyway..."
 dialogtxt       "That'll be 1000 Boam per person!"
 code047b        
 code0309        
@@ -419,7 +419,7 @@ code0334
 code0331        39, 256
 code0479        0, 2, 17
 dialogtxt       "Tricking us,"
-dialogtxt       "and taking our money…"
+dialogtxt       "and taking our money..."
 dialogtxt       "That's low!"
 goto            @Label_1366
 
@@ -433,7 +433,7 @@ code0334
 code0331        39, 256
 code0479        0, 2, 17
 dialogtxt       "Tricking us"
-dialogtxt       "and taking our money…"
+dialogtxt       "and taking our money..."
 dialogtxt       "That's playing dirty!"
 goto            @Label_1366
 
@@ -443,14 +443,14 @@ call            @Func_2fd8
 code0479        1, 5, 17
 call            @Func_300e
 dialogtxt       "Little old me, extorting customers?"
-dialogtxt       "How could you even say that…"
-dialogtxt       "You're so mean…"
+dialogtxt       "How could you even say that..."
+dialogtxt       "You're so mean..."
 code0309        
 call            @Func_3044
 code0479        0, 2, 14
 call            @Func_2fa2
 choicetxt       @Choice_140c, "Says the one who cheated us!"
-choicetxt       @Choice_14e2, "Maybe I went a little overboard…"
+choicetxt       @Choice_14e2, "Maybe I went a little overboard..."
 choicewait      
 
 @Choice_140c:
@@ -475,8 +475,8 @@ goto            @Label_1812
 
 @Choice_14e2:
 code0479        0, 2, 16
-dialogtxt       "Ugh…"
-dialogtxt       "Did I go too far…?"
+dialogtxt       "Ugh..."
+dialogtxt       "Did I go too far...?"
 code0309        
 call            @Func_30c8
 call            @Func_2fd8
@@ -531,7 +531,7 @@ dialogtxt       "She definitely decieved us!"
 code0309        
 code0479        0, 0, 12
 dialogtxt       "And it's possible that"
-dialogtxt       "her injury was a lie as well…"
+dialogtxt       "her injury was a lie as well..."
 goto            @Cond_17c2
 
 @Cond_17c2:
@@ -599,7 +599,7 @@ code0479        0, 4, 12
 code047d        0, 108
 call            @Func_305c
 call            @Func_2f84
-dialogtxt       "There she goes…"
+dialogtxt       "There she goes..."
 dialogtxt       "Are you an idiot?"
 code047b        
 code0309        
@@ -633,8 +633,8 @@ code0479        1, 4, 13
 code047d        1, 114
 call            @Func_3072
 call            @Func_300e
-dialogtxt       "I'm very sorry…"
-dialogtxt       "She can be a handful…"
+dialogtxt       "I'm very sorry..."
+dialogtxt       "She can be a handful..."
 dialogtxt       "I'll go find her."
 code047b        
 code0309        
@@ -647,7 +647,7 @@ code0309
 call            @Func_2fd8
 code0479        1, 0, 16
 call            @Func_300e
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 dialogtxt       "Could you tend the inn for me"
 dialogtxt       "until my husband returns?"
 code0309        
@@ -664,7 +664,7 @@ code0479        0, 1, 16
 code047d        0, 132
 call            @Func_305c
 call            @Func_2f84
-dialogtxt       "She didn't even consider it…"
+dialogtxt       "She didn't even consider it..."
 code047b        
 code0309        
 call            @Func_30b2
@@ -715,8 +715,8 @@ code0479        1, 4, 16
 code047d        1, 114
 call            @Func_3072
 call            @Func_300e
-dialogtxt       "I'm sorry…"
-dialogtxt       "Um… Your name…?"
+dialogtxt       "I'm sorry..."
+dialogtxt       "Um... Your name...?"
 code047b        
 code0309        
 call            @Func_30b2
@@ -766,8 +766,8 @@ code0309
 call            @Func_2fd8
 code0479        1, 4, 16
 call            @Func_300e
-dialogtxt       "…"
-dialogtxt       "Okay…"
+dialogtxt       "..."
+dialogtxt       "Okay..."
 code0309        
 call            @Func_30c8
 call            @Func_3044
@@ -802,8 +802,8 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_305c
 call            @Func_2f84
-dialogtxt       "Hey…"
-dialogtxt       "Wait…"
+dialogtxt       "Hey..."
+dialogtxt       "Wait..."
 code047b        
 code0309        
 call            @Func_30b2
@@ -841,7 +841,7 @@ code040d        15
 code0479        0, 4, 16
 call            @Func_305c
 call            @Func_2f84
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 code047b        
 code0309        
 call            @Func_2fd8
@@ -931,13 +931,13 @@ goto            @Label_26ee
 @Label_26ee:
 call            @Func_300e
 jumpz           @Cond_2748, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_3044
 code0479        0, 4, 16
 call            @Func_2fa2
-dialogtxt       "Hah…"
-dialogtxt       "Forget it…"
+dialogtxt       "Hah..."
+dialogtxt       "Forget it..."
 goto            @Cond_2748
 
 @Cond_2748:
@@ -947,7 +947,7 @@ code0309
 call            @Func_3044
 code0479        0, 4, 16
 call            @Func_2fa2
-dialogtxt       "Life's not fair…"
+dialogtxt       "Life's not fair..."
 goto            @Cond_27a2
 
 @Cond_27a2:
@@ -958,11 +958,11 @@ call            @Func_3044
 code0479        0, 2, 16
 call            @Func_2fa2
 jumpz           @Cond_27fe, ($b002 == 0)
-dialogtxt       "It does to me…"
+dialogtxt       "It does to me..."
 goto            @Label_280c
 
 @Cond_27fe:
-dialogtxt       "It does to me…"
+dialogtxt       "It does to me..."
 goto            @Label_280c
 
 @Label_280c:
@@ -977,7 +977,7 @@ code0309
 call            @Func_3044
 code0479        0, 4, 12
 call            @Func_2fa2
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 goto            @Cond_286e
 
 @Cond_286e:

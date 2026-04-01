@@ -98,13 +98,13 @@ code0309
 call            @Func_1bf2
 code0479        0, 0, 12
 call            @Func_1b50
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1b86
 code0479        1, 1, 16
 call            @Func_1bbc
-dialogtxt       "Hey…"
-dialogtxt       "It's not responding at all…"
+dialogtxt       "Hey..."
+dialogtxt       "It's not responding at all..."
 goto            @Cond_0512
 
 @Cond_0512:
@@ -146,7 +146,7 @@ code0309
 call            @Func_1b86
 code0479        1, 4, 16
 call            @Func_1bbc
-dialogtxt       "He must be hard to deal with…"
+dialogtxt       "He must be hard to deal with..."
 goto            @Cond_0706
 
 @Cond_0706:
@@ -182,7 +182,7 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_1c0a
 call            @Func_1b50
-dialogtxt       "Who are you…?"
+dialogtxt       "Who are you...?"
 code047b        
 code0309        
 call            @Func_1b86
@@ -224,11 +224,11 @@ call            @Func_1bf2
 code0479        0, 0, 12
 call            @Func_1b50
 jumpz           @Cond_0a7e, ($b002 == 0)
-dialogtxt       "Oh, is that so…?"
+dialogtxt       "Oh, is that so...?"
 goto            @Label_0a98
 
 @Cond_0a7e:
-dialogtxt       "Oh, is that so…?"
+dialogtxt       "Oh, is that so...?"
 goto            @Label_0a98
 
 @Label_0a98:
@@ -278,7 +278,7 @@ code043c        2, 3
 code0479        1, 1, 15
 call            @Func_1bbc
 dialogtxt       "Oh!?"
-dialogtxt       "Ohohohohoho…"
+dialogtxt       "Ohohohohoho..."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Tch!"
@@ -299,16 +299,16 @@ call            @Func_1b86
 code0479        1, 0, 12
 call            @Func_1bbc
 dialogtxt       "200 Boam."
-dialogtxt       "It's easy to get lost in here…"
+dialogtxt       "It's easy to get lost in here..."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Definitely better to"
-dialogtxt       "have a guide…"
+dialogtxt       "have a guide..."
 code0309        
 call            @Func_1bf2
 code0479        0, 4, 12
 call            @Func_1b50
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 dialogtxt       "But unless I see it for myself,"
 dialogtxt       "I won't feel like paying."
 code0309        
@@ -331,7 +331,7 @@ call            @Func_1b50
 dialogtxt       "Huh?"
 code0309        
 code0479        1, 0, 12
-choicetxt       @Choice_0f26, "I guess so…"
+choicetxt       @Choice_0f26, "I guess so..."
 choicetxt       @Choice_138c, "I'll find a path myself!"
 choicewait      
 
@@ -368,7 +368,7 @@ dialogtxt       "Thank you!"
 code047b        
 code0309        
 code0479        1, 7, 12
-dialogtxt       "Already the second one today…"
+dialogtxt       "Already the second one today..."
 dialogtxt       "Today's a good day~"
 code0309        
 call            @Func_1bf2
@@ -391,7 +391,7 @@ code0479        0, 0, 14
 code047d        0, 108
 call            @Func_1c0a
 call            @Func_1b50
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1b86
@@ -418,8 +418,8 @@ setvar          $f0135, 1
 call            @Func_1bf2
 code0479        0, 0, 16
 call            @Func_1b50
-dialogtxt       "Huh…"
-dialogtxt       "You don't have enough money…"
+dialogtxt       "Huh..."
+dialogtxt       "You don't have enough money..."
 code0309        
 call            @Func_1b86
 code0479        1, 2, 15
@@ -430,7 +430,7 @@ code0309
 call            @Func_1bf2
 code0479        0, 5, 14
 call            @Func_1b50
-dialogtxt       "No no, we're not…"
+dialogtxt       "No no, we're not..."
 code0309        
 call            @Func_1b86
 code0479        1, 0, 12

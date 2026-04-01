@@ -67,7 +67,7 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 14
 call            @Func_2226
-dialogtxt       "… Fine."
+dialogtxt       "... Fine."
 code0309        
 call            @Func_22f6
 call            @Func_2244
@@ -123,7 +123,7 @@ code047d        1, 2
 call            @Func_22a0
 jumpz           @Cond_04ce, ($b003 == 0)
 call            @Func_219c
-dialogtxt       "A match with Tier…"
+dialogtxt       "A match with Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -136,9 +136,9 @@ code0309
 call            @Func_225c
 code0479        0, 4, 12
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "I'm more worried about what'll"
-dialogtxt       "happen after we win…"
+dialogtxt       "happen after we win..."
 code0309        
 call            @Func_22f6
 call            @Func_21d8
@@ -148,7 +148,7 @@ goto            @Cond_04ce
 @Cond_04ce:
 jumpz           @Cond_05b6, ($b003 == 1)
 call            @Func_219c
-dialogtxt       "A match with Tier…"
+dialogtxt       "A match with Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -161,9 +161,9 @@ code0309
 call            @Func_225c
 code0479        0, 4, 12
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "I'm more worried about what'll"
-dialogtxt       "happen after we win…"
+dialogtxt       "happen after we win..."
 code0309        
 call            @Func_22f6
 call            @Func_21d8
@@ -173,23 +173,23 @@ goto            @Cond_05b6
 @Cond_05b6:
 jumpz           @Cond_06a0, ($b003 == 2)
 call            @Func_219c
-dialogtxt       "A match with Tier…"
+dialogtxt       "A match with Tier..."
 code047b        
 code0309        
 call            @Func_21f0
 code0479        1, 0, 16
 call            @Func_2226
-dialogtxt       "…What, you scared?"
+dialogtxt       "...What, you scared?"
 code0309        
 call            @Func_225c
 code0479        0, 4, 12
 call            @Func_21ba
-dialogtxt       "Thinking about the aftermath…"
+dialogtxt       "Thinking about the aftermath..."
 code0309        
 call            @Func_21f0
 code0479        1, 0, 13
 call            @Func_2226
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Don't think about it that hard."
 code0309        
 call            @Func_22f6
@@ -200,7 +200,7 @@ goto            @Cond_06a0
 @Cond_06a0:
 jumpz           @Cond_077a, ($b003 == 3)
 call            @Func_219c
-dialogtxt       "A match with Tier…"
+dialogtxt       "A match with Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -212,9 +212,9 @@ code0309
 call            @Func_225c
 code0479        0, 4, 12
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "I'm more worried about what'll"
-dialogtxt       "happen after we win…"
+dialogtxt       "happen after we win..."
 code0309        
 call            @Func_22f6
 call            @Func_21d8
@@ -241,7 +241,7 @@ code047d        1, 109
 call            @Func_228a
 call            @Func_2226
 dialogtxt       "Sorry."
-dialogtxt       "I'm so bothersome, aren't I…"
+dialogtxt       "I'm so bothersome, aren't I..."
 code047b        
 code0309        
 call            @Func_22ca
@@ -253,7 +253,7 @@ code047d        0, 108
 call            @Func_2274
 call            @Func_21ba
 dialogtxt       "Oh, of course you aren't."
-dialogtxt       "Now then, about our promise…"
+dialogtxt       "Now then, about our promise..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -302,7 +302,7 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_22a0
 call            @Func_219c
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -352,8 +352,8 @@ code0309
 call            @Func_21f0
 code0479        1, 1, 16
 call            @Func_2226
-dialogtxt       "Ah, uhh…"
-dialogtxt       "I'm fine…"
+dialogtxt       "Ah, uhh..."
+dialogtxt       "I'm fine..."
 code0309        
 call            @Func_22ca
 call            @Func_225c
@@ -388,7 +388,7 @@ goto            @Cond_0d1a
 @Cond_0d1a:
 jumpz           @Cond_0d5c, ($b003 == 1)
 dialogtxt       "What?"
-dialogtxt       "For you to recover so quickly…"
+dialogtxt       "For you to recover so quickly..."
 goto            @Cond_0d5c
 
 @Cond_0d5c:
@@ -400,7 +400,7 @@ goto            @Cond_0d98
 @Cond_0d98:
 jumpz           @Cond_0ddc, ($b003 == 3)
 dialogtxt       "Now you're suddenly"
-dialogtxt       "back to normal…?"
+dialogtxt       "back to normal...?"
 goto            @Cond_0ddc
 
 @Cond_0ddc:
@@ -409,7 +409,7 @@ code047b
 call            @Func_21f0
 code0479        1, 5, 12
 call            @Func_2226
-dialogtxt       "Uh, no, umm…"
+dialogtxt       "Uh, no, umm..."
 code0309        
 call            @Func_22ca
 call            @Func_225c
@@ -419,7 +419,7 @@ code0479        0, 2, 14
 code047d        0, 108
 call            @Func_2274
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_22f6
@@ -457,7 +457,7 @@ call            @Func_22a0
 jumpz           @Cond_1086, ($b003 == 0)
 call            @Func_219c
 dialogtxt       "I don't really understand,"
-dialogtxt       "but I guess I have to find Tier…"
+dialogtxt       "but I guess I have to find Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -470,7 +470,7 @@ code0309
 call            @Func_225c
 code0479        0, 2, 12
 call            @Func_21ba
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "Okay, then I'll"
 dialogtxt       "try my best!"
 code0309        
@@ -483,7 +483,7 @@ goto            @Cond_1086
 jumpz           @Cond_1266, ($b003 == 1)
 call            @Func_219c
 dialogtxt       "I don't really understand,"
-dialogtxt       "but I guess I have to find Tier…"
+dialogtxt       "but I guess I have to find Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -527,27 +527,27 @@ goto            @Cond_1266
 jumpz           @Cond_13a2, ($b003 == 2)
 call            @Func_219c
 dialogtxt       "I don't really understand,"
-dialogtxt       "but I guess I have to find Tier…"
+dialogtxt       "but I guess I have to find Tier..."
 code047b        
 code0309        
 call            @Func_21f0
 code0479        1, 2, 12
 call            @Func_2226
-dialogtxt       "Geez…"
+dialogtxt       "Geez..."
 dialogtxt       "This is a waste"
-dialogtxt       "of my time…"
+dialogtxt       "of my time..."
 code0309        
 call            @Func_225c
 code0479        0, 4, 16
 call            @Func_21ba
-dialogtxt       "Sorry…"
+dialogtxt       "Sorry..."
 dialogtxt       "Murno's waiting for us though,"
 dialogtxt       "so let's do our best, okay?"
 code0309        
 call            @Func_21f0
 code0479        1, 2, 14
 call            @Func_2226
-dialogtxt       "Tsk…"
+dialogtxt       "Tsk..."
 code0309        
 call            @Func_22f6
 call            @Func_2244
@@ -558,7 +558,7 @@ goto            @Cond_13a2
 jumpz           @Cond_165c, ($b003 == 3)
 call            @Func_219c
 dialogtxt       "I don't really understand,"
-dialogtxt       "but I guess I have to find Tier…"
+dialogtxt       "but I guess I have to find Tier..."
 code047b        
 code0309        
 call            @Func_21f0
@@ -571,11 +571,11 @@ call            @Func_225c
 code0479        0, 4, 12
 call            @Func_21ba
 jumpz           @Cond_1488, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 goto            @Label_149a
 
 @Cond_1488:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 goto            @Label_149a
 
 @Label_149a:
@@ -583,14 +583,14 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 12
 call            @Func_2226
-dialogtxt       "Ah geez. Don't be so down…"
+dialogtxt       "Ah geez. Don't be so down..."
 dialogtxt       "Here, let's hold hands."
-dialogtxt       "Like this…"
+dialogtxt       "Like this..."
 code0309        
 call            @Func_225c
 code0479        0, 5, 16
 call            @Func_21ba
-dialogtxt       "Eh, ah…"
+dialogtxt       "Eh, ah..."
 dialogtxt       "Wait, what!?"
 code0309        
 call            @Func_21f0
@@ -601,7 +601,7 @@ code030c
 call            @Func_225c
 code0479        0, 11, 16
 call            @Func_21ba
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 code0309        
 call            @Func_21f0
 code0479        1, 1, 12
@@ -659,18 +659,18 @@ code0309
 call            @Func_21f0
 code0479        1, 4, 12
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_17fc, ($b002 == 0)
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1830
 
 @Cond_17fc:
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1830
 
@@ -679,15 +679,15 @@ code0309
 call            @Func_21f0
 code0479        1, 4, 12
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 14
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_190c, ($b002 == 0)
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -696,7 +696,7 @@ goto            @Label_1990
 
 @Cond_190c:
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -724,18 +724,18 @@ code0309
 call            @Func_21f0
 code0479        1, 4, 14
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1a7a, ($b002 == 0)
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1aae
 
 @Cond_1a7a:
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1aae
 
@@ -744,15 +744,15 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 14
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 14
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_1b8a, ($b002 == 0)
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -761,7 +761,7 @@ goto            @Label_1c0e
 
 @Cond_1b8a:
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -773,8 +773,8 @@ code0309
 call            @Func_21f0
 code0479        1, 0, 12
 call            @Func_2226
-dialogtxt       "Right…"
-dialogtxt       "When the time comes…"
+dialogtxt       "Right..."
+dialogtxt       "When the time comes..."
 code0309        
 call            @Func_22f6
 call            @Func_2244
@@ -790,18 +790,18 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 14
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1d12, ($b002 == 0)
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1d46
 
 @Cond_1d12:
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1d46
 
@@ -810,15 +810,15 @@ code0309
 call            @Func_21f0
 code0479        1, 2, 16
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 14
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_1e22, ($b002 == 0)
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -827,7 +827,7 @@ goto            @Label_1ea6
 
 @Cond_1e22:
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -839,8 +839,8 @@ code0309
 call            @Func_21f0
 code0479        1, 0, 13
 call            @Func_2226
-dialogtxt       "…"
-dialogtxt       "If I feel like it…"
+dialogtxt       "..."
+dialogtxt       "If I feel like it..."
 code0309        
 call            @Func_22f6
 call            @Func_2244
@@ -856,18 +856,18 @@ code0309
 call            @Func_21f0
 code0479        1, 4, 16
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 16
 call            @Func_21ba
 jumpz           @Cond_1f9c, ($b002 == 0)
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1fd0
 
 @Cond_1f9c:
-dialogtxt       "… Worried about the guys"
+dialogtxt       "... Worried about the guys"
 dialogtxt       "we saw earlier?"
 goto            @Label_1fd0
 
@@ -876,15 +876,15 @@ code0309
 call            @Func_21f0
 code0479        1, 4, 14
 call            @Func_2226
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_225c
 code0479        0, 0, 14
 call            @Func_21ba
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_20ac, ($b002 == 0)
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"
@@ -893,7 +893,7 @@ goto            @Label_2130
 
 @Cond_20ac:
 dialogtxt       "Okay, I won't ask!"
-dialogtxt       "You promised Murno after all…"
+dialogtxt       "You promised Murno after all..."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "But sometime, I'd like it if"

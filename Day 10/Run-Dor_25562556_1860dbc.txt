@@ -72,7 +72,7 @@ code0309
 code0479        0, 2, 16
 dialogtxt       "In other words, this isn't"
 dialogtxt       "just my weapon, its ours."
-dialogtxt       "So, how should I say this…"
+dialogtxt       "So, how should I say this..."
 code0309        
 code0479        0, 2, 13
 dialogtxt       "I was fighting"
@@ -87,7 +87,7 @@ code0309
 code0479        0, 2, 16
 dialogtxt       "In other words, this isn't"
 dialogtxt       "just my weapon, its ours."
-dialogtxt       "So, how should I say this…"
+dialogtxt       "So, how should I say this..."
 code0309        
 code0479        0, 2, 13
 dialogtxt       "I was fighting"
@@ -99,15 +99,15 @@ code0309
 call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
-dialogtxt       "With Me…"
+dialogtxt       "With Me..."
 code0309        
 call            @Func_150a
 code0479        0, 2, 14
 call            @Func_1468
 jumpz           @Cond_0644, ($b002 == 0)
-dialogtxt       "So, um…"
+dialogtxt       "So, um..."
 dialogtxt       "What I conveyed to you was the"
-dialogtxt       "power of the weapon or something…"
+dialogtxt       "power of the weapon or something..."
 code0309        
 code0479        0, 5, 12
 dialogtxt       "Uh, right!"
@@ -115,9 +115,9 @@ dialogtxt       "It was the weight of our souls!"
 goto            @Label_06e2
 
 @Cond_0644:
-dialogtxt       "So, um…"
+dialogtxt       "So, um..."
 dialogtxt       "What I conveyed to you was the"
-dialogtxt       "power of the weapon or something…"
+dialogtxt       "power of the weapon or something..."
 code0309        
 code0479        0, 5, 12
 dialogtxt       "Uh, right!"
@@ -129,7 +129,7 @@ code0309
 call            @Func_149e
 code0479        1, 4, 12
 call            @Func_14d4
-dialogtxt       "The Weight Of… Souls?"
+dialogtxt       "The Weight Of... Souls?"
 code0309        
 call            @Func_150a
 code0479        0, 2, 12
@@ -149,8 +149,8 @@ code0309
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "Yes, That…"
-dialogtxt       "It Did…"
+dialogtxt       "Yes, That..."
+dialogtxt       "It Did..."
 code0309        
 call            @Func_150a
 code0479        0, 2, 13
@@ -175,7 +175,7 @@ code0309
 call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
-dialogtxt       "Feel…?"
+dialogtxt       "Feel...?"
 code0309        
 call            @Func_150a
 code0479        0, 0, 12
@@ -197,9 +197,9 @@ code0309
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "I See…"
+dialogtxt       "I See..."
 dialogtxt       "If I Were To Predict Your Thoughts"
-dialogtxt       "Based On Our Fight Just Now…"
+dialogtxt       "Based On Our Fight Just Now..."
 code0309        
 code0479        1, 1, 12
 dialogtxt       "I Believe"
@@ -254,8 +254,8 @@ code0309
 call            @Func_149e
 code0479        1, 3, 12
 call            @Func_14d4
-dialogtxt       "Partner…"
-dialogtxt       "I…"
+dialogtxt       "Partner..."
+dialogtxt       "I..."
 code0309        
 code0479        1, 9, 12
 dialogtxt       "I—!"
@@ -292,7 +292,7 @@ code040d        15
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "System Error. Cause, Unknown…"
+dialogtxt       "System Error. Cause, Unknown..."
 code0309        
 code047e        0, 0
 code0302        7

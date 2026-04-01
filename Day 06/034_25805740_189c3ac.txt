@@ -191,12 +191,12 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_08c2, ($b002 == 0)
-dialogtxt       "There's someone there…"
+dialogtxt       "There's someone there..."
 dialogtxt       "Let's have a look."
 goto            @Label_08f0
 
 @Cond_08c2:
-dialogtxt       "There's someone there…"
+dialogtxt       "There's someone there..."
 dialogtxt       "Let's have a look."
 goto            @Label_08f0
 

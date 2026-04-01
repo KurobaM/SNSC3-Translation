@@ -71,12 +71,12 @@ code0479        0, 2, 14
 call            @Func_0eca
 jumpz           @Cond_0380, ($b002 == 0)
 dialogtxt       "Weapon types, huh!"
-dialogtxt       "It's obviously…"
+dialogtxt       "It's obviously..."
 goto            @Label_03b0
 
 @Cond_0380:
 dialogtxt       "Weapon types, huh!"
-dialogtxt       "It's obviously…"
+dialogtxt       "It's obviously..."
 goto            @Label_03b0
 
 @Label_03b0:
@@ -92,7 +92,7 @@ setvar          $f0132, 1
 call            @Func_0f00
 code0479        1, 0, 12
 call            @Func_0f36
-dialogtxt       "That's right…"
+dialogtxt       "That's right..."
 dialogtxt       "Well, as a supposed Craftknight,"
 dialogtxt       "that one should be easy."
 code0309        
@@ -117,7 +117,7 @@ goto            @Label_04c4
 
 @Label_04c4:
 code0479        1, 0, 14
-dialogtxt       "Of the following, the heaviest is…"
+dialogtxt       "Of the following, the heaviest is..."
 dialogtxt       "Which one of the following?"
 code0309        
 call            @Func_0f6c
@@ -125,12 +125,12 @@ code0479        0, 2, 16
 call            @Func_0eca
 jumpz           @Cond_055e, ($b002 == 0)
 dialogtxt       "The heaviest weapon!"
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Label_0584
 
 @Cond_055e:
 dialogtxt       "The heaviest weapon!"
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 goto            @Label_0584
 
 @Label_0584:
@@ -172,20 +172,20 @@ goto            @Label_0686
 @Label_0686:
 code0479        1, 2, 14
 dialogtxt       "As a Craftknight, the most"
-dialogtxt       "important thing when forging is…"
+dialogtxt       "important thing when forging is..."
 dialogtxt       "Which one of the following?"
 code0309        
 call            @Func_0f6c
 code0479        0, 2, 14
 call            @Func_0eca
 jumpz           @Cond_0736, ($b002 == 0)
-dialogtxt       "The most important thing…?"
-dialogtxt       "That's…"
+dialogtxt       "The most important thing...?"
+dialogtxt       "That's..."
 goto            @Label_0762
 
 @Cond_0736:
-dialogtxt       "The most important thing…?"
-dialogtxt       "That's…"
+dialogtxt       "The most important thing...?"
+dialogtxt       "That's..."
 goto            @Label_0762
 
 @Label_0762:
@@ -201,7 +201,7 @@ setvar          $f0134, 1
 call            @Func_0f00
 code0479        1, 2, 13
 call            @Func_0f36
-dialogtxt       "Mm…"
+dialogtxt       "Mm..."
 dialogtxt       "Good answer!"
 code0309        
 goto            @Label_08e0
@@ -233,7 +233,7 @@ goto            @Label_0926
 @Label_08e0:
 jumpz           @Label_0926, ($f0142 == 0)
 code0479        1, 2, 12
-dialogtxt       "You got them all correct…"
+dialogtxt       "You got them all correct..."
 code0309        
 goto            @Label_0926
 

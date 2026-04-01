@@ -104,19 +104,19 @@ goto            @Cond_0384
 
 @Cond_0384:
 jumpz           @Cond_03b8, ($b003 == 1)
-dialogtxt       "I can sense someone…"
+dialogtxt       "I can sense someone..."
 dialogtxt       "They're close!"
 goto            @Cond_03b8
 
 @Cond_03b8:
 jumpz           @Cond_03ec, ($b003 == 2)
-dialogtxt       "There are humans here…"
+dialogtxt       "There are humans here..."
 dialogtxt       "They're close!"
 goto            @Cond_03ec
 
 @Cond_03ec:
 jumpz           @Cond_0426, ($b003 == 3)
-dialogtxt       "Someone's here…"
+dialogtxt       "Someone's here..."
 dialogtxt       "They're coming!"
 goto            @Cond_0426
 
@@ -150,7 +150,7 @@ code047d        0, 120
 code047d        1, 106
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "… That was tough wasn't it?"
+dialogtxt       "... That was tough wasn't it?"
 dialogtxt       "Who would've thought the"
 dialogtxt       "bridge would collapse?"
 code0309        
@@ -174,7 +174,7 @@ code0301        8, 7
 code047e        1, 1
 dialogtxt       "You don't need to thank me."
 dialogtxt       "That much was nothing!"
-dialogtxt       "And that's because…"
+dialogtxt       "And that's because..."
 code0309        
 dialogtxt       "I am the strongest!"
 dialogtxt       "I'm the invincible!"
@@ -211,7 +211,7 @@ goto            @Label_0844
 @Label_0844:
 call            @Func_1592
 call            @Func_148e
-dialogtxt       "…Are they gone?"
+dialogtxt       "...Are they gone?"
 code047b        
 code0309        
 call            @Func_14e2
@@ -246,7 +246,7 @@ call            @Func_0d6a
 call            @Func_14e2
 code0479        1, 0, 12
 call            @Func_1518
-dialogtxt       "\"Bro\"…?"
+dialogtxt       "\"Bro\"...?"
 dialogtxt       "Is He Part Of Your Family?"
 code0309        
 call            @Func_154e
@@ -294,7 +294,7 @@ call            @Func_0d6a
 call            @Func_14e2
 code0479        1, 0, 16
 call            @Func_1518
-dialogtxt       "\"Bro\"…?"
+dialogtxt       "\"Bro\"...?"
 dialogtxt       "So you have a brother?"
 code0309        
 call            @Func_154e
@@ -318,7 +318,7 @@ call            @Func_0d6a
 call            @Func_14e2
 code0479        1, 0, 16
 call            @Func_1518
-dialogtxt       "\"Bro\"…?"
+dialogtxt       "\"Bro\"...?"
 dialogtxt       "You had a brother?"
 code0309        
 call            @Func_154e
@@ -336,7 +336,7 @@ code0309
 call            @Func_154e
 code0479        0, 2, 12
 call            @Func_14ac
-dialogtxt       "I don't know…"
+dialogtxt       "I don't know..."
 dialogtxt       "Anyway, right now we need"
 dialogtxt       "to take care of that Stray!"
 code0309        
@@ -354,12 +354,12 @@ done
 
 @Func_0d6a:
 jumpz           @Cond_0db0, ($b002 == 0)
-dialogtxt       "That guy…"
+dialogtxt       "That guy..."
 dialogtxt       "He kind of sounded like Bro."
 goto            @Label_0dec
 
 @Cond_0db0:
-dialogtxt       "That guy…"
+dialogtxt       "That guy..."
 dialogtxt       "He kind of sounded like Bro."
 goto            @Label_0dec
 
@@ -374,11 +374,11 @@ dialogtxt       "He's a blacksmith."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "I trained with him once a"
-dialogtxt       "long time ago in Prosban…"
+dialogtxt       "long time ago in Prosban..."
 code0309        
 code0479        0, 4, 12
 dialogtxt       "But I haven't seen him"
-dialogtxt       "since Master Rob passed away…"
+dialogtxt       "since Master Rob passed away..."
 code0309        
 ret             
 

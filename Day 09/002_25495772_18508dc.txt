@@ -41,7 +41,7 @@ goto            @Label_01a2
 code047d        1, 2
 call            @Func_0b02
 call            @Func_09fe
-dialogtxt       "That's…"
+dialogtxt       "That's..."
 code047b        
 code0309        
 call            @Func_0a52
@@ -73,13 +73,13 @@ goto            @Cond_02c8
 
 @Cond_02c8:
 jumpz           @Cond_0326, ($b003 == 1)
-dialogtxt       "Something's going on…"
+dialogtxt       "Something's going on..."
 dialogtxt       "Is it another Stray?"
 goto            @Cond_0326
 
 @Cond_0326:
 jumpz           @Cond_0386, ($b003 == 2)
-dialogtxt       "Wonder what that was…"
+dialogtxt       "Wonder what that was..."
 dialogtxt       "Could it be another Stray?"
 goto            @Cond_0386
 

@@ -58,7 +58,7 @@ code0479        1, 0, 16
 call            @Func_1976
 dialogtxt       "Looks like those guys haven't come"
 dialogtxt       "back to town since their scuffle"
-dialogtxt       "with [NAME 2]…"
+dialogtxt       "with [NAME 2]..."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Start by looking outside of town."
@@ -124,13 +124,13 @@ goto            @Cond_05ee
 @Cond_05ee:
 jumpz           @Cond_0630, ($b003 == 2)
 dialogtxt       "Red Wing?"
-dialogtxt       "So…"
+dialogtxt       "So..."
 dialogtxt       "Does that mean it has red feathers?"
 goto            @Cond_0630
 
 @Cond_0630:
 jumpz           @Cond_067a, ($b003 == 3)
-dialogtxt       "A dangerous Summon Beast…"
+dialogtxt       "A dangerous Summon Beast..."
 dialogtxt       "It's going to be scary, isn't it?"
 goto            @Cond_067a
 
@@ -158,13 +158,13 @@ call            @Func_19c4
 call            @Func_190a
 jumpz           @Cond_07b6, ($b002 == 0)
 dialogtxt       "Amazing! So that's why it's"
-dialogtxt       "\"Red Wing\"…"
+dialogtxt       "\"Red Wing\"..."
 dialogtxt       "That's kinda cool!"
 goto            @Label_07f2
 
 @Cond_07b6:
 dialogtxt       "Amazing! So that's why it's"
-dialogtxt       "\"Red Wing\"…"
+dialogtxt       "\"Red Wing\"..."
 dialogtxt       "That's kinda cool!"
 goto            @Label_07f2
 
@@ -259,7 +259,7 @@ code0479        0, 0, 16
 code047d        0, 107
 call            @Func_19c4
 call            @Func_190a
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "What should I do?"
 code047b        
 code0309        
@@ -277,7 +277,7 @@ call            @Func_19ac
 code047b        
 code0479        0, 4, 16
 call            @Func_190a
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 call            @Func_1a30
 call            @Func_1940
@@ -287,9 +287,9 @@ code0479        1, 1, 16
 code047d        1, 108
 call            @Func_19da
 call            @Func_1976
-dialogtxt       "Ah… What Jade's trying"
+dialogtxt       "Ah... What Jade's trying"
 dialogtxt       "to say is to protect the Stone."
-dialogtxt       "… Right?"
+dialogtxt       "... Right?"
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -299,7 +299,7 @@ code0309
 call            @Func_19ac
 code0479        0, 2, 12
 call            @Func_190a
-dialogtxt       "Alright…"
+dialogtxt       "Alright..."
 dialogtxt       "I understand."
 code0309        
 call            @Func_1a1a
@@ -346,7 +346,7 @@ code047d        0, 108
 call            @Func_19c4
 call            @Func_190a
 dialogtxt       "I'm glad you care about me,"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code047b        
 code0309        
 code0334        
@@ -411,11 +411,11 @@ code047d        1, 0
 call            @Func_19da
 call            @Func_1958
 jumpz           @Cond_11e8, ($b002 == 0)
-dialogtxt       "What the heck…"
+dialogtxt       "What the heck..."
 goto            @Label_11fe
 
 @Cond_11e8:
-dialogtxt       "What the heck…"
+dialogtxt       "What the heck..."
 goto            @Label_11fe
 
 @Label_11fe:

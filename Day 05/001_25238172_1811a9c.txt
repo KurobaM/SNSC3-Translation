@@ -34,23 +34,23 @@ code047b
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0206, ($b002 == 0)
-dialogtxt       "(But as for why that is…"
-dialogtxt       "　I have no idea…"
-dialogtxt       "　And neither does [NAME 1]…)"
+dialogtxt       "(But as for why that is..."
+dialogtxt       "　I have no idea..."
+dialogtxt       "　And neither does [NAME 1]...)"
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Sigh…"
-dialogtxt       "What am I supposed to do…"
+dialogtxt       "Sigh..."
+dialogtxt       "What am I supposed to do..."
 goto            @Label_0292
 
 @Cond_0206:
-dialogtxt       "(But as for why that is…"
-dialogtxt       "　I have no idea…"
-dialogtxt       "　And neither does [NAME 1]…)"
+dialogtxt       "(But as for why that is..."
+dialogtxt       "　I have no idea..."
+dialogtxt       "　And neither does [NAME 1]...)"
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Sigh…"
-dialogtxt       "What am I supposed to do…"
+dialogtxt       "Sigh..."
+dialogtxt       "What am I supposed to do..."
 goto            @Label_0292
 
 @Label_0292:
@@ -101,7 +101,7 @@ goto            @Cond_046a
 
 @Cond_046a:
 jumpz           @Cond_04e8, ($b003 == 2)
-dialogtxt       "That girl…"
+dialogtxt       "That girl..."
 dialogtxt       "This place is crawling with enemies."
 dialogtxt       "How long can she keep this up?"
 code047b        
@@ -124,12 +124,12 @@ call            @Func_0c9c
 code0479        0, 2, 14
 call            @Func_0bfa
 jumpz           @Cond_05de, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "I can't just sit here all day."
 goto            @Label_061c
 
 @Cond_05de:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "I can't just sit here all day."
 goto            @Label_061c
 

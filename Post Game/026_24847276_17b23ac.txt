@@ -413,9 +413,9 @@ dialogtxt       "Using earthworms as bait!?"
 dialogtxt       "Hell no, there's gotta be other"
 dialogtxt       "uses for the poor things!"
 code0309        
-dialogtxt       "Like, they can be eaten as food…"
-dialogtxt       "… Okay, probably not."
-dialogtxt       "… Nevermind, I guess…"
+dialogtxt       "Like, they can be eaten as food..."
+dialogtxt       "... Okay, probably not."
+dialogtxt       "... Nevermind, I guess..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -433,9 +433,9 @@ code0301        8, 7
 dialogtxt       "Recently, we've received sightings"
 dialogtxt       "of a gigantic Summon Beast!"
 code0309        
-dialogtxt       "I think they called it a…"
+dialogtxt       "I think they called it a..."
 dialogtxt       "\"Gun\", something, \"bol\"?"
-dialogtxt       "… I dunno."
+dialogtxt       "... I dunno."
 code0309        
 code0302        7
 code040b        
@@ -456,8 +456,8 @@ dialogtxt       "gotta do is see things differently!"
 dialogtxt       "That'll get you out of it!"
 code0309        
 dialogtxt       "\"It's all about spirit!\""
-dialogtxt       "… Is what I think a certain"
-dialogtxt       "upstanding guy would say a lot…"
+dialogtxt       "... Is what I think a certain"
+dialogtxt       "upstanding guy would say a lot..."
 code0309        
 code0302        7
 code040b        

@@ -87,7 +87,7 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_1a5a
 call            @Func_1982
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "I'm really grateful too."
 code0309        
 call            @Func_1ab0
@@ -117,12 +117,12 @@ dialogtxt       "you've been up to until now."
 code0309        
 code0479        0, 2, 16
 code0479        1, 1, 12
-dialogtxt       "In complete detail…"
+dialogtxt       "In complete detail..."
 code0309        
 call            @Func_1a42
 code0479        0, 4, 14
 call            @Func_19a0
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 code0309        
 call            @Func_1adc
 call            @Func_19be
@@ -143,7 +143,7 @@ code048c
 code0479        0, 0, 12
 call            @Func_1a5a
 call            @Func_1982
-dialogtxt       "… And so we"
+dialogtxt       "... And so we"
 dialogtxt       "decided to come back here."
 code047b        
 code0309        
@@ -166,7 +166,7 @@ call            @Func_1a5a
 call            @Func_19a0
 dialogtxt       "If we return the Demon Stone,"
 dialogtxt       "the Summon Beasts might calm down."
-dialogtxt       "We still have to deal with Anise…"
+dialogtxt       "We still have to deal with Anise..."
 code047b        
 code0309        
 call            @Func_1ab0

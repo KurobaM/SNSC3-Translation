@@ -252,7 +252,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Ahh~"
 code0309        
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 dialogtxt       "Huh!?"
 dialogtxt       "I—I'm not slacking off"

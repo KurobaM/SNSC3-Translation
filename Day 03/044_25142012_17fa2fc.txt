@@ -16,7 +16,7 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_1f58
 call            @Func_1e80
-dialogtxt       "Woah… We found them!"
+dialogtxt       "Woah... We found them!"
 jumpz           @Cond_0122, ($b002 == 0)
 dialogtxt       "What're they doing, though?"
 goto            @Label_0142
@@ -55,26 +55,26 @@ code047d        0, 2
 call            @Func_1f58
 call            @Func_1e80
 jumpz           @Cond_0228, ($b003 == 0)
-dialogtxt       "Those People…"
+dialogtxt       "Those People..."
 goto            @Cond_0228
 
 @Cond_0228:
 jumpz           @Cond_0258, ($b003 == 1)
-dialogtxt       "Those scoundrels…"
-dialogtxt       "Why are they here…"
+dialogtxt       "Those scoundrels..."
+dialogtxt       "Why are they here..."
 goto            @Cond_0258
 
 @Cond_0258:
 jumpz           @Cond_02a0, ($b003 == 2)
-dialogtxt       "They're …!"
-dialogtxt       "Tsk…"
-dialogtxt       "To think they'd stoop that low…"
+dialogtxt       "They're ...!"
+dialogtxt       "Tsk..."
+dialogtxt       "To think they'd stoop that low..."
 goto            @Cond_02a0
 
 @Cond_02a0:
 jumpz           @Cond_02e2, ($b003 == 3)
-dialogtxt       "Those people are…"
-dialogtxt       "Why are they here…?"
+dialogtxt       "Those people are..."
+dialogtxt       "Why are they here...?"
 goto            @Cond_02e2
 
 @Cond_02e2:
@@ -94,8 +94,8 @@ code0479        1, 4, 16
 code047d        1, 109
 call            @Func_1f84
 call            @Func_1eec
-dialogtxt       "Oh…"
-dialogtxt       "It's you two…"
+dialogtxt       "Oh..."
+dialogtxt       "It's you two..."
 code047b        
 code0309        
 call            @Func_1f40
@@ -124,7 +124,7 @@ call            @Func_1f6e
 code0479        1, 0, 12
 call            @Func_1f0a
 dialogtxt       "You know each other?"
-dialogtxt       "You've got a Summon Beast too…"
+dialogtxt       "You've got a Summon Beast too..."
 code047b        
 code0309        
 call            @Func_1fae
@@ -137,26 +137,26 @@ call            @Func_1f58
 call            @Func_1e9e
 dialogtxt       "Wait just a second."
 jumpz           @Cond_0524, ($b003 == 0)
-dialogtxt       "That's a Loreilalian Summon Beast…"
+dialogtxt       "That's a Loreilalian Summon Beast..."
 goto            @Cond_0524
 
 @Cond_0524:
 jumpz           @Cond_0552, ($b003 == 1)
-dialogtxt       "That's a Silturnian Summon Beast…"
+dialogtxt       "That's a Silturnian Summon Beast..."
 goto            @Cond_0552
 
 @Cond_0552:
 jumpz           @Cond_057e, ($b003 == 2)
-dialogtxt       "That's a Sapurethan Summon Beast…"
+dialogtxt       "That's a Sapurethan Summon Beast..."
 goto            @Cond_057e
 
 @Cond_057e:
 jumpz           @Cond_05ac, ($b003 == 3)
-dialogtxt       "That's a Maetropan Summon Beast…"
+dialogtxt       "That's a Maetropan Summon Beast..."
 goto            @Cond_05ac
 
 @Cond_05ac:
-dialogtxt       "Maybe this is the same one as…?"
+dialogtxt       "Maybe this is the same one as...?"
 code0309        
 call            @Func_1fae
 call            @Func_1ed4
@@ -222,9 +222,9 @@ goto            @Cond_0840
 
 @Cond_0840:
 jumpz           @Cond_0928, ($b003 == 3)
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 dialogtxt       "Their hair isn't as spiky,"
-dialogtxt       "but they do look similar…"
+dialogtxt       "but they do look similar..."
 code0309        
 jumpz           @Cond_08de, ($b002 == 0)
 code0479        1, 0, 17
@@ -272,7 +272,7 @@ call            @Func_1f58
 call            @Func_1e80
 dialogtxt       "No!"
 dialogtxt       "Come on!"
-dialogtxt       "Let's just go the inn and…"
+dialogtxt       "Let's just go the inn and..."
 code047b        
 code0309        
 call            @Func_1ed4
@@ -300,9 +300,9 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_1f58
 call            @Func_1e80
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 dialogtxt       "I gotta give her credit,"
-dialogtxt       "she's persistent…"
+dialogtxt       "she's persistent..."
 code047b        
 code0309        
 call            @Func_1ed4
@@ -343,7 +343,7 @@ code0334
 code0331        37, 256
 code0479        0, 5, 17
 call            @Func_1e9e
-dialogtxt       "The enemy…?"
+dialogtxt       "The enemy...?"
 dialogtxt       "W—What are you talking about?"
 code0309        
 call            @Func_1ed4
@@ -356,7 +356,7 @@ goto            @Cond_0db0
 jumpz           @Cond_0e8a, ($b003 == 1)
 dialogtxt       "They're the enemy!"
 dialogtxt       "We can't let them get close"
-dialogtxt       "to Murno, or else …!"
+dialogtxt       "to Murno, or else ...!"
 code047b        
 code0309        
 call            @Func_1f40
@@ -364,7 +364,7 @@ code0334
 code0331        37, 256
 code0479        0, 5, 17
 call            @Func_1e9e
-dialogtxt       "The enemy…?"
+dialogtxt       "The enemy...?"
 dialogtxt       "W—What are you talking about?"
 code0309        
 call            @Func_1ed4
@@ -375,9 +375,9 @@ goto            @Cond_0e8a
 
 @Cond_0e8a:
 jumpz           @Cond_0f5a, ($b003 == 2)
-dialogtxt       "They're the enemy…"
+dialogtxt       "They're the enemy..."
 dialogtxt       "We can't let them"
-dialogtxt       "get near Murno…"
+dialogtxt       "get near Murno..."
 code047b        
 code0309        
 call            @Func_1f40
@@ -385,7 +385,7 @@ code0334
 code0331        37, 256
 code0479        0, 5, 17
 call            @Func_1e9e
-dialogtxt       "The enemy…?"
+dialogtxt       "The enemy...?"
 dialogtxt       "W—What are you talking about?"
 code0309        
 call            @Func_1ed4
@@ -406,7 +406,7 @@ code0334
 code0331        37, 256
 code0479        0, 5, 17
 call            @Func_1e9e
-dialogtxt       "The enemy…?"
+dialogtxt       "The enemy...?"
 dialogtxt       "W—What are you talking about?"
 code0309        
 call            @Func_1ed4
@@ -543,7 +543,7 @@ code0309
 call            @Func_1f40
 code0479        0, 2, 14
 call            @Func_1e9e
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 jumpz           @Cond_1562, ($b002 == 0)
 choicetxt       @Choice_1596, "Got it! Let's fight!"
@@ -585,11 +585,11 @@ goto            @Label_18fa
 setvar          $f0138, 1
 code0479        0, 2, 16
 jumpz           @Cond_16ba, ($b002 == 0)
-dialogtxt       "But…"
+dialogtxt       "But..."
 goto            @Label_16d0
 
 @Cond_16ba:
-dialogtxt       "But…"
+dialogtxt       "But..."
 goto            @Label_16d0
 
 @Label_16d0:
@@ -630,7 +630,7 @@ goto            @Cond_17f4
 @Cond_17f4:
 jumpz           @Cond_183e, ($b003 == 2)
 dialogtxt       "How should I know!"
-dialogtxt       "Enough…"
+dialogtxt       "Enough..."
 dialogtxt       "I'll do this myself!"
 goto            @Cond_183e
 

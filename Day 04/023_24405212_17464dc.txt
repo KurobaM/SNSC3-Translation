@@ -466,7 +466,7 @@ dialogtxt       "to your weapon."
 code0309        
 dialogtxt       "And would you look at that,"
 dialogtxt       "I have one such \"Ruin Switch\""
-dialogtxt       "available for only… 800 Boam!"
+dialogtxt       "available for only... 800 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        
@@ -526,7 +526,7 @@ goto            @Choice_1604
 code047e        0, 1
 dialogtxt       "Whaaat? You're not interested?!"
 dialogtxt       "Just when I thought"
-dialogtxt       "I finally had a customer…"
+dialogtxt       "I finally had a customer..."
 code0309        
 @Label_1654:
 code047e        0, 0
@@ -539,7 +539,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "I've saved up quite a lot."
 dialogtxt       "I should got to the"
-dialogtxt       "lottery shop soon…"
+dialogtxt       "lottery shop soon..."
 code0309        
 code047e        0, 0
 code0302        7

@@ -4,7 +4,7 @@ code0479        0, 0, 12
 code047d        0, 0
 call            @Func_2fea
 call            @Func_2f12
-dialogtxt       "Step outside…?"
+dialogtxt       "Step outside...?"
 code0309        
 code0479        0, 0, 12
 jumpz           @Cond_0096, ($b002 == 0)
@@ -12,7 +12,7 @@ dialogtxt       "What does he want?"
 goto            @Label_00aa
 
 @Cond_0096:
-dialogtxt       "I wonder what he wants…"
+dialogtxt       "I wonder what he wants..."
 goto            @Label_00aa
 
 @Label_00aa:
@@ -75,7 +75,7 @@ code0309
 call            @Func_2fd2
 code0479        0, 0, 12
 call            @Func_2f30
-dialogtxt       "Even if you say that…"
+dialogtxt       "Even if you say that..."
 dialogtxt       "[NAME 1], you still can't do much"
 jumpz           @Cond_0310, ($b002 == 0)
 dialogtxt       "With those shackles on, right?"
@@ -90,7 +90,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "That Is Correct."
 code0309        
 call            @Func_2fd2
@@ -133,14 +133,14 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "We may also use this"
-dialogtxt       "opportunity to escape…"
+dialogtxt       "opportunity to escape..."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
 call            @Func_2f30
-dialogtxt       "Even if you say that…"
+dialogtxt       "Even if you say that..."
 dialogtxt       "[NAME 1], you still can't do much"
 jumpz           @Cond_0590, ($b002 == 0)
 dialogtxt       "with those shackles on, right?"
@@ -155,7 +155,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "… Mmhmm."
+dialogtxt       "... Mmhmm."
 dialogtxt       "You're right."
 code0309        
 call            @Func_2fd2
@@ -198,13 +198,13 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "… Hey,"
+dialogtxt       "... Hey,"
 dialogtxt       "we should be running!"
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
 call            @Func_2f30
-dialogtxt       "Even if you say that…"
+dialogtxt       "Even if you say that..."
 dialogtxt       "[NAME 1], you still can't do much"
 jumpz           @Cond_0800, ($b002 == 0)
 dialogtxt       "with those shackles on, right?"
@@ -219,8 +219,8 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "… Ugh."
-dialogtxt       "How annoying…"
+dialogtxt       "... Ugh."
+dialogtxt       "How annoying..."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
@@ -268,7 +268,7 @@ code0309
 call            @Func_2fd2
 code0479        0, 0, 12
 call            @Func_2f30
-dialogtxt       "Even if you say that…"
+dialogtxt       "Even if you say that..."
 dialogtxt       "[NAME 1], you still can't do much"
 jumpz           @Cond_0a84, ($b002 == 0)
 dialogtxt       "with those shackles on, right?"
@@ -283,7 +283,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "That is true…"
+dialogtxt       "That is true..."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
@@ -338,7 +338,7 @@ call            @Func_3016
 jumpz           @Cond_112c, ($b003 == 0)
 jumpz           @Cond_0e30, ($f0132 == 0)
 call            @Func_2f12
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "How many kinds of weapons?"
 jumpz           @Cond_0cf2, ($b002 == 0)
 dialogtxt       "How many WERE there, again?"
@@ -354,14 +354,14 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Did You Remember To"
 dialogtxt       "Include Your Hammer?"
 code0309        
 call            @Func_2fd2
 code0479        0, 5, 14
 call            @Func_2f30
-dialogtxt       "Right, the hammer…"
+dialogtxt       "Right, the hammer..."
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0dd6, ($b002 == 0)
@@ -378,7 +378,7 @@ code047b
 call            @Func_2f66
 code0479        1, 4, 12
 call            @Func_2f9c
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_306c
 call            @Func_2fba
@@ -388,7 +388,7 @@ goto            @Label_1128
 @Cond_0e30:
 jumpz           @Cond_0f5e, ($f0133 == 0)
 call            @Func_2f12
-dialogtxt       "The Sword, or the Knuckle…"
+dialogtxt       "The Sword, or the Knuckle..."
 jumpz           @Cond_0e8c, ($b002 == 0)
 dialogtxt       "Which one is the heaviest?"
 goto            @Label_0ea8
@@ -446,12 +446,12 @@ call            @Func_2fd2
 code0479        0, 2, 12
 call            @Func_2f30
 jumpz           @Cond_10b4, ($b002 == 0)
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_10e8
 
 @Cond_10b4:
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_10e8
 
@@ -475,7 +475,7 @@ jumpz           @Cond_1650, ($b003 == 1)
 jumpz           @Cond_134a, ($f0132 == 0)
 call            @Func_2f12
 dialogtxt       "Huh?"
-dialogtxt       "The… Many kinds of weapons?"
+dialogtxt       "The... Many kinds of weapons?"
 jumpz           @Cond_1196, ($b002 == 0)
 dialogtxt       "How many WERE there again?"
 goto            @Label_11b0
@@ -496,12 +496,12 @@ code0309
 code0479        1, 4, 16
 dialogtxt       "Gallahan already mentioned it,"
 dialogtxt       "so I'm sure you would not have"
-dialogtxt       "forgotten your hammer…"
+dialogtxt       "forgotten your hammer..."
 code0309        
 call            @Func_2fd2
 code0479        0, 5, 14
 call            @Func_2f30
-dialogtxt       "Right, the hammer…"
+dialogtxt       "Right, the hammer..."
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_12d6, ($b002 == 0)
@@ -518,7 +518,7 @@ code047b
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "My goodness… How troublesome."
+dialogtxt       "My goodness... How troublesome."
 code0309        
 call            @Func_306c
 call            @Func_2fba
@@ -528,7 +528,7 @@ goto            @Label_164c
 @Cond_134a:
 jumpz           @Cond_1474, ($f0133 == 0)
 call            @Func_2f12
-dialogtxt       "The Sword, or the Knuckle…"
+dialogtxt       "The Sword, or the Knuckle..."
 jumpz           @Cond_13a6, ($b002 == 0)
 dialogtxt       "Which one is the heaviest?"
 goto            @Label_13c2
@@ -543,14 +543,14 @@ code0309
 call            @Func_2f66
 code0479        1, 4, 16
 call            @Func_2f9c
-dialogtxt       "What…?"
+dialogtxt       "What...?"
 dialogtxt       "It should be obvious by simply"
 dialogtxt       "looking at them, is it not?"
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 16
 call            @Func_2f30
-dialogtxt       "Ahh, now that I think about it…"
+dialogtxt       "Ahh, now that I think about it..."
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -588,12 +588,12 @@ call            @Func_2fd2
 code0479        0, 2, 12
 call            @Func_2f30
 jumpz           @Cond_15d8, ($b002 == 0)
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_160c
 
 @Cond_15d8:
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_160c
 
@@ -616,8 +616,8 @@ goto            @Cond_1650
 jumpz           @Cond_1b8c, ($b003 == 2)
 jumpz           @Cond_1832, ($f0132 == 0)
 call            @Func_2f12
-dialogtxt       "Huh…?"
-dialogtxt       "How many kinds of weapons…?"
+dialogtxt       "Huh...?"
+dialogtxt       "How many kinds of weapons...?"
 jumpz           @Cond_16ba, ($b002 == 0)
 dialogtxt       "How many WERE there, again?"
 goto            @Label_16d4
@@ -632,7 +632,7 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 14
 call            @Func_2f9c
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "You can figure it"
 dialogtxt       "out yourself."
 code0309        
@@ -640,15 +640,15 @@ call            @Func_2fd2
 code0479        0, 2, 16
 call            @Func_2f30
 jumpz           @Cond_17a2, ($b002 == 0)
-dialogtxt       "I know…"
+dialogtxt       "I know..."
 dialogtxt       "Umm, so if I include my hammer"
-dialogtxt       "like he said…"
+dialogtxt       "like he said..."
 goto            @Label_17f4
 
 @Cond_17a2:
-dialogtxt       "I know…"
+dialogtxt       "I know..."
 dialogtxt       "Umm, so if I include my hammer"
-dialogtxt       "like he said…"
+dialogtxt       "like he said..."
 goto            @Label_17f4
 
 @Label_17f4:
@@ -657,7 +657,7 @@ code047b
 call            @Func_2f66
 code0479        1, 4, 12
 call            @Func_2f9c
-dialogtxt       "You're hopeless…"
+dialogtxt       "You're hopeless..."
 code0309        
 call            @Func_306c
 call            @Func_2fba
@@ -667,7 +667,7 @@ goto            @Label_1b88
 @Cond_1832:
 jumpz           @Cond_19e2, ($f0133 == 0)
 call            @Func_2f12
-dialogtxt       "The Sword, or the Knuckle…"
+dialogtxt       "The Sword, or the Knuckle..."
 jumpz           @Cond_188e, ($b002 == 0)
 dialogtxt       "Which one is the heaviest?"
 goto            @Label_18aa
@@ -682,7 +682,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "You can figure it"
 dialogtxt       "out yourself."
 code0309        
@@ -690,15 +690,15 @@ call            @Func_2fd2
 code0479        0, 2, 16
 call            @Func_2f30
 jumpz           @Cond_197a, ($b002 == 0)
-dialogtxt       "I know…"
+dialogtxt       "I know..."
 dialogtxt       "Umm, maybe I can just look"
-dialogtxt       "at them and find out that way…"
+dialogtxt       "at them and find out that way..."
 goto            @Label_19d2
 
 @Cond_197a:
-dialogtxt       "I know…"
+dialogtxt       "I know..."
 dialogtxt       "Umm, maybe I can just look"
-dialogtxt       "at them and find out that way…"
+dialogtxt       "at them and find out that way..."
 goto            @Label_19d2
 
 @Label_19d2:
@@ -712,7 +712,7 @@ goto            @Label_1b88
 jumpz           @Label_1b88, ($f0134 == 0)
 call            @Func_2f12
 dialogtxt       "The most important thing when"
-dialogtxt       "crafting a weapon…"
+dialogtxt       "crafting a weapon..."
 jumpz           @Cond_1a3a, ($b002 == 0)
 dialogtxt       "What was that?"
 goto            @Label_1a52
@@ -735,12 +735,12 @@ call            @Func_2fd2
 code0479        0, 2, 12
 call            @Func_2f30
 jumpz           @Cond_1b16, ($b002 == 0)
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_1b4a
 
 @Cond_1b16:
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_1b4a
 
@@ -749,7 +749,7 @@ code0309
 call            @Func_2f66
 code0479        1, 4, 12
 call            @Func_2f9c
-dialogtxt       "Give me a break…"
+dialogtxt       "Give me a break..."
 code0309        
 call            @Func_306c
 call            @Func_2fba
@@ -763,7 +763,7 @@ goto            @Cond_1b8c
 jumpz           @Cond_207e, ($b003 == 3)
 jumpz           @Cond_1d74, ($f0132 == 0)
 call            @Func_2f12
-dialogtxt       "Huh…?"
+dialogtxt       "Huh...?"
 dialogtxt       "How many kinds of weapons?"
 jumpz           @Cond_1bf6, ($b002 == 0)
 dialogtxt       "How many WERE there, again?"
@@ -786,7 +786,7 @@ code0309
 call            @Func_2fd2
 code0479        0, 5, 14
 call            @Func_2f30
-dialogtxt       "Right, the hammer…"
+dialogtxt       "Right, the hammer..."
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_1cfe, ($b002 == 0)
@@ -794,7 +794,7 @@ dialogtxt       "I—I mean, of course not!"
 goto            @Label_1d2e
 
 @Cond_1cfe:
-dialogtxt       "O—Of course not…"
+dialogtxt       "O—Of course not..."
 dialogtxt       "How could I forget?"
 goto            @Label_1d2e
 
@@ -804,7 +804,7 @@ code047b
 call            @Func_2f66
 code0479        1, 4, 16
 call            @Func_2f9c
-dialogtxt       "So you did…"
+dialogtxt       "So you did..."
 code0309        
 call            @Func_306c
 call            @Func_2fba
@@ -814,7 +814,7 @@ goto            @Label_207a
 @Cond_1d74:
 jumpz           @Cond_1e90, ($f0133 == 0)
 call            @Func_2f12
-dialogtxt       "The Sword, or the Knuckle…"
+dialogtxt       "The Sword, or the Knuckle..."
 jumpz           @Cond_1dd0, ($b002 == 0)
 dialogtxt       "Which one is the heaviest?"
 goto            @Label_1dec
@@ -829,7 +829,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 16
 call            @Func_2f9c
-dialogtxt       "Which one…"
+dialogtxt       "Which one..."
 dialogtxt       "I think you should be able to"
 dialogtxt       "tell simply by looking at them."
 code0309        
@@ -847,7 +847,7 @@ goto            @Label_207a
 jumpz           @Label_207a, ($f0134 == 0)
 call            @Func_2f12
 dialogtxt       "The most important thing when"
-dialogtxt       "crafting a weapon…"
+dialogtxt       "crafting a weapon..."
 jumpz           @Cond_1ee8, ($b002 == 0)
 dialogtxt       "What was it?"
 goto            @Label_1f00
@@ -874,12 +874,12 @@ call            @Func_2fd2
 code0479        0, 2, 12
 call            @Func_2f30
 jumpz           @Cond_2004, ($b002 == 0)
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_2038
 
 @Cond_2004:
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 dialogtxt       "I'll have to think about it."
 goto            @Label_2038
 
@@ -984,14 +984,14 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 14
 call            @Func_2f9c
-dialogtxt       "Yes…"
+dialogtxt       "Yes..."
 dialogtxt       "That is our way. We must be"
-dialogtxt       "ready if it comes to blows…"
+dialogtxt       "ready if it comes to blows..."
 code0309        
 call            @Func_2fd2
 code0479        0, 2, 16
 call            @Func_2f30
-dialogtxt       "Comes to blows…"
+dialogtxt       "Comes to blows..."
 dialogtxt       "We're not going to "
 dialogtxt       "have to fight, are we?"
 code0309        
@@ -1021,9 +1021,9 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 13
 call            @Func_2f9c
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "As long as we have a weapon,"
-dialogtxt       "we can take him down…"
+dialogtxt       "we can take him down..."
 code0309        
 call            @Func_2fd2
 code0479        0, 1, 16
@@ -1057,14 +1057,14 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 16
 call            @Func_2f9c
-dialogtxt       "Y—Yes…"
+dialogtxt       "Y—Yes..."
 dialogtxt       "It might be better if we follow"
-dialogtxt       "Gallahan's instructions…"
+dialogtxt       "Gallahan's instructions..."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 16
 call            @Func_2f30
-dialogtxt       "Uh… Did something happen?"
+dialogtxt       "Uh... Did something happen?"
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -1105,7 +1105,7 @@ code0479        0, 0, 12
 code047d        0, 0
 call            @Func_2fea
 call            @Func_2f12
-dialogtxt       "I have to save [NAME 1]…"
+dialogtxt       "I have to save [NAME 1]..."
 code047b        
 code0309        
 call            @Func_3040

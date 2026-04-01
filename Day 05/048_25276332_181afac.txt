@@ -20,7 +20,7 @@ code047d        0, 0
 call            @Func_0a1a
 call            @Func_0942
 jumpz           @Cond_024a, ($b002 == 0)
-dialogtxt       "Where…"
+dialogtxt       "Where..."
 dialogtxt       "Where am I?"
 code0309        
 call            @Func_0a70
@@ -49,7 +49,7 @@ call            @Func_0a1a
 call            @Func_0942
 dialogtxt       "Huh?"
 dialogtxt       "My weapon's gone?"
-dialogtxt       "What about…!?"
+dialogtxt       "What about...!?"
 code047b        
 code0309        
 code0479        0, 2, 15
@@ -58,7 +58,7 @@ dialogtxt       "No hammer either!?"
 goto            @Label_0398
 
 @Cond_024a:
-dialogtxt       "Where…"
+dialogtxt       "Where..."
 dialogtxt       "Where am I?"
 code0309        
 call            @Func_0a70
@@ -87,7 +87,7 @@ call            @Func_0a1a
 call            @Func_0942
 dialogtxt       "Huh?"
 dialogtxt       "My weapon's gone?"
-dialogtxt       "What about…!?"
+dialogtxt       "What about...!?"
 code047b        
 code0309        
 code0479        0, 2, 15

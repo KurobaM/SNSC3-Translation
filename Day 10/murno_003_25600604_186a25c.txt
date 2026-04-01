@@ -150,7 +150,7 @@ code033e        413
 code0479        0, 4, 12
 call            @Func_164e
 call            @Func_1576
-dialogtxt       "Geez, that was dangerous…"
+dialogtxt       "Geez, that was dangerous..."
 dialogtxt       "Are you okay?"
 dialogtxt       "Any injuries?"
 code0309        
@@ -162,9 +162,9 @@ code043f        3
 code0479        1, 10, 13
 call            @Func_1664
 call            @Func_15e2
-dialogtxt       "Yeah…"
-dialogtxt       "I'm sorry…"
-dialogtxt       "I'm so lame…"
+dialogtxt       "Yeah..."
+dialogtxt       "I'm sorry..."
+dialogtxt       "I'm so lame..."
 code047b        
 code0309        
 call            @Func_16ba
@@ -248,7 +248,7 @@ code0479        0, 5, 16
 code047d        0, 107
 call            @Func_167a
 call            @Func_1594
-dialogtxt       "Ah… [NAME 1]?"
+dialogtxt       "Ah... [NAME 1]?"
 dialogtxt       "Why?"
 code0309        
 call            @Func_16a4

@@ -15,7 +15,7 @@ code0482
 code047d        0, 110
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "It's you…"
+dialogtxt       "It's you..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -75,7 +75,7 @@ code0309
 code0479        0, 0, 12
 code0479        1, 0, 12
 dialogtxt       "If you guys hadn't come, I don't"
-dialogtxt       "know what would've happened…"
+dialogtxt       "know what would've happened..."
 dialogtxt       "You've saved me again."
 goto            @Label_0516
 
@@ -87,7 +87,7 @@ code0309
 code0479        0, 0, 12
 code0479        1, 0, 12
 dialogtxt       "If you guys hadn't come, I don't"
-dialogtxt       "know what would've happened…"
+dialogtxt       "know what would've happened..."
 dialogtxt       "You've saved me again."
 goto            @Label_0516
 
@@ -102,14 +102,14 @@ dialogtxt       "Only to capture them."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "They hurt Zakk, so I couldn't"
-dialogtxt       "just let them go…"
+dialogtxt       "just let them go..."
 code0309        
 call            @Func_12b2
 code0479        0, 0, 16
 call            @Func_1210
 jumpz           @Cond_066c, ($b002 == 0)
 dialogtxt       "I see."
-dialogtxt       "Even so, you did save us…"
+dialogtxt       "Even so, you did save us..."
 code0309        
 code0479        0, 1, 12
 dialogtxt       "So, thanks."
@@ -117,7 +117,7 @@ goto            @Label_06d4
 
 @Cond_066c:
 dialogtxt       "I see."
-dialogtxt       "Even so, you did save us…"
+dialogtxt       "Even so, you did save us..."
 code0309        
 code0479        0, 1, 12
 dialogtxt       "So, thanks."
@@ -128,7 +128,7 @@ code0309
 call            @Func_1246
 code0479        1, 0, 12
 call            @Func_127c
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_12b2
 code0479        0, 4, 16
@@ -136,13 +136,13 @@ call            @Func_1210
 jumpz           @Cond_076c, ($b002 == 0)
 dialogtxt       "But in your condition,"
 dialogtxt       "I don't think you'll be able to"
-dialogtxt       "go to Murno's village…"
+dialogtxt       "go to Murno's village..."
 goto            @Label_07b2
 
 @Cond_076c:
 dialogtxt       "But in your condition,"
 dialogtxt       "I don't think you'll be able to"
-dialogtxt       "go to Murno's village…"
+dialogtxt       "go to Murno's village..."
 goto            @Label_07b2
 
 @Label_07b2:
@@ -178,15 +178,15 @@ call            @Func_12b2
 code0479        0, 5, 16
 call            @Func_1210
 jumpz           @Cond_0986, ($b002 == 0)
-dialogtxt       "Doesn't matter, you say…"
+dialogtxt       "Doesn't matter, you say..."
 dialogtxt       "Your mother's worrying"
-dialogtxt       "about you, you know…"
+dialogtxt       "about you, you know..."
 goto            @Label_09da
 
 @Cond_0986:
-dialogtxt       "Doesn't matter, you say…"
+dialogtxt       "Doesn't matter, you say..."
 dialogtxt       "Your mother's worrying"
-dialogtxt       "about you, you know…"
+dialogtxt       "about you, you know..."
 goto            @Label_09da
 
 @Label_09da:
@@ -196,7 +196,7 @@ code0479        1, 2, 17
 call            @Func_127c
 dialogtxt       "I told you, she has"
 dialogtxt       "nothing to do with it!"
-dialogtxt       "I dont care what she says. I…"
+dialogtxt       "I dont care what she says. I..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 12
@@ -207,13 +207,13 @@ call            @Func_12b2
 code0479        0, 2, 14
 call            @Func_1210
 jumpz           @Cond_0b28, ($b002 == 0)
-dialogtxt       "Bostaph this, Bostaph that…"
+dialogtxt       "Bostaph this, Bostaph that..."
 dialogtxt       "Why are you so"
 dialogtxt       "obsessed with him?"
 goto            @Label_0b76
 
 @Cond_0b28:
-dialogtxt       "Bostaph this, Bostaph that…"
+dialogtxt       "Bostaph this, Bostaph that..."
 dialogtxt       "Why are you so"
 dialogtxt       "obsessed with him?"
 goto            @Label_0b76
@@ -223,19 +223,19 @@ code0309
 call            @Func_1246
 code0479        1, 2, 14
 call            @Func_127c
-dialogtxt       "That…"
+dialogtxt       "That..."
 dialogtxt       "Has nothing to do with you."
-dialogtxt       "See you…"
+dialogtxt       "See you..."
 code0309        
 call            @Func_12b2
 code0479        0, 5, 15
 call            @Func_1210
 jumpz           @Cond_0c06, ($b002 == 0)
-dialogtxt       "Ah, hey…"
+dialogtxt       "Ah, hey..."
 goto            @Label_0c1c
 
 @Cond_0c06:
-dialogtxt       "Ah, wait…"
+dialogtxt       "Ah, wait..."
 goto            @Label_0c1c
 
 @Label_0c1c:

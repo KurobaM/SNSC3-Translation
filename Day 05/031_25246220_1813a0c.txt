@@ -107,7 +107,7 @@ goto            @Cond_04a6
 
 @Cond_04a6:
 jumpz           @Cond_04dc, ($b003 == 3)
-dialogtxt       "She left…?"
+dialogtxt       "She left...?"
 dialogtxt       "Where did she go?"
 goto            @Cond_04dc
 
@@ -172,9 +172,9 @@ code0309
 call            @Func_174a
 code0479        0, 4, 16
 call            @Func_16a8
-dialogtxt       "Uh… Um…"
+dialogtxt       "Uh... Um..."
 dialogtxt       "Mr. Jade left to fight Strays,"
-dialogtxt       "and then, Ms. Murno, umm…"
+dialogtxt       "and then, Ms. Murno, umm..."
 code0309        
 call            @Func_17e4
 call            @Func_16c6
@@ -184,7 +184,7 @@ code0446        3
 code0479        0, 4, 16
 call            @Func_1762
 call            @Func_168a
-dialogtxt       "Urgh…"
+dialogtxt       "Urgh..."
 code047b        
 code0309        
 call            @Func_16de
@@ -257,18 +257,18 @@ goto            @Cond_0a4e
 
 @Cond_0a4e:
 jumpz           @Cond_0a7a, ($b003 == 1)
-dialogtxt       "That's… True…"
+dialogtxt       "That's... True..."
 goto            @Cond_0a7a
 
 @Cond_0a7a:
 jumpz           @Cond_0a98, ($b003 == 2)
-dialogtxt       "Tsk…"
+dialogtxt       "Tsk..."
 goto            @Cond_0a98
 
 @Cond_0a98:
 jumpz           @Cond_0ace, ($b003 == 3)
-dialogtxt       "You're right…"
-dialogtxt       "I'm sorry…"
+dialogtxt       "You're right..."
+dialogtxt       "I'm sorry..."
 goto            @Cond_0ace
 
 @Cond_0ace:
@@ -285,9 +285,9 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_16f6
 call            @Func_1778
-dialogtxt       "Murno… Ever since we arrived,"
+dialogtxt       "Murno... Ever since we arrived,"
 dialogtxt       "she's been acting strange."
-dialogtxt       "And now she's gone missing…"
+dialogtxt       "And now she's gone missing..."
 code047b        
 code0309        
 code043c        2, 2
@@ -301,7 +301,7 @@ code0309
 call            @Func_174a
 code0479        0, 2, 16
 call            @Func_16a8
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 code0309        
 code031a        7
 code031b        7, -1, -1, $h136, 30
@@ -328,7 +328,7 @@ code031f        8
 code031c        7, 2
 code031f        7
 dialogtxt       "The rumors say the Stray Summons"
-dialogtxt       "are going berserk because of her…"
+dialogtxt       "are going berserk because of her..."
 code0309        
 code031c        7, 1
 code031f        7
@@ -349,14 +349,14 @@ code031c        7, 2
 code031f        7
 code031a        7
 code0479        0, 2, 14
-dialogtxt       "(No way…"
-dialogtxt       "　So she really is…?)"
+dialogtxt       "(No way..."
+dialogtxt       "　So she really is...?)"
 code0309        
 call            @Func_16de
 code0333        2, 30
 code0479        1, 2, 14
 call            @Func_1714
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "No choice."
 code0309        
 code0334        

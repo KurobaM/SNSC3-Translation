@@ -32,13 +32,13 @@ call            @Func_0dec
 jumpz           @Cond_0162, ($b002 == 0)
 dialogtxt       "Huh?"
 dialogtxt       "What was I doing?"
-dialogtxt       "Umm…"
+dialogtxt       "Umm..."
 goto            @Label_019e
 
 @Cond_0162:
 dialogtxt       "Huh?"
 dialogtxt       "What was I doing?"
-dialogtxt       "Umm…"
+dialogtxt       "Umm..."
 goto            @Label_019e
 
 @Label_019e:
@@ -77,13 +77,13 @@ code0309
 call            @Func_0eac
 code0479        0, 2, 14
 call            @Func_0e0a
-dialogtxt       "I don't understand…"
+dialogtxt       "I don't understand..."
 jumpz           @Cond_032e, ($b002 == 0)
-dialogtxt       "Are you okay? Hey…"
+dialogtxt       "Are you okay? Hey..."
 goto            @Label_0346
 
 @Cond_032e:
-dialogtxt       "Are you okay? Hey…"
+dialogtxt       "Are you okay? Hey..."
 goto            @Label_0346
 
 @Label_0346:
@@ -98,23 +98,23 @@ goto            @Cond_03a4
 @Cond_03a4:
 jumpz           @Cond_04d4, ($b003 == 1)
 dialogtxt       "How could you forget?"
-dialogtxt       "Listen up, we were…"
-dialogtxt       "Umm…"
+dialogtxt       "Listen up, we were..."
+dialogtxt       "Umm..."
 code047b        
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Hmm?"
-dialogtxt       "What was it…"
+dialogtxt       "What was it..."
 code0309        
 call            @Func_0eac
 code0479        0, 2, 14
 call            @Func_0e0a
 jumpz           @Cond_047a, ($b002 == 0)
-dialogtxt       "You forgot too…"
+dialogtxt       "You forgot too..."
 goto            @Label_0496
 
 @Cond_047a:
-dialogtxt       "You forgot too…"
+dialogtxt       "You forgot too..."
 goto            @Label_0496
 
 @Label_0496:
@@ -123,18 +123,18 @@ call            @Func_0e40
 code0479        1, 5, 16
 call            @Func_0e76
 dialogtxt       "Oh, right."
-dialogtxt       "Something about Murno…"
+dialogtxt       "Something about Murno..."
 goto            @Cond_04d4
 
 @Cond_04d4:
 jumpz           @Cond_0622, ($b003 == 2)
-dialogtxt       "Tsk…"
+dialogtxt       "Tsk..."
 dialogtxt       "You idiot."
-dialogtxt       "You were…"
+dialogtxt       "You were..."
 code047b        
 code0309        
 code0479        1, 2, 16
-dialogtxt       "You were…?"
+dialogtxt       "You were...?"
 code0309        
 call            @Func_0eac
 code0479        0, 2, 12
@@ -162,8 +162,8 @@ goto            @Cond_0622
 @Cond_0622:
 jumpz           @Cond_078e, ($b003 == 3)
 dialogtxt       "Please get a hold of yourself."
-dialogtxt       "We were…"
-dialogtxt       "Umm…"
+dialogtxt       "We were..."
+dialogtxt       "Umm..."
 code047b        
 code0309        
 call            @Func_0eac
@@ -185,7 +185,7 @@ call            @Func_0e40
 code0479        1, 2, 16
 call            @Func_0e76
 dialogtxt       "N—No, that's not true."
-dialogtxt       "That is…"
+dialogtxt       "That is..."
 code0309        
 code0479        1, 5, 14
 dialogtxt       "Actually, where's Lady Murno?"
@@ -196,7 +196,7 @@ code0309
 call            @Func_0eac
 code0479        0, 5, 16
 call            @Func_0e0a
-dialogtxt       "Murno…?"
+dialogtxt       "Murno...?"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "Oh, right!"

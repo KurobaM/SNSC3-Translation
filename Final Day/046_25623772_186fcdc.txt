@@ -101,7 +101,7 @@ dialogtxt       "After them!"
 goto            @Label_0456
 
 @Cond_0426:
-dialogtxt       "Ku… Anise!"
+dialogtxt       "Ku... Anise!"
 dialogtxt       "We have to hurry!"
 goto            @Label_0456
 

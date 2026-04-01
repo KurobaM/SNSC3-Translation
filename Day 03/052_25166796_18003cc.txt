@@ -14,7 +14,7 @@ code0482
 code047d        0, 110
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "So it's you…"
+dialogtxt       "So it's you..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -60,13 +60,13 @@ call            @Func_1110
 code0479        0, 4, 14
 call            @Func_106e
 jumpz           @Cond_0362, ($b002 == 0)
-dialogtxt       "Oh…"
-dialogtxt       "I see…"
+dialogtxt       "Oh..."
+dialogtxt       "I see..."
 goto            @Label_037c
 
 @Cond_0362:
-dialogtxt       "Oh…"
-dialogtxt       "I see…"
+dialogtxt       "Oh..."
+dialogtxt       "I see..."
 goto            @Label_037c
 
 @Label_037c:
@@ -81,18 +81,18 @@ code0309
 call            @Func_1110
 code0479        0, 4, 16
 call            @Func_106e
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 code0309        
 call            @Func_10a4
 code0479        1, 4, 12
 call            @Func_10da
-dialogtxt       "Jeez…"
+dialogtxt       "Jeez..."
 code0309        
 call            @Func_1110
 jumpz           @Cond_0572, ($b002 == 0)
 code0479        0, 4, 16
 call            @Func_106e
-dialogtxt       "Hey, Lemmy…"
+dialogtxt       "Hey, Lemmy..."
 dialogtxt       "Have you ever thought"
 dialogtxt       "about marriage?"
 code0309        
@@ -102,14 +102,14 @@ call            @Func_10da
 dialogbig       24, 116, 1, 0, 0, "M-Marriage!?"
 code030c        
 code0479        1, 6, 16
-dialogtxt       "N—No…"
-dialogtxt       "Not yet…"
+dialogtxt       "N—No..."
+dialogtxt       "Not yet..."
 code0309        
 call            @Func_1110
 code0479        0, 4, 12
 call            @Func_106e
-dialogtxt       "Sigh… How nice…"
-dialogtxt       "You're lucky…"
+dialogtxt       "Sigh... How nice..."
+dialogtxt       "You're lucky..."
 code0309        
 call            @Func_10a4
 goto            @Label_06cc
@@ -117,7 +117,7 @@ goto            @Label_06cc
 @Cond_0572:
 code0479        0, 4, 16
 call            @Func_106e
-dialogtxt       "Hey, Lemmy…"
+dialogtxt       "Hey, Lemmy..."
 dialogtxt       "Do you think I could be a"
 dialogtxt       "poster girl for a shop?"
 code0309        
@@ -133,9 +133,9 @@ code0309
 call            @Func_1110
 code0479        0, 4, 12
 call            @Func_106e
-dialogtxt       "That's what I'm worried about…"
+dialogtxt       "That's what I'm worried about..."
 dialogtxt       "You're lucky, Lemmy."
-dialogtxt       "So carefree…"
+dialogtxt       "So carefree..."
 code0309        
 call            @Func_10a4
 goto            @Label_06cc
@@ -143,8 +143,8 @@ goto            @Label_06cc
 @Label_06cc:
 code0479        1, 5, 12
 call            @Func_10da
-dialogtxt       "That's surprising…"
-dialogtxt       "This isn't like you…"
+dialogtxt       "That's surprising..."
+dialogtxt       "This isn't like you..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "You make it seem like"
@@ -155,12 +155,12 @@ call            @Func_1110
 code0479        0, 2, 15
 call            @Func_106e
 jumpz           @Cond_07ea, ($b002 == 0)
-dialogtxt       "What…?"
+dialogtxt       "What...?"
 dialogtxt       "I'm being serious over here!"
 goto            @Label_0822
 
 @Cond_07ea:
-dialogtxt       "What…?"
+dialogtxt       "What...?"
 dialogtxt       "I'm being serious over here!"
 goto            @Label_0822
 
@@ -181,12 +181,12 @@ call            @Func_1110
 code0479        0, 2, 15
 call            @Func_106e
 jumpz           @Cond_0930, ($b002 == 0)
-dialogtxt       "Wha… What!"
+dialogtxt       "Wha... What!"
 dialogtxt       "You piss me off!"
 goto            @Label_095a
 
 @Cond_0930:
-dialogtxt       "Wha… What!"
+dialogtxt       "Wha... What!"
 dialogtxt       "You piss me off!"
 goto            @Label_095a
 
@@ -195,7 +195,7 @@ code0309
 call            @Func_10a4
 code0479        1, 0, 13
 call            @Func_10da
-dialogtxt       "Hah…"
+dialogtxt       "Hah..."
 dialogtxt       "There's your usual energy."
 dialogtxt       "That's good."
 code0309        

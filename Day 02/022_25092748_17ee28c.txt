@@ -14,15 +14,15 @@ call            @Func_1322
 code0479        0, 2, 16
 call            @Func_1280
 jumpz           @Cond_013a, ($b002 == 0)
-dialogtxt       "Because… I've gotten stronger"
+dialogtxt       "Because... I've gotten stronger"
 dialogtxt       "since I got a partner now."
-dialogtxt       "And I…"
+dialogtxt       "And I..."
 goto            @Label_018a
 
 @Cond_013a:
-dialogtxt       "Because… I've gotten stronger"
+dialogtxt       "Because... I've gotten stronger"
 dialogtxt       "since I got a partner now."
-dialogtxt       "And I…"
+dialogtxt       "And I..."
 goto            @Label_018a
 
 @Label_018a:
@@ -36,7 +36,7 @@ code0479        1, 0, 12
 code047d        1, 110
 call            @Func_1350
 call            @Func_12ec
-dialogtxt       "Oh…?"
+dialogtxt       "Oh...?"
 code047b        
 code0309        
 call            @Func_13a6
@@ -88,7 +88,7 @@ call            @Func_1280
 jumpz           @Cond_04da, ($b002 == 0)
 dialogtxt       "What!"
 dialogtxt       "I always train every single day!"
-dialogtxt       "I'm sure if we fought now…"
+dialogtxt       "I'm sure if we fought now..."
 code0309        
 code0479        0, 2, 13
 dialogtxt       "I'm strong enough to beat you!"
@@ -97,7 +97,7 @@ goto            @Label_057c
 @Cond_04da:
 dialogtxt       "But you're wrong!"
 dialogtxt       "I always train every single day!"
-dialogtxt       "I'm sure if we fought now…"
+dialogtxt       "I'm sure if we fought now..."
 code0309        
 code0479        0, 2, 13
 dialogtxt       "I'm strong enough to beat you!"
@@ -108,7 +108,7 @@ code0309
 call            @Func_12b6
 code0479        1, 4, 13
 call            @Func_12ec
-dialogtxt       "You're so childish…"
+dialogtxt       "You're so childish..."
 dialogtxt       "This is why you'll"
 dialogtxt       "always be a half-baked amateur."
 code0309        
@@ -249,7 +249,7 @@ goto            @Cond_0b5a
 
 @Cond_0b5a:
 jumpz           @Cond_0b84, ($b003 == 3)
-dialogtxt       "He already left…"
+dialogtxt       "He already left..."
 goto            @Cond_0b84
 
 @Cond_0b84:
@@ -259,18 +259,18 @@ call            @Func_1322
 code0479        0, 0, 14
 call            @Func_1280
 jumpz           @Cond_0c2c, ($b002 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "What does he want with V.E?"
-dialogtxt       "I'm kind of curious…"
+dialogtxt       "I'm kind of curious..."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "Alright, let's head back too."
 goto            @Label_0ca2
 
 @Cond_0c2c:
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "What does he want with V.E?"
-dialogtxt       "I'm kind of curious…"
+dialogtxt       "I'm kind of curious..."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "Alright, let's head back too."

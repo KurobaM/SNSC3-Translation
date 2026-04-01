@@ -13,7 +13,7 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_13e0
 call            @Func_1308
-dialogtxt       "It's calmed down now…"
+dialogtxt       "It's calmed down now..."
 code047b        
 code0309        
 call            @Func_1436
@@ -133,13 +133,13 @@ goto            @Cond_067e
 
 @Cond_067e:
 jumpz           @Cond_06b0, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "It was dismissed…"
+dialogtxt       "Tch..."
+dialogtxt       "It was dismissed..."
 goto            @Cond_06b0
 
 @Cond_06b0:
 jumpz           @Cond_06ec, ($b003 == 3)
-dialogtxt       "It seems…"
+dialogtxt       "It seems..."
 dialogtxt       "It was dismissed."
 goto            @Cond_06ec
 
@@ -150,7 +150,7 @@ call            @Func_13c8
 code043c        0, 1
 code0479        0, 2, 16
 call            @Func_1326
-dialogtxt       "Dismissed…"
+dialogtxt       "Dismissed..."
 dialogtxt       "But how?"
 code0309        
 call            @Func_1462
@@ -227,7 +227,7 @@ call            @Func_1392
 jumpz           @Cond_0a4c, ($b003 == 0)
 dialogtxt       "Now That She Has Escaped,"
 dialogtxt       "It Is Likely She Will Return"
-dialogtxt       "For The Demon Stone…"
+dialogtxt       "For The Demon Stone..."
 goto            @Cond_0a4c
 
 @Cond_0a4c:
@@ -239,7 +239,7 @@ goto            @Cond_0ab4
 
 @Cond_0ab4:
 jumpz           @Cond_0b1c, ($b003 == 2)
-dialogtxt       "That woman…"
+dialogtxt       "That woman..."
 dialogtxt       "She'll probably come back with her"
 dialogtxt       "comrades to get the Demon Stone."
 goto            @Cond_0b1c
@@ -247,7 +247,7 @@ goto            @Cond_0b1c
 @Cond_0b1c:
 jumpz           @Cond_0b78, ($b003 == 3)
 dialogtxt       "She may return with her"
-dialogtxt       "comrades for the Demon Stone…"
+dialogtxt       "comrades for the Demon Stone..."
 goto            @Cond_0b78
 
 @Cond_0b78:
@@ -261,7 +261,7 @@ code0479        1, 0, 16
 code047d        1, 135
 call            @Func_13f6
 call            @Func_1392
-dialogtxt       "I don't think that will happen…"
+dialogtxt       "I don't think that will happen..."
 code047b        
 code0309        
 call            @Func_13c8
@@ -277,16 +277,16 @@ code0479        1, 2, 14
 call            @Func_1392
 dialogtxt       "She knows very well what will"
 dialogtxt       "happen if those people come"
-dialogtxt       "to the village again…"
+dialogtxt       "to the village again..."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "Anise appears to hate this village,"
-dialogtxt       "but deep down I'm sure…"
+dialogtxt       "but deep down I'm sure..."
 code0309        
 call            @Func_13c8
 code0479        0, 2, 14
 call            @Func_1326
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_135c
 code0479        1, 0, 15

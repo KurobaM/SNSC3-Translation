@@ -359,7 +359,7 @@ goto            @Cond_12d2
 jumpz           @Cond_1388, ($b003 == 2)
 dialogtxt       "The power just now opened"
 dialogtxt       "the Dimensional Gate!"
-dialogtxt       "That guy has terrible luck…"
+dialogtxt       "That guy has terrible luck..."
 code0309        
 code043c        1, 2
 code0479        1, 3, 13
@@ -490,7 +490,7 @@ dialogtxt       "[NAME 1]!"
 goto            @Label_186a
 
 @Cond_184e:
-dialogtxt       "No…!"
+dialogtxt       "No...!"
 dialogtxt       "[NAME 1]!"
 goto            @Label_186a
 
@@ -561,19 +561,19 @@ goto            @Cond_1b36
 @Cond_1b36:
 jumpz           @Cond_1b6c, ($b003 == 1)
 dialogtxt       "Well then, take care of Murno,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_1b6c
 
 @Cond_1b6c:
 jumpz           @Cond_1b9e, ($b003 == 2)
 dialogtxt       "Take care of Murno,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_1b9e
 
 @Cond_1b9e:
 jumpz           @Cond_1bda, ($b003 == 3)
 dialogtxt       "Please take good care of Murno,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_1bda
 
 @Cond_1bda:
@@ -708,11 +708,11 @@ code0479        0, 2, 15
 call            @Func_55c2
 call            @Func_54ea
 jumpz           @Cond_214e, ($b002 == 0)
-dialogtxt       "I can… make it!"
+dialogtxt       "I can... make it!"
 goto            @Label_2172
 
 @Cond_214e:
-dialogtxt       "I can… make it!"
+dialogtxt       "I can... make it!"
 goto            @Label_2172
 
 @Label_2172:
@@ -742,11 +742,11 @@ code040d        30
 code0479        0, 4, 12
 call            @Func_55c2
 call            @Func_54ea
-dialogtxt       "Didn't work, huh…"
+dialogtxt       "Didn't work, huh..."
 code0309        
 code043c        0, 1
 code0479        0, 2, 14
-dialogtxt       "Not yet…"
+dialogtxt       "Not yet..."
 dialogtxt       "There must be another way out!"
 dialogtxt       "I'll have to look for it!"
 code0309        
@@ -775,80 +775,80 @@ code0479        0, 2, 16
 call            @Func_55c2
 call            @Func_54ea
 jumpz           @Cond_25c6, ($b002 == 0)
-dialogtxt       "But…"
-dialogtxt       "Where could it be…"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "But..."
+dialogtxt       "Where could it be..."
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 5, 16
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Recently, [NAME 1] and I"
-dialogtxt       "have always been together…"
+dialogtxt       "have always been together..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Being alone kinda…"
-dialogtxt       "Makes me feel uneasy…"
-dialogtxt       "Crap…"
+dialogtxt       "Being alone kinda..."
+dialogtxt       "Makes me feel uneasy..."
+dialogtxt       "Crap..."
 code0309        
 code0479        0, 4, 12
 dialogtxt       "What would [NAME 1] say if they"
-dialogtxt       "saw me like this…"
-dialogtxt       "Hehe…"
+dialogtxt       "saw me like this..."
+dialogtxt       "Hehe..."
 code0309        
 code0479        0, 1, 17
 dialogtxt       "Being by myself"
-dialogtxt       "is kinda lonely…"
-dialogtxt       "Ah-ah…"
+dialogtxt       "is kinda lonely..."
+dialogtxt       "Ah-ah..."
 goto            @Label_2728
 
 @Cond_25c6:
-dialogtxt       "But…"
-dialogtxt       "Where could it be…"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "But..."
+dialogtxt       "Where could it be..."
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 5, 16
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Recently, [NAME 1] and I"
-dialogtxt       "have always been together…"
+dialogtxt       "have always been together..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Being alone kinda…"
-dialogtxt       "Makes me feel uneasy…"
-dialogtxt       "Tche…"
+dialogtxt       "Being alone kinda..."
+dialogtxt       "Makes me feel uneasy..."
+dialogtxt       "Tche..."
 code0309        
 code0479        0, 4, 12
 dialogtxt       "What would [NAME 1] say if they"
-dialogtxt       "saw me like this…"
-dialogtxt       "Fufu…"
+dialogtxt       "saw me like this..."
+dialogtxt       "Fufu..."
 code0309        
 code0479        0, 1, 17
 dialogtxt       "Being by myself"
-dialogtxt       "is kinda lonely…"
-dialogtxt       "Ah-ah…"
+dialogtxt       "is kinda lonely..."
+dialogtxt       "Ah-ah..."
 goto            @Label_2728
 
 @Label_2728:
 code0309        
 jumpz           @Cond_2870, ($f0261 == 1)
 code0479        0, 4, 12
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 dialogbig       24, 116, 1, 0, 0, "Murno!!!"
@@ -857,25 +857,25 @@ goto            @Label_2ffa
 @Cond_2870:
 jumpz           @Cond_2af8, ($f0262 == 1)
 code0479        0, 4, 12
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 strlen          280, "[NAME 1]"
@@ -914,25 +914,25 @@ goto            @Label_2ffa
 @Cond_2af8:
 jumpz           @Cond_2c3c, ($f0263 == 1)
 code0479        0, 4, 12
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 dialogbig       36, 116, 1, 0, 0, "Master!!!"
@@ -941,25 +941,25 @@ goto            @Label_2ffa
 @Cond_2c3c:
 jumpz           @Cond_2d80, ($f0264 == 1)
 code0479        0, 4, 12
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 dialogbig       36, 116, 1, 0, 0, "Lemmy!!!"
@@ -968,25 +968,25 @@ goto            @Label_2ffa
 @Cond_2d80:
 jumpz           @Cond_2ec6, ($f0265 == 1)
 code0479        0, 4, 12
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 dialogbig       24, 116, 1, 0, 0, "Brooo!!!"
@@ -994,25 +994,25 @@ goto            @Label_2ffa
 
 @Cond_2ec6:
 code0479        0, 4, 12
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Master…"
+dialogtxt       "Master..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Lemmy…"
+dialogtxt       "Lemmy..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "Bro…"
+dialogtxt       "Bro..."
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Tier…"
+dialogtxt       "Tier..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I want to see you…"
+dialogtxt       "I want to see you..."
 code0309        
 code0479        0, 4, 15
 dialogbig       36, 116, 1, 0, 0, "Tier!!!"
@@ -1192,40 +1192,40 @@ code0479        0, 5, 16
 call            @Func_55c2
 call            @Func_54ea
 jumpz           @Cond_3740, ($b002 == 0)
-dialogtxt       "Just now, that was…"
+dialogtxt       "Just now, that was..."
 goto            @Label_3750
 
 @Cond_3740:
-dialogtxt       "Just now, that was…"
+dialogtxt       "Just now, that was..."
 goto            @Label_3750
 
 @Label_3750:
 jumpz           @Cond_3778, ($f0261 == 1)
-dialogtxt       "Murno's voice…"
+dialogtxt       "Murno's voice..."
 goto            @Label_3820
 
 @Cond_3778:
 jumpz           @Cond_379a, ($f0262 == 1)
-dialogtxt       "[NAME 1]'s voice…"
+dialogtxt       "[NAME 1]'s voice..."
 goto            @Label_3820
 
 @Cond_379a:
 jumpz           @Cond_37be, ($f0263 == 1)
-dialogtxt       "Master's voice…"
+dialogtxt       "Master's voice..."
 goto            @Label_3820
 
 @Cond_37be:
 jumpz           @Cond_37e4, ($f0264 == 1)
-dialogtxt       "Lemmy's voice…"
+dialogtxt       "Lemmy's voice..."
 goto            @Label_3820
 
 @Cond_37e4:
 jumpz           @Cond_380a, ($f0265 == 1)
-dialogtxt       "Bro's voice…"
+dialogtxt       "Bro's voice..."
 goto            @Label_3820
 
 @Cond_380a:
-dialogtxt       "Tier's voice…"
+dialogtxt       "Tier's voice..."
 goto            @Label_3820
 
 @Label_3820:
@@ -1262,7 +1262,7 @@ code040d        60
 code033e        403
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -1273,7 +1273,7 @@ code0478        0, 0
 code0479        0, 2, 16
 call            @Func_55c2
 call            @Func_54ea
-dialogtxt       "[NAME 1]'s Summonite…"
+dialogtxt       "[NAME 1]'s Summonite..."
 dialogtxt       "Is shining?"
 code0309        
 jumpz           @Cond_3aca, ($b002 == 0)
@@ -1355,8 +1355,8 @@ code047a        0, 1, 0
 code047e        0, 1
 code0301        2, 9
 code031f        3
-dialogtxt       "I believe in you…"
-dialogtxt       "You will make it back…"
+dialogtxt       "I believe in you..."
+dialogtxt       "You will make it back..."
 goto            @Label_3f28
 
 @Cond_3e60:
@@ -1370,7 +1370,7 @@ code0301        2, 9
 code031f        3
 dialogtxt       "I won't allow you to disappear"
 dialogtxt       "on your own without your"
-dialogtxt       "Master's permission…"
+dialogtxt       "Master's permission..."
 goto            @Label_3f28
 
 @Label_3f28:
@@ -1389,8 +1389,8 @@ code047a        1, 1, 0
 code047e        1, 1
 code0301        4, 9
 code031f        3
-dialogtxt       "I believe in you…"
-dialogtxt       "You will make it back…"
+dialogtxt       "I believe in you..."
+dialogtxt       "You will make it back..."
 goto            @Label_40e4
 
 @Cond_4024:
@@ -1402,9 +1402,9 @@ code047a        1, 1, 0
 code047e        1, 1
 code0301        4, 9
 code031f        3
-dialogtxt       "You can't go now…"
+dialogtxt       "You can't go now..."
 dialogtxt       "I still haven't had"
-dialogtxt       "a serious match with you…"
+dialogtxt       "a serious match with you..."
 goto            @Label_40e4
 
 @Label_40e4:
@@ -1423,8 +1423,8 @@ code047a        0, 1, 0
 code047e        0, 1
 code0301        2, 9
 code031f        3
-dialogtxt       "I believe in you…"
-dialogtxt       "You will make it back…"
+dialogtxt       "I believe in you..."
+dialogtxt       "You will make it back..."
 goto            @Label_4296
 
 @Cond_41e0:
@@ -1437,7 +1437,7 @@ code047e        0, 1
 code0301        2, 9
 code031f        3
 dialogtxt       "I can't even imagine"
-dialogtxt       "my life without you…"
+dialogtxt       "my life without you..."
 goto            @Label_4296
 
 @Label_4296:
@@ -1456,8 +1456,8 @@ code047a        1, 1, 0
 code047e        1, 1
 code0301        4, 9
 code031f        3
-dialogtxt       "I believe in you…"
-dialogtxt       "You will make it back…"
+dialogtxt       "I believe in you..."
+dialogtxt       "You will make it back..."
 goto            @Label_443a
 
 @Cond_4392:
@@ -1469,8 +1469,8 @@ code047a        1, 1, 0
 code047e        1, 1
 code0301        4, 9
 code031f        3
-dialogtxt       "Without you here, it's too quiet…"
-dialogtxt       "So…"
+dialogtxt       "Without you here, it's too quiet..."
+dialogtxt       "So..."
 goto            @Label_443a
 
 @Label_443a:
@@ -1489,8 +1489,8 @@ code047a        0, 1, 0
 code047e        0, 1
 code0301        2, 9
 code031f        3
-dialogtxt       "I believe in you…"
-dialogtxt       "You will make it back…"
+dialogtxt       "I believe in you..."
+dialogtxt       "You will make it back..."
 goto            @Label_47a4
 
 @Cond_4536:
@@ -1521,26 +1521,26 @@ code047e        0, 1
 code0301        2, 9
 code031f        3
 jumpz           @Cond_467e, ($b003 == 0)
-dialogtxt       "I Will Wait…"
+dialogtxt       "I Will Wait..."
 dialogtxt       "I Am Your Partner,"
-dialogtxt       "After All…"
+dialogtxt       "After All..."
 goto            @Label_47a0
 
 @Cond_467e:
 jumpz           @Cond_46ea, ($b003 == 1)
-dialogtxt       "What are you doing…"
+dialogtxt       "What are you doing..."
 dialogtxt       "We're partners, aren't we?"
 dialogtxt       "Hurry and come back!"
 goto            @Label_47a0
 
 @Cond_46ea:
 jumpz           @Cond_474e, ($b003 == 2)
-dialogtxt       "You're taking your sweet time…"
+dialogtxt       "You're taking your sweet time..."
 dialogtxt       "We're still partners, aren't we?"
 goto            @Label_47a0
 
 @Cond_474e:
-dialogtxt       "Please don't leave me by myself…"
+dialogtxt       "Please don't leave me by myself..."
 dialogtxt       "We're still partners, aren't we?"
 goto            @Label_47a0
 

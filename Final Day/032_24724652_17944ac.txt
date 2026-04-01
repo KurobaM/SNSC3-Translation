@@ -432,7 +432,7 @@ code040b
 
 @Talk_1144:
 code0301        8, 7
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 dialogtxt       "Meooow~"
 code0309        
@@ -445,7 +445,7 @@ dialogtxt       "　"
 dialogtxt       "　　　　　　~Hey, hey!~"
 code0309        
 dialogtxt       "Lately, I can hear a lot of strange"
-dialogtxt       "noises under the desk behind me…"
+dialogtxt       "noises under the desk behind me..."
 dialogtxt       "It's creepy! Can't anyone help me?"
 code0309        
 code0302        7

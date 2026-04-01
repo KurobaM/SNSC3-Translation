@@ -11,7 +11,7 @@ code047d        0, 0
 call            @Func_1fdc
 call            @Func_1f04
 dialogtxt       "Hey Bro,"
-dialogtxt       "Murno said you…"
+dialogtxt       "Murno said you..."
 code047b        
 code0309        
 call            @Func_2032
@@ -67,7 +67,7 @@ dialogtxt       "back to his full mobility?"
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Even so, talking about"
-dialogtxt       "avenging Rob again…"
+dialogtxt       "avenging Rob again..."
 code0309        
 call            @Func_205e
 call            @Func_1fac
@@ -112,7 +112,7 @@ code0309
 call            @Func_1f58
 code0479        1, 4, 16
 call            @Func_1f8e
-dialogtxt       "Best friends, huh…"
+dialogtxt       "Best friends, huh..."
 code0309        
 call            @Func_1fc4
 code0479        0, 0, 12
@@ -130,13 +130,13 @@ code0309
 call            @Func_1f58
 code0479        1, 4, 12
 call            @Func_1f8e
-dialogtxt       "Is that so…"
+dialogtxt       "Is that so..."
 dialogtxt       "Sorry for the bother."
 code0309        
 call            @Func_1fc4
 code0479        0, 0, 13
 call            @Func_1f22
-dialogtxt       "Huh…"
+dialogtxt       "Huh..."
 dialogtxt       "This might be the first time"
 dialogtxt       "I've heard an apology from you."
 code0309        
@@ -149,18 +149,18 @@ code0309
 call            @Func_1fc4
 code0479        0, 1, 12
 call            @Func_1f22
-dialogtxt       "Hah, yeah I guess so…"
-dialogtxt       "You haven't changed a bit…"
+dialogtxt       "Hah, yeah I guess so..."
+dialogtxt       "You haven't changed a bit..."
 code0309        
 code0479        0, 0, 12
 code0479        1, 2, 12
-dialogtxt       "So…"
+dialogtxt       "So..."
 dialogtxt       "What are you going to do?"
 code0309        
 call            @Func_1f58
 code0479        1, 2, 12
 call            @Func_1f8e
-dialogtxt       "I think…"
+dialogtxt       "I think..."
 dialogtxt       "It'd be better if I talked to him."
 dialogtxt       "So I'll be going to town."
 code0309        
@@ -229,7 +229,7 @@ code0479        0, 2, 12
 code047d        0, 132
 call            @Func_1fdc
 call            @Func_1f22
-dialogtxt       "Avenge Rob…?"
+dialogtxt       "Avenge Rob...?"
 dialogtxt       "You're an idiot."
 code047b        
 code0309        
@@ -282,9 +282,9 @@ dialogtxt       "This is why you're an amateur!"
 dialogtxt       "Strength isn't everything!"
 code0309        
 code0479        0, 2, 16
-dialogtxt       "If only Rob were still here…"
+dialogtxt       "If only Rob were still here..."
 dialogtxt       "Maybe he could talk"
-dialogtxt       "some sense into you…"
+dialogtxt       "some sense into you..."
 code0309        
 call            @Func_2048
 call            @Func_1f58
@@ -302,7 +302,7 @@ call            @Func_1fc4
 code043c        3, 3
 code0479        0, 5, 16
 call            @Func_1f22
-dialogtxt       "What now…?"
+dialogtxt       "What now...?"
 code0309        
 call            @Func_1f58
 code0479        1, 2, 17
@@ -313,7 +313,7 @@ code0309
 call            @Func_1fc4
 code0479        0, 4, 15
 call            @Func_1f22
-dialogtxt       "Hey, I'm not the bad guy here…"
+dialogtxt       "Hey, I'm not the bad guy here..."
 code0309        
 call            @Func_205e
 call            @Func_1f40
@@ -441,7 +441,7 @@ code0309
 call            @Func_1fc4
 code0479        0, 2, 17
 call            @Func_1f22
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 call            @Func_1f58
 code0479        1, 2, 15
@@ -453,7 +453,7 @@ code0309
 call            @Func_1fc4
 code0479        0, 4, 16
 call            @Func_1f22
-dialogtxt       "But…"
+dialogtxt       "But..."
 code0309        
 call            @Func_205e
 call            @Func_1f40
@@ -501,7 +501,7 @@ code047d        0, 2
 call            @Func_1fdc
 call            @Func_1f04
 jumpz           @Cond_176c, ($b003 == 0)
-dialogtxt       "That Voice…!"
+dialogtxt       "That Voice...!"
 dialogtxt       "Lady Murno!"
 goto            @Cond_176c
 

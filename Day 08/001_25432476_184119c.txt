@@ -14,7 +14,7 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        0, 0, 14
-dialogtxt       "… But… Actually,"
+dialogtxt       "... But... Actually,"
 dialogtxt       "I'm bad at public speaking."
 goto            @Label_01ac
 
@@ -26,7 +26,7 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        0, 0, 14
-dialogtxt       "… But… Actually,"
+dialogtxt       "... But... Actually,"
 dialogtxt       "I'm bad at public speaking."
 goto            @Label_01ac
 
@@ -59,7 +59,7 @@ code0309
 call            @Func_13c4
 code0479        0, 1, 16
 call            @Func_1322
-dialogtxt       "… Hey,"
+dialogtxt       "... Hey,"
 dialogtxt       "I don't want to hear that from you!"
 code0309        
 code0479        0, 2, 14
@@ -81,7 +81,7 @@ goto            @Label_038e
 call            @Func_1358
 code0479        1, 4, 12
 call            @Func_138e
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Please Try Your Hardest."
@@ -189,7 +189,7 @@ code0309
 call            @Func_13c4
 code0479        0, 1, 17
 call            @Func_1322
-dialogtxt       "… Hey,"
+dialogtxt       "... Hey,"
 dialogtxt       "I don't want to hear that from you!"
 code0309        
 code0479        0, 2, 12
@@ -211,7 +211,7 @@ goto            @Label_0906
 call            @Func_1358
 code0479        1, 0, 12
 call            @Func_138e
-dialogtxt       "Hm…"
+dialogtxt       "Hm..."
 dialogtxt       "Well, just do what you can."
 code0309        
 call            @Func_13c4
@@ -289,12 +289,12 @@ goto            @Label_0c52
 call            @Func_1358
 code0479        1, 5, 14
 call            @Func_138e
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Where does that confidence"
 dialogtxt       "of yours spring from?"
-dialogtxt       "I should follow your example…"
+dialogtxt       "I should follow your example..."
 code0309        
 call            @Func_13c4
 code0479        0, 0, 13

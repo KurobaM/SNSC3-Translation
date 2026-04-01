@@ -46,7 +46,7 @@ code047d        1, 109
 call            @Func_10f2
 code0479        0, 0, 16
 call            @Func_0fee
-dialogtxt       "Ah, Tier…"
+dialogtxt       "Ah, Tier..."
 code047b        
 code0309        
 call            @Func_1042
@@ -60,15 +60,15 @@ call            @Func_10ae
 code0479        0, 5, 17
 call            @Func_100c
 jumpz           @Cond_036e, ($b002 == 0)
-dialogtxt       "Well, about that…"
-dialogtxt       "I, uh…"
-dialogtxt       "About being your husband…"
+dialogtxt       "Well, about that..."
+dialogtxt       "I, uh..."
+dialogtxt       "About being your husband..."
 goto            @Label_03b0
 
 @Cond_036e:
-dialogtxt       "Well, about that…"
-dialogtxt       "I, uh…"
-dialogtxt       "About being a poster girl…"
+dialogtxt       "Well, about that..."
+dialogtxt       "I, uh..."
+dialogtxt       "About being a poster girl..."
 goto            @Label_03b0
 
 @Label_03b0:
@@ -104,7 +104,7 @@ dialogtxt       "You recognized my skill."
 code0309        
 code0479        1, 0, 13
 code0479        0, 2, 17
-dialogtxt       "But, being a poster girl…"
+dialogtxt       "But, being a poster girl..."
 dialogtxt       "That's different!"
 goto            @Label_05f0
 
@@ -122,12 +122,12 @@ code0479        0, 5, 15
 call            @Func_100c
 jumpz           @Cond_06b8, ($b002 == 0)
 dialogtxt       "Ehhh!?"
-dialogtxt       "I just said…"
+dialogtxt       "I just said..."
 goto            @Label_06e4
 
 @Cond_06b8:
 dialogtxt       "Ehhh!?"
-dialogtxt       "I just said…"
+dialogtxt       "I just said..."
 goto            @Label_06e4
 
 @Label_06e4:
@@ -137,7 +137,7 @@ code0479        1, 0, 13
 call            @Func_1078
 dialogtxt       "First off, we go to the village"
 dialogtxt       "and beat the Strays together,"
-dialogtxt       "then help the villagers…"
+dialogtxt       "then help the villagers..."
 code0309        
 code0479        0, 2, 14
 code0479        1, 1, 12
@@ -158,7 +158,7 @@ code0309
 call            @Func_10ae
 code0479        0, 0, 16
 call            @Func_100c
-dialogtxt       "Wait a minute…"
+dialogtxt       "Wait a minute..."
 code0309        
 call            @Func_1042
 code0479        1, 0, 12
@@ -175,8 +175,8 @@ code0309
 call            @Func_10ae
 code0479        0, 4, 13
 call            @Func_100c
-dialogtxt       "W—Wow…"
-dialogtxt       "She's really thought this out…"
+dialogtxt       "W—Wow..."
+dialogtxt       "She's really thought this out..."
 code0309        
 call            @Func_1042
 code0479        1, 1, 12
@@ -188,9 +188,9 @@ code0309
 call            @Func_10ae
 code0479        0, 1, 16
 call            @Func_100c
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 dialogtxt       "Tier might be crazier"
-dialogtxt       "than Master…"
+dialogtxt       "than Master..."
 code0309        
 call            @Func_1148
 call            @Func_102a

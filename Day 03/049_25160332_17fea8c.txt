@@ -58,13 +58,13 @@ call            @Func_11e2
 code0479        0, 0, 16
 call            @Func_1140
 jumpz           @Cond_0330, ($b002 == 0)
-dialogtxt       "Eh…?"
-dialogtxt       "I don't see why not…"
+dialogtxt       "Eh...?"
+dialogtxt       "I don't see why not..."
 goto            @Label_0356
 
 @Cond_0330:
-dialogtxt       "Eh…?"
-dialogtxt       "I don't see why not…"
+dialogtxt       "Eh...?"
+dialogtxt       "I don't see why not..."
 goto            @Label_0356
 
 @Label_0356:
@@ -80,13 +80,13 @@ call            @Func_11e2
 code0479        0, 5, 15
 call            @Func_1140
 jumpz           @Cond_0450, ($b002 == 0)
-dialogtxt       "This again…?"
+dialogtxt       "This again...?"
 dialogtxt       "Murno, do you really think"
 dialogtxt       "I'd do something like that!?"
 goto            @Label_04ac
 
 @Cond_0450:
-dialogtxt       "This again…?"
+dialogtxt       "This again...?"
 dialogtxt       "Murno, do you really think"
 dialogtxt       "I'd do something like that!?"
 goto            @Label_04ac
@@ -96,9 +96,9 @@ code0309
 call            @Func_1176
 code0479        1, 2, 16
 call            @Func_11ac
-dialogtxt       "W—Well…"
-dialogtxt       "But [NAME 2]…"
-dialogtxt       "You seemed to be happy about it…"
+dialogtxt       "W—Well..."
+dialogtxt       "But [NAME 2]..."
+dialogtxt       "You seemed to be happy about it..."
 code0309        
 call            @Func_11e2
 code0479        0, 2, 16
@@ -110,9 +110,9 @@ dialogtxt       "I felt like she recognized my skill."
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 14
-dialogtxt       "But talking about marriage…"
+dialogtxt       "But talking about marriage..."
 dialogtxt       "That's a completely"
-dialogtxt       "different topic…"
+dialogtxt       "different topic..."
 goto            @Label_071c
 
 @Cond_061e:
@@ -122,9 +122,9 @@ dialogtxt       "I felt like she recognized my skill."
 code0309        
 code0479        0, 4, 14
 code0479        1, 2, 14
-dialogtxt       "But working as a poster girl…"
+dialogtxt       "But working as a poster girl..."
 dialogtxt       "That's a completely"
-dialogtxt       "different topic…"
+dialogtxt       "different topic..."
 goto            @Label_071c
 
 @Label_071c:
@@ -143,17 +143,17 @@ call            @Func_1176
 jumpz           @Cond_08c8, ($b002 == 0)
 code0479        1, 4, 16
 call            @Func_11ac
-dialogtxt       "Hmmm…"
+dialogtxt       "Hmmm..."
 dialogtxt       "You looked quite satisfied"
-dialogtxt       "by Tier's praise…"
+dialogtxt       "by Tier's praise..."
 code0309        
 call            @Func_11e2
 code0479        0, 10, 13
 code0479        1, 5, 12
 call            @Func_1140
 dialogtxt       "That was, well, the first time"
-dialogtxt       "anyone's told me that…"
-dialogtxt       "I got embarrassed…"
+dialogtxt       "anyone's told me that..."
+dialogtxt       "I got embarrassed..."
 code0309        
 call            @Func_1176
 code0479        1, 2, 15
@@ -168,16 +168,16 @@ goto            @Label_0a46
 @Cond_08c8:
 code0479        1, 2, 16
 call            @Func_11ac
-dialogtxt       "Hmmm…"
+dialogtxt       "Hmmm..."
 dialogtxt       "You looked quite satisfied"
-dialogtxt       "by Tier's praise…"
+dialogtxt       "by Tier's praise..."
 code0309        
 call            @Func_11e2
 code0479        0, 10, 13
 call            @Func_1140
 dialogtxt       "That was, well, the first time"
 dialogtxt       "anyone complimented me like that."
-dialogtxt       "I got embarrassed…"
+dialogtxt       "I got embarrassed..."
 code0309        
 call            @Func_1176
 code0479        1, 2, 15
@@ -221,7 +221,7 @@ dialogtxt       "Ah, wait!"
 code047b        
 code0309        
 code0479        0, 4, 16
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 code0309        
 call            @Func_1250
 call            @Func_115e

@@ -51,7 +51,7 @@ code0309
 call            @Func_111a
 code0479        0, 4, 13
 call            @Func_1078
-dialogtxt       "No, but…"
+dialogtxt       "No, but..."
 dialogtxt       "Freaking out about it this late"
 dialogtxt       "isn't going to change anything."
 code0309        
@@ -68,7 +68,7 @@ dialogtxt       "so I came out to get some air."
 code0309        
 code0479        0, 1, 16
 code0479        1, 2, 12
-dialogtxt       "… Hey!"
+dialogtxt       "... Hey!"
 dialogtxt       "I told you not to call me Bro!"
 code0309        
 call            @Func_111a
@@ -89,7 +89,7 @@ call            @Func_111a
 code0479        0, 0, 16
 call            @Func_1078
 dialogtxt       "Well yeah."
-dialogtxt       "And Master's injured too…"
+dialogtxt       "And Master's injured too..."
 code0309        
 call            @Func_10ae
 code0479        1, 2, 13
@@ -101,7 +101,7 @@ code0309
 call            @Func_111a
 code0479        0, 5, 16
 call            @Func_1078
-dialogtxt       "For Master Rob…"
+dialogtxt       "For Master Rob..."
 code0309        
 call            @Func_10ae
 code0479        1, 1, 13
@@ -114,12 +114,12 @@ call            @Func_111a
 code0479        0, 0, 16
 call            @Func_1078
 jumpz           @Cond_0710, ($b002 == 0)
-dialogtxt       "Our match today…"
+dialogtxt       "Our match today..."
 dialogtxt       "You were just testing me, right?"
 goto            @Label_074e
 
 @Cond_0710:
-dialogtxt       "Our match today…"
+dialogtxt       "Our match today..."
 dialogtxt       "You were just testing me, right?"
 goto            @Label_074e
 
@@ -174,13 +174,13 @@ code0309
 code0479        0, 0, 12
 code0479        1, 2, 13
 dialogtxt       "You beat me, so if V.E beats you,"
-dialogtxt       "that would mean…"
-dialogtxt       "… You can't lose this one."
+dialogtxt       "that would mean..."
+dialogtxt       "... You can't lose this one."
 code0309        
 call            @Func_111a
 code0479        0, 4, 16
 call            @Func_1078
-dialogtxt       "W—Well…"
+dialogtxt       "W—Well..."
 code0309        
 call            @Func_10ae
 code0479        1, 3, 15

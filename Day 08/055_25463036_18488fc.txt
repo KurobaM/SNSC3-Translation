@@ -6,8 +6,8 @@ code0479        0, 4, 14
 code047d        0, 0
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Urg…"
-dialogtxt       "Mm… Mm…"
+dialogtxt       "Urg..."
+dialogtxt       "Mm... Mm..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -22,12 +22,12 @@ call            @Func_325c
 call            @Func_31da
 jumpz           @Cond_0148, ($b002 == 0)
 dialogtxt       "Are you awake,"
-dialogtxt       "boy…?"
+dialogtxt       "boy...?"
 goto            @Label_0174
 
 @Cond_0148:
 dialogtxt       "Are you awake,"
-dialogtxt       "little lady…?"
+dialogtxt       "little lady...?"
 goto            @Label_0174
 
 @Label_0174:
@@ -37,7 +37,7 @@ call            @Func_322e
 call            @Func_3246
 code047c        0, 2
 call            @Func_318c
-dialogtxt       "Mm…"
+dialogtxt       "Mm..."
 code047b        
 code0309        
 call            @Func_32c8
@@ -52,15 +52,15 @@ code0479        0, 2, 14
 call            @Func_3246
 call            @Func_316e
 jumpz           @Cond_0250, ($b002 == 0)
-dialogtxt       "Where… Am…"
-dialogtxt       "Ow…"
-dialogtxt       "What's… This?"
+dialogtxt       "Where... Am..."
+dialogtxt       "Ow..."
+dialogtxt       "What's... This?"
 goto            @Label_0282
 
 @Cond_0250:
-dialogtxt       "Where… Am…"
-dialogtxt       "Ow…"
-dialogtxt       "What's… This?"
+dialogtxt       "Where... Am..."
+dialogtxt       "Ow..."
+dialogtxt       "What's... This?"
 goto            @Label_0282
 
 @Label_0282:
@@ -88,13 +88,13 @@ code0479        0, 2, 16
 call            @Func_3272
 call            @Func_316e
 jumpz           @Cond_03b4, ($b002 == 0)
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 dialogtxt       "[NAME 1]?"
 dialogtxt       "Where's [NAME 1]!?"
 goto            @Label_03e8
 
 @Cond_03b4:
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 dialogtxt       "[NAME 1]?"
 dialogtxt       "Where's [NAME 1]!?"
 goto            @Label_03e8
@@ -105,9 +105,9 @@ code0309
 call            @Func_31c2
 code0479        1, 4, 12
 call            @Func_31f8
-dialogtxt       "You're so foul-mouthed…"
+dialogtxt       "You're so foul-mouthed..."
 dialogtxt       "When talking to an older"
-dialogtxt       "beauty like me, you…"
+dialogtxt       "beauty like me, you..."
 code0309        
 code0479        1, 5, 15
 dialogbig       48, 116, 1, 0, 0, "Must show respect!"
@@ -182,15 +182,15 @@ code0479        0, 2, 14
 call            @Func_3246
 code047c        0, 2
 call            @Func_316e
-dialogtxt       "Gu…"
+dialogtxt       "Gu..."
 code047b        
 code0309        
 call            @Func_31c2
 code0479        1, 0, 13
 call            @Func_325c
 call            @Func_31f8
-dialogtxt       "Fufufu…"
-dialogtxt       "I can tell you're holding back…"
+dialogtxt       "Fufufu..."
+dialogtxt       "I can tell you're holding back..."
 dialogtxt       "It's okay, be as loud as you want."
 code047b        
 code0309        
@@ -207,7 +207,7 @@ call            @Func_322e
 code0479        0, 5, 14
 call            @Func_318c
 dialogtxt       "Nest?"
-dialogtxt       "So Red Wing really is…"
+dialogtxt       "So Red Wing really is..."
 code0309        
 call            @Func_31c2
 code0479        1, 1, 12
@@ -246,12 +246,12 @@ code043e        3, 2, 1
 code0479        0, 2, 14
 call            @Func_318c
 jumpz           @Cond_0b34, ($b002 == 0)
-dialogtxt       "Shut up…"
+dialogtxt       "Shut up..."
 dialogtxt       "Of course I'm not!"
 goto            @Label_0b64
 
 @Cond_0b34:
-dialogtxt       "Shut up…"
+dialogtxt       "Shut up..."
 dialogtxt       "Of course I'm not!"
 goto            @Label_0b64
 
@@ -321,7 +321,7 @@ code0479        0, 4, 16
 call            @Func_3246
 code047c        0, 2
 call            @Func_318c
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 code047b        
 code0309        
 call            @Func_31c2
@@ -353,15 +353,15 @@ code0479        0, 2, 16
 call            @Func_3246
 call            @Func_316e
 jumpz           @Cond_0fe2, ($b002 == 0)
-dialogtxt       "…"
-dialogtxt       "[NAME 1]…"
-dialogtxt       "Where…?"
+dialogtxt       "..."
+dialogtxt       "[NAME 1]..."
+dialogtxt       "Where...?"
 goto            @Label_1002
 
 @Cond_0fe2:
-dialogtxt       "…"
-dialogtxt       "[NAME 1]…"
-dialogtxt       "Where…?"
+dialogtxt       "..."
+dialogtxt       "[NAME 1]..."
+dialogtxt       "Where...?"
 goto            @Label_1002
 
 @Label_1002:
@@ -376,25 +376,25 @@ code0309
 call            @Func_322e
 code0479        0, 5, 14
 call            @Func_318c
-dialogtxt       "… Pike!"
+dialogtxt       "... Pike!"
 code0309        
 call            @Func_31c2
 code0479        1, 4, 16
 call            @Func_31f8
 dialogtxt       "That guy just loves to"
-dialogtxt       "torture Summons, you know…"
-dialogtxt       "I wonder how they're doing now…"
+dialogtxt       "torture Summons, you know..."
+dialogtxt       "I wonder how they're doing now..."
 code0309        
 call            @Func_322e
 code0479        0, 2, 16
 call            @Func_318c
 jumpz           @Cond_115a, ($b002 == 0)
-dialogtxt       "Curse… You…"
+dialogtxt       "Curse... You..."
 dialogtxt       "Unforgivable!"
 goto            @Label_1184
 
 @Cond_115a:
-dialogtxt       "Curse… You…"
+dialogtxt       "Curse... You..."
 dialogtxt       "Unforgivable!"
 goto            @Label_1184
 
@@ -510,9 +510,9 @@ code0479        0, 0, 12
 code0479        1, 4, 12
 call            @Func_325c
 call            @Func_31da
-dialogtxt       "You truly are stupid…"
+dialogtxt       "You truly are stupid..."
 dialogtxt       "I went through so much trouble"
-dialogtxt       "to punish you already…"
+dialogtxt       "to punish you already..."
 code047b        
 code0309        
 call            @Func_32b2
@@ -537,23 +537,23 @@ code0479        0, 2, 16
 call            @Func_3246
 call            @Func_318c
 jumpz           @Cond_184a, ($b002 == 0)
-dialogtxt       "… Stop!"
+dialogtxt       "... Stop!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Evil people like you…"
+dialogtxt       "Evil people like you..."
 dialogtxt       "I would never let you"
-dialogtxt       "use one of my weapons…"
+dialogtxt       "use one of my weapons..."
 goto            @Label_18c2
 
 @Cond_184a:
-dialogtxt       "… Stop it!"
+dialogtxt       "... Stop it!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Evil people like you…"
+dialogtxt       "Evil people like you..."
 dialogtxt       "I would never let you"
-dialogtxt       "use one of my weapons…"
+dialogtxt       "use one of my weapons..."
 goto            @Label_18c2
 
 @Label_18c2:
@@ -597,7 +597,7 @@ call            @Func_322e
 code0479        0, 2, 16
 call            @Func_3246
 call            @Func_318c
-dialogtxt       "What do you…?"
+dialogtxt       "What do you...?"
 code047b        
 code0309        
 call            @Func_31c2
@@ -621,7 +621,7 @@ code0331        37, 256
 code0479        0, 5, 16
 call            @Func_3246
 call            @Func_316e
-dialogtxt       "A… murderer!?"
+dialogtxt       "A... murderer!?"
 code047b        
 code0309        
 call            @Func_31c2
@@ -640,9 +640,9 @@ code0446        3
 code0479        0, 2, 15
 call            @Func_3246
 call            @Func_316e
-dialogtxt       "Wha…"
-dialogtxt       "But…"
-dialogtxt       "Master…"
+dialogtxt       "Wha..."
+dialogtxt       "But..."
+dialogtxt       "Master..."
 code047b        
 code0309        
 call            @Func_31c2
@@ -675,12 +675,12 @@ code0479        0, 5, 14
 code0479        1, 3, 14
 call            @Func_3272
 call            @Func_316e
-dialogtxt       "…!"
+dialogtxt       "...!"
 code0309        
 call            @Func_31c2
 code0479        1, 3, 15
 call            @Func_31f8
-dialogtxt       "It's true…"
+dialogtxt       "It's true..."
 dialogtxt       "Your Master killed my Voijin!"
 code0309        
 code0479        1, 3, 14
@@ -696,7 +696,7 @@ code0479        0, 0, 17
 code047d        0, 116
 call            @Func_3246
 call            @Func_318c
-dialogtxt       "Wait, Anise…"
+dialogtxt       "Wait, Anise..."
 dialogtxt       "Hostages aren't worth anything"
 dialogtxt       "when they're dead!"
 code047b        
@@ -706,18 +706,18 @@ code0479        1, 2, 16
 call            @Func_31f8
 dialogtxt       "We can keep it quiet."
 dialogtxt       "There are other ways to"
-dialogtxt       "get the Demon Stone…"
+dialogtxt       "get the Demon Stone..."
 code0309        
 call            @Func_322e
 code0479        0, 0, 16
 call            @Func_318c
-dialogtxt       "That…"
-dialogtxt       "May be true, but…"
+dialogtxt       "That..."
+dialogtxt       "May be true, but..."
 code0309        
 call            @Func_31c2
 code0479        1, 3, 12
 call            @Func_31f8
-dialogtxt       "Ah, how about this…"
+dialogtxt       "Ah, how about this..."
 dialogtxt       "Since I'm going to kill you anyway,"
 dialogtxt       "how about I use one of your weapons?"
 code0309        
@@ -729,7 +729,7 @@ code0479        0, 5, 14
 code047d        0, 0
 call            @Func_3246
 call            @Func_318c
-dialogtxt       "…!"
+dialogtxt       "...!"
 code047b        
 code0309        
 call            @Func_329c
@@ -740,14 +740,14 @@ code0479        0, 0, 15
 code047d        0, 116
 call            @Func_3246
 call            @Func_318c
-dialogtxt       "Anise…"
-dialogtxt       "You're really…"
+dialogtxt       "Anise..."
+dialogtxt       "You're really..."
 code047b        
 code0309        
 call            @Func_31c2
 code0479        1, 2, 13
 call            @Func_31f8
-dialogtxt       "Don't worry…"
+dialogtxt       "Don't worry..."
 dialogtxt       "They're a bunch of naive idiots."
 dialogtxt       "I will obtain the Demon Stone."
 code0309        
@@ -765,13 +765,13 @@ call            @Func_318c
 jumpz           @Cond_22a4, ($b002 == 0)
 dialogtxt       "Voijin?"
 dialogtxt       "Once you have the Demon Stone,"
-dialogtxt       "just what are you planning to…?"
+dialogtxt       "just what are you planning to...?"
 goto            @Label_22fa
 
 @Cond_22a4:
 dialogtxt       "Voijin?"
 dialogtxt       "Once you have the Demon Stone,"
-dialogtxt       "just what are you planning to…?"
+dialogtxt       "just what are you planning to...?"
 goto            @Label_22fa
 
 @Label_22fa:
@@ -781,12 +781,12 @@ call            @Func_31c2
 code0479        1, 2, 12
 call            @Func_31f8
 dialogtxt       "My plans?"
-dialogtxt       "Well, you're dead anyway…"
-dialogtxt       "I'll be nice and tell you…"
+dialogtxt       "Well, you're dead anyway..."
+dialogtxt       "I'll be nice and tell you..."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Voijin was trying to free"
-dialogtxt       "humans from Summon Beasts…"
+dialogtxt       "humans from Summon Beasts..."
 dialogtxt       "Those incomprehensible creatures."
 code0309        
 call            @Func_322e
@@ -868,7 +868,7 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_3246
 call            @Func_316e
-dialogtxt       "Humans are…"
+dialogtxt       "Humans are..."
 code047b        
 code0309        
 call            @Func_31c2

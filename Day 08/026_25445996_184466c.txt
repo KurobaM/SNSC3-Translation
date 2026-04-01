@@ -32,21 +32,21 @@ call            @Func_18ae
 code0479        0, 0, 14
 call            @Func_180c
 jumpz           @Cond_027a, ($b002 == 0)
-dialogtxt       "Terrible…"
+dialogtxt       "Terrible..."
 dialogtxt       "They said we have to have"
 dialogtxt       "solid evidence to make a decision."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "So we split up to search for them…"
+dialogtxt       "So we split up to search for them..."
 goto            @Label_0316
 
 @Cond_027a:
-dialogtxt       "Terrible…"
+dialogtxt       "Terrible..."
 dialogtxt       "They said we have to have"
 dialogtxt       "solid evidence to make a decision."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "So we split up to search for them…"
+dialogtxt       "So we split up to search for them..."
 goto            @Label_0316
 
 @Label_0316:
@@ -181,7 +181,7 @@ goto            @Cond_0916
 jumpz           @Cond_0978, ($b003 == 3)
 dialogtxt       "Are you sure?"
 dialogtxt       "I thought everyone was too scared"
-dialogtxt       "of Red Wing to go there…"
+dialogtxt       "of Red Wing to go there..."
 goto            @Cond_0978
 
 @Cond_0978:
@@ -202,14 +202,14 @@ code047d        1, 0
 call            @Func_18dc
 call            @Func_1878
 jumpz           @Cond_0a96, ($b002 == 0)
-dialogtxt       "Hmm, is that so…"
-dialogtxt       "Well, we've got no other leads…"
+dialogtxt       "Hmm, is that so..."
+dialogtxt       "Well, we've got no other leads..."
 dialogtxt       "Shall we take a look?"
 goto            @Label_0aee
 
 @Cond_0a96:
-dialogtxt       "Hmm, is that so…"
-dialogtxt       "Well, we've got no other leads…"
+dialogtxt       "Hmm, is that so..."
+dialogtxt       "Well, we've got no other leads..."
 dialogtxt       "Shall we take a look?"
 goto            @Label_0aee
 
@@ -234,7 +234,7 @@ call            @Func_1842
 code0479        1, 0, 16
 call            @Func_1878
 dialogtxt       "Master is investigating Lute Cave,"
-dialogtxt       "and Bro is at Beleet Forest…"
+dialogtxt       "and Bro is at Beleet Forest..."
 code0309        
 call            @Func_18ae
 code0479        0, 4, 14
@@ -273,7 +273,7 @@ code0309
 call            @Func_18ae
 code0479        0, 4, 14
 call            @Func_180c
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 dialogtxt       "Okay."
 code0309        
 call            @Func_1948
@@ -326,7 +326,7 @@ goto            @Cond_0fb4
 
 @Cond_0fb4:
 jumpz           @Cond_0ff8, ($b003 == 3)
-dialogtxt       "Zakk…"
+dialogtxt       "Zakk..."
 dialogtxt       "Just whose follower is he?"
 goto            @Cond_0ff8
 

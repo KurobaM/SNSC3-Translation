@@ -33,7 +33,7 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "Why, you say…"
+dialogtxt       "Why, you say..."
 dialogtxt       "Are you trying to test"
 dialogtxt       "my authenticity too?"
 code0309        
@@ -54,9 +54,9 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "Be careful, [NAME 2]..."
 dialogtxt       "[NAME 1] may be"
-dialogtxt       "an imposter…"
+dialogtxt       "an imposter..."
 code047b        
 code0309        
 call            @Func_2704
@@ -87,23 +87,23 @@ code0309
 call            @Func_2704
 code0479        0, 0, 12
 call            @Func_2662
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "I Do Not."
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
 dialogtxt       "The real [NAME 1]"
-dialogtxt       "would have known…"
-dialogtxt       "Fine, I'll tell you…"
+dialogtxt       "would have known..."
+dialogtxt       "Fine, I'll tell you..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out…"
+dialogtxt       "They found out..."
 code0309        
 call            @Func_2704
 code0479        0, 5, 12
 call            @Func_2662
-dialogtxt       "Found Out…?"
+dialogtxt       "Found Out...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -128,15 +128,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_05d6, ($b002 == 0)
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_061e
 
 @Cond_05d6:
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_061e
 
 @Label_061e:
@@ -152,13 +152,13 @@ code0309
 code0479        1, 4, 12
 dialogtxt       "After we were exposed selling"
 dialogtxt       "contraband on the black market,"
-dialogtxt       "Anise came after me…"
+dialogtxt       "Anise came after me..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No… Murno, you were…"
-dialogtxt       "Working with them…?"
+dialogtxt       "No... Murno, you were..."
+dialogtxt       "Working with them...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -197,7 +197,7 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "Why, you say…"
+dialogtxt       "Why, you say..."
 dialogtxt       "Are you trying to test"
 dialogtxt       "my authenticity too?"
 code0309        
@@ -218,9 +218,9 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "Be careful, [NAME 2]..."
 dialogtxt       "[NAME 1] may be"
-dialogtxt       "an imposter…"
+dialogtxt       "an imposter..."
 code047b        
 code0309        
 call            @Func_2704
@@ -258,16 +258,16 @@ call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
 dialogtxt       "The real [NAME 1]"
-dialogtxt       "would have known…"
-dialogtxt       "Fine, I'll tell you…"
+dialogtxt       "would have known..."
+dialogtxt       "Fine, I'll tell you..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out…"
+dialogtxt       "They found out..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "Found out…?"
+dialogtxt       "Found out...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -291,15 +291,15 @@ code047d        0, 0
 call            @Func_2748
 call            @Func_2662
 jumpz           @Cond_0dd8, ($b002 == 0)
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_0e20
 
 @Cond_0dd8:
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_0e20
 
 @Label_0e20:
@@ -315,13 +315,13 @@ code0309
 code0479        1, 4, 12
 dialogtxt       "After we were exposed selling"
 dialogtxt       "contraband on the black market,"
-dialogtxt       "Anise came after me…"
+dialogtxt       "Anise came after me..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No… Murno, you were…"
-dialogtxt       "Working with them…?"
+dialogtxt       "No... Murno, you were..."
+dialogtxt       "Working with them...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -350,7 +350,7 @@ goto            @Cond_1092
 
 @Cond_1092:
 jumpz           @Cond_1890, ($b003 == 2)
-dialogtxt       "Those guys…"
+dialogtxt       "Those guys..."
 dialogtxt       "Suddenly bringing up execution,"
 dialogtxt       "what's with that?"
 code047b        
@@ -360,7 +360,7 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "Why, you say…"
+dialogtxt       "Why, you say..."
 dialogtxt       "Are you trying to test"
 dialogtxt       "my authenticity too?"
 code0309        
@@ -381,9 +381,9 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "Be careful, [NAME 2]..."
 dialogtxt       "[NAME 1] may be"
-dialogtxt       "an imposter…"
+dialogtxt       "an imposter..."
 code047b        
 code0309        
 call            @Func_2704
@@ -401,7 +401,7 @@ code0479        0, 3, 14
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "Me, a fake…?"
+dialogtxt       "Me, a fake...?"
 dialogtxt       "Even if it is you, Murno,"
 dialogtxt       "I will not let you insult me."
 code047b        
@@ -417,21 +417,21 @@ code0309
 call            @Func_2704
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "What…?"
+dialogtxt       "What...?"
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "So you don't know…"
-dialogtxt       "Fine then, I'll tell you…"
+dialogtxt       "So you don't know..."
+dialogtxt       "Fine then, I'll tell you..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out…"
+dialogtxt       "They found out..."
 code0309        
 call            @Func_2704
 code0479        0, 3, 14
 call            @Func_2662
-dialogtxt       "Found out…?"
+dialogtxt       "Found out...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -456,15 +456,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_15b4, ($b002 == 0)
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_15fc
 
 @Cond_15b4:
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_15fc
 
 @Label_15fc:
@@ -480,13 +480,13 @@ code0309
 code0479        1, 4, 12
 dialogtxt       "After we were exposed selling"
 dialogtxt       "contraband on the black market,"
-dialogtxt       "Anise came after me…"
+dialogtxt       "Anise came after me..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No… Murno, you were…"
-dialogtxt       "Working with them…?"
+dialogtxt       "No... Murno, you were..."
+dialogtxt       "Working with them...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -509,14 +509,14 @@ code047b
 code0309        
 code043c        1, 3
 code0479        1, 2, 15
-dialogtxt       "Murno being their accomplice…"
+dialogtxt       "Murno being their accomplice..."
 dialogtxt       "Don't think you'll get away"
 dialogtxt       "with spouting such bullshit!"
 goto            @Cond_1890
 
 @Cond_1890:
 jumpz           @Cond_20b2, ($b003 == 3)
-dialogtxt       "But execution…"
+dialogtxt       "But execution..."
 dialogtxt       "Lady Murno, what happened?"
 code047b        
 code0309        
@@ -525,7 +525,7 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "Why, you say…"
+dialogtxt       "Why, you say..."
 dialogtxt       "Are you trying to test"
 dialogtxt       "my authenticity too?"
 code0309        
@@ -546,9 +546,9 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "Be careful, [NAME 2]..."
 dialogtxt       "[NAME 1] may be"
-dialogtxt       "an imposter…"
+dialogtxt       "an imposter..."
 code047b        
 code0309        
 call            @Func_2704
@@ -566,7 +566,7 @@ code0479        0, 2, 15
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "How could you say that…?"
+dialogtxt       "How could you say that...?"
 dialogtxt       "I am the real thing!"
 code047b        
 code0309        
@@ -581,23 +581,23 @@ code0309
 call            @Func_2704
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "Eh…?"
-dialogtxt       "Why they want to…?"
+dialogtxt       "Eh...?"
+dialogtxt       "Why they want to...?"
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
 dialogtxt       "The real [NAME 1]"
-dialogtxt       "would have known…"
-dialogtxt       "Fine, I'll tell you…"
+dialogtxt       "would have known..."
+dialogtxt       "Fine, I'll tell you..."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "They found out…"
+dialogtxt       "They found out..."
 code0309        
 call            @Func_2704
 code0479        1, 2, 14
 call            @Func_2662
-dialogtxt       "Found out…?"
+dialogtxt       "Found out...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -622,15 +622,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_1dcc, ($b002 == 0)
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_1e14
 
 @Cond_1dcc:
-dialogtxt       "Murno…"
-dialogtxt       "You're Voijin's accomplice…?"
-dialogtxt       "Wha… What are you saying…?"
+dialogtxt       "Murno..."
+dialogtxt       "You're Voijin's accomplice...?"
+dialogtxt       "Wha... What are you saying...?"
 goto            @Label_1e14
 
 @Label_1e14:
@@ -646,13 +646,13 @@ code0309
 code0479        1, 4, 12
 dialogtxt       "After we were exposed selling"
 dialogtxt       "contraband on the black market,"
-dialogtxt       "Anise came after me…"
+dialogtxt       "Anise came after me..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No… Murno, you were…"
-dialogtxt       "Working with them…?"
+dialogtxt       "No... Murno, you were..."
+dialogtxt       "Working with them...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15

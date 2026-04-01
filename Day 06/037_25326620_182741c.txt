@@ -29,12 +29,12 @@ call            @Func_0ff6
 call            @Func_0f1e
 jumpz           @Cond_0146, ($b002 == 0)
 dialogtxt       "What's with them?"
-dialogtxt       "They were acting so different…"
+dialogtxt       "They were acting so different..."
 goto            @Label_017c
 
 @Cond_0146:
 dialogtxt       "What's with them?"
-dialogtxt       "They were acting so different…"
+dialogtxt       "They were acting so different..."
 goto            @Label_017c
 
 @Label_017c:
@@ -84,12 +84,12 @@ call            @Func_0ff6
 call            @Func_0f1e
 jumpz           @Cond_03de, ($b002 == 0)
 dialogtxt       "Huh!?"
-dialogtxt       "Gone again…?"
+dialogtxt       "Gone again...?"
 goto            @Label_03fe
 
 @Cond_03de:
 dialogtxt       "Huh!?"
-dialogtxt       "Gone again…?"
+dialogtxt       "Gone again...?"
 goto            @Label_03fe
 
 @Label_03fe:
@@ -108,7 +108,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "As I Thought, It Is Connected"
 dialogtxt       "To The Energy That Fills"
-dialogtxt       "These Ruins…"
+dialogtxt       "These Ruins..."
 code0309        
 call            @Func_0fde
 code0479        0, 2, 14

@@ -53,7 +53,7 @@ goto            @Label_022c
 
 @Cond_01fc:
 jumpz           @Cond_0216, ($b003 == 2)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Label_022c
 
 @Cond_0216:
@@ -145,7 +145,7 @@ code0309
 call            @Func_2c28
 code0479        1, 0, 12
 call            @Func_2c5e
-dialogtxt       "… Is What Lady Murno"
+dialogtxt       "... Is What Lady Murno"
 dialogtxt       "Wanted To Say To You."
 code0309        
 call            @Func_2c94
@@ -174,7 +174,7 @@ dialogtxt       "while we were out."
 code0309        
 code0479        0, 4, 13
 dialogtxt       "There isn't much I could've done"
-dialogtxt       "on my own…"
+dialogtxt       "on my own..."
 goto            @Label_08ae
 
 @Label_08ae:
@@ -187,7 +187,7 @@ code0309
 call            @Func_2c94
 code0479        0, 2, 14
 call            @Func_2bf2
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "You know, sometimes you"
 dialogtxt       "can be very irritating."
 goto            @Label_0954
@@ -219,7 +219,7 @@ code0309
 call            @Func_2c28
 code0479        1, 4, 12
 call            @Func_2c5e
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_2c94
 code0479        0, 1, 12
@@ -265,14 +265,14 @@ call            @Func_2c28
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2c5e
-dialogtxt       "Indeed…"
+dialogtxt       "Indeed..."
 dialogtxt       "I must express my gratitude."
 dialogtxt       "You were troubled because of her."
 code0309        
 call            @Func_2c94
 code0479        0, 0, 13
 call            @Func_2bf2
-dialogtxt       "Don't worry about it…"
+dialogtxt       "Don't worry about it..."
 dialogtxt       "After all, we only succeeded"
 dialogtxt       "because you were there, [NAME 1]."
 code0309        
@@ -293,7 +293,7 @@ code0309
 call            @Func_2c94
 code0479        0, 2, 12
 call            @Func_2bf2
-dialogtxt       "Way to be blunt about it…"
+dialogtxt       "Way to be blunt about it..."
 goto            @Label_0f12
 
 @Label_0f12:
@@ -306,14 +306,14 @@ dialogtxt       "I'm indebted to Master too,"
 dialogtxt       "for taking care of Murno."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "I truly regret doubting her…"
+dialogtxt       "I truly regret doubting her..."
 dialogtxt       "Though I may be a tiger,"
 dialogtxt       "I do not forget my debts."
 code0309        
 call            @Func_2c94
 code0479        0, 0, 16
 call            @Func_2bf2
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_2c28
 code0479        1, 2, 12
@@ -356,7 +356,7 @@ code0309
 call            @Func_2c94
 code0479        0, 0, 16
 call            @Func_2bf2
-dialogtxt       "Ah, but…"
+dialogtxt       "Ah, but..."
 dialogtxt       "You won't have to help me forever."
 dialogtxt       "You've got 8 more lives than I do."
 code0309        
@@ -380,8 +380,8 @@ code0309
 call            @Func_2c28
 code0479        1, 2, 14
 call            @Func_2c5e
-dialogtxt       "Tsk…"
-dialogtxt       "… … …"
+dialogtxt       "Tsk..."
+dialogtxt       "... ... ..."
 code0309        
 call            @Func_2c94
 code0479        0, 2, 14
@@ -395,7 +395,7 @@ code0309
 call            @Func_2c28
 code0479        1, 0, 12
 call            @Func_2c5e
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Murno's awake. She says she's fine."
 code0309        
 call            @Func_2c94
@@ -416,12 +416,12 @@ code0479        1, 5, 15
 call            @Func_2c5e
 dialogtxt       "W—What are you going on about!?"
 dialogtxt       "I wasn't even trying!"
-dialogtxt       "That was because you…"
+dialogtxt       "That was because you..."
 code0309        
 call            @Func_2c94
 code0479        0, 4, 12
 call            @Func_2bf2
-dialogtxt       "This again…"
+dialogtxt       "This again..."
 dialogtxt       "No need to be so embarrassed."
 dialogtxt       "I guess you're still a kid."
 goto            @Label_1610
@@ -443,7 +443,7 @@ call            @Func_2c94
 code0479        1, 2, 12
 code0479        0, 5, 16
 call            @Func_2bf2
-dialogtxt       "Oh, right…"
+dialogtxt       "Oh, right..."
 code0309        
 code0479        0, 2, 15
 dialogtxt       "But hey, if you're an adult,"
@@ -456,7 +456,7 @@ call            @Func_2c28
 code0479        0, 2, 14
 code0479        1, 5, 14
 call            @Func_2c5e
-dialogtxt       "…!?"
+dialogtxt       "...!?"
 code0309        
 call            @Func_2c94
 code0479        0, 2, 17
@@ -484,7 +484,7 @@ code0309
 call            @Func_2c28
 code0479        1, 8, 16
 call            @Func_2c5e
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_2c94
 code0479        1, 8, 12
@@ -500,8 +500,8 @@ code0309
 call            @Func_2c28
 code0479        1, 4, 12
 call            @Func_2c5e
-dialogtxt       "…"
-dialogtxt       "How shameful…"
+dialogtxt       "..."
+dialogtxt       "How shameful..."
 code0309        
 call            @Func_2c94
 code0479        0, 5, 16
@@ -531,15 +531,15 @@ call            @Func_2c94
 code0479        1, 2, 12
 code0479        0, 5, 16
 call            @Func_2bf2
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code0479        0, 4, 13
-dialogtxt       "Well, I suppose lying is adult-like too…"
+dialogtxt       "Well, I suppose lying is adult-like too..."
 code0309        
 call            @Func_2c28
 code0479        1, 0, 13
 call            @Func_2c5e
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 code0309        
 call            @Func_2d2e
 call            @Func_2c7c
@@ -592,7 +592,7 @@ dialogtxt       "What!?"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 14
-dialogtxt       "… Then, does that mean!?"
+dialogtxt       "... Then, does that mean!?"
 dialogtxt       "[NAME 2]! Maybe, um, do you"
 dialogtxt       "like—"
 code0309        
@@ -633,7 +633,7 @@ code0309
 call            @Func_2c94
 code0479        0, 0, 16
 call            @Func_2bf2
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 goto            @Label_225e
 
 @Label_225e:
@@ -642,7 +642,7 @@ call            @Func_2c28
 code0479        1, 4, 16
 call            @Func_2c5e
 dialogtxt       "If Master knew what I was thinking,"
-dialogtxt       "she'd be so mad… and frightening…"
+dialogtxt       "she'd be so mad... and frightening..."
 code0309        
 call            @Func_2c94
 code0479        0, 1, 15
@@ -664,7 +664,7 @@ call            @Func_2c28
 code0479        0, 0, 12
 code0479        1, 0, 16
 call            @Func_2c5e
-dialogtxt       "Yes, you're right…"
+dialogtxt       "Yes, you're right..."
 code0309        
 call            @Func_2c94
 code0479        0, 1, 13

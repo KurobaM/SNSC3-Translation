@@ -115,7 +115,7 @@ goto            @Cond_0466
 @Cond_0466:
 jumpz           @Cond_048c, ($b003 == 2)
 dialogtxt       "Tsk!"
-dialogtxt       "From above…!"
+dialogtxt       "From above...!"
 goto            @Cond_048c
 
 @Cond_048c:
@@ -154,7 +154,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Grrr…"
+dialogtxt       "Grrr..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -239,7 +239,7 @@ code040d        8
 code047d        0, 142
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -249,8 +249,8 @@ code0479        0, 5, 16
 code047d        0, 134
 call            @Func_3034
 call            @Func_2f5c
-dialogtxt       "Magdrad…"
-dialogtxt       "You…"
+dialogtxt       "Magdrad..."
+dialogtxt       "You..."
 code047b        
 code0309        
 call            @Func_308a
@@ -259,14 +259,14 @@ code047b
 code047d        1, 142
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code047e        1, 0
 code0302        7
 code0479        0, 2, 12
 call            @Func_3034
 call            @Func_2f5c
-dialogtxt       "Okay…"
+dialogtxt       "Okay..."
 code047b        
 code0309        
 code0479        0, 2, 15
@@ -554,8 +554,8 @@ code0479        0, 4, 16
 code047d        0, 135
 call            @Func_3034
 call            @Func_2f7a
-dialogtxt       "T—The… S—Summonite…"
-dialogtxt       "Where is…"
+dialogtxt       "T—The... S—Summonite..."
+dialogtxt       "Where is..."
 code047b        
 code0309        
 call            @Func_2fb0
@@ -617,7 +617,7 @@ goto            @Cond_1e22
 
 @Cond_1e22:
 jumpz           @Cond_1e56, ($b003 == 2)
-dialogtxt       "… Tsk!"
+dialogtxt       "... Tsk!"
 dialogtxt       "Found the Summonite!"
 goto            @Cond_1e56
 
@@ -793,7 +793,7 @@ code033b        400, 0, 0, 0, 1, 0
 code047d        0, 141
 code0301        8, 7
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "Kishaaa……"
+dialogbig       24, 116, 1, 0, 0, "Kishaaa......"
 code030c        
 code047e        0, 0
 code0302        7
@@ -811,20 +811,20 @@ code0479        0, 0, 14
 code047d        0, 135
 call            @Func_3060
 call            @Func_2f5c
-dialogtxt       "Do not worry…"
-dialogtxt       "Our master has…"
-dialogtxt       "recognized your strength…"
+dialogtxt       "Do not worry..."
+dialogtxt       "Our master has..."
+dialogtxt       "recognized your strength..."
 code047b        
 code0309        
 call            @Func_2fb0
 code0479        1, 2, 16
 call            @Func_2fe6
 jumpz           @Cond_2828, ($b002 == 0)
-dialogtxt       "Is… That so…?"
+dialogtxt       "Is... That so...?"
 goto            @Label_283e
 
 @Cond_2828:
-dialogtxt       "Is… That so…?"
+dialogtxt       "Is... That so...?"
 goto            @Label_283e
 
 @Label_283e:
@@ -837,7 +837,7 @@ code048c
 code047d        0, 141
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Shaaaaah…"
+dialogtxt       "Shaaaaah..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -851,14 +851,14 @@ code0479        0, 2, 12
 code047d        0, 135
 call            @Func_3060
 call            @Func_2f5c
-dialogtxt       "It's all up to you…"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "It's all up to you..."
+dialogtxt       "[NAME 2]..."
 code047b        
 code0309        
 call            @Func_2fb0
 code0479        1, 2, 14
 call            @Func_2fe6
-dialogtxt       "…!"
+dialogtxt       "...!"
 dialogtxt       "Got it!"
 code0309        
 code0479        1, 2, 15

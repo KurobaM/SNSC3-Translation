@@ -8,8 +8,8 @@ code047d        0, 0
 call            @Func_14a8
 call            @Func_13d0
 dialogtxt       "It's been some time since then,"
-dialogtxt       "but no one's come back…"
-dialogtxt       "Murno…"
+dialogtxt       "but no one's come back..."
+dialogtxt       "Murno..."
 code047b        
 code0309        
 call            @Func_14fe
@@ -49,11 +49,11 @@ code0479        0, 0, 16
 call            @Func_14a8
 call            @Func_13ee
 jumpz           @Cond_022e, ($b002 == 0)
-dialogtxt       "Um, is Murno still…"
+dialogtxt       "Um, is Murno still..."
 goto            @Label_024e
 
 @Cond_022e:
-dialogtxt       "Um, is Murno still…"
+dialogtxt       "Um, is Murno still..."
 goto            @Label_024e
 
 @Label_024e:
@@ -148,8 +148,8 @@ code047b
 code047d        1, 106
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Hey, you…"
-dialogtxt       "Bad news…"
+dialogtxt       "Hey, you..."
+dialogtxt       "Bad news..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -157,11 +157,11 @@ code0479        0, 2, 14
 call            @Func_14a8
 call            @Func_13ee
 jumpz           @Cond_05d2, ($b002 == 0)
-dialogtxt       "Who are you…?"
+dialogtxt       "Who are you...?"
 goto            @Label_05e8
 
 @Cond_05d2:
-dialogtxt       "Who are you…?"
+dialogtxt       "Who are you...?"
 goto            @Label_05e8
 
 @Label_05e8:
@@ -181,7 +181,7 @@ code0333        2, 30
 code0479        0, 5, 16
 call            @Func_14a8
 call            @Func_13ee
-dialogtxt       "Execute…?"
+dialogtxt       "Execute...?"
 code047b        
 code0309        
 code0334        
@@ -228,8 +228,8 @@ call            @Func_1424
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Wait…"
-dialogtxt       "I'll open the door…"
+dialogtxt       "Wait..."
+dialogtxt       "I'll open the door..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -253,12 +253,12 @@ call            @Func_1424
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "I can tell…"
+dialogtxt       "I can tell..."
 dialogtxt       "You guys are"
 dialogtxt       "the good guys, right?"
 code0309        
 dialogtxt       "I'd hate to feed any innocent"
-dialogtxt       "people to our Master…"
+dialogtxt       "people to our Master..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -274,7 +274,7 @@ call            @Func_1424
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Yeah…"
+dialogtxt       "Yeah..."
 dialogtxt       "Our Master is a Summon Beast"
 dialogtxt       "who protects the village."
 code0309        
@@ -306,7 +306,7 @@ code047b
 code0301        8, 7
 code047e        1, 1
 dialogtxt       "Calm down."
-dialogtxt       "I'll unlock the door…"
+dialogtxt       "I'll unlock the door..."
 code0309        
 dialogtxt       "All of your equipment"
 dialogtxt       "is in this room."

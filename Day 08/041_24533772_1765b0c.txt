@@ -341,7 +341,7 @@ code0301        8, 7
 code047d        0, 123
 code047e        0, 1
 dialogtxt       "Becoming a hero or a swordsman"
-dialogtxt       "both seem too hard…"
+dialogtxt       "both seem too hard..."
 dialogtxt       "Maybe I'll be a Craftknight instead."
 code0309        
 code047e        0, 0
@@ -354,7 +354,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "I heard there was someone"
 dialogtxt       "talking about fighting Red Wing."
-dialogtxt       "Going up against that…"
+dialogtxt       "Going up against that..."
 code0309        
 dialogtxt       "is way too dangerous for"
 dialogtxt       "his own good."

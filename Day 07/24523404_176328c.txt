@@ -236,7 +236,7 @@ code0479        1, 0, 12
 call            @Func_3ec2
 dialogtxt       "In Order To Obtain A Chance To"
 dialogtxt       "See The Crystal Pillar In The Ruins,"
-dialogtxt       "You Must Fight…"
+dialogtxt       "You Must Fight..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -281,7 +281,7 @@ code0479        1, 2, 16
 call            @Func_3ec2
 dialogtxt       "We fight within the ruins,"
 dialogtxt       "so that we may see the"
-dialogtxt       "Crystal Pillar further within…"
+dialogtxt       "Crystal Pillar further within..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -369,9 +369,9 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
-dialogtxt       "How odd… I believe this"
-dialogtxt       "Room of Judgment is in the ruins…"
-dialogtxt       "As well as the Crystal Pillar…"
+dialogtxt       "How odd... I believe this"
+dialogtxt       "Room of Judgment is in the ruins..."
+dialogtxt       "As well as the Crystal Pillar..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -426,7 +426,7 @@ call            @Func_3f3c
 jumpz           @Cond_10be, ($b003 == 0)
 call            @Func_3e38
 dialogtxt       "The Room of Judgment"
-dialogtxt       "within the Gumag Flame Ruins…"
+dialogtxt       "within the Gumag Flame Ruins..."
 code047b        
 code0309        
 call            @Func_3e8c
@@ -457,7 +457,7 @@ goto            @Cond_10be
 jumpz           @Cond_11aa, ($b003 == 1)
 call            @Func_3e38
 dialogtxt       "The Room of Judgment"
-dialogtxt       "within the Gumag Flame Ruins…"
+dialogtxt       "within the Gumag Flame Ruins..."
 code047b        
 code0309        
 call            @Func_3e8c
@@ -488,7 +488,7 @@ goto            @Cond_11aa
 jumpz           @Cond_12d0, ($b003 == 2)
 call            @Func_3e38
 dialogtxt       "The Room of Judgment"
-dialogtxt       "within the Gumag Flame Ruins…"
+dialogtxt       "within the Gumag Flame Ruins..."
 code047b        
 code0309        
 call            @Func_3e8c
@@ -502,12 +502,12 @@ code0479        0, 5, 16
 call            @Func_3e56
 jumpz           @Cond_128c, ($b002 == 0)
 dialogtxt       "He really is different"
-dialogtxt       "when it comes to Murno…"
+dialogtxt       "when it comes to Murno..."
 goto            @Label_12c0
 
 @Cond_128c:
 dialogtxt       "He really is different"
-dialogtxt       "when it comes to Murno…"
+dialogtxt       "when it comes to Murno..."
 goto            @Label_12c0
 
 @Label_12c0:
@@ -521,7 +521,7 @@ goto            @Cond_12d0
 jumpz           @Cond_13c6, ($b003 == 3)
 call            @Func_3e38
 dialogtxt       "The Room of Judgment"
-dialogtxt       "within the Gumag Flame Ruins…"
+dialogtxt       "within the Gumag Flame Ruins..."
 code047b        
 code0309        
 call            @Func_3e8c
@@ -582,13 +582,13 @@ jumpz           @Cond_1690, ($b003 == 0)
 call            @Func_3e38
 jumpz           @Cond_153c, ($b002 == 0)
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_1598
 
 @Cond_153c:
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_1598
 
@@ -609,7 +609,7 @@ call            @Func_3ef8
 code0479        0, 2, 16
 call            @Func_3e56
 dialogtxt       "W—Wow."
-dialogtxt       "That's kinda awesome…"
+dialogtxt       "That's kinda awesome..."
 code0309        
 call            @Func_3f92
 call            @Func_3e74
@@ -621,13 +621,13 @@ jumpz           @Cond_1906, ($b003 == 1)
 call            @Func_3e38
 jumpz           @Cond_1712, ($b002 == 0)
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_176e
 
 @Cond_1712:
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_176e
 
@@ -673,13 +673,13 @@ jumpz           @Cond_1b70, ($b003 == 2)
 call            @Func_3e38
 jumpz           @Cond_1988, ($b002 == 0)
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_19e4
 
 @Cond_1988:
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_19e4
 
@@ -689,20 +689,20 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 14
 call            @Func_3ec2
-dialogtxt       "…"
-dialogtxt       "………"
-dialogtxt       "………………………"
+dialogtxt       "..."
+dialogtxt       "........."
+dialogtxt       "..........................."
 code0309        
 call            @Func_3ef8
 code0479        0, 5, 17
 call            @Func_3e56
 jumpz           @Cond_1a8a, ($b002 == 0)
-dialogtxt       "Umm, [NAME 1]…?"
+dialogtxt       "Umm, [NAME 1]...?"
 dialogtxt       "Are you okay?"
 goto            @Label_1abe
 
 @Cond_1a8a:
-dialogtxt       "Umm, [NAME 1]…?"
+dialogtxt       "Umm, [NAME 1]...?"
 dialogtxt       "Are you okay?"
 goto            @Label_1abe
 
@@ -711,15 +711,15 @@ code0309
 call            @Func_3e8c
 code0479        1, 3, 14
 call            @Func_3ec2
-dialogtxt       "…"
-dialogtxt       "It's already way too hot…"
-dialogtxt       "Stop bothering…"
+dialogtxt       "..."
+dialogtxt       "It's already way too hot..."
+dialogtxt       "Stop bothering..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 14
 call            @Func_3e56
-dialogtxt       "(S… Scary…"
-dialogtxt       "Now I'm chilled to the bone…)"
+dialogtxt       "(S... Scary..."
+dialogtxt       "Now I'm chilled to the bone...)"
 code0309        
 call            @Func_3f92
 call            @Func_3e74
@@ -731,13 +731,13 @@ jumpz           @Cond_1d9a, ($b003 == 3)
 call            @Func_3e38
 jumpz           @Cond_1bf2, ($b002 == 0)
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_1c4e
 
 @Cond_1bf2:
 dialogtxt       "Do we really have to go in there?"
-dialogtxt       "Those ruins are ridiculously hot…"
+dialogtxt       "Those ruins are ridiculously hot..."
 dialogtxt       "[NAME 1], how are you doing?"
 goto            @Label_1c4e
 
@@ -756,12 +756,12 @@ code0479        0, 11, 17
 call            @Func_3e56
 dialogbig       24, 116, 1, 0, 0, "Take something off?"
 code030c        
-dialogbig       24, 116, 1, 0, 0, "You mean…!?"
+dialogbig       24, 116, 1, 0, 0, "You mean...!?"
 code030c        
 call            @Func_3e8c
 code0479        1, 0, 16
 call            @Func_3ec2
-dialogtxt       "My hat…?"
+dialogtxt       "My hat...?"
 dialogtxt       "Am I not allowed to?"
 code0309        
 call            @Func_3ef8
@@ -1034,13 +1034,13 @@ call            @Func_3e56
 jumpz           @Cond_289a, ($b002 == 0)
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2900
 
 @Cond_289a:
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2900
 
 @Label_2900:
@@ -1048,9 +1048,9 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 12
 call            @Func_3ec2
-dialogtxt       "…"
-dialogtxt       "………"
-dialogtxt       "………………………"
+dialogtxt       "..."
+dialogtxt       "........."
+dialogtxt       "..........................."
 code0309        
 call            @Func_3ef8
 code0479        0, 5, 17
@@ -1077,13 +1077,13 @@ call            @Func_3e56
 jumpz           @Cond_2a74, ($b002 == 0)
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2ada
 
 @Cond_2a74:
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2ada
 
 @Label_2ada:
@@ -1129,13 +1129,13 @@ call            @Func_3e56
 jumpz           @Cond_2ce2, ($b002 == 0)
 dialogtxt       "Now that I think about it,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2d42
 
 @Cond_2ce2:
 dialogtxt       "Now that I think about it,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2d42
 
 @Label_2d42:
@@ -1143,7 +1143,7 @@ code0309
 call            @Func_3e8c
 code0479        1, 3, 14
 call            @Func_3ec2
-dialogtxt       "… Tch."
+dialogtxt       "... Tch."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 13
@@ -1170,13 +1170,13 @@ call            @Func_3e56
 jumpz           @Cond_2eba, ($b002 == 0)
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2f20
 
 @Cond_2eba:
 dialogtxt       "I'm all for it, but really,"
 dialogtxt       "won't we just be getting"
-dialogtxt       "in the way if we do…"
+dialogtxt       "in the way if we do..."
 goto            @Label_2f20
 
 @Label_2f20:
@@ -1243,13 +1243,13 @@ call            @Func_3e38
 jumpz           @Cond_316e, ($b002 == 0)
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_31b4
 
 @Cond_316e:
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_31b4
 
 @Label_31b4:
@@ -1266,13 +1266,13 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3294, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_32da
 
 @Cond_3294:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_32da
@@ -1290,13 +1290,13 @@ call            @Func_3e38
 jumpz           @Cond_3354, ($b002 == 0)
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_339a
 
 @Cond_3354:
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_339a
 
 @Label_339a:
@@ -1313,13 +1313,13 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3476, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_34bc
 
 @Cond_3476:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_34bc
@@ -1337,13 +1337,13 @@ call            @Func_3e38
 jumpz           @Cond_3536, ($b002 == 0)
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_357c
 
 @Cond_3536:
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_357c
 
 @Label_357c:
@@ -1352,7 +1352,7 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 13
 call            @Func_3ec2
-dialogtxt       "Hmph… Losing your nerve?"
+dialogtxt       "Hmph... Losing your nerve?"
 dialogtxt       "It's your job to"
 dialogtxt       "protect Murno, you know."
 code0309        
@@ -1360,13 +1360,13 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3666, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_36ac
 
 @Cond_3666:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_36ac
@@ -1384,13 +1384,13 @@ call            @Func_3e38
 jumpz           @Cond_3726, ($b002 == 0)
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_376c
 
 @Cond_3726:
 dialogtxt       "Anise and her goons"
 dialogtxt       "are really terrible"
-dialogtxt       "aren't they…"
+dialogtxt       "aren't they..."
 goto            @Label_376c
 
 @Label_376c:
@@ -1407,13 +1407,13 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3858, ($b002 == 0)
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_389e
 
 @Cond_3858:
-dialogtxt       "Right…"
+dialogtxt       "Right..."
 dialogtxt       "For now we still need to find"
 dialogtxt       "the Crystal Pillar in the ruins."
 goto            @Label_389e

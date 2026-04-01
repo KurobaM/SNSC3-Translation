@@ -37,7 +37,7 @@ goto            @Cond_0162
 
 @Cond_0162:
 jumpz           @Cond_019a, ($b003 == 2)
-dialogtxt       "Hm…"
+dialogtxt       "Hm..."
 dialogtxt       "Ready?"
 goto            @Cond_019a
 
@@ -107,11 +107,11 @@ call            @Func_0cda
 code0479        0, 0, 16
 call            @Func_0c38
 jumpz           @Cond_0410, ($b002 == 0)
-dialogtxt       "Well, you're right about that…"
+dialogtxt       "Well, you're right about that..."
 goto            @Label_0448
 
 @Cond_0410:
-dialogtxt       "Well, you're right about that…"
+dialogtxt       "Well, you're right about that..."
 goto            @Label_0448
 
 @Label_0448:
@@ -122,7 +122,7 @@ goto            @Cond_0476
 
 @Cond_0476:
 jumpz           @Cond_052c, ($b003 == 1)
-dialogtxt       "But your equipment…?"
+dialogtxt       "But your equipment...?"
 dialogtxt       "Weren't you supposed to choose"
 dialogtxt       "only your single greatest weapon?"
 code0309        
@@ -136,7 +136,7 @@ goto            @Cond_052c
 
 @Cond_052c:
 jumpz           @Cond_05ce, ($b003 == 2)
-dialogtxt       "Fu…"
+dialogtxt       "Fu..."
 dialogtxt       "You said you'd choose your"
 dialogtxt       "single greatest weapon."
 code0309        

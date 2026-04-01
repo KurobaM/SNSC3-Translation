@@ -519,7 +519,7 @@ dialogtxt       "saying that your partner has a huge"
 dialogtxt       "effect on the quality of a weapon."
 code0309        
 dialogtxt       "He doesn't actually talk though,"
-dialogtxt       "so I'm not completely sure…"
+dialogtxt       "so I'm not completely sure..."
 code0309        
 code0302        7
 code040b        

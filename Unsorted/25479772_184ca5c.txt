@@ -27,7 +27,7 @@ goto            @Label_00f0
 code047d        1, 2
 call            @Func_0b9e
 call            @Func_0a9a
-dialogtxt       "Whew…"
+dialogtxt       "Whew..."
 dialogtxt       "That surprised me."
 code0309        
 call            @Func_0aee
@@ -61,22 +61,22 @@ goto            @Cond_022c
 @Cond_022c:
 jumpz           @Cond_0284, ($b003 == 1)
 dialogtxt       "We may have been discovered"
-dialogtxt       "from that last battle…"
+dialogtxt       "from that last battle..."
 dialogtxt       "What to do?"
 goto            @Cond_0284
 
 @Cond_0284:
 jumpz           @Cond_02d4, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "That last battle might have"
-dialogtxt       "alerted those scumbags…"
+dialogtxt       "alerted those scumbags..."
 goto            @Cond_02d4
 
 @Cond_02d4:
 jumpz           @Cond_033a, ($b003 == 3)
 dialogtxt       "We might have been found out"
 dialogtxt       "from that last battle."
-dialogtxt       "What should we do…"
+dialogtxt       "What should we do..."
 goto            @Cond_033a
 
 @Cond_033a:
@@ -115,13 +115,13 @@ goto            @Cond_044e
 
 @Cond_044e:
 jumpz           @Cond_048c, ($b003 == 1)
-dialogtxt       "I see…"
+dialogtxt       "I see..."
 dialogtxt       "As you command!"
 goto            @Cond_048c
 
 @Cond_048c:
 jumpz           @Cond_04bc, ($b003 == 2)
-dialogtxt       "Hmph…"
+dialogtxt       "Hmph..."
 dialogtxt       "Now you're talking."
 goto            @Cond_04bc
 

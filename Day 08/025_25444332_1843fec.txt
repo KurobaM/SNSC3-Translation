@@ -100,13 +100,13 @@ code047d        0, 0
 call            @Func_13ca
 call            @Func_12f2
 jumpz           @Cond_04dc, ($b002 == 0)
-dialogtxt       "… They get along well."
-dialogtxt       "It's a bit frustrating…"
+dialogtxt       "... They get along well."
+dialogtxt       "It's a bit frustrating..."
 goto            @Label_0512
 
 @Cond_04dc:
-dialogtxt       "… They get along well."
-dialogtxt       "It's a bit frustrating…"
+dialogtxt       "... They get along well."
+dialogtxt       "It's a bit frustrating..."
 goto            @Label_0512
 
 @Label_0512:
@@ -136,7 +136,7 @@ goto            @Label_05c2
 code047d        1, 2
 call            @Func_13e0
 code0479        0, 2, 14
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1346
@@ -162,29 +162,29 @@ goto            @Label_0694
 @Label_0694:
 call            @Func_137c
 jumpz           @Cond_0756, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_13b2
 code0479        0, 2, 12
 call            @Func_1310
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1346
 code0479        1, 0, 12
 call            @Func_137c
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_13b2
 code0479        0, 4, 16
 call            @Func_1310
 jumpz           @Cond_073a, ($b002 == 0)
-dialogtxt       "…"
-dialogtxt       "I can't do it…"
+dialogtxt       "..."
+dialogtxt       "I can't do it..."
 goto            @Label_0752
 
 @Cond_073a:
-dialogtxt       "…"
-dialogtxt       "I can't do it…"
+dialogtxt       "..."
+dialogtxt       "I can't do it..."
 goto            @Label_0752
 
 @Label_0752:
@@ -214,12 +214,12 @@ code030c
 code0479        1, 2, 14
 code0479        0, 4, 16
 jumpz           @Cond_0898, ($b002 == 0)
-dialogtxt       "No good…"
+dialogtxt       "No good..."
 goto            @Label_08aa
 
 @Cond_0898:
-dialogtxt       "…"
-dialogtxt       "I can't do it…"
+dialogtxt       "..."
+dialogtxt       "I can't do it..."
 goto            @Label_08aa
 
 @Label_08aa:
@@ -248,12 +248,12 @@ dialogbig       60, 116, 1, 0, 0, "Ha!?"
 code030c        
 code0479        0, 4, 16
 jumpz           @Cond_09ae, ($b002 == 0)
-dialogtxt       "No good…"
+dialogtxt       "No good..."
 goto            @Label_09c0
 
 @Cond_09ae:
-dialogtxt       "…"
-dialogtxt       "I can't do it…"
+dialogtxt       "..."
+dialogtxt       "I can't do it..."
 goto            @Label_09c0
 
 @Label_09c0:
@@ -272,22 +272,22 @@ call            @Func_1346
 code0479        1, 4, 17
 call            @Func_137c
 dialogtxt       "Wh—What is it?"
-dialogtxt       "Staring so intensely…"
-dialogtxt       "You're scaring me…"
+dialogtxt       "Staring so intensely..."
+dialogtxt       "You're scaring me..."
 code0309        
 call            @Func_13b2
 code0479        0, 5, 14
 call            @Func_1310
-dialogbig       60, 116, 1, 0, 0, "Sca…!?"
+dialogbig       60, 116, 1, 0, 0, "Sca...!?"
 code030c        
 code0479        0, 4, 16
 jumpz           @Cond_0ae4, ($b002 == 0)
-dialogtxt       "No good…"
+dialogtxt       "No good..."
 goto            @Label_0af6
 
 @Cond_0ae4:
-dialogtxt       "…"
-dialogtxt       "I can't do it…"
+dialogtxt       "..."
+dialogtxt       "I can't do it..."
 goto            @Label_0af6
 
 @Label_0af6:
@@ -325,7 +325,7 @@ code047d        1, 0
 call            @Func_13e0
 call            @Func_137c
 dialogtxt       "Wha—!?"
-dialogtxt       "Aha, ahahah…"
+dialogtxt       "Aha, ahahah..."
 code0309        
 code0479        1, 2, 14
 jumpz           @Cond_0c70, ($b002 == 0)

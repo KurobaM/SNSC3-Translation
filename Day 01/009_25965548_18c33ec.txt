@@ -16,11 +16,11 @@ dialogtxt       "weapon, but I'm just too busy."
 code0309        
 dialogtxt       "Wait! You can craft weapons already?"
 dialogtxt       "I thought you were just V.E's helper."
-dialogtxt       "Hmm, I see, then…"
+dialogtxt       "Hmm, I see, then..."
 code0309        
 code037c        $h232
 dialogtxt       "I want this spear, the [NAME 4],"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code0309        
 code037c        $h233
 dialogtxt       "It seems you need [NAME 4]"
@@ -55,7 +55,7 @@ jumpz           @Cond_03be, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "I really want that [NAME 4]…"
+dialogtxt       "I really want that [NAME 4]..."
 code0309        
 code037c        $h233
 dialogtxt       "It seems you need [NAME 4]"
@@ -142,8 +142,8 @@ jumpz           @Cond_0770, ($bv016 == 0)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Drills these days"
-dialogtxt       "are too complicated…"
-dialogtxt       "They should be easier to use…"
+dialogtxt       "are too complicated..."
+dialogtxt       "They should be easier to use..."
 code0309        
 code037c        $h232
 dialogtxt       "I know, why don't you make me one?"
@@ -242,8 +242,8 @@ call            @Func_2dee
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "*spin, spin, spin*"
-dialogtxt       "Hmmm…"
-dialogtxt       "Still too complicated…"
+dialogtxt       "Hmmm..."
+dialogtxt       "Still too complicated..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -254,8 +254,8 @@ jumpz           @Label_0a8c, ($bv016 == 15)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "*spin, spin, spin*"
-dialogtxt       "Hmmm…"
-dialogtxt       "Still too complicated…"
+dialogtxt       "Hmmm..."
+dialogtxt       "Still too complicated..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -376,8 +376,8 @@ call            @Func_2dee
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "I can't wait to try this out."
-dialogtxt       "But I guess I need a target first…"
-dialogtxt       "Hmm…"
+dialogtxt       "But I guess I need a target first..."
+dialogtxt       "Hmm..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -388,8 +388,8 @@ jumpz           @Label_0fce, ($bv016 == 15)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "I can't wait to try this out."
-dialogtxt       "But I guess I need a target first…"
-dialogtxt       "Hmm…"
+dialogtxt       "But I guess I need a target first..."
+dialogtxt       "Hmm..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -491,7 +491,7 @@ jumpz           @Cond_141e, ($bv016 == 7)
 setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 dialogtxt       "Well, this will do."
 code0309        
 code047e        0, 0
@@ -528,7 +528,7 @@ dialogtxt       "I want to order a weapon."
 code0309        
 code037c        $h232
 dialogtxt       "A sword called the [NAME 4],"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code0309        
 code037c        $h233
 dialogtxt       "It seems you'll need [NAME 4]."
@@ -554,7 +554,7 @@ jumpz           @Cond_16d0, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the [NAME 4]…"
+dialogtxt       "About the [NAME 4]..."
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
@@ -601,7 +601,7 @@ setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "I'll give you this as payment."
-dialogtxt       "You're still an apprenctice, so…"
+dialogtxt       "You're still an apprenctice, so..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -669,7 +669,7 @@ jumpz           @Cond_1b38, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the [NAME 4]…"
+dialogtxt       "About the [NAME 4]..."
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
@@ -757,7 +757,7 @@ dialogtxt       "I want to order a weapon."
 code0309        
 code037c        $h232
 dialogtxt       "I'd like the [NAME 4],"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code0309        
 code037c        $h233
 dialogtxt       "It seems you'll need [NAME 4]."
@@ -783,7 +783,7 @@ jumpz           @Cond_1fac, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the [NAME 4]…"
+dialogtxt       "About the [NAME 4]..."
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
@@ -865,7 +865,7 @@ dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
 dialogtxt       "I'd like the [NAME 4],"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code0309        
 code037c        $h233
 dialogtxt       "You need [NAME 4]."
@@ -891,7 +891,7 @@ jumpz           @Cond_2394, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the [NAME 4]…"
+dialogtxt       "About the [NAME 4]..."
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233
@@ -938,10 +938,10 @@ setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Would you accept this?"
-dialogtxt       "I'm tight on cash right now…"
+dialogtxt       "I'm tight on cash right now..."
 code0309        
 dialogtxt       "Maybe hitting him wasn't the"
-dialogtxt       "best idea…"
+dialogtxt       "best idea..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -981,7 +981,7 @@ dialogtxt       "I'd like to order a weapon."
 code0309        
 code037c        $h232
 dialogtxt       "I'd like the [NAME 4],"
-dialogtxt       "but…"
+dialogtxt       "but..."
 code0309        
 code037c        $h233
 dialogtxt       "It seems you'll need [NAME 4]."
@@ -1007,7 +1007,7 @@ jumpz           @Cond_27f0, ($bv016 == 1)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "About the [NAME 4] drill…"
+dialogtxt       "About the [NAME 4] drill..."
 dialogtxt       "Can you do it?"
 code0309        
 code037c        $h233

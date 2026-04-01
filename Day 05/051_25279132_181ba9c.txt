@@ -28,7 +28,7 @@ code0479        1, 4, 16
 code047d        1, 107
 call            @Func_1958
 call            @Func_1880
-dialogtxt       "… Murno?"
+dialogtxt       "... Murno?"
 code047b        
 code0309        
 call            @Func_19ae
@@ -44,47 +44,47 @@ code043e        2, 3, 0
 code0479        1, 4, 13
 call            @Func_1984
 call            @Func_18ec
-dialogtxt       "[NAME 2]…！"
-dialogtxt       "You're safe…"
-dialogtxt       "I'm so glad…"
+dialogtxt       "[NAME 2]...！"
+dialogtxt       "You're safe..."
+dialogtxt       "I'm so glad..."
 code047b        
 code0309        
 call            @Func_1940
 code0479        0, 2, 16
 call            @Func_189e
-dialogtxt       "I'm glad you're safe too, Murno…"
+dialogtxt       "I'm glad you're safe too, Murno..."
 dialogtxt       "Are you hurt?"
 code0309        
 call            @Func_18d4
 code0479        1, 1, 12
 call            @Func_190a
 dialogtxt       "I'm okay."
-dialogtxt       "[NAME 1] saved us…"
+dialogtxt       "[NAME 1] saved us..."
 code0309        
 call            @Func_1940
 code0479        0, 5, 12
 call            @Func_189e
 jumpz           @Cond_0366, ($b002 == 0)
-dialogtxt       "[NAME 1] did…"
+dialogtxt       "[NAME 1] did..."
 goto            @Label_0376
 
 @Cond_0366:
-dialogtxt       "[NAME 1] did…"
+dialogtxt       "[NAME 1] did..."
 goto            @Label_0376
 
 @Label_0376:
 code0309        
 code0479        1, 0, 12
 code0479        0, 2, 15
-dialogtxt       "Oh, right…"
+dialogtxt       "Oh, right..."
 dialogtxt       "Where is [NAME 1]?"
 code0309        
 call            @Func_18d4
 code0479        1, 4, 16
 call            @Func_190a
-dialogtxt       "I don't know…"
-dialogtxt       "Someone took them away…"
-dialogtxt       "The Demon Stone too…"
+dialogtxt       "I don't know..."
+dialogtxt       "Someone took them away..."
+dialogtxt       "The Demon Stone too..."
 code0309        
 call            @Func_1940
 code0479        0, 5, 15
@@ -104,23 +104,23 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
-dialogtxt       "Yes…"
-dialogtxt       "But… It didn't seem to be"
-dialogtxt       "their main interest…"
+dialogtxt       "Yes..."
+dialogtxt       "But... It didn't seem to be"
+dialogtxt       "their main interest..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_05a6, ($b002 == 0)
-dialogtxt       "I see… Ugh…"
+dialogtxt       "I see... Ugh..."
 dialogtxt       "Why are we being"
-dialogtxt       "treated like this…?"
+dialogtxt       "treated like this...?"
 goto            @Label_0602
 
 @Cond_05a6:
-dialogtxt       "I see… Ugh…"
+dialogtxt       "I see... Ugh..."
 dialogtxt       "Why are we being"
-dialogtxt       "treated like this…?"
+dialogtxt       "treated like this...?"
 goto            @Label_0602
 
 @Label_0602:
@@ -128,9 +128,9 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 16
 call            @Func_190a
-dialogtxt       "That's… I don't know either…"
-dialogtxt       "But…"
-dialogtxt       "I'm sorry…"
+dialogtxt       "That's... I don't know either..."
+dialogtxt       "But..."
+dialogtxt       "I'm sorry..."
 code0309        
 call            @Func_1940
 code0479        0, 0, 16
@@ -140,9 +140,9 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 17
 call            @Func_190a
-dialogtxt       "I'm sorry…"
-dialogtxt       "Because of me…"
-dialogtxt       "I dragged you into this…"
+dialogtxt       "I'm sorry..."
+dialogtxt       "Because of me..."
+dialogtxt       "I dragged you into this..."
 code0309        
 call            @Func_1940
 code0479        0, 5, 15
@@ -165,23 +165,23 @@ call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
 dialogtxt       "But the reason they acted"
-dialogtxt       "like that is because…"
-dialogtxt       "I had the Demon Stone…"
+dialogtxt       "like that is because..."
+dialogtxt       "I had the Demon Stone..."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "After all, Govan's Demon Stone"
-dialogtxt       "is cursed to bring misfortune…"
+dialogtxt       "is cursed to bring misfortune..."
 code0309        
 call            @Func_1940
 call            @Func_189e
-dialogtxt       "Cursed…"
+dialogtxt       "Cursed..."
 code0309        
 call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
 dialogtxt       "A long time ago, the power of the"
-dialogtxt       "Stone was used to destroy a city…"
-dialogtxt       "Or so it is said…"
+dialogtxt       "Stone was used to destroy a city..."
+dialogtxt       "Or so it is said..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 15
@@ -205,44 +205,44 @@ code0479        1, 2, 16
 call            @Func_190a
 dialogtxt       "Because it is dangerous,"
 dialogtxt       "my family has guarded it"
-dialogtxt       "for a long time…"
+dialogtxt       "for a long time..."
 code0309        
 code0479        1, 3, 14
-dialogtxt       "And now…"
-dialogtxt       "The duty falls to me…"
-dialogtxt       "…"
+dialogtxt       "And now..."
+dialogtxt       "The duty falls to me..."
+dialogtxt       "..."
 code0309        
 call            @Func_1940
 code0479        1, 3, 12
 code0479        0, 4, 16
 call            @Func_189e
-dialogtxt       "…"
-dialogtxt       "Are you…"
-dialogtxt       "Crying…?"
+dialogtxt       "..."
+dialogtxt       "Are you..."
+dialogtxt       "Crying...?"
 code0309        
 call            @Func_18d4
 code0479        1, 3, 16
 call            @Func_190a
 dialogtxt       "It's always been a secret,"
-dialogtxt       "but one day those people showed up…"
-dialogtxt       "They demanded the Stone, and they…"
+dialogtxt       "but one day those people showed up..."
+dialogtxt       "They demanded the Stone, and they..."
 code0309        
 code0479        1, 3, 12
-dialogtxt       "They… Ruined the village…"
-dialogtxt       "Attacked its people…"
-dialogtxt       "It was horrible…"
+dialogtxt       "They... Ruined the village..."
+dialogtxt       "Attacked its people..."
+dialogtxt       "It was horrible..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_0c12, ($b002 == 0)
-dialogtxt       "That's…"
-dialogtxt       "Anise and her cronies did that…?"
+dialogtxt       "That's..."
+dialogtxt       "Anise and her cronies did that...?"
 goto            @Label_0c3e
 
 @Cond_0c12:
-dialogtxt       "That's…"
-dialogtxt       "Anise and her cronies did that…?"
+dialogtxt       "That's..."
+dialogtxt       "Anise and her cronies did that...?"
 goto            @Label_0c3e
 
 @Label_0c3e:
@@ -252,21 +252,21 @@ code0479        1, 4, 14
 call            @Func_190a
 dialogtxt       "My father said he would deal with"
 dialogtxt       "the village, and I guard the Stone."
-dialogtxt       "So, I…"
+dialogtxt       "So, I..."
 code0309        
 call            @Func_1940
 code0479        0, 4, 16
 call            @Func_189e
 jumpz           @Cond_0d24, ($b002 == 0)
-dialogtxt       "And then you ran…"
+dialogtxt       "And then you ran..."
 dialogtxt       "So, how are the village"
-dialogtxt       "and your father doing now…"
+dialogtxt       "and your father doing now..."
 goto            @Label_0d74
 
 @Cond_0d24:
-dialogtxt       "And then you ran…"
+dialogtxt       "And then you ran..."
 dialogtxt       "So, how are the village"
-dialogtxt       "and your father doing now…"
+dialogtxt       "and your father doing now..."
 goto            @Label_0d74
 
 @Label_0d74:
@@ -274,34 +274,34 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 12
 call            @Func_190a
-dialogtxt       "I don't know…"
-dialogtxt       "But I'm sure they're already…"
+dialogtxt       "I don't know..."
+dialogtxt       "But I'm sure they're already..."
 code0309        
 call            @Func_1940
 code0479        0, 4, 17
 call            @Func_189e
-dialogtxt       "Murno…"
-dialogtxt       "That's not…"
+dialogtxt       "Murno..."
+dialogtxt       "That's not..."
 code0309        
 call            @Func_18d4
 code0479        1, 3, 16
 call            @Func_190a
 dialogtxt       "I'm sorry, [NAME 2]."
 dialogtxt       "I was trying not to"
-dialogtxt       "get you involved, but…"
+dialogtxt       "get you involved, but..."
 code0309        
-dialogtxt       "I'll do something about it…"
-dialogtxt       "I will work this out, so…"
+dialogtxt       "I'll do something about it..."
+dialogtxt       "I will work this out, so..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_0ed6, ($b002 == 0)
-dialogtxt       "I'll help you…"
+dialogtxt       "I'll help you..."
 goto            @Label_0ef2
 
 @Cond_0ed6:
-dialogtxt       "I'll help you…"
+dialogtxt       "I'll help you..."
 goto            @Label_0ef2
 
 @Label_0ef2:
@@ -309,7 +309,7 @@ code0309
 call            @Func_18d4
 code0479        1, 5, 14
 call            @Func_190a
-dialogtxt       "… [NAME 2]?"
+dialogtxt       "... [NAME 2]?"
 code0309        
 call            @Func_1940
 code0479        0, 2, 16
@@ -317,7 +317,7 @@ call            @Func_189e
 jumpz           @Cond_106a, ($b002 == 0)
 dialogtxt       "You've worked so hard to"
 dialogtxt       "protect us from all this,"
-dialogtxt       "even though it's been tough…"
+dialogtxt       "even though it's been tough..."
 code0309        
 code0479        0, 0, 13
 dialogtxt       "So, I'll give it my all."
@@ -326,14 +326,14 @@ dialogtxt       "to suffer any more."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "So you don't have"
-dialogtxt       "to cry anymore…"
+dialogtxt       "to cry anymore..."
 code0309        
 goto            @Label_118e
 
 @Cond_106a:
 dialogtxt       "You've worked so hard to"
 dialogtxt       "protect us from all this,"
-dialogtxt       "even though it's been tough…"
+dialogtxt       "even though it's been tough..."
 code0309        
 code0479        0, 0, 13
 dialogtxt       "So, I'll give it my all."
@@ -342,7 +342,7 @@ dialogtxt       "to suffer any more."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "So you don't have"
-dialogtxt       "to cry anymore…"
+dialogtxt       "to cry anymore..."
 code0309        
 goto            @Label_118e
 
@@ -350,7 +350,7 @@ goto            @Label_118e
 call            @Func_18d4
 code0479        1, 4, 12
 call            @Func_190a
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
@@ -358,13 +358,13 @@ call            @Func_189e
 jumpz           @Cond_1232, ($b002 == 0)
 dialogtxt       "Alright, first we have to"
 dialogtxt       "find a way out of here,"
-dialogtxt       "and get the Stone back…"
+dialogtxt       "and get the Stone back..."
 goto            @Label_1280
 
 @Cond_1232:
 dialogtxt       "Alright, first we have to"
 dialogtxt       "find a way out of here,"
-dialogtxt       "and get the Stone back…"
+dialogtxt       "and get the Stone back..."
 goto            @Label_1280
 
 @Label_1280:
@@ -375,9 +375,9 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 13
 call            @Func_190a
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "Thank you,"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_19da
 call            @Func_1928

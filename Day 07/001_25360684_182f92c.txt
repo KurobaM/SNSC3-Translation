@@ -89,7 +89,7 @@ call            @Func_16ec
 code0479        0, 1, 16
 call            @Func_164a
 jumpz           @Cond_0406, ($b002 == 0)
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -99,7 +99,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_0488
 
 @Cond_0406:
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -119,13 +119,13 @@ code0309
 call            @Func_16ec
 code0479        0, 5, 13
 call            @Func_164a
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 jumpz           @Cond_051c, ($b002 == 0)
-dialogtxt       "You…"
+dialogtxt       "You..."
 goto            @Label_052c
 
 @Cond_051c:
-dialogtxt       "You…"
+dialogtxt       "You..."
 goto            @Label_052c
 
 @Label_052c:
@@ -170,7 +170,7 @@ call            @Func_16ec
 code0479        0, 1, 16
 call            @Func_164a
 jumpz           @Cond_07bc, ($b002 == 0)
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -181,7 +181,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_083e
 
 @Cond_07bc:
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 dialogtxt       "Right."
 dialogtxt       "I'll do my best."
 code0309        
@@ -202,7 +202,7 @@ code0309
 call            @Func_16ec
 code0479        0, 5, 13
 call            @Func_164a
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_1680
 code0479        1, 2, 14
@@ -219,12 +219,12 @@ call            @Func_16ec
 code0479        0, 0, 16
 call            @Func_164a
 jumpz           @Cond_09e0, ($b002 == 0)
-dialogtxt       "What's this…?"
+dialogtxt       "What's this...?"
 dialogtxt       "Are you worried about me?"
 goto            @Label_0a14
 
 @Cond_09e0:
-dialogtxt       "What's this…?"
+dialogtxt       "What's this...?"
 dialogtxt       "Are you worried about me?"
 goto            @Label_0a14
 
@@ -235,13 +235,13 @@ code0479        1, 11, 14
 call            @Func_16b6
 dialogtxt       "N—Never!"
 dialogtxt       "Just if you lose, we won't be able"
-dialogtxt       "to see the Crystal Pillar…"
+dialogtxt       "to see the Crystal Pillar..."
 code0309        
 call            @Func_16ec
 code0479        0, 0, 12
 call            @Func_164a
 jumpz           @Cond_0b4e, ($b002 == 0)
-dialogtxt       "Oh… Yeah…"
+dialogtxt       "Oh... Yeah..."
 dialogtxt       "Right!"
 dialogtxt       "I'll do my best!"
 code0309        
@@ -252,7 +252,7 @@ dialogtxt       "What will you do, [NAME 1]?"
 goto            @Label_0bd8
 
 @Cond_0b4e:
-dialogtxt       "Oh… Yeah…"
+dialogtxt       "Oh... Yeah..."
 dialogtxt       "Right!"
 dialogtxt       "I'll do my best!"
 code0309        
@@ -267,14 +267,14 @@ code0309
 call            @Func_1680
 code0479        1, 4, 12
 call            @Func_16b6
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "It's a pain, but we'll have to go"
 dialogtxt       "together."
 code0309        
 call            @Func_16ec
 code0479        0, 0, 12
 call            @Func_164a
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 code0309        
 call            @Func_1680
 code0479        1, 2, 13
@@ -342,13 +342,13 @@ code0309
 call            @Func_16ec
 code0479        0, 5, 13
 call            @Func_164a
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 1]..."
 jumpz           @Cond_0f8e, ($b002 == 0)
-dialogtxt       "You…"
+dialogtxt       "You..."
 goto            @Label_0f9e
 
 @Cond_0f8e:
-dialogtxt       "You…"
+dialogtxt       "You..."
 goto            @Label_0f9e
 
 @Label_0f9e:
@@ -367,11 +367,11 @@ call            @Func_16ec
 code0479        0, 4, 12
 call            @Func_164a
 jumpz           @Cond_1062, ($b002 == 0)
-dialogtxt       "Oh, that's what you meant…"
+dialogtxt       "Oh, that's what you meant..."
 goto            @Label_108a
 
 @Cond_1062:
-dialogtxt       "Oh, that's what you meant…"
+dialogtxt       "Oh, that's what you meant..."
 goto            @Label_108a
 
 @Label_108a:

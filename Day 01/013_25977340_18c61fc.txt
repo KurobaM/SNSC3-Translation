@@ -13,8 +13,8 @@ jumpz           @Cond_00c8, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "[NAME 4]…"
-dialogtxt       "I want one…"
+dialogtxt       "[NAME 4]..."
+dialogtxt       "I want one..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -68,7 +68,7 @@ jumpz           @Cond_02b6, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "[NAME 4]… [NAME 4]…"
+dialogtxt       "[NAME 4]... [NAME 4]..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -89,7 +89,7 @@ call            @Func_1732
 jumpz           @Cond_0390, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
@@ -105,7 +105,7 @@ goto            @Label_03ec
 @Cond_0398:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
@@ -200,7 +200,7 @@ jumpz           @Cond_077a, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "This is what I wanted,"
-dialogtxt       "so it's not a loss…"
+dialogtxt       "so it's not a loss..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -216,7 +216,7 @@ goto            @Label_07e6
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "This is what I wanted,"
-dialogtxt       "so it's not a loss…"
+dialogtxt       "so it's not a loss..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -290,7 +290,7 @@ jumpz           @Cond_0a7a, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "[NAME 4]… [NAME 4]…"
+dialogtxt       "[NAME 4]... [NAME 4]..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -311,7 +311,7 @@ call            @Func_1732
 jumpz           @Cond_0b54, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
@@ -327,7 +327,7 @@ goto            @Label_0bb0
 @Cond_0b5c:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
@@ -345,7 +345,7 @@ jumpz           @Cond_0c42, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "[NAME 4]… [NAME 4]…"
+dialogtxt       "[NAME 4]... [NAME 4]..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -366,7 +366,7 @@ call            @Func_1732
 jumpz           @Cond_0d1c, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
@@ -382,7 +382,7 @@ goto            @Label_0d78
 @Cond_0d24:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh…"
+dialogtxt       "Heheh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0

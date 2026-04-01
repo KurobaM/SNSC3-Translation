@@ -35,7 +35,7 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_171c
 call            @Func_1644
-dialogtxt       "Master… Murno…"
+dialogtxt       "Master... Murno..."
 dialogtxt       "I'm so glad you were able"
 dialogtxt       "to follow the road properly."
 code047b        
@@ -67,14 +67,14 @@ code0309
 call            @Func_1698
 code0479        1, 4, 12
 call            @Func_16ce
-dialogtxt       "Come on…"
+dialogtxt       "Come on..."
 dialogtxt       "I appreciate your concern, but I've"
 dialogtxt       "been to Prosban many times already."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Even I won't get"
 dialogtxt       "lost that easily!"
-dialogtxt       "From here, the town's…"
+dialogtxt       "From here, the town's..."
 code0309        
 call            @Func_179e
 call            @Func_16ec
@@ -125,13 +125,13 @@ goto            @Cond_0662
 @Cond_0662:
 jumpz           @Cond_0696, ($b003 == 1)
 dialogtxt       "What!?"
-dialogtxt       "That sound…"
+dialogtxt       "That sound..."
 goto            @Cond_0696
 
 @Cond_0696:
 jumpz           @Cond_06ce, ($b003 == 2)
 dialogtxt       "What?"
-dialogtxt       "This ear-splitting noise…"
+dialogtxt       "This ear-splitting noise..."
 goto            @Cond_06ce
 
 @Cond_06ce:
@@ -179,7 +179,7 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_1732
 call            @Func_16ce
-dialogtxt       "We were so close too…"
+dialogtxt       "We were so close too..."
 dialogtxt       "Everyone, be careful."
 code047b        
 code0309        
@@ -235,7 +235,7 @@ code0479        0, 4, 12
 code047d        0, 108
 call            @Func_171c
 call            @Func_1662
-dialogtxt       "What, wait…"
+dialogtxt       "What, wait..."
 code0309        
 call            @Func_179e
 call            @Func_1680
@@ -289,14 +289,14 @@ goto            @Label_0caa
 code047d        1, 2
 call            @Func_171c
 call            @Func_1644
-dialogtxt       "Urgh…"
+dialogtxt       "Urgh..."
 code047b        
 code0309        
 call            @Func_1698
 call            @Func_1732
 call            @Func_16ce
 jumpz           @Cond_0d84, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1704
@@ -304,11 +304,11 @@ code043c        0, 3
 code0479        0, 1, 14
 call            @Func_1662
 jumpz           @Cond_0d62, ($b002 == 0)
-dialogtxt       "Don't look at me like that…"
+dialogtxt       "Don't look at me like that..."
 goto            @Label_0d80
 
 @Cond_0d62:
-dialogtxt       "Hey… Say something…"
+dialogtxt       "Hey... Say something..."
 goto            @Label_0d80
 
 @Label_0d80:
@@ -316,8 +316,8 @@ goto            @Cond_0d84
 
 @Cond_0d84:
 jumpz           @Cond_0e48, ($b003 == 1)
-dialogtxt       "Goodness…"
-dialogtxt       "What are you doing…"
+dialogtxt       "Goodness..."
+dialogtxt       "What are you doing..."
 code047b        
 code0309        
 call            @Func_1704
@@ -339,7 +339,7 @@ goto            @Cond_0e48
 
 @Cond_0e48:
 jumpz           @Cond_0f64, ($b003 == 2)
-dialogtxt       "Sigh…"
+dialogtxt       "Sigh..."
 code047b        
 code0309        
 call            @Func_1704
@@ -364,7 +364,7 @@ code0309
 call            @Func_1704
 code0479        0, 1, 15
 call            @Func_1662
-dialogtxt       "Urgh…"
+dialogtxt       "Urgh..."
 jumpz           @Cond_0f44, ($b002 == 0)
 dialogtxt       "Whatever! We're going!"
 goto            @Label_0f60
@@ -378,7 +378,7 @@ goto            @Cond_0f64
 
 @Cond_0f64:
 jumpz           @Cond_1026, ($b003 == 3)
-dialogtxt       "You're the worst…"
+dialogtxt       "You're the worst..."
 code047b        
 code0309        
 call            @Func_1704
@@ -386,12 +386,12 @@ code043c        0, 3
 code0479        0, 1, 15
 call            @Func_1662
 jumpz           @Cond_0ff2, ($b002 == 0)
-dialogtxt       "What the…"
+dialogtxt       "What the..."
 dialogtxt       "Whatever, let's go!"
 goto            @Label_1022
 
 @Cond_0ff2:
-dialogtxt       "What the…"
+dialogtxt       "What the..."
 dialogtxt       "Argh! Whatever, let's go!"
 goto            @Label_1022
 

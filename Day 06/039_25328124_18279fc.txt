@@ -33,7 +33,7 @@ goto            @Label_013e
 code047d        1, 2
 call            @Func_0e2e
 call            @Func_0d56
-dialogtxt       "That's…!"
+dialogtxt       "That's...!"
 code047b        
 code0309        
 call            @Func_0daa
@@ -98,8 +98,8 @@ code0309
 call            @Func_0daa
 code0479        1, 4, 16
 call            @Func_0de0
-dialogtxt       "I…"
-dialogtxt       "Ran away…"
+dialogtxt       "I..."
+dialogtxt       "Ran away..."
 code0309        
 call            @Func_0e16
 code0479        0, 5, 17
@@ -110,26 +110,26 @@ code0309
 call            @Func_0daa
 code0479        1, 4, 17
 call            @Func_0de0
-dialogtxt       "That's right…"
-dialogtxt       "So, hurry…"
-dialogtxt       "Let's get out of here…"
+dialogtxt       "That's right..."
+dialogtxt       "So, hurry..."
+dialogtxt       "Let's get out of here..."
 code0309        
 call            @Func_0e16
 code0479        0, 2, 16
 call            @Func_0d74
 jumpz           @Cond_04b0, ($b002 == 0)
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 goto            @Label_04c2
 
 @Cond_04b0:
-dialogtxt       "Y—Yeah…"
+dialogtxt       "Y—Yeah..."
 goto            @Label_04c2
 
 @Label_04c2:
 code0309        
 code0479        0, 2, 14
 choicetxt       @Choice_0518, "Okay! Let's go."
-choicetxt       @Choice_05d0, "Let me ask you something…"
+choicetxt       @Choice_05d0, "Let me ask you something..."
 choicewait      
 
 @Choice_0518:
@@ -154,9 +154,9 @@ goto            @Label_07d0
 
 @Choice_05d0:
 code0479        0, 2, 16
-dialogtxt       "Hey…"
-dialogtxt       "You're the real Murno…"
-dialogtxt       "… Right?"
+dialogtxt       "Hey..."
+dialogtxt       "You're the real Murno..."
+dialogtxt       "... Right?"
 code0309        
 call            @Func_0daa
 code0479        1, 2, 14
@@ -176,7 +176,7 @@ code0479        1, 4, 16
 call            @Func_0de0
 dialogtxt       "Believe me, I'm real."
 dialogtxt       "We should get going."
-dialogtxt       "If they find me again…"
+dialogtxt       "If they find me again..."
 code0309        
 code0479        1, 4, 17
 dialogtxt       "They'll feed me to their master!"
@@ -185,7 +185,7 @@ call            @Func_0e16
 code0479        0, 2, 14
 call            @Func_0d74
 dialogtxt       "That's right!"
-dialogtxt       "Those people were…"
+dialogtxt       "Those people were..."
 code0309        
 call            @Func_0e84
 call            @Func_0daa

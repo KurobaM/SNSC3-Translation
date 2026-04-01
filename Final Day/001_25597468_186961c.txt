@@ -82,7 +82,7 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "[NAME 2], Murno…"
+dialogtxt       "[NAME 2], Murno..."
 dialogtxt       "Mr. Wellman hasn't come back."
 goto            @Label_0468
 
@@ -93,26 +93,26 @@ code047d        1, 107
 call            @Func_1ec4
 call            @Func_1e60
 jumpz           @Cond_03b8, ($f0262 == 1)
-dialogtxt       "[NAME 2], [NAME 1]…"
+dialogtxt       "[NAME 2], [NAME 1]..."
 goto            @Label_0440
 
 @Cond_03b8:
 jumpz           @Cond_03e0, ($f0263 == 1)
-dialogtxt       "[NAME 2], V.E…"
+dialogtxt       "[NAME 2], V.E..."
 goto            @Label_0440
 
 @Cond_03e0:
 jumpz           @Cond_03fc, ($f0264 == 1)
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Label_0440
 
 @Cond_03fc:
 jumpz           @Cond_0426, ($f0265 == 1)
-dialogtxt       "[NAME 2], Jade…"
+dialogtxt       "[NAME 2], Jade..."
 goto            @Label_0440
 
 @Cond_0426:
-dialogtxt       "[NAME 2], Tier…"
+dialogtxt       "[NAME 2], Tier..."
 goto            @Label_0440
 
 @Label_0440:
@@ -168,7 +168,7 @@ code047d        0, 2
 call            @Func_1eae
 call            @Func_1df4
 jumpz           @Cond_05dc, ($b003 == 0)
-dialogtxt       "Lord Wellman…"
+dialogtxt       "Lord Wellman..."
 goto            @Cond_05dc
 
 @Cond_05dc:
@@ -252,7 +252,7 @@ code0479        1, 2, 14
 call            @Func_1e60
 dialogtxt       "He hasn't fully healed yet,"
 dialogtxt       "but he was called upon"
-dialogtxt       "by the Gold Faction…"
+dialogtxt       "by the Gold Faction..."
 code047b        
 code0309        
 call            @Func_1f1a
@@ -264,7 +264,7 @@ code047d        1, 132
 code0479        0, 4, 14
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Sorry…"
+dialogtxt       "Sorry..."
 dialogtxt       "I would have stopped him if I could."
 dialogtxt       "Master still can't move."
 code047b        
@@ -278,7 +278,7 @@ code047d        1, 109
 call            @Func_1ec4
 call            @Func_1e60
 dialogtxt       "Well if he's heading to the Council,"
-dialogtxt       "we don't need to be so worried…"
+dialogtxt       "we don't need to be so worried..."
 goto            @Label_0eec
 
 @Cond_09ec:
@@ -290,7 +290,7 @@ call            @Func_1ec4
 call            @Func_1e60
 dialogtxt       "He hasn't fully healed yet,"
 dialogtxt       "but he was called upon"
-dialogtxt       "by the Gold Faction…"
+dialogtxt       "by the Gold Faction..."
 goto            @Label_0b4e
 
 @Cond_0aa4:
@@ -301,7 +301,7 @@ call            @Func_1ec4
 call            @Func_1e60
 dialogtxt       "He hasn't fully healed yet,"
 dialogtxt       "but he was called upon"
-dialogtxt       "by the Gold Faction…"
+dialogtxt       "by the Gold Faction..."
 goto            @Label_0b4e
 
 @Label_0b4e:
@@ -337,28 +337,28 @@ call            @Func_1e60
 jumpz           @Cond_0c8e, ($b003 == 0)
 dialogtxt       "As I Was Out With"
 dialogtxt       "Lady Murno At The Time,"
-dialogtxt       "I Was Unable To Stop Him…"
+dialogtxt       "I Was Unable To Stop Him..."
 goto            @Cond_0c8e
 
 @Cond_0c8e:
 jumpz           @Cond_0cfe, ($b003 == 1)
 dialogtxt       "At the time,"
-dialogtxt       "I was out with Murno…"
-dialogtxt       "I couldn't stop him…"
+dialogtxt       "I was out with Murno..."
+dialogtxt       "I couldn't stop him..."
 goto            @Cond_0cfe
 
 @Cond_0cfe:
 jumpz           @Cond_0d62, ($b003 == 2)
 dialogtxt       "If I hadn't been out with Murno,"
 dialogtxt       "I would have done anything"
-dialogtxt       "to stop him…"
+dialogtxt       "to stop him..."
 goto            @Cond_0d62
 
 @Cond_0d62:
 jumpz           @Cond_0dce, ($b003 == 3)
 dialogtxt       "As I was out with Lady Murno"
 dialogtxt       "at that time,"
-dialogtxt       "I was unable to stop him…"
+dialogtxt       "I was unable to stop him..."
 goto            @Cond_0dce
 
 @Cond_0dce:
@@ -374,7 +374,7 @@ code047d        1, 132
 call            @Func_1ec4
 call            @Func_1e60
 dialogtxt       "Well if he's heading to the Council,"
-dialogtxt       "I don't think we need to worry…"
+dialogtxt       "I don't think we need to worry..."
 goto            @Label_0ee8
 
 @Cond_0e74:
@@ -384,7 +384,7 @@ code047d        1, 109
 call            @Func_1ec4
 call            @Func_1e60
 dialogtxt       "Well if he's heading to the Council,"
-dialogtxt       "we don't need to be so worried…"
+dialogtxt       "we don't need to be so worried..."
 goto            @Label_0ee8
 
 @Label_0ee8:
@@ -437,7 +437,7 @@ code0479        0, 0, 14
 code047d        0, 129
 call            @Func_1eae
 call            @Func_1df4
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_1f30
@@ -459,12 +459,12 @@ code0446        2
 code0479        1, 2, 15
 call            @Func_1ec4
 call            @Func_1e42
-dialogtxt       "Ah…"
+dialogtxt       "Ah..."
 dialogtxt       "Father!"
 code047b        
 code0309        
 code0479        1, 4, 16
-dialogtxt       "Um…"
+dialogtxt       "Um..."
 dialogtxt       "I'm sorry."
 code0309        
 call            @Func_1f1a
@@ -520,18 +520,18 @@ code047d        1, 2
 call            @Func_1ec4
 call            @Func_1e42
 jumpz           @Cond_148a, ($b003 == 0)
-dialogtxt       "Lord Wellman…"
+dialogtxt       "Lord Wellman..."
 goto            @Cond_148a
 
 @Cond_148a:
 jumpz           @Cond_14be, ($b003 == 1)
-dialogtxt       "Mmm…"
+dialogtxt       "Mmm..."
 dialogtxt       "Did something happen?"
 goto            @Cond_14be
 
 @Cond_14be:
 jumpz           @Cond_14f4, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "What's the meaning of this?"
 goto            @Cond_14f4
 
@@ -569,19 +569,19 @@ code047d        1, 2
 call            @Func_1ec4
 call            @Func_1e42
 jumpz           @Cond_1606, ($b003 == 0)
-dialogtxt       "[NAME 2]…"
+dialogtxt       "[NAME 2]..."
 goto            @Cond_1606
 
 @Cond_1606:
 jumpz           @Cond_163a, ($b003 == 1)
-dialogtxt       "Mmm…"
+dialogtxt       "Mmm..."
 dialogtxt       "Did something happen?"
 goto            @Cond_163a
 
 @Cond_163a:
 jumpz           @Cond_166a, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "I have a bad feeling about this…"
+dialogtxt       "Tch..."
+dialogtxt       "I have a bad feeling about this..."
 goto            @Cond_166a
 
 @Cond_166a:
@@ -600,7 +600,7 @@ code047d        1, 108
 call            @Func_1ec4
 call            @Func_1e42
 dialogtxt       "What is it?"
-dialogtxt       "This atmosphere…"
+dialogtxt       "This atmosphere..."
 goto            @Label_17d8
 
 @Cond_1706:
@@ -611,7 +611,7 @@ code047d        1, 132
 call            @Func_1ec4
 call            @Func_1e42
 dialogtxt       "What is it?"
-dialogtxt       "This atmosphere…"
+dialogtxt       "This atmosphere..."
 goto            @Label_17d8
 
 @Cond_176e:
@@ -621,7 +621,7 @@ code047d        1, 109
 call            @Func_1ec4
 call            @Func_1e42
 dialogtxt       "What is that?"
-dialogtxt       "It's making me nervous…"
+dialogtxt       "It's making me nervous..."
 goto            @Label_17d8
 
 @Label_17d8:

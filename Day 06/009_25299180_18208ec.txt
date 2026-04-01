@@ -58,7 +58,7 @@ code047d        1, 2
 call            @Func_1aaa
 call            @Func_1a46
 jumpz           @Cond_024a, ($b003 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Cond_024a
 
 @Cond_024a:
@@ -69,13 +69,13 @@ goto            @Cond_027e
 
 @Cond_027e:
 jumpz           @Cond_02ae, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "You're unreliable."
 goto            @Cond_02ae
 
 @Cond_02ae:
 jumpz           @Cond_02e6, ($b003 == 3)
-dialogtxt       "Geez…"
+dialogtxt       "Geez..."
 dialogtxt       "Please get it together already."
 goto            @Cond_02e6
 
@@ -119,13 +119,13 @@ call            @Func_1ac0
 call            @Func_19bc
 jumpz           @Cond_04ea, ($b002 == 0)
 dialogtxt       "My hammer!"
-dialogtxt       "… And a broken sword?"
+dialogtxt       "... And a broken sword?"
 dialogtxt       "So, I'm supposed to repair it?"
 goto            @Label_0538
 
 @Cond_04ea:
 dialogtxt       "My hammer!"
-dialogtxt       "… And a broken sword?"
+dialogtxt       "... And a broken sword?"
 dialogtxt       "So, I'm supposed to repair it?"
 goto            @Label_0538
 
@@ -250,7 +250,7 @@ goto            @Cond_0998
 
 @Cond_0998:
 jumpz           @Cond_09ca, ($b003 == 2)
-dialogtxt       "…"
+dialogtxt       "..."
 dialogtxt       "You sure you can do that?"
 goto            @Cond_09ca
 
@@ -375,22 +375,22 @@ goto            @Label_0e5e
 @Label_0e5e:
 call            @Func_19da
 jumpz           @Cond_0ea6, ($b003 == 0)
-dialogtxt       "System Check…"
+dialogtxt       "System Check..."
 dialogtxt       "Complete."
-dialogtxt       "Acquiring Target…"
+dialogtxt       "Acquiring Target..."
 goto            @Cond_0ea6
 
 @Cond_0ea6:
 jumpz           @Cond_0ef0, ($b003 == 1)
-dialogtxt       "Phew…"
+dialogtxt       "Phew..."
 dialogtxt       "Now I should be able"
-dialogtxt       "to move as I please…"
+dialogtxt       "to move as I please..."
 goto            @Cond_0ef0
 
 @Cond_0ef0:
 jumpz           @Cond_0f24, ($b003 == 2)
-dialogtxt       "Phew…"
-dialogtxt       "Now I can move freely…"
+dialogtxt       "Phew..."
+dialogtxt       "Now I can move freely..."
 goto            @Cond_0f24
 
 @Cond_0f24:
@@ -432,7 +432,7 @@ goto            @Label_1080
 @Label_1080:
 call            @Func_19da
 jumpz           @Cond_1174, ($b003 == 0)
-dialogtxt       "…!"
+dialogtxt       "...!"
 code0309        
 code0479        0, 3, 12
 dialogtxt       "A—Affirmative."
@@ -465,12 +465,12 @@ goto            @Cond_1174
 
 @Cond_1174:
 jumpz           @Cond_11ee, ($b003 == 1)
-dialogtxt       "U…"
-dialogtxt       "Understood…"
+dialogtxt       "U..."
+dialogtxt       "Understood..."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "(This man…"
-dialogtxt       "Such powerful spirit…)"
+dialogtxt       "(This man..."
+dialogtxt       "Such powerful spirit...)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8
@@ -479,12 +479,12 @@ goto            @Cond_11ee
 
 @Cond_11ee:
 jumpz           @Cond_1268, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "Meddling human."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "(This man…"
-dialogtxt       "Such powerful spirit…)"
+dialogtxt       "(This man..."
+dialogtxt       "Such powerful spirit...)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8
@@ -497,8 +497,8 @@ dialogtxt       "Hii!"
 dialogtxt       "U—Understood!"
 code0309        
 code0479        0, 4, 16
-dialogtxt       "(Uu…"
-dialogtxt       "He's scary…)"
+dialogtxt       "(Uu..."
+dialogtxt       "He's scary...)"
 code0309        
 call            @Func_1b16
 call            @Func_19f8

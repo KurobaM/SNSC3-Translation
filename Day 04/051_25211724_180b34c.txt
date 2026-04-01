@@ -53,7 +53,7 @@ jumpz           @Cond_041c, ($b002 == 0)
 code0479        1, 2, 14
 call            @Func_1a8e
 dialogtxt       "I asked around at Jade's workshop"
-dialogtxt       "and they said you might be here…"
+dialogtxt       "and they said you might be here..."
 dialogtxt       "And that you're with a girl!"
 code0309        
 call            @Func_1b32
@@ -89,7 +89,7 @@ goto            @Label_05b6
 code0479        1, 0, 14
 call            @Func_1a8e
 dialogtxt       "I asked around at Jade's workshop"
-dialogtxt       "and they said you might be here…"
+dialogtxt       "and they said you might be here..."
 dialogtxt       "And that you're with a girl."
 code0309        
 call            @Func_1b32
@@ -144,12 +144,12 @@ code0479        0, 0, 16
 call            @Func_1a22
 jumpz           @Cond_072a, ($b002 == 0)
 dialogtxt       "Sorry I didn't say anything."
-dialogtxt       "But Bro told me to go…"
+dialogtxt       "But Bro told me to go..."
 goto            @Label_0764
 
 @Cond_072a:
 dialogtxt       "Sorry I didn't say anything."
-dialogtxt       "But Bro told me to go…"
+dialogtxt       "But Bro told me to go..."
 goto            @Label_0764
 
 @Label_0764:
@@ -266,7 +266,7 @@ code0309
 call            @Func_1ac4
 code0479        0, 2, 14
 call            @Func_1a22
-dialogtxt       "True, but…"
+dialogtxt       "True, but..."
 code0309        
 call            @Func_1b32
 call            @Func_1a58
@@ -320,11 +320,11 @@ code0309
 call            @Func_1a58
 code0479        1, 0, 14
 call            @Func_1a8e
-dialogtxt       "I see…"
-dialogtxt       "Sigh…"
+dialogtxt       "I see..."
+dialogtxt       "Sigh..."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "Okay, okay…"
+dialogtxt       "Okay, okay..."
 dialogtxt       "Fine then."
 dialogtxt       "I'll take her back."
 code0309        

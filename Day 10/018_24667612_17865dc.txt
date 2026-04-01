@@ -203,7 +203,7 @@ goto            @Label_0844
 @Label_0844:
 dialogtxt       "That girl just wouldn't listen"
 dialogtxt       "listen to anyone once she sets"
-dialogtxt       "her mind to anything…"
+dialogtxt       "her mind to anything..."
 code0309        
 code047e        0, 0
 code0302        7

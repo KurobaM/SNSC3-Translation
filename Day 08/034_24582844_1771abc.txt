@@ -137,7 +137,7 @@ code0301        8, 7
 code047d        0, 136
 code047e        0, 1
 dialogtxt       "Hm? You again?"
-dialogtxt       "What an incorrigible fellow…"
+dialogtxt       "What an incorrigible fellow..."
 dialogtxt       "Well, take your time."
 code0309        
 code047e        0, 0

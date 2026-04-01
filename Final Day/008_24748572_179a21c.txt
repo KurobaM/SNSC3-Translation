@@ -356,7 +356,7 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "You know! Lately…"
+dialogtxt       "You know! Lately..."
 dialogtxt       "Mr. Gallahan smiles all the time!"
 dialogtxt       "Did something really good happen?"
 code0309        

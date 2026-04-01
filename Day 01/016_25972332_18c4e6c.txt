@@ -11,16 +11,16 @@ jumpz           @Cond_0178, ($bv031 == 1)
 jumpz           @Cond_0106, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey…"
-dialogtxt       "[NAME 4]…"
+dialogtxt       "Hey..."
+dialogtxt       "[NAME 4]..."
 dialogtxt       "Got any?"
 code0309        
-dialogtxt       "[NAME 4]…"
-dialogtxt       "They're my favorites, y'know…"
+dialogtxt       "[NAME 4]..."
+dialogtxt       "They're my favorites, y'know..."
 code0309        
 dialogtxt       "I want to own every"
-dialogtxt       "[NAME 4] in the world…"
-dialogtxt       "I just can't help myself…"
+dialogtxt       "[NAME 4] in the world..."
+dialogtxt       "I just can't help myself..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -46,8 +46,8 @@ jumpz           @Cond_031e, ($bv031 == 2)
 jumpz           @Cond_02ac, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey…"
-dialogtxt       "[NAME 4]…"
+dialogtxt       "Hey..."
+dialogtxt       "[NAME 4]..."
 dialogtxt       "Got any?"
 code0309        
 dialogtxt       "They're great for preventing"
@@ -84,13 +84,13 @@ jumpz           @Cond_0444, ($bv031 == 3)
 jumpz           @Cond_03d2, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey…"
-dialogtxt       "[NAME 4]…"
+dialogtxt       "Hey..."
+dialogtxt       "[NAME 4]..."
 dialogtxt       "Got any?"
 code0309        
-dialogtxt       "[NAME 4]…"
-dialogtxt       "They're so mesmerizing…"
-dialogtxt       "They really take your breath away…"
+dialogtxt       "[NAME 4]..."
+dialogtxt       "They're so mesmerizing..."
+dialogtxt       "They really take your breath away..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -103,7 +103,7 @@ dialogtxt       "*pant*"
 dialogtxt       "I'll buy any [NAME 4] you have."
 dialogtxt       "*pant*"
 code0309        
-dialogtxt       "Quickly…"
+dialogtxt       "Quickly..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -118,15 +118,15 @@ jumpz           @Label_05b0, ($bv031 == 4)
 jumpz           @Cond_053e, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey…"
-dialogtxt       "[NAME 4]…"
+dialogtxt       "Hey..."
+dialogtxt       "[NAME 4]..."
 dialogtxt       "Got any?"
 code0309        
 dialogtxt       "I know a guy who'll pay top price"
-dialogtxt       "for this kinda cargo…"
+dialogtxt       "for this kinda cargo..."
 code0309        
 dialogtxt       "He's a bit, uh, shy around strangers,"
-dialogtxt       "so leave the negotiations to me…"
+dialogtxt       "so leave the negotiations to me..."
 code0309        
 code047e        0, 0
 code0302        7

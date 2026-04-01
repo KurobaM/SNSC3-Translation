@@ -337,8 +337,8 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "The West Gate's keeper"
-dialogtxt       "seems to be injured…"
-dialogtxt       "Man, this is such a risky job…"
+dialogtxt       "seems to be injured..."
+dialogtxt       "Man, this is such a risky job..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -364,7 +364,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "Gah, why can't I ever win! I always"
 dialogtxt       "lose every single day! Guess I'll"
-dialogtxt       "just stroll with my Summon Beast…"
+dialogtxt       "just stroll with my Summon Beast..."
 code0309        
 code047e        0, 0
 code0302        7

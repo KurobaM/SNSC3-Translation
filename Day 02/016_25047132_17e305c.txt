@@ -12,7 +12,7 @@ code0479        1, 0, 12
 code047d        1, 0
 call            @Func_0dd6
 call            @Func_0d54
-dialogtxt       "That's right… This path!"
+dialogtxt       "That's right... This path!"
 code047b        
 code0309        
 call            @Func_0e2c
@@ -71,13 +71,13 @@ code047d        0, 0
 call            @Func_0dc0
 call            @Func_0d06
 jumpz           @Cond_02d2, ($b002 == 0)
-dialogtxt       "I remember coming here before…"
+dialogtxt       "I remember coming here before..."
 dialogtxt       "If we go through here,"
 dialogtxt       "we should be able to get outside."
 goto            @Label_0320
 
 @Cond_02d2:
-dialogtxt       "I remember coming here before…"
+dialogtxt       "I remember coming here before..."
 dialogtxt       "If we go through here,"
 dialogtxt       "we should be able to get outside."
 goto            @Label_0320
@@ -112,20 +112,20 @@ goto            @Cond_0400
 
 @Cond_0400:
 jumpz           @Cond_0460, ($b003 == 1)
-dialogtxt       "That's quite a vague memory…"
+dialogtxt       "That's quite a vague memory..."
 goto            @Cond_0460
 
 @Cond_0460:
 jumpz           @Cond_04aa, ($b003 == 2)
-dialogtxt       "Tch…"
+dialogtxt       "Tch..."
 dialogtxt       "You sure we can even"
-dialogtxt       "trust your memory…?"
+dialogtxt       "trust your memory...?"
 goto            @Cond_04aa
 
 @Cond_04aa:
 jumpz           @Cond_050e, ($b003 == 3)
 dialogtxt       "Are you sure?"
-dialogtxt       "You don't sound very confident…"
+dialogtxt       "You don't sound very confident..."
 goto            @Cond_050e
 
 @Cond_050e:
@@ -169,12 +169,12 @@ goto            @Label_0650
 @Label_0650:
 call            @Func_0d72
 jumpz           @Cond_0682, ($b003 == 0)
-dialogtxt       "You Are Very Confident…"
+dialogtxt       "You Are Very Confident..."
 goto            @Cond_0682
 
 @Cond_0682:
 jumpz           @Cond_06c2, ($b003 == 1)
-dialogtxt       "I suppose that may be true…"
+dialogtxt       "I suppose that may be true..."
 dialogtxt       "We'll see for ourselves"
 dialogtxt       "once we proceed onwards."
 goto            @Cond_06c2
@@ -186,7 +186,7 @@ goto            @Cond_06f6
 
 @Cond_06f6:
 jumpz           @Cond_0736, ($b003 == 3)
-dialogtxt       "I—Is that so…?"
+dialogtxt       "I—Is that so...?"
 dialogtxt       "Then let's get going!"
 goto            @Cond_0736
 

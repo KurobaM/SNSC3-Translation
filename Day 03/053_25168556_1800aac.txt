@@ -85,12 +85,12 @@ code0479        0, 2, 15
 call            @Func_1052
 jumpz           @Cond_0424, ($b002 == 0)
 dialogtxt       "That's not it,"
-dialogtxt       "I was just…"
+dialogtxt       "I was just..."
 goto            @Label_0452
 
 @Cond_0424:
 dialogtxt       "That's not it,"
-dialogtxt       "I was just…"
+dialogtxt       "I was just..."
 goto            @Label_0452
 
 @Label_0452:
@@ -98,7 +98,7 @@ code0309
 call            @Func_1088
 code0479        1, 2, 16
 call            @Func_10be
-dialogtxt       "Then…"
+dialogtxt       "Then..."
 dialogtxt       "Between Murno and Tier,"
 dialogtxt       "which would you choose?"
 code0309        
@@ -125,13 +125,13 @@ code0479        1, 0, 12
 jumpz           @Cond_0602, ($b002 == 0)
 dialogtxt       "First Tier mentioned me being"
 dialogtxt       "the inn's Craftknight,"
-dialogtxt       "then her husband…"
+dialogtxt       "then her husband..."
 goto            @Label_065c
 
 @Cond_0602:
 dialogtxt       "First Tier mentioned me being"
 dialogtxt       "the inn's Craftknight,"
-dialogtxt       "then a poster girl…"
+dialogtxt       "then a poster girl..."
 goto            @Label_065c
 
 @Label_065c:
@@ -141,7 +141,7 @@ code0479        1, 2, 12
 call            @Func_10be
 dialogtxt       "In this world, everyone wants"
 dialogtxt       "things to go the way they want."
-dialogtxt       "If you want to get your way…"
+dialogtxt       "If you want to get your way..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "You have to do just that,"
@@ -150,8 +150,8 @@ code0309
 call            @Func_10f4
 code0479        0, 4, 12
 call            @Func_1052
-dialogtxt       "Uh…"
-dialogtxt       "I'll try…"
+dialogtxt       "Uh..."
+dialogtxt       "I'll try..."
 code0309        
 call            @Func_1088
 code0479        0, 0, 16
@@ -163,8 +163,8 @@ dialogtxt       "so loved by other girls."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "The only people who gather"
-dialogtxt       "around me are men…"
-dialogtxt       "That sucks…"
+dialogtxt       "around me are men..."
+dialogtxt       "That sucks..."
 code0309        
 call            @Func_10f4
 jumpz           @Cond_08c8, ($b002 == 0)
@@ -180,7 +180,7 @@ code0479        0, 8, 15
 call            @Func_1052
 dialogtxt       "Meanie!"
 dialogtxt       "I'm a girl, you know!"
-dialogtxt       "You're the worst…"
+dialogtxt       "You're the worst..."
 goto            @Label_0926
 
 @Label_0926:
@@ -188,21 +188,21 @@ code0309
 call            @Func_1088
 code0479        1, 5, 15
 call            @Func_10be
-dialogtxt       "H—Hey…"
+dialogtxt       "H—Hey..."
 dialogtxt       "That's not what"
-dialogtxt       "I was trying to say…"
+dialogtxt       "I was trying to say..."
 code0309        
 call            @Func_10f4
 code0479        0, 1, 13
 call            @Func_1052
 jumpz           @Cond_09fa, ($b002 == 0)
-dialogtxt       "Ehehe…"
+dialogtxt       "Ehehe..."
 dialogtxt       "Do you understand"
 dialogtxt       "how I feel now, Bro?"
 goto            @Label_0a3c
 
 @Cond_09fa:
-dialogtxt       "Ehehe…"
+dialogtxt       "Ehehe..."
 dialogtxt       "Do you understand"
 dialogtxt       "how I feel now, Bro?"
 goto            @Label_0a3c

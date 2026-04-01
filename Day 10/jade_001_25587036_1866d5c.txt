@@ -13,7 +13,7 @@ call            @Func_0814
 code0479        0, 0, 16
 call            @Func_0772
 choicetxt       @Choice_00fe, "I've got one in mind."
-choicetxt       @Choice_01c4, "I'm still not sure…"
+choicetxt       @Choice_01c4, "I'm still not sure..."
 choicewait      
 
 @Choice_00fe:
@@ -33,7 +33,7 @@ call            @Func_07a8
 code0479        1, 4, 12
 call            @Func_07de
 dialogtxt       "It's only one weapon, okay?"
-dialogtxt       "This should be simple…"
+dialogtxt       "This should be simple..."
 code0309        
 call            @Func_08ae
 call            @Func_07fc

@@ -49,7 +49,7 @@ call            @Func_15f2
 call            @Func_14ee
 dialogtxt       "So, are you ready?"
 dialogtxt       "Know what you're going to say?"
-dialogtxt       "… Is what I'd like to ask, but…"
+dialogtxt       "... Is what I'd like to ask, but..."
 code047b        
 code0309        
 code0479        0, 4, 13
@@ -67,11 +67,11 @@ dialogtxt       "is after the Demon Stone!"
 code0309        
 code0479        1, 2, 14
 dialogtxt       "But if Master Bostaph really is"
-dialogtxt       "working with her, what will we do…"
+dialogtxt       "working with her, what will we do..."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Bostaph is kinda suspicious…"
-dialogtxt       "And his face is scary too…"
+dialogtxt       "Bostaph is kinda suspicious..."
+dialogtxt       "And his face is scary too..."
 code0309        
 goto            @Label_0540
 
@@ -82,11 +82,11 @@ dialogtxt       "is after the Demon Stone!"
 code0309        
 code0479        1, 2, 14
 dialogtxt       "But if Master Bostaph really is"
-dialogtxt       "working with her, what will we do…"
+dialogtxt       "working with her, what will we do..."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Bostaph is kinda suspicious…"
-dialogtxt       "And his face is scary too…"
+dialogtxt       "Bostaph is kinda suspicious..."
+dialogtxt       "And his face is scary too..."
 code0309        
 goto            @Label_0540
 
@@ -102,7 +102,7 @@ code047d        0, 138
 call            @Func_15c6
 code043c        6, 4
 call            @Func_14ee
-dialogtxt       "Master Bostaph is…"
+dialogtxt       "Master Bostaph is..."
 dialogtxt       "Suspicious?"
 code047b        
 code0309        
@@ -162,27 +162,27 @@ call            @Func_15dc
 call            @Func_1578
 jumpz           @Cond_0844, ($b003 == 0)
 dialogtxt       "Deciding If Someone Is Evil Based On"
-dialogtxt       "The Their Face Would Mean…"
+dialogtxt       "The Their Face Would Mean..."
 goto            @Cond_0844
 
 @Cond_0844:
 jumpz           @Cond_0892, ($b003 == 1)
 dialogtxt       "Well, if we were to decide whether"
 dialogtxt       "someone was a villain solely"
-dialogtxt       "based on their face…"
+dialogtxt       "based on their face..."
 goto            @Cond_0892
 
 @Cond_0892:
 jumpz           @Cond_08d0, ($b003 == 2)
 dialogtxt       "Hm."
 dialogtxt       "If we're just basing it"
-dialogtxt       "on appearance…"
+dialogtxt       "on appearance..."
 goto            @Cond_08d0
 
 @Cond_08d0:
 jumpz           @Cond_0918, ($b003 == 3)
 dialogtxt       "Well, if we were to decide"
-dialogtxt       "just based on appearance…"
+dialogtxt       "just based on appearance..."
 goto            @Cond_0918
 
 @Cond_0918:
@@ -248,7 +248,7 @@ code047b
 code043c        6, 1
 code0479        0, 4, 12
 call            @Func_150c
-dialogtxt       "… Yeah."
+dialogtxt       "... Yeah."
 code047b        
 code0309        
 call            @Func_1648

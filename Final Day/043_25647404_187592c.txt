@@ -23,7 +23,7 @@ dialogtxt       "Dammit!"
 goto            @Label_0166
 
 @Cond_0156:
-dialogtxt       "Ghk…!"
+dialogtxt       "Ghk...!"
 goto            @Label_0166
 
 @Label_0166:
@@ -56,28 +56,28 @@ call            @Func_0ad4
 jumpz           @Cond_0296, ($b003 == 0)
 dialogtxt       "We Do Not Have Time"
 dialogtxt       "For This!"
-dialogtxt       "For Master And Jade's Sake…"
+dialogtxt       "For Master And Jade's Sake..."
 goto            @Cond_0296
 
 @Cond_0296:
 jumpz           @Cond_02f2, ($b003 == 1)
 dialogtxt       "We don't have time!"
 dialogtxt       "We have to keep moving!"
-dialogtxt       "For Master and Jade's sake…"
+dialogtxt       "For Master and Jade's sake..."
 goto            @Cond_02f2
 
 @Cond_02f2:
 jumpz           @Cond_0358, ($b003 == 2)
 dialogtxt       "Quit dawdling,"
 dialogtxt       "we have to keep moving!"
-dialogtxt       "For Master and Jade's sake…"
+dialogtxt       "For Master and Jade's sake..."
 goto            @Cond_0358
 
 @Cond_0358:
 jumpz           @Cond_03c0, ($b003 == 3)
 dialogtxt       "We don't have time to stop!"
 dialogtxt       "We must keep moving!"
-dialogtxt       "For Master and Jade's sake…"
+dialogtxt       "For Master and Jade's sake..."
 goto            @Cond_03c0
 
 @Cond_03c0:
@@ -89,13 +89,13 @@ code0479        0, 2, 15
 call            @Func_0a68
 jumpz           @Cond_0452, ($b002 == 0)
 dialogtxt       "You're right!"
-dialogtxt       "Murno is futher inside…"
+dialogtxt       "Murno is futher inside..."
 dialogtxt       "We should still be able to catch up!"
 goto            @Label_04a8
 
 @Cond_0452:
 dialogtxt       "You're right!"
-dialogtxt       "Murno is futher inside…"
+dialogtxt       "Murno is futher inside..."
 dialogtxt       "We should still be able to catch up!"
 goto            @Label_04a8
 

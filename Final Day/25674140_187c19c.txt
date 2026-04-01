@@ -63,7 +63,7 @@ code0479        0, 0, 16
 call            @Func_2e46
 call            @Func_2dae
 jumpz           @Cond_084a, ($b003 == 0)
-dialogtxt       "Y—You Are…"
+dialogtxt       "Y—You Are..."
 dialogtxt       "Partner!"
 code047b        
 code0309        
@@ -104,12 +104,12 @@ code0309
 call            @Func_2d96
 code0479        1, 0, 12
 call            @Func_2dcc
-dialogtxt       "N—No… Command Center… Malfunctioning…"
+dialogtxt       "N—No... Command Center... Malfunctioning..."
 code0309        
 code0479        1, 5, 12
 code0479        0, 2, 14
 dialogtxt       "It May Result In My Attacking You Again."
-dialogtxt       "So…"
+dialogtxt       "So..."
 code0309        
 call            @Func_2e02
 code0479        0, 4, 14
@@ -169,8 +169,8 @@ code0309
 call            @Func_2d96
 code0479        1, 2, 12
 call            @Func_2dcc
-dialogtxt       "If You Do Not, Then I May…"
-dialogtxt       "…"
+dialogtxt       "If You Do Not, Then I May..."
+dialogtxt       "..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 16
@@ -198,7 +198,7 @@ goto            @Cond_084a
 
 @Cond_084a:
 jumpz           @Cond_0e7e, ($b003 == 1)
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 dialogtxt       "[NAME 2]?"
 code0309        
 call            @Func_2e86
@@ -238,13 +238,13 @@ code0309
 call            @Func_2d96
 code0479        1, 4, 16
 call            @Func_2dcc
-dialogtxt       "Of course… is what I'd like to say,"
-dialogtxt       "but I cannot…"
+dialogtxt       "Of course... is what I'd like to say,"
+dialogtxt       "but I cannot..."
 code0309        
 code0479        1, 3, 14
 code0479        0, 2, 14
-dialogtxt       "The hatred bottled up in that sword…"
-dialogtxt       "Is affecting me…"
+dialogtxt       "The hatred bottled up in that sword..."
+dialogtxt       "Is affecting me..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 15
@@ -265,7 +265,7 @@ code0309
 call            @Func_2d96
 code0479        1, 3, 14
 call            @Func_2dcc
-dialogtxt       "While you have the chance…"
+dialogtxt       "While you have the chance..."
 dialogtxt       "I'll hold myself back, so while you can!"
 code0309        
 call            @Func_2e02
@@ -315,7 +315,7 @@ code0309
 call            @Func_2d96
 code0479        1, 3, 16
 call            @Func_2dcc
-dialogtxt       "But if you do not… I may…"
+dialogtxt       "But if you do not... I may..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 16
@@ -343,8 +343,8 @@ goto            @Cond_0e7e
 
 @Cond_0e7e:
 jumpz           @Cond_14b4, ($b003 == 2)
-dialogtxt       "Tch…"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "Tch..."
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_2e86
 call            @Func_2e02
@@ -383,12 +383,12 @@ code0309
 call            @Func_2d96
 code0479        1, 2, 16
 call            @Func_2dcc
-dialogtxt       "Obviously… Not… I won't last long…"
+dialogtxt       "Obviously... Not... I won't last long..."
 code0309        
 code0479        1, 4, 16
 code0479        0, 2, 14
-dialogtxt       "The hatred bottled up in that sword…"
-dialogtxt       "Is affecting me…"
+dialogtxt       "The hatred bottled up in that sword..."
+dialogtxt       "Is affecting me..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 15
@@ -410,8 +410,8 @@ code0309
 call            @Func_2d96
 code0479        1, 2, 14
 call            @Func_2dcc
-dialogtxt       "I can feel it… The desire to kill you…"
-dialogtxt       "So…"
+dialogtxt       "I can feel it... The desire to kill you..."
+dialogtxt       "So..."
 code0309        
 call            @Func_2e02
 code0479        0, 4, 16
@@ -461,8 +461,8 @@ code0309
 call            @Func_2d96
 code0479        1, 3, 14
 call            @Func_2dcc
-dialogtxt       "You wanna die? Don't hesitate…"
-dialogtxt       "…"
+dialogtxt       "You wanna die? Don't hesitate..."
+dialogtxt       "..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 16
@@ -490,8 +490,8 @@ goto            @Cond_14b4
 
 @Cond_14b4:
 jumpz           @Cond_1b6a, ($b003 == 3)
-dialogtxt       "Ah…"
-dialogtxt       "[NAME 2]…"
+dialogtxt       "Ah..."
+dialogtxt       "[NAME 2]..."
 code0309        
 call            @Func_2e86
 call            @Func_2e02
@@ -530,26 +530,26 @@ code0309
 call            @Func_2d96
 code0479        1, 4, 14
 call            @Func_2dcc
-dialogtxt       "I can't…"
-dialogtxt       "I'm doing everything I can…"
+dialogtxt       "I can't..."
+dialogtxt       "I'm doing everything I can..."
 dialogtxt       "To stop myself from hurting you."
 code0309        
 code0479        1, 2, 16
 code0479        0, 2, 14
-dialogtxt       "The hatred bottled up in that sword…"
-dialogtxt       "Is affecting me…"
+dialogtxt       "The hatred bottled up in that sword..."
+dialogtxt       "Is affecting me..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 15
 call            @Func_2d60
 jumpz           @Cond_1724, ($b002 == 0)
-dialogtxt       "Hatred…?"
+dialogtxt       "Hatred...?"
 dialogtxt       "[NAME 1]!"
 dialogtxt       "Hold on!"
 goto            @Label_174e
 
 @Cond_1724:
-dialogtxt       "Hatred…?"
+dialogtxt       "Hatred...?"
 dialogtxt       "[NAME 1]!"
 dialogtxt       "Hold on!"
 goto            @Label_174e
@@ -559,8 +559,8 @@ code0309
 call            @Func_2d96
 code0479        1, 4, 14
 call            @Func_2dcc
-dialogtxt       "I'm going to attack you any second now…"
-dialogtxt       "So…"
+dialogtxt       "I'm going to attack you any second now..."
+dialogtxt       "So..."
 code0309        
 call            @Func_2e02
 code0479        0, 4, 14
@@ -605,13 +605,13 @@ code0479        0, 5, 15
 call            @Func_2e46
 call            @Func_2d42
 jumpz           @Cond_19a2, ($b002 == 0)
-dialogtxt       "Take you down…!?"
+dialogtxt       "Take you down...!?"
 dialogtxt       "Idiot! What are you saying!?"
 dialogtxt       "I can't do that!"
 goto            @Label_19f4
 
 @Cond_19a2:
-dialogtxt       "Take you down…!?"
+dialogtxt       "Take you down...!?"
 dialogtxt       "Idiot! What are you saying!?"
 dialogtxt       "I can't do that!"
 goto            @Label_19f4
@@ -621,8 +621,8 @@ code0309
 call            @Func_2d96
 code0479        1, 4, 16
 call            @Func_2dcc
-dialogtxt       "If you do not, I'm going to…"
-dialogtxt       "…"
+dialogtxt       "If you do not, I'm going to..."
+dialogtxt       "..."
 code0309        
 call            @Func_2e02
 code0479        0, 2, 16
@@ -735,7 +735,7 @@ code040d        30
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 code047e        0, 0
@@ -805,7 +805,7 @@ code048c
 code0479        0, 4, 14
 call            @Func_2e1a
 call            @Func_2d42
-dialogtxt       "Ugh…"
+dialogtxt       "Ugh..."
 code047b        
 code0309        
 call            @Func_2d96
@@ -815,7 +815,7 @@ code0479        1, 1, 13
 code047d        1, 134
 call            @Func_2e30
 call            @Func_2dcc
-dialogtxt       "Hahaha…"
+dialogtxt       "Hahaha..."
 dialogtxt       "They've already forgotten"
 dialogtxt       "who you are."
 code047b        
@@ -828,12 +828,12 @@ call            @Func_2e02
 code0479        0, 2, 16
 call            @Func_2d60
 jumpz           @Cond_2378, ($b002 == 0)
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "That's a lie, right, [NAME 1]!"
 goto            @Label_23a4
 
 @Cond_2378:
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "That's a lie, right, [NAME 1]!"
 goto            @Label_23a4
 
@@ -863,7 +863,7 @@ dialogtxt       "After all we've been through!?"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "That's impossible…"
+dialogtxt       "That's impossible..."
 dialogtxt       "[NAME 1] would never forget."
 dialogtxt       "I'm sure!"
 goto            @Label_25c0
@@ -875,7 +875,7 @@ dialogtxt       "After all we've been through!?"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "That's impossible…"
+dialogtxt       "That's impossible..."
 dialogtxt       "[NAME 1] would never forget."
 dialogtxt       "I'm sure!"
 goto            @Label_25c0
@@ -914,7 +914,7 @@ code0482
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 code047e        0, 0

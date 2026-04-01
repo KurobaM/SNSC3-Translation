@@ -9,25 +9,25 @@ code047d        0, 0
 call            @Func_2486
 call            @Func_23ae
 jumpz           @Cond_0114, ($b002 == 0)
-dialogtxt       "Haah…"
+dialogtxt       "Haah..."
 dialogtxt       "I'm glad that worked out."
 code047b        
 code0309        
 call            @Func_249c
 code0479        0, 0, 12
 dialogtxt       "Never thought we'd be the ones"
-dialogtxt       "going up against Red Wing…"
+dialogtxt       "going up against Red Wing..."
 goto            @Label_019e
 
 @Cond_0114:
-dialogtxt       "Haah…"
+dialogtxt       "Haah..."
 dialogtxt       "I'm glad that worked out."
 code047b        
 code0309        
 call            @Func_249c
 code0479        0, 0, 12
 dialogtxt       "I never thought we would be the"
-dialogtxt       "ones going up against Red Wing…"
+dialogtxt       "ones going up against Red Wing..."
 goto            @Label_019e
 
 @Label_019e:
@@ -102,8 +102,8 @@ goto            @Cond_0486
 @Cond_0486:
 jumpz           @Cond_0504, ($b003 == 2)
 dialogtxt       "Thanks to you, that Red Wing"
-dialogtxt       "was quite worn out already…"
-dialogtxt       "Tch… You took all the fun out of it."
+dialogtxt       "was quite worn out already..."
+dialogtxt       "Tch... You took all the fun out of it."
 goto            @Cond_0504
 
 @Cond_0504:
@@ -127,13 +127,13 @@ call            @Func_23cc
 jumpz           @Cond_05f2, ($b002 == 0)
 dialogtxt       "So let's say we all helped"
 dialogtxt       "defeat Red Wing."
-dialogtxt       "Me, [NAME 1], and you, together…"
+dialogtxt       "Me, [NAME 1], and you, together..."
 goto            @Label_062a
 
 @Cond_05f2:
 dialogtxt       "So let's say we all helped"
 dialogtxt       "defeat Red Wing."
-dialogtxt       "Me, [NAME 1], and you, together…"
+dialogtxt       "Me, [NAME 1], and you, together..."
 goto            @Label_062a
 
 @Label_062a:
@@ -252,7 +252,7 @@ call            @Func_24b2
 call            @Func_241a
 dialogtxt       "Sorry I'm late!"
 dialogtxt       "You can rest easy now!"
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code0309        
 call            @Func_24f2
 call            @Func_246e
@@ -314,7 +314,7 @@ call            @Func_249c
 call            @Func_241a
 dialogtxt       "Anyway, leave the rest to me."
 dialogtxt       "You guys fall back!"
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code047b        
 code0309        
 call            @Func_24f2
@@ -366,7 +366,7 @@ code0479        0, 0, 12
 call            @Func_24b2
 call            @Func_241a
 dialogtxt       "So, where is this Red Wing hiding?"
-dialogtxt       "I can't sense it's presence…"
+dialogtxt       "I can't sense it's presence..."
 code047b        
 code0309        
 call            @Func_24f2
@@ -379,7 +379,7 @@ call            @Func_249c
 call            @Func_2438
 dialogtxt       "Even the famed Red Wing"
 dialogtxt       "is afraid of us."
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code047b        
 code0309        
 call            @Func_246e
@@ -407,7 +407,7 @@ code0309
 code0332        
 code0479        0, 1, 16
 code0479        1, 5, 17
-dialogtxt       "… Wait, what?"
+dialogtxt       "... Wait, what?"
 dialogtxt       "You beat it!?"
 code0309        
 call            @Func_24f2
@@ -432,8 +432,8 @@ code0309
 call            @Func_246e
 code0479        0, 5, 16
 call            @Func_23cc
-dialogtxt       "Ah… Well…"
-dialogtxt       "I'm not the one who beat it…"
+dialogtxt       "Ah... Well..."
+dialogtxt       "I'm not the one who beat it..."
 code0309        
 call            @Func_2508
 call            @Func_23ea
@@ -446,7 +446,7 @@ code0479        1, 5, 12
 code047d        1, 109
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "Well if it wasn't you, then…"
+dialogtxt       "Well if it wasn't you, then..."
 dialogtxt       "[NAME 2] did!?"
 code047b        
 code0309        
@@ -457,7 +457,7 @@ code047d        0, 0
 call            @Func_2486
 call            @Func_23cc
 dialogtxt       "It was nothing!"
-dialogtxt       "… Or so I'd like to say."
+dialogtxt       "... Or so I'd like to say."
 code047b        
 code0309        
 code0479        0, 0, 13
@@ -490,7 +490,7 @@ code0479        1, 5, 16
 code047d        1, 110
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "…"
+dialogtxt       "..."
 code047b        
 code0309        
 call            @Func_246e
@@ -509,7 +509,7 @@ code0479        1, 11, 17
 code047d        1, 110
 call            @Func_2438
 dialogtxt       "Wha—!? No!"
-dialogtxt       "We're not friends…"
+dialogtxt       "We're not friends..."
 code047b        
 code0309        
 call            @Func_2508
@@ -522,9 +522,9 @@ code0479        1, 2, 13
 code047d        1, 132
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "So, you guys beat Red Wing…"
+dialogtxt       "So, you guys beat Red Wing..."
 dialogtxt       "But it's too bad for you guys."
-dialogtxt       "Because…"
+dialogtxt       "Because..."
 code047b        
 code0309        
 call            @Func_246e
@@ -540,7 +540,7 @@ code0309
 call            @Func_2402
 code0479        1, 4, 16
 call            @Func_2438
-dialogtxt       "Enough already…"
+dialogtxt       "Enough already..."
 code0309        
 call            @Func_2508
 call            @Func_2456
@@ -560,7 +560,7 @@ call            @Func_2486
 call            @Func_23cc
 dialogtxt       "I wanted to capture them,"
 dialogtxt       "but when I heard you were"
-dialogtxt       "being attacked by Red Wing…"
+dialogtxt       "being attacked by Red Wing..."
 code0309        
 call            @Func_2508
 call            @Func_23ea
@@ -577,13 +577,13 @@ code0479        0, 2, 16
 code047d        0, 110
 call            @Func_2486
 call            @Func_23ae
-dialogtxt       "So they got away…"
-dialogtxt       "We knew their plans, and yet…"
+dialogtxt       "So they got away..."
+dialogtxt       "We knew their plans, and yet..."
 code047b        
 code0309        
 code0479        0, 2, 14
 dialogtxt       "I won't forgive them for"
-dialogtxt       "deceiving Master Bostaph…"
+dialogtxt       "deceiving Master Bostaph..."
 dialogtxt       "I have to tell him."
 code0309        
 call            @Func_2402
@@ -594,12 +594,12 @@ call            @Func_249c
 call            @Func_2438
 dialogtxt       "Lemmy, is that okay with you?"
 dialogtxt       "We're right on their tail."
-dialogtxt       "Then let's head to the Gold Fac…"
+dialogtxt       "Then let's head to the Gold Fac..."
 code047b        
 code0309        
 code0479        1, 5, 12
-dialogtxt       "Ah… Sorry…"
-dialogtxt       "About Ianna, I still…"
+dialogtxt       "Ah... Sorry..."
+dialogtxt       "About Ianna, I still..."
 code0309        
 call            @Func_246e
 code0479        0, 0, 13
@@ -645,14 +645,14 @@ code0479        1, 5, 17
 code047d        1, 109
 call            @Func_249c
 call            @Func_2438
-dialogtxt       "Y—You're…"
+dialogtxt       "Y—You're..."
 dialogtxt       "Lady Ianna's son?"
 code047b        
 code0309        
 call            @Func_246e
 code0479        0, 5, 16
 call            @Func_23cc
-dialogtxt       "Lady…?"
+dialogtxt       "Lady...?"
 code0309        
 call            @Func_2508
 call            @Func_23ea

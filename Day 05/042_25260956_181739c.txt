@@ -21,7 +21,7 @@ code0309
 call            @Func_237e
 code0479        1, 0, 13
 call            @Func_23b4
-dialogtxt       "Heheheh…"
+dialogtxt       "Heheheh..."
 dialogtxt       "As if a weakling like"
 dialogtxt       "you could escape me!"
 code0309        
@@ -84,12 +84,12 @@ call            @Func_2418
 call            @Func_23b4
 jumpz           @Cond_03de, ($b002 == 0)
 dialogtxt       "Oh my,"
-dialogtxt       "you're that little boy…"
+dialogtxt       "you're that little boy..."
 goto            @Label_0418
 
 @Cond_03de:
 dialogtxt       "Oh my,"
-dialogtxt       "you're that little lady…"
+dialogtxt       "you're that little lady..."
 goto            @Label_0418
 
 @Label_0418:
@@ -105,8 +105,8 @@ code0479        0, 5, 16
 code047d        0, 107
 call            @Func_2402
 call            @Func_232a
-dialogtxt       "[NAME 2]…!"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "[NAME 2]...!"
+dialogtxt       "[NAME 1]..."
 code047b        
 code043c        3, 3
 code0309        
@@ -117,8 +117,8 @@ code0479        0, 4, 14
 code047d        1, 134
 call            @Func_2418
 call            @Func_23b4
-dialogtxt       "You know each other…?"
-dialogtxt       "Just my luck…"
+dialogtxt       "You know each other...?"
+dialogtxt       "Just my luck..."
 dialogtxt       "Everyone keeps getting in my way!"
 code047b        
 code0309        
@@ -182,9 +182,9 @@ code0479        1, 2, 16
 code047d        1, 134
 call            @Func_2418
 call            @Func_2396
-dialogtxt       "Hah…"
+dialogtxt       "Hah..."
 dialogtxt       "You think we're the bad guys?"
-dialogtxt       "You're quick to judge…"
+dialogtxt       "You're quick to judge..."
 code047b        
 code0309        
 call            @Func_23ea
@@ -220,7 +220,7 @@ code0479        0, 5, 15
 call            @Func_242e
 call            @Func_232a
 dialogtxt       "No!"
-dialogtxt       "What…"
+dialogtxt       "What..."
 jumpz           @Cond_08c4, ($b002 == 0)
 dialogtxt       "That's a lie!"
 goto            @Label_08d4
@@ -247,13 +247,13 @@ code0309
 call            @Func_23ea
 code0479        0, 2, 14
 call            @Func_2348
-dialogtxt       "…"
+dialogtxt       "..."
 jumpz           @Cond_09ae, ($b002 == 0)
-dialogtxt       "You're lying…"
+dialogtxt       "You're lying..."
 goto            @Label_09be
 
 @Cond_09ae:
-dialogtxt       "You're lying…"
+dialogtxt       "You're lying..."
 goto            @Label_09be
 
 @Label_09be:
@@ -274,22 +274,22 @@ code0479        0, 4, 16
 code047d        0, 107
 call            @Func_2402
 call            @Func_232a
-dialogtxt       "[NAME 2]…"
-dialogtxt       "…"
-dialogtxt       "I'm sorry…"
+dialogtxt       "[NAME 2]..."
+dialogtxt       "..."
+dialogtxt       "I'm sorry..."
 code047b        
 code0309        
 call            @Func_2418
 code0479        1, 5, 14
 code0479        0, 4, 16
 dialogtxt       "After all this, all I have done"
-dialogtxt       "is bring misfortune upon you…"
+dialogtxt       "is bring misfortune upon you..."
 code0309        
 code047b        
 call            @Func_237e
 code0479        1, 4, 16
 call            @Func_23b4
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 jumpz           @Cond_0b5a, ($b002 == 0)
 dialogtxt       "What misfortune?"
 dialogtxt       "I'm— !"
@@ -305,16 +305,16 @@ code0309
 call            @Func_23ea
 code0479        0, 4, 14
 call            @Func_2348
-dialogtxt       "Thank you for everything…"
-dialogtxt       "But please, leave me alone…"
-dialogtxt       "Don't worry about me…"
+dialogtxt       "Thank you for everything..."
+dialogtxt       "But please, leave me alone..."
+dialogtxt       "Don't worry about me..."
 code0309        
 call            @Func_237e
 code0479        1, 5, 15
 call            @Func_23b4
-dialogtxt       "…!?"
-dialogtxt       "What…"
-dialogtxt       "do you mean…?"
+dialogtxt       "...!?"
+dialogtxt       "What..."
+dialogtxt       "do you mean...?"
 code0309        
 call            @Func_2484
 call            @Func_23d2
@@ -327,7 +327,7 @@ code0479        1, 1, 13
 code047d        1, 134
 call            @Func_2418
 call            @Func_2396
-dialogtxt       "Ahahahaha… This is great!"
+dialogtxt       "Ahahahaha... This is great!"
 dialogtxt       "Looks like you're here for nothing."
 dialogtxt       "I almost feel sorry for you!"
 code047b        
@@ -360,12 +360,12 @@ call            @Func_23ea
 code0479        0, 2, 15
 call            @Func_2348
 jumpz           @Cond_0f00, ($b002 == 0)
-dialogtxt       "Wh—Why you…"
+dialogtxt       "Wh—Why you..."
 dialogtxt       "Don't you dare twist her words!"
 goto            @Label_0f38
 
 @Cond_0f00:
-dialogtxt       "Wh—Why you…"
+dialogtxt       "Wh—Why you..."
 dialogtxt       "Don't you dare twist her words!"
 goto            @Label_0f38
 
@@ -387,7 +387,7 @@ code0309
 code0479        1, 2, 12
 dialogtxt       "As you can see, we're quite busy."
 dialogtxt       "If you intend to keep this up,"
-dialogtxt       "I'll have to punish you…"
+dialogtxt       "I'll have to punish you..."
 code0309        
 call            @Func_2458
 call            @Func_23ea
@@ -454,7 +454,7 @@ call            @Func_2418
 call            @Func_23b4
 dialogtxt       "You idiots!"
 dialogtxt       "Stay focused!"
-dialogtxt       "If I can just get the Stone…"
+dialogtxt       "If I can just get the Stone..."
 code047b        
 code0309        
 code0479        1, 3, 15
@@ -546,15 +546,15 @@ call            @Func_23ea
 code0479        0, 2, 16
 call            @Func_2348
 jumpz           @Cond_17d2, ($b002 == 0)
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Label_17e0
 
 @Cond_17d2:
-dialogtxt       "…"
+dialogtxt       "..."
 goto            @Label_17e0
 
 @Label_17e0:
-dialogtxt       "No…"
+dialogtxt       "No..."
 code0309        
 call            @Func_246e
 call            @Func_237e
@@ -584,7 +584,7 @@ call            @Func_2418
 call            @Func_23b4
 jumpz           @Cond_196a, ($b003 == 0)
 dialogtxt       "There Is No Need To Hesitate."
-dialogtxt       "What We Must Do Now Is Simply…"
+dialogtxt       "What We Must Do Now Is Simply..."
 code0309        
 code043c        0, 4
 code043c        1, 2

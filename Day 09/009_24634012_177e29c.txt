@@ -413,11 +413,11 @@ code0301        8, 7
 code047d        0, 122
 code047e        0, 1
 jumpz           @Cond_10aa, ($b002 == 0)
-dialogtxt       "Gallahan's son…"
+dialogtxt       "Gallahan's son..."
 goto            @Label_10c2
 
 @Cond_10aa:
-dialogtxt       "Gallahan's daughter…"
+dialogtxt       "Gallahan's daughter..."
 goto            @Label_10c2
 
 @Label_10c2:
@@ -450,7 +450,7 @@ choicewait
 
 @Choice_126c:
 code047e        0, 1
-dialogtxt       "Let's see…"
+dialogtxt       "Let's see..."
 code0309
 dialogtxt       "With this \"Legendary Green Bamboo\","
 dialogtxt       "you can imbue a weapon with"
@@ -458,7 +458,7 @@ dialogtxt       "\"Medium Heal\"."
 code0309        
 dialogtxt       "But wait, there's more!"
 dialogtxt       "As a special offer, I'm selling it"
-dialogtxt       "for merely… 1500 Boam!"
+dialogtxt       "for merely... 1500 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        
@@ -518,7 +518,7 @@ goto            @Choice_14d0
 code047e        0, 1
 dialogtxt       "Whaaat? You're not interested?!"
 dialogtxt       "Just when I thought"
-dialogtxt       "I finally had a customer…"
+dialogtxt       "I finally had a customer..."
 code0309        
 @Label_1520:
 code047e        0, 0
@@ -527,7 +527,7 @@ code040b
 
 @Talk_1538:
 code0301        8, 7
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 code0302        7
 code040b        

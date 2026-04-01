@@ -5,7 +5,7 @@ code0479        0, 1, 17
 code047d        0, 108
 call            @Func_115a
 call            @Func_1082
-dialogtxt       "Owowow…"
+dialogtxt       "Owowow..."
 code047b        
 code0309        
 call            @Func_10d6
@@ -26,7 +26,7 @@ code0479        0, 0, 17
 call            @Func_10a0
 dialogtxt       "It's not that serious,"
 dialogtxt       "but I kinda twisted my arm."
-dialogtxt       "It might affect my work…"
+dialogtxt       "It might affect my work..."
 code0309        
 call            @Func_10d6
 code043c        0, 1
@@ -38,7 +38,7 @@ dialogtxt       "I'll get that beast for this!"
 goto            @Label_0206
 
 @Cond_01e8:
-dialogtxt       "No…!"
+dialogtxt       "No...!"
 dialogtxt       "That beast!"
 goto            @Label_0206
 
@@ -97,7 +97,7 @@ call            @Func_10d6
 code0479        1, 2, 16
 call            @Func_110c
 dialogtxt       "But Master,"
-dialogtxt       "you're really hurt…"
+dialogtxt       "you're really hurt..."
 code0309        
 call            @Func_1142
 code0479        0, 0, 14
@@ -143,7 +143,7 @@ code0309
 call            @Func_1142
 code0479        0, 0, 12
 call            @Func_10a0
-dialogtxt       "Perhaps…"
+dialogtxt       "Perhaps..."
 dialogtxt       "But, it didn't seem like it had any"
 dialogtxt       "real business here."
 code0309        
@@ -170,7 +170,7 @@ code0309
 call            @Func_10d6
 code0479        1, 0, 14
 call            @Func_110c
-dialogtxt       "Hmm…"
+dialogtxt       "Hmm..."
 code0309        
 call            @Func_1142
 code0479        0, 0, 16
@@ -192,7 +192,7 @@ code0309
 call            @Func_10d6
 code0479        1, 0, 14
 call            @Func_110c
-dialogtxt       "G—Got it…"
+dialogtxt       "G—Got it..."
 code0309        
 call            @Func_11dc
 call            @Func_112a
@@ -211,7 +211,7 @@ code0479        1, 2, 16
 call            @Func_1170
 call            @Func_10ee
 dialogtxt       "As if I can just stay put!"
-dialogtxt       "I'm so mad…"
+dialogtxt       "I'm so mad..."
 dialogtxt       "What should I do?"
 goto            @Label_0aee
 

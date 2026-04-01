@@ -386,7 +386,7 @@ code0301        8, 7
 code047d        0, 126
 code047e        0, 1
 dialogtxt       "Lately, my total sales"
-dialogtxt       "are kind of in the red…"
+dialogtxt       "are kind of in the red..."
 dialogtxt       "Well, all for a peaceful world!"
 code0309        
 code047e        0, 0

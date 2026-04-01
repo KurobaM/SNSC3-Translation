@@ -51,17 +51,17 @@ code0309
 call            @Func_100a
 code0479        0, 2, 16
 call            @Func_0f68
-dialogtxt       "I know but…"
+dialogtxt       "I know but..."
 dialogtxt       "Anise and the others are"
 dialogtxt       "still out there somewhere."
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_037a, ($b002 == 0)
-dialogtxt       "I thought I could do something…"
+dialogtxt       "I thought I could do something..."
 goto            @Label_03a2
 
 @Cond_037a:
-dialogtxt       "I thought I could do something…"
+dialogtxt       "I thought I could do something..."
 goto            @Label_03a2
 
 @Label_03a2:
@@ -101,20 +101,20 @@ code0309
 call            @Func_100a
 code0479        0, 4, 16
 call            @Func_0f68
-dialogtxt       "That's…"
-dialogtxt       "Sorry…"
+dialogtxt       "That's..."
+dialogtxt       "Sorry..."
 code0309        
 call            @Func_0f9e
 code0479        1, 5, 12
 call            @Func_0fd4
-dialogtxt       "Ah… My bad."
-dialogtxt       "I didn't mean to get angry…"
-dialogtxt       "Or rather, I'm not qualified to…"
+dialogtxt       "Ah... My bad."
+dialogtxt       "I didn't mean to get angry..."
+dialogtxt       "Or rather, I'm not qualified to..."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "When you fell off the cliff,"
-dialogtxt       "I couldn't do anything…"
-dialogtxt       "And I…"
+dialogtxt       "I couldn't do anything..."
+dialogtxt       "And I..."
 code0309        
 call            @Func_100a
 code0479        0, 5, 15
@@ -122,13 +122,13 @@ call            @Func_0f68
 jumpz           @Cond_06d0, ($b002 == 0)
 dialogtxt       "Come on!"
 dialogtxt       "That wasn't your fault!"
-dialogtxt       "If I had supported Murno…"
+dialogtxt       "If I had supported Murno..."
 goto            @Label_072a
 
 @Cond_06d0:
 dialogtxt       "Come on!"
 dialogtxt       "That wasn't your fault!"
-dialogtxt       "If I had supported Murno…"
+dialogtxt       "If I had supported Murno..."
 goto            @Label_072a
 
 @Label_072a:
@@ -136,15 +136,15 @@ code0309
 call            @Func_0f9e
 code0479        1, 2, 14
 call            @Func_0fd4
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "I'm sure Rob would've been"
-dialogtxt       "able to do something…"
+dialogtxt       "able to do something..."
 code0309        
 call            @Func_100a
 code0479        1, 2, 12
 code0479        0, 4, 16
 call            @Func_0f68
-dialogtxt       "Master Rob…"
+dialogtxt       "Master Rob..."
 code0309        
 call            @Func_0f9e
 code0479        1, 2, 15
@@ -160,12 +160,12 @@ call            @Func_100a
 code0479        0, 4, 14
 call            @Func_0f68
 jumpz           @Cond_089e, ($b002 == 0)
-dialogtxt       "O—Okay, fine…"
+dialogtxt       "O—Okay, fine..."
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 
 @Cond_089e:
-dialogtxt       "O—Okay, fine…"
+dialogtxt       "O—Okay, fine..."
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 

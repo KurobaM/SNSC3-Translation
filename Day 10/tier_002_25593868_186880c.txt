@@ -61,13 +61,13 @@ call            @Func_0950
 code0479        0, 2, 14
 call            @Func_08ae
 jumpz           @Cond_02a8, ($b002 == 0)
-dialogtxt       "That's right…"
+dialogtxt       "That's right..."
 dialogtxt       "I have to win, not just for me,"
 dialogtxt       "but for Tier's parents!"
 goto            @Label_02fe
 
 @Cond_02a8:
-dialogtxt       "That's right…"
+dialogtxt       "That's right..."
 dialogtxt       "I have to win, not just for me,"
 dialogtxt       "but for Tier's parents!"
 goto            @Label_02fe

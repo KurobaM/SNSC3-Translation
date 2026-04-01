@@ -85,7 +85,7 @@ code0479        0, 0, 16
 code047d        0, 110
 call            @Func_1e5e
 call            @Func_1d86
-dialogtxt       "Eh…"
+dialogtxt       "Eh..."
 dialogtxt       "He fainted?"
 dialogtxt       "I didn't mean to hurt him."
 code047b        
@@ -100,8 +100,8 @@ code0479        1, 4, 16
 code047d        1, 134
 call            @Func_1e74
 call            @Func_1df2
-dialogtxt       "Ah…"
-dialogtxt       "How could this…"
+dialogtxt       "Ah..."
+dialogtxt       "How could this..."
 code047b        
 code0309        
 call            @Func_1eca
@@ -112,8 +112,8 @@ code0479        0, 4, 16
 code047d        0, 111
 call            @Func_1e5e
 call            @Func_1d86
-dialogtxt       "The ruins…"
-dialogtxt       "My power…"
+dialogtxt       "The ruins..."
+dialogtxt       "My power..."
 code047b        
 code0309        
 call            @Func_1eb4
@@ -184,37 +184,37 @@ code047d        1, 107
 call            @Func_1e8a
 code047c        1, 2
 call            @Func_1df2
-dialogtxt       "Ah… [NAME 2]…"
-dialogtxt       "[NAME 1]…"
+dialogtxt       "Ah... [NAME 2]..."
+dialogtxt       "[NAME 1]..."
 code047b        
 code0309        
 call            @Func_1e46
 code0479        0, 7, 13
 call            @Func_1da4
-dialogtxt       "Thank goodness…"
-dialogtxt       "Murno…"
-dialogtxt       "You're okay…"
+dialogtxt       "Thank goodness..."
+dialogtxt       "Murno..."
+dialogtxt       "You're okay..."
 code0309        
 call            @Func_1dda
 code0479        1, 4, 16
 call            @Func_1e10
-dialogtxt       "Ah… [NAME 2]…"
-dialogtxt       "I'm sorry…"
-dialogtxt       "Because of me…"
+dialogtxt       "Ah... [NAME 2]..."
+dialogtxt       "I'm sorry..."
+dialogtxt       "Because of me..."
 code0309        
 call            @Func_1e46
 code0479        0, 2, 16
 call            @Func_1da4
 jumpz           @Cond_0954, ($b002 == 0)
-dialogtxt       "I'm the one who should apologize…"
-dialogtxt       "I was late…"
-dialogtxt       "I'm really sorry…"
+dialogtxt       "I'm the one who should apologize..."
+dialogtxt       "I was late..."
+dialogtxt       "I'm really sorry..."
 goto            @Label_09a6
 
 @Cond_0954:
-dialogtxt       "I'm the one who should apologize…"
-dialogtxt       "I was late…"
-dialogtxt       "I'm really sorry…"
+dialogtxt       "I'm the one who should apologize..."
+dialogtxt       "I was late..."
+dialogtxt       "I'm really sorry..."
 goto            @Label_09a6
 
 @Label_09a6:
@@ -222,7 +222,7 @@ code0309
 call            @Func_1dda
 code0479        1, 4, 17
 call            @Func_1e10
-dialogtxt       "No…"
+dialogtxt       "No..."
 code0309        
 call            @Func_1eb4
 call            @Func_1e46
@@ -253,27 +253,27 @@ call            @Func_1da4
 jumpz           @Cond_0aec, ($b003 == 0)
 dialogtxt       "Lady Murno,"
 dialogtxt       "In This Situation, Your Response"
-dialogtxt       "Should Not Be I Am Sorry, But…"
+dialogtxt       "Should Not Be I Am Sorry, But..."
 goto            @Cond_0aec
 
 @Cond_0aec:
 jumpz           @Cond_0b30, ($b003 == 1)
 dialogtxt       "Murno, in times like these,"
-dialogtxt       "you shouldn't apologize. Instead…"
+dialogtxt       "you shouldn't apologize. Instead..."
 goto            @Cond_0b30
 
 @Cond_0b30:
 jumpz           @Cond_0b78, ($b003 == 2)
 dialogtxt       "Murno,"
 dialogtxt       "now's not the time"
-dialogtxt       "to apologize. Rather…"
+dialogtxt       "to apologize. Rather..."
 goto            @Cond_0b78
 
 @Cond_0b78:
 jumpz           @Cond_0bca, ($b003 == 3)
 dialogtxt       "Lady Murno, this is not the"
 dialogtxt       "appropriate time to apologize."
-dialogtxt       "Instead…"
+dialogtxt       "Instead..."
 goto            @Cond_0bca
 
 @Cond_0bca:
@@ -282,7 +282,7 @@ code0309
 call            @Func_1dda
 code0479        1, 4, 12
 call            @Func_1e10
-dialogtxt       "You're right…"
+dialogtxt       "You're right..."
 code0309        
 call            @Func_1eb4
 code047b        
@@ -298,7 +298,7 @@ code0309
 call            @Func_1e46
 code0479        0, 6, 12
 call            @Func_1da4
-dialogtxt       "Murno…"
+dialogtxt       "Murno..."
 code0309        
 call            @Func_1ee0
 call            @Func_1dc2
@@ -388,7 +388,7 @@ code0479        1, 4, 15
 code047d        1, 134
 call            @Func_1e74
 call            @Func_1df2
-dialogtxt       "No…"
+dialogtxt       "No..."
 dialogtxt       "It can't be!"
 code0309        
 call            @Func_1eca
@@ -402,7 +402,7 @@ code0479        0, 3, 15
 code047d        0, 111
 call            @Func_1e5e
 call            @Func_1d86
-dialogtxt       "Damn… It!"
+dialogtxt       "Damn... It!"
 code0309        
 call            @Func_1eb4
 call            @Func_1dc2

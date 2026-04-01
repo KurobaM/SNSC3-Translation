@@ -54,13 +54,13 @@ call            @Func_0e5c
 jumpz           @Cond_02f4, ($b002 == 0)
 dialogtxt       "I don't really know either."
 dialogtxt       "I went for a walk and just"
-dialogtxt       "kinda ended up here…"
+dialogtxt       "kinda ended up here..."
 goto            @Label_0330
 
 @Cond_02f4:
 dialogtxt       "I don't really know either."
 dialogtxt       "I went for a walk and just"
-dialogtxt       "kinda ended up here…"
+dialogtxt       "kinda ended up here..."
 goto            @Label_0330
 
 @Label_0330:
@@ -101,13 +101,13 @@ call            @Func_0efe
 code0479        0, 0, 16
 call            @Func_0e5c
 jumpz           @Cond_0568, ($b002 == 0)
-dialogtxt       "Hmm… So just like bro, then."
+dialogtxt       "Hmm... So just like bro, then."
 dialogtxt       "By the way, do you patrol"
 dialogtxt       "around Lute Cave too?"
 goto            @Label_05ba
 
 @Cond_0568:
-dialogtxt       "Ooh… So just like bro, then."
+dialogtxt       "Ooh... So just like bro, then."
 dialogtxt       "By the way, do you patrol"
 dialogtxt       "around Lute Cave too?"
 goto            @Label_05ba
@@ -117,7 +117,7 @@ code0309
 call            @Func_0e92
 code0479        1, 5, 16
 call            @Func_0ec8
-dialogtxt       "Well…"
+dialogtxt       "Well..."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "That's right."
@@ -126,13 +126,13 @@ call            @Func_0efe
 code0479        0, 1, 12
 call            @Func_0e5c
 jumpz           @Cond_067e, ($b002 == 0)
-dialogtxt       "I see, must be hard…"
+dialogtxt       "I see, must be hard..."
 dialogtxt       "Well, we got out of there okay,"
 dialogtxt       "thanks to you."
 goto            @Label_06ca
 
 @Cond_067e:
-dialogtxt       "I see, must be hard…"
+dialogtxt       "I see, must be hard..."
 dialogtxt       "Well, we got out of there okay,"
 dialogtxt       "thanks to you."
 goto            @Label_06ca
@@ -143,20 +143,20 @@ call            @Func_0e92
 code0479        1, 2, 14
 call            @Func_0ec8
 dialogtxt       "I told you, that wasn't it!"
-dialogtxt       "I wasn't trying to save you…"
+dialogtxt       "I wasn't trying to save you..."
 code0309        
 call            @Func_0efe
 code0479        1, 2, 12
 code0479        0, 2, 16
 call            @Func_0e5c
 jumpz           @Cond_07aa, ($b002 == 0)
-dialogtxt       "You did it for Bostaph, right…"
+dialogtxt       "You did it for Bostaph, right..."
 dialogtxt       "In that case, we may"
 dialogtxt       "have to have another match."
 goto            @Label_07fe
 
 @Cond_07aa:
-dialogtxt       "You did it for Bostaph, right…"
+dialogtxt       "You did it for Bostaph, right..."
 dialogtxt       "In that case, we may"
 dialogtxt       "have to have another match."
 goto            @Label_07fe
@@ -171,7 +171,7 @@ code0309
 call            @Func_0efe
 code0479        0, 4, 14
 call            @Func_0e5c
-dialogtxt       "…"
+dialogtxt       "..."
 code0309        
 call            @Func_0e92
 code0479        1, 2, 13

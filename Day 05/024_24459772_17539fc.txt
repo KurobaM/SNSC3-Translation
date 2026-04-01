@@ -106,7 +106,7 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "I have to deliver these goods…"
+dialogtxt       "I have to deliver these goods..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -122,7 +122,7 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 dialogtxt       "I don't need to do"
-dialogtxt       "anything outside…"
+dialogtxt       "anything outside..."
 code0309        
 code047e        0, 0
 code0302        7
@@ -173,7 +173,7 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "I'm tired of staring"
-dialogtxt       "at that statue…"
+dialogtxt       "at that statue..."
 code0309        
 code047e        0, 0
 code0302        7

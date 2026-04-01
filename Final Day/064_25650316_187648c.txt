@@ -48,15 +48,15 @@ code047d        1, 2
 call            @Func_15d0
 call            @Func_14f8
 jumpz           @Cond_0258, ($b002 == 0)
-dialogtxt       "Is… Is this it?"
+dialogtxt       "Is... Is this it?"
 dialogtxt       "It doesn't seem any"
-dialogtxt       "different from before…"
+dialogtxt       "different from before..."
 goto            @Label_029e
 
 @Cond_0258:
-dialogtxt       "Is… This it?"
+dialogtxt       "Is... This it?"
 dialogtxt       "It doesn't seem any"
-dialogtxt       "different from before…"
+dialogtxt       "different from before..."
 goto            @Label_029e
 
 @Label_029e:
@@ -94,13 +94,13 @@ call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_048c
 
 @Cond_0432:
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_048c
@@ -153,13 +153,13 @@ call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0744, ($b002 == 0)
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_079e
 
 @Cond_0744:
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_079e
@@ -200,26 +200,26 @@ goto            @Cond_0918
 
 @Cond_0918:
 jumpz           @Cond_0c28, ($b003 == 2)
-dialogtxt       "Tch… You're dull."
+dialogtxt       "Tch... You're dull."
 dialogtxt       "That unpleasant feeling is growing."
 dialogtxt       "An average Summon would go mad."
 code047b        
 code0309        
 code0479        1, 3, 14
 dialogtxt       "We must be getting close"
-dialogtxt       "to the source…"
+dialogtxt       "to the source..."
 code0309        
 call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0a50, ($b002 == 0)
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_0aaa
 
 @Cond_0a50:
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_0aaa
@@ -260,9 +260,9 @@ goto            @Cond_0c28
 
 @Cond_0c28:
 jumpz           @Cond_0f26, ($b003 == 3)
-dialogtxt       "Urgh…"
+dialogtxt       "Urgh..."
 dialogtxt       "That unpleasant feeling is growing."
-dialogtxt       "I can't let my guard down…"
+dialogtxt       "I can't let my guard down..."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "With this strength,"
@@ -272,13 +272,13 @@ call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0d5c, ($b002 == 0)
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_0db6
 
 @Cond_0d5c:
-dialogtxt       "Actually, this place…"
+dialogtxt       "Actually, this place..."
 dialogtxt       "It's quite similar to the"
 dialogtxt       "labyrinth in Louise Village."
 goto            @Label_0db6
@@ -288,7 +288,7 @@ code0309
 call            @Func_154c
 code0479        1, 2, 16
 call            @Func_1582
-dialogtxt       "Now that you mention it…"
+dialogtxt       "Now that you mention it..."
 dialogtxt       "Are they connected somehow?"
 code0309        
 call            @Func_15b8
