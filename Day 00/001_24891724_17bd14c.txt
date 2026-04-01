@@ -467,12 +467,12 @@ code0479        1, 2, 14
 call            @Func_3a5e
 call            @Func_395a
 jumpz           @Cond_187a, ($b002 == 0)
-dialogtxt       "...Ouch!"
+dialogtxt       "... Ouch!"
 dialogtxt       "What was that for!?"
 goto            @Label_18aa
 
 @Cond_187a:
-dialogtxt       "...Oww!"
+dialogtxt       "... Oww!"
 dialogtxt       "That's so mean!"
 dialogtxt       "Why'd you do that!?"
 goto            @Label_18aa

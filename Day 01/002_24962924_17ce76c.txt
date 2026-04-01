@@ -6,14 +6,14 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_0bea
 call            @Func_0b52
-dialogtxt       "Alright, so today we'll"
-dialogtxt       "try disassembling weapons."
+dialogtxt       "Alright, so today we'll try"
+dialogtxt       "disassembling weapons."
 code047b        
 code0309        
 call            @Func_0ba6
 code0479        0, 0, 12
 call            @Func_0b04
-dialogtxt       "Disassembling, huh...?"
+dialogtxt       "Disassembling, huh?"
 code0309        
 call            @Func_0c40
 call            @Func_0b22
@@ -25,16 +25,16 @@ code0321        7, 30
 code040d        30
 code0301        0, 9
 code0305        1
-dialogtxt       "Through disassembling, you can"
-dialogtxt       "turn weapons back into Shapestones."
+dialogtxt       " Through disassembling, you can"
+dialogtxt       " turn weapons back into Shapestones."
 code0309        
-dialogtxt       "Any items used to create the weapon"
-dialogtxt       "will be lost. In return,"
-dialogtxt       "the shapestone will be stronger."
+dialogtxt       " Any items used to create the weapon"
+dialogtxt       " will be lost. In return,"
+dialogtxt       " the shapestone will be stronger."
 code0309        
-dialogtxt       "How much stronger it gets depends"
-dialogtxt       "greatly on crafting rank"
-dialogtxt       "and the weapon's TEC value."
+dialogtxt       " How much stronger it gets depends"
+dialogtxt       " greatly on crafting rank"
+dialogtxt       " and the weapon's TEC value."
 code0309        
 code0302        9
 code0320        7, 2
@@ -93,16 +93,16 @@ code0443        2, 4096, 1
 code043c        0, 3
 code048c        
 code040d        15
-popuptxt        "Partner conversations available."
+popuptxt        " Partner conversations available."
 code0318        
 code0301        0, 9
 code0305        1
-dialogtxt       "You can do so at any time"
-dialogtxt       "when you are not in battle."
+dialogtxt       " You can talk to your partner"
+dialogtxt       " anytime you are not in battle."
 code0309        
-dialogtxt       "Press the SELECT button"
-dialogtxt       "when your partner is available"
-dialogtxt       "to talk to them."
+dialogtxt       " Press the SELECT button"
+dialogtxt       " when your partner is available"
+dialogtxt       " to talk to them."
 code0309        
 code0302        9
 done            

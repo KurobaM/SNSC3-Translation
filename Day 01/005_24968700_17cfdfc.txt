@@ -16,7 +16,7 @@ code047d        1, 2
 call            @Func_0c2c
 call            @Func_0b54
 dialogtxt       "Heeeey!"
-dialogtxt       "Murno, are you awake~?"
+dialogtxt       "Murno, are you awake?"
 goto            @Label_0148
 
 @Label_0148:
@@ -31,8 +31,7 @@ code0446        0
 code0479        0, 0, 16
 call            @Func_0c2c
 call            @Func_0b54
-dialogtxt       "Um,"
-dialogtxt       "if we don't start heading"
+dialogtxt       "Um, if we don't start heading"
 dialogtxt       "to the Chief's place soon..."
 code047b        
 code0309        
@@ -68,8 +67,8 @@ jumpz           @Cond_0320, ($b003 == 3)
 code0479        1, 2, 15
 call            @Func_0c42
 call            @Func_0bde
-dialogtxt       "What's wrong?"
 dialogtxt       "Lady Murno!?"
+dialogtxt       "Is something wrong?"
 goto            @Cond_0320
 
 @Cond_0320:
