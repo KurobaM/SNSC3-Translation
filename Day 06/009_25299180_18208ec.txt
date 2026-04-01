@@ -494,7 +494,7 @@ goto            @Cond_1268
 @Cond_1268:
 jumpz           @Cond_12f4, ($b003 == 3)
 dialogtxt       "Hii!"
-dialogtxt       "U—understood!"
+dialogtxt       "U—Understood!"
 code0309        
 code0479        0, 4, 16
 dialogtxt       "(Uu…"

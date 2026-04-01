@@ -1142,7 +1142,7 @@ code0479        1, 5, 15
 code047d        1, 134
 call            @Func_3ace
 call            @Func_3a4c
-dialogtxt       "Wh—what the!?"
+dialogtxt       "Wh—What the!?"
 code047b        
 code0309        
 call            @Func_3aa0
