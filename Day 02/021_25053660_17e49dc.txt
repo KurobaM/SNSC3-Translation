@@ -171,7 +171,7 @@ code0479        0, 5, 15
 code047d        0, 0
 call            @Func_247c
 call            @Func_23a4
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-!?"
 dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        

@@ -54,12 +54,12 @@ goto            @Cond_01e0
 
 @Cond_01e0:
 jumpz           @Cond_0216, ($b003 == 2)
-dialogtxt       "The unpeasant atmosphere's lessened."
+dialogtxt       "The unpleasant atmosphere's lessened."
 goto            @Cond_0216
 
 @Cond_0216:
 jumpz           @Cond_0264, ($b003 == 3)
-dialogtxt       "The unpeasant feeling has lessened."
+dialogtxt       "The unpleasant feeling has lessened."
 dialogtxt       "It was definitely a huge success!"
 goto            @Cond_0264
 

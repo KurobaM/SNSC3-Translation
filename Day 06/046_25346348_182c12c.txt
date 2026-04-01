@@ -399,7 +399,7 @@ code0309
 call            @Func_3b90
 code0479        0, 5, 17
 call            @Func_3aee
-dialogtxt       "H-hey, don't look at me,"
+dialogtxt       "H-Hey, don't look at me,"
 dialogtxt       "he's already admitted…"
 code0309        
 call            @Func_3b24

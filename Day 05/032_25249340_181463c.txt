@@ -391,7 +391,7 @@ code0309
 call            @Func_1b24
 code0479        1, 5, 15
 call            @Func_1b5a
-dialogtxt       "W-well, as I said,"
+dialogtxt       "W-Well, as I said,"
 dialogtxt       "it's just a possibility!"
 code0309        
 call            @Func_1c14

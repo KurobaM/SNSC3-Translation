@@ -29,7 +29,7 @@ code047d        1, 115
 call            @Func_4524
 call            @Func_44c0
 dialogtxt       "But we won't put aside our"
-dialogtxt       "swords just because we're"
+dialogtxt       "weapons just because we're"
 dialogtxt       "impressed with your spirit."
 code047b        
 code0309        
@@ -88,12 +88,12 @@ call            @Func_44f6
 code0479        0, 2, 16
 call            @Func_4454
 jumpz           @Cond_0496, ($b002 == 0)
-dialogtxt       "D-don't move!"
+dialogtxt       "D-Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
 @Cond_0496:
-dialogtxt       "D-don't move!"
+dialogtxt       "D-Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
@@ -500,7 +500,7 @@ code0309
 call            @Func_448a
 code0479        1, 2, 12
 call            @Func_44c0
-dialogtxt       "Don't underestimate rock and roll."
+dialogtxt       "Don't underestimate rock 'n' roll."
 dialogtxt       "… Is what I'd like to say,"
 dialogtxt       "but we had a guide."
 code0309        
@@ -1171,7 +1171,7 @@ code0479        1, 5, 15
 code047d        1, 112
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "H-hey, wait!"
+dialogtxt       "H-Hey, wait!"
 dialogtxt       "I don't wanna!"
 dialogtxt       "I won't go!"
 code047b        

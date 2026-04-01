@@ -932,7 +932,7 @@ code0309
 call            @Func_3430
 code0479        1, 2, 15
 call            @Func_3466
-dialogtxt       "N-no!"
+dialogtxt       "N-No!"
 dialogtxt       "You're always being so reckless,"
 dialogtxt       "and I always worry over you."
 code0309        

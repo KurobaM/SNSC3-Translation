@@ -146,7 +146,7 @@ code047d        1, 0
 call            @Func_165e
 code047c        1, 2
 call            @Func_15fa
-dialogtxt       "U-um…"
+dialogtxt       "U-Um…"
 code047b        
 code0309        
 call            @Func_16ca
@@ -294,7 +294,7 @@ code0309
 call            @Func_1630
 code0479        0, 2, 14
 call            @Func_158e
-dialogtxt       "U-understood!"
+dialogtxt       "U-Understood!"
 goto            @Cond_0cb6
 
 @Cond_0cb6:

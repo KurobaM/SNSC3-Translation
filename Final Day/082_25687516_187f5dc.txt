@@ -539,7 +539,7 @@ call            @Func_2de2
 code0479        1, 2, 14
 call            @Func_2e18
 dialogtxt       "Sorry, but I'm"
-dialogtxt       "a rock 'n roller."
+dialogtxt       "a rock 'n' roller."
 dialogtxt       "I'm built differently."
 code0309        
 code0479        1, 2, 13

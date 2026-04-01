@@ -121,7 +121,7 @@ goto            @Cond_04fc
 
 @Cond_04fc:
 jumpz           @Cond_0526, ($b003 == 3)
-dialogtxt       "W-why you!"
+dialogtxt       "W-Why you!"
 goto            @Cond_0526
 
 @Cond_0526:

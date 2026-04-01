@@ -157,7 +157,7 @@ code0309
 code0479        1, 6, 12
 jumpz           @Cond_07b2, ($b002 == 0)
 code0479        0, 2, 12
-dialogtxt       "Y-yeah!"
+dialogtxt       "Y-Yeah!"
 dialogtxt       "I will!"
 goto            @Label_07f0
 

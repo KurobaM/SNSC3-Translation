@@ -58,7 +58,7 @@ call            @Func_149c
 code0479        1, 0, 13
 call            @Func_14d2
 dialogtxt       "It looks like he'll be okay."
-dialogtxt       "He was a bit absentminded,"
+dialogtxt       "He was a bit absent-minded,"
 dialogtxt       "but he went to sleep earlier."
 code0309        
 call            @Func_1508
@@ -161,7 +161,7 @@ code0309
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "I've often ended up putting you"
+dialogtxt       "I've ended up putting you"
 dialogtxt       "through a lot of rough situations."
 dialogtxt       "For that, I'm really sorry."
 code0309        
@@ -201,7 +201,7 @@ call            @Func_1508
 code0479        0, 5, 16
 call            @Func_1466
 dialogtxt       "Eh?"
-dialogtxt       "That is?"
+dialogtxt       "What is it?"
 code0309        
 call            @Func_149c
 code0479        1, 2, 16
@@ -256,7 +256,7 @@ code0309
 call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
-dialogtxt       "Is that… A no?"
+dialogtxt       "Is that… a no?"
 dialogtxt       "…"
 dialogtxt       "You meanie…"
 code0309        

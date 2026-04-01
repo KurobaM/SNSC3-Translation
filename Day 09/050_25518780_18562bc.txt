@@ -505,7 +505,7 @@ goto            @Cond_156c
 
 @Cond_156c:
 jumpz           @Cond_1590, ($b003 == 1)
-dialogtxt       "U-understood!"
+dialogtxt       "U-Understood!"
 goto            @Cond_1590
 
 @Cond_1590:

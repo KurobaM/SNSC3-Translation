@@ -131,7 +131,7 @@ code0309
 call            @Func_1cce
 code0479        1, 5, 17
 call            @Func_1d04
-dialogtxt       "Wha! No I don't!"
+dialogtxt       "Wha-! No I don't!"
 code0309        
 call            @Func_1d3a
 code0479        0, 0, 16
@@ -262,7 +262,7 @@ code0309
 call            @Func_1cce
 code0479        1, 5, 15
 call            @Func_1d04
-dialogtxt       "N-no way!"
+dialogtxt       "N-No way!"
 dialogtxt       "There's no way I'd be"
 dialogtxt       "scared of a mere dog!"
 code0309        
@@ -330,8 +330,8 @@ dialogtxt       "because she stepped between the"
 dialogtxt       "dog and I, and said…"
 code0309        
 code0479        1, 4, 13
-dialogtxt       "It's okay, [NAME 1]."
-dialogtxt       "I'll scare Gau away for you."
+dialogtxt       "\"It's okay, [NAME 1]."
+dialogtxt       "I'll scare Gau away for you.\""
 code0309        
 call            @Func_1d3a
 code0479        0, 5, 16
@@ -385,8 +385,8 @@ call            @Func_1cce
 code0479        1, 0, 17
 call            @Func_1d04
 dialogtxt       "You've said it yourself. I quote,"
-dialogtxt       "while we are partners, I'm going"
-dialogtxt       "to protect Murno myself."
+dialogtxt       "\"while we are partners, I'm going"
+dialogtxt       "to protect Murno myself.\""
 code0309        
 code0479        1, 0, 16
 code0479        0, 2, 14

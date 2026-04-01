@@ -984,7 +984,7 @@ setvar          $bv018, ($bv018 | 0x0001)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Hey, you."
-dialogtxt       "Have you seen some Alle Fruit?"
+dialogtxt       "Have you seen some Burgunberry?"
 code0309        
 dialogtxt       "If I had that,"
 dialogtxt       "I could make it through."
@@ -1035,8 +1035,8 @@ goto            @Label_2b10
 jumpz           @Cond_2a9e, ($bv018 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "I wonder if the Alle Fruit"
-dialogtxt       "is here anywhere…?"
+dialogtxt       "I wonder if there are Burgunberries"
+dialogtxt       "here anywhere…?"
 code0309        
 code047e        0, 0
 code0302        7

@@ -90,7 +90,7 @@ code0309
 call            @Func_0e92
 code0479        1, 11, 17
 call            @Func_0ec8
-dialogtxt       "N-no, I'm not!"
+dialogtxt       "N-No, I'm not!"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "I'm just on patrol."

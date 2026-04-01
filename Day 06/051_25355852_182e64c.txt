@@ -372,13 +372,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_115e, ($b002 == 0)
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_11ae
 
 @Cond_115e:
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_11ae
@@ -546,13 +546,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_19e6, ($b002 == 0)
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_1a36
 
 @Cond_19e6:
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_1a36
@@ -801,13 +801,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_2602, ($b002 == 0)
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's great though."
 goto            @Label_2656
 
 @Cond_2602:
-dialogtxt       "R-right,"
+dialogtxt       "R-Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's great though."
 goto            @Label_2656

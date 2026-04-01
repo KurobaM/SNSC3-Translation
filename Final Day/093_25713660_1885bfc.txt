@@ -181,7 +181,7 @@ code047d        1, 110
 call            @Func_4f8c
 call            @Func_4f28
 dialogtxt       "You have their"
-dialogtxt       "Summonstone, right?"
+dialogtxt       "Summonite, right?"
 code047b        
 code0309        
 call            @Func_4ff8
@@ -364,7 +364,7 @@ call            @Func_4ef2
 code0479        1, 0, 13
 call            @Func_4f28
 dialogtxt       "I told you before, right…"
-dialogtxt       "That Summonstone is similar to ore,"
+dialogtxt       "That Summonite is similar to ore,"
 dialogtxt       "so it's hard to use…"
 code0309        
 code0479        1, 2, 12
@@ -430,7 +430,7 @@ code0479        0, 0, 16
 call            @Func_4fa2
 call            @Func_4f0a
 dialogtxt       "Don't give up, [NAME 2]."
-dialogtxt       "That Summonstone is similar to ore,"
+dialogtxt       "That Summonite is similar to ore,"
 dialogtxt       "so it's hard to use…"
 code0309        
 call            @Func_4fe2

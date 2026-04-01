@@ -115,11 +115,11 @@ code0479        1, 2, 14
 code0479        0, 5, 15
 call            @Func_0e5a
 jumpz           @Cond_0640, ($b002 == 0)
-dialogtxt       "W-what!?"
+dialogtxt       "W-What!?"
 goto            @Label_0656
 
 @Cond_0640:
-dialogtxt       "W-what!?"
+dialogtxt       "W-What!?"
 goto            @Label_0656
 
 @Label_0656:

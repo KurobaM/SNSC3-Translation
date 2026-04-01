@@ -397,7 +397,7 @@ call            @Func_24e4
 code0479        1, 0, 12
 call            @Func_251a
 dialogtxt       "Ah, I see."
-dialogtxt       "T-then…"
+dialogtxt       "T-Then…"
 dialogtxt       "Let's go to my office."
 code0309        
 call            @Func_25be

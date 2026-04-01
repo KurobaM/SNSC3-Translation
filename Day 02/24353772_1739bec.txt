@@ -245,7 +245,7 @@ code0309
 call            @Func_3d66
 code0479        0, 1, 16
 call            @Func_3cc4
-dialogtxt       "F-for now,"
+dialogtxt       "F-For now,"
 dialogtxt       "let's just go and see!"
 code0309        
 call            @Func_3e00
@@ -408,7 +408,7 @@ code0309
 call            @Func_3d66
 code0479        0, 2, 17
 call            @Func_3cc4
-dialogtxt       "C-come on now,"
+dialogtxt       "C-Come on now,"
 dialogtxt       "let's hurry!"
 code0309        
 call            @Func_3e00
@@ -1293,13 +1293,13 @@ call            @Func_3d66
 code0479        0, 2, 12
 call            @Func_3cc4
 jumpz           @Cond_37be, ($b002 == 0)
-dialogtxt       "T-thanks, [NAME 1]…"
+dialogtxt       "T-Thanks, [NAME 1]…"
 dialogtxt       "You're right."
 dialogtxt       "Let's give it everything we've got!"
 goto            @Label_37f8
 
 @Cond_37be:
-dialogtxt       "T-thanks, [NAME 1]…"
+dialogtxt       "T-Thanks, [NAME 1]…"
 dialogtxt       "You're right."
 dialogtxt       "Let's give it everything we've got!"
 goto            @Label_37f8

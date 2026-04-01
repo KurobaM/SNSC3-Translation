@@ -324,7 +324,7 @@ code0479        1, 1, 16
 code047d        1, 0
 call            @Func_13e0
 call            @Func_137c
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-!?"
 dialogtxt       "Aha, ahahah…"
 code0309        
 code0479        1, 2, 14

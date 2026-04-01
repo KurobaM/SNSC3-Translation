@@ -263,7 +263,7 @@ code0309
 call            @Func_3736
 code0479        0, 2, 16
 call            @Func_3694
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-!?"
 code0309        
 call            @Func_37ba
 call            @Func_36ca
@@ -937,12 +937,12 @@ call            @Func_374e
 call            @Func_3676
 jumpz           @Cond_2854, ($b002 == 0)
 dialogtxt       "Owww!"
-dialogtxt       "What was that for!"
+dialogtxt       "What was that for!?"
 goto            @Label_287a
 
 @Cond_2854:
 dialogtxt       "Owww!"
-dialogtxt       "What was that for!"
+dialogtxt       "What was that for!?"
 goto            @Label_287a
 
 @Label_287a:
@@ -1017,7 +1017,7 @@ call            @Func_3764
 call            @Func_3700
 dialogtxt       "Of course, I'll be going too."
 dialogtxt       "Humans have to pave their own path!"
-dialogtxt       "That's the rock and roll way."
+dialogtxt       "That's the rock 'n' roll way."
 code047b        
 code0309        
 call            @Func_3736

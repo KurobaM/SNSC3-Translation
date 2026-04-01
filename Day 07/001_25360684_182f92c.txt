@@ -233,7 +233,7 @@ code0309
 call            @Func_1680
 code0479        1, 11, 14
 call            @Func_16b6
-dialogtxt       "N-never!"
+dialogtxt       "N-Never!"
 dialogtxt       "Just if you lose, we won't be able"
 dialogtxt       "to see the Crystal Pillar…"
 code0309        

@@ -180,7 +180,7 @@ code0309
 call            @Func_0e40
 code0479        1, 2, 16
 call            @Func_0e76
-dialogtxt       "O-of course I do."
+dialogtxt       "O-Of course I do."
 dialogtxt       "One moment…"
 code0309        
 code0479        1, 5, 14

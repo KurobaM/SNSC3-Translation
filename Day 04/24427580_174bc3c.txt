@@ -624,7 +624,7 @@ code0309
 call            @Func_3ede
 code0479        0, 5, 17
 call            @Func_3e3c
-dialogtxt       "D-do you mean Master Benson!?"
+dialogtxt       "D-Do you mean Master Benson!?"
 dialogtxt       "We can't!"
 dialogtxt       "It's too dangerous!"
 code0309        
@@ -642,7 +642,7 @@ code0309
 call            @Func_3e72
 code0479        1, 2, 16
 call            @Func_3ea8
-dialogtxt       "W-why don't we have"
+dialogtxt       "W-Why don't we have"
 dialogtxt       "a look around the city?"
 code0309        
 call            @Func_3ede
@@ -665,7 +665,7 @@ code0309
 call            @Func_3e72
 code0479        1, 5, 17
 call            @Func_3ea8
-dialogtxt       "N-no, I'm fine!"
+dialogtxt       "N-No, I'm fine!"
 dialogtxt       "I'm not scare of Benson at all!"
 code0309        
 call            @Func_3ede
@@ -1067,7 +1067,7 @@ call            @Func_3e72
 code0479        1, 5, 17
 call            @Func_3ea8
 dialogtxt       "Th-That would be a problem!"
-dialogtxt       "O-oh, not that I'm scared"
+dialogtxt       "O-Oh, not that I'm scared"
 dialogtxt       "of him or anything!"
 code0309        
 call            @Func_3f4c

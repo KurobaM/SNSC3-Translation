@@ -181,7 +181,7 @@ code033e        154
 code0479        1, 5, 14
 call            @Func_46b6
 call            @Func_4634
-dialogtxt       "L-lemmy…"
+dialogtxt       "L-Lemmy…"
 code047b        
 code0309        
 call            @Func_4688
@@ -533,13 +533,13 @@ code0479        0, 4, 16
 call            @Func_46a0
 call            @Func_45c8
 jumpz           @Cond_1644, ($b002 == 0)
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-!?"
 dialogtxt       "Hey, [NAME 1]!"
 dialogtxt       "What's wrong!?"
 goto            @Label_1678
 
 @Cond_1644:
-dialogtxt       "Wha!?"
+dialogtxt       "Wha-!?"
 dialogtxt       "Hey, [NAME 1]!"
 dialogtxt       "What's wrong!?"
 goto            @Label_1678

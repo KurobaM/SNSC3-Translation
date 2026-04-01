@@ -517,7 +517,7 @@ code0309
 call            @Func_3aa0
 code0479        0, 2, 15
 call            @Func_39fe
-dialogtxt       "N-now you've done it."
+dialogtxt       "N-Now you've done it."
 dialogtxt       "You're not leaving here alive!"
 dialogtxt       "I'll crush you! Head first!"
 code0309        
@@ -835,7 +835,7 @@ goto            @Cond_26e4
 
 @Cond_26e4:
 jumpz           @Cond_2710, ($b003 == 3)
-dialogtxt       "R-really!?"
+dialogtxt       "R-Really!?"
 goto            @Cond_2710
 
 @Cond_2710:
@@ -1142,7 +1142,7 @@ code0479        1, 5, 15
 code047d        1, 134
 call            @Func_3ace
 call            @Func_3a4c
-dialogtxt       "Wh—what the!?"
+dialogtxt       "Wh—What the!?"
 code047b        
 code0309        
 call            @Func_3aa0

@@ -16,8 +16,7 @@ goto            @Label_00aa
 
 @Label_00aa:
 dialogtxt       "I heard from Tier!"
-dialogtxt       "You really are an"
-dialogtxt       "amazing Craftknight!"
+dialogtxt       "You really are an amazing Craftknight!"
 code047b        
 code0309        
 code0479        1, 1, 12

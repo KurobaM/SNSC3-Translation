@@ -439,11 +439,11 @@ call            @Func_3ef8
 code0479        0, 5, 16
 call            @Func_3e56
 jumpz           @Cond_109e, ($b002 == 0)
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_10ae
 
 @Cond_109e:
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_10ae
 
 @Label_10ae:
@@ -470,11 +470,11 @@ call            @Func_3ef8
 code0479        0, 5, 16
 call            @Func_3e56
 jumpz           @Cond_118a, ($b002 == 0)
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_119a
 
 @Cond_118a:
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_119a
 
 @Label_119a:
@@ -534,11 +534,11 @@ call            @Func_3ef8
 code0479        0, 5, 16
 call            @Func_3e56
 jumpz           @Cond_13a6, ($b002 == 0)
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_13b6
 
 @Cond_13a6:
-dialogtxt       "R-right."
+dialogtxt       "R-Right."
 goto            @Label_13b6
 
 @Label_13b6:
@@ -608,7 +608,7 @@ code0309
 call            @Func_3ef8
 code0479        0, 2, 16
 call            @Func_3e56
-dialogtxt       "W-wow."
+dialogtxt       "W-Wow."
 dialogtxt       "That's kinda awesome…"
 code0309        
 call            @Func_3f92
@@ -1099,7 +1099,7 @@ call            @Func_3ef8
 code0479        0, 2, 16
 call            @Func_3e56
 jumpz           @Cond_2ba6, ($b002 == 0)
-dialogtxt       "O-of course not!"
+dialogtxt       "O-Of course not!"
 dialogtxt       "Let's go!"
 goto            @Label_2bd4
 

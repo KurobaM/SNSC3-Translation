@@ -333,7 +333,7 @@ code0309
 call            @Func_2a48
 code0479        0, 5, 16
 call            @Func_29a6
-dialogtxt       "W-what is it?"
+dialogtxt       "W-What is it?"
 code0309        
 call            @Func_29dc
 code0479        1, 8, 12
