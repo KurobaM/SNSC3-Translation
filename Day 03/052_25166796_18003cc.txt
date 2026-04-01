@@ -102,7 +102,7 @@ call            @Func_10da
 dialogbig       24, 116, 1, 0, 0, "M-Marriage!?"
 code030c        
 code0479        1, 6, 16
-dialogtxt       "N-No…"
+dialogtxt       "N—No…"
 dialogtxt       "Not yet…"
 code0309        
 call            @Func_1110
@@ -209,7 +209,7 @@ call            @Func_1110
 code0479        0, 1, 17
 call            @Func_106e
 jumpz           @Cond_0a94, ($b002 == 0)
-dialogtxt       "W-What!"
+dialogtxt       "W—What!"
 dialogtxt       "Like I care!"
 goto            @Label_0ab0
 

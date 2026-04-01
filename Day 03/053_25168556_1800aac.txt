@@ -117,7 +117,7 @@ code0309
 call            @Func_10f4
 code0479        0, 7, 15
 call            @Func_1052
-dialogtxt       "Th-That's not what I was"
+dialogtxt       "Th—That's not what I was"
 dialogtxt       "worrying about!"
 code0309        
 code0479        0, 4, 12
@@ -188,7 +188,7 @@ code0309
 call            @Func_1088
 code0479        1, 5, 15
 call            @Func_10be
-dialogtxt       "H-Hey…"
+dialogtxt       "H—Hey…"
 dialogtxt       "That's not what"
 dialogtxt       "I was trying to say…"
 code0309        

@@ -473,7 +473,7 @@ code047d        1, 0
 call            @Func_299e
 call            @Func_299e
 call            @Func_291c
-dialogtxt       "C-Chief!?"
+dialogtxt       "C—Chief!?"
 dialogtxt       "How long have you been there!?"
 goto            @Label_16b0
 

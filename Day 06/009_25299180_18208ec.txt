@@ -435,7 +435,7 @@ jumpz           @Cond_1174, ($b003 == 0)
 dialogtxt       "…!"
 code0309        
 code0479        0, 3, 12
-dialogtxt       "A-Affirmative."
+dialogtxt       "A—Affirmative."
 code0309        
 call            @Func_1b00
 call            @Func_1a10
@@ -446,12 +446,12 @@ code047d        1, 0
 call            @Func_1aaa
 call            @Func_1a46
 jumpz           @Cond_113e, ($b002 == 0)
-dialogtxt       "H-Hey,"
+dialogtxt       "H—Hey,"
 dialogtxt       "what's going on?"
 goto            @Label_1162
 
 @Cond_113e:
-dialogtxt       "H-Hey,"
+dialogtxt       "H—Hey,"
 dialogtxt       "what's going on?"
 goto            @Label_1162
 

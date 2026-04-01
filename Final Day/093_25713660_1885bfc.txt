@@ -80,12 +80,12 @@ call            @Func_4f76
 call            @Func_4e9e
 jumpz           @Cond_034c, ($b002 == 0)
 dialogtxt       "This is…"
-dialogtxt       "I-I'm back…"
+dialogtxt       "I—I'm back…"
 goto            @Label_0378
 
 @Cond_034c:
 dialogtxt       "This is…"
-dialogtxt       "I-I'm back…"
+dialogtxt       "I—I'm back…"
 goto            @Label_0378
 
 @Label_0378:
@@ -125,7 +125,7 @@ call            @Func_4ebc
 jumpz           @Cond_0540, ($b002 == 0)
 dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
-dialogtxt       "To save me, they-"
+dialogtxt       "To save me, they—"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "So that's why [NAME 1] told me to"
@@ -136,7 +136,7 @@ goto            @Label_05d8
 @Cond_0540:
 dialogtxt       "N… No…"
 dialogtxt       "[NAME 1]…"
-dialogtxt       "To save me, they-"
+dialogtxt       "To save me, they—"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "So that's why [NAME 1] told me to"

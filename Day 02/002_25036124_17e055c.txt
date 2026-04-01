@@ -417,7 +417,7 @@ choicewait
 @Choice_10e8:
 jumpz           @Cond_123a, ($b002 == 0)
 code0479        0, 6, 12
-dialogtxt       "I-It suits you really well…"
+dialogtxt       "I—It suits you really well…"
 code0309        
 call            @Func_40c4
 code0479        1, 7, 12
@@ -442,7 +442,7 @@ call            @Func_4130
 code043c        0, 1
 code0479        0, 11, 15
 call            @Func_408e
-dialogtxt       "K-Knock it off!"
+dialogtxt       "K—Knock it off!"
 code0309        
 call            @Func_40c4
 goto            @Label_139e
@@ -819,7 +819,7 @@ code0309
 call            @Func_40c4
 code0479        1, 5, 17
 call            @Func_40fa
-dialogtxt       "I'm so-"
+dialogtxt       "I'm so—"
 dialogtxt       "I mean…"
 dialogtxt       "Okay…"
 code0309        
@@ -1178,7 +1178,7 @@ dialogtxt       "…"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "Uhhh… How did-"
+dialogtxt       "Uhhh… How did—"
 code0309        
 call            @Func_41b4
 call            @Func_40c4

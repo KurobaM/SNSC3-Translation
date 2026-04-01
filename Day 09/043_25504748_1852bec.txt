@@ -254,7 +254,7 @@ call            @Func_1fe4
 call            @Func_1f80
 dialogtxt       "And then,"
 dialogtxt       "Master was…"
-dialogtxt       "Master was- !"
+dialogtxt       "Master was— !"
 code047b        
 code0309        
 call            @Func_2024

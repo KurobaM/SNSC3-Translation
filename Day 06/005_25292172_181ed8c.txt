@@ -454,7 +454,7 @@ call            @Func_30fe
 call            @Func_3066
 dialogtxt       "…"
 dialogtxt       "Well, even if you're"
-dialogtxt       "telling the truth-"
+dialogtxt       "telling the truth—"
 code047b        
 code0309        
 call            @Func_30ba

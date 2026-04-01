@@ -62,7 +62,7 @@ goto            @Cond_029c
 
 @Cond_029c:
 jumpz           @Cond_02c6, ($b003 == 3)
-dialogtxt       "S-Something's coming!"
+dialogtxt       "S—Something's coming!"
 goto            @Cond_02c6
 
 @Cond_02c6:
@@ -327,12 +327,12 @@ code043c        1, 1
 code0479        0, 2, 17
 call            @Func_1e3c
 jumpz           @Cond_0dda, ($b002 == 0)
-dialogtxt       "N-No!"
+dialogtxt       "N—No!"
 dialogtxt       "It's my partner!"
 goto            @Label_0e0e
 
 @Cond_0dda:
-dialogtxt       "N-No!"
+dialogtxt       "N—No!"
 dialogtxt       "It's my partner!"
 goto            @Label_0e0e
 
@@ -348,12 +348,12 @@ call            @Func_1ede
 code0479        0, 2, 16
 call            @Func_1e3c
 jumpz           @Cond_0ea6, ($b002 == 0)
-dialogtxt       "W-What of it?"
+dialogtxt       "W—What of it?"
 dialogtxt       "Got a problem!?"
 goto            @Label_0ed6
 
 @Cond_0ea6:
-dialogtxt       "W-What of it!?"
+dialogtxt       "W—What of it!?"
 dialogtxt       "And don't stare at me like that!"
 goto            @Label_0ed6
 
@@ -485,7 +485,7 @@ code043c        3, 3
 code047d        1, 120
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "A-Anyway,"
+dialogtxt       "A—Anyway,"
 dialogtxt       "I'm going to contact the village!"
 dialogtxt       "You should head back too!"
 code0309        

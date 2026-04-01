@@ -33,7 +33,7 @@ code047d        0, 0
 call            @Func_0b3c
 call            @Func_0a82
 dialogtxt       "Yep!"
-dialogtxt       "The Chief-"
+dialogtxt       "The Chief—"
 code0309        
 code0479        0, 5, 16
 dialogtxt       "… Wait, that was supposed"
@@ -50,7 +50,7 @@ code0309
 call            @Func_0b24
 call            @Func_0a82
 code0479        0, 7, 17
-dialogtxt       "Uh, th-the Chief gave you…"
+dialogtxt       "Uh, th—the Chief gave you…"
 dialogtxt       "his thanks!"
 code0309        
 call            @Func_0ab8

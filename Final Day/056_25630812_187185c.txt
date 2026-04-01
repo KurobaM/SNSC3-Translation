@@ -71,7 +71,7 @@ code040d        15
 code0479        0, 5, 14
 call            @Func_450e
 call            @Func_4436
-dialogtxt       "Wai-"
+dialogtxt       "Wai—"
 dialogtxt       "Why!?"
 code047b        
 code0309        
@@ -88,12 +88,12 @@ call            @Func_44f6
 code0479        0, 2, 16
 call            @Func_4454
 jumpz           @Cond_0496, ($b002 == 0)
-dialogtxt       "D-Don't move!"
+dialogtxt       "D—Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
 @Cond_0496:
-dialogtxt       "D-Don't move!"
+dialogtxt       "D—Don't move!"
 dialogtxt       "Or else…"
 goto            @Label_04be
 
@@ -167,7 +167,7 @@ goto            @Cond_0736
 jumpz           @Cond_0786, ($b003 == 3)
 dialogtxt       "I understand…"
 dialogtxt       "If you can't do it, [NAME 2],"
-dialogtxt       "a-allow me…"
+dialogtxt       "a—allow me…"
 goto            @Cond_0786
 
 @Cond_0786:
@@ -286,7 +286,7 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "T-Tier!?"
+dialogtxt       "T—Tier!?"
 dialogtxt       "Master! Bro!"
 dialogtxt       "Velvoren too?"
 code047b        
@@ -613,12 +613,12 @@ code043c        0, 2
 code0479        1, 4, 12
 call            @Func_44c0
 jumpz           @Cond_1d56, ($b002 == 0)
-dialogtxt       "S-Sorry…"
+dialogtxt       "S—Sorry…"
 dialogtxt       "I even made Lemmy worry about me."
 goto            @Label_1d88
 
 @Cond_1d56:
-dialogtxt       "S-Sorry…"
+dialogtxt       "S—Sorry…"
 dialogtxt       "I even made Lemmy worry about me."
 goto            @Label_1d88
 
@@ -968,7 +968,7 @@ code0479        0, 2, 17
 code047d        0, 115
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "Sh-Shit!"
+dialogtxt       "Sh—Shit!"
 dialogtxt       "Why you!"
 code047b        
 code0309        
@@ -1171,7 +1171,7 @@ code0479        1, 5, 15
 code047d        1, 112
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "H-Hey, wait!"
+dialogtxt       "H—Hey, wait!"
 dialogtxt       "I don't wanna!"
 dialogtxt       "I won't go!"
 code047b        

@@ -253,7 +253,7 @@ code0309
 dialogtxt       "…"
 code0309        
 dialogtxt       "What!?"
-dialogtxt       "I-I'm not slacking off!"
+dialogtxt       "I—I'm not slacking off!"
 code0309        
 code047e        0, 0
 code0302        7

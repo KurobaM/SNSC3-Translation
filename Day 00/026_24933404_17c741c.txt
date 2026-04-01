@@ -317,7 +317,7 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_4814
 call            @Func_475a
-dialogtxt       "Master-"
+dialogtxt       "Master—"
 code047b        
 code0309        
 call            @Func_486a
@@ -469,7 +469,7 @@ code0309
 call            @Func_47fc
 code0479        0, 5, 17
 call            @Func_475a
-dialogtxt       "O-Okay!"
+dialogtxt       "O—Okay!"
 dialogtxt       "Then, please let me help out!"
 code0309        
 call            @Func_4790
@@ -1370,7 +1370,7 @@ call            @Func_47fc
 code0479        0, 2, 15
 call            @Func_475a
 jumpz           @Cond_3b5c, ($b002 == 0)
-dialogtxt       "You-"
+dialogtxt       "You—"
 dialogtxt       "It's a match, then!"
 dialogtxt       "I'll show you my strength!"
 goto            @Label_3bae

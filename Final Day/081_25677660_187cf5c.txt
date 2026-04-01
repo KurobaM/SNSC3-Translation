@@ -400,7 +400,7 @@ code0309
 call            @Func_1c1c
 code0479        0, 4, 14
 call            @Func_1b7a
-dialogtxt       "That's true, but-"
+dialogtxt       "That's true, but—"
 code0309        
 call            @Func_1bb0
 code0479        1, 2, 15

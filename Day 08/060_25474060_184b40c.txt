@@ -59,7 +59,7 @@ call            @Func_0f0e
 code0479        1, 5, 17
 call            @Func_0f44
 dialogtxt       "Eh!?"
-dialogtxt       "Y-Yeah…"
+dialogtxt       "Y—Yeah…"
 code0309        
 call            @Func_1014
 call            @Func_0f62

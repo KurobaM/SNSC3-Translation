@@ -844,7 +844,7 @@ code0309
 call            @Func_3bd4
 code0479        1, 5, 17
 call            @Func_3c0a
-dialogtxt       "I-I'm not scared!"
+dialogtxt       "I—I'm not scared!"
 dialogtxt       "I'm just worried about whether"
 dialogtxt       "your intuition is correct."
 code0309        
@@ -1064,7 +1064,7 @@ dialogbig       60, 116, 1, 0, 0, "Hyah!"
 code030c        
 code0479        0, 5, 14
 code0479        1, 5, 15
-dialogtxt       "Wh-Wh-What was that!?"
+dialogtxt       "Wh—Wh—What was that!?"
 dialogtxt       "There was something on my neck!"
 code0309        
 call            @Func_3c40
@@ -1076,7 +1076,7 @@ call            @Func_3bd4
 code0479        1, 1, 16
 call            @Func_3c0a
 dialogtxt       "Ohohohoho!"
-dialogtxt       "N-Now then, let's move on!"
+dialogtxt       "N—Now then, let's move on!"
 code0309        
 call            @Func_3cda
 call            @Func_3c28
@@ -1309,7 +1309,7 @@ code0309
 call            @Func_3c40
 code0479        0, 1, 15
 call            @Func_3b9e
-dialogtxt       "W-What!?"
+dialogtxt       "W—What!?"
 dialogtxt       "You're so cruel!"
 code0309        
 call            @Func_3cda

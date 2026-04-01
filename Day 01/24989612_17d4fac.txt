@@ -116,7 +116,7 @@ call            @Func_0b64
 code0479        0, 2, 14
 call            @Func_0b94
 call            @Func_0abc
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 code047b        
 code0309        
 code0479        0, 2, 15

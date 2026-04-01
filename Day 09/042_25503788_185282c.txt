@@ -86,7 +86,7 @@ goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_0376, ($b003 == 3)
-dialogtxt       "I-It's heading this way!"
+dialogtxt       "I—It's heading this way!"
 goto            @Cond_0376
 
 @Cond_0376:

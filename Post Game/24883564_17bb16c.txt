@@ -188,12 +188,12 @@ call            @Func_4518
 code0479        0, 4, 14
 call            @Func_4476
 jumpz           @Cond_0860, ($b002 == 0)
-dialogtxt       "I-Is that so!?"
+dialogtxt       "I—Is that so!?"
 dialogtxt       "My bad, my bad…"
 goto            @Label_0886
 
 @Cond_0860:
-dialogtxt       "I-Is that so!?"
+dialogtxt       "I—Is that so!?"
 dialogtxt       "My bad, my bad…"
 goto            @Label_0886
 
@@ -433,13 +433,13 @@ call            @Func_4518
 code0479        0, 11, 16
 call            @Func_4476
 jumpz           @Cond_11ea, ($b002 == 0)
-dialogtxt       "Y-You really think so,"
+dialogtxt       "Y—You really think so,"
 dialogtxt       "[NAME 1]?"
 dialogtxt       "Damn, this is embarassing…"
 goto            @Label_1214
 
 @Cond_11ea:
-dialogtxt       "Y-You really think so,"
+dialogtxt       "Y—You really think so,"
 dialogtxt       "[NAME 1]?"
 dialogtxt       "Gosh, this is embarassing…"
 goto            @Label_1214
@@ -611,13 +611,13 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_19d2, ($b002 == 0)
-dialogtxt       "I-I see…"
+dialogtxt       "I—I see…"
 dialogtxt       "Could it be that you're"
 dialogtxt       "actually worried about me?"
 goto            @Label_1a02
 
 @Cond_19d2:
-dialogtxt       "I-I see…"
+dialogtxt       "I—I see…"
 dialogtxt       "Could it be that you're"
 dialogtxt       "actually worried about me?"
 goto            @Label_1a02
@@ -738,13 +738,13 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_1f70, ($b002 == 0)
-dialogtxt       "O-Okay…?"
+dialogtxt       "O—Okay…?"
 dialogtxt       "Why do I feel like you're kind"
 dialogtxt       "of looking down on me, though?"
 goto            @Label_1fa4
 
 @Cond_1f70:
-dialogtxt       "O-Okay…?"
+dialogtxt       "O—Okay…?"
 dialogtxt       "Why do I feel like you're kind"
 dialogtxt       "of looking down on me, though?"
 goto            @Label_1fa4
@@ -777,7 +777,7 @@ code0309
 call            @Func_44ac
 code0479        1, 3, 14
 call            @Func_44e2
-dialogtxt       "H-Hell if I know!"
+dialogtxt       "H—Hell if I know!"
 dialogtxt       "Just who would waste their time"
 dialogtxt       "worrying about other people…!?"
 code0309        
@@ -867,13 +867,13 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_2518, ($b002 == 0)
-dialogtxt       "I-I see…"
+dialogtxt       "I—I see…"
 dialogtxt       "Why do I feel that you're really"
 dialogtxt       "more worried for Murno right now?"
 goto            @Label_254e
 
 @Cond_2518:
-dialogtxt       "I-I see…"
+dialogtxt       "I—I see…"
 dialogtxt       "Why do I feel that you're really"
 dialogtxt       "more worried for Murno right now?"
 goto            @Label_254e
@@ -1563,7 +1563,7 @@ code0309
 call            @Func_4518
 code0479        0, 1, 16
 call            @Func_4476
-dialogtxt       "S-Sure thing, I will soon…"
+dialogtxt       "S—Sure thing, I will soon…"
 code0309        
 call            @Func_45b2
 call            @Func_4494

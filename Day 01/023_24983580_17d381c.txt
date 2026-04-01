@@ -57,7 +57,7 @@ code0309
 call            @Func_144c
 code0479        0, 5, 14
 call            @Func_13aa
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 code0309        
 jumpz           @Cond_02f8, ($b002 == 0)
 code0479        0, 2, 16
@@ -123,7 +123,7 @@ call            @Func_1490
 call            @Func_13f8
 dialogtxt       "Ah! This is…"
 dialogtxt       "My hammer!?"
-dialogtxt       "I must have dropped it when-"
+dialogtxt       "I must have dropped it when—"
 code0309        
 call            @Func_144c
 code0479        0, 2, 12

@@ -127,7 +127,7 @@ code0309
 call            @Func_1082
 code0479        0, 5, 16
 call            @Func_0fe0
-dialogtxt       "H-Huh?"
+dialogtxt       "H—Huh?"
 code0309        
 call            @Func_1016
 code0479        1, 2, 16
@@ -163,7 +163,7 @@ code0479        0, 5, 17
 call            @Func_109a
 call            @Func_0fc2
 jumpz           @Cond_09ca, ($b002 == 0)
-dialogtxt       "W-Wait!"
+dialogtxt       "W—Wait!"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "That guy really pisses me off."
@@ -171,7 +171,7 @@ dialogtxt       "I was just trying to be friendly…"
 goto            @Label_0a22
 
 @Cond_09ca:
-dialogtxt       "W-Wait a second!"
+dialogtxt       "W—Wait a second!"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "What's with him!"

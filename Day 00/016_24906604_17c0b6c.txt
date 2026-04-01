@@ -118,7 +118,7 @@ code0334
 code046e        38, 256, 1
 code0479        1, 2, 17
 call            @Func_110c
-dialogtxt       "But-"
+dialogtxt       "But—"
 code0309        
 call            @Func_1142
 code0479        0, 0, 16
@@ -182,7 +182,7 @@ code0309
 call            @Func_10d6
 code0479        1, 0, 16
 call            @Func_110c
-dialogtxt       "But-"
+dialogtxt       "But—"
 code0309        
 call            @Func_1142
 code0479        0, 2, 14
@@ -192,7 +192,7 @@ code0309
 call            @Func_10d6
 code0479        1, 0, 14
 call            @Func_110c
-dialogtxt       "G-Got it…"
+dialogtxt       "G—Got it…"
 code0309        
 call            @Func_11dc
 call            @Func_112a

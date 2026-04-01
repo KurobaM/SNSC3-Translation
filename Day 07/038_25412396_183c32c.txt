@@ -42,7 +42,7 @@ call            @Func_19d6
 code0479        1, 8, 16
 call            @Func_1a0c
 dialogtxt       "I wasn't worried or anything."
-dialogtxt       "It's just that Zakk-"
+dialogtxt       "It's just that Zakk—"
 code0309        
 call            @Func_1ab0
 call            @Func_1a42

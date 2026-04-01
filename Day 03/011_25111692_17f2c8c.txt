@@ -155,7 +155,7 @@ goto            @Cond_0666
 
 @Cond_0666:
 jumpz           @Cond_0698, ($b003 == 2)
-dialogtxt       "K-Kind? Me!?"
+dialogtxt       "K—Kind? Me!?"
 goto            @Cond_0698
 
 @Cond_0698:
@@ -185,7 +185,7 @@ code0309
 call            @Func_1668
 code0479        0, 6, 13
 call            @Func_15c6
-dialogtxt       "Th-Thank you, Master!"
+dialogtxt       "Th—Thank you, Master!"
 code0309        
 call            @Func_15fc
 code0479        1, 0, 13

@@ -151,7 +151,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_133a
 call            @Func_1280
-dialogtxt       "K-Kid's stuff!?"
+dialogtxt       "K—Kid's stuff!?"
 code047b        
 code0309        
 call            @Func_12b6

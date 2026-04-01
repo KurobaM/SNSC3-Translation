@@ -72,7 +72,7 @@ dialogtxt       "… What is it this time?"
 goto            @Label_02c2
 
 @Cond_0294:
-dialogtxt       "W-Wait."
+dialogtxt       "W—Wait."
 dialogtxt       "… What is it this time?"
 goto            @Label_02c2
 
@@ -93,7 +93,7 @@ code0479        0, 2, 14
 call            @Func_0a5e
 call            @Func_09a4
 jumpz           @Cond_037e, ($b002 == 0)
-dialogtxt       "Wai-!"
+dialogtxt       "Wai—!"
 dialogtxt       "Crap… Fine…"
 goto            @Label_03a0
 

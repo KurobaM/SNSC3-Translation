@@ -418,13 +418,13 @@ call            @Func_1dce
 code0479        0, 11, 16
 call            @Func_1d2c
 jumpz           @Cond_10fe, ($b002 == 0)
-dialogtxt       "Wh-what?"
+dialogtxt       "Wh—What?"
 dialogtxt       "Of course I think about"
 dialogtxt       "other things…"
 goto            @Label_114c
 
 @Cond_10fe:
-dialogtxt       "Wh-what?"
+dialogtxt       "Wh—What?"
 dialogtxt       "Of course I think about"
 dialogtxt       "other things…"
 goto            @Label_114c

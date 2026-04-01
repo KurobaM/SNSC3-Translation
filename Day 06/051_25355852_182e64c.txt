@@ -191,11 +191,11 @@ call            @Func_2f86
 code0479        0, 5, 15
 call            @Func_2ee4
 jumpz           @Cond_08a2, ($b002 == 0)
-dialogtxt       "Wh-Why are you crying!?"
+dialogtxt       "Wh—Why are you crying!?"
 goto            @Label_08be
 
 @Cond_08a2:
-dialogtxt       "Wh-Why are you crying!?"
+dialogtxt       "Wh—Why are you crying!?"
 goto            @Label_08be
 
 @Label_08be:
@@ -372,13 +372,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_115e, ($b002 == 0)
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_11ae
 
 @Cond_115e:
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_11ae
@@ -546,13 +546,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_19e6, ($b002 == 0)
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_1a36
 
 @Cond_19e6:
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's good though."
 goto            @Label_1a36
@@ -801,13 +801,13 @@ call            @Func_2f86
 code0479        0, 1, 16
 call            @Func_2ee4
 jumpz           @Cond_2602, ($b002 == 0)
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's great though."
 goto            @Label_2656
 
 @Cond_2602:
-dialogtxt       "R-Right,"
+dialogtxt       "R—Right,"
 dialogtxt       "I forgot, sorry."
 dialogtxt       "That's great though."
 goto            @Label_2656

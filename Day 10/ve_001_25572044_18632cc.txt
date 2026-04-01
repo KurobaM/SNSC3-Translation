@@ -193,12 +193,12 @@ code0479        0, 2, 16
 call            @Func_10c2
 jumpz           @Cond_091e, ($b002 == 0)
 dialogtxt       "But this…"
-dialogtxt       "Is it really okay for me to-"
+dialogtxt       "Is it really okay for me to—"
 goto            @Label_0950
 
 @Cond_091e:
 dialogtxt       "But this…"
-dialogtxt       "Is it really okay for me to-"
+dialogtxt       "Is it really okay for me to—"
 goto            @Label_0950
 
 @Label_0950:
@@ -215,13 +215,13 @@ call            @Func_1164
 code0479        0, 2, 14
 call            @Func_10c2
 jumpz           @Cond_0a20, ($b002 == 0)
-dialogtxt       "O-Of course I can!"
+dialogtxt       "O—Of course I can!"
 dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
 @Cond_0a20:
-dialogtxt       "O-Of course I can!"
+dialogtxt       "O—Of course I can!"
 dialogtxt       "Okay!"
 dialogtxt       "Leave it to me!"
 goto            @Label_0a5e

@@ -35,12 +35,12 @@ call            @Func_0fee
 call            @Func_0f16
 jumpz           @Cond_01be, ($b002 == 0)
 dialogtxt       "Ugh…"
-dialogtxt       "Y-You guys!"
+dialogtxt       "Y—You guys!"
 goto            @Label_01e0
 
 @Cond_01be:
 dialogtxt       "Ugh…"
-dialogtxt       "Y-You guys!"
+dialogtxt       "Y—You guys!"
 goto            @Label_01e0
 
 @Label_01e0:
@@ -83,7 +83,7 @@ code0309
 call            @Func_0fd6
 code0479        0, 5, 17
 call            @Func_0f34
-dialogtxt       "Wh-Who would!?"
+dialogtxt       "Wh—Who would!?"
 goto            @Label_044a
 
 @Cond_03c2:
@@ -95,7 +95,7 @@ code0309
 call            @Func_0fd6
 code0479        0, 5, 17
 call            @Func_0f34
-dialogtxt       "N-No, you're wrong!"
+dialogtxt       "N—No, you're wrong!"
 goto            @Label_044a
 
 @Label_044a:

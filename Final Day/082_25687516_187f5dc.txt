@@ -73,8 +73,8 @@ call            @Func_2e92
 call            @Func_2dfa
 jumpz           @Cond_05ce, ($b003 == 0)
 dialogtxt       "[NAME 1]… "
-dialogtxt       "Pa-Part… ner…"
-dialogtxt       "I-"
+dialogtxt       "Pa—Part… ner…"
+dialogtxt       "I—"
 code047b        
 code0309        
 call            @Func_2e4e
@@ -144,7 +144,7 @@ goto            @Cond_05ce
 jumpz           @Cond_0886, ($b003 == 1)
 dialogtxt       "… Ugh."
 dialogtxt       "[NAME 2]…"
-dialogtxt       "I-"
+dialogtxt       "I—"
 code047b        
 code0309        
 call            @Func_2e4e
@@ -214,7 +214,7 @@ goto            @Cond_0886
 jumpz           @Cond_0b54, ($b003 == 2)
 dialogtxt       "… Ugh."
 dialogtxt       "[NAME 2]…"
-dialogtxt       "I-"
+dialogtxt       "I—"
 code0309        
 call            @Func_2e4e
 code0479        0, 11, 13
@@ -284,7 +284,7 @@ goto            @Cond_0b54
 jumpz           @Cond_0e08, ($b003 == 3)
 dialogtxt       "… Ugh."
 dialogtxt       "[NAME 2]…"
-dialogtxt       "I-"
+dialogtxt       "I—"
 code0309        
 call            @Func_2e4e
 code0479        0, 11, 13
@@ -359,7 +359,7 @@ code0479        0, 5, 17
 code047d        0, 111
 call            @Func_2e66
 call            @Func_2d8e
-dialogtxt       "S-Stop!"
+dialogtxt       "S—Stop!"
 code047b        
 code0309        
 call            @Func_2ebc

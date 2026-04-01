@@ -272,7 +272,7 @@ code0309
 call            @Func_2ace
 code0479        0, 2, 15
 call            @Func_2a2c
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 code0309        
 call            @Func_2b68
 call            @Func_2a4a
@@ -740,7 +740,7 @@ code0309
 call            @Func_2a62
 code0479        1, 4, 13
 call            @Func_2a98
-dialogtxt       "I-I'm sorry…"
+dialogtxt       "I—I'm sorry…"
 dialogtxt       "It's still much too embarrassing."
 dialogtxt       "Let's leave it for another time."
 code0309        

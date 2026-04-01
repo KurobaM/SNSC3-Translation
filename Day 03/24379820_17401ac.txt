@@ -110,11 +110,11 @@ call            @Func_1f8c
 code0479        0, 5, 16
 call            @Func_1eea
 jumpz           @Cond_04d2, ($b002 == 0)
-dialogtxt       "Y-You really want to go, huh?"
+dialogtxt       "Y—You really want to go, huh?"
 goto            @Label_04fc
 
 @Cond_04d2:
-dialogtxt       "Y-You really want to go, huh?"
+dialogtxt       "Y—You really want to go, huh?"
 goto            @Label_04fc
 
 @Label_04fc:
@@ -156,7 +156,7 @@ code0309
 call            @Func_1f20
 code0479        1, 2, 12
 call            @Func_1f56
-dialogtxt       "Y-Yes!"
+dialogtxt       "Y—Yes!"
 dialogtxt       "We're not completely in sync,"
 dialogtxt       "but we do have the same goal!"
 code0309        
@@ -265,7 +265,7 @@ code0309
 call            @Func_1f20
 code0479        1, 5, 16
 call            @Func_1f56
-dialogtxt       "Th-This has nothing to do with her!"
+dialogtxt       "Th—This has nothing to do with her!"
 code0309        
 call            @Func_2026
 call            @Func_1f74
@@ -330,7 +330,7 @@ code0309
 call            @Func_1f20
 code0479        1, 2, 12
 call            @Func_1f56
-dialogtxt       "I-I wasn't lost!"
+dialogtxt       "I—I wasn't lost!"
 dialogtxt       "I was just testing you!"
 dialogtxt       "Remember!?"
 code0309        
@@ -501,7 +501,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1fa4
 call            @Func_1eea
-dialogtxt       "D-Don't fight!"
+dialogtxt       "D—Don't fight!"
 code047b        
 code0309        
 call            @Func_2010
@@ -630,7 +630,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1fa4
 call            @Func_1eea
-dialogtxt       "D-Don't fight!"
+dialogtxt       "D—Don't fight!"
 code047b        
 code0309        
 call            @Func_2010

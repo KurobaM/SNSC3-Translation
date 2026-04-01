@@ -309,7 +309,7 @@ code043c        3, 4
 code0479        0, 0, 17
 call            @Func_1c2e
 call            @Func_1b74
-dialogtxt       "Ah, wai-"
+dialogtxt       "Ah, wai—"
 code0309        
 call            @Func_1c84
 call            @Func_1b92
@@ -405,11 +405,11 @@ code043c        0, 2
 code0479        1, 2, 15
 call            @Func_1be0
 jumpz           @Cond_1296, ($b002 == 0)
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_12b0
 
 @Cond_1296:
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_12b0
 
 @Label_12b0:

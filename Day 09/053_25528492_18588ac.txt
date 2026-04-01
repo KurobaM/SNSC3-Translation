@@ -427,7 +427,7 @@ code0479        0, 4, 17
 code047d        0, 108
 call            @Func_21ce
 call            @Func_2114
-dialogtxt       "I-I'm okay…"
+dialogtxt       "I—I'm okay…"
 dialogtxt       "But this is a bit…"
 dialogtxt       "Hurry!"
 code047b        

@@ -174,7 +174,7 @@ goto            @Cond_083a
 
 @Cond_083a:
 jumpz           @Cond_093a, ($b003 == 3)
-dialogtxt       "Th-This is the second time."
+dialogtxt       "Th—This is the second time."
 dialogtxt       "I have no idea what is going on."
 dialogtxt       "But I'm not scared. Not at all."
 code047b        

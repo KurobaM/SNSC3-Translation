@@ -183,7 +183,7 @@ goto            @Cond_0628
 
 @Cond_0628:
 jumpz           @Cond_066c, ($b003 == 3)
-dialogtxt       "Th-That was just"
+dialogtxt       "Th—That was just"
 dialogtxt       "a liiiitle bit dangerous…"
 goto            @Cond_066c
 

@@ -190,7 +190,7 @@ code0309
 call            @Func_137e
 code0479        0, 11, 17
 call            @Func_12dc
-dialogtxt       "W-Wha-"
+dialogtxt       "W—Wha—"
 dialogtxt       "Where did that come from!?"
 code0309        
 call            @Func_1312

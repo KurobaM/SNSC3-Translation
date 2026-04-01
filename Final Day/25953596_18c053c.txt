@@ -57,7 +57,7 @@ code0479        0, 4, 16
 call            @Func_0e12
 dialogtxt       "Thanks to the Demon Stone,"
 dialogtxt       "the villagers all…"
-dialogtxt       "I-"
+dialogtxt       "I—"
 code0309        
 call            @Func_0e48
 code0479        1, 2, 15

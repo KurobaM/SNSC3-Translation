@@ -275,7 +275,7 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_1fe0
 call            @Func_1f26
-dialogtxt       "B-Brooo…"
+dialogtxt       "B—Brooo…"
 code047b        
 code0309        
 call            @Func_2036

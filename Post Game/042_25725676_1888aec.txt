@@ -71,7 +71,7 @@ code047d        1, 108
 call            @Func_2384
 call            @Func_22ec
 dialogtxt       "What!?"
-dialogtxt       "Y-You guys… really…"
+dialogtxt       "Y—You guys… really…"
 dialogtxt       "Saved up one million Boam…"
 code047b        
 code0309        
@@ -86,7 +86,7 @@ code030c
 call            @Func_2340
 code0479        0, 7, 13
 call            @Func_229e
-dialogtxt       "T-Thanks, Master."
+dialogtxt       "T—Thanks, Master."
 code0309        
 call            @Func_22d4
 code0479        1, 0, 13

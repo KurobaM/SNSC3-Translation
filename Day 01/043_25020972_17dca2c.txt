@@ -297,7 +297,7 @@ code0309
 call            @Func_145e
 code0479        1, 1, 12
 call            @Func_1494
-dialogtxt       "Y-Yes!"
+dialogtxt       "Y—Yes!"
 dialogtxt       "Of course!"
 code0309        
 call            @Func_1538

@@ -56,7 +56,7 @@ code0309
 call            @Func_1026
 code0479        0, 4, 14
 call            @Func_0f84
-dialogtxt       "O-Oh, okay…"
+dialogtxt       "O—Oh, okay…"
 code0309        
 call            @Func_0fba
 code0479        1, 2, 12

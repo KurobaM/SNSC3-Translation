@@ -165,7 +165,7 @@ goto            @Cond_06c6
 
 @Cond_06c6:
 jumpz           @Cond_085e, ($b003 == 3)
-dialogtxt       "W-Without permission?"
+dialogtxt       "W—Without permission?"
 code0309        
 call            @Func_0ede
 code0479        0, 0, 14

@@ -111,12 +111,12 @@ call            @Func_19d0
 call            @Func_18f8
 jumpz           @Cond_04ce, ($b002 == 0)
 dialogtxt       "H… Hey…"
-dialogtxt       "W-What is this…"
+dialogtxt       "W—What is this…"
 goto            @Label_04f8
 
 @Cond_04ce:
 dialogtxt       "H… Hey…"
-dialogtxt       "W-What is this…"
+dialogtxt       "W—What is this…"
 goto            @Label_04f8
 
 @Label_04f8:
@@ -210,13 +210,13 @@ code047d        0, 0
 call            @Func_19d0
 call            @Func_1916
 jumpz           @Cond_082c, ($b002 == 0)
-dialogtxt       "H-Hey!"
+dialogtxt       "H—Hey!"
 dialogtxt       "Are…"
 dialogtxt       "Are you okay?"
 goto            @Label_085c
 
 @Cond_082c:
-dialogtxt       "H-Hey!"
+dialogtxt       "H—Hey!"
 dialogtxt       "Are…"
 dialogtxt       "Are you okay?"
 goto            @Label_085c
@@ -253,7 +253,7 @@ call            @Func_19b8
 code0479        0, 5, 16
 call            @Func_1916
 dialogtxt       "Eh?"
-dialogtxt       "What do you-"
+dialogtxt       "What do you—"
 code0309        
 call            @Func_194c
 code0479        1, 1, 13

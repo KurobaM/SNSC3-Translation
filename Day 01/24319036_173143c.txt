@@ -55,7 +55,7 @@ code0309
 call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
-dialogtxt       "U-Uh, this is just for practice!"
+dialogtxt       "U—Uh, this is just for practice!"
 dialogtxt       "You'll understand if you just do it!"
 goto            @Label_0386
 
@@ -98,7 +98,7 @@ code0309
 call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
-dialogtxt       "U-Uh, this is for practice!"
+dialogtxt       "U—Uh, this is for practice!"
 dialogtxt       "You'll understand if you just do it!"
 goto            @Label_063e
 
@@ -140,7 +140,7 @@ code0309
 call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
-dialogtxt       "I-It's good enough!"
+dialogtxt       "I—It's good enough!"
 dialogtxt       "This is just for practice anyway!"
 goto            @Label_08ce
 
@@ -184,7 +184,7 @@ code0309
 call            @Func_4758
 code0479        0, 1, 16
 call            @Func_46b6
-dialogtxt       "U-Uh, this is for practice!"
+dialogtxt       "U—Uh, this is for practice!"
 dialogtxt       "You'll understand if you just do it!"
 goto            @Label_0b90
 
@@ -423,7 +423,7 @@ code0309
 call            @Func_4758
 code0479        0, 1, 17
 call            @Func_46b6
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_150e
 
 @Label_150e:
@@ -473,7 +473,7 @@ code0309
 call            @Func_46ec
 code0479        1, 5, 17
 call            @Func_4722
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 code0309        
 code0479        1, 7, 12
 dialogtxt       "Cut the chatter."
@@ -680,7 +680,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 15
 call            @Func_4722
-dialogtxt       "N-No!"
+dialogtxt       "N—No!"
 dialogtxt       "I just don't trust that woman."
 code0309        
 call            @Func_4758
@@ -697,7 +697,7 @@ call            @Func_46ec
 code0479        1, 5, 17
 call            @Func_4722
 dialogtxt       "No!"
-dialogtxt       "That's not-"
+dialogtxt       "That's not—"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12
@@ -916,7 +916,7 @@ call            @Func_46ec
 code0479        1, 5, 14
 call            @Func_4722
 dialogtxt       "ME worried about her!?"
-dialogtxt       "Why would I-"
+dialogtxt       "Why would I—"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12
@@ -1499,7 +1499,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 14
 call            @Func_4722
-dialogtxt       "D-Don't worry…"
+dialogtxt       "D—Don't worry…"
 dialogtxt       "I'm here with you, so it will"
 dialogtxt       "definitely be okay…!"
 code0309        
@@ -1515,7 +1515,7 @@ code0309
 call            @Func_46ec
 code0479        1, 2, 15
 call            @Func_4722
-dialogtxt       "S-Same to you!"
+dialogtxt       "S—Same to you!"
 code0309        
 call            @Func_4758
 code0479        0, 1, 12

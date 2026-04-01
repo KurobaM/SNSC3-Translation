@@ -125,7 +125,7 @@ code0479        0, 5, 16
 code047d        0, 2
 call            @Func_1802
 call            @Func_1748
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 dialogtxt       "I don't know about them,"
 dialogtxt       "but I had no such plans…"
 code047b        
@@ -187,7 +187,7 @@ call            @Func_17ea
 @Label_0950:
 code0479        0, 5, 17
 call            @Func_1748
-dialogtxt       "W-What!?"
+dialogtxt       "W—What!?"
 dialogtxt       "I wasn't…!"
 goto            @Label_09c8
 

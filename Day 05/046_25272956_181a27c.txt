@@ -115,7 +115,7 @@ code0309
 call            @Func_2ab2
 code0479        0, 1, 12
 call            @Func_2a10
-dialogtxt       "R-Really…?"
+dialogtxt       "R—Really…?"
 dialogtxt       "Ehehe…"
 code0309        
 call            @Func_2b36

@@ -732,7 +732,7 @@ code047d        1, 2
 call            @Func_3958
 call            @Func_38f4
 jumpz           @Cond_1cf6, ($b003 == 0)
-dialogtxt       "A-Affirmative…"
+dialogtxt       "A—Affirmative…"
 goto            @Cond_1cf6
 
 @Cond_1cf6:
@@ -748,7 +748,7 @@ goto            @Cond_1d44
 
 @Cond_1d44:
 jumpz           @Cond_1d6c, ($b003 == 3)
-dialogtxt       "Y-Yes, of course…"
+dialogtxt       "Y—Yes, of course…"
 goto            @Cond_1d6c
 
 @Cond_1d6c:

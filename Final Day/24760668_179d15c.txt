@@ -49,7 +49,7 @@ code0309
 call            @Func_3a36
 code0479        0, 2, 16
 call            @Func_3994
-dialogtxt       "I-"
+dialogtxt       "I—"
 jumpz           @Cond_021e, ($b002 == 0)
 dialogtxt       "I guess you're right…"
 goto            @Label_022e
@@ -132,7 +132,7 @@ code0309
 call            @Func_3a36
 code0479        0, 5, 16
 call            @Func_3994
-dialogtxt       "I-"
+dialogtxt       "I—"
 jumpz           @Cond_04aa, ($b002 == 0)
 dialogtxt       "… My bad."
 goto            @Label_04b8

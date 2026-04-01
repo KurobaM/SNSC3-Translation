@@ -230,7 +230,7 @@ code0309
 call            @Func_143a
 code0479        0, 11, 17
 call            @Func_1398
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 code047b        
 code0309        
 call            @Func_14d4

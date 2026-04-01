@@ -502,12 +502,12 @@ code043c        7, 3
 code0479        0, 5, 16
 call            @Func_1f60
 jumpz           @Cond_185a, ($b002 == 0)
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "You…"
 goto            @Label_1876
 
 @Cond_185a:
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "You…"
 goto            @Label_1876
 

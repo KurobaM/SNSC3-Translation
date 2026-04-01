@@ -11,7 +11,7 @@ code0479        0, 5, 17
 code047d        0, 106
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "I-It's you!"
+dialogtxt       "I—It's you!"
 code047b        
 code0309        
 call            @Func_1628
@@ -118,7 +118,7 @@ code0479        0, 0, 15
 code047d        0, 120
 call            @Func_15fe
 call            @Func_14fa
-dialogtxt       "Then, hurry up and-"
+dialogtxt       "Then, hurry up and—"
 code047b        
 code0309        
 call            @Func_154e
@@ -190,11 +190,11 @@ code0309
 call            @Func_154e
 code0479        1, 2, 15
 call            @Func_1584
-dialogtxt       "What did you say, you-"
+dialogtxt       "What did you say, you—"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "First of all, SHE ran into ME."
-dialogtxt       "And didn't even apologize, so-"
+dialogtxt       "And didn't even apologize, so—"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 12

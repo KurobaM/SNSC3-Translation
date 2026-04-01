@@ -25,7 +25,7 @@ dialogtxt       "Quit running away and face me!"
 goto            @Label_01be
 
 @Cond_0178:
-dialogtxt       "Hey, is that-"
+dialogtxt       "Hey, is that—"
 dialogtxt       "You're still around, huh?"
 dialogtxt       "Come back you coward!"
 goto            @Label_01be

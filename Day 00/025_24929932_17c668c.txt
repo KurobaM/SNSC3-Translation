@@ -335,7 +335,7 @@ code0309
 call            @Func_2c6c
 code0479        1, 2, 15
 call            @Func_2ca2
-dialogtxt       "D-Damn it!"
+dialogtxt       "D—Damn it!"
 code0309        
 call            @Func_2d72
 call            @Func_2cc0
@@ -414,7 +414,7 @@ code0309
 call            @Func_2cd8
 code0479        0, 5, 17
 call            @Func_2c36
-dialogtxt       "What!? You-!"
+dialogtxt       "What!? You—!"
 goto            @Label_1250
 
 @Label_1250:
@@ -619,7 +619,7 @@ code0309
 call            @Func_2cd8
 code0479        0, 4, 12
 call            @Func_2c36
-dialogtxt       "I-I'm so sorry!"
+dialogtxt       "I—I'm so sorry!"
 code0309        
 call            @Func_2c6c
 code043c        1, 3

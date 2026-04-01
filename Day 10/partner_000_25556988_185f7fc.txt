@@ -796,7 +796,7 @@ code0309
 call            @Func_2ff8
 code0479        1, 1, 16
 call            @Func_302e
-dialogtxt       "A-Ahaha…"
+dialogtxt       "A—Ahaha…"
 dialogtxt       "We've reached an impasse…"
 dialogtxt       "Hmm, maybe…"
 code0309        
@@ -886,7 +886,7 @@ code030c
 call            @Func_2ff8
 code0479        1, 2, 14
 call            @Func_302e
-dialogtxt       "I-Is that so…"
+dialogtxt       "I—Is that so…"
 dialogtxt       "If you insist,"
 dialogtxt       "then I have no choice."
 code0309        

@@ -1075,7 +1075,7 @@ code0479        0, 4, 14
 code047d        0, 110
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "S-Such power!"
+dialogtxt       "S—Such power!"
 dialogtxt       "At this rate!"
 code0309        
 call            @Func_43d0

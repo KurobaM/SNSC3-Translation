@@ -199,7 +199,7 @@ call            @Func_48ba
 code0479        0, 4, 12
 call            @Func_4818
 dialogtxt       "I Am Not."
-dialogtxt       "Then What Action Should We-"
+dialogtxt       "Then What Action Should We—"
 code0309        
 call            @Func_484e
 code0479        1, 0, 12
@@ -399,7 +399,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master!?"
+dialogtxt       "M—Master!?"
 dialogtxt       "You're too loud!"
 code047b        
 code0309        
@@ -448,7 +448,7 @@ code0309
 call            @Func_484e
 code0479        1, 1, 15
 call            @Func_4884
-dialogtxt       "That's not what-"
+dialogtxt       "That's not what—"
 code0309        
 call            @Func_4928
 call            @Func_48ba
@@ -459,7 +459,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master…"
+dialogtxt       "M—Master…"
 dialogtxt       "Keep it down…"
 code047b        
 code0309        
@@ -561,7 +561,7 @@ code0309
 call            @Func_48ba
 code0479        0, 4, 16
 call            @Func_4818
-dialogtxt       "I-Is that so…"
+dialogtxt       "I—Is that so…"
 dialogtxt       "My apologies."
 code0309        
 call            @Func_4954
@@ -717,7 +717,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master!?"
+dialogtxt       "M—Master!?"
 dialogtxt       "You're too loud!"
 code047b        
 code0309        
@@ -1032,7 +1032,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master!?"
+dialogtxt       "M—Master!?"
 dialogtxt       "You're too loud!"
 code047b        
 code0309        
@@ -1169,7 +1169,7 @@ code0309
 call            @Func_484e
 code0479        1, 4, 12
 call            @Func_4884
-dialogtxt       "Y-You don't have to do that."
+dialogtxt       "Y—You don't have to do that."
 code0309        
 call            @Func_48ba
 code0479        0, 2, 14
@@ -1336,7 +1336,7 @@ code047d        0, 0
 call            @Func_48d2
 code047c        0, 24
 call            @Func_4818
-dialogtxt       "M-Master!?"
+dialogtxt       "M—Master!?"
 dialogtxt       "You're too loud!"
 code047b        
 code0309        
@@ -1421,7 +1421,7 @@ code0309
 call            @Func_48ba
 code0479        0, 5, 16
 call            @Func_4818
-dialogtxt       "But-"
+dialogtxt       "But—"
 code0309        
 call            @Func_484e
 code0479        1, 2, 12

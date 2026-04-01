@@ -464,7 +464,7 @@ code040b
 code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　Fishing Buddies Newspaper"
-dialogtxt       "　　　　　　　　　-Special Edition"
+dialogtxt       "　　　　　　　　　—Special Edition"
 code0309        
 dialogtxt       "I heard that a monster fish"
 dialogtxt       "lurks in Deckell Town's very"

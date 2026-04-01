@@ -288,7 +288,7 @@ goto            @Cond_0ba4
 
 @Cond_0ba4:
 jumpz           @Cond_0c32, ($b003 == 3)
-dialogtxt       "Th-That's right!"
+dialogtxt       "Th—That's right!"
 dialogtxt       "We aren't afraid!"
 code047b        
 code0309        

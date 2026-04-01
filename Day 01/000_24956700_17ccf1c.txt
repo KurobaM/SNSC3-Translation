@@ -535,7 +535,7 @@ code030c
 call            @Func_2cfe
 code0479        1, 5, 15
 call            @Func_2d34
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "Why are you laughing!?"
 code0309        
 call            @Func_2d6a

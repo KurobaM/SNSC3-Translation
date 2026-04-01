@@ -479,12 +479,12 @@ code047d        0, 0
 call            @Func_1e9a
 call            @Func_1de0
 jumpz           @Cond_14aa, ($b002 == 0)
-dialogtxt       "L-Like a man…"
+dialogtxt       "L—Like a man…"
 dialogtxt       "Alright!"
 goto            @Label_14d4
 
 @Cond_14aa:
-dialogtxt       "L-Like a woman…"
+dialogtxt       "L—Like a woman…"
 dialogtxt       "Alright!"
 goto            @Label_14d4
 

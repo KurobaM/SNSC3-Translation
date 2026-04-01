@@ -214,7 +214,7 @@ code0309
 call            @Func_0ea2
 code0479        1, 5, 17
 call            @Func_0ed8
-dialogtxt       "I-I never said that."
+dialogtxt       "I—I never said that."
 dialogtxt       "Just that it's unpleasant."
 dialogtxt       "Anyway, please be careful!"
 code0309        

@@ -164,7 +164,7 @@ code047b
 code0301        8, 7
 code047e        1, 1
 dialogtxt       "Tiger?"
-dialogtxt       "Hmm, but no matter how I look, you-"
+dialogtxt       "Hmm, but no matter how I look, you—"
 code0309        
 code047e        1, 0
 code0302        7
@@ -192,7 +192,7 @@ code0479        0, 5, 12
 code047d        0, 0
 call            @Func_2ee8
 call            @Func_2e2e
-dialogtxt       "N-No he's not!"
+dialogtxt       "N—No he's not!"
 dialogtxt       "Right, [NAME 1]?"
 code047b        
 code0309        
@@ -202,7 +202,7 @@ code0479        1, 2, 14
 code047d        1, 2
 call            @Func_2efe
 call            @Func_2e9a
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes…"
 code047b        
 code0309        
 call            @Func_2ed0
@@ -257,7 +257,7 @@ call            @Func_2e64
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "E-Erase me!?"
+dialogtxt       "E—Erase me!?"
 dialogtxt       "What kind of Summon Beast is this!"
 code0309        
 code047e        1, 0
@@ -450,7 +450,7 @@ code0479        0, 1, 17
 code047d        0, 2
 call            @Func_2ee8
 call            @Func_2e2e
-dialogtxt       "Oh-Ohohohoho…"
+dialogtxt       "Oh—Ohohohoho…"
 dialogtxt       "That's right!"
 code0309        
 call            @Func_2f3e

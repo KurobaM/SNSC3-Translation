@@ -114,7 +114,7 @@ call            @Func_1e78
 code047d        0, 131
 call            @Func_1e90
 call            @Func_1dd6
-dialogtxt       "O-O-Of course not!"
+dialogtxt       "O—O—Of course not!"
 code047b        
 code0309        
 call            @Func_1efc
@@ -195,7 +195,7 @@ dialogtxt       "Yeah!"
 dialogtxt       "That's thanks to you too…"
 code0309        
 code0479        0, 5, 15
-dialogtxt       "… But Lemmy-"
+dialogtxt       "… But Lemmy—"
 code0309        
 call            @Func_1e0c
 code0479        1, 1, 12

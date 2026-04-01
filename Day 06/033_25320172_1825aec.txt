@@ -265,7 +265,7 @@ goto            @Cond_0b58
 
 @Cond_0b58:
 jumpz           @Cond_0de8, ($b003 == 3)
-dialogtxt       "S-She disappeared!?"
+dialogtxt       "S—She disappeared!?"
 dialogtxt       "How is that possible!?"
 code047b        
 code0309        
@@ -290,7 +290,7 @@ call            @Func_1488
 code0479        1, 2, 15
 call            @Func_14be
 dialogtxt       "Magic!?"
-dialogtxt       "T-That must be it!"
+dialogtxt       "T—That must be it!"
 dialogtxt       "It's not a ghost or anything!"
 code0309        
 call            @Func_14f4
@@ -311,7 +311,7 @@ code0309
 call            @Func_1488
 code0479        1, 1, 15
 call            @Func_14be
-dialogtxt       "E-E-E-Even if you try to scare"
+dialogtxt       "E—E—E—Even if you try to scare"
 dialogtxt       "me, you'll have to try harder!"
 code0309        
 code0479        1, 2, 14
@@ -325,11 +325,11 @@ call            @Func_14f4
 code0479        0, 2, 12
 call            @Func_1452
 jumpz           @Cond_0e2e, ($b002 == 0)
-dialogtxt       "R-Right!"
+dialogtxt       "R—Right!"
 goto            @Label_0e44
 
 @Cond_0e2e:
-dialogtxt       "R-Right!"
+dialogtxt       "R—Right!"
 goto            @Label_0e44
 
 @Label_0e44:

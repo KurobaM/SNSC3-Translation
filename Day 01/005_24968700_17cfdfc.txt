@@ -126,7 +126,7 @@ goto            @Cond_04de
 
 @Cond_04de:
 jumpz           @Cond_051e, ($b003 == 3)
-dialogtxt       "W-What happened!?"
+dialogtxt       "W—What happened!?"
 dialogtxt       "Lady Murnooo!"
 goto            @Cond_051e
 

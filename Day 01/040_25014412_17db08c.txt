@@ -39,7 +39,7 @@ code0479        1, 0, 12
 call            @Func_2282
 dialogtxt       "Umm…"
 dialogtxt       "Let's see…"
-dialogtxt       "So your portion is-"
+dialogtxt       "So your portion is—"
 code0309        
 call            @Func_2352
 call            @Func_22a0
@@ -83,7 +83,7 @@ code0479        1, 5, 17
 code047d        1, 110
 call            @Func_22fc
 call            @Func_21f8
-dialogtxt       "L-Lemmy?"
+dialogtxt       "L—Lemmy?"
 dialogtxt       "What are you doing here?"
 dialogtxt       "You should be resting!"
 code047b        
@@ -98,7 +98,7 @@ code0309
 call            @Func_22b8
 code0479        0, 4, 15
 call            @Func_2216
-dialogtxt       "This isn't-"
+dialogtxt       "This isn't—"
 dialogtxt       "You've got it all wrong, Lemmy!"
 code0309        
 call            @Func_224c
@@ -370,7 +370,7 @@ code0309
 call            @Func_22b8
 code0479        0, 2, 14
 call            @Func_2216
-dialogtxt       "You-"
+dialogtxt       "You—"
 dialogtxt       "WHAT is your problem, dude!"
 goto            @Label_12ba
 
@@ -409,7 +409,7 @@ code0309
 call            @Func_22b8
 code0479        0, 2, 16
 call            @Func_2216
-dialogtxt       "But-"
+dialogtxt       "But—"
 code0309        
 call            @Func_224c
 code0479        1, 2, 12
@@ -463,7 +463,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_22d0
 call            @Func_2216
-dialogtxt       "But-"
+dialogtxt       "But—"
 goto            @Label_1736
 
 @Label_1736:
@@ -484,11 +484,11 @@ call            @Func_22b8
 code0479        0, 2, 16
 call            @Func_2216
 jumpz           @Cond_1808, ($b002 == 0)
-dialogtxt       "You-"
+dialogtxt       "You—"
 goto            @Label_181e
 
 @Cond_1808:
-dialogtxt       "You-"
+dialogtxt       "You—"
 goto            @Label_181e
 
 @Label_181e:

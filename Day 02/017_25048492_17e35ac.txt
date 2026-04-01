@@ -54,7 +54,7 @@ goto            @Cond_0220
 
 @Cond_0220:
 jumpz           @Cond_0268, ($b003 == 3)
-dialogtxt       "I-It's a Stray Summon."
+dialogtxt       "I—It's a Stray Summon."
 dialogtxt       "It seems kinda strong…"
 goto            @Cond_0268
 
@@ -210,7 +210,7 @@ goto            @Cond_0846
 
 @Cond_0846:
 jumpz           @Cond_09bc, ($b003 == 3)
-dialogtxt       "Wh-What should we do?"
+dialogtxt       "Wh—What should we do?"
 dialogtxt       "It doesn't seem like"
 dialogtxt       "it'll just let us through…"
 code0309        
@@ -234,7 +234,7 @@ code0309
 call            @Func_1022
 code0479        1, 2, 12
 call            @Func_1058
-dialogtxt       "O-Okay."
+dialogtxt       "O—Okay."
 dialogtxt       "Together…"
 dialogtxt       "We'll definitely win!"
 code0309        

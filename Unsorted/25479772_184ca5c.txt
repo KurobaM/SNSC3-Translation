@@ -127,7 +127,7 @@ goto            @Cond_04bc
 
 @Cond_04bc:
 jumpz           @Cond_04f8, ($b003 == 3)
-dialogtxt       "A-Alright."
+dialogtxt       "A—Alright."
 dialogtxt       "I'll do my best!"
 goto            @Cond_04f8
 

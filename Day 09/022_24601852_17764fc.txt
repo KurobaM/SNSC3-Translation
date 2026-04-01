@@ -255,7 +255,7 @@ code0309
 dialogtxt       "…"
 code0309        
 dialogtxt       "Huh!?"
-dialogtxt       "I-I'm not slacking off"
+dialogtxt       "I—I'm not slacking off"
 dialogtxt       "or anything!"
 code0309        
 code047e        0, 0

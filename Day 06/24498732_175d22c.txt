@@ -155,7 +155,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "… Mm-mm."
+dialogtxt       "… Mmhmm."
 dialogtxt       "You're right."
 code0309        
 call            @Func_2fd2
@@ -365,11 +365,11 @@ dialogtxt       "Right, the hammer…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0dd6, ($b002 == 0)
-dialogtxt       "Th-There's no way I'd forget!"
+dialogtxt       "Th—There's no way I'd forget!"
 goto            @Label_0dfa
 
 @Cond_0dd6:
-dialogtxt       "H-How could I forget?"
+dialogtxt       "H—How could I forget?"
 goto            @Label_0dfa
 
 @Label_0dfa:
@@ -505,11 +505,11 @@ dialogtxt       "Right, the hammer…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_12d6, ($b002 == 0)
-dialogtxt       "I-I mean, of course not!"
+dialogtxt       "I—I mean, of course not!"
 goto            @Label_12fa
 
 @Cond_12d6:
-dialogtxt       "H-How could I forget?"
+dialogtxt       "H—How could I forget?"
 goto            @Label_12fa
 
 @Label_12fa:
@@ -790,11 +790,11 @@ dialogtxt       "Right, the hammer…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_1cfe, ($b002 == 0)
-dialogtxt       "I-I mean, of course not!"
+dialogtxt       "I—I mean, of course not!"
 goto            @Label_1d2e
 
 @Cond_1cfe:
-dialogtxt       "O-Of course not…"
+dialogtxt       "O—Of course not…"
 dialogtxt       "How could I forget?"
 goto            @Label_1d2e
 
@@ -1028,7 +1028,7 @@ code0309
 call            @Func_2fd2
 code0479        0, 1, 16
 call            @Func_2f30
-dialogtxt       "H-Hey, that's not what"
+dialogtxt       "H—Hey, that's not what"
 dialogtxt       "we're using this for!"
 code0309        
 call            @Func_306c
@@ -1057,7 +1057,7 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 16
 call            @Func_2f9c
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes…"
 dialogtxt       "It might be better if we follow"
 dialogtxt       "Gallahan's instructions…"
 code0309        

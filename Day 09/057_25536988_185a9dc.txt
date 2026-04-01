@@ -219,13 +219,13 @@ code0479        0, 5, 15
 call            @Func_1466
 jumpz           @Cond_0b92, ($b002 == 0)
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque-"
+dialogtxt       "That's an easy reque—"
 dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 
 @Cond_0b92:
 dialogtxt       "Eh! Is that it?"
-dialogtxt       "That's an easy reque-"
+dialogtxt       "That's an easy reque—"
 dialogtxt       "… Hey, wait."
 goto            @Label_0be0
 

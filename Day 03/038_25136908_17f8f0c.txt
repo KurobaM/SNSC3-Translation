@@ -86,7 +86,7 @@ code0309
 call            @Func_3044
 code0479        0, 5, 16
 call            @Func_2fa2
-dialogtxt       "S-Sure I said that, but we didn't"
+dialogtxt       "S—Sure I said that, but we didn't"
 dialogtxt       "agree to spend the night!"
 code0309        
 call            @Func_30de

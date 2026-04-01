@@ -79,7 +79,7 @@ code0309
 call            @Func_12ec
 code0479        1, 4, 16
 call            @Func_1322
-dialogtxt       "Y-You guys…"
+dialogtxt       "Y—You guys…"
 code0309        
 call            @Func_13f2
 call            @Func_1340

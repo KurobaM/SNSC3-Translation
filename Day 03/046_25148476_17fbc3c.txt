@@ -47,7 +47,7 @@ call            @Func_1864
 code0479        0, 5, 15
 call            @Func_17c2
 dialogtxt       "Ah!"
-dialogtxt       "S-Sorry!"
+dialogtxt       "S—Sorry!"
 code0309        
 call            @Func_18fe
 call            @Func_17e0

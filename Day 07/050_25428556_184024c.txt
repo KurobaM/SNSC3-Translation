@@ -160,12 +160,12 @@ call            @Func_100a
 code0479        0, 4, 14
 call            @Func_0f68
 jumpz           @Cond_089e, ($b002 == 0)
-dialogtxt       "O-Okay, fine…"
+dialogtxt       "O—Okay, fine…"
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 
 @Cond_089e:
-dialogtxt       "O-Okay, fine…"
+dialogtxt       "O—Okay, fine…"
 dialogtxt       "I'm going then."
 goto            @Label_08c2
 

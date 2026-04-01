@@ -544,11 +544,11 @@ call            @Func_4a78
 code0479        0, 2, 16
 call            @Func_49d6
 jumpz           @Cond_1604, ($b002 == 0)
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_1616
 
 @Cond_1604:
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_1616
 
 @Label_1616:
@@ -623,11 +623,11 @@ call            @Func_4a78
 code0479        0, 2, 16
 call            @Func_49d6
 jumpz           @Cond_1848, ($b002 == 0)
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_185a
 
 @Cond_1848:
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_185a
 
 @Label_185a:
@@ -1188,7 +1188,7 @@ code0309
 call            @Func_4a78
 code0479        0, 2, 14
 call            @Func_49d6
-dialogtxt       "I-I'm sure it'll be fine!"
+dialogtxt       "I—I'm sure it'll be fine!"
 dialogtxt       "Now let's go!"
 code0309        
 call            @Func_4b12

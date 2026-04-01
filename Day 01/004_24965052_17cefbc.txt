@@ -61,7 +61,7 @@ code0479        1, 4, 16
 code047d        1, 2
 call            @Func_2da6
 call            @Func_2d42
-dialogtxt       "W-What…?"
+dialogtxt       "W—What…?"
 goto            @Cond_0254
 
 @Cond_0254:
@@ -274,12 +274,12 @@ code0309
 call            @Func_2d0c
 code0479        1, 5, 17
 call            @Func_2d42
-dialogtxt       "T-That was not because I was afraid!"
+dialogtxt       "T—That was not because I was afraid!"
 dialogtxt       "Uhh, how should I put this…"
 dialogtxt       "I was happy?"
 code0309        
 code0479        1, 1, 15
-dialogtxt       "R-Right!"
+dialogtxt       "R—Right!"
 dialogtxt       "They were screams of happiness!"
 code0309        
 call            @Func_2d78

@@ -91,7 +91,7 @@ code0309
 call            @Func_11d8
 code0479        0, 5, 17
 call            @Func_1136
-dialogtxt       "T-That's not true!"
+dialogtxt       "T—That's not true!"
 dialogtxt       "Of course you can!"
 dialogtxt       "I'll even nurse you personally!"
 goto            @Label_05c8

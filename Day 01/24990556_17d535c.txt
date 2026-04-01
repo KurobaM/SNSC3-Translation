@@ -193,7 +193,7 @@ code0309
 call            @Func_20d8
 code0479        0, 11, 17
 call            @Func_2036
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 dialogtxt       "Green!? Where!?"
 goto            @Label_09c2
 
@@ -359,7 +359,7 @@ code0309
 call            @Func_20d8
 code0479        0, 2, 15
 call            @Func_2036
-dialogtxt       "Then why-"
+dialogtxt       "Then why—"
 code0309        
 call            @Func_206c
 code0479        1, 0, 13
@@ -376,7 +376,7 @@ dialogtxt       "What's wrong with you!?"
 goto            @Label_12bc
 
 @Cond_129a:
-dialogtxt       "Wha-What's wrong with you!?"
+dialogtxt       "Wha—What's wrong with you!?"
 goto            @Label_12bc
 
 @Label_12bc:

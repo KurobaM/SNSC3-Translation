@@ -309,7 +309,7 @@ code0309
 call            @Func_4034
 code0479        0, 5, 17
 call            @Func_3f92
-dialogtxt       "N-No, I haven't…"
+dialogtxt       "N—No, I haven't…"
 code0309        
 call            @Func_3fc8
 code0479        1, 0, 14
@@ -620,8 +620,8 @@ call            @Func_3fc8
 code0479        1, 11, 17
 call            @Func_4062
 call            @Func_3ffe
-dialogtxt       "Wait, y-you're a girl!?"
-dialogtxt       "I-I'm sorry."
+dialogtxt       "Wait, y—you're a girl!?"
+dialogtxt       "I—I'm sorry."
 dialogtxt       "I didn't notice!"
 code047b        
 code0309        
@@ -725,7 +725,7 @@ call            @Func_4062
 call            @Func_3fe0
 dialogtxt       "Uh…"
 dialogtxt       "Uhh… Ah…"
-dialogtxt       "D-Did… we just… ki-ki…"
+dialogtxt       "D—Did… we just… ki—ki…"
 code047b        
 code0309        
 call            @Func_4034

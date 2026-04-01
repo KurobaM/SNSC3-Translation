@@ -179,7 +179,7 @@ code0309
 call            @Func_1ff6
 code0479        0, 1, 14
 call            @Func_1f54
-dialogtxt       "O-Oh, it's nothing!"
+dialogtxt       "O—Oh, it's nothing!"
 code0309        
 call            @Func_1f8a
 code0479        0, 0, 12

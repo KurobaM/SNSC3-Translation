@@ -122,12 +122,12 @@ call            @Func_0bc6
 code0479        0, 0, 12
 call            @Func_0b24
 jumpz           @Cond_04b0, ($b002 == 0)
-dialogtxt       "S-Shut up!"
+dialogtxt       "S—Shut up!"
 dialogtxt       "I'll remember when we get there!"
 goto            @Label_04de
 
 @Cond_04b0:
-dialogtxt       "S-Shut up!"
+dialogtxt       "S—Shut up!"
 dialogtxt       "I'll remember when we get there!"
 goto            @Label_04de
 

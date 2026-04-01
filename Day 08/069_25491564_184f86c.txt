@@ -81,7 +81,7 @@ code0309
 call            @Func_0d6c
 code0479        1, 5, 15
 call            @Func_0da2
-dialogtxt       "Wh-Wh-Wh-What!"
+dialogtxt       "Wh—Wh—Wh—What!"
 dialogtxt       "Ah, I got it!"
 dialogtxt       "That man… Er… Woman…"
 code0309        
@@ -131,7 +131,7 @@ code0309
 call            @Func_0dd8
 code0479        0, 7, 15
 call            @Func_0d36
-dialogtxt       "Th-Thanks, Tier."
+dialogtxt       "Th—Thanks, Tier."
 dialogtxt       "Your feelings alone are"
 dialogtxt       "more than enough."
 code0309        

@@ -156,7 +156,7 @@ goto            @Cond_0610
 
 @Cond_0610:
 jumpz           @Cond_0644, ($b003 == 3)
-dialogtxt       "T-This person…"
+dialogtxt       "T—This person…"
 dialogtxt       "He's an enemy, right!?"
 goto            @Cond_0644
 
@@ -171,7 +171,7 @@ code0479        0, 5, 15
 code047d        0, 0
 call            @Func_247c
 call            @Func_23a4
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "[NAME 1]!?"
 code047b        
 code0309        
@@ -347,7 +347,7 @@ goto            @Cond_0e1e
 
 @Cond_0e1e:
 jumpz           @Cond_0e7c, ($b003 == 3)
-dialogtxt       "T-This man is your Bro?"
+dialogtxt       "T—This man is your Bro?"
 dialogtxt       "I was sure he was a villian!"
 goto            @Cond_0e7c
 
@@ -408,7 +408,7 @@ goto            @Cond_1054
 
 @Cond_1054:
 jumpz           @Cond_10a2, ($b003 == 3)
-dialogtxt       "B-But…"
+dialogtxt       "B—But…"
 dialogtxt       "Just look at his face!"
 dialogtxt       "Doesn't he look like a bully?"
 goto            @Cond_10a2
@@ -527,7 +527,7 @@ code0309
 call            @Func_23f8
 code0479        1, 5, 16
 call            @Func_242e
-dialogtxt       "W-Why are you crying!?"
+dialogtxt       "W—Why are you crying!?"
 dialogtxt       "It's not malfunctioning, is it…?"
 code0309        
 call            @Func_24fe
@@ -592,7 +592,7 @@ code0309
 call            @Func_2464
 code0479        0, 3, 14
 call            @Func_23c2
-dialogtxt       "L-Like you!?"
+dialogtxt       "L—Like you!?"
 code0309        
 call            @Func_24fe
 call            @Func_23e0
@@ -616,7 +616,7 @@ code0309
 code0479        0, 2, 12
 dialogtxt       "I'll have you know,"
 dialogtxt       "I am quite strong!"
-dialogtxt       "I'm not a-afraid of you!"
+dialogtxt       "I'm not a—afraid of you!"
 code0309        
 call            @Func_23f8
 code0479        1, 1, 13

@@ -239,13 +239,13 @@ call            @Func_1f8e
 jumpz           @Cond_0b7e, ($b002 == 0)
 dialogtxt       "I told you,"
 dialogtxt       "I've trained and become strong!"
-dialogtxt       "Now, even Master's enemies will-"
+dialogtxt       "Now, even Master's enemies will—"
 goto            @Label_0bc8
 
 @Cond_0b7e:
 dialogtxt       "I told you,"
 dialogtxt       "I've trained and become strong!"
-dialogtxt       "Now, even Master's enemies will-"
+dialogtxt       "Now, even Master's enemies will—"
 goto            @Label_0bc8
 
 @Label_0bc8:

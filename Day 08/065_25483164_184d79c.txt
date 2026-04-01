@@ -231,7 +231,7 @@ code0309
 call            @Func_2744
 code0479        0, 1, 14
 call            @Func_26a2
-dialogtxt       "Th-That's kinda scary…"
+dialogtxt       "Th—That's kinda scary…"
 code0309        
 call            @Func_27de
 call            @Func_26c0

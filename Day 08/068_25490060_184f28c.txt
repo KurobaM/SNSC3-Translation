@@ -151,7 +151,7 @@ code0309
 call            @Func_0f0e
 code0479        0, 2, 14
 call            @Func_0e6c
-dialogtxt       "S-Suspicious."
+dialogtxt       "S—Suspicious."
 dialogtxt       "Very suspicious…"
 code0309        
 call            @Func_0fa8

@@ -92,7 +92,7 @@ goto            @Cond_037e
 
 @Cond_037e:
 jumpz           @Cond_03d4, ($b003 == 3)
-dialogtxt       "L-Look over there!"
+dialogtxt       "L—Look over there!"
 dialogtxt       "That must be lava!"
 dialogtxt       "So that's why it's so hot…"
 goto            @Cond_03d4

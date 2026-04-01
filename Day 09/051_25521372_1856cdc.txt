@@ -591,11 +591,11 @@ code047d        0, 0
 call            @Func_2490
 call            @Func_23d6
 jumpz           @Cond_1870, ($b002 == 0)
-dialogtxt       "Y-You!"
+dialogtxt       "Y—You!"
 goto            @Label_188a
 
 @Cond_1870:
-dialogtxt       "Y-You!"
+dialogtxt       "Y—You!"
 goto            @Label_188a
 
 @Label_188a:

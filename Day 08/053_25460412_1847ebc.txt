@@ -319,12 +319,12 @@ code0479        0, 2, 14
 call            @Func_203a
 call            @Func_1f62
 jumpz           @Cond_0dc2, ($b002 == 0)
-dialogtxt       "O-Ow…"
+dialogtxt       "O—Ow…"
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 
 @Cond_0dc2:
-dialogtxt       "O-Ow…"
+dialogtxt       "O—Ow…"
 dialogtxt       "Owowowow!"
 goto            @Label_0de4
 

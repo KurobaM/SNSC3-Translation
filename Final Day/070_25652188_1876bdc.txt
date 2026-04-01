@@ -523,11 +523,11 @@ code047d        0, 0
 call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_17d8, ($b002 == 0)
-dialogtxt       "A-Anise!?"
+dialogtxt       "A—Anise!?"
 goto            @Label_17f0
 
 @Cond_17d8:
-dialogtxt       "A-Anise!?"
+dialogtxt       "A—Anise!?"
 goto            @Label_17f0
 
 @Label_17f0:
@@ -619,25 +619,25 @@ call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_1c2a, ($b003 == 0)
 dialogtxt       "Could It Be?"
-dialogtxt       "Her Summon Is-"
+dialogtxt       "Her Summon Is—"
 goto            @Cond_1c2a
 
 @Cond_1c2a:
 jumpz           @Cond_1c60, ($b003 == 1)
 dialogtxt       "Could it be?"
-dialogtxt       "Her Summon is-"
+dialogtxt       "Her Summon is—"
 goto            @Cond_1c60
 
 @Cond_1c60:
 jumpz           @Cond_1c96, ($b003 == 2)
 dialogtxt       "Could it be?"
-dialogtxt       "Her Summon is-"
+dialogtxt       "Her Summon is—"
 goto            @Cond_1c96
 
 @Cond_1c96:
 jumpz           @Cond_1ccc, ($b003 == 3)
 dialogtxt       "Could it be?"
-dialogtxt       "Her Summon is-"
+dialogtxt       "Her Summon is—"
 goto            @Cond_1ccc
 
 @Cond_1ccc:
@@ -688,13 +688,13 @@ code047d        0, 0
 call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_1f7e, ($b002 == 0)
-dialogtxt       "I-It's mad!?"
+dialogtxt       "I—It's mad!?"
 dialogtxt       "Wait!"
 dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe
 
 @Cond_1f7e:
-dialogtxt       "I-It's mad!?"
+dialogtxt       "I—It's mad!?"
 dialogtxt       "Wait!"
 dialogtxt       "I didn't do anything!"
 goto            @Label_1fbe
@@ -1040,13 +1040,13 @@ call            @Func_4486
 jumpz           @Cond_2f32, ($b002 == 0)
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_2f60
 
 @Cond_2f32:
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_2f60
 
 @Label_2f60:
@@ -1099,7 +1099,7 @@ code033e        378
 call            @Func_4556
 code0479        1, 0, 12
 call            @Func_44d4
-dialogtxt       "This Is-"
+dialogtxt       "This Is—"
 dialogtxt       "The Demonic Pillar Is Reacting?"
 goto            @Cond_3136
 
@@ -1117,13 +1117,13 @@ call            @Func_4486
 jumpz           @Cond_31d8, ($b002 == 0)
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_3206
 
 @Cond_31d8:
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_3206
 
 @Label_3206:
@@ -1176,7 +1176,7 @@ code033e        378
 call            @Func_4556
 code0479        1, 5, 16
 call            @Func_44d4
-dialogtxt       "This is-"
+dialogtxt       "This is—"
 dialogtxt       "The demonic pillar is reacting?"
 goto            @Cond_33e0
 
@@ -1193,13 +1193,13 @@ call            @Func_4486
 jumpz           @Cond_347c, ($b002 == 0)
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_34aa
 
 @Cond_347c:
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_34aa
 
 @Label_34aa:
@@ -1252,7 +1252,7 @@ code033e        378
 call            @Func_4556
 code0479        1, 2, 14
 call            @Func_44d4
-dialogtxt       "This is-"
+dialogtxt       "This is—"
 dialogtxt       "The demonic pillar is reacting?"
 goto            @Cond_367a
 
@@ -1269,13 +1269,13 @@ call            @Func_4486
 jumpz           @Cond_370c, ($b002 == 0)
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_373a
 
 @Cond_370c:
 dialogtxt       "What?"
 dialogtxt       "It's… hot?"
-dialogtxt       "This-"
+dialogtxt       "This—"
 goto            @Label_373a
 
 @Label_373a:
@@ -1328,7 +1328,7 @@ code033e        378
 call            @Func_4556
 code0479        1, 2, 14
 call            @Func_44d4
-dialogtxt       "This is-"
+dialogtxt       "This is—"
 dialogtxt       "The demonic pillar is reacting?"
 goto            @Cond_3918
 

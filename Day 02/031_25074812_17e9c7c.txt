@@ -786,7 +786,7 @@ code0479        0, 0, 15
 code047d        0, 120
 call            @Func_2c3c
 call            @Func_2b64
-dialogtxt       "U-Uwaah!?"
+dialogtxt       "U—Uwaah!?"
 code047b        
 code0309        
 call            @Func_2c92
@@ -894,7 +894,7 @@ goto            @Label_2332
 @Label_2332:
 call            @Func_2c3c
 call            @Func_2b64
-dialogtxt       "T-This is…"
+dialogtxt       "T—This is…"
 code047b        
 code0309        
 call            @Func_2c92
@@ -941,7 +941,7 @@ code047d        1, 2
 call            @Func_2c52
 call            @Func_2bee
 jumpz           @Cond_24c2, ($b003 == 0)
-dialogtxt       "A-Affirmative!"
+dialogtxt       "A—Affirmative!"
 goto            @Cond_24c2
 
 @Cond_24c2:

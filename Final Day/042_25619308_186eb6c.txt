@@ -274,28 +274,28 @@ call            @Func_2318
 call            @Func_225e
 jumpz           @Cond_0e96, ($b003 == 0)
 dialogtxt       "Lord Wellman's Conduct Is Suspect."
-dialogtxt       "The Reason-"
+dialogtxt       "The Reason—"
 goto            @Cond_0e96
 
 @Cond_0e96:
 jumpz           @Cond_0efa, ($b003 == 1)
 dialogtxt       "However, Lord Wellman seems much"
 dialogtxt       "different from before!"
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0efa
 
 @Cond_0efa:
 jumpz           @Cond_0f62, ($b003 == 2)
 dialogtxt       "You should have noticed"
 dialogtxt       "Wellman acting strange."
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0f62
 
 @Cond_0f62:
 jumpz           @Cond_0fc0, ($b003 == 3)
 dialogtxt       "But something is strange"
 dialogtxt       "about Lord Wellman!"
-dialogtxt       "Maybe-"
+dialogtxt       "Maybe—"
 goto            @Cond_0fc0
 
 @Cond_0fc0:
@@ -437,7 +437,7 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_2318
 call            @Func_2240
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "Ah, Bro!"
 code047b        
 code0309        

@@ -128,7 +128,7 @@ code0309
 call            @Func_13f8
 code0479        1, 5, 15
 call            @Func_142e
-dialogtxt       "Wait, but-!"
+dialogtxt       "Wait, but—!"
 code0309        
 call            @Func_1464
 code0479        0, 2, 14
@@ -211,7 +211,7 @@ code0309
 call            @Func_13f8
 code0479        1, 5, 17
 call            @Func_142e
-dialogtxt       "B-But…"
+dialogtxt       "B—But…"
 code0309        
 call            @Func_1464
 code0479        0, 2, 14

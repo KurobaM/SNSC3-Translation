@@ -125,7 +125,7 @@ code0309
 call            @Func_18ee
 code0479        0, 4, 16
 call            @Func_184c
-dialogtxt       "Th-They're…"
+dialogtxt       "Th—They're…"
 dialogtxt       "at Lute Grotto…"
 code0309        
 call            @Func_1972
@@ -223,7 +223,7 @@ code0309
 call            @Func_1882
 code0479        1, 5, 16
 call            @Func_18b8
-dialogtxt       "O-Oh, is that so?"
+dialogtxt       "O—Oh, is that so?"
 dialogtxt       "Well, if there's nothing else,"
 dialogtxt       "we'll be off."
 code0309        

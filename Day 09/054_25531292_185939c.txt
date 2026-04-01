@@ -780,13 +780,13 @@ call            @Func_29dc
 call            @Func_2944
 jumpz           @Cond_221a, ($b002 == 0)
 dialogtxt       "Eh!?"
-dialogtxt       "Wh-Why!?"
+dialogtxt       "Wh—Why!?"
 dialogtxt       "Did I say something wrong!?"
 goto            @Label_2262
 
 @Cond_221a:
 dialogtxt       "Eh!?"
-dialogtxt       "Wh-Why!?"
+dialogtxt       "Wh—Why!?"
 dialogtxt       "Did I say something wrong!?"
 goto            @Label_2262
 

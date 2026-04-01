@@ -513,7 +513,7 @@ code047d        0, 0
 call            @Func_43fc
 call            @Func_4342
 jumpz           @Cond_1520, ($b002 == 0)
-dialogtxt       "H-Husband!?"
+dialogtxt       "H—Husband!?"
 goto            @Label_1546
 
 @Cond_1520:
@@ -722,7 +722,7 @@ code0479        1, 5, 17
 code047d        1, 0
 call            @Func_4412
 call            @Func_43ae
-dialogtxt       "H-Hey! Wait…"
+dialogtxt       "H—Hey! Wait…"
 code047b        
 code0309        
 call            @Func_43e4
@@ -1115,7 +1115,7 @@ call            @Func_43e4
 code0479        0, 5, 16
 call            @Func_43fc
 call            @Func_4342
-dialogtxt       "D-Dad…"
+dialogtxt       "D—Dad…"
 code047b        
 code0309        
 call            @Func_4378

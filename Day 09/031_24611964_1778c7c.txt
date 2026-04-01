@@ -402,7 +402,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Wh-What's up with you?"
+dialogtxt       "Wh—What's up with you?"
 code0309        
 dialogtxt       "You trying to say a member"
 dialogtxt       "of the Gold Faction shouldn't play"

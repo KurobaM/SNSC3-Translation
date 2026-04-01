@@ -159,7 +159,7 @@ call            @Func_2940
 code0479        0, 2, 15
 call            @Func_289e
 jumpz           @Cond_0792, ($b003 == 0)
-dialogtxt       "T-Thief!?"
+dialogtxt       "T—Thief!?"
 jumpz           @Cond_06be, ($b002 == 0)
 dialogtxt       "What's that supposed to mean!?"
 goto            @Label_06de
@@ -191,7 +191,7 @@ goto            @Cond_0792
 
 @Cond_0792:
 jumpz           @Cond_0916, ($b003 == 1)
-dialogtxt       "T-Thief!?"
+dialogtxt       "T—Thief!?"
 jumpz           @Cond_07e0, ($b002 == 0)
 dialogtxt       "What's that supposed to mean!?"
 goto            @Label_07f8
@@ -222,11 +222,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_08f4, ($b002 == 0)
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0912
 
 @Cond_08f4:
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0912
 
 @Label_0912:
@@ -234,7 +234,7 @@ goto            @Cond_0916
 
 @Cond_0916:
 jumpz           @Cond_0a92, ($b003 == 2)
-dialogtxt       "T-Thief!?"
+dialogtxt       "T—Thief!?"
 jumpz           @Cond_0964, ($b002 == 0)
 dialogtxt       "What's that supposed to mean!?"
 goto            @Label_097c
@@ -266,11 +266,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_0a70, ($b002 == 0)
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0a8e
 
 @Cond_0a70:
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0a8e
 
 @Label_0a8e:
@@ -278,7 +278,7 @@ goto            @Cond_0a92
 
 @Cond_0a92:
 jumpz           @Cond_0c20, ($b003 == 3)
-dialogtxt       "T-Thief!?"
+dialogtxt       "T—Thief!?"
 jumpz           @Cond_0ae0, ($b002 == 0)
 dialogtxt       "What's that supposed to mean!?"
 goto            @Label_0af8
@@ -310,11 +310,11 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_289e
 jumpz           @Cond_0bfe, ($b002 == 0)
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0c1c
 
 @Cond_0bfe:
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0c1c
 
 @Label_0c1c:
@@ -776,7 +776,7 @@ goto            @Cond_208a
 @Cond_208a:
 jumpz           @Cond_229a, ($b003 == 3)
 dialogtxt       "Phantom Dragon…"
-dialogtxt       "T-This beast is the town's"
+dialogtxt       "T—This beast is the town's"
 dialogtxt       "Guardian Beast…"
 code047b        
 code0309        

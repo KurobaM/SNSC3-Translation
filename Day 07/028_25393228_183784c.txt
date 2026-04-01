@@ -41,7 +41,7 @@ code047d        1, 135
 call            @Func_304a
 call            @Func_2fe6
 dialogtxt       "Thanks."
-dialogtxt       "Well then, shall we-"
+dialogtxt       "Well then, shall we—"
 code047b        
 code0309        
 call            @Func_30b6
@@ -545,7 +545,7 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_304a
 call            @Func_2fc8
-dialogtxt       "H-Hey, you okay!?"
+dialogtxt       "H—Hey, you okay!?"
 code047b        
 code0309        
 call            @Func_301c
@@ -554,7 +554,7 @@ code0479        0, 4, 16
 code047d        0, 135
 call            @Func_3034
 call            @Func_2f7a
-dialogtxt       "T-The… S-Summonite…"
+dialogtxt       "T—The… S—Summonite…"
 dialogtxt       "Where is…"
 code047b        
 code0309        

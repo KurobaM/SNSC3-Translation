@@ -49,7 +49,7 @@ code0309
 call            @Func_209e
 code0479        0, 6, 15
 call            @Func_1ffc
-dialogtxt       "Sh-Shut up!"
+dialogtxt       "Sh—Shut up!"
 dialogtxt       "I was in a rush!"
 code0309        
 call            @Func_2032
@@ -64,7 +64,7 @@ code0309
 call            @Func_209e
 code0479        0, 2, 14
 call            @Func_1ffc
-dialogtxt       "I-I'm here to pick a Kicker Berry!"
+dialogtxt       "I—I'm here to pick a Kicker Berry!"
 dialogtxt       "From the forest just ahead!"
 code0309        
 call            @Func_2032
@@ -325,13 +325,13 @@ call            @Func_204a
 jumpz           @Cond_120c, ($b002 == 0)
 dialogtxt       "Ah… Hey!"
 dialogtxt       "Are you gonna be okay?"
-dialogtxt       "There are Strays ahead-"
+dialogtxt       "There are Strays ahead—"
 goto            @Label_1252
 
 @Cond_120c:
 dialogtxt       "Hey… Wait up!"
 dialogtxt       "Are you gonna be okay?"
-dialogtxt       "There are Strays ahead-"
+dialogtxt       "There are Strays ahead—"
 goto            @Label_1252
 
 @Label_1252:
@@ -453,8 +453,8 @@ code0309
 call            @Func_2032
 code0479        1, 11, 16
 call            @Func_2068
-dialogtxt       "Wha-"
-dialogtxt       "I didn't-"
+dialogtxt       "Wha—"
+dialogtxt       "I didn't—"
 code0309        
 call            @Func_209e
 code0479        0, 1, 12

@@ -190,7 +190,7 @@ code0309
 call            @Func_1c4e
 code0479        0, 2, 15
 call            @Func_1bac
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 code0309        
 call            @Func_1ce8
 call            @Func_1bca
@@ -292,9 +292,9 @@ code0479        0, 5, 15
 code047d        0, 132
 call            @Func_1c66
 call            @Func_1bac
-dialogtxt       "Y-You!"
+dialogtxt       "Y—You!"
 dialogtxt       "What did you do!?"
-dialogtxt       "Did you just kick his-!?"
+dialogtxt       "Did you just kick his—!?"
 code047b        
 code0309        
 call            @Func_1be2
@@ -390,7 +390,7 @@ code0309
 call            @Func_1c4e
 code0479        0, 5, 17
 call            @Func_1bac
-dialogtxt       "F-Fine…"
+dialogtxt       "F—Fine…"
 dialogtxt       "She's in there."
 code0309        
 call            @Func_1be2
@@ -505,7 +505,7 @@ goto            @Cond_156c
 
 @Cond_156c:
 jumpz           @Cond_1590, ($b003 == 1)
-dialogtxt       "U-Understood!"
+dialogtxt       "U—Understood!"
 goto            @Cond_1590
 
 @Cond_1590:

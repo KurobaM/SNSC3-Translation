@@ -506,7 +506,7 @@ dialogtxt       "It was just a little mistake!"
 goto            @Label_1a38
 
 @Cond_19f0:
-dialogtxt       "I'm sorry, V- Master!"
+dialogtxt       "I'm sorry, V— Master!"
 dialogtxt       "But it was just a little mistake!"
 goto            @Label_1a38
 
@@ -527,11 +527,11 @@ call            @Func_3a1a
 call            @Func_3978
 code0479        0, 5, 17
 jumpz           @Cond_1b66, ($b002 == 0)
-dialogtxt       "I-I didn't mean it like that!"
+dialogtxt       "I—I didn't mean it like that!"
 goto            @Label_1b86
 
 @Cond_1b66:
-dialogtxt       "Th-That's not what I meant!"
+dialogtxt       "Th—That's not what I meant!"
 goto            @Label_1b86
 
 @Label_1b86:
@@ -550,7 +550,7 @@ code0443        0, 16, 1
 code0443        0, 32, 1
 call            @Func_3978
 code0479        0, 1, 16
-dialogtxt       "R-Right!"
+dialogtxt       "R—Right!"
 code0309        
 call            @Func_39ae
 call            @Func_39e4
@@ -643,7 +643,7 @@ dialogtxt       "forget you!"
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Because to me…"
-dialogtxt       "You're my-"
+dialogtxt       "You're my—"
 code0309        
 call            @Func_3a1a
 code0479        0, 4, 12
@@ -653,13 +653,13 @@ call            @Func_3978
 jumpz           @Cond_22f4, ($b002 == 0)
 dialogtxt       "Looks like Master's imagination is"
 dialogtxt       "running wild once again."
-dialogtxt       "I'd better leave while-"
+dialogtxt       "I'd better leave while—"
 goto            @Label_2344
 
 @Cond_22f4:
 dialogtxt       "Looks like Master's imagination is"
 dialogtxt       "running wild once again."
-dialogtxt       "I'd better leave while-"
+dialogtxt       "I'd better leave while—"
 goto            @Label_2344
 
 @Label_2344:

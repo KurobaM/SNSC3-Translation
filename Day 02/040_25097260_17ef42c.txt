@@ -461,11 +461,11 @@ call            @Func_2fd4
 code0479        0, 2, 15
 call            @Func_2f32
 jumpz           @Cond_1594, ($b002 == 0)
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_15b0
 
 @Cond_1594:
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_15b0
 
 @Label_15b0:
@@ -648,11 +648,11 @@ call            @Func_2fd4
 code0479        0, 2, 15
 call            @Func_2f32
 jumpz           @Cond_1ea0, ($b002 == 0)
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_1ebc
 
 @Cond_1ea0:
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_1ebc
 
 @Label_1ebc:
@@ -777,7 +777,7 @@ code0309
 call            @Func_2fd4
 code0479        0, 4, 17
 call            @Func_2f32
-dialogtxt       "H-Hey…"
+dialogtxt       "H—Hey…"
 code0309        
 call            @Func_2f68
 code0479        1, 4, 16
@@ -855,11 +855,11 @@ call            @Func_2fd4
 code0479        0, 2, 15
 call            @Func_2f32
 jumpz           @Cond_2954, ($b002 == 0)
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_2970
 
 @Cond_2954:
-dialogtxt       "W-What's that supposed to mean?"
+dialogtxt       "W—What's that supposed to mean?"
 goto            @Label_2970
 
 @Label_2970:

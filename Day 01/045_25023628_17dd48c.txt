@@ -87,7 +87,7 @@ code0309
 call            @Func_1046
 code0479        1, 11, 12
 call            @Func_107c
-dialogtxt       "Y-You wanted to?"
+dialogtxt       "Y—You wanted to?"
 code0309        
 call            @Func_10b2
 code0479        0, 11, 17
@@ -160,7 +160,7 @@ call            @Func_10b2
 jumpz           @Cond_09be, ($b002 == 0)
 code0479        0, 7, 17
 call            @Func_1010
-dialogtxt       "N-No I'm not!"
+dialogtxt       "N—No I'm not!"
 dialogtxt       "But anyway, make yourself at"
 dialogtxt       "home here."
 code0309	

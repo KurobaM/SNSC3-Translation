@@ -209,7 +209,7 @@ call            @Func_1178
 code043c        3, 4
 code0479        0, 5, 13
 call            @Func_10d6
-dialogtxt       "I-I wasn't going to!"
+dialogtxt       "I—I wasn't going to!"
 dialogtxt       "Don't underestimate me!"
 code0309        
 code0479        0, 2, 12

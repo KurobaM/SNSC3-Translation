@@ -146,7 +146,7 @@ code0309
 call            @Func_110a
 code0479        1, 10, 16
 call            @Func_1140
-dialogtxt       "T-That…"
+dialogtxt       "T—That…"
 dialogtxt       "Umm…"
 code0309        
 call            @Func_1176
@@ -157,7 +157,7 @@ code0309
 call            @Func_110a
 code0479        1, 11, 12
 call            @Func_1140
-dialogtxt       "Y-Yeah, I guess…"
+dialogtxt       "Y—Yeah, I guess…"
 code0309        
 call            @Func_1176
 code0479        0, 1, 13
@@ -177,7 +177,7 @@ code0309
 call            @Func_110a
 code0479        1, 8, 16
 call            @Func_1140
-dialogtxt       "N-No, that's not …!"
+dialogtxt       "N—No, that's not …!"
 dialogtxt       "This is different…"
 code0309        
 call            @Func_1176

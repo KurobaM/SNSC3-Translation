@@ -145,7 +145,7 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_1dfe
 call            @Func_1d44
-dialogtxt       "W-Wait just a minute!"
+dialogtxt       "W—Wait just a minute!"
 code0309        
 call            @Func_1d7a
 code0479        1, 2, 14
@@ -254,7 +254,7 @@ code030c
 call            @Func_1d7a
 code0479        1, 2, 15
 call            @Func_1db0
-dialogtxt       "L-Living together!?"
+dialogtxt       "L—Living together!?"
 code0309        
 call            @Func_1e6a
 call            @Func_1de6
@@ -337,7 +337,7 @@ code0479        0, 5, 15
 code047d        0, 2
 call            @Func_1dfe
 call            @Func_1d26
-dialogtxt       "Wh-What is it with that woman?"
+dialogtxt       "Wh—What is it with that woman?"
 goto            @Cond_0ef2
 
 @Cond_0ef2:
@@ -347,7 +347,7 @@ code0479        0, 5, 14
 code047d        0, 2
 call            @Func_1dfe
 call            @Func_1d26
-dialogtxt       "Wh-What's this? This woman…"
+dialogtxt       "Wh—What's this? This woman…"
 dialogtxt       "Her soul's aura changed?"
 goto            @Cond_0f78
 
@@ -358,7 +358,7 @@ code0479        0, 5, 17
 code047d        0, 2
 call            @Func_1dfe
 call            @Func_1d26
-dialogtxt       "Wh-What is she doing!?"
+dialogtxt       "Wh—What is she doing!?"
 goto            @Cond_0fee
 
 @Cond_0fee:
@@ -444,22 +444,22 @@ goto            @Label_1304
 @Label_1304:
 call            @Func_1d44
 jumpz           @Cond_132e, ($b003 == 0)
-dialogtxt       "U-Understood…"
+dialogtxt       "U—Understood…"
 goto            @Cond_132e
 
 @Cond_132e:
 jumpz           @Cond_1354, ($b003 == 1)
-dialogtxt       "A-Acknowledged…"
+dialogtxt       "A—Acknowledged…"
 goto            @Cond_1354
 
 @Cond_1354:
 jumpz           @Cond_137c, ($b003 == 2)
-dialogtxt       "W-Whatever…"
+dialogtxt       "W—Whatever…"
 goto            @Cond_137c
 
 @Cond_137c:
 jumpz           @Cond_13a0, ($b003 == 3)
-dialogtxt       "Y-Yes!"
+dialogtxt       "Y—Yes!"
 goto            @Cond_13a0
 
 @Cond_13a0:

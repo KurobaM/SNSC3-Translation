@@ -464,7 +464,7 @@ code0309
 call            @Func_2d54
 code0479        1, 8, 16
 call            @Func_2d8a
-dialogtxt       "I-I don't care…"
+dialogtxt       "I—I don't care…"
 dialogtxt       "Quit talking and"
 dialogtxt       "get moving."
 code0309        
@@ -985,12 +985,12 @@ call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_26ba, ($b002 == 0)
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2714
 
 @Cond_26ba:
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2714
 
@@ -1029,12 +1029,12 @@ call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_28a6, ($b002 == 0)
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2900
 
 @Cond_28a6:
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2900
 
@@ -1073,12 +1073,12 @@ call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_2a96, ($b002 == 0)
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2af0
 
 @Cond_2a96:
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2af0
 
@@ -1117,12 +1117,12 @@ call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_2c90, ($b002 == 0)
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2cea
 
 @Cond_2c90:
-dialogtxt       "H-Hey, I didn't do anything!"
+dialogtxt       "H—Hey, I didn't do anything!"
 dialogtxt       "It's not my fault!"
 goto            @Label_2cea
 

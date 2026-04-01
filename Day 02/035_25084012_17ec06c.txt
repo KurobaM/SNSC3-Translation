@@ -257,7 +257,7 @@ call            @Func_3b72
 code0479        0, 5, 12
 call            @Func_3ad0
 dialogtxt       "Hm…?"
-dialogtxt       "Y-Yes, I'm fine…"
+dialogtxt       "Y—Yes, I'm fine…"
 code0309        
 call            @Func_3b06
 code0479        1, 6, 14
@@ -827,7 +827,7 @@ call            @Func_3ba0
 call            @Func_3b3c
 dialogtxt       "Why are you…"
 dialogtxt       "Wouldn't it be better to avoid"
-dialogtxt       "standing out as much as pos-"
+dialogtxt       "standing out as much as pos—"
 code047b        
 code0309        
 call            @Func_3b72
@@ -1197,11 +1197,11 @@ call            @Func_3b72
 code0479        0, 2, 13
 call            @Func_3ad0
 jumpz           @Cond_3290, ($b002 == 0)
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_32a2
 
 @Cond_3290:
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 goto            @Label_32a2
 
 @Label_32a2:

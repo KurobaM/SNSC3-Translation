@@ -157,7 +157,7 @@ code0479        1, 0, 17
 code047d        1, 112
 call            @Func_257e
 call            @Func_24fc
-dialogtxt       "Y-You're!"
+dialogtxt       "Y—You're!"
 code047b        
 code0309        
 call            @Func_2550
@@ -315,7 +315,7 @@ code0309
 call            @Func_24e4
 code0479        1, 5, 17
 call            @Func_251a
-dialogtxt       "Wha-!?"
+dialogtxt       "Wha—!?"
 dialogtxt       "I didn't…"
 code0309        
 call            @Func_25d4
@@ -376,7 +376,7 @@ code0479        0, 5, 17
 code047d        0, 109
 call            @Func_2594
 call            @Func_2490
-dialogtxt       "Y-Yeah!"
+dialogtxt       "Y—Yeah!"
 dialogtxt       "Um… the Stray!"
 code047b        
 code0309        
@@ -397,7 +397,7 @@ call            @Func_24e4
 code0479        1, 0, 12
 call            @Func_251a
 dialogtxt       "Ah, I see."
-dialogtxt       "T-Then…"
+dialogtxt       "T—Then…"
 dialogtxt       "Let's go to my office."
 code0309        
 call            @Func_25be
@@ -741,7 +741,7 @@ code0309
 call            @Func_2550
 code0479        0, 0, 16
 call            @Func_24ae
-dialogtxt       "Y-You think so?"
+dialogtxt       "Y—You think so?"
 code0309        
 call            @Func_24e4
 code0479        1, 1, 12

@@ -84,7 +84,7 @@ code0309
 call            @Func_2820
 code0479        0, 0, 12
 call            @Func_277e
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes…"
 code0309        
 call            @Func_28ba
 call            @Func_279c
@@ -171,7 +171,7 @@ code0309
 call            @Func_2820
 code0479        0, 5, 17
 call            @Func_277e
-dialogtxt       "Y-You're wrong!"
+dialogtxt       "Y—You're wrong!"
 goto            @Label_092c
 
 @Label_092c:

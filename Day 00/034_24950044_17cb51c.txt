@@ -773,7 +773,7 @@ code0309
 call            @Func_334a
 code0479        0, 1, 13
 call            @Func_32a8
-dialogtxt       "Y-Yep!"
+dialogtxt       "Y—Yep!"
 dialogtxt       "That's right."
 code0309        
 code0479        0, 2, 17
@@ -876,14 +876,14 @@ code0309
 call            @Func_32de
 code0479        1, 4, 13
 call            @Func_3314
-dialogtxt       "E-Excuse me."
+dialogtxt       "E—Excuse me."
 dialogtxt       "This is very embarrassing, still…"
 dialogtxt       "Let us do it another time, please."
 code0309        
 call            @Func_334a
 code0479        0, 0, 16
 call            @Func_32a8
-dialogtxt       "I-Is it really that embarassing?"
+dialogtxt       "I—Is it really that embarassing?"
 goto            @Label_2ce6
 
 @Label_2ce6:

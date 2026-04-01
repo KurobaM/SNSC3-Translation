@@ -333,7 +333,7 @@ code0309
 call            @Func_2a48
 code0479        0, 5, 16
 call            @Func_29a6
-dialogtxt       "W-What is it?"
+dialogtxt       "W—What is it?"
 code0309        
 call            @Func_29dc
 code0479        1, 8, 12
@@ -485,7 +485,7 @@ code047d        1, 109
 call            @Func_2a8c
 call            @Func_2a12
 dialogtxt       "So I need to find"
-dialogtxt       "this Ianna and-"
+dialogtxt       "this Ianna and—"
 code047b        
 code0309        
 call            @Func_2acc
@@ -540,7 +540,7 @@ code0309
 call            @Func_2a48
 code0479        0, 4, 16
 call            @Func_29a6
-dialogtxt       "T-Tier…"
+dialogtxt       "T—Tier…"
 code0309        
 call            @Func_29dc
 code0479        1, 2, 13
@@ -589,11 +589,11 @@ code0479        0, 0, 16
 call            @Func_2a60
 call            @Func_29a6
 jumpz           @Cond_1b72, ($b002 == 0)
-dialogtxt       "Then I'll-"
+dialogtxt       "Then I'll—"
 goto            @Label_1b8c
 
 @Cond_1b72:
-dialogtxt       "Then I'll-"
+dialogtxt       "Then I'll—"
 goto            @Label_1b8c
 
 @Label_1b8c:

@@ -540,7 +540,7 @@ code0309
 call            @Func_1e10
 code0479        1, 2, 14
 call            @Func_1e46
-dialogtxt       "Y-You might be right…"
+dialogtxt       "Y—You might be right…"
 goto            @Cond_16a4
 
 @Cond_16a4:

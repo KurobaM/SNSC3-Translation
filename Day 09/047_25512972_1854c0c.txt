@@ -118,7 +118,7 @@ code047d        0, 2
 call            @Func_2636
 call            @Func_257c
 jumpz           @Cond_04fc, ($b003 == 0)
-dialogtxt       "U-Unknown…"
+dialogtxt       "U—Unknown…"
 goto            @Cond_04fc
 
 @Cond_04fc:
@@ -134,7 +134,7 @@ goto            @Cond_0564
 
 @Cond_0564:
 jumpz           @Cond_0592, ($b003 == 3)
-dialogtxt       "T-That's gross…"
+dialogtxt       "T—That's gross…"
 goto            @Cond_0592
 
 @Cond_0592:
@@ -156,12 +156,12 @@ code047d        0, 0
 call            @Func_2636
 call            @Func_257c
 jumpz           @Cond_0662, ($b002 == 0)
-dialogtxt       "W-Wait…!"
+dialogtxt       "W—Wait…!"
 dialogtxt       "I…!"
 goto            @Label_068a
 
 @Cond_0662:
-dialogtxt       "W-Wait…!"
+dialogtxt       "W—Wait…!"
 dialogtxt       "I…!"
 goto            @Label_068a
 
@@ -300,7 +300,7 @@ code047d        0, 0
 code0479        1, 2, 14
 call            @Func_2662
 call            @Func_255e
-dialogtxt       "M-Master!?"
+dialogtxt       "M—Master!?"
 code047b        
 code0309        
 call            @Func_25b2
@@ -632,11 +632,11 @@ code047d        0, 0
 call            @Func_2662
 call            @Func_255e
 jumpz           @Cond_1e2e, ($b002 == 0)
-dialogtxt       "L-Let's go!"
+dialogtxt       "L—Let's go!"
 goto            @Label_1e4e
 
 @Cond_1e2e:
-dialogtxt       "L-Let's go!"
+dialogtxt       "L—Let's go!"
 goto            @Label_1e4e
 
 @Label_1e4e:

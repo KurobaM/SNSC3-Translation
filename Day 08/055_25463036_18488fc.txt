@@ -924,11 +924,11 @@ code047d        0, 0
 call            @Func_3246
 call            @Func_316e
 jumpz           @Cond_2a86, ($b002 == 0)
-dialogtxt       "Wh-What the!?"
+dialogtxt       "Wh—What the!?"
 goto            @Label_2a9e
 
 @Cond_2a86:
-dialogtxt       "Wh-What the!?"
+dialogtxt       "Wh—What the!?"
 goto            @Label_2a9e
 
 @Label_2a9e:

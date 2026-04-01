@@ -194,7 +194,7 @@ call            @Func_260a
 code0333        2, 30
 code0479        0, 4, 14
 call            @Func_2568
-dialogtxt       "W-Well…"
+dialogtxt       "W—Well…"
 dialogtxt       "Even if you say that…"
 code0309        
 call            @Func_268e
@@ -434,7 +434,7 @@ code0479        0, 8, 15
 code047d        0, 108
 call            @Func_2622
 call            @Func_2568
-dialogtxt       "Wh-What?"
+dialogtxt       "Wh—What?"
 dialogtxt       "What's that have to do with this!?"
 dialogtxt       "You know, I…"
 code047b        

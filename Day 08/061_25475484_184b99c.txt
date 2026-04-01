@@ -508,7 +508,7 @@ call            @Func_2402
 code0479        1, 11, 17
 code047d        1, 110
 call            @Func_2438
-dialogtxt       "Wha-!? No!"
+dialogtxt       "Wha—!? No!"
 dialogtxt       "We're not friends…"
 code047b        
 code0309        
@@ -626,12 +626,12 @@ call            @Func_24b2
 call            @Func_241a
 jumpz           @Cond_1d3a, ($b002 == 0)
 dialogtxt       "Hey, wait!"
-dialogtxt       "M-Mother!?"
+dialogtxt       "M—Mother!?"
 goto            @Label_1d6a
 
 @Cond_1d3a:
 dialogtxt       "Hey, wait!"
-dialogtxt       "M-Mother!?"
+dialogtxt       "M—Mother!?"
 goto            @Label_1d6a
 
 @Label_1d6a:
@@ -645,7 +645,7 @@ code0479        1, 5, 17
 code047d        1, 109
 call            @Func_249c
 call            @Func_2438
-dialogtxt       "Y-You're…"
+dialogtxt       "Y—You're…"
 dialogtxt       "Lady Ianna's son?"
 code047b        
 code0309        

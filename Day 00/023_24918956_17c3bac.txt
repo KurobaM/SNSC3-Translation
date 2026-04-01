@@ -479,7 +479,7 @@ code0479        0, 4, 16
 code047d        0, 106
 call            @Func_2628
 call            @Func_2550
-dialogtxt       "I-I'm so sorry…"
+dialogtxt       "I—I'm so sorry…"
 code047b        
 code0309        
 call            @Func_25a4
@@ -496,7 +496,7 @@ code0479        0, 4, 15
 call            @Func_256e
 dialogtxt       "I'm sorry."
 dialogtxt       "I didn't want to cause any trouble."
-dialogtxt       "If I play along, then they'll-"
+dialogtxt       "If I play along, then they'll—"
 code0309        
 call            @Func_25a4
 code0479        1, 2, 15
@@ -665,7 +665,7 @@ code031a        7
 code0479        0, 5, 17
 call            @Func_2628
 call            @Func_2550
-dialogtxt       "What the-"
+dialogtxt       "What the—"
 dialogtxt       "A voice…"
 dialogtxt       "Coming from the stone?"
 goto            @Label_1ec6

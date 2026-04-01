@@ -335,7 +335,7 @@ code0332
 code0331        31, 256
 code0479        0, 5, 16
 call            @Func_206c
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 code0309        
 call            @Func_20a2
 code0479        1, 0, 13
@@ -515,7 +515,7 @@ code0309
 call            @Func_210e
 code0479        0, 6, 12
 call            @Func_206c
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes…"
 dialogtxt       "Um, [NAME 2], I…"
 code0309        
 call            @Func_21a8

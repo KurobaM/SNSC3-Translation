@@ -213,7 +213,7 @@ goto            @Cond_09b2
 
 @Cond_09b2:
 jumpz           @Cond_0a0a, ($b003 == 3)
-dialogtxt       "W-What is this!?"
+dialogtxt       "W—What is this!?"
 dialogtxt       "I can feel a surge of power…!"
 goto            @Cond_0a0a
 
@@ -240,7 +240,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_2c42
 call            @Func_2b3e
-dialogtxt       "F-Father!"
+dialogtxt       "F—Father!"
 dialogtxt       "What's happening?"
 dialogtxt       "The Demon Stone…"
 code047b        
@@ -534,7 +534,7 @@ call            @Func_2c42
 call            @Func_2b3e
 dialogtxt       "What's the meaning of this!?"
 dialogtxt       "Father!"
-dialogtxt       "I-"
+dialogtxt       "I—"
 code047b        
 code0309        
 call            @Func_2c98
@@ -576,7 +576,7 @@ code0479        0, 4, 15
 code0479        1, 3, 14
 call            @Func_2c42
 call            @Func_2b3e
-dialogtxt       "Le-Let me go…"
+dialogtxt       "Le—Let me go…"
 dialogtxt       "It hurts!"
 code047b        
 code0309        

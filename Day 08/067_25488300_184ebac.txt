@@ -240,7 +240,7 @@ code0309
 call            @Func_123e
 code0479        1, 0, 16
 call            @Func_1274
-dialogtxt       "R-Right…"
+dialogtxt       "R—Right…"
 dialogtxt       "I'll consider it."
 code0309        
 call            @Func_12aa
@@ -269,7 +269,7 @@ code0309
 call            @Func_12aa
 code0479        0, 5, 16
 call            @Func_1208
-dialogtxt       "Y-Yes…"
+dialogtxt       "Y—Yes…"
 code0309        
 call            @Func_1344
 call            @Func_1226

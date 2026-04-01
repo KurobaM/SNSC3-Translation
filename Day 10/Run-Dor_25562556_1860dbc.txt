@@ -258,7 +258,7 @@ dialogtxt       "Partner…"
 dialogtxt       "I…"
 code0309        
 code0479        1, 9, 12
-dialogtxt       "I-!"
+dialogtxt       "I—!"
 code0309        
 call            @Func_150a
 code0479        0, 5, 17

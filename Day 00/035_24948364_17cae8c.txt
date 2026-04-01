@@ -55,7 +55,7 @@ code0309
 call            @Func_1166
 code0479        1, 0, 16
 call            @Func_119c
-dialogtxt       "U-Um…"
+dialogtxt       "U—Um…"
 dialogtxt       "I saw you go outside, so…"
 code0309        
 call            @Func_11d2
@@ -87,7 +87,7 @@ code0309
 call            @Func_1166
 code0479        1, 1, 16
 call            @Func_119c
-dialogtxt       "Y-Yes."
+dialogtxt       "Y—Yes."
 dialogtxt       "For saving me, during the day."
 code0309        
 call            @Func_11d2
@@ -121,7 +121,7 @@ dialogbig       96, 116, 1, 0, 0, "Oh!"
 code030c        
 code0479        0, 8, 14
 code0479        1, 6, 15
-dialogtxt       "I-It's fine already!"
+dialogtxt       "I—It's fine already!"
 dialogtxt       "Just forget it ever happened!"
 dialogtxt       "I will do so too, so…"
 code0309        
@@ -194,7 +194,7 @@ code0309
 call            @Func_11d2
 code0479        0, 2, 16
 call            @Func_1130
-dialogtxt       "T-That's not what I…"
+dialogtxt       "T—That's not what I…"
 code0309        
 call            @Func_1166
 code0479        1, 4, 16
@@ -204,7 +204,7 @@ code0309
 call            @Func_11d2
 code0479        0, 4, 16
 call            @Func_1130
-dialogtxt       "U-Ugh…"
+dialogtxt       "U—Ugh…"
 dialogtxt       "I'm sorry."
 code0309        
 call            @Func_1166

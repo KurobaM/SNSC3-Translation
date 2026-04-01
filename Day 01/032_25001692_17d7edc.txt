@@ -49,7 +49,7 @@ code0309
 call            @Func_2642
 code0479        1, 1, 15
 call            @Func_2678
-dialogtxt       "Sh-Shut up!"
+dialogtxt       "Sh—Shut up!"
 code0309        
 call            @Func_26ae
 code043c        0, 3
@@ -182,7 +182,7 @@ code0309
 call            @Func_26ae
 code0479        0, 2, 12
 call            @Func_260c
-dialogtxt       "O-Of course not!"
+dialogtxt       "O—Of course not!"
 dialogtxt       "Ahahah…"
 code0309        
 call            @Func_2748
@@ -443,11 +443,11 @@ code0309
 call            @Func_2642
 code0479        1, 4, 17
 call            @Func_2678
-dialogtxt       "A-About that…"
+dialogtxt       "A—About that…"
 dialogtxt       "Running with such force…"
 code0309   
 dialogtxt       "… Would undoubtedly cause"
-dialogtxt       "a bridge like this to-"
+dialogtxt       "a bridge like this to—"
 code0309   
 call            @Func_26ae
 code0479        0, 2, 15
@@ -461,7 +461,7 @@ code0309
 call            @Func_2642
 code0479        1, 5, 14
 call            @Func_2678
-dialogtxt       "Y-You're calling me lame!?"
+dialogtxt       "Y—You're calling me lame!?"
 dialogtxt       "How dare you!"
 code0309        
 call            @Func_26ae
@@ -504,7 +504,7 @@ call            @Func_2642
 code0479        1, 3, 15
 call            @Func_2678
 dialogtxt       "Don't screw with me!"
-dialogtxt       "Why would I-"
+dialogtxt       "Why would I—"
 code0309        
 call            @Func_26ae
 code0479        0, 5, 16
@@ -521,7 +521,7 @@ call            @Func_2678
 dialogtxt       "… Hmph!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "O-Of…"
+dialogtxt       "O—Of…"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 16
@@ -594,7 +594,7 @@ code0309
 call            @Func_2642
 code0479        1, 4, 14
 call            @Func_2678
-dialogtxt       "W-Well…"
+dialogtxt       "W—Well…"
 dialogtxt       "I'm sure my intuition is correct…"
 dialogtxt       "Ah, that's it!"
 code0309        
@@ -615,7 +615,7 @@ code0309
 call            @Func_2642
 code0479        1, 5, 17
 call            @Func_2678
-dialogtxt       "I-I'm lame!?"
+dialogtxt       "I—I'm lame!?"
 dialogtxt       "That's not possible!"
 code0309        
 call            @Func_26ae

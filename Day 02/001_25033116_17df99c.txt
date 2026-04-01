@@ -189,7 +189,7 @@ code030c
 goto            @Label_07b8
 
 @Cond_079a:
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 code0309        
 goto            @Label_07b8
 
@@ -375,11 +375,11 @@ call            @Func_2172
 code0479        0, 11, 17
 call            @Func_20d0
 jumpz           @Cond_0f54, ($b002 == 0)
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0f6a
 
 @Cond_0f54:
-dialogtxt       "Wh-What!?"
+dialogtxt       "Wh—What!?"
 goto            @Label_0f6a
 
 @Label_0f6a:
@@ -525,7 +525,7 @@ code0309
 call            @Func_2106
 code0479        1, 5, 17
 call            @Func_213c
-dialogtxt       "H-H-How do you know that!?"
+dialogtxt       "H—H-How do you know that!?"
 code0309        
 call            @Func_2172
 code0479        0, 0, 12

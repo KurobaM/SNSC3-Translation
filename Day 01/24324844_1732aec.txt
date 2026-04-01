@@ -366,7 +366,7 @@ code0309
 call            @Func_4cec
 code0479        0, 1, 16
 call            @Func_4c4a
-dialogtxt       "Y-Yeah…"
+dialogtxt       "Y—Yeah…"
 code0309        
 call            @Func_4d86
 call            @Func_4c68
@@ -526,7 +526,7 @@ call            @Func_4cec
 code0479        0, 2, 14
 call            @Func_4c4a
 dialogtxt       "What?"
-dialogtxt       "Come on, I'm sure you really-"
+dialogtxt       "Come on, I'm sure you really—"
 goto            @Label_17ec
 
 @Label_17ec:
@@ -836,7 +836,7 @@ code0309
 call            @Func_4c80
 code0479        1, 5, 16
 call            @Func_4cb6
-dialogtxt       "D-Don't get so depressed."
+dialogtxt       "D—Don't get so depressed."
 dialogtxt       "I'll see what I can do."
 code0309        
 call            @Func_4d86
@@ -1551,7 +1551,7 @@ code0309
 call            @Func_4c80
 code0479        1, 3, 16
 call            @Func_4cb6
-dialogtxt       "Wha-"
+dialogtxt       "Wha—"
 dialogtxt       "I'm not particularly fast!"
 dialogtxt       "You're just slow!"
 code0309        

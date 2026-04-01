@@ -175,7 +175,7 @@ code0309
 call            @Func_10ae
 code0479        0, 4, 13
 call            @Func_100c
-dialogtxt       "W-Wow…"
+dialogtxt       "W—Wow…"
 dialogtxt       "She's really thought this out…"
 code0309        
 call            @Func_1042

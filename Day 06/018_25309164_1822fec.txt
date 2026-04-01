@@ -211,7 +211,7 @@ code0309
 call            @Func_0ec8
 code0479        1, 5, 17
 call            @Func_0efe
-dialogtxt       "I-I am not!"
+dialogtxt       "I—I am not!"
 dialogtxt       "They'll imprison us again"
 dialogtxt       "if we're found out."
 code0309        

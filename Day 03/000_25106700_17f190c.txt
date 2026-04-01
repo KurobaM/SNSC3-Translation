@@ -181,12 +181,12 @@ call            @Func_0f58
 code0479        0, 5, 12
 call            @Func_0eb6
 jumpz           @Cond_0890, ($b002 == 0)
-dialogtxt       "Y-Yeah, exactly…"
+dialogtxt       "Y—Yeah, exactly…"
 dialogtxt       "I'm counting on you."
 goto            @Label_08d0
 
 @Cond_0890:
-dialogtxt       "Y-Yeah, exactly…"
+dialogtxt       "Y—Yeah, exactly…"
 dialogtxt       "I'm counting on you."
 goto            @Label_08d0
 
