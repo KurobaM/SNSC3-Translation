@@ -1456,10 +1456,22 @@ function readJsonFile() {
 }
 
 function saveJsonFile(){
+    const divs = document.querySelectorAll('.translation')
+    for (const div of divs) {
+        var value = div.children[0].value
+        var data = JSON.parse(div.getAttribute('data'));
+        var key = data['key'];
+        if (data['type'] === 'SJIS string'){
+            jsonData[key]['translation'] = value;
+        } else if (data['type'] === 'SJIS table'){
+            var index = parseInt(data['index'], 10);
+            jsonData[key]['data'][index]['translation'] = value;
+        }
+    }
     const a = document.createElement('a');
     jsonText = JSON.stringify(jsonData, null, 4).replaceAll('\\\\u', '\\u') + '\n';
-    const data = new Blob([jsonText], {type: 'text/plain;charset=utf-8'});
-    const url = URL.createObjectURL(data);
+    const blob = new Blob([jsonText], {type: 'text/plain;charset=utf-8'});
+    const url = URL.createObjectURL(blob);
     a.href = url;
     a.download = 'data.json';
     document.body.appendChild(a);

@@ -185,7 +185,7 @@ code0333        2, 30
 code047d        0, 132
 code0301        8, 3
 code047e        0, 1
-dialogbig       48, 116, 1, 0, 0, "Found em!"
+dialogbig       48, 116, 1, 0, 0, "Found 'em!"
 code047b        
 code030c        
 code047e        0, 0
@@ -594,7 +594,7 @@ call            @Func_249c
 call            @Func_2438
 dialogtxt       "Lemmy, is that okay with you?"
 dialogtxt       "We're right on their tail."
-dialogtxt       "Then let's head to the Gold Coun…"
+dialogtxt       "Then let's head to the Gold Fac…"
 code047b        
 code0309        
 code0479        1, 5, 12
@@ -626,12 +626,12 @@ call            @Func_24b2
 call            @Func_241a
 jumpz           @Cond_1d3a, ($b002 == 0)
 dialogtxt       "Hey, wait!"
-dialogtxt       "M-mother!?"
+dialogtxt       "M-Mother!?"
 goto            @Label_1d6a
 
 @Cond_1d3a:
 dialogtxt       "Hey, wait!"
-dialogtxt       "M-mother!?"
+dialogtxt       "M-Mother!?"
 goto            @Label_1d6a
 
 @Label_1d6a:

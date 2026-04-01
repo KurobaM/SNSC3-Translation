@@ -482,7 +482,7 @@ code040b
 @Event_13d0:
 code0301        8, 7
 dialogtxt       "Yesterday, the Weapon Destruction "
-dialogtxt       "Commitee released a statement saying"
+dialogtxt       "Committee released a statement saying"
 dialogtxt       "drills are great for breaking weapons."
 code0309        
 dialogtxt       "In response, they received a flood of"

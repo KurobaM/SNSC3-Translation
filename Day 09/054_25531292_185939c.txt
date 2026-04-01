@@ -230,7 +230,7 @@ call            @Func_2998
 code0479        0, 3, 16
 call            @Func_28f6
 dialogtxt       "Hah! Relationship…"
-dialogtxt       "That guy killed my precious person."
+dialogtxt       "That guy killed my dear master."
 dialogtxt       "He's just an enemy!"
 code0309        
 call            @Func_292c
@@ -238,7 +238,7 @@ code0479        1, 2, 14
 call            @Func_2962
 dialogtxt       "Hmm…"
 dialogtxt       "We'll continue this talk later."
-dialogtxt       "A loong… Talk…"
+dialogtxt       "A looong… Talk…"
 code0309        
 call            @Func_2a32
 call            @Func_2980
@@ -588,7 +588,7 @@ code0479        1, 11, 12
 code047d        1, 110
 call            @Func_29c6
 call            @Func_2962
-dialogtxt       "Wha-!"
+dialogtxt       "Wha…!"
 dialogtxt       "I haven't done anything"
 dialogtxt       "to deserve your thanks."
 code047b        
@@ -633,7 +633,7 @@ code0309
 call            @Func_2998
 code0479        0, 4, 12
 call            @Func_28f6
-dialogtxt       "But why…"
+dialogtxt       "But why?"
 code0309        
 call            @Func_2a32
 call            @Func_2914
@@ -656,7 +656,7 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_29b0
 call            @Func_28d8
-dialogtxt       "We did it…"
+dialogtxt       "We did it."
 dialogtxt       "With this, it's over…"
 code047b        
 code0309        

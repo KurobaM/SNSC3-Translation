@@ -31,7 +31,7 @@ code0479        1, 2, 15
 code047d        1, 108
 call            @Func_0b38
 call            @Func_0ab6
-dialogtxt       "Did they spot us!?"
+dialogtxt       "Did he spot us!?"
 code047b        
 code0309        
 call            @Func_0b8e
