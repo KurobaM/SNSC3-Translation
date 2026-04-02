@@ -90,8 +90,7 @@ code0309
 call            @Func_2904
 code0479        1, 2, 15
 call            @Func_293a
-dialogtxt       "Hostile..."
-dialogtxt       "Hey!"
+dialogtxt       "Hostile... Hey!"
 dialogtxt       "Are you talking about Lemmy!?"
 code0309        
 code0479        1, 2, 14
@@ -293,8 +292,8 @@ code047b
 code0309        
 code0479        0, 2, 14
 dialogtxt       "That kid."
-dialogtxt       "How can a Craftknight"
-dialogtxt       "forget his hammer like this?"
+dialogtxt       "How can a Craftknight forget"
+dialogtxt       "his hammer like this?"
 goto            @Label_0e24
 
 @Label_0e24:
@@ -334,8 +333,8 @@ goto            @Label_0f6e
 call            @Func_293a
 jumpz           @Cond_0fce, ($b003 == 0)
 dialogtxt       "For What Purpose?"
-dialogtxt       "It Is Apparent That"
-dialogtxt       "The Boy Hates You."
+dialogtxt       "It Is Apparent That The Boy"
+dialogtxt       "Does Not Like You."
 goto            @Cond_0fce
 
 @Cond_0fce:
@@ -347,15 +346,16 @@ goto            @Cond_102e
 
 @Cond_102e:
 jumpz           @Cond_1098, ($b003 == 2)
-dialogtxt       "It looked like that human"
-dialogtxt       "hated you though."
+dialogtxt       "It looks like that human"
+dialogtxt       "hates you though."
 dialogtxt       "It's worthless to follow him."
 goto            @Cond_1098
 
 @Cond_1098:
 jumpz           @Cond_10fa, ($b003 == 3)
 dialogtxt       "Why go through the trouble?"
-dialogtxt       "That boy appears to hate you."
+dialogtxt       "That boy appears have something"
+dialogtxt       "against you."
 goto            @Cond_10fa
 
 @Cond_10fa:
@@ -436,8 +436,8 @@ goto            @Label_1c20
 @Choice_1444:
 code0333        2, 30
 code0479        0, 0, 12
-dialogtxt       "That kid's hammer"
-dialogtxt       "has nothing to do with me..."
+dialogtxt       "That kid's hammer has nothing"
+dialogtxt       "to do with me..."
 goto            @Label_14e8
 
 @Label_14e8:
@@ -491,8 +491,7 @@ code043e        3, 3, 0
 code048c        
 code0301        8, 4
 code047e        0, 1
-dialogtxt       "Close your eyes,"
-dialogtxt       "[NAME 2]."
+dialogtxt       "Close your eyes, [NAME 2]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -514,8 +513,7 @@ code0302        7
 code0479        1, 5, 17
 call            @Func_299e
 call            @Func_293a
-dialogtxt       "Oh..."
-dialogtxt       "Okay!"
+dialogtxt       "Oh... Okay!"
 code0309        
 call            @Func_29f4
 call            @Func_2958
@@ -539,7 +537,7 @@ code031c        6, 2
 code031f        6
 dialogtxt       "You..."
 dialogtxt       "You're always saying you wanna be"
-dialogtxt       "\"cool\", but what does that mean...?"
+dialogtxt       "\"cool,\" but what does that mean?"
 code0309        
 code031c        6, 1
 code031f        6

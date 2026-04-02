@@ -738,14 +738,14 @@ call            @Func_46ec
 code0479        1, 4, 16
 call            @Func_4722
 dialogtxt       "Of course I am!"
-dialogtxt       "Are you certain we can"
-dialogtxt       "leave her with Master?"
+dialogtxt       "Are you certain we can leave"
+dialogtxt       "her with Master?"
 code0309        
 call            @Func_4758
 code0479        0, 0, 12
 call            @Func_46b6
 dialogtxt       "It'll be fine."
-dialogtxt       "Yeah, she's a bit short tempered,"
+dialogtxt       "Yeah, she's a bit short-tempered,"
 dialogtxt       "but she's good at tending to others."
 goto            @Label_240a
 

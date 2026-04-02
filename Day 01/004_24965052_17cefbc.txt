@@ -265,8 +265,8 @@ call            @Func_2d78
 code0479        0, 0, 14
 call            @Func_2cd6
 dialogtxt       "Oh, is that true?"
-dialogtxt       "Weren't you screaming"
-dialogtxt       "your head off just yesterday?"
+dialogtxt       "Weren't you screaming your head"
+dialogtxt       "off just yesterday?"
 goto            @Label_0b84
 
 @Label_0b84:
@@ -774,8 +774,8 @@ code0309
 call            @Func_2d78
 code0479        0, 2, 12
 call            @Func_2cd6
-dialogtxt       "Yes, exactly!"
-dialogtxt       "For a while now, actually!"
+dialogtxt       "Yes, I am!"
+dialogtxt       "For a while now, in fact!"
 code0309        
 call            @Func_2d0c
 code0479        1, 4, 12

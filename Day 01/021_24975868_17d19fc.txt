@@ -49,7 +49,7 @@ code0309
 code0479        0, 2, 16
 dialogtxt       "Master gave it to me yesterday."
 dialogtxt       "She said it was about time I got"
-dialogtxt       "one."
+dialogtxt       "a partner of my own."
 goto            @Label_0392
 
 @Label_0392:
@@ -77,7 +77,7 @@ code047d        0, 2
 jumpz           @Cond_061e, ($b003 == 0)
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Well, isn't that great!"
+dialogtxt       "Well, isn't that great news!"
 dialogtxt       "The Summon Beasts on Loreilal's"
 dialogtxt       "mechanoid world are quite powerful."
 code047b        
@@ -130,7 +130,7 @@ goto            @Cond_061e
 jumpz           @Cond_0a20, ($b003 == 1)
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "But that's great!"
+dialogtxt       "Well, isn't that great news!"
 dialogtxt       "And is that Silturnian armor?"
 dialogtxt       "Quite the cute cat."
 code047b        
@@ -221,7 +221,7 @@ goto            @Cond_0a20
 jumpz           @Cond_1002, ($b003 == 2)
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "But that's great! This one comes"
+dialogtxt       "Well, isn't that great news!"
 dialogtxt       "from the spirit world, Sapureth."
 dialogtxt       "Quite the handsome little man."
 code047b        
@@ -354,7 +354,7 @@ goto            @Cond_1002
 jumpz           @Cond_1bf8, ($b003 == 3)
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "But that's great!"
+dialogtxt       "Well, isn't that great news!"
 dialogtxt       "It's from the beast world, Maetropa."
 dialogtxt       "Quite the cute one."
 code047b        
@@ -386,8 +386,7 @@ call            @Func_2e64
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Why, of course I do,"
-dialogtxt       "little lady."
+dialogtxt       "Why, of course I do, little lady."
 code0309        
 code047e        1, 0
 code0302        7
@@ -396,7 +395,7 @@ call            @Func_2ee8
 call            @Func_2e2e
 dialogtxt       "So you are underestimating me..."
 dialogtxt       "Then I'll have to show you"
-dialogtxt       "some of my real power..."
+dialogtxt       "some of my true power..."
 code0309        
 call            @Func_2f6a
 call            @Func_2e4c
@@ -570,7 +569,7 @@ code047d        0, 119
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Oh my~"
-dialogtxt       "You're very strong."
+dialogtxt       "Yes, you are very strong~"
 code0309        
 code047e        0, 0
 code0302        7
@@ -837,7 +836,7 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_2ee8
 call            @Func_2e2e
-dialogtxt       "Ahh, no, not at all!"
+dialogtxt       "Ah, no, not at all!"
 code047b        
 code0309        
 code043c        0, 4
@@ -854,13 +853,13 @@ popuptxt        " Partner Tag is now available"
 code0318        
 code0301        0, 0
 code0305        1
-dialogtxt       "During battle, you can"
-dialogtxt       "switch places with your partner"
-dialogtxt       "and fight for a fixed time."
+dialogtxt       " During battle, you can swap"
+dialogtxt       " places with your partner"
+dialogtxt       " and fight for a fixed time."
 code0309        
-dialogtxt       "To switch with your partner,"
-dialogtxt       "equip \"Partner Tag\" and"
-dialogtxt       "use it in battle."
+dialogtxt       " To switch with your partner,"
+dialogtxt       " equip \"Partner Tag\" and use"
+dialogtxt       " it in battle."
 code0309        
 code0302        9
 code0443        2, -32768, 1

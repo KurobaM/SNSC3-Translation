@@ -13,8 +13,8 @@ jumpz           @Cond_00c8, ($bv029 == 0)
 code0301        8, 7
 code047e        0, 1
 code037c        $h232
-dialogtxt       "[NAME 4]..."
-dialogtxt       "I want one..."
+dialogtxt       "[NAME 4]... [NAME 4]..."
+dialogtxt       "Where could I find one...?"
 code0309        
 code047e        0, 0
 code0302        7

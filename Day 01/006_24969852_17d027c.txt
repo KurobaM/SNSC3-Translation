@@ -376,7 +376,7 @@ dialogtxt       "to feel better..."
 code0309        
 code043c        0, 4
 code0479        1, 2, 15
-dialogbig       10, 116, 1, 0, 0, "But leave already!"
+dialogbig       255, 116, 1, 0, 0, "But leave already!"
 code030c        
 call            @Func_4954
 call            @Func_48a2
@@ -705,7 +705,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "Excuse me!?"
+dialogbig       255, 116, 1, 0, 0, "Excuse me!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -758,7 +758,7 @@ call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
 dialogtxt       "Stop looking at me like that."
-dialogtxt       "This is all your fault, you know..."
+dialogtxt       "This is your fault, you know..."
 code0309        
 call            @Func_48ba
 code0479        0, 4, 12
@@ -769,7 +769,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "Excuse me!?"
+dialogbig       255, 116, 1, 0, 0, "Excuse me!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1074,7 +1074,7 @@ call            @Func_484e
 code0479        1, 2, 16
 call            @Func_4884
 dialogtxt       "Stop looking at me like that."
-dialogtxt       "This is all your fault, you know..."
+dialogtxt       "This is your fault, you know..."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 13
@@ -1084,7 +1084,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "Huh!?"
+dialogbig       255, 116, 1, 0, 0, "Huh!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1376,7 +1376,7 @@ call            @Func_484e
 code0479        1, 2, 16
 call            @Func_4884
 dialogtxt       "Stop looking at me like that."
-dialogtxt       "This is all your fault, you know..."
+dialogtxt       "This is your fault, you know..."
 code0309        
 call            @Func_48ba
 code0479        0, 4, 14
@@ -1386,7 +1386,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       24, 116, 1, 0, 0, "Huh!?"
+dialogbig       255, 116, 1, 0, 0, "Huh!?"
 code030c        
 call            @Func_4928
 call            @Func_48ba
