@@ -82,7 +82,7 @@ code0309
 call            @Func_1218
 code0479        1, 0, 16
 call            @Func_124e
-dialogtxt       "Oh, you mean Sarge?"
+dialogtxt       "Oh, you mean Serge?"
 dialogtxt       "What happened this time?"
 code0309        
 call            @Func_1284

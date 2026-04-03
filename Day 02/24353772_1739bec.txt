@@ -915,7 +915,7 @@ code047d        1, 2
 call            @Func_3daa
 jumpz           @Cond_288e, ($b003 == 0)
 call            @Func_3ca6
-dialogtxt       "Let's go up against Sarge,"
+dialogtxt       "Let's go up against Serge,"
 dialogtxt       "and win back Murno's"
 dialogtxt       "precious stone!"
 code047b        
@@ -939,7 +939,7 @@ goto            @Cond_288e
 @Cond_288e:
 jumpz           @Cond_298a, ($b003 == 1)
 call            @Func_3ca6
-dialogtxt       "Let's go up against Sarge,"
+dialogtxt       "Let's go up against Serge,"
 dialogtxt       "and win back Murno's"
 dialogtxt       "precious stone!"
 code047b        
@@ -972,7 +972,7 @@ goto            @Cond_298a
 @Cond_298a:
 jumpz           @Cond_2ab4, ($b003 == 2)
 call            @Func_3ca6
-dialogtxt       "Let's go up against Sarge,"
+dialogtxt       "Let's go up against Serge,"
 dialogtxt       "and win back Murno's"
 dialogtxt       "precious stone!"
 code047b        
@@ -998,7 +998,7 @@ goto            @Cond_2ab4
 @Cond_2ab4:
 jumpz           @Cond_2bd2, ($b003 == 3)
 call            @Func_3ca6
-dialogtxt       "Let's go up against Sarge,"
+dialogtxt       "Let's go up against Serge,"
 dialogtxt       "and win back Murno's"
 dialogtxt       "precious stone!"
 code047b        
@@ -1053,8 +1053,8 @@ code047d        1, 2
 call            @Func_3daa
 jumpz           @Cond_2ea0, ($b003 == 0)
 call            @Func_3ca6
-dialogtxt       "Sarge is gonna return"
-dialogtxt       "to stone to Murno himself."
+dialogtxt       "Serge is gonna return"
+dialogtxt       "the stone to Murno himself."
 dialogtxt       "Let's head home!"
 code047b        
 code0309        
@@ -1091,8 +1091,8 @@ goto            @Cond_2ea0
 @Cond_2ea0:
 jumpz           @Cond_302a, ($b003 == 1)
 call            @Func_3ca6
-dialogtxt       "Sarge is gonna return"
-dialogtxt       "to stone to Murno himself."
+dialogtxt       "Serge is gonna return"
+dialogtxt       "the stone to Murno himself."
 dialogtxt       "Let's head home!"
 code047b        
 code0309        
@@ -1124,8 +1124,8 @@ goto            @Cond_302a
 @Cond_302a:
 jumpz           @Cond_31b0, ($b003 == 2)
 call            @Func_3ca6
-dialogtxt       "Sarge is gonna return"
-dialogtxt       "to stone to Murno himself."
+dialogtxt       "Serge is gonna return"
+dialogtxt       "the stone to Murno himself."
 dialogtxt       "Let's head home!"
 code047b        
 code0309        
@@ -1157,8 +1157,8 @@ goto            @Cond_31b0
 @Cond_31b0:
 jumpz           @Cond_3336, ($b003 == 3)
 call            @Func_3ca6
-dialogtxt       "Sarge is gonna return"
-dialogtxt       "to stone to Murno himself."
+dialogtxt       "Serge is gonna return"
+dialogtxt       "the stone to Murno himself."
 dialogtxt       "Let's head home!"
 code047b        
 code0309        
