@@ -263,13 +263,13 @@ code047d        0, 0
 call            @Func_203a
 call            @Func_1f62
 jumpz           @Cond_0b56, ($b002 == 0)
-dialogtxt       "Why you! Stop!"
+dialogtxt       "Urrrgh! Stop!"
 dialogtxt       "Let me go!"
 dialogtxt       "You're disgusting!"
 goto            @Label_0b92
 
 @Cond_0b56:
-dialogtxt       "Why you! Stop!"
+dialogtxt       "Urrrgh! Stop!"
 dialogtxt       "Let me go!"
 dialogtxt       "You're disgusting!"
 goto            @Label_0b92

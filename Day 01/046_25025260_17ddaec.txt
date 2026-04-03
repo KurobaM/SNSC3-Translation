@@ -627,7 +627,7 @@ dialogtxt       "That is certainly true."
 dialogtxt       "It is thanks to everyone."
 code0309        
 code0479        1, 4, 16
-dialogtxt       "And yet, I doubted our Master."
+dialogtxt       "And yet, I doubted our master."
 dialogtxt       "This is terrible."
 code0309        
 call            @Func_2c94

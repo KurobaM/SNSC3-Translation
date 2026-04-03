@@ -705,7 +705,7 @@ code0334
 code046e        38, 256, 1
 code0479        1, 2, 14
 call            @Func_2ca2
-dialogtxt       "This one attacked my Master."
+dialogtxt       "This one attacked my master."
 dialogtxt       "She was injured!"
 goto            @Label_1ffa
 

@@ -107,7 +107,7 @@ call            @Func_0faa
 code0479        0, 5, 16
 call            @Func_0f08
 dialogtxt       "Nothing to do with you."
-dialogtxt       "Look, there's talk on how strays"
+dialogtxt       "Look, there's talk on how Strays"
 dialogtxt       "were showing up here and stuff, so..."
 code0309        
 call            @Func_0f3e

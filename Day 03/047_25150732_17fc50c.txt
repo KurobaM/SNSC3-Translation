@@ -574,7 +574,7 @@ goto            @Cond_1710
 
 @Cond_1710:
 jumpz           @Cond_175e, ($b003 == 3)
-dialogtxt       "And you call yourself our Master!"
+dialogtxt       "And you call yourself our master!"
 goto            @Cond_175e
 
 @Cond_175e:
@@ -1059,7 +1059,7 @@ goto            @Cond_2ac8
 @Cond_2ac8:
 jumpz           @Cond_2b16, ($b003 == 3)
 dialogtxt       "Seriously..."
-dialogtxt       "Are you really our Master!?"
+dialogtxt       "Are you really our master!?"
 goto            @Cond_2b16
 
 @Cond_2b16:

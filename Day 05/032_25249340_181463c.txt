@@ -272,7 +272,7 @@ goto            @Cond_0c1a
 
 @Cond_0c1a:
 jumpz           @Cond_0c62, ($b003 == 3)
-dialogtxt       "Why you...!"
+dialogtxt       "You little...!"
 dialogtxt       "What did you say to her!?"
 goto            @Cond_0c62
 

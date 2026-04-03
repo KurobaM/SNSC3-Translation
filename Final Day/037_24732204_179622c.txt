@@ -371,8 +371,8 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "Mother really adores Master"
-dialogtxt       "Rob so wholeheartedly..."
+dialogtxt       "Mother really adores Master Rob"
+dialogtxt       "so wholeheartedly..."
 dialogtxt       "I mean, that's nice and all, but..."
 code0309        
 dialogtxt       "If it were me, I think"

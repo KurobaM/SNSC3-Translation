@@ -555,12 +555,12 @@ code047d        0, 0
 call            @Func_2e66
 call            @Func_2dac
 jumpz           @Cond_176c, ($b002 == 0)
-dialogtxt       "That's my Master! So cool!"
+dialogtxt       "That's my master! So cool!"
 dialogtxt       "I'll leave Anise to you!"
 goto            @Label_17b0
 
 @Cond_176c:
-dialogtxt       "That's my Master! So cool!"
+dialogtxt       "That's my master! So cool!"
 dialogtxt       "I'll leave Anise to you!"
 goto            @Label_17b0
 

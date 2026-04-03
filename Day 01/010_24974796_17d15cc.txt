@@ -136,7 +136,7 @@ done
 @Func_0478:
 jumpz           @Cond_0518, ($b002 == 0)
 code0479        0, 0, 14
-dialogtxt       "It seems like the folks here"
+dialogtxt       "Looks like the folks there"
 dialogtxt       "really hate us."
 dialogtxt       "They're always picking fights."
 code0309        
@@ -146,7 +146,7 @@ goto            @Label_05a8
 
 @Cond_0518:
 code0479        0, 0, 14
-dialogtxt       "It seems like the folks here"
+dialogtxt       "Looks like the folks there"
 dialogtxt       "really hate us."
 dialogtxt       "They're always picking fights."
 code0309        

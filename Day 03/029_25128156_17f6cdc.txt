@@ -261,7 +261,7 @@ code0309
 call            @Func_1e10
 code0479        1, 2, 15
 call            @Func_1e46
-dialogtxt       "Why you..."
+dialogtxt       "Oh, shut up!"
 dialogtxt       "Even if you're my customers,"
 dialogtxt       "you've pushed me too far."
 code0309        

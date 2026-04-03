@@ -425,7 +425,7 @@ code040b
 @Event_11ca:
 code0301        8, 7
 dialogtxt       "There are some really tough"
-dialogtxt       "strays in Surange Mine!"
+dialogtxt       "Strays in Surange Mine!"
 dialogtxt       "Be careful outside of town."
 code0309        
 code0302        7

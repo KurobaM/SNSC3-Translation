@@ -96,7 +96,7 @@ code0479        1, 0, 12
 call            @Func_0ff0
 dialogtxt       "Earthquakes have been happening"
 dialogtxt       "there recently, so be very careful."
-dialogtxt       "Especially with other strays around."
+dialogtxt       "Especially with other Strays around."
 code0309        
 call            @Func_1026
 code0479        0, 2, 13

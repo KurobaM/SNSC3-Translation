@@ -903,7 +903,7 @@ goto            @Cond_26b4
 jumpz           @Cond_273c, ($b003 == 1)
 call            @Func_3862
 dialogtxt       "Why am I hearing"
-dialogtxt       "Masters voice here...?"
+dialogtxt       "Master's voice here?"
 code047b        
 code0309        
 call            @Func_38b6

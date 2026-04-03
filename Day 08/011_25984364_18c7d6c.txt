@@ -136,7 +136,7 @@ goto            @Label_073c
 code0479        0, 0, 12
 code0479        1, 0, 13
 call            @Func_2962
-dialogtxt       "Thanks for hunting those strays."
+dialogtxt       "Thanks for hunting those Strays."
 dialogtxt       "Here's you reward."
 code047b        
 code0309        
@@ -270,7 +270,7 @@ jumpz           @Cond_0dea, ($bv043 == 0)
 jumpz           @Cond_0d76, ($bv044 == 1)
 call            @Func_2962
 dialogtxt       "Sorry. We don't have any requests"
-dialogtxt       "to hunt strays right now."
+dialogtxt       "to hunt Strays right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -309,7 +309,7 @@ goto            @Label_0ebc
 
 @Cond_0e5e:
 call            @Func_2962
-dialogtxt       "I see you've been hunting strays."
+dialogtxt       "I see you've been hunting Strays."
 dialogtxt       "I thank you."
 dialogtxt       "Take this as your reward."
 code047b        
@@ -326,7 +326,7 @@ goto            @Label_1032
 jumpz           @Cond_0f26, ($bv043 == 3)
 call            @Func_2962
 dialogtxt       "Sorry. We don't have any requests"
-dialogtxt       "to hunt strays right now."
+dialogtxt       "to hunt Strays right now."
 code047b        
 code0309        
 call            @Func_2a50

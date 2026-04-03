@@ -316,7 +316,7 @@ code047d        1, 2
 call            @Func_1e12
 call            @Func_1d7a
 dialogtxt       "With this, I've proven"
-dialogtxt       "that they were fakes, yes?"
+dialogtxt       "that they were fakes. Agreed?"
 dialogtxt       "Then let us continue."
 code047b        
 code0309        
@@ -471,7 +471,7 @@ code047d        1, 2
 call            @Func_1e12
 call            @Func_1d7a
 dialogtxt       "And now you understand that"
-dialogtxt       "those people were imposters, yes?"
+dialogtxt       "those people were imposters. Agreed?"
 dialogtxt       "Now, let us continue!"
 code047b        
 code0309        

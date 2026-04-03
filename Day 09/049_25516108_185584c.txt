@@ -119,7 +119,7 @@ call            @Func_19f8
 code0479        1, 2, 14
 call            @Func_1a2e
 dialogtxt       "Such a rude Summon."
-dialogtxt       "You are a failure of a Master."
+dialogtxt       "You are a failure of a master."
 dialogtxt       "The apprentice must be as well."
 code047b        
 code0309        

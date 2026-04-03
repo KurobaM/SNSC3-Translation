@@ -131,7 +131,7 @@ goto            @Label_053a
 @Label_053a:
 call            @Func_0efc
 call            @Func_0df8
-dialogtxt       "A stray summon..."
+dialogtxt       "A Stray Summon..."
 jumpz           @Cond_05a0, ($b002 == 0)
 dialogtxt       "Those guys might"
 dialogtxt       "show up again..."

@@ -507,7 +507,7 @@ call            @Func_23f8
 code0479        1, 0, 12
 call            @Func_242e
 dialogtxt       "From some reason, looking at"
-dialogtxt       "this one reminds me of my Master..."
+dialogtxt       "this one reminds me of my master..."
 code0309        
 call            @Func_2464
 code0479        0, 0, 12

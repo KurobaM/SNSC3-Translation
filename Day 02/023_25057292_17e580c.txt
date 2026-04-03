@@ -41,7 +41,7 @@ code0309
 code0479        0, 0, 16
 code0479        1, 4, 12
 dialogtxt       "How could you do that"
-dialogtxt       "to your Master's friends?"
+dialogtxt       "to your master's friends?"
 dialogtxt       "It makes no sense."
 code0309        
 call            @Func_1066

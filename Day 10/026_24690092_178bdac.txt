@@ -315,7 +315,7 @@ code0301        8, 7
 code047d        0, 148
 code047e        0, 1
 dialogtxt       "So I found this great Craftknight!"
-dialogtxt       "There's a Master Craftknight"
+dialogtxt       "There's a master Craftknight"
 dialogtxt       "in town named Bostaph, although..."
 code0309        
 dialogtxt       "It's hard to approach him because"

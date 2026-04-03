@@ -236,7 +236,7 @@ code0479        1, 2, 14
 call            @Func_1a0c
 dialogtxt       "Those people have an established"
 dialogtxt       "contract with Master Bostaph and"
-dialogtxt       "are exterminating strays for us."
+dialogtxt       "are exterminating Strays for us."
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 16

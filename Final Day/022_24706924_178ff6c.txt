@@ -361,7 +361,7 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "The Master at the local forge"
+dialogtxt       "The master at the local forge"
 dialogtxt       "is scary."
 code0309
 dialogtxt       "So when I grow up,"

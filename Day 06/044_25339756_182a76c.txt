@@ -99,7 +99,7 @@ code0309
 call            @Func_28d4
 code0479        1, 2, 14
 call            @Func_290a
-dialogtxt       "Feed her to master!"
+dialogtxt       "Feed her to Master!"
 dialogtxt       "Why would we?"
 code0309        
 call            @Func_29c4

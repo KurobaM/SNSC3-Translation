@@ -1488,7 +1488,7 @@ code0309
 call            @Func_621e
 code0479        1, 2, 14
 call            @Func_6254
-dialogtxt       "Why you...!"
+dialogtxt       "Damn you!"
 code0309        
 call            @Func_62f8
 call            @Func_628a

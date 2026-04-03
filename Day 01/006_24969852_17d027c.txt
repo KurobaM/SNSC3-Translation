@@ -255,7 +255,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -293,7 +293,7 @@ call            @Func_484e
 code0479        1, 4, 12
 call            @Func_4884
 dialogtxt       "Then would you rather tell the truth?"
-dialogtxt       "Murno has enough problems, yes?"
+dialogtxt       "Murno has enough problems, right?"
 code0309        
 call            @Func_48ba
 code0479        0, 4, 12
@@ -606,7 +606,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -644,7 +644,7 @@ call            @Func_484e
 code0479        1, 4, 12
 call            @Func_4884
 dialogtxt       "Or would you rather tell the truth?"
-dialogtxt       "Murno has enough problems, yes?"
+dialogtxt       "Murno has enough problems, right?"
 code0309        
 call            @Func_48ba
 code0479        0, 4, 16
@@ -913,7 +913,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -951,7 +951,7 @@ call            @Func_484e
 code0479        1, 4, 12
 call            @Func_4884
 dialogtxt       "Or would you rather tell the truth?"
-dialogtxt       "Murno has enough problems, yes?"
+dialogtxt       "Murno has enough problems, right?"
 code0309        
 call            @Func_48ba
 code0479        0, 0, 14
@@ -1230,7 +1230,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        

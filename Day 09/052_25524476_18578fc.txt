@@ -232,12 +232,12 @@ code047d        0, 0
 call            @Func_2f3e
 call            @Func_2e66
 jumpz           @Cond_0cf4, ($b002 == 0)
-dialogtxt       "Why you..."
+dialogtxt       "You scum..."
 dialogtxt       "What did you do!?"
 goto            @Label_0d1c
 
 @Cond_0cf4:
-dialogtxt       "Why you..."
+dialogtxt       "You scum..."
 dialogtxt       "What did you do!?"
 goto            @Label_0d1c
 

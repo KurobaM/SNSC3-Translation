@@ -435,7 +435,7 @@ code040b
 
 @Event_1286:
 code0301        8, 7
-dialogtxt       "The damage done by stray"
+dialogtxt       "The damage done by Stray"
 dialogtxt       "Summon Beasts only rises."
 dialogtxt       "Please be careful!"
 code0309        

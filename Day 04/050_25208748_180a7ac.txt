@@ -137,7 +137,7 @@ goto            @Cond_0554
 
 @Cond_0554:
 jumpz           @Cond_0584, ($b003 == 2)
-dialogtxt       "Why you..."
+dialogtxt       "You've got some nerve!"
 goto            @Cond_0584
 
 @Cond_0584:

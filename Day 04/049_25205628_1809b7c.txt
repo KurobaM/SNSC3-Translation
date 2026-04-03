@@ -150,7 +150,7 @@ call            @Func_2168
 code0479        1, 0, 12
 call            @Func_219e
 dialogtxt       "Furthermore, the one who hit"
-dialogtxt       "you wasn't their Master."
+dialogtxt       "you wasn't their master."
 dialogtxt       "It was Master Bostaph. Correct?"
 code0309        
 call            @Func_21d4

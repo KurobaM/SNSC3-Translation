@@ -503,7 +503,7 @@ code047d        0, 108
 code0479        1, 2, 14
 call            @Func_24bc
 call            @Func_23b8
-dialogtxt       "Why you!"
+dialogtxt       "You piece of...!"
 code047b        
 code0309        
 call            @Func_2512

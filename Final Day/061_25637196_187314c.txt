@@ -432,7 +432,7 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_2c2c
 call            @Func_2baa
-dialogtxt       "Sorry, but it's a Master's duty not"
+dialogtxt       "Sorry, but it's a master's duty not"
 dialogtxt       "to betray the expectations"
 dialogtxt       "of their cute apprentice."
 code047b        
