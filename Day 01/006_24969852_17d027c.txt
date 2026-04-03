@@ -255,7 +255,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -606,7 +606,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -913,7 +913,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        
@@ -1231,7 +1231,7 @@ dialogtxt       "You should go introduce [NAME 1]"
 dialogtxt       "to the Chief."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There've been more strays lately,"
+dialogtxt       "There've been more Strays lately,"
 dialogtxt       "so we need to make sure"
 dialogtxt       "[NAME 1] isn't mistaken for one."
 code0309        

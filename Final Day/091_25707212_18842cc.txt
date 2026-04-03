@@ -1370,7 +1370,7 @@ code0301        2, 9
 code031f        3
 dialogtxt       "I won't allow you to disappear"
 dialogtxt       "on your own without your"
-dialogtxt       "Master's permission..."
+dialogtxt       "master's permission..."
 goto            @Label_3f28
 
 @Label_3f28:

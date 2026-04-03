@@ -349,7 +349,7 @@ code0309
 call            @Func_25a4
 code0479        1, 0, 12
 call            @Func_25da
-dialogtxt       "Hah, that's impossible anways!"
+dialogtxt       "Hah, that's impossible anyway!"
 dialogtxt       "That one's a Stray!"
 code0309        
 call            @Func_26aa

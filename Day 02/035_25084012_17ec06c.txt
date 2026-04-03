@@ -858,7 +858,7 @@ dialogtxt       "Hmmmm..."
 dialogtxt       "I see how it is..."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "But there are more strays out now."
+dialogtxt       "But there are more Strays out now."
 dialogtxt       "I might not be able to protect you"
 dialogtxt       "by myself."
 code0309        
@@ -1014,7 +1014,7 @@ code047b
 code0309        
 code0479        0, 2, 14
 code0479        1, 0, 14
-dialogtxt       "In the forest there are strays"
+dialogtxt       "In the forest there are Strays"
 dialogtxt       "far stronger than that guy earlier."
 code0309        
 call            @Func_3b72

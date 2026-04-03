@@ -416,7 +416,7 @@ code047a        1, 1, 1
 call            @Func_3fe0
 dialogtxt       "I don't have time for this!"
 dialogtxt       "Spit it out!"
-dialogtxt       "That Beast hurt my Master you know!"
+dialogtxt       "That Beast hurt my master you know!"
 goto            @Label_12c2
 
 @Label_12c2:

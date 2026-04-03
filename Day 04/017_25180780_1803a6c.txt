@@ -246,7 +246,7 @@ call            @Func_2a48
 code0479        0, 0, 16
 call            @Func_29a6
 dialogtxt       "Kinda. I'm part of the militia."
-dialogtxt       "Eliminating nearby strays"
+dialogtxt       "Eliminating nearby Strays"
 dialogtxt       "is just one part of it."
 code0309        
 call            @Func_2ae2

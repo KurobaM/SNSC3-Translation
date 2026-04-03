@@ -352,7 +352,7 @@ code047d        0, 123
 code047e        0, 1
 dialogtxt       "Hey, hey, let's play pretend!"
 dialogtxt       "I'll be the Craftknight hero..."
-dialogtxt       "And you'll be my Master!"
+dialogtxt       "And you'll be my master!"
 code0309        
 dialogtxt       "\"There is nothing I can teach you!\"!"
 dialogtxt       "Well!? How did I do!?"

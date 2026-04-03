@@ -342,7 +342,7 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "Mom says she wants a Master who is"
+dialogtxt       "Mom says she wants a master who is"
 dialogtxt       "proficient in one weapon, but I"
 dialogtxt       "want one who is proficient in ALL!"
 code0309        

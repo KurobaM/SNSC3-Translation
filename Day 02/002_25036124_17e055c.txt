@@ -81,7 +81,7 @@ goto            @Cond_039c
 @Cond_039c:
 jumpz           @Cond_03d8, ($b003 == 1)
 dialogtxt       "Speaking of which,"
-dialogtxt       "Lady's Murno's condition..."
+dialogtxt       "Lady Murno's condition..."
 goto            @Cond_03d8
 
 @Cond_03d8:
@@ -1085,7 +1085,7 @@ dialogtxt       "so I had a really hard time."
 code0309        
 code0479        1, 1, 12
 dialogtxt       "But I could keep going thanks to"
-dialogtxt       "to the kindness of my Master."
+dialogtxt       "to the kindness of my master."
 code0309        
 call            @Func_4130
 code0479        0, 0, 16

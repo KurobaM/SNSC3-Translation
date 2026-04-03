@@ -339,7 +339,7 @@ code0479        0, 2, 13
 code047d        0, 0
 call            @Func_1c34
 call            @Func_1b7a
-dialogtxt       "That's my Master!"
+dialogtxt       "That's my master!"
 dialogtxt       "So cool!"
 code047b        
 code0309        

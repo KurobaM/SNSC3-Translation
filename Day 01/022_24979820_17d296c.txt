@@ -81,7 +81,7 @@ call            @Func_2970
 code0479        0, 2, 12
 call            @Func_28ce
 dialogtxt       "Hey, my name is [NAME 0]!"
-dialogtxt       "Don't call my Master a Stray,"
+dialogtxt       "Don't call my master a Stray,"
 dialogtxt       "when your leader is so hostile!"
 goto            @Label_0492
 
