@@ -25,7 +25,7 @@ goto            @Cond_011e
 
 @Cond_011e:
 jumpz           @Cond_0164, ($b003 == 3)
-dialogtxt       "Umm... Please let go...!"
+dialogtxt       "Umm... Please let me go!"
 dialogtxt       "I want to ask Lady Murno something..."
 goto            @Cond_0164
 
@@ -36,8 +36,7 @@ code0302        1
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "Yeah~!"
-dialogtxt       "I totally understand."
+dialogtxt       "Yeah, yeah."
 code047b        
 code0309        
 code047e        0, 0
@@ -107,9 +106,8 @@ code0479        1, 0, 14
 code047d        1, 108
 call            @Func_182e
 call            @Func_1796
-dialogtxt       "So..."
-dialogtxt       "You were planning to"
-dialogtxt       "go see Murno too, eh?"
+dialogtxt       "So, you were planning to go"
+dialogtxt       "see Murno too, eh?"
 code047b        
 code0309        
 jumpz           @Cond_0616, ($b003 == 2)
@@ -165,22 +163,21 @@ code0479        1, 4, 13
 call            @Func_17b4
 dialogtxt       "I see, so in other words,"
 dialogtxt       "you were worried about Murno!"
-dialogtxt       "Hehe~... I see~..."
+dialogtxt       "Hehe~ I see~"
 code0309        
 call            @Func_17ea
 goto            @Label_0950
 
 @Choice_088c:
 code0479        0, 0, 12
-dialogtxt       "I was just thinking about"
-dialogtxt       "waiting in the entrance"
-dialogtxt       "once I was ready..."
+dialogtxt       "I was just thinking about waiting"
+dialogtxt       "by the entrance once I was ready."
 code0309        
 call            @Func_177e
 code0479        1, 1, 12
 call            @Func_17b4
-dialogtxt       "Ah, yes, yes."
-dialogtxt       "I'll leave it at that then."
+dialogtxt       "Oh, I'm suuure you were~"
+dialogtxt       "We'll leave it at that then."
 dialogtxt       "I'm so nice, aren't I?"
 code0309        
 call            @Func_17ea
@@ -188,7 +185,7 @@ call            @Func_17ea
 code0479        0, 5, 17
 call            @Func_1748
 dialogtxt       "W—What!?"
-dialogtxt       "I wasn't...!"
+dialogtxt       "No, I wasn't!"
 goto            @Label_09c8
 
 @Label_09c8:
@@ -285,8 +282,8 @@ code0309
 code0479        1, 4, 16
 code0479        0, 4, 16
 dialogtxt       "If you don't at least learn to"
-dialogtxt       "repair things, we'll really"
-dialogtxt       "be in trouble! Financially!"
+dialogtxt       "repair things, we'll really be in"
+dialogtxt       "trouble! Financially speaking!"
 code0309        
 call            @Func_17ea
 code0479        0, 1, 17
@@ -298,12 +295,12 @@ call            @Func_177e
 code0479        1, 2, 12
 call            @Func_17b4
 dialogtxt       "It looks like you understand"
-dialogtxt       "our situation, so hurry it up!"
+dialogtxt       "the situation, so hurry it up!"
 code0309        
 call            @Func_17ea
 code0479        0, 0, 12
 call            @Func_1748
-dialogtxt       "Okay!"
+dialogtxt       "Yes, Master!"
 code0309        
 call            @Func_177e
 code0479        1, 2, 14

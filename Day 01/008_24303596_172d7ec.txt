@@ -140,8 +140,8 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "I need to introduce"
-dialogtxt       "[NAME 1] to the Chief!"
+dialogtxt       "I need to introduce [NAME 1]"
+dialogtxt       "to the Chief first!"
 goto            @Label_06b8
 
 @Label_06b8:

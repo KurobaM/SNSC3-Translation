@@ -373,20 +373,20 @@ dialogtxt       "When crafting, you create weapons"
 dialogtxt       "using a Shapestone and other items."
 code0309        
 dialogtxt       "The Shapestone determines type,"
-dialogtxt       "while the synthesis items determine"
+dialogtxt       "while the materials determine"
 dialogtxt       "the weapon's strength and design."
 code0309        
 goto            @Label_1174
 
 @Choice_107e:
 code047e        0, 1
-dialogtxt       "Crafting ranks are like proof"
+dialogtxt       "Crafting ranks are the proof"
 dialogtxt       "of how much you've mastered"
-dialogtxt       "each type of weapon."
+dialogtxt       "each weapon type."
 code0309        
 dialogtxt       "There are many things you can't do"
-dialogtxt       "with a low rank. In any case,"
-dialogtxt       "raising your rank is important."
+dialogtxt       "with a low rank."
+dialogtxt       "Raising your rank is important."
 code0309        
 goto            @Label_1174
 
@@ -415,25 +415,25 @@ dialogtxt       "You're a Craftknight, right?"
 dialogtxt       "Wanna hear about upgrades?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1302, "Yes please"
-choicetxt       @Choice_1568, "No thank you"
+choicetxt       @Choice_1302, "Yes, please."
+choicetxt       @Choice_1568, "No, thank you."
 choicewait      
 
 @Choice_1302:
 code047e        0, 1
 dialogtxt       "Um, let's see. If you use a"
-dialogtxt       "\"Water Shard\", your weapon"
-dialogtxt       "will gain the Water element."
+dialogtxt       "\"Water Shard,\" your weapon"
+dialogtxt       "will gain the \"Water\" element."
 code0309        
 dialogtxt       "Astoundingly, for one time only,"
-dialogtxt       "I have a \"Water Shard\""
-dialogtxt       "on sale for only 100 Boam!"
+dialogtxt       "I have one \"Water Shard\" on sale"
+dialogtxt       "for just 100 Boam!"
 code0309        
 dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1400, "Buy"
-choicetxt       @Choice_1516, "Don't buy"
+choicetxt       @Choice_1400, "I'll take it!"
+choicetxt       @Choice_1516, "I'll pass."
 choicewait      
 
 @Choice_1400:

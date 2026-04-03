@@ -314,13 +314,13 @@ code0309
 call            @Func_46ec
 code0479        1, 0, 16
 call            @Func_4722
-dialogtxt       "Even though we just"
-dialogtxt       "disassembled it?"
+dialogtxt       "Even though we just disassembled"
+dialogtxt       "it?"
 code0309        
 call            @Func_4758
 code0479        0, 2, 12
 call            @Func_46b6
-dialogtxt       "Well, we are practicing."
+dialogtxt       "Well, we ARE practicing."
 goto            @Label_10bc
 
 @Label_10bc:
@@ -328,8 +328,8 @@ code0309
 call            @Func_46ec
 code0479        1, 4, 12
 call            @Func_4722
-dialogtxt       "I suppose I cannot"
-dialogtxt       "argue with that..."
+dialogtxt       "I suppose I can't argue"
+dialogtxt       "with that..."
 code0309        
 call            @Func_47f2
 call            @Func_4740
@@ -738,14 +738,14 @@ call            @Func_46ec
 code0479        1, 4, 16
 call            @Func_4722
 dialogtxt       "Of course I am!"
-dialogtxt       "Are you certain we can"
-dialogtxt       "leave her with Master?"
+dialogtxt       "Are you certain we can leave"
+dialogtxt       "her with Master?"
 code0309        
 call            @Func_4758
 code0479        0, 0, 12
 call            @Func_46b6
 dialogtxt       "It'll be fine."
-dialogtxt       "Yeah, she's a bit short tempered,"
+dialogtxt       "Yeah, she's a bit short-tempered,"
 dialogtxt       "but she's good at tending to others."
 goto            @Label_240a
 
