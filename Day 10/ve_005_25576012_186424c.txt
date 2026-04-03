@@ -200,7 +200,7 @@ code0309
 call            @Func_11a8
 code0479        0, 1, 15
 call            @Func_1106
-dialogbig       255, 116, 1, 0, 0, "Nooo~!!!"
+dialogbig       24, 116, 1, 0, 0, "Nooo~!!!"
 code030c        
 call            @Func_113c
 code0479        1, 7, 13

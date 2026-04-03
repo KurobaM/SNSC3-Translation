@@ -348,7 +348,7 @@ call            @Func_1ffe
 code0333        2, 30
 code0479        1, 2, 15
 call            @Func_2034
-dialogbig       255, 116, 1, 0, 0, "Oh, come on!"
+dialogbig       24, 116, 1, 0, 0, "Oh, come on!"
 code030c        
 code0334        
 code0331        39, 256
@@ -574,7 +574,7 @@ dialogtxt       "You'll break something!"
 dialogtxt       "So listen..."
 code0309        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "NO RUNNING!"
+dialogbig       36, 116, 1, 0, 0, "NO RUNNING!"
 code030c        
 call            @Func_206a
 code0479        0, 5, 15
@@ -589,7 +589,7 @@ dialogtxt       "They're waiting for you,"
 dialogtxt       "so don't wander off."
 code0309        
 code0479        1, 2, 12
-dialogbig       255, 116, 1, 0, 0, "And no running."
+dialogbig       24, 116, 1, 0, 0, "And no running."
 code030c        
 call            @Func_206a
 code0479        0, 2, 15

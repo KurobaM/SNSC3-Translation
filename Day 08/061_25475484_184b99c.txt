@@ -185,7 +185,7 @@ code0333        2, 30
 code047d        0, 132
 code0301        8, 3
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "Found 'em!"
+dialogbig       48, 116, 1, 0, 0, "Found 'em!"
 code047b        
 code030c        
 code047e        0, 0

@@ -521,7 +521,7 @@ code0479        0, 11, 15
 code047d        0, 0
 call            @Func_2e66
 call            @Func_2dac
-dialogbig       255, 116, 1, 0, 0, "親方！"
+dialogbig       84, 116, 1, 0, 0, "親方！"
 code047b        
 code030c        
 call            @Func_2ebc

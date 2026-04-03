@@ -233,7 +233,7 @@ code0479        1, 5, 17
 code047d        1, 115
 call            @Func_4524
 call            @Func_44a2
-dialogbig       255, 116, 1, 0, 0, "なにやつっ！"
+dialogbig       48, 116, 1, 0, 0, "なにやつっ！"
 code047b        
 code030c        
 call            @Func_457a
@@ -999,7 +999,7 @@ code0309
 call            @Func_44f6
 code0479        0, 5, 15
 call            @Func_4454
-dialogbig       255, 116, 1, 0, 0, "たぶん！？"
+dialogbig       60, 116, 1, 0, 0, "たぶん！？"
 code047b        
 code030c        
 call            @Func_4590

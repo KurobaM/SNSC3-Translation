@@ -150,7 +150,7 @@ code0309
 call            @Func_1262
 code0479        1, 2, 15
 call            @Func_1298
-dialogbig       255, 116, 1, 0, 0, "No, you don't!"
+dialogbig       36, 116, 1, 0, 0, "No, you don't!"
 code030c        
 code0479        1, 2, 14
 dialogtxt       "Let's have a match."

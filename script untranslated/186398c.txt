@@ -43,11 +43,11 @@ code0331        32, 256
 code0479        0, 7, 13
 code0479        1, 1, 13
 jumpz           @Cond_0238, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "ぃよっしゃー！！"
+dialogbig       24, 116, 1, 0, 0, "ぃよっしゃー！！"
 goto            @Label_026e
 
 @Cond_0238:
-dialogbig       255, 116, 1, 0, 0, "ぃやったーっ！！"
+dialogbig       24, 116, 1, 0, 0, "ぃやったーっ！！"
 goto            @Label_026e
 
 @Label_026e:

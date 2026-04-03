@@ -522,11 +522,11 @@ code0479        0, 1, 13
 call            @Func_2dae
 call            @Func_2caa
 jumpz           @Cond_1bae, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "Gahahahaha!"
+dialogbig       24, 116, 1, 0, 0, "Gahahahaha!"
 goto            @Label_1be4
 
 @Cond_1bae:
-dialogbig       255, 116, 1, 0, 0, "Ahahahahaha!"
+dialogbig       24, 116, 1, 0, 0, "Ahahahahaha!"
 goto            @Label_1be4
 
 @Label_1be4:

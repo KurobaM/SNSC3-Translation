@@ -113,7 +113,7 @@ code0479        0, 7, 13
 code0479        0, 5, 17
 call            @Func_2066
 call            @Func_1f62
-dialogbig       255, 116, 1, 0, 0, "Uwah!?"
+dialogbig       60, 116, 1, 0, 0, "Uwah!?"
 code047b        
 code030c        
 code0479        0, 1, 15
@@ -369,11 +369,11 @@ code0479        0, 1, 15
 call            @Func_203a
 call            @Func_1f62
 jumpz           @Cond_101e, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "That hurts!"
+dialogbig       36, 116, 1, 0, 0, "That hurts!"
 goto            @Label_1052
 
 @Cond_101e:
-dialogbig       255, 116, 1, 0, 0, "Ouch!"
+dialogbig       36, 116, 1, 0, 0, "Ouch!"
 goto            @Label_1052
 
 @Label_1052:

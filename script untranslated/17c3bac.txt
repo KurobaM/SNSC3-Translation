@@ -219,7 +219,7 @@ code0309
 call            @Func_25a4
 code0479        1, 2, 15
 call            @Func_25da
-dialogbig       255, 116, 1, 0, 0, "だまれっ！"
+dialogbig       60, 116, 1, 0, 0, "だまれっ！"
 code030c        
 call            @Func_26aa
 call            @Func_25f8
@@ -325,7 +325,7 @@ code031a        7
 call            @Func_2628
 code0479        0, 2, 14
 call            @Func_2550
-dialogbig       255, 116, 0, 0, 0, "ぐっ…！"
+dialogbig       96, 116, 0, 0, 0, "ぐっ…！"
 code030c        
 code047b        
 call            @Func_25a4
@@ -454,11 +454,11 @@ code0479        1, 2, 12
 call            @Func_2654
 call            @Func_2550
 jumpz           @Cond_14c8, ($b002 == 0)
-dialogbig       255, 116, 0, 0, 0, "ぐぁっ…！"
+dialogbig       90, 116, 0, 0, 0, "ぐぁっ…！"
 goto            @Label_14f8
 
 @Cond_14c8:
-dialogbig       255, 116, 0, 0, 0, "うぁっ…！"
+dialogbig       90, 116, 0, 0, 0, "うぁっ…！"
 goto            @Label_14f8
 
 @Label_14f8:
@@ -660,22 +660,22 @@ code040d        10
 code033b        359, 0, 0, 0, 1, 1
 code031f        7
 jumpz           @Cond_1d36, ($b003 == 0)
-dialogbig       255, 68, 1, 0, 0, "守ル…！"
+dialogbig       72, 68, 1, 0, 0, "守ル…！"
 goto            @Cond_1d36
 
 @Cond_1d36:
 jumpz           @Cond_1d74, ($b003 == 1)
-dialogbig       255, 68, 1, 0, 0, "守る…！"
+dialogbig       72, 68, 1, 0, 0, "守る…！"
 goto            @Cond_1d74
 
 @Cond_1d74:
 jumpz           @Cond_1db2, ($b003 == 2)
-dialogbig       255, 68, 1, 0, 0, "守る…！"
+dialogbig       72, 68, 1, 0, 0, "守る…！"
 goto            @Cond_1db2
 
 @Cond_1db2:
 jumpz           @Cond_1df0, ($b003 == 3)
-dialogbig       255, 68, 1, 0, 0, "守る…！"
+dialogbig       72, 68, 1, 0, 0, "守る…！"
 goto            @Cond_1df0
 
 @Cond_1df0:

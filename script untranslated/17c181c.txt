@@ -560,7 +560,7 @@ call            @Func_4034
 code0332        
 code033b        385, 0, 0, 0, 1, 0
 code0301        8, 7
-dialogbig       255, 116, 1, 6, 0, "むに◎"
+dialogbig       84, 116, 1, 6, 0, "むに◎"
 code030c        
 call            @Func_40ce
 code0302        7
@@ -596,7 +596,7 @@ call            @Func_3f92
 dialogtxt       "い…"
 code0309        
 code0479        0, 7, 15
-dialogbig       255, 116, 1, 0, 0, "イヤぁあー！！！"
+dialogbig       24, 116, 1, 0, 0, "イヤぁあー！！！"
 code030c        
 call            @Func_40a2
 code047c        0, 24
@@ -746,7 +746,7 @@ code0332
 code033b        386, 0, 0, 0, 1, 0
 code0445        3, 8
 code0301        8, 7
-dialogbig       255, 116, 1, 1, 0, "ちゅっ◎"
+dialogbig       76, 116, 1, 1, 0, "ちゅっ◎"
 code030c        
 code0302        7
 code0446        3
@@ -769,7 +769,7 @@ call            @Func_3f92
 dialogtxt       "い…"
 code0309        
 code0479        0, 7, 15
-dialogbig       255, 116, 1, 0, 0, "イヤぁあー！！！"
+dialogbig       24, 116, 1, 0, 0, "イヤぁあー！！！"
 code030c        
 call            @Func_40a2
 code047c        0, 24
@@ -900,7 +900,7 @@ code0479        0, 5, 15
 call            @Func_404c
 call            @Func_3f92
 jumpz           @Cond_2978, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "さわらないで！"
+dialogbig       36, 116, 1, 0, 0, "さわらないで！"
 code030c        
 code047b        
 call            @Func_3fc8
@@ -912,7 +912,7 @@ dialogtxt       "さわったワケじゃないぞ！"
 goto            @Label_2a14
 
 @Cond_2978:
-dialogbig       255, 116, 1, 0, 0, "近づかないで！"
+dialogbig       36, 116, 1, 0, 0, "近づかないで！"
 code030c        
 call            @Func_3fc8
 code0479        1, 8, 14
@@ -1184,7 +1184,7 @@ code040d        15
 code0479        1, 2, 15
 call            @Func_4062
 call            @Func_3fe0
-dialogbig       255, 116, 1, 8, 0, "召喚っ！"
+dialogbig       72, 116, 1, 8, 0, "召喚っ！"
 code047b        
 code030c        
 code047a        1, 0, 1

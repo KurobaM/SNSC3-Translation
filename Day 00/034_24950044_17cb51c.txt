@@ -224,10 +224,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       24, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 4, 12
-dialogbig       255, 116, 1, 0, 0, "The hammer is..."
+dialogbig       24, 116, 1, 0, 0, "The hammer is..."
 code030c        
 code0479        0, 5, 16
 dialogtxt       "... Hey, what's the matter?"
@@ -461,10 +461,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!!!"
+dialogbig       24, 116, 1, 0, 0, "To a Craftknight!!!"
 code030c        
 code0479        1, 4, 16
-dialogbig       255, 116, 1, 0, 0, "The hammer is..."
+dialogbig       24, 116, 1, 0, 0, "The hammer is..."
 code030c        
 code0479        0, 5, 16
 dialogtxt       "... Hey, what's the matter?"
@@ -650,10 +650,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       24, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 2, 12
-dialogbig       255, 116, 1, 0, 0, "The hammer is..."
+dialogbig       24, 116, 1, 0, 0, "The hammer is..."
 code030c        
 code0479        0, 5, 16
 dialogtxt       "... Hey, what's the matter?"
@@ -862,10 +862,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       24, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 4, 16
-dialogbig       255, 116, 1, 0, 0, "The hammer is..."
+dialogbig       24, 116, 1, 0, 0, "The hammer is..."
 code030c        
 code0479        0, 5, 16
 dialogtxt       "... Hey, what's the matter?"

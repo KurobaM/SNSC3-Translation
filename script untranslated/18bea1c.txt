@@ -466,22 +466,22 @@ goto            @Label_12b8
 call            @Func_396e
 call            @Func_386a
 jumpz           @Cond_12fe, ($b003 == 0)
-dialogbig       255, 116, 1, 0, 0, "ナ…ッ！"
+dialogbig       72, 116, 1, 0, 0, "ナ…ッ！"
 goto            @Cond_12fe
 
 @Cond_12fe:
 jumpz           @Cond_133c, ($b003 == 1)
-dialogbig       255, 116, 1, 0, 0, "な…っ！"
+dialogbig       72, 116, 1, 0, 0, "な…っ！"
 goto            @Cond_133c
 
 @Cond_133c:
 jumpz           @Cond_137a, ($b003 == 2)
-dialogbig       255, 116, 1, 0, 0, "な…っ！"
+dialogbig       72, 116, 1, 0, 0, "な…っ！"
 goto            @Cond_137a
 
 @Cond_137a:
 jumpz           @Cond_13b8, ($b003 == 3)
-dialogbig       255, 116, 1, 0, 0, "な…っ！"
+dialogbig       72, 116, 1, 0, 0, "な…っ！"
 goto            @Cond_13b8
 
 @Cond_13b8:
@@ -578,22 +578,22 @@ call            @Func_396e
 call            @Func_386a
 code047b        
 jumpz           @Cond_174a, ($b003 == 0)
-dialogbig       255, 116, 1, 0, 0, "１００万ばーむ！"
+dialogbig       24, 116, 1, 0, 0, "１００万ばーむ！"
 goto            @Cond_174a
 
 @Cond_174a:
 jumpz           @Cond_1790, ($b003 == 1)
-dialogbig       255, 116, 1, 0, 0, "１００万バーム！"
+dialogbig       24, 116, 1, 0, 0, "１００万バーム！"
 goto            @Cond_1790
 
 @Cond_1790:
 jumpz           @Cond_17d6, ($b003 == 2)
-dialogbig       255, 116, 1, 0, 0, "１００万バーム！"
+dialogbig       24, 116, 1, 0, 0, "１００万バーム！"
 goto            @Cond_17d6
 
 @Cond_17d6:
 jumpz           @Cond_181c, ($b003 == 3)
-dialogbig       255, 116, 1, 0, 0, "１００万バーム！"
+dialogbig       24, 116, 1, 0, 0, "１００万バーム！"
 goto            @Cond_181c
 
 @Cond_181c:
@@ -793,7 +793,7 @@ code0479        0, 5, 17
 code047d        0, 110
 call            @Func_3942
 call            @Func_3888
-dialogbig       255, 116, 1, 0, 0, "ジェイドさん！？"
+dialogbig       24, 116, 1, 0, 0, "ジェイドさん！？"
 code047b        
 code030c        
 call            @Func_39c4

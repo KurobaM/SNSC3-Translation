@@ -678,7 +678,7 @@ code033b        402, 0, 0, 0, 1, 1
 code0301        8, 0
 code047d        0, 142
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "グルオオオォ…！"
+dialogbig       24, 116, 1, 0, 0, "グルオオオォ…！"
 code030c        
 code047e        0, 0
 code0302        0
@@ -800,11 +800,11 @@ code047d        0, 0
 call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_2598, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "うわあっ！！！"
+dialogbig       36, 116, 1, 0, 0, "うわあっ！！！"
 goto            @Label_25cc
 
 @Cond_2598:
-dialogbig       255, 116, 1, 0, 0, "きゃあっ！！！"
+dialogbig       36, 116, 1, 0, 0, "きゃあっ！！！"
 goto            @Label_25cc
 
 @Label_25cc:
@@ -957,7 +957,7 @@ code033b        402, 0, 0, 0, 1, 1
 code047d        0, 142
 code0301        8, 3
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "グゥワァアアア！"
+dialogbig       24, 116, 1, 0, 0, "グゥワァアアア！"
 code030c        
 code047e        0, 0
 code0302        3
@@ -1377,7 +1377,7 @@ code033b        400, 0, 0, 0, 1, 1
 code0301        8, 0
 code047d        0, 141
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "[NAME 4]シャアァァッ！"
+dialogbig       24, 116, 1, 0, 0, "[NAME 4]シャアァァッ！"
 code030c        
 code047e        0, 0
 code0302        0
@@ -1464,7 +1464,7 @@ goto            @Label_3e70
 @Label_3e70:
 code0309        
 code0479        0, 2, 15
-dialogbig       255, 116, 1, 0, 0, "幻龍鬼！！！！！"
+dialogbig       24, 116, 1, 0, 0, "幻龍鬼！！！！！"
 code030c        
 call            @Func_4596
 call            @Func_44a4

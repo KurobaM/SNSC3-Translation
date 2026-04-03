@@ -230,7 +230,7 @@ code047d        0, 2
 code0301        16, 1
 code047e        0, 1
 jumpz           @Cond_0906, ($b003 == 0)
-dialogbig       255, 116, 1, 0, 0, "イ[NAME 4]マス！！"
+dialogbig       48, 116, 1, 0, 0, "イ[NAME 4]マス！！"
 code030c        
 code047e        0, 0
 code0302        1
@@ -238,7 +238,7 @@ goto            @Cond_0906
 
 @Cond_0906:
 jumpz           @Cond_0964, ($b003 == 1)
-dialogbig       255, 116, 1, 0, 0, "カクゴせいよ！！"
+dialogbig       24, 116, 1, 0, 0, "カクゴせいよ！！"
 code030c        
 code047e        0, 0
 code0302        1
@@ -255,7 +255,7 @@ goto            @Cond_09c0
 
 @Cond_09c0:
 jumpz           @Cond_0a1e, ($b003 == 3)
-dialogbig       255, 116, 1, 0, 0, "いきますよ！！！"
+dialogbig       24, 116, 1, 0, 0, "いきますよ！！！"
 code030c        
 code047e        0, 0
 code0302        1

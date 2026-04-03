@@ -133,7 +133,7 @@ code0309
 call            @Func_101c
 code0479        0, 2, 15
 call            @Func_0f7a
-dialogbig       255, 116, 1, 0, 0, "まだだよ！"
+dialogbig       60, 116, 1, 0, 0, "まだだよ！"
 code030c        
 call            @Func_0fb0
 code0479        1, 4, 17
@@ -176,7 +176,7 @@ call            @Func_101c
 code0479        0, 8, 15
 code0479        1, 5, 14
 call            @Func_0f7a
-dialogbig       255, 116, 1, 0, 0, "いいから！"
+dialogbig       60, 116, 1, 0, 0, "いいから！"
 code030c        
 call            @Func_0fb0
 code0479        1, 5, 16

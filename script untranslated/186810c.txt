@@ -152,7 +152,7 @@ code0309
 call            @Func_1262
 code0479        1, 2, 15
 call            @Func_1298
-dialogbig       255, 116, 1, 0, 0, "わかってない！"
+dialogbig       36, 116, 1, 0, 0, "わかってない！"
 code030c        
 code0479        1, 2, 14
 dialogtxt       "じゃあ勝負しましょう"

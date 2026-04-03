@@ -59,22 +59,22 @@ code031c        7, 1
 code031f        7
 code0304        1
 jumpz           @Cond_03c2, ($b003 == 0)
-dialogbig       255, 68, 1, 0, 4, "My Name Is...!"
+dialogbig       45, 68, 1, 0, 4, "My Name Is...!"
 goto            @Cond_03c2
 
 @Cond_03c2:
 jumpz           @Cond_0402, ($b003 == 1)
-dialogbig       255, 68, 1, 0, 4, "My name is..."
+dialogbig       45, 68, 1, 0, 4, "My name is..."
 goto            @Cond_0402
 
 @Cond_0402:
 jumpz           @Cond_0442, ($b003 == 2)
-dialogbig       255, 68, 1, 0, 4, "My name is..."
+dialogbig       45, 68, 1, 0, 4, "My name is..."
 goto            @Cond_0442
 
 @Cond_0442:
 jumpz           @Cond_0484, ($b003 == 3)
-dialogbig       255, 68, 1, 0, 4, "My name is..."
+dialogbig       45, 68, 1, 0, 4, "My name is..."
 goto            @Cond_0484
 
 @Cond_0484:
@@ -181,7 +181,7 @@ dialogtxt       "That Summonite is too pure!"
 dialogtxt       "There's no way you could handle it!"
 code047b        
 code0309        
-dialogbig       255, 116, 1, 0, 0, "Stop!!!"
+dialogbig       80, 116, 1, 0, 0, "Stop!!!"
 code030c        
 call            @Func_62f8
 call            @Func_6206
@@ -191,7 +191,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       255, 116, 3, 8, 0, "Uwaaaaaaah!!!"
+dialogbig       70, 116, 3, 8, 0, "Uwaaaaaaah!!!"
 goto            @Label_0c1a
 
 @Label_0c1a:
@@ -773,7 +773,7 @@ code0479        0, 5, 12
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       255, 116, 1, 0, 0, "Lady Murno!!!"
+dialogbig       24, 116, 1, 0, 0, "Lady Murno!!!"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1160,7 +1160,7 @@ code0479        0, 5, 15
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       255, 116, 1, 0, 0, "Murno!!!"
+dialogbig       24, 116, 1, 0, 0, "Murno!!!"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1550,7 +1550,7 @@ code0479        0, 5, 17
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       255, 116, 1, 0, 0, "Murno!!!"
+dialogbig       24, 116, 1, 0, 0, "Murno!!!"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1897,7 +1897,7 @@ code0479        0, 5, 17
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       255, 116, 1, 0, 0, "Lady Murno!!!"
+dialogbig       24, 116, 1, 0, 0, "Lady Murno!!!"
 code047b        
 code030c        
 call            @Func_62f8

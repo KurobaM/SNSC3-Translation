@@ -186,11 +186,11 @@ code047d        1, 0
 call            @Func_1ff2
 call            @Func_1f70
 jumpz           @Cond_091c, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "オ[NAME 8]も行く！"
+dialogbig       48, 116, 1, 0, 0, "オ[NAME 8]も行く！"
 goto            @Label_0950
 
 @Cond_091c:
-dialogbig       255, 116, 1, 0, 0, "わたしも行く！"
+dialogbig       36, 116, 1, 0, 0, "わたしも行く！"
 goto            @Label_0950
 
 @Label_0950:
@@ -464,7 +464,7 @@ code0333        2, 30
 code047d        0, 106
 code0301        8, 7
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "きゃあっ！！！"
+dialogbig       36, 116, 1, 0, 0, "きゃあっ！！！"
 code030c        
 code047e        0, 0
 code0302        7

@@ -706,7 +706,7 @@ code0309
 code0334        
 code0331        29, 256
 code0479        0, 6, 12
-dialogbig       255, 116, 1, 0, 0, "愛よ！"
+dialogbig       84, 116, 1, 0, 0, "愛よ！"
 code030c        
 call            @Func_4378
 code0478        1, 6
@@ -1113,7 +1113,7 @@ code0479        1, 2, 15
 code047d        1, 113
 call            @Func_4412
 call            @Func_4390
-dialogbig       255, 116, 1, 0, 0, "こら、ティエ！"
+dialogbig       36, 116, 1, 0, 0, "こら、ティエ！"
 code047b        
 code030c        
 call            @Func_43e4
@@ -1131,7 +1131,7 @@ dialogtxt       "さっきから聞いていれば"
 dialogtxt       "お金お金と…"
 code0309        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "みっともないぞ！"
+dialogbig       24, 116, 1, 0, 0, "みっともないぞ！"
 code030c        
 call            @Func_43e4
 code0479        0, 5, 16

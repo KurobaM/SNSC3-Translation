@@ -275,7 +275,7 @@ dialogtxt       "いやだいやだいやだ…"
 dialogtxt       "いやだいやだいやだいやだいやだ"
 code0309        
 code0479        1, 3, 15
-dialogbig       255, 116, 1, 0, 0, "いやだあっ！！！"
+dialogbig       24, 116, 1, 0, 0, "いやだあっ！！！"
 code030c        
 call            @Func_2224
 call            @Func_21b6
@@ -319,7 +319,7 @@ code033b        402, 0, 0, 0, 1, 1
 code047d        0, 142
 code0301        8, 3
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "グワァアア！！！"
+dialogbig       24, 116, 1, 0, 0, "グワァアア！！！"
 code030c        
 code047e        0, 0
 code0302        3
@@ -418,7 +418,7 @@ code0479        1, 5, 17
 code047d        1, 0
 call            @Func_21e4
 call            @Func_2162
-dialogbig       255, 116, 1, 0, 0, "親方ぁっ！！！"
+dialogbig       36, 116, 1, 0, 0, "親方ぁっ！！！"
 code047b        
 code030c        
 call            @Func_21b6
@@ -516,7 +516,7 @@ code033b        402, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 3
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "グワアアッ！！！"
+dialogbig       24, 116, 1, 0, 0, "グワアアッ！！！"
 code030c        
 code047e        0, 0
 code0302        3

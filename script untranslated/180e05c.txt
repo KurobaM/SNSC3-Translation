@@ -39,7 +39,7 @@ code047b
 code0309        
 code0333        2, 30
 code0479        1, 5, 15
-dialogbig       255, 116, 1, 0, 0, "足りんぞおー！！"
+dialogbig       24, 116, 1, 0, 0, "足りんぞおー！！"
 code030c        
 call            @Func_17d8
 call            @Func_173c

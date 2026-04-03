@@ -201,7 +201,7 @@ dialogtxt       "よし…"
 dialogtxt       "では…"
 code0309        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "試合開始！"
+dialogbig       60, 116, 1, 0, 0, "試合開始！"
 code030c        
 call            @Func_0fd4
 call            @Func_0f38

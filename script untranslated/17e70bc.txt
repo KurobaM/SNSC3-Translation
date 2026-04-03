@@ -363,7 +363,7 @@ code047d        1, 107
 code0479        0, 2, 14
 call            @Func_3f74
 call            @Func_3edc
-dialogbig       255, 116, 1, 0, 0, "返せっ！"
+dialogbig       72, 116, 1, 0, 0, "返せっ！"
 code030c        
 call            @Func_3f30
 code0479        0, 2, 15

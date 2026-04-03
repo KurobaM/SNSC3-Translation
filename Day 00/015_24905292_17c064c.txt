@@ -31,7 +31,7 @@ code046e        34, 256, 1
 code033e        155
 code0301        8, 0
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "Aaaughhh!!!"
+dialogbig       36, 116, 1, 0, 0, "Aaaughhh!!!"
 code030c        
 code047e        0, 0
 code0302        0

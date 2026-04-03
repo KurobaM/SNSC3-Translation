@@ -65,32 +65,32 @@ goto            @Cond_0398
 
 @Cond_0398:
 jumpz           @Cond_03d4, ($h216 == 3)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       84, 116, 1, 0, 0, "δだ！"
 goto            @Cond_03d4
 
 @Cond_03d4:
 jumpz           @Cond_0410, ($h216 == 4)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       72, 116, 1, 0, 0, "δだ！"
 goto            @Cond_0410
 
 @Cond_0410:
 jumpz           @Cond_044c, ($h216 == 5)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       60, 116, 1, 0, 0, "δだ！"
 goto            @Cond_044c
 
 @Cond_044c:
 jumpz           @Cond_0488, ($h216 == 6)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       48, 116, 1, 0, 0, "δだ！"
 goto            @Cond_0488
 
 @Cond_0488:
 jumpz           @Cond_04c4, ($h216 == 7)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       36, 116, 1, 0, 0, "δだ！"
 goto            @Cond_04c4
 
 @Cond_04c4:
 jumpz           @Cond_0500, ($h216 == 8)
-dialogbig       255, 116, 1, 0, 0, "δだ！"
+dialogbig       24, 116, 1, 0, 0, "δだ！"
 goto            @Cond_0500
 
 @Cond_0500:

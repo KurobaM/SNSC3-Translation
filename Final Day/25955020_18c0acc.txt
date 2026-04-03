@@ -150,27 +150,27 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       48, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Friendship!"
+dialogbig       24, 116, 1, 0, 0, "Friendship!"
 code030c        
 call            @Func_352e
 code0479        0, 5, 12
 call            @Func_348c
-dialogbig       255, 116, 1, 0, 0, "The Hammer Is, "
+dialogbig       24, 116, 1, 0, 0, "The Hammer Is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Strength!"
+dialogbig       24, 116, 1, 0, 0, "Strength!"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Life!"
+dialogbig       24, 116, 1, 0, 0, "Life!"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -369,26 +369,26 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       48, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       48, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Friendship!"
+dialogbig       48, 116, 1, 0, 0, "Friendship!"
 code030c        
 call            @Func_352e
 code0479        0, 2, 15
 call            @Func_348c
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Strength!"
+dialogbig       24, 116, 1, 0, 0, "Strength!"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Life!"
+dialogbig       24, 116, 1, 0, 0, "Life!"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -682,27 +682,27 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       48, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Friendship!"
+dialogbig       24, 116, 1, 0, 0, "Friendship!"
 code030c        
 call            @Func_352e
 code0479        0, 3, 15
 call            @Func_348c
-dialogbig       255, 116, 1, 0, 0, "The hammer is,"
+dialogbig       24, 116, 1, 0, 0, "The hammer is,"
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Strength!"
+dialogbig       24, 116, 1, 0, 0, "Strength!"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Life!"
+dialogbig       24, 116, 1, 0, 0, "Life!"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -900,27 +900,27 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       255, 116, 1, 0, 0, "To a Craftknight!"
+dialogbig       48, 116, 1, 0, 0, "To a Craftknight!"
 code030c        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Friendship!"
+dialogbig       24, 116, 1, 0, 0, "Friendship!"
 code030c        
 call            @Func_352e
 code0479        0, 2, 15
 call            @Func_348c
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Strength!"
+dialogbig       24, 116, 1, 0, 0, "Strength!"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       255, 116, 1, 0, 0, "The hammer is, "
+dialogbig       24, 116, 1, 0, 0, "The hammer is, "
 code030c        
-dialogbig       255, 116, 1, 0, 0, "Life!"
+dialogbig       24, 116, 1, 0, 0, "Life!"
 code030c        
 call            @Func_35c8
 code047e        0, 0

@@ -112,11 +112,11 @@ call            @Func_1e30
 code0479        0, 5, 15
 call            @Func_1d8e
 jumpz           @Cond_05d8, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "You what!?"
+dialogbig       24, 116, 1, 0, 0, "You what!?"
 goto            @Label_060e
 
 @Cond_05d8:
-dialogbig       255, 116, 1, 0, 0, "You what!?"
+dialogbig       24, 116, 1, 0, 0, "You what!?"
 goto            @Label_060e
 
 @Label_060e:
@@ -237,7 +237,7 @@ dialogtxt       "will get you addicted..."
 dialogtxt       "Remembering it makes me shiver..."
 code0309        
 code0479        1, 7, 13
-dialogbig       255, 116, 0, 6, 0, "Ah...◎"
+dialogbig       96, 116, 0, 6, 0, "Ah...◎"
 code030c        
 call            @Func_1e9e
 call            @Func_1e30

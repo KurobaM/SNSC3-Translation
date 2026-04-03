@@ -226,7 +226,7 @@ code0309
 call            @Func_180c
 code0479        1, 5, 17
 call            @Func_1842
-dialogbig       255, 116, 1, 0, 0, "はっ！"
+dialogbig       84, 116, 1, 0, 0, "はっ！"
 code030c        
 code0479        1, 2, 16
 dialogtxt       "ちぇっ…！"

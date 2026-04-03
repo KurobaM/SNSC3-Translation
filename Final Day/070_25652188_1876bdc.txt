@@ -676,7 +676,7 @@ code033b        402, 0, 0, 0, 1, 1
 code0301        8, 0
 code047d        0, 142
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "Grrooooaaa!"
+dialogbig       24, 116, 1, 0, 0, "Grrooooaaa!"
 code030c        
 code047e        0, 0
 code0302        0
@@ -798,11 +798,11 @@ code047d        0, 0
 call            @Func_4540
 call            @Func_4468
 jumpz           @Cond_2598, ($b002 == 0)
-dialogbig       255, 116, 1, 0, 0, "Waahh!!!"
+dialogbig       36, 116, 1, 0, 0, "Waahh!!!"
 goto            @Label_25cc
 
 @Cond_2598:
-dialogbig       255, 116, 1, 0, 0, "Kyaaa!!!"
+dialogbig       36, 116, 1, 0, 0, "Kyaaa!!!"
 goto            @Label_25cc
 
 @Label_25cc:
@@ -954,7 +954,7 @@ code033b        402, 0, 0, 0, 1, 1
 code047d        0, 142
 code0301        8, 3
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "Gwaaaah!"
+dialogbig       24, 116, 1, 0, 0, "Gwaaaah!"
 code030c        
 code047e        0, 0
 code0302        3
@@ -1372,7 +1372,7 @@ code033b        400, 0, 0, 0, 1, 1
 code0301        8, 0
 code047d        0, 141
 code047e        0, 1
-dialogbig       255, 116, 1, 0, 0, "Kishaaa!"
+dialogbig       24, 116, 1, 0, 0, "Kishaaa!"
 code030c        
 code047e        0, 0
 code0302        0
@@ -1459,7 +1459,7 @@ goto            @Label_3e70
 @Label_3e70:
 code0309        
 code0479        0, 2, 15
-dialogbig       255, 116, 1, 0, 0, "Phantom Dragon!!!"
+dialogbig       24, 116, 1, 0, 0, "Phantom Dragon!!!"
 code030c        
 call            @Func_4596
 call            @Func_44a4

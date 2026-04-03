@@ -801,9 +801,9 @@ code0309
 call            @Func_44ac
 code0479        1, 1, 15
 call            @Func_44e2
-dialogbig       255, 116, 1, 0, 0, "Don't act as if you"
+dialogbig       24, 116, 1, 0, 0, "Don't act as if you"
 code030c        
-dialogbig       255, 116, 1, 0, 0, "can read my mind!"
+dialogbig       24, 116, 1, 0, 0, "can read my mind!"
 code030c        
 code0479        1, 2, 12
 dialogtxt       "Murno has Wellman with her now,"

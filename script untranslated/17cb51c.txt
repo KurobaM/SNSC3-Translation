@@ -236,10 +236,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 4, 12
-dialogbig       255, 116, 1, 0, 0, "ハンマーは…"
+dialogbig       48, 116, 1, 0, 0, "ハンマーは…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_0a9c, ($b002 == 0)
@@ -502,10 +502,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 4, 16
-dialogbig       255, 116, 1, 0, 0, "ハンマーは…"
+dialogbig       48, 116, 1, 0, 0, "ハンマーは…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_1618, ($b002 == 0)
@@ -733,10 +733,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 2, 12
-dialogbig       255, 116, 1, 0, 0, "ハンマーは…"
+dialogbig       48, 116, 1, 0, 0, "ハンマーは…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_2060, ($b002 == 0)
@@ -1002,10 +1002,10 @@ code0309
 call            @Func_334a
 code0479        0, 2, 15
 call            @Func_32a8
-dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 4, 16
-dialogbig       255, 116, 1, 0, 0, "ハンマーは…"
+dialogbig       48, 116, 1, 0, 0, "ハンマーは…"
 code030c        
 code0479        0, 5, 16
 jumpz           @Cond_2be6, ($b002 == 0)

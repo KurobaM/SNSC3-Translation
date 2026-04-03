@@ -703,7 +703,7 @@ code0309
 code0334        
 code0331        29, 256
 code0479        0, 6, 12
-dialogbig       255, 116, 1, 0, 0, "It's love!"
+dialogbig       84, 116, 1, 0, 0, "It's love!"
 code030c        
 call            @Func_4378
 code0478        1, 6
@@ -1108,7 +1108,7 @@ code0479        1, 2, 15
 code047d        1, 113
 call            @Func_4412
 call            @Func_4390
-dialogbig       255, 116, 1, 0, 0, "Hey, Tier!"
+dialogbig       36, 116, 1, 0, 0, "Hey, Tier!"
 code047b        
 code030c        
 call            @Func_43e4
@@ -1126,7 +1126,7 @@ dialogtxt       "You always talk about"
 dialogtxt       "money this, money that..."
 code0309        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "It's disgraceful!"
+dialogbig       24, 116, 1, 0, 0, "It's disgraceful!"
 code030c        
 call            @Func_43e4
 code0479        0, 5, 16

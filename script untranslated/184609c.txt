@@ -165,7 +165,7 @@ code0479        1, 0, 15
 code047d        1, 120
 call            @Func_0f22
 call            @Func_0e8a
-dialogbig       255, 116, 1, 0, 0, "あ！"
+dialogbig       96, 116, 1, 0, 0, "あ！"
 code047b        
 code030c        
 code0479        1, 0, 14
