@@ -146,7 +146,7 @@ code047e        0, 1
 code047e        1, 1
 code0479        0, 2, 15
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "　  Friendship!"
+dialogbig       255, 116, 1, 0, 0, "Friendship!"
 code030c        
 dialogbig       255, 116, 1, 0, 0, "　　Strength! "
 code030c        
