@@ -119,7 +119,7 @@ call            @Func_257e
 call            @Func_24fc
 dialogtxt       "Hello, I am Ianna Mortier."
 dialogtxt       "You wish to meet"
-dialogtxt       "Lord Velvoren, yes?"
+dialogtxt       "Lord Velvoren, is that right?"
 code047b        
 code0309        
 call            @Func_2550
@@ -596,7 +596,7 @@ code047d        0, 109
 call            @Func_2568
 call            @Func_2490
 dialogtxt       "Ahh!"
-dialogtxt       "Miss Ianna, yes?"
+dialogtxt       "Miss Ianna, right?"
 dialogtxt       "We need to talk!"
 code047b        
 code0309        

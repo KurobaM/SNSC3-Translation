@@ -135,7 +135,7 @@ call            @Func_2d54
 code0479        1, 2, 16
 call            @Func_2d8a
 dialogtxt       "Anything is fine as long"
-dialogtxt       "as they are alive, yes?"
+dialogtxt       "as they are alive, right?"
 code0309        
 call            @Func_2dc0
 code0479        0, 1, 16
