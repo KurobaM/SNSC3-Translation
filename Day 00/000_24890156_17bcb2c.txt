@@ -191,7 +191,7 @@ dialogtxt       "This will be your..."
 
 code0309        
 code0479        1, 2, 15
-dialogbig       255, 116, 1, 0, 0, "　Final Test!"
+dialogbig       255, 116, 1, 0, 0, "Final Test!"
 code030c        
 call            @Func_10d0
 call            @Func_101e
