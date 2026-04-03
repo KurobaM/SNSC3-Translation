@@ -190,7 +190,7 @@ code0479        0, 4, 14
 code047d        0, 137
 call            @Func_1d7a
 code0479        1, 0, 12
-dialogtxt       "Seems like you're fine too, Sarge."
+dialogtxt       "Seems like you're fine too, Serge."
 code047b        
 code0309        
 call            @Func_1d62
