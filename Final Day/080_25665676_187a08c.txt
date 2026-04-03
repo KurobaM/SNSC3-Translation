@@ -75,7 +75,7 @@ goto            @Cond_02b6
 
 @Cond_02b6:
 jumpz           @Cond_02f0, ($b003 == 2)
-dialogtxt       "Why, you..."
+dialogtxt       "You scum..."
 dialogtxt       "Disappear, you eyesore!"
 goto            @Cond_02f0
 

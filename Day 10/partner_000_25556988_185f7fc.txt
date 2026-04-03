@@ -382,7 +382,7 @@ call            @Func_3064
 code0479        0, 2, 14
 call            @Func_2fc2
 jumpz           @Cond_1226, ($b002 == 0)
-dialogtxt       "Why you..."
+dialogtxt       "The nerve!"
 dialogtxt       "Fine."
 dialogtxt       "Let's fight then!"
 goto            @Label_125c
@@ -595,7 +595,7 @@ call            @Func_3064
 code0479        0, 2, 14
 call            @Func_2fc2
 jumpz           @Cond_1b8c, ($b002 == 0)
-dialogtxt       "Why you..."
+dialogtxt       "The nerve!"
 dialogtxt       "Fine."
 dialogtxt       "Let's fight then!"
 goto            @Label_1bc2

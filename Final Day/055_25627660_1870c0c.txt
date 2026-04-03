@@ -448,7 +448,7 @@ code0309
 call            @Func_1dc4
 code0479        1, 5, 15
 call            @Func_1dfa
-dialogtxt       "Why you little...!!!"
+dialogtxt       "You little...!"
 dialogtxt       "I'm going to shut you up!"
 code0309        
 call            @Func_1e30

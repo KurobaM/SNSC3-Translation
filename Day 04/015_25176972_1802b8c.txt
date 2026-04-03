@@ -43,7 +43,7 @@ code0309
 call            @Func_1698
 call            @Func_1732
 call            @Func_16ce
-dialogtxt       "Why, you!"
+dialogtxt       "You little—!"
 dialogtxt       "What do you think I am,"
 dialogtxt       "a monkey or something?"
 code0309        

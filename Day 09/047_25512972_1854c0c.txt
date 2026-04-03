@@ -34,7 +34,7 @@ code0331        37, 256
 code0479        0, 2, 16
 call            @Func_257c
 jumpz           @Cond_01d0, ($b002 == 0)
-dialogtxt       "Why you..."
+dialogtxt       "Damn you...!"
 goto            @Label_01f8
 
 @Cond_01d0:

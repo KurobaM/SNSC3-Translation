@@ -776,7 +776,7 @@ code0479        0, 5, 17
 call            @Func_450e
 call            @Func_4436
 dialogtxt       "Wha...!"
-dialogtxt       "Why you...!"
+dialogtxt       "You brat!"
 code0309        
 call            @Func_448a
 code0478        1, 9
@@ -969,7 +969,7 @@ code047d        0, 115
 call            @Func_450e
 call            @Func_4454
 dialogtxt       "Sh—Shit!"
-dialogtxt       "Why you!"
+dialogtxt       "Son of a—!"
 code047b        
 code0309        
 call            @Func_448a

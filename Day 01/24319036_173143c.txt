@@ -1435,7 +1435,7 @@ code0309
 call            @Func_46ec
 code0479        1, 3, 12
 call            @Func_4722
-dialogtxt       "Why you..."
+dialogtxt       "You little...!"
 dialogtxt       "How many times have I told you?"
 code0309        
 call            @Func_47f2

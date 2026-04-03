@@ -569,7 +569,7 @@ dialogtxt       "Let's do it, [NAME 1]!"
 goto            @Label_1a44
 
 @Cond_1a24:
-dialogtxt       "Why you!"
+dialogtxt       "Come on!"
 dialogtxt       "Let's do it, [NAME 1]!"
 goto            @Label_1a44
 
