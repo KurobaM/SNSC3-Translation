@@ -99,7 +99,7 @@ code0309
 call            @Func_10a4
 code0479        1, 11, 17
 call            @Func_10da
-dialogbig       24, 116, 1, 0, 0, "M-Marriage!?"
+dialogbig       255, 116, 1, 0, 0, "M-Marriage!?"
 code030c        
 code0479        1, 6, 16
 dialogtxt       "N—No..."
@@ -124,7 +124,7 @@ code0309
 call            @Func_10a4
 code0479        1, 5, 17
 call            @Func_10da
-dialogbig       24, 116, 1, 0, 0, "P-Poster girl?"
+dialogbig       255, 116, 1, 0, 0, "P-Poster girl?"
 code030c        
 code0479        1, 8, 16
 dialogtxt       "Why don't you think"

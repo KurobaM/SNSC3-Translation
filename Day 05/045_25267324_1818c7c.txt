@@ -283,7 +283,7 @@ dialogtxt       "come to me! Summon........."
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogbig       24, 116, 1, 0, 0, "Magdrad!!!"
+dialogbig       255, 116, 1, 0, 0, "Magdrad!!!"
 code030c        
 call            @Func_3b0e
 call            @Func_3a1c
@@ -341,7 +341,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "Grrrr......"
+dialogbig       255, 116, 1, 0, 0, "Grrrr......"
 code030c        
 code047e        0, 0
 code0302        7
@@ -938,7 +938,7 @@ code0479        1, 2, 15
 code047d        1, 0
 call            @Func_3ace
 call            @Func_3a4c
-dialogbig       60, 116, 1, 0, 0, "Murno!"
+dialogbig       255, 116, 1, 0, 0, "Murno!"
 code030c        
 call            @Func_3aa0
 code0478        0, 6
@@ -1151,11 +1151,11 @@ call            @Func_3ab8
 code047c        0, 24
 call            @Func_39fe
 jumpz           @Cond_33e0, ($b002 == 0)
-dialogbig       24, 116, 1, 0, 0, "Woaaaaaah!!!"
+dialogbig       255, 116, 1, 0, 0, "Woaaaaaah!!!"
 goto            @Label_3416
 
 @Cond_33e0:
-dialogbig       24, 116, 1, 0, 0, "Waaaaaaah!!!"
+dialogbig       255, 116, 1, 0, 0, "Waaaaaaah!!!"
 goto            @Label_3416
 
 @Label_3416:

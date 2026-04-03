@@ -33,32 +33,32 @@ goto            @Cond_01c2
 
 @Cond_01c2:
 jumpz           @Cond_01fc, ($h216 == 2)
-dialogbig       96, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_01fc
 
 @Cond_01fc:
 jumpz           @Cond_0236, ($h216 == 3)
-dialogbig       84, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_0236
 
 @Cond_0236:
 jumpz           @Cond_0270, ($h216 == 4)
-dialogbig       72, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_0270
 
 @Cond_0270:
 jumpz           @Cond_02aa, ($h216 == 5)
-dialogbig       60, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_02aa
 
 @Cond_02aa:
 jumpz           @Cond_02e4, ($h216 == 6)
-dialogbig       48, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_02e4
 
 @Cond_02e4:
 jumpz           @Cond_031e, ($h216 == 7)
-dialogbig       36, 116, 1, 0, 0, "[NAME 2]!"
+dialogbig       255, 116, 1, 0, 0, "[NAME 2]!"
 goto            @Cond_031e
 
 @Cond_031e:

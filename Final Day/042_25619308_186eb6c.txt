@@ -192,7 +192,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_2318
 call            @Func_2240
-dialogbig       60, 116, 1, 0, 0, "Murno!"
+dialogbig       255, 116, 1, 0, 0, "Murno!"
 code047b        
 code030c        
 call            @Func_236e

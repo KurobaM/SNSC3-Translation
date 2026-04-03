@@ -527,7 +527,7 @@ call            @Func_4034
 code0332        
 code033b        385, 0, 0, 0, 1, 0
 code0301        8, 7
-dialogbig       54, 116, 1, 6, 0, "Squiiiish ◎"
+dialogbig       255, 116, 1, 6, 0, "Squiiiish ◎"
 code030c        
 call            @Func_40ce
 code0302        7
@@ -563,7 +563,7 @@ call            @Func_3f92
 dialogtxt       "Nn..."
 code0309        
 code0479        0, 7, 15
-dialogbig       70, 116, 1, 0, 0, "Nooooo!!!"
+dialogbig       255, 116, 1, 0, 0, "Nooooo!!!"
 code030c        
 call            @Func_40a2
 code047c        0, 24
@@ -712,7 +712,7 @@ code0332
 code033b        386, 0, 0, 0, 1, 0
 code0445        3, 8
 code0301        8, 7
-dialogbig       76, 116, 1, 1, 0, "Mwah ◎"
+dialogbig       255, 116, 1, 1, 0, "Mwah ◎"
 code030c        
 code0302        7
 code0446        3
@@ -735,7 +735,7 @@ call            @Func_3f92
 dialogtxt       "Nn..."
 code0309        
 code0479        0, 7, 15
-dialogbig       70, 116, 1, 0, 0, "Noooo!!!"
+dialogbig       255, 116, 1, 0, 0, "Noooo!!!"
 code030c        
 call            @Func_40a2
 code047c        0, 24
@@ -865,7 +865,7 @@ code0479        0, 5, 15
 call            @Func_404c
 call            @Func_3f92
 jumpz           @Cond_2978, ($b002 == 0)
-dialogbig       36, 116, 1, 0, 0, "Leave me alone!"
+dialogbig       255, 116, 1, 0, 0, "Leave me alone!"
 code030c        
 code047b        
 call            @Func_3fc8
@@ -877,7 +877,7 @@ dialogtxt       "I wanted to, y'know!"
 goto            @Label_2a14
 
 @Cond_2978:
-dialogbig       36, 116, 1, 0, 0, "Leave me alone!"
+dialogbig       255, 116, 1, 0, 0, "Leave me alone!"
 code030c        
 call            @Func_3fc8
 code0479        1, 8, 14
@@ -1145,7 +1145,7 @@ code040d        15
 code0479        1, 2, 15
 call            @Func_4062
 call            @Func_3fe0
-dialogbig       72, 116, 1, 8, 0, "Summon!"
+dialogbig       255, 116, 1, 8, 0, "Summon!"
 code047b        
 code030c        
 code047a        1, 0, 1

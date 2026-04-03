@@ -242,7 +242,7 @@ dialogtxt       "The Stone... Did...!?"
 dialogtxt       "No..."
 code0309        
 code0479        0, 5, 17
-dialogbig       48, 116, 1, 0, 0, "Nooo!!!"
+dialogbig       255, 116, 1, 0, 0, "Nooo!!!"
 code030c        
 call            @Func_2b20
 call            @Func_2a2e
@@ -676,7 +676,7 @@ code031f        7
 code0479        0, 5, 16
 call            @Func_2aca
 call            @Func_29f2
-dialogbig       102, 116, 0, 4, 0, "Ah!"
+dialogbig       255, 116, 0, 4, 0, "Ah!"
 code047b        
 code030c        
 call            @Func_2b20
@@ -688,7 +688,7 @@ code047d        1, 0
 call            @Func_2ae0
 code047c        1, 24
 call            @Func_2a5e
-dialogbig       24, 116, 1, 0, 0, "Murno!!!"
+dialogbig       255, 116, 1, 0, 0, "Murno!!!"
 code047b        
 code030c        
 call            @Func_2b36
@@ -773,7 +773,7 @@ code047d        1, 0
 code0479        0, 5, 15
 call            @Func_2af6
 call            @Func_29f2
-dialogbig       60, 116, 1, 0, 0, "Kya...!"
+dialogbig       255, 116, 1, 0, 0, "Kya...!"
 code030c        
 code047a        0, 0, 2
 code047c        0, 24
@@ -781,7 +781,7 @@ code047b
 call            @Func_2a46
 code0479        1, 5, 15
 call            @Func_2a7c
-dialogbig       24, 116, 1, 0, 0, "U... Waah!"
+dialogbig       255, 116, 1, 0, 0, "U... Waah!"
 code030c        
 code047a        1, 0, 2
 code047c        1, 24

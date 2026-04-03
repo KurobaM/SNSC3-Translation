@@ -346,7 +346,7 @@ code0333        2, 30
 code047d        0, 108
 code0301        8, 0
 code047e        0, 1
-dialogbig       60, 116, 1, 0, 0, "Uwah!?"
+dialogbig       255, 116, 1, 0, 0, "Uwah!?"
 code030c        
 code047e        0, 0
 code0302        0
@@ -545,22 +545,22 @@ code047d        0, 2
 call            @Func_4bb6
 call            @Func_4afc
 jumpz           @Cond_18f6, ($b003 == 0)
-dialogbig       24, 116, 1, 0, 0, "Watch Out!!!"
+dialogbig       255, 116, 1, 0, 0, "Watch Out!!!"
 goto            @Cond_18f6
 
 @Cond_18f6:
 jumpz           @Cond_193c, ($b003 == 1)
-dialogbig       24, 116, 1, 0, 0, "Watch out!!!"
+dialogbig       255, 116, 1, 0, 0, "Watch out!!!"
 goto            @Cond_193c
 
 @Cond_193c:
 jumpz           @Cond_1982, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "Watch out!!!"
+dialogbig       255, 116, 1, 0, 0, "Watch out!!!"
 goto            @Cond_1982
 
 @Cond_1982:
 jumpz           @Cond_19c8, ($b003 == 3)
-dialogbig       24, 116, 1, 0, 0, "Watch out!!!"
+dialogbig       255, 116, 1, 0, 0, "Watch out!!!"
 goto            @Cond_19c8
 
 @Cond_19c8:
@@ -1042,7 +1042,7 @@ dialogtxt       "Dammit..."
 dialogtxt       "Dammit, dammit!"
 code0309        
 code0479        0, 2, 15
-dialogbig       36, 116, 1, 0, 0, "Damn it all!"
+dialogbig       255, 116, 1, 0, 0, "Damn it all!"
 code030c        
 goto            @Label_2fde
 
@@ -1225,7 +1225,7 @@ dialogtxt       "They're all!"
 code047b        
 code0309        
 code0479        1, 5, 16
-dialogbig       36, 116, 1, 0, 0, "Dead!"
+dialogbig       255, 116, 1, 0, 0, "Dead!"
 code030c        
 call            @Func_4c22
 call            @Func_4b86
@@ -1537,7 +1537,7 @@ code0309
 call            @Func_4b9e
 code0479        0, 2, 15
 call            @Func_4afc
-dialogbig       48, 116, 1, 0, 0, "Yes!!!"
+dialogbig       255, 116, 1, 0, 0, "Yes!!!"
 code030c        
 call            @Func_4c38
 call            @Func_4b1a

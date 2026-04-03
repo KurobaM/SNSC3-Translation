@@ -256,7 +256,7 @@ code040d        15
 code0479        0, 2, 15
 call            @Func_4f76
 call            @Func_4e9e
-dialogbig       84, 116, 1, 0, 0, "Summon!"
+dialogbig       255, 116, 1, 0, 0, "Summon!"
 code047b        
 code030c        
 call            @Func_4fcc

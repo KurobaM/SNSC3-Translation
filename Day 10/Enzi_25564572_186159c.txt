@@ -63,7 +63,7 @@ code0309
 call            @Func_1428
 code0479        0, 5, 17
 call            @Func_1386
-dialogbig       96, 116, 1, 0, 0, "Wha?"
+dialogbig       255, 116, 1, 0, 0, "Wha?"
 code030c        
 code0479        0, 7, 13
 jumpz           @Cond_0438, ($b002 == 0)

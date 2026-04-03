@@ -287,7 +287,7 @@ code048d        1, 1
 code033b        402, 0, 0, 0, 1, 0
 code0301        8, 7
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "Guwaaah!!!"
+dialogbig       255, 116, 1, 0, 0, "Guwaaah!!!"
 code030c        
 code047e        1, 0
 code0302        7
@@ -702,7 +702,7 @@ code047d        0, 0
 call            @Func_3034
 code0479        0, 2, 15
 call            @Func_2f5c
-dialogbig       24, 116, 1, 0, 0, "Ph-Phantom Dragon!"
+dialogbig       255, 116, 1, 0, 0, "Ph-Phantom Dragon!"
 code030c        
 call            @Func_308a
 call            @Func_2f98
@@ -793,7 +793,7 @@ code033b        400, 0, 0, 0, 1, 0
 code047d        0, 141
 code0301        8, 7
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "Kishaaa......"
+dialogbig       255, 116, 1, 0, 0, "Kishaaa......"
 code030c        
 code047e        0, 0
 code0302        7
@@ -862,7 +862,7 @@ dialogtxt       "...!"
 dialogtxt       "Got it!"
 code0309        
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "Let's do this!"
+dialogbig       255, 116, 1, 0, 0, "Let's do this!"
 code030c        
 call            @Func_30b6
 call            @Func_3004

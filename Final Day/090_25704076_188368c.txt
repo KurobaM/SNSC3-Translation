@@ -590,7 +590,7 @@ goto            @Label_1926
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 3, 0, "Uwoooo!!!"
+dialogbig       255, 116, 1, 3, 0, "Uwoooo!!!"
 code030c        
 code047e        0, 0
 code047e        1, 0
