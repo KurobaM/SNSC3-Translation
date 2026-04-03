@@ -43,7 +43,7 @@ call            @Func_0b0e
 call            @Func_0a76
 dialogtxt       "You can't defeat me with those skills."
 dialogtxt       "Because I'm..."
-dialogtxt       "Jade the Invincible!"
+dialogtxt       "The Invincible Jade!"
 code047b        
 code0309        
 goto            @Label_023c
