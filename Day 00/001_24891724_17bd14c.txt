@@ -290,7 +290,7 @@ code031c        3, 1
 code031f        3
 code040d        3
 code031a        2
-dialogbig       255, 68, 1, 0, 4, "  Killed Him!"
+dialogbig       255, 68, 1, 0, 4, "Killed Him!"
 code030c        
 code031a        3
 code031b        3, -62, -16, 0, 1
