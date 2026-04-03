@@ -274,7 +274,7 @@ call            @Func_1202
 dialogtxt       "Grrr..."
 code0309        
 code0479        1, 0, 15
-dialogbig       24, 116, 1, 0, 0, "To hell with you!"
+dialogbig       255, 116, 1, 0, 0, "To hell with you!"
 code030c        
 call            @Func_12d2
 call            @Func_1220

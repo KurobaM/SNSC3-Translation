@@ -30,7 +30,7 @@ goto            @Label_0114
 code047d        1, 2
 call            @Func_1c4a
 call            @Func_1bc8
-dialogbig       72, 116, 1, 0, 0, "Gaah!"
+dialogbig       255, 116, 1, 0, 0, "Gaah!"
 code047b        
 code030c        
 call            @Func_1ca0
@@ -306,7 +306,7 @@ code0479        0, 11, 15
 call            @Func_1c60
 code047d        0, 0
 call            @Func_1b5c
-dialogbig       84, 116, 1, 0, 0, "Master!"
+dialogbig       255, 116, 1, 0, 0, "Master!"
 code047b        
 code030c        
 call            @Func_1c8a

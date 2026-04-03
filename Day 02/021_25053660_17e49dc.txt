@@ -689,11 +689,11 @@ code0479        0, 5, 17
 call            @Func_247c
 call            @Func_23c2
 jumpz           @Cond_1d3a, ($b002 == 0)
-dialogbig       36, 116, 1, 0, 0, "What!?"
+dialogbig       255, 116, 1, 0, 0, "What!?"
 goto            @Label_1d6e
 
 @Cond_1d3a:
-dialogbig       36, 116, 1, 0, 0, "What!?"
+dialogbig       255, 116, 1, 0, 0, "What!?"
 goto            @Label_1d6e
 
 @Label_1d6e:

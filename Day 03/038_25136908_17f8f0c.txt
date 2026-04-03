@@ -159,7 +159,7 @@ code0309
 call            @Func_3044
 code0479        0, 5, 15
 call            @Func_2fa2
-dialogbig       84, 116, 1, 0, 0, "Gah!"
+dialogbig       255, 116, 1, 0, 0, "Gah!"
 code030c        
 call            @Func_2fd8
 code0479        1, 1, 12
@@ -279,7 +279,7 @@ code0479        0, 5, 17
 code047d        0, 0
 call            @Func_305c
 call            @Func_2fa2
-dialogbig       72, 116, 1, 0, 0, "Daughter!?"
+dialogbig       255, 116, 1, 0, 0, "Daughter!?"
 code047b        
 code030c        
 call            @Func_30c8

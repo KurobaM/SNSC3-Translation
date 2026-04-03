@@ -156,7 +156,7 @@ call            @Func_395a
 dialogtxt       "... Master?"
 code0309        
 code0479        0, 2, 15
-dialogbig       36, 116, 1, 0, 0, "　　Master!!!"
+dialogbig       255, 116, 1, 0, 0, "Master!!!"
 code030c        
 call            @Func_3a88
 call            @Func_3996
@@ -290,13 +290,13 @@ code031c        3, 1
 code031f        3
 code040d        3
 code031a        2
-dialogbig       48, 68, 1, 0, 4, "  Killed Him!"
+dialogbig       255, 68, 1, 0, 4, "Killed Him!"
 code030c        
 code031a        3
 code031b        3, -62, -16, 0, 1
 code031c        3, 1
 code031f        3
-dialogbig       60, 68, 1, 0, 4, "　Master!!!"
+dialogbig       255, 68, 1, 0, 4, "Master!!!"
 code030c        
 code043d        0, 104, 192
 code0489        0, 1, 8
@@ -675,12 +675,12 @@ code0443        2, 16, 1
 code0443        2, 32, 1
 code0332        
 call            @Func_39e4
-dialogbig       60, 116, 1, 0, 0, "　And so!"
+dialogbig       255, 116, 1, 0, 0, "And so!"
 code030c        
 call            @Func_3a1a
 call            @Func_3978
 code0479        0, 5, 12
-dialogbig       96, 116, 1, 0, 0, "Yes!"
+dialogbig       255, 116, 1, 0, 0, "Yes!"
 code030c        
 call            @Func_39ae
 code046e        13, 256, 2

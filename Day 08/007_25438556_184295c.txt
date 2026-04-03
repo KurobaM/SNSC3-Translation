@@ -233,7 +233,7 @@ code0309
 call            @Func_1e1a
 code0479        1, 2, 15
 call            @Func_1e50
-dialogbig       72, 116, 1, 0, 0, "Silence!"
+dialogbig       255, 116, 1, 0, 0, "Silence!"
 code030c        
 call            @Func_1f20
 call            @Func_1e6e

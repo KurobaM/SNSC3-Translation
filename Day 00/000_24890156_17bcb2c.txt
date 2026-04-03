@@ -1,5 +1,5 @@
 code033b        155, 0, 0, 0, 1, 1
-dialogbig       48, 68, 1, 0, 4, "Craftknights!"
+dialogbig       255, 68, 1, 0, 4, "Craftknights!"
 code030c        
 code033e        155
 code0304        1
@@ -146,11 +146,11 @@ code047e        0, 1
 code047e        1, 1
 code0479        0, 2, 15
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "　  Friendship!"
+dialogbig       255, 116, 1, 0, 0, "Friendship!"
 code030c        
-dialogbig       24, 116, 1, 0, 0, "　　Strength! "
+dialogbig       255, 116, 1, 0, 0, "Strength! "
 code030c        
-dialogbig       24, 116, 1, 0, 0, "　　　Life!"
+dialogbig       255, 116, 1, 0, 0, "Life!"
 code030c        
 call            @Func_10d0
 code047e        0, 0
@@ -191,7 +191,7 @@ dialogtxt       "This will be your..."
 
 code0309        
 code0479        1, 2, 15
-dialogbig       48, 116, 1, 0, 0, "　Final Test!"
+dialogbig       255, 116, 1, 0, 0, "Final Test!"
 code030c        
 call            @Func_10d0
 call            @Func_101e

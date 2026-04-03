@@ -254,7 +254,7 @@ code0309
 call            @Func_14e0
 code0479        1, 5, 17
 call            @Func_1516
-dialogbig       48, 116, 1, 0, 0, "What!?"
+dialogbig       255, 116, 1, 0, 0, "What!?"
 code030c        
 call            @Func_154c
 code0479        0, 8, 16

@@ -146,7 +146,7 @@ code0331        14, 128
 code040d        20
 code033b        242, 0, 0, 0, 1, 0
 code0301        8, 7
-dialogbig       102, 116, 0, 8, 0, "*Grumble*..."
+dialogbig       255, 116, 0, 8, 0, "*Grumble*..."
 code030c        
 code0302        7
 code033e        242
@@ -244,7 +244,7 @@ goto            @Cond_0a60
 
 @Cond_0a60:
 jumpz           @Cond_0bda, ($b003 == 1)
-dialogbig       96, 116, 0, 8, 0, "Meowww~!"
+dialogbig       255, 116, 0, 8, 0, "Meowww~!"
 code047b        
 code030c        
 call            @Func_1670
@@ -259,7 +259,7 @@ call            @Func_1604
 code043c        1, 2
 code0479        1, 9, 15
 call            @Func_163a
-dialogbig       48, 116, 1, 0, 0, "Silence!"
+dialogbig       255, 116, 1, 0, 0, "Silence!"
 code030c        
 call            @Func_16de
 call            @Func_1670
