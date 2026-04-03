@@ -296,7 +296,7 @@ code031a        3
 code031b        3, -62, -16, 0, 1
 code031c        3, 1
 code031f        3
-dialogbig       255, 68, 1, 0, 4, "　Master!!!"
+dialogbig       255, 68, 1, 0, 4, "Master!!!"
 code030c        
 code043d        0, 104, 192
 code0489        0, 1, 8
