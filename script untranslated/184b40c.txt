@@ -193,7 +193,7 @@ code047b
 code048d        1, 1
 code0301        8, 7
 code047e        0, 0
-dialogbig       24, 116, 1, 0, 0, "[NAME 4][NAME 4][NAME 4]ーーッ！！"
+dialogbig       255, 116, 1, 0, 0, "[NAME 4][NAME 4][NAME 4]ーーッ！！"
 code030c        
 code0302        7
 code0478        1, 2

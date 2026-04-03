@@ -14,7 +14,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_0b22
 call            @Func_0a4a
-dialogbig       24, 116, 1, 0, 0, "アニ[NAME 4]ィっ！！！"
+dialogbig       255, 116, 1, 0, 0, "アニ[NAME 4]ィっ！！！"
 code047b        
 code030c        
 code0479        0, 2, 14

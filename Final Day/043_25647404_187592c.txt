@@ -14,7 +14,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_0b22
 call            @Func_0a4a
-dialogbig       24, 116, 1, 0, 0, "Brooo!!!"
+dialogbig       255, 116, 1, 0, 0, "Brooo!!!"
 code047b        
 code030c        
 code0479        0, 2, 14

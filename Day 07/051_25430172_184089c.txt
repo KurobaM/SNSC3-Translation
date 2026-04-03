@@ -108,7 +108,7 @@ call            @Func_0e90
 code0479        0, 5, 14
 code0479        1, 1, 15
 call            @Func_0ec6
-dialogbig       24, 116, 1, 0, 0, "You idioooot!!!"
+dialogbig       255, 116, 1, 0, 0, "You idioooot!!!"
 code030c        
 call            @Func_0efc
 code0479        1, 2, 14

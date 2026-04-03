@@ -98,7 +98,7 @@ code0309
 call            @Func_1aca
 code0479        0, 5, 14
 call            @Func_1a28
-dialogbig       72, 116, 1, 0, 0, "えっ！？"
+dialogbig       255, 116, 1, 0, 0, "えっ！？"
 code030c        
 code0479        0, 0, 16
 choicetxt       @Choice_050e, "そんなこと知ってるよ"

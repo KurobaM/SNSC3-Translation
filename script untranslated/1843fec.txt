@@ -211,7 +211,7 @@ code0309
 call            @Func_13b2
 code0479        0, 5, 14
 call            @Func_1310
-dialogbig       60, 116, 1, 0, 0, "ひっ…！？"
+dialogbig       255, 116, 1, 0, 0, "ひっ…！？"
 code030c        
 code0479        1, 2, 14
 code0479        0, 4, 16
@@ -245,7 +245,7 @@ code0309
 call            @Func_13b2
 code0479        0, 5, 14
 call            @Func_1310
-dialogbig       60, 116, 1, 0, 0, "きっ…！？"
+dialogbig       255, 116, 1, 0, 0, "きっ…！？"
 code030c        
 code0479        0, 4, 16
 jumpz           @Cond_09ae, ($b002 == 0)
@@ -278,7 +278,7 @@ code0309
 call            @Func_13b2
 code0479        0, 5, 14
 call            @Func_1310
-dialogbig       60, 116, 1, 0, 0, "こっ…！？"
+dialogbig       255, 116, 1, 0, 0, "こっ…！？"
 code030c        
 code0479        0, 4, 16
 jumpz           @Cond_0ae4, ($b002 == 0)

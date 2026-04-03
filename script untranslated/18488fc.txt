@@ -110,7 +110,7 @@ dialogtxt       "年上で美人のボクには"
 dialogtxt       "ちゃんとした口をききなさいって"
 code0309        
 code0479        1, 5, 15
-dialogbig       48, 116, 1, 0, 0, "言っただろ！"
+dialogbig       255, 116, 1, 0, 0, "言っただろ！"
 code030c        
 call            @Func_32c8
 call            @Func_3216

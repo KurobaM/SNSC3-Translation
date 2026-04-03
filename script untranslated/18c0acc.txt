@@ -152,21 +152,21 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、友！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、友！"
 code030c        
 call            @Func_352e
 code0479        0, 5, 12
 call            @Func_348c
-dialogbig       24, 116, 1, 0, 0, "はんまーハ、力！"
+dialogbig       255, 116, 1, 0, 0, "はんまーハ、力！"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、命！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、命！"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -366,20 +366,20 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、友！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、友！"
 code030c        
 call            @Func_352e
 code0479        0, 2, 15
 call            @Func_348c
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、力！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、力！"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、命！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、命！"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -678,21 +678,21 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、友！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、友！"
 code030c        
 call            @Func_352e
 code0479        0, 3, 15
 call            @Func_348c
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、力！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、力！"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、命！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、命！"
 code030c        
 call            @Func_35c8
 code047e        0, 0
@@ -893,21 +893,21 @@ code0309
 call            @Func_34c2
 code0479        1, 2, 15
 call            @Func_34f8
-dialogbig       48, 116, 1, 0, 0, "鍛冶師なら！"
+dialogbig       255, 116, 1, 0, 0, "鍛冶師なら！"
 code030c        
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、友！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、友！"
 code030c        
 call            @Func_352e
 code0479        0, 2, 15
 call            @Func_348c
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、力！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、力！"
 code030c        
 call            @Func_34c2
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "ハンマーは、命！"
+dialogbig       255, 116, 1, 0, 0, "ハンマーは、命！"
 code030c        
 call            @Func_35c8
 code047e        0, 0

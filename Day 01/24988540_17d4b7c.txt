@@ -50,7 +50,7 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_0c7e
 call            @Func_0ba6
-dialogbig       36, 116, 1, 0, 0, "Uwaah!?"
+dialogbig       255, 116, 1, 0, 0, "Uwaah!?"
 code047b        
 code030c        
 code047a        0, 0, 2
@@ -80,7 +80,7 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_0c7e
 call            @Func_0ba6
-dialogbig       36, 116, 1, 0, 0, "Uwaah!?"
+dialogbig       255, 116, 1, 0, 0, "Uwaah!?"
 code047b        
 code030c        
 code047a        0, 0, 2
@@ -109,7 +109,7 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_0c7e
 call            @Func_0ba6
-dialogbig       36, 116, 1, 0, 0, "Uwaah!?"
+dialogbig       255, 116, 1, 0, 0, "Uwaah!?"
 code047b        
 code030c        
 code047a        0, 0, 2
@@ -140,7 +140,7 @@ code0446        0
 code0479        0, 5, 15
 call            @Func_0c7e
 call            @Func_0ba6
-dialogbig       36, 116, 1, 0, 0, "Uwaah!?"
+dialogbig       255, 116, 1, 0, 0, "Uwaah!?"
 code047b        
 code030c        
 code047a        0, 0, 2

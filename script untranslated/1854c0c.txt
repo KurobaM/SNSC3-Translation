@@ -228,7 +228,7 @@ code0479        1, 2, 15
 code047d        1, 108
 call            @Func_264c
 call            @Func_25ca
-dialogbig       24, 116, 1, 0, 0, "なにやってんだ！"
+dialogbig       255, 116, 1, 0, 0, "なにやってんだ！"
 code047b        
 code030c        
 call            @Func_26a2
@@ -363,7 +363,7 @@ dialogtxt       "今度は…"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogbig       36, 116, 1, 0, 0, "ザックの分だ！"
+dialogbig       255, 116, 1, 0, 0, "ザックの分だ！"
 code030c        
 call            @Func_26b8
 call            @Func_2606
@@ -465,7 +465,7 @@ call            @Func_25b2
 code047b        
 code0479        1, 2, 15
 call            @Func_25e8
-dialogbig       72, 116, 1, 0, 0, "うらぁ！"
+dialogbig       255, 116, 1, 0, 0, "うらぁ！"
 code030c        
 call            @Func_26a2
 call            @Func_2606

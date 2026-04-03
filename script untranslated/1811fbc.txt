@@ -350,7 +350,7 @@ call            @Func_1ffe
 code0333        2, 30
 code0479        1, 2, 15
 call            @Func_2034
-dialogbig       24, 116, 1, 0, 0, "なに言ってンだ！"
+dialogbig       255, 116, 1, 0, 0, "なに言ってンだ！"
 code030c        
 code0334        
 code0331        39, 256
@@ -577,7 +577,7 @@ dialogtxt       "[NAME 4]ズなんかつけたりしたら台無しだ"
 dialogtxt       "だから、いいな…"
 code0309        
 code0479        1, 2, 15
-dialogbig       36, 116, 1, 0, 0, "絶対に走るな！"
+dialogbig       255, 116, 1, 0, 0, "絶対に走るな！"
 code030c        
 call            @Func_206a
 code0479        0, 5, 15
@@ -592,7 +592,7 @@ dialogtxt       "それじゃあ道具屋さんが待ってるから"
 dialogtxt       "よりみちとか、するんじゃないぞ"
 code0309        
 code0479        1, 2, 12
-dialogbig       24, 116, 1, 0, 0, "走らず急いで行け"
+dialogbig       255, 116, 1, 0, 0, "走らず急いで行け"
 code030c        
 call            @Func_206a
 code0479        0, 2, 15

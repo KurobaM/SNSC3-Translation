@@ -338,7 +338,7 @@ code0309
 code0334        
 code0331        31, 256
 code0479        0, 1, 13
-dialogbig       24, 116, 1, 0, 0, "あはははははは！"
+dialogbig       255, 116, 1, 0, 0, "あはははははは！"
 code030c        
 call            @Func_1c60
 code0479        1, 5, 17

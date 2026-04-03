@@ -196,7 +196,7 @@ goto            @Label_080c
 @Label_080c:
 code0309        
 code0479        0, 5, 17
-dialogbig       60, 116, 1, 0, 0, "うそっ！？"
+dialogbig       255, 116, 1, 0, 0, "うそっ！？"
 code030c        
 call            @Func_1488
 code0479        1, 2, 15
@@ -253,7 +253,7 @@ goto            @Label_0aac
 @Label_0aac:
 code0309        
 code0479        0, 5, 17
-dialogbig       60, 116, 1, 0, 0, "うそっ！？"
+dialogbig       255, 116, 1, 0, 0, "うそっ！？"
 code030c        
 call            @Func_1488
 code0479        1, 2, 16

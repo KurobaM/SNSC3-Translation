@@ -70,7 +70,7 @@ code0446        0
 code0331        34, 256
 code0301        8, 7
 code047e        1, 1
-dialogbig       60, 116, 1, 0, 0, "うわっ！？"
+dialogbig       255, 116, 1, 0, 0, "うわっ！？"
 code030c        
 dialogtxt       "なんなんだ！？"
 code0309        
@@ -188,12 +188,12 @@ code0334
 code046e        37, 256, 1
 code0479        0, 2, 15
 jumpz           @Cond_0712, ($b002 == 0)
-dialogbig       36, 116, 1, 0, 0, "なんだって！？"
+dialogbig       255, 116, 1, 0, 0, "なんだって！？"
 code030c        
 goto            @Label_0748
 
 @Cond_0712:
-dialogbig       36, 116, 1, 0, 0, "なによそれ！？"
+dialogbig       255, 116, 1, 0, 0, "なによそれ！？"
 code030c        
 goto            @Label_0748
 

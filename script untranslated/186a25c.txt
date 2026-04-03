@@ -63,7 +63,7 @@ code033e        413
 code0479        1, 2, 15
 call            @Func_167a
 call            @Func_1600
-dialogbig       24, 116, 1, 0, 0, "ぃやーーっ！！！"
+dialogbig       255, 116, 1, 0, 0, "ぃやーーっ！！！"
 code030c        
 call            @Func_16d0
 call            @Func_161e
@@ -330,22 +330,22 @@ goto            @Label_0ec8
 @Label_0ec8:
 call            @Func_1600
 jumpz           @Cond_0f12, ($b003 == 0)
-dialogbig       24, 116, 1, 0, 0, "排除シマス！！！"
+dialogbig       255, 116, 1, 0, 0, "排除シマス！！！"
 goto            @Cond_0f12
 
 @Cond_0f12:
 jumpz           @Cond_0f58, ($b003 == 1)
-dialogbig       24, 116, 1, 0, 0, "問答無用じゃ！！"
+dialogbig       255, 116, 1, 0, 0, "問答無用じゃ！！"
 goto            @Cond_0f58
 
 @Cond_0f58:
 jumpz           @Cond_0f9e, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "だまれっ！！！！"
+dialogbig       255, 116, 1, 0, 0, "だまれっ！！！！"
 goto            @Cond_0f9e
 
 @Cond_0f9e:
 jumpz           @Cond_0fe4, ($b003 == 3)
-dialogbig       24, 116, 1, 0, 0, "許しませんわ！！"
+dialogbig       255, 116, 1, 0, 0, "許しませんわ！！"
 goto            @Cond_0fe4
 
 @Cond_0fe4:

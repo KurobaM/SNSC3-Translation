@@ -33,32 +33,32 @@ goto            @Cond_01c8
 
 @Cond_01c8:
 jumpz           @Cond_0204, ($h216 == 3)
-dialogbig       84, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_0204
 
 @Cond_0204:
 jumpz           @Cond_0240, ($h216 == 4)
-dialogbig       72, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_0240
 
 @Cond_0240:
 jumpz           @Cond_027c, ($h216 == 5)
-dialogbig       60, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_027c
 
 @Cond_027c:
 jumpz           @Cond_02b8, ($h216 == 6)
-dialogbig       48, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_02b8
 
 @Cond_02b8:
 jumpz           @Cond_02f4, ($h216 == 7)
-dialogbig       36, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_02f4
 
 @Cond_02f4:
 jumpz           @Cond_0330, ($h216 == 8)
-dialogbig       24, 116, 1, 0, 0, "δ！？"
+dialogbig       255, 116, 1, 0, 0, "δ！？"
 goto            @Cond_0330
 
 @Cond_0330:
@@ -128,7 +128,7 @@ dialogtxt       "用意してあるんだろうな？"
 code047b        
 code0309        
 code0479        1, 3, 13
-dialogbig       96, 116, 1, 0, 0, "あ？"
+dialogbig       255, 116, 1, 0, 0, "あ？"
 code030c        
 call            @Func_1358
 code0479        0, 5, 15

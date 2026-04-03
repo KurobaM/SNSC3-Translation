@@ -81,7 +81,7 @@ dialogtxt       "Simply amazing!"
 dialogtxt       "You guys are awesome!"
 code0309        
 code0479        1, 7, 13
-dialogbig       36, 116, 1, 0, 0, "The best!"
+dialogbig       255, 116, 1, 0, 0, "The best!"
 code030c        
 call            @Func_2340
 code0479        0, 7, 13
@@ -174,7 +174,7 @@ goto            @Label_05fe
 @Label_05fe:
 call            @Func_229e
 jumpz           @Cond_06ba, ($b003 == 0)
-dialogbig       24, 116, 1, 0, 0, "Ehhh!!!"
+dialogbig       255, 116, 1, 0, 0, "Ehhh!!!"
 code030c        
 code0479        0, 5, 12
 dialogtxt       "Did We Not Agree To End"
@@ -184,7 +184,7 @@ goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_076c, ($b003 == 1)
-dialogbig       24, 116, 1, 0, 0, "W-What's this?"
+dialogbig       255, 116, 1, 0, 0, "W-What's this?"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "Did we not agree to end"
@@ -194,7 +194,7 @@ goto            @Cond_076c
 
 @Cond_076c:
 jumpz           @Cond_0820, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "W-What!?"
+dialogbig       255, 116, 1, 0, 0, "W-What!?"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "Didn't we agree to end this"
@@ -203,7 +203,7 @@ goto            @Cond_0820
 
 @Cond_0820:
 jumpz           @Cond_08d6, ($b003 == 3)
-dialogbig       24, 116, 1, 0, 0, "Ehhhhhh!!!"
+dialogbig       255, 116, 1, 0, 0, "Ehhhhhh!!!"
 code030c        
 code0479        0, 5, 15
 dialogtxt       "Didn't we agree to end"
@@ -390,7 +390,7 @@ call            @Func_2384
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "Ehhh!!!"
+dialogbig       255, 116, 1, 0, 0, "Ehhh!!!"
 code047b        
 code030c        
 call            @Func_23c4
@@ -516,7 +516,7 @@ call            @Func_2384
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       48, 116, 1, 0, 0, "Yes!!!"
+dialogbig       255, 116, 1, 0, 0, "Yes!!!"
 code047b        
 code030c        
 call            @Func_23da

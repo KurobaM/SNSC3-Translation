@@ -513,7 +513,7 @@ dialogtxt       "我が声に応え、この地をあらす"
 dialogtxt       "愚か者たちに裁きを与えよ！"
 dialogtxt       "召喚…"
 code0309        
-dialogbig       48, 116, 1, 0, 0, "幻龍鬼！！！"
+dialogbig       255, 116, 1, 0, 0, "幻龍鬼！！！"
 code030c        
 call            @Func_29c4
 call            @Func_2928
@@ -574,7 +574,7 @@ code033b        400, 0, 0, 0, 1, 0
 code047d        0, 141
 code0301        8, 0
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "[NAME 4]シャァアア！！"
+dialogbig       255, 116, 1, 0, 0, "[NAME 4]シャァアア！！"
 code030c        
 code047e        0, 0
 code0481        0

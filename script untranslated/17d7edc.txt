@@ -282,7 +282,7 @@ code0479        0, 5, 17
 code047d        0, 131
 call            @Func_26c6
 call            @Func_25ee
-dialogbig       48, 116, 1, 0, 0, "あぅわっ！？"
+dialogbig       255, 116, 1, 0, 0, "あぅわっ！？"
 code047b        
 code030c        
 code047a        0, 0, 2
@@ -672,7 +672,7 @@ code0309
 call            @Func_26ae
 code0479        0, 2, 15
 call            @Func_260c
-dialogbig       60, 116, 1, 0, 0, "いいから！"
+dialogbig       255, 116, 1, 0, 0, "いいから！"
 code030c        
 goto            @Cond_1a16
 
@@ -798,11 +798,11 @@ code0479        0, 2, 15
 call            @Func_26c6
 call            @Func_25ee
 jumpz           @Cond_1f9a, ($b002 == 0)
-dialogbig       72, 116, 1, 0, 0, "うわっ！"
+dialogbig       255, 116, 1, 0, 0, "うわっ！"
 goto            @Label_1fc8
 
 @Cond_1f9a:
-dialogbig       72, 116, 1, 0, 0, "きゃっ！"
+dialogbig       255, 116, 1, 0, 0, "きゃっ！"
 goto            @Label_1fc8
 
 @Label_1fc8:

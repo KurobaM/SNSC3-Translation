@@ -779,7 +779,7 @@ code0309
 call            @Func_44ac
 code0479        1, 1, 15
 call            @Func_44e2
-dialogbig       24, 116, 1, 0, 0, "勝手に決めるな！"
+dialogbig       255, 116, 1, 0, 0, "勝手に決めるな！"
 code030c        
 code0479        1, 2, 12
 dialogtxt       "今のあいつにはウェルマンが"

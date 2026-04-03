@@ -615,11 +615,11 @@ code0479        0, 1, 13
 call            @Func_2dae
 call            @Func_2caa
 jumpz           @Cond_1bae, ($b002 == 0)
-dialogbig       24, 116, 1, 0, 0, "がはははははは！"
+dialogbig       255, 116, 1, 0, 0, "がはははははは！"
 goto            @Label_1be4
 
 @Cond_1bae:
-dialogbig       24, 116, 1, 0, 0, "あはははははは！"
+dialogbig       255, 116, 1, 0, 0, "あはははははは！"
 goto            @Label_1be4
 
 @Label_1be4:

@@ -66,22 +66,22 @@ code031c        7, 1
 code031f        7
 code0304        1
 jumpz           @Cond_03c2, ($b003 == 0)
-dialogbig       76, 68, 0, 0, 4, "私ノ名前ハ…！"
+dialogbig       255, 68, 0, 0, 4, "私ノ名前ハ…！"
 goto            @Cond_03c2
 
 @Cond_03c2:
 jumpz           @Cond_0402, ($b003 == 1)
-dialogbig       100, 68, 0, 0, 4, "我が名は…"
+dialogbig       255, 68, 0, 0, 4, "我が名は…"
 goto            @Cond_0402
 
 @Cond_0402:
 jumpz           @Cond_0442, ($b003 == 2)
-dialogbig       100, 68, 0, 0, 4, "私の名は…"
+dialogbig       255, 68, 0, 0, 4, "私の名は…"
 goto            @Cond_0442
 
 @Cond_0442:
 jumpz           @Cond_0484, ($b003 == 3)
-dialogbig       88, 68, 0, 0, 4, "私の名前は…"
+dialogbig       255, 68, 0, 0, 4, "私の名前は…"
 goto            @Cond_0484
 
 @Cond_0484:
@@ -120,32 +120,32 @@ code0301        2, 4
 code047e        0, 1
 strlen          280, "γ"
 jumpz           @Cond_0674, ($h216 == 1)
-dialogbig       84, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Cond_0674:
 jumpz           @Cond_06b0, ($h216 == 2)
-dialogbig       72, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Cond_06b0:
 jumpz           @Cond_06ec, ($h216 == 3)
-dialogbig       60, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Cond_06ec:
 jumpz           @Cond_0728, ($h216 == 4)
-dialogbig       48, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Cond_0728:
 jumpz           @Cond_0764, ($h216 == 5)
-dialogbig       36, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Cond_0764:
 jumpz           @Label_07a0, ($h216 == 6)
-dialogbig       24, 116, 1, 0, 0, "γ！！"
+dialogbig       255, 116, 1, 0, 0, "γ！！"
 goto            @Label_07a0
 
 @Label_07a0:
@@ -218,7 +218,7 @@ dialogtxt       "その召喚石は原石に近いの！"
 dialogtxt       "あなたに扱うことなんてできないわ！"
 code047b        
 code0309        
-dialogbig       72, 116, 1, 0, 0, "やめて！"
+dialogbig       255, 116, 1, 0, 0, "やめて！"
 code030c        
 call            @Func_62f8
 call            @Func_6206
@@ -229,11 +229,11 @@ code047d        0, 0
 call            @Func_62a2
 call            @Func_61ca
 jumpz           @Cond_0be4, ($b002 == 0)
-dialogbig       24, 116, 3, 8, 0, "うぉおおおお！！"
+dialogbig       255, 116, 3, 8, 0, "うぉおおおお！！"
 goto            @Label_0c1a
 
 @Cond_0be4:
-dialogbig       24, 116, 3, 8, 0, "うぁああああ！！"
+dialogbig       255, 116, 3, 8, 0, "うぁああああ！！"
 goto            @Label_0c1a
 
 @Label_0c1a:
@@ -831,7 +831,7 @@ code0479        0, 5, 12
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       24, 116, 1, 0, 0, "みゅーの様ッ！！"
+dialogbig       255, 116, 1, 0, 0, "みゅーの様ッ！！"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1220,7 +1220,7 @@ code0479        0, 5, 15
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       24, 116, 1, 0, 0, "ミューノっ！！！"
+dialogbig       255, 116, 1, 0, 0, "ミューノっ！！！"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1615,7 +1615,7 @@ code0479        0, 5, 17
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       24, 116, 1, 0, 0, "ミューノっ！！！"
+dialogbig       255, 116, 1, 0, 0, "ミューノっ！！！"
 code047b        
 code030c        
 call            @Func_62f8
@@ -1968,7 +1968,7 @@ code0479        0, 5, 17
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogbig       24, 116, 1, 0, 0, "ミューノ様っ！！"
+dialogbig       255, 116, 1, 0, 0, "ミューノ様っ！！"
 code047b        
 code030c        
 call            @Func_62f8

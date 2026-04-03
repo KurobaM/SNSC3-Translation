@@ -116,7 +116,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       80, 116, 1, 0, 0, "What!!!???"
+dialogbig       255, 116, 1, 0, 0, "What!!!???"
 code030c        
 call            @Func_1e54
 call            @Func_1d62
@@ -126,7 +126,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_1dfe
 call            @Func_1d26
-dialogbig       48, 108, 1, 0, 0, "One million Boam!!!???"
+dialogbig       255, 108, 1, 0, 0, "One million Boam!!!???"
 code030c        
 call            @Func_1e54
 call            @Func_1d62
@@ -191,7 +191,7 @@ code047d        1, 2
 call            @Func_1e2a
 jumpz           @Cond_0934, ($b003 == 0)
 call            @Func_1d26
-dialogbig       70, 116, 1, 0, 0, "Say what!?"
+dialogbig       255, 116, 1, 0, 0, "Say what!?"
 code047b        
 code030c        
 call            @Func_1d7a
@@ -215,7 +215,7 @@ goto            @Cond_0934
 @Cond_0934:
 jumpz           @Cond_09c4, ($b003 == 1)
 call            @Func_1d26
-dialogbig       48, 116, 1, 0, 0, "Say what!?"
+dialogbig       255, 116, 1, 0, 0, "Say what!?"
 code047b        
 code030c        
 call            @Func_1d7a
@@ -231,7 +231,7 @@ goto            @Cond_09c4
 @Cond_09c4:
 jumpz           @Cond_0a5a, ($b003 == 2)
 call            @Func_1d26
-dialogbig       48, 116, 1, 0, 0, "Say what!?"
+dialogbig       255, 116, 1, 0, 0, "Say what!?"
 code047b        
 code030c        
 call            @Func_1d7a
@@ -248,7 +248,7 @@ goto            @Cond_0a5a
 @Cond_0a5a:
 jumpz           @Cond_0af0, ($b003 == 3)
 call            @Func_1d26
-dialogbig       48, 116, 1, 0, 0, "Say what!?"
+dialogbig       255, 116, 1, 0, 0, "Say what!?"
 code047b        
 code030c        
 call            @Func_1d7a

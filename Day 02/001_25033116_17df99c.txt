@@ -184,7 +184,7 @@ call            @Func_2172
 code0479        0, 8, 17
 call            @Func_20d0
 jumpz           @Cond_079a, ($b002 == 0)
-dialogbig       24, 116, 1, 0, 0, "Wh-What!?"
+dialogbig       255, 116, 1, 0, 0, "Wh-What!?"
 code030c        
 goto            @Label_07b8
 

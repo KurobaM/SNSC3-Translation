@@ -30,7 +30,7 @@ call            @Func_1d3c
 jumpz           @Cond_01d2, ($b002 == 0)
 code0479        1, 5, 17
 call            @Func_1d72
-dialogbig       96, 116, 1, 0, 0, "妹？"
+dialogbig       255, 116, 1, 0, 0, "妹？"
 code030c        
 code0479        1, 2, 15
 dialogtxt       "ワケわかんないよ"
@@ -41,7 +41,7 @@ goto            @Label_0262
 @Cond_01d2:
 code0479        1, 5, 17
 call            @Func_1d72
-dialogbig       96, 116, 1, 0, 0, "弟？"
+dialogbig       255, 116, 1, 0, 0, "弟？"
 code030c        
 code0479        1, 2, 15
 dialogtxt       "ワケわかんないわよ"

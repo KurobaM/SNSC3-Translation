@@ -395,7 +395,7 @@ dialogtxt       "よ〜くわかったよ"
 code0309        
 code043c        0, 4
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "でもね、ジャマ！"
+dialogbig       255, 116, 1, 0, 0, "でもね、ジャマ！"
 code030c        
 call            @Func_4954
 call            @Func_48a2
@@ -740,7 +740,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       48, 116, 1, 0, 0, "なんだって！"
+dialogbig       255, 116, 1, 0, 0, "なんだって！"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -805,7 +805,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       36, 116, 1, 0, 0, "なんだって！？"
+dialogbig       255, 116, 1, 0, 0, "なんだって！？"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1137,7 +1137,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       36, 116, 1, 0, 0, "なんだって！？"
+dialogbig       255, 116, 1, 0, 0, "なんだって！？"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1395,7 +1395,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       48, 116, 1, 0, 0, "なんだって！"
+dialogbig       255, 116, 1, 0, 0, "なんだって！"
 code030c        
 call            @Func_4928
 call            @Func_48ba
@@ -1459,7 +1459,7 @@ code0309
 call            @Func_484e
 code0479        1, 2, 15
 call            @Func_4884
-dialogbig       36, 116, 1, 0, 0, "なんだって！？"
+dialogbig       255, 116, 1, 0, 0, "なんだって！？"
 code030c        
 call            @Func_4928
 call            @Func_48ba

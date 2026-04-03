@@ -98,7 +98,7 @@ code0309
 call            @Func_10a4
 code0479        1, 11, 17
 call            @Func_10da
-dialogbig       24, 116, 1, 0, 0, "ケ、ケッコン！？"
+dialogbig       255, 116, 1, 0, 0, "ケ、ケッコン！？"
 code030c        
 code0479        1, 6, 16
 dialogtxt       "い、いや…"
@@ -123,7 +123,7 @@ code0309
 call            @Func_10a4
 code0479        1, 5, 17
 call            @Func_10da
-dialogbig       24, 116, 1, 0, 0, "か、カンバン娘？"
+dialogbig       255, 116, 1, 0, 0, "か、カンバン娘？"
 code030c        
 code0479        1, 8, 16
 dialogtxt       "そんなこと自分で考えたら？"

@@ -81,7 +81,7 @@ dialogtxt       "すごいよアンタたち…！"
 dialogtxt       "カッコイイよ！"
 code0309        
 code0479        1, 7, 13
-dialogbig       36, 116, 1, 0, 0, "サイコーだよ！"
+dialogbig       255, 116, 1, 0, 0, "サイコーだよ！"
 code030c        
 call            @Func_2340
 code0479        0, 7, 13
@@ -175,7 +175,7 @@ goto            @Label_05fe
 @Label_05fe:
 call            @Func_229e
 jumpz           @Cond_06ba, ($b003 == 0)
-dialogbig       24, 116, 1, 0, 0, "エェ〜〜ッ！！！"
+dialogbig       255, 116, 1, 0, 0, "エェ〜〜ッ！！！"
 code030c        
 code0479        0, 5, 12
 dialogtxt       "１００万ばーむ　貯メ[NAME 8]バ"
@@ -185,7 +185,7 @@ goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_076c, ($b003 == 1)
-dialogbig       24, 116, 1, 0, 0, "なんじゃと〜ッ？"
+dialogbig       255, 116, 1, 0, 0, "なんじゃと〜ッ？"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "１００万バーム貯めたら"
@@ -195,7 +195,7 @@ goto            @Cond_076c
 
 @Cond_076c:
 jumpz           @Cond_0820, ($b003 == 2)
-dialogbig       24, 116, 1, 0, 0, "な、なんだと！？"
+dialogbig       255, 116, 1, 0, 0, "な、なんだと！？"
 code030c        
 code0479        0, 3, 15
 dialogtxt       "１００万バーム貯めたら"
@@ -205,7 +205,7 @@ goto            @Cond_0820
 
 @Cond_0820:
 jumpz           @Cond_08d6, ($b003 == 3)
-dialogbig       24, 116, 1, 0, 0, "えぇ〜〜ッ！！！"
+dialogbig       255, 116, 1, 0, 0, "えぇ〜〜ッ！！！"
 code030c        
 code0479        0, 5, 15
 dialogtxt       "１００万バーム貯めたら"
@@ -393,7 +393,7 @@ call            @Func_2384
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 0, 0, "エェ〜〜ッ！！！"
+dialogbig       255, 116, 1, 0, 0, "エェ〜〜ッ！！！"
 code047b        
 code030c        
 call            @Func_23c4
@@ -520,7 +520,7 @@ call            @Func_2384
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       48, 116, 1, 0, 0, "ハイッ！！！"
+dialogbig       255, 116, 1, 0, 0, "ハイッ！！！"
 code047b        
 code030c        
 call            @Func_23da

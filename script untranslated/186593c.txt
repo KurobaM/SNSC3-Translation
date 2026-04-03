@@ -327,7 +327,7 @@ code0479        1, 5, 14
 code0479        0, 2, 15
 call            @Func_208a
 call            @Func_1f86
-dialogbig       24, 116, 1, 0, 0, "わかるもんかっ！"
+dialogbig       255, 116, 1, 0, 0, "わかるもんかっ！"
 code030c        
 call            @Func_1fda
 code0479        1, 5, 16
