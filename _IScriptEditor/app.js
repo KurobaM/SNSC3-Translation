@@ -1335,6 +1335,18 @@ function validateTranslation(e){
     }   
 }
 
+function showHideStr(e){
+    const div = e.target.parentNode.children[2];
+    const btn = e.target.parentNode.children[1];
+    if (div.style.display === "none") {
+        div.style.display = "block";
+        btn.textContent = 'Hide';
+    } else {
+        div.style.display = "none";
+        btn.textContent = 'Show';
+    }
+}
+
 function renderString(obj){
     const div = document.createElement('div');
     const metadata = {
@@ -1345,15 +1357,20 @@ function renderString(obj){
     const p1 = document.createElement('p');
     p1.className = 'address';
     p1.textContent = obj['address']['value'];
-    div.appendChild(p1)
+    div.appendChild(p1);
+    const btn = document.createElement('button');
+    btn.textContent = 'Hide';
+    btn.addEventListener('click', showHideStr);
+    div.appendChild(btn);
+    const subDiv = document.createElement('div');
     const p2 = document.createElement('p');
     p2.className = 'raw';
     p2.textContent = obj['raw'];
     const span = document.createElement('span');
     span.className = 'str-length';
     span.textContent = 'len=' + obj['length'];
-    p2.appendChild(span)
-    div.appendChild(p2)
+    p2.appendChild(span);
+    subDiv.appendChild(p2);
     const p3 = document.createElement('p');
     p3.className = 'translation';
     const input = document.createElement('input');    
@@ -1372,8 +1389,9 @@ function renderString(obj){
     p3.appendChild(span2);
     p3.setAttribute('max-length', obj['length']);
     p3.setAttribute('data', metadataStr);
-    div.appendChild(p3)
-    document.getElementById('json-content').appendChild(div);
+    subDiv.appendChild(p3);
+    div.appendChild(subDiv);
+    document.getElementById('page-content').appendChild(div);
     const ev = new Event('change', { bubbles: false });
     input.dispatchEvent(ev);
 }
@@ -1384,9 +1402,17 @@ function renderTable(obj){
     const p = document.createElement('p');
     p.className = 'address';
     p.textContent = obj['address']['value'];
-    div.appendChild(p)
+    div.appendChild(p);
+    const btn = document.createElement('button');
+    btn.textContent = 'Hide';
+    btn.addEventListener('click', showHideStr);
+    div.appendChild(btn);
+    const tDiv = document.createElement('div');
     for (const idx in obj['data']){
         var sjis = obj['data'][idx];
+        if (sjis['length'] == 0){
+            continue;
+        }
         var metadata = {
             key: obj['address']['value'], 
             index: idx,
@@ -1399,8 +1425,8 @@ function renderTable(obj){
         var span = document.createElement('span');
         span.className = 'str-length';
         span.textContent = 'len=' + sjis['length'];
-        p1.appendChild(span)
-        subDiv.appendChild(p1)
+        p1.appendChild(span);
+        subDiv.appendChild(p1);
         var p2 = document.createElement('p');
         p2.className = 'translation';
         var input = document.createElement('input');    
@@ -1420,17 +1446,116 @@ function renderTable(obj){
         p2.setAttribute('max-length', sjis['length']);
         p2.setAttribute('data', metadataStr);
         subDiv.appendChild(p2);
-        div.appendChild(subDiv);
+        tDiv.appendChild(subDiv);
         var ev = new Event('change', { bubbles: false });
         input.dispatchEvent(ev);
     }
-    document.getElementById('json-content').appendChild(div);
+    div.appendChild(tDiv);
+    document.getElementById('page-content').appendChild(div);
+}
+
+var PAGES = Array()
+var CURRENT_PAGE = 0;
+var PAGE_MAX = 0;
+
+function pagingData(data){
+    var current = 0;
+    var page = Array()
+    for (const key in data) {
+        let obj = data[key];
+        page.push(key)
+        if (Object.hasOwn(obj, 'type')){
+            if (obj['type'] === 'SJIS string'){
+                current += 1;
+            } else if (obj['type'] === 'SJIS table'){
+                current += obj['data'].length;
+            }
+        }
+        if (current > 60) {
+            PAGES.push(page);
+            page = Array();
+            current = 0;
+        }
+    }
+    if (current > 0) {
+        PAGES.push(page)
+    }
+    PAGE_MAX = PAGES.length;
+}
+
+function nextPage(){
+    if (CURRENT_PAGE + 1 < PAGE_MAX) {
+        CURRENT_PAGE += 1;
+        displayPage(CURRENT_PAGE)
+    }
+}
+
+function prevPage(){
+    if (CURRENT_PAGE - 1 >= 0) {
+        CURRENT_PAGE -= 1;
+        displayPage(CURRENT_PAGE)
+    }
 }
 
 
-function displayJsonData(data){
-    for (const key in data) {
-        let obj = data[key];
+function setPage(e){
+    const value = parseInt(e.target.value) - 1;
+    if (value < PAGE_MAX && value >= 0) {
+        CURRENT_PAGE = value;
+        displayPage(CURRENT_PAGE)
+    }
+}
+
+function displayPage(index) {
+    const divs = document.querySelectorAll('.translation')
+    for (const div of divs) {
+        let value = div.children[0].value
+        let data = JSON.parse(div.getAttribute('data'));
+        let key = data['key'];
+        if (data['type'] === 'SJIS string'){
+            jsonData[key]['translation'] = value;
+        } else if (data['type'] === 'SJIS table'){
+            let idx = parseInt(data['index'], 10);
+            jsonData[key]['data'][idx]['translation'] = value;
+        }
+    }
+    const container = document.getElementById('json-content');
+    container.innerHTML = '';
+    const prev = document.createElement('button');
+    prev.textContent = 'Prev';
+    prev.className = 'page-btn';
+    prev.addEventListener('click', prevPage);
+    const span = document.createElement('span');
+    span.textContent = 'Page';
+    span.className = 'page-number';
+    const input = document.createElement('input')
+    input.className = 'page-input';
+    input.type = 'text';
+    input.value = index + 1;
+    input.addEventListener('change', setPage);
+    const span1 = document.createElement('span');
+    span1.textContent = '/' + PAGE_MAX.toString();
+    span1.className = 'page-number';
+    const next = document.createElement('button');
+    next.textContent = 'Next';
+    next.className = 'page-btn';
+    next.addEventListener('click', nextPage);
+    const div = document.createElement('div');
+    div.id = 'page-control';
+    div.className = 'page-control';
+    div.appendChild(prev);
+    div.appendChild(span);
+    div.appendChild(input);
+    div.appendChild(span1);
+    div.appendChild(next);
+    const div2 = document.createElement('div');
+    div2.id = 'page-content';
+    div2.className = 'page-content';
+    container.appendChild(div)
+    container.appendChild(div2)
+    let keys = PAGES[index];
+    for (const key of keys) {
+        let obj = jsonData[key];
         if (Object.hasOwn(obj, 'type')){
             if (obj['type'] === 'SJIS string'){
                 renderString(obj);
@@ -1440,6 +1565,7 @@ function displayJsonData(data){
         }
     }
 }
+
 
 function readJsonFile() {
     const inFile = document.getElementById('open-json-input');
@@ -1452,7 +1578,11 @@ function readJsonFile() {
             jsonText = e.target.result;
             document.getElementById('json-content').innerHTML = '';
             jsonData = JSON.parse(jsonText.replaceAll('\\u', '\\\\u'));
-            displayJsonData(jsonData);
+            PAGES = Array();
+            PAGE_MAX = 0;
+            CURRENT_PAGE = 0;
+            pagingData(jsonData);
+            displayPage(0);
         }
         reader.readAsText(f,'UTF-8');
     }

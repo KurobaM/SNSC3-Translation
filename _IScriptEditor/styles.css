@@ -198,3 +198,30 @@ p {
 .str-width {
     padding-left: 12px;
 }
+
+
+
+.page-control {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: skyblue;
+}
+
+.page-number {
+  padding: 6px;
+  font-weight: bold;
+}
+
+.page-btn {
+    margin: 6px 12px;
+    width: 50px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.page-input {
+    width: 60px;
+    text-align: right;
+    padding-right: 2px;
+}
