@@ -1454,6 +1454,76 @@ function renderTable(obj){
     document.getElementById('page-content').appendChild(div);
 }
 
+function renderStrucArr(obj){
+    const div = document.createElement('div');
+    div.className = 'SJIS';
+    const p = document.createElement('p');
+    p.className = 'address';
+    p.textContent = obj['address']['value'];
+    div.appendChild(p);
+    const btn = document.createElement('button');
+    btn.textContent = 'Hide';
+    btn.addEventListener('click', showHideStr);
+    div.appendChild(btn);
+    const tDiv = document.createElement('div');
+    tDiv.className = 'struct-arr';
+    for (const idx in obj['data']){
+        var struc = obj['data'][idx];
+        if (struc['data'].length == 0){
+            continue;
+        }
+        var sDiv = document.createElement('div');
+        sDiv.className = 'struct';
+        var sp = document.createElement('p');
+        sp.textContent = 'Index = ' + idx;
+        sp.className = 'struct-idx';
+        sDiv.appendChild(sp);
+        for (const midx in struc['data']){
+            let metadata = {
+                key: obj['address']['value'], 
+                struct_idx: idx,
+                member_idx: midx,
+                type: obj['type']};
+            let metadataStr = JSON.stringify(metadata);
+            let sjis = struc['data'][midx]['data'];
+            let subDiv = document.createElement('div');
+            let p1 = document.createElement('p');
+            p1.className = 'raw';
+            p1.textContent = sjis['raw'];
+            let span = document.createElement('span');
+            span.className = 'str-length';
+            span.textContent = 'len=' + sjis['length'];
+            p1.appendChild(span);
+            subDiv.appendChild(p1);
+            var p2 = document.createElement('p');
+            p2.className = 'translation';
+            var input = document.createElement('input');    
+            input.size = 80;
+            input.setAttribute('value', sjis['translation']);
+            input.setAttribute('type', 'text');
+            input.addEventListener('change', validateTranslation);
+            p2.appendChild(input);
+            var span1 = document.createElement('span');
+            span1.className = 'str-width';
+            span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'] + '"'));
+            var span2 = document.createElement('span');
+            span2.className = 'str-length';
+            span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'] + '"'));
+            p2.appendChild(span1);
+            p2.appendChild(span2);
+            p2.setAttribute('max-length', sjis['length']);
+            p2.setAttribute('data', metadataStr);
+            subDiv.appendChild(p2);
+            sDiv.appendChild(subDiv);
+            var ev = new Event('change', { bubbles: false });
+            input.dispatchEvent(ev);     
+        }
+        tDiv.appendChild(sDiv);
+    }
+    div.appendChild(tDiv);
+    document.getElementById('page-content').appendChild(div);
+}
+
 var PAGES = Array()
 var CURRENT_PAGE = 0;
 var PAGE_MAX = 0;
@@ -1469,6 +1539,8 @@ function pagingData(data){
                 current += 1;
             } else if (obj['type'] === 'SJIS table'){
                 current += obj['data'].length;
+            } else if (obj['type'] === 'StructArray'){
+                current += obj['data'].length * 2;
             }
         }
         if (current > 60) {
@@ -1517,6 +1589,10 @@ function displayPage(index) {
         } else if (data['type'] === 'SJIS table'){
             let idx = parseInt(data['index'], 10);
             jsonData[key]['data'][idx]['translation'] = value;
+        } else if (data['type'] === 'StructArray'){
+            let idx = parseInt(data['struct_idx'], 10);
+            let midx = parseInt(data['member_idx'], 10);
+            jsonData[key]['data'][idx]['data'][midx]['data']['translation'] = value;
         }
     }
     const container = document.getElementById('json-content');
@@ -1561,6 +1637,8 @@ function displayPage(index) {
                 renderString(obj);
             } else if (obj['type'] === 'SJIS table'){
                 renderTable(obj);
+            } else if (obj['type'] === 'StructArray'){
+                renderStrucArr(obj);
             }
         }
     }
@@ -1599,6 +1677,10 @@ function saveJsonFile(){
         } else if (data['type'] === 'SJIS table'){
             var index = parseInt(data['index'], 10);
             jsonData[key]['data'][index]['translation'] = value;
+        } else if (data['type'] === 'StructArray'){
+            let idx = parseInt(data['struct_idx'], 10);
+            let midx = parseInt(data['member_idx'], 10);
+            jsonData[key]['data'][idx]['data'][midx]['data']['translation'] = value;
         }
     }
     const a = document.createElement('a');
