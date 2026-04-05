@@ -123,7 +123,7 @@
             }
         ],
         "raw": "データをメモリに書き出しました\u0000\u0000",
-        "translation": "",
+        "translation": "Data written to memory.\u0000",
         "type": "SJIS string"
     },
     "0x80bf52c": {
@@ -48173,7 +48173,7 @@
                     }
                 ],
                 "raw": "装備\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Equip\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48190,7 +48190,7 @@
                     }
                 ],
                 "raw": "補助装備\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Support\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48207,7 +48207,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Item\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48224,7 +48224,7 @@
                     }
                 ],
                 "raw": "魔法\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Magic\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48241,7 +48241,7 @@
                     }
                 ],
                 "raw": "武器\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Weapon\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48258,7 +48258,7 @@
                     }
                 ],
                 "raw": "ステータス\u0000\u0000",
-                "translation": "",
+                "translation": "Status\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48275,7 +48275,7 @@
                     }
                 ],
                 "raw": "＞\u0000\u0000",
-                "translation": "",
+                "translation": ">\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -48308,7 +48308,7 @@
                     }
                 ],
                 "raw": "貴重品\u0000\u0000",
-                "translation": "",
+                "translation": "Quests\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48325,7 +48325,7 @@
                     }
                 ],
                 "raw": "鍛冶ランク\u0000\u0000",
-                "translation": "",
+                "translation": "Craft Rank\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48342,7 +48342,7 @@
                     }
                 ],
                 "raw": "秘伝\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Techniques\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48359,7 +48359,7 @@
                     }
                 ],
                 "raw": "必殺技\u0000\u0000",
-                "translation": "",
+                "translation": "Special\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48376,7 +48376,7 @@
                     }
                 ],
                 "raw": "特殊効果\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Effect\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48393,7 +48393,7 @@
                     }
                 ],
                 "raw": "召喚獣事典\u0000\u0000",
-                "translation": "",
+                "translation": "Bestiary\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48410,7 +48410,7 @@
                     }
                 ],
                 "raw": "コンフィグ\u0000\u0000",
-                "translation": "",
+                "translation": "Config\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48444,7 +48444,7 @@
                     }
                 ],
                 "raw": "貴重品\u0000\u0000",
-                "translation": "",
+                "translation": "Quests\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48461,7 +48461,7 @@
                     }
                 ],
                 "raw": "鍛冶ランク\u0000\u0000",
-                "translation": "",
+                "translation": "Craft Rank\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48478,7 +48478,7 @@
                     }
                 ],
                 "raw": "秘伝\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Techniques\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48495,7 +48495,7 @@
                     }
                 ],
                 "raw": "必殺技\u0000\u0000",
-                "translation": "",
+                "translation": "Special\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48512,7 +48512,7 @@
                     }
                 ],
                 "raw": "特殊効果\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Effect\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48529,7 +48529,7 @@
                     }
                 ],
                 "raw": "召喚獣事典\u0000\u0000",
-                "translation": "",
+                "translation": "Bestiary\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48546,7 +48546,7 @@
                     }
                 ],
                 "raw": "コンフィグ\u0000\u0000",
-                "translation": "",
+                "translation": "Config\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48563,7 +48563,7 @@
                     }
                 ],
                 "raw": "デバッグ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Debug\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -48596,7 +48596,7 @@
                     }
                 ],
                 "raw": "ソード\u0000\u0000",
-                "translation": "",
+                "translation": "Sword\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48613,7 +48613,7 @@
                     }
                 ],
                 "raw": "アクス\u0000\u0000",
-                "translation": "",
+                "translation": "Axe\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48630,7 +48630,7 @@
                     }
                 ],
                 "raw": "スピア\u0000\u0000",
-                "translation": "",
+                "translation": "Spear\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48647,7 +48647,7 @@
                     }
                 ],
                 "raw": "ナックル\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Knuckle\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48664,7 +48664,7 @@
                     }
                 ],
                 "raw": "ドリル\u0000\u0000",
-                "translation": "",
+                "translation": "Drill\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48681,7 +48681,7 @@
                     }
                 ],
                 "raw": "ボウ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Bow\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48715,7 +48715,7 @@
                     }
                 ],
                 "raw": "デバッグ１\u0000\u0000",
-                "translation": "",
+                "translation": "Debug 1\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48732,7 +48732,7 @@
                     }
                 ],
                 "raw": "デバッグ２\u0000\u0000",
-                "translation": "",
+                "translation": "Debug 2\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48749,7 +48749,7 @@
                     }
                 ],
                 "raw": "デバッグ３\u0000\u0000",
-                "translation": "",
+                "translation": "Debug 3\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48766,7 +48766,7 @@
                     }
                 ],
                 "raw": "レジスタ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Registers\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48783,7 +48783,7 @@
                     }
                 ],
                 "raw": "Ｍセーブ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "M Save\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48800,7 +48800,7 @@
                     }
                 ],
                 "raw": "セーブ\u0000\u0000",
-                "translation": "",
+                "translation": "Save\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48817,7 +48817,7 @@
                     }
                 ],
                 "raw": "ロード\u0000\u0000",
-                "translation": "",
+                "translation": "Load\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -48867,7 +48867,7 @@
                     }
                 ],
                 "raw": "装備を変更できません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Can't equip this right now\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48884,7 +48884,7 @@
                     }
                 ],
                 "raw": "アイテムを持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You don't have any items\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48901,7 +48901,7 @@
                     }
                 ],
                 "raw": "魔法を使用できません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You can't use any magic\u0000",
                 "type": "SJIS string"
             },
             {
@@ -48918,7 +48918,7 @@
                     }
                 ],
                 "raw": "武器を持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You have no weapons\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -48951,7 +48951,7 @@
                     }
                 ],
                 "raw": "貴重品を持っていません\u0000\u0000",
-                "translation": "",
+                "translation": "You don't have any quest items\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49002,7 +49002,7 @@
                     }
                 ],
                 "raw": "必殺技を持っていません\u0000\u0000",
-                "translation": "",
+                "translation": "No special attacks available\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49019,7 +49019,7 @@
                     }
                 ],
                 "raw": "特殊効果を持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "No effects available\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49052,7 +49052,7 @@
                     }
                 ],
                 "raw": "秘伝を持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "No techniques available\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49085,7 +49085,7 @@
                     }
                 ],
                 "raw": "回復\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Healing\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49102,7 +49102,7 @@
                     }
                 ],
                 "raw": "素材\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Material\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49119,7 +49119,7 @@
                     }
                 ],
                 "raw": "特殊\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Special\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49136,7 +49136,7 @@
                     }
                 ],
                 "raw": "装備\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Equip\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49153,7 +49153,7 @@
                     }
                 ],
                 "raw": "合成\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Synth\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49170,7 +49170,7 @@
                     }
                 ],
                 "raw": "強化\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49187,7 +49187,7 @@
                     }
                 ],
                 "raw": "貴重品\u0000\u0000",
-                "translation": "",
+                "translation": "Quests\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49236,7 +49236,7 @@
                     }
                 ],
                 "raw": "ソード\u0000\u0000",
-                "translation": "",
+                "translation": "Sword\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49253,7 +49253,7 @@
                     }
                 ],
                 "raw": "アクス\u0000\u0000",
-                "translation": "",
+                "translation": "Axe\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49270,7 +49270,7 @@
                     }
                 ],
                 "raw": "スピア\u0000\u0000",
-                "translation": "",
+                "translation": "Spear\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49287,7 +49287,7 @@
                     }
                 ],
                 "raw": "ナックル\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Knuckle\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49304,7 +49304,7 @@
                     }
                 ],
                 "raw": "ドリル\u0000\u0000",
-                "translation": "",
+                "translation": "Drill\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49321,7 +49321,7 @@
                     }
                 ],
                 "raw": "ボウ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Bow\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49358,7 +49358,7 @@
                     }
                 ],
                 "raw": "０\u0000\u0000",
-                "translation": "",
+                "translation": "0\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49375,7 +49375,7 @@
                     }
                 ],
                 "raw": "１\u0000\u0000",
-                "translation": "",
+                "translation": "1\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49392,7 +49392,7 @@
                     }
                 ],
                 "raw": "２\u0000\u0000",
-                "translation": "",
+                "translation": "2\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49409,7 +49409,7 @@
                     }
                 ],
                 "raw": "３\u0000\u0000",
-                "translation": "",
+                "translation": "3\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49426,7 +49426,7 @@
                     }
                 ],
                 "raw": "４\u0000\u0000",
-                "translation": "",
+                "translation": "4\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49443,7 +49443,7 @@
                     }
                 ],
                 "raw": "５\u0000\u0000",
-                "translation": "",
+                "translation": "5\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49460,7 +49460,7 @@
                     }
                 ],
                 "raw": "６\u0000\u0000",
-                "translation": "",
+                "translation": "6\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49477,7 +49477,7 @@
                     }
                 ],
                 "raw": "７\u0000\u0000",
-                "translation": "",
+                "translation": "7\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49494,7 +49494,7 @@
                     }
                 ],
                 "raw": "８\u0000\u0000",
-                "translation": "",
+                "translation": "8\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49511,7 +49511,7 @@
                     }
                 ],
                 "raw": "９\u0000\u0000",
-                "translation": "",
+                "translation": "9\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49544,7 +49544,7 @@
                     }
                 ],
                 "raw": "作製\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Create\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49561,7 +49561,7 @@
                     }
                 ],
                 "raw": "強化\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49578,7 +49578,7 @@
                     }
                 ],
                 "raw": "解除\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Removal\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49595,7 +49595,7 @@
                     }
                 ],
                 "raw": "解除・改\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Rem. Mod\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49612,7 +49612,7 @@
                     }
                 ],
                 "raw": "強刃\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Refine\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49629,7 +49629,7 @@
                     }
                 ],
                 "raw": "解体\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Disassemble\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49646,7 +49646,7 @@
                     }
                 ],
                 "raw": "解体・改\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Dis. Mod\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49663,7 +49663,7 @@
                     }
                 ],
                 "raw": "修理\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Repair\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49732,7 +49732,7 @@
                     }
                 ],
                 "raw": "共通\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Any\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49749,7 +49749,7 @@
                     }
                 ],
                 "raw": "戦闘\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Battle\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49766,7 +49766,7 @@
                     }
                 ],
                 "raw": "マップ\u0000\u0000",
-                "translation": "",
+                "translation": "Field\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49799,7 +49799,7 @@
                     }
                 ],
                 "raw": "攻撃\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Attack\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49816,7 +49816,7 @@
                     }
                 ],
                 "raw": "回復\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Healing\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49833,7 +49833,7 @@
                     }
                 ],
                 "raw": "補助\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Assist\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49850,7 +49850,7 @@
                     }
                 ],
                 "raw": "交代\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Swap\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49867,7 +49867,7 @@
                     }
                 ],
                 "raw": "交代\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Swap\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49900,7 +49900,7 @@
                     }
                 ],
                 "raw": "装　備\u0000\u0000",
-                "translation": "",
+                "translation": "Equip\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49917,7 +49917,7 @@
                     }
                 ],
                 "raw": "外　す\u0000\u0000",
-                "translation": "",
+                "translation": "Remove\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -49950,7 +49950,7 @@
                     }
                 ],
                 "raw": "魔　法\u0000\u0000",
-                "translation": "",
+                "translation": "Magic\u0000",
                 "type": "SJIS string"
             },
             {
@@ -49967,7 +49967,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Item\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50000,7 +50000,7 @@
                     }
                 ],
                 "raw": "魔　法\u0000\u0000",
-                "translation": "",
+                "translation": "Magic\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50017,7 +50017,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Item\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50034,7 +50034,7 @@
                     }
                 ],
                 "raw": "外　す\u0000\u0000",
-                "translation": "",
+                "translation": "Remove\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50067,7 +50067,7 @@
                     }
                 ],
                 "raw": "買う\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Buy\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50084,7 +50084,7 @@
                     }
                 ],
                 "raw": "売る\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Sell\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50101,7 +50101,7 @@
                     }
                 ],
                 "raw": "作る\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Make\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50138,7 +50138,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Item\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50155,7 +50155,7 @@
                     }
                 ],
                 "raw": "武器\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Weapon\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50188,7 +50188,7 @@
                     }
                 ],
                 "raw": "いくつ買いますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Buy how many?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50221,7 +50221,7 @@
                     }
                 ],
                 "raw": "いくつ売りますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Sell how many?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50254,7 +50254,7 @@
                     }
                 ],
                 "raw": "いくつ作りますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Make how many?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50287,7 +50287,7 @@
                     }
                 ],
                 "raw": "いくつにしますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Use how many\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50320,7 +50320,7 @@
                     }
                 ],
                 "raw": "売ってもいいですか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Sell this?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50353,7 +50353,7 @@
                     }
                 ],
                 "raw": "今すぐ装備しますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Equip this weapon?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50386,7 +50386,7 @@
                     }
                 ],
                 "raw": "お金が足りません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You don't have enough money\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50423,7 +50423,7 @@
                     }
                 ],
                 "raw": "材料が足りません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You don't have enough materials\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50456,7 +50456,7 @@
                     }
                 ],
                 "raw": "これ以上持てません\u0000\u0000",
-                "translation": "",
+                "translation": "You can't carry anymore\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50501,7 +50501,7 @@
                     }
                 ],
                 "raw": "売るものが無くなりました\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "The item has dissapeared\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50538,7 +50538,7 @@
                     }
                 ],
                 "raw": "売るものがありません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "There's nothing you can sell\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50579,7 +50579,7 @@
                     }
                 ],
                 "raw": "ポイントが足りません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You don't have enough points\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50612,7 +50612,7 @@
                     }
                 ],
                 "raw": "アイテムがなくなりました\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "The item has dissapeared\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50645,7 +50645,7 @@
                     }
                 ],
                 "raw": "武器を持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You have no weapons\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50682,7 +50682,7 @@
                     }
                 ],
                 "raw": "回復できません　修理が必要です\u0000\u0000",
-                "translation": "",
+                "translation": "Weapon must be repaired first\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50715,7 +50715,7 @@
                     }
                 ],
                 "raw": "装備できません　修理が必要です\u0000\u0000",
-                "translation": "",
+                "translation": "Item needs repairs\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50752,7 +50752,7 @@
                     }
                 ],
                 "raw": "アイテム一覧に戻ります\u0000\u0000",
-                "translation": "",
+                "translation": "Return to items\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50785,7 +50785,7 @@
                     }
                 ],
                 "raw": "使用しますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Use this?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50822,7 +50822,7 @@
                     }
                 ],
                 "raw": "いくつ捨てますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Toss how many?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50855,7 +50855,7 @@
                     }
                 ],
                 "raw": "捨ててもいいですか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Throw this away?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50888,7 +50888,7 @@
                     }
                 ],
                 "raw": "上書きしますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Overwrite save?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50921,7 +50921,7 @@
                     }
                 ],
                 "raw": "ロードしますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Load this save?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50954,7 +50954,7 @@
                     }
                 ],
                 "raw": "セーブしますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Save game?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50991,7 +50991,7 @@
                     }
                 ],
                 "raw": "削除しますか？\u0000\u0000",
-                "translation": "",
+                "translation": "Delete save?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51024,7 +51024,7 @@
                     }
                 ],
                 "raw": "初期化しますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Initialize data?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51061,7 +51061,7 @@
                     }
                 ],
                 "raw": "本当によろしいですか？\u0000\u0000",
-                "translation": "",
+                "translation": "Are you sure?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51098,7 +51098,7 @@
                     }
                 ],
                 "raw": "システムデータを初期化しますか？\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Reset system data?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51131,7 +51131,7 @@
                     }
                 ],
                 "raw": "新規データ\u0000\u0000",
-                "translation": "",
+                "translation": "New data\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51168,7 +51168,7 @@
                     }
                 ],
                 "raw": "データが壊れています\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Data corrupted\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51209,7 +51209,7 @@
                     }
                 ],
                 "raw": "バージョンが違います\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Version different\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51226,7 +51226,7 @@
                     }
                 ],
                 "raw": "読み込みに失敗しました\u0000\u0000",
-                "translation": "",
+                "translation": "Reading failed\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51243,7 +51243,7 @@
                     }
                 ],
                 "raw": "書き込みに失敗しました\u0000\u0000",
-                "translation": "",
+                "translation": "Writing failed\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51280,7 +51280,7 @@
                     }
                 ],
                 "raw": "電源を切らないでください\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Don't turn off power\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51313,7 +51313,7 @@
                     }
                 ],
                 "raw": "　　　初期化中…\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "   Resetting…\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51350,7 +51350,7 @@
                     }
                 ],
                 "raw": "　　　ロード中…\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "     Loading…\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51383,7 +51383,7 @@
                     }
                 ],
                 "raw": "セーブ完了しました\u0000\u0000",
-                "translation": "",
+                "translation": "  Save complete\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51424,7 +51424,7 @@
                     }
                 ],
                 "raw": "ロード完了しました\u0000\u0000",
-                "translation": "",
+                "translation": "  Load complete\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51457,7 +51457,7 @@
                     }
                 ],
                 "raw": "初期化完了しました\u0000\u0000",
-                "translation": "",
+                "translation": "Reset complete\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51494,7 +51494,7 @@
                     }
                 ],
                 "raw": "書き込みに失敗しました\u0000\u0000",
-                "translation": "",
+                "translation": "Writing failed\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51531,7 +51531,7 @@
                     }
                 ],
                 "raw": "読み込みに失敗しました\u0000\u0000",
-                "translation": "",
+                "translation": "Reading failed\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51564,7 +51564,7 @@
                     }
                 ],
                 "raw": "アイテム画面に戻ります\u0000\u0000",
-                "translation": "",
+                "translation": "Back to list screen\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51597,7 +51597,7 @@
                     }
                 ],
                 "raw": "は　い\u0000\u0000",
-                "translation": "",
+                "translation": "Yes\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51614,7 +51614,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000",
-                "translation": "",
+                "translation": " No\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51695,7 +51695,7 @@
                     }
                 ],
                 "raw": "作製\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Create\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51712,7 +51712,7 @@
                     }
                 ],
                 "raw": "強化\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51729,7 +51729,7 @@
                     }
                 ],
                 "raw": "強刃\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Refine\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51746,7 +51746,7 @@
                     }
                 ],
                 "raw": "解体\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Disassemble\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51763,7 +51763,7 @@
                     }
                 ],
                 "raw": "修理\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Repair\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51796,7 +51796,7 @@
                     }
                 ],
                 "raw": "変　更\u0000\u0000",
-                "translation": "",
+                "translation": "Change\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51813,7 +51813,7 @@
                     }
                 ],
                 "raw": "取　消\u0000\u0000",
-                "translation": "",
+                "translation": "Cancel\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51846,7 +51846,7 @@
                     }
                 ],
                 "raw": "強化\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51863,7 +51863,7 @@
                     }
                 ],
                 "raw": "強化解除\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Upgrade removal\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51896,7 +51896,7 @@
                     }
                 ],
                 "raw": "材料がありません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You have no materials\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51929,7 +51929,7 @@
                     }
                 ],
                 "raw": "武器を持っていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You have no weapons\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51962,7 +51962,7 @@
                     }
                 ],
                 "raw": "強化可能な武器を持っていません\u0000\u0000",
-                "translation": "",
+                "translation": "You have no weapons to upgrade\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51995,7 +51995,7 @@
                     }
                 ],
                 "raw": "強刃可能な武器を持っていません\u0000\u0000",
-                "translation": "",
+                "translation": "You have no weapons to refine\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52061,7 +52061,7 @@
                     }
                 ],
                 "raw": "必殺技の選択\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Special attack\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52094,7 +52094,7 @@
                     }
                 ],
                 "raw": "特殊効果の選択\u0000\u0000",
-                "translation": "",
+                "translation": "Effect\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52111,7 +52111,7 @@
                     }
                 ],
                 "raw": "鍛冶師ランクが足りません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Your rank is too low\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52144,7 +52144,7 @@
                     }
                 ],
                 "raw": "すでに強化済みです\u0000\u0000",
-                "translation": "",
+                "translation": "This weapon is already upgraded\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52177,7 +52177,7 @@
                     }
                 ],
                 "raw": "アイテムがありません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "You have no items\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52214,7 +52214,7 @@
                     }
                 ],
                 "raw": "アイテムが設定されていません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "No material has been chosen\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52247,7 +52247,7 @@
                     }
                 ],
                 "raw": "鍛冶師ランクが足りません\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Your rank is too low\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52280,7 +52280,7 @@
                     }
                 ],
                 "raw": "ポイントが残っています\u0000\u0000",
-                "translation": "",
+                "translation": "You have leftover points\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52313,7 +52313,7 @@
                     }
                 ],
                 "raw": "これでいいですか？\u0000\u0000",
-                "translation": "",
+                "translation": "Is this alright?\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52354,7 +52354,7 @@
                     }
                 ],
                 "raw": "ＴＥＣが２５５必要です\u0000\u0000",
-                "translation": "",
+                "translation": "255 TEC is required\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52387,7 +52387,7 @@
                     }
                 ],
                 "raw": "１ポイントにつき\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Each point:\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52404,7 +52404,7 @@
                     }
                 ],
                 "raw": "ＡＴＫ＋２　ＤＥＦ＋３\u0000\u0000",
-                "translation": "",
+                "translation": "ATK + 2  DEF + 3\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52421,7 +52421,7 @@
                     }
                 ],
                 "raw": "ＡＧＬ＋１　ＤＵＲ＋５\u0000\u0000",
-                "translation": "",
+                "translation": "AGL + 1  DUR + 5\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52454,7 +52454,7 @@
                     }
                 ],
                 "raw": "ζ鍛冶ランクがηになりました\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "ζ Rank is now η\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52538,7 +52538,7 @@
                     }
                 ],
                 "raw": "新たに「強化」を習得しました\u0000\u0000\u0000\u0000",
-                "translation": "Learned \\\"Upgrade\\\"\u0000",
+                "translation": "Learned \"Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52589,7 +52589,7 @@
                     }
                 ],
                 "raw": "「強化」で使用出来るアイテムが\u0000\u0000",
-                "translation": "\\\"Upgrade\\\" has been enhanced!\u0000\u0000",
+                "translation": "Upgrade\" has been enhanced!\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52606,7 +52606,7 @@
                     }
                 ],
                 "raw": "２個になりました\u0000\u0000\u0000\u0000",
-                "translation": "Upgrade with up to 2 items\u0000\u0000",
+                "translation": "Upgrade with up to 2 items\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52640,7 +52640,7 @@
                     }
                 ],
                 "raw": "新たに「強刃」を習得しました\u0000\u0000\u0000\u0000",
-                "translation": "Learned \\\"Refine\\\"\u0000\u0000",
+                "translation": "Learned \"Refine\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52657,7 +52657,7 @@
                     }
                 ],
                 "raw": "ＴＥＣを使い　武器のパラメータを\u0000\u0000\u0000\u0000",
-                "translation": "Use TEC to upgrade your weapon's\u0000\u0000",
+                "translation": "Use TEC to upgrade your weapon's\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52674,7 +52674,7 @@
                     }
                 ],
                 "raw": "１ポイント振り分けられます\u0000\u0000",
-                "translation": "stats by 1 point\u0000\u0000",
+                "translation": "stats by 1 point\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52691,7 +52691,7 @@
                     }
                 ],
                 "raw": "「強化」で使用出来るアイテムが\u0000\u0000",
-                "translation": "\\\"Upgrade\\\" has been enhanced!\u0000\u0000",
+                "translation": "Upgrade\" has been enhanced!\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52708,7 +52708,7 @@
                     }
                 ],
                 "raw": "３個になりました\u0000\u0000\u0000\u0000",
-                "translation": "Upgrade with up to 3 items\u0000\u0000",
+                "translation": "Upgrade with up to 3 items\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52742,7 +52742,7 @@
                     }
                 ],
                 "raw": "新たに「解体・改」を習得しました\u0000\u0000\u0000\u0000",
-                "translation": "Learned \\\"Disassemble Mod\\\"\u0000",
+                "translation": "Learned \"Disassemble Mod\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52759,7 +52759,7 @@
                     }
                 ],
                 "raw": "ＴＥＣを使い　付加効果を残して\u0000\u0000",
-                "translation": "Use TEC to keep bonus stats on\u0000\u0000",
+                "translation": "Use TEC to keep bonus stats on\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52793,7 +52793,7 @@
                     }
                 ],
                 "raw": "新たに「強化解除」を習得しました\u0000\u0000\u0000\u0000",
-                "translation": "Learned \\\"Cancel Upgrade\\\"\u0000\u0000",
+                "translation": "Learned \"Cancel Upgrade\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52827,7 +52827,7 @@
                     }
                 ],
                 "raw": "取り出せます\u0000\u0000\u0000\u0000",
-                "translation": "used to upgrade it\u0000\u0000",
+                "translation": "used to upgrade it\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52844,7 +52844,7 @@
                     }
                 ],
                 "raw": "「強刃」で振り分けられるポイントが\u0000\u0000",
-                "translation": "\\\"Refine\\\" has been enhanced!\u0000",
+                "translation": "Refine\" has been enhanced!\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52895,7 +52895,7 @@
                     }
                 ],
                 "raw": "「強刃」で振り分けられるポイントが\u0000\u0000",
-                "translation": "\\\"Refine\\\" has been enhanced!\u0000",
+                "translation": "Refine\" has been enhanced!\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52946,7 +52946,7 @@
                     }
                 ],
                 "raw": "「強刃」で振り分けられるポイントが\u0000\u0000",
-                "translation": "\\\"Refine\\\" has been enhanced!\u0000",
+                "translation": "Refine\" has been enhanced!\u0000",
                 "type": "SJIS string"
             },
             {
@@ -52963,7 +52963,7 @@
                     }
                 ],
                 "raw": "４ポイントになりました\u0000\u0000",
-                "translation": "Assign up to 3 points\u0000",
+                "translation": "Assign up to 4 points\u0000",
                 "type": "SJIS string"
             },
             {
@@ -53013,7 +53013,7 @@
                     }
                 ],
                 "raw": "＜解説＞\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "<Details>\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53046,7 +53046,7 @@
                     }
                 ],
                 "raw": "は　い\u0000\u0000",
-                "translation": "",
+                "translation": "Yes\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53087,7 +53087,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000",
-                "translation": "",
+                "translation": " No\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53128,7 +53128,7 @@
                     }
                 ],
                 "raw": "を入手！\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": " obtained!\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53177,7 +53177,7 @@
                     }
                 ],
                 "raw": "を渡しました\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": " delivered!\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53210,7 +53210,7 @@
                     }
                 ],
                 "raw": "これ以上持てません\u0000\u0000",
-                "translation": "",
+                "translation": "You can't carry anymore\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -53251,7 +53251,7 @@
                     }
                 ],
                 "raw": "を支払いました\u0000\u0000",
-                "translation": "",
+                "translation": " paid!\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -78271,7 +78271,7 @@
                     }
                 ],
                 "raw": "セーブデータを継承しますか？\u0000\u0000\u0000\u0000",
-                "translation": "Start New Game+?\u0000\u0000",
+                "translation": "\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -78439,7 +78439,7 @@
                     }
                 ],
                 "raw": "からっぽ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Empty\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -78877,7 +78877,7 @@
                     }
                 ],
                 "raw": "「ζ」\u0000\u0000",
-                "translation": "",
+                "translation": "ζ\u0000",
                 "type": "SJIS string"
             },
             {
@@ -78894,7 +78894,7 @@
                     }
                 ],
                 "raw": "　これでいいですか？\u0000\u0000",
-                "translation": "",
+                "translation": "Are you sure?\u0000",
                 "type": "SJIS string"
             },
             {
@@ -78911,7 +78911,7 @@
                     }
                 ],
                 "raw": "は　い\u0000\u0000",
-                "translation": "",
+                "translation": "Yes\u0000",
                 "type": "SJIS string"
             },
             {
@@ -78928,7 +78928,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": " No\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -78965,7 +78965,7 @@
                     }
                 ],
                 "raw": "主人公の愛称を入力して下さい\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Pick a nickname for the hero\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -78998,7 +78998,7 @@
                     }
                 ],
                 "raw": "主人公の名前を入力して下さい\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Pick a name for the hero\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -79031,7 +79031,7 @@
                     }
                 ],
                 "raw": "パートナーの名前を入力して下さい\u0000\u0000\u0000\u0000",
-                "translation": "",
+                "translation": "Pick a name for the hero's partner\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -79064,7 +79064,7 @@
                     }
                 ],
                 "raw": "名前\u0000\u0000",
-                "translation": "",
+                "translation": "Name\u0000",
                 "type": "SJIS string"
             },
             {
@@ -79081,7 +79081,7 @@
                     }
                 ],
                 "raw": "愛称\u0000\u0000",
-                "translation": "",
+                "translation": "Nickname\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -79118,7 +79118,7 @@
                     }
                 ],
                 "raw": "リッチー\u0000\u0000",
-                "translation": "",
+                "translation": "Ritchie\u0000",
                 "type": "SJIS string"
             },
             {
@@ -79135,7 +79135,7 @@
                     }
                 ],
                 "raw": "リフ\u0000\u0000",
-                "translation": "",
+                "translation": "Rif\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -79223,7 +79223,7 @@
                     }
                 ],
                 "raw": "残り０回\u0000\u0000",
-                "translation": "0 left\u0000\u0000",
+                "translation": "0 left\u0000",
                 "type": "SJIS string"
             },
             {
@@ -79240,7 +79240,7 @@
                     }
                 ],
                 "raw": "残り１回\u0000\u0000",
-                "translation": "1 left\u0000\u0000",
+                "translation": "1 left\u0000",
                 "type": "SJIS string"
             },
             {
@@ -79257,7 +79257,7 @@
                     }
                 ],
                 "raw": "残り２回\u0000\u0000\u0000\u0000",
-                "translation": "2 left\u0000\u0000",
+                "translation": "2 left\u0000",
                 "type": "SJIS string"
             }
         ],
