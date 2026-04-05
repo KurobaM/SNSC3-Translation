@@ -20127,7 +20127,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -20144,7 +20144,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22013,7 +22013,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22030,7 +22030,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22059,7 +22059,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22076,7 +22076,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22105,7 +22105,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22122,7 +22122,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22151,7 +22151,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22168,7 +22168,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22197,7 +22197,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22214,7 +22214,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22243,7 +22243,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22260,7 +22260,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22289,7 +22289,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22306,7 +22306,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22335,7 +22335,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22352,7 +22352,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22381,7 +22381,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22398,7 +22398,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22427,7 +22427,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -22444,7 +22444,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24681,7 +24681,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -24698,7 +24698,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24727,7 +24727,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -24744,7 +24744,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26952,7 +26952,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26998,7 +26998,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27303,7 +27303,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "原石に近い召喚石\u0000\u0000",
-                            "translation": "[NAME 1]'s Summonite\u0000",
+                            "translation": "γ's Summonite\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -27320,7 +27320,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "γを呼び出した召喚石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "You can summon [NAME 1] with this.\u0000",
+                            "translation": "You can summon γ with this.\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28884,7 +28884,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "θをι体退治する\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Exterminate [NAME 7] [NAME 6]s.\u0000",
+                            "translation": "Exterminate ι θs.\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29051,7 +29051,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29068,7 +29068,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29097,7 +29097,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29114,7 +29114,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29143,7 +29143,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29160,7 +29160,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29189,7 +29189,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29206,7 +29206,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29235,7 +29235,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29252,7 +29252,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29281,7 +29281,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29298,7 +29298,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29327,7 +29327,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29344,7 +29344,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29373,7 +29373,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29390,7 +29390,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29419,7 +29419,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29436,7 +29436,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29465,7 +29465,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29482,7 +29482,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29511,7 +29511,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29528,7 +29528,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29557,7 +29557,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29574,7 +29574,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29603,7 +29603,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "無\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "無\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -29620,7 +29620,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "説明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "説明\u0000",
+                            "translation": "--\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -42072,7 +42072,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1] in battle\u0000",
+                            "translation": "Tag with γ in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42118,7 +42118,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1] in battle\u0000",
+                            "translation": "Tag with γ in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42164,7 +42164,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1] in battle\u0000",
+                            "translation": "Tag with γ in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42210,7 +42210,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1] in battle\u0000",
+                            "translation": "Tag with γ in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42256,7 +42256,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
+                            "translation": "Tag with γ's true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42302,7 +42302,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
+                            "translation": "Tag with γ's true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42348,7 +42348,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
+                            "translation": "Tag with γ's true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42394,7 +42394,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
+                            "translation": "Tag with γ's true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43481,7 +43481,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "仮\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43527,7 +43527,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "仮\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43573,7 +43573,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "仮\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43619,7 +43619,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "仮\u0000",
+                            "translation": "-\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -45722,7 +45722,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45768,7 +45768,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45814,7 +45814,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45860,7 +45860,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45906,7 +45906,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45952,7 +45952,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -45998,7 +45998,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46044,7 +46044,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "護衛獣専用必殺技\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "[NAME 1]'s Special Move\u0000",
+                            "translation": "γ's Special Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
