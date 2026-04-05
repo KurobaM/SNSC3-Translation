@@ -46319,7 +46319,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ボルツ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lit Weak Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46336,7 +46336,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で雷エレメント弱ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weak lightning element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46365,7 +46365,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ボルツスパーク\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lit Med Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46382,7 +46382,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で雷エレメント中ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium lightning element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46411,7 +46411,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ボルツバースト\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lit Str Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46428,7 +46428,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で雷エレメント大ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Strong lightning element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46457,7 +46457,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Fire Weak Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46474,7 +46474,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で炎エレメント弱ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weak Fire element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46503,7 +46503,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレアバーン\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Fire Med Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46520,7 +46520,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で炎エレメント中ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium Fire element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46549,7 +46549,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレアバースト\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Fire Str Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46566,7 +46566,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で炎エレメント大ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Strong Fire element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46595,7 +46595,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wtr Weak Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46612,7 +46612,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で水エレメント弱ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weak water element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46641,7 +46641,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクアバッシュ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wtr Med Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46658,7 +46658,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で水エレメント中ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium water element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46687,7 +46687,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクアバースト\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wtr Str Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46704,7 +46704,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で水エレメント大ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Strong water element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46733,7 +46733,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウインド\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wind Weak Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46750,7 +46750,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で風エレメント弱ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weak wind element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46779,7 +46779,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウインドストーム\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wind Med Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46796,7 +46796,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で風エレメント中ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium wind element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46825,7 +46825,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウインドバースト\u0000\u0000",
-                            "translation": "",
+                            "translation": "Wind Str Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46842,7 +46842,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で風エレメント大ダメージを追加\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Strong wind element attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46871,7 +46871,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "バンパイア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Drain Weak\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46888,7 +46888,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で少なめにＨＰ吸収\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Drains little HP with a small chance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46917,7 +46917,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中バンパイア\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Drain Med\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46934,7 +46934,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率でＨＰ吸収\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Drains HP with a small chance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -46963,7 +46963,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強バンパイア\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Drain Str\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -46980,7 +46980,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で少し多くＨＰ吸収\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Drains a lot of HP with a small chance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47009,7 +47009,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ヒール\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Regen Weak\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47026,7 +47026,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 1HP every ~4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47055,7 +47055,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中ヒール\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Regen Med\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47072,7 +47072,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを５回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 5HP every ~4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47101,7 +47101,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強ヒール\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "HP Regen Str\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47118,7 +47118,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを１０回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 10HP every ~4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47147,7 +47147,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "リペア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "DUR Regen Weak\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47164,7 +47164,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約８秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 1 DUR every ~8 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47193,7 +47193,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中リペア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "DUR Regen Med\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47210,7 +47210,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 1 DUR every ~4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47239,7 +47239,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強リペア\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "DUR Regen Str\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47256,7 +47256,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約２秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recover 1 DUR every ~2 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47285,7 +47285,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "コストダウン\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Cost Down Weak\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47302,7 +47302,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "必殺技のＤＵＲ消費が少し減少\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lowers DUR for special attacks a bit\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47331,7 +47331,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中コストダウン\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Cost Down Med\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47348,7 +47348,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "必殺技のＤＵＲ消費が少し多めに減少\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lowers DUR for special attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47377,7 +47377,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強コストダウン\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Cost Down Str\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47394,7 +47394,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "必殺技のＤＵＲ消費が多めに減少\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Greatly lowers DUR for special attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47423,7 +47423,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ラック\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Luck Weak Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47440,7 +47440,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が５％上がる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises chances to get items to ~5%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47469,7 +47469,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中ラック\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Luck Med Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47486,7 +47486,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が１０％上がる\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises chances to get items to ~10%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47515,7 +47515,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強ラック\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Luck Str Effect\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47532,7 +47532,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が１５％上がる\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises chances to get items to ~15%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47561,7 +47561,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ノックバック\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Knockback\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47578,7 +47578,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "攻撃対象を退ける\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Makes your attacks knock enemies away\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47607,7 +47607,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＴＥＣアップ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "TEC Up\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47624,7 +47624,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＴＥＣの値が少し上がりやすくなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "TEC gauge fills faster for a bit\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47653,7 +47653,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "下突き\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Thrust Down\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47670,7 +47670,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "空中で下ボタン＋Ａボタンで下突き攻撃\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "In mid-air\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47699,7 +47699,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "貫通\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Pierce\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47716,7 +47716,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "複数同時に攻撃が当たる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Can hit multiple enemies\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47745,7 +47745,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "クイックヒット\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Quick Hit\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47762,7 +47762,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "攻撃スピードが少し速くなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Attacks quicker than normal attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47791,7 +47791,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "Ｊガードアップ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Parry\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47808,7 +47808,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ジャストガードしやすくなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Higher chance of parrying\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47837,7 +47837,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "クリティカル\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Critical\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47854,7 +47854,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "クリティカル攻撃が出やすくなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Higher critical attack rate\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47883,7 +47883,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "瀕死攻撃強化\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Critical ATK UP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47900,7 +47900,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "瀕死状態で攻撃力が増加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "In a critical state\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47929,7 +47929,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "瀕死防御強化\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Critical DEF UP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47946,7 +47946,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "瀕死状態で防御力が増加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "In a critical state\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47975,7 +47975,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "麻痺効果\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Paralyze Attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -47992,7 +47992,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で対象をマヒ状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Chance to paralyze enemies\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -48021,7 +48021,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "眠り効果\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Sleep Attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -48038,7 +48038,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で対象をネムリ状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Chance to put enemies to sleep\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -48067,7 +48067,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "毒効果\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Poison Attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -48084,7 +48084,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で対象をドク状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Chance to poison enemies\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -48113,7 +48113,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "サビ効果\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Rust Attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -48130,7 +48130,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "低確率で対象をサビ状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Chance to rust enemies weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
