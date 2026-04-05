@@ -1121,8 +1121,8 @@ call            @Func_4c80
 code0479        1, 4, 16
 call            @Func_4cb6
 dialogtxt       "I wonder if he'll be okay..."
-dialogtxt       "Will he be able to"
-dialogtxt       "make the medicine?"
+dialogtxt       "Will he really be able to"
+dialogtxt       "make that medicine for us?"
 code0309        
 call            @Func_4cec
 code0479        0, 0, 16

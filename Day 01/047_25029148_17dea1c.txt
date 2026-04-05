@@ -110,8 +110,8 @@ code0479        1, 0, 12
 code0479        0, 0, 12
 call            @Func_1136
 dialogtxt       "Leave it to me!"
-dialogtxt       "You know, I've never actually"
-dialogtxt       "seen you sick before, Master."
+dialogtxt       "But Master, I've never actually"
+dialogtxt       "seen you sick before."
 goto            @Label_06fa
 
 @Label_06fa:

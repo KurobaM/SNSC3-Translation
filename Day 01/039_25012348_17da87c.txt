@@ -109,12 +109,12 @@ call            @Func_16f2
 code0479        1, 0, 12
 call            @Func_1728
 dialogtxt       "Hey, so, I know a few guys that"
-dialogtxt       "work at the toolshop..."
+dialogtxt       "work at the Item Shop..."
 code0309        
 call            @Func_175e
 code0479        0, 0, 16
 call            @Func_16bc
-dialogtxt       "... Okay?"
+dialogtxt       "... I see..."
 code0309        
 call            @Func_16f2
 code0479        1, 1, 12
@@ -135,15 +135,14 @@ call            @Func_16f2
 code0479        1, 0, 12
 call            @Func_1728
 dialogtxt       "Yeah."
-dialogtxt       "As thanks for chasing"
-dialogtxt       "away that Stray."
+dialogtxt       "As thanks for chasing away"
+dialogtxt       "that Stray."
 code0309        
 call            @Func_175e
 code0479        0, 0, 13
 call            @Func_16bc
 dialogtxt       "I see."
-dialogtxt       "Thank you, too."
-dialogtxt       "I'm so happy it all worked out!"
+dialogtxt       "Thanks a lot, Zakk."
 goto            @Label_0684
 
 @Label_0684:
@@ -151,7 +150,7 @@ code0309
 call            @Func_16f2
 code0479        1, 4, 12
 call            @Func_1728
-dialogtxt       "But I can't be seen talking with"
+dialogtxt       "But, I can't be seen talking with"
 dialogtxt       "you two, so..."
 code0309        
 call            @Func_175e
@@ -168,7 +167,8 @@ code0309
 call            @Func_175e
 code0479        0, 0, 13
 call            @Func_16bc
-dialogtxt       "Alright! I'm counting on you!"
+dialogtxt       "Alright!"
+dialogtxt       "I'm counting on you!"
 goto            @Label_07bc
 
 @Label_07bc:

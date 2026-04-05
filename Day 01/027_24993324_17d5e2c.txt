@@ -464,7 +464,7 @@ goto            @Cond_1722
 jumpz           @Cond_1da8, ($b003 == 3)
 call            @Func_239c
 dialogtxt       "Oh, you were right."
-dialogtxt       "That was dangerous..."
+dialogtxt       "That one was dangerous..."
 goto            @Label_17b6
 
 @Label_17b6:
@@ -473,16 +473,16 @@ code0309
 call            @Func_23f0
 code0479        1, 2, 16
 call            @Func_2426
-dialogtxt       "Could it be..."
+dialogtxt       "Don't tell me..."
 dialogtxt       "You didn't believe me?"
 code0309        
 call            @Func_245c
 code0333        2, 30
 code0479        0, 0, 16
 call            @Func_23ba
-dialogtxt       "No, it's just that"
-dialogtxt       "I couldn't tell the"
-dialogtxt       "difference, so..."
+dialogtxt       "No, it's just that I couldn't"
+dialogtxt       "really see any difference,"
+dialogtxt       "so..."
 goto            @Label_18e8
 
 @Label_18e8:
@@ -493,8 +493,8 @@ code0331        39, 256
 code0479        1, 2, 12
 call            @Func_2426
 dialogtxt       "Well, that can't be helped."
-dialogtxt       "My intuition is just"
-dialogtxt       "too sharp in comparison."
+dialogtxt       "My intuition is just too"
+dialogtxt       "sharp in comparison."
 code0309        
 call            @Func_245c
 code0479        0, 5, 12
@@ -507,8 +507,8 @@ call            @Func_2426
 dialogtxt       "Do you doubt me?"
 code0309        
 code0479        1, 2, 15
-dialogtxt       "The reason I was able to"
-dialogtxt       "survive is due to this"
+dialogtxt       "The reason I have survived"
+dialogtxt       "this long is due to this"
 dialogtxt       "intuition of mine!"
 code0309        
 call            @Func_245c

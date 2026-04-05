@@ -113,7 +113,8 @@ code0309
 call            @Func_1082
 code0479        0, 0, 16
 call            @Func_0fe0
-dialogtxt       "But man, you work way too hard."
+dialogtxt       "But man, you push yourself"
+dialogtxt       "way too hard."
 dialogtxt       "I guess you've got your reasons."
 goto            @Label_06f2
 

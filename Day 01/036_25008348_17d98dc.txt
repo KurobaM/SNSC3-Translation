@@ -88,7 +88,7 @@ goto            @Cond_0368
 @Cond_0368:
 jumpz           @Cond_039e, ($b003 == 3)
 dialogtxt       "No..."
-dialogtxt       "But the Kicker Berry!?"
+dialogtxt       "Then, Is The Kicker Berry—"
 goto            @Cond_039e
 
 @Cond_039e:

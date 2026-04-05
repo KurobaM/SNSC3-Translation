@@ -458,9 +458,9 @@ call            @Func_20d8
 code0333        2, 30
 code0479        0, 4, 12
 call            @Func_2036
-dialogtxt       "You got it all wrong!"
-dialogtxt       "I just couldn't see any"
-dialogtxt       "difference, so..."
+dialogtxt       "You've got it all wrong!"
+dialogtxt       "I just couldn't see any difference,"
+dialogtxt       "so..."
 goto            @Label_167a
 
 @Label_167a:
@@ -487,7 +487,7 @@ dialogtxt       "Are you mocking me?"
 code0309        
 code0479        1, 2, 17
 dialogtxt       "I have survived until now"
-dialogtxt       "solely on my own instinct!"
+dialogtxt       "solely by my own instincts!"
 code0309        
 call            @Func_20d8
 code0479        0, 4, 16
@@ -498,7 +498,9 @@ call            @Func_206c
 code0479        1, 2, 14
 call            @Func_20a2
 dialogtxt       "If you will not believe me,"
-dialogtxt       "then fine, I won't say anything."
+dialogtxt       "then so be it."
+dialogtxt       "I've nothing more to say."
+code0309
 dialogtxt       "You may do as you please."
 code0309        
 call            @Func_20d8
@@ -544,7 +546,8 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_20f0
 call            @Func_2018
-dialogtxt       "[NAME 1]! behind you!"
+dialogtxt       "[NAME 1]!!!"
+dialogtxt       "Behind you!"
 goto            @Cond_1a86
 
 @Cond_1a86:

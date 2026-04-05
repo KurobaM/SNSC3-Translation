@@ -108,7 +108,7 @@ jumpz           @Cond_0524, ($bv016 == 7)
 setvar          $bv016, ($bv016 | 0x0008)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey! This ain't half bad!"
+dialogtxt       "Hey! This looks pretty good!"
 dialogtxt       "Here, take this."
 code0309        
 code047e        0, 0

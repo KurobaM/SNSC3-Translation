@@ -224,8 +224,7 @@ code0479        0, 5, 14
 code047d        0, 0
 call            @Func_26c6
 call            @Func_25ee
-dialogtxt       "Ah, hey,"
-dialogtxt       "wait a second!"
+dialogtxt       "Hey, wait a second!"
 goto            @Label_0a0a
 
 @Label_0a0a:
@@ -324,8 +323,8 @@ code0331        39, 256
 jumpz           @Cond_12ea, ($b003 == 0)
 code0479        0, 2, 15
 call            @Func_26dc
-dialogtxt       "What happened there?"
-dialogtxt       "You said it'd be fine!"
+dialogtxt       "Hey, you said it'd be fine!"
+dialogtxt       "Why'd the bridge collapse?"
 goto            @Label_0e3e
 
 @Label_0e3e:
@@ -433,8 +432,8 @@ goto            @Cond_12ea
 jumpz           @Cond_1640, ($b003 == 1)
 code0479        0, 2, 15
 call            @Func_26dc
-dialogtxt       "What happened there?"
-dialogtxt       "You said it'd be fine!"
+dialogtxt       "Hey, you said it'd be fine!"
+dialogtxt       "Why'd the bridge collapse?"
 goto            @Label_1396
 
 @Label_1396:
@@ -579,13 +578,13 @@ goto            @Cond_1a16
 jumpz           @Cond_1dda, ($b003 == 3)
 code0479        0, 2, 15
 call            @Func_26dc
-dialogtxt       "What happened there?"
-dialogtxt       "You said it'd be fine!"
+dialogtxt       "Hey, you said it'd be fine!"
+dialogtxt       "Why'd the bridge collapse?"
 goto            @Label_1ac2
 
 @Cond_1a8a:
-dialogtxt       "Hey, what happened there?"
-dialogtxt       "You said it'd be fine!"
+dialogtxt       "Hey, you said it'd be fine!"
+dialogtxt       "Why'd the bridge collapse?"
 goto            @Label_1ac2
 
 @Label_1ac2:
@@ -595,8 +594,8 @@ call            @Func_2642
 code0479        1, 4, 14
 call            @Func_2678
 dialogtxt       "W—Well..."
-dialogtxt       "I'm sure my intuition is correct..."
-dialogtxt       "Ah, that's it!"
+dialogtxt       "I'm sure my intuition was correct..."
+dialogtxt       "Ah, that must be it!"
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 15
@@ -616,12 +615,11 @@ call            @Func_2642
 code0479        1, 5, 17
 call            @Func_2678
 dialogtxt       "I—I'm lame!?"
-dialogtxt       "That's not possible!"
 code0309        
 call            @Func_26ae
 code0479        0, 2, 14
 call            @Func_260c
-dialogtxt       "That kid trusted you,"
+dialogtxt       "Zakk trusted you,"
 dialogtxt       "but he fell anyway."
 goto            @Label_1d0e
 

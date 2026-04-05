@@ -164,7 +164,8 @@ dialogtxt       "N—No I'm not!"
 dialogtxt       "But anyway, make yourself at"
 dialogtxt       "home here."
 code0309	
-dialogtxt       "So, once you've calmed down..."
+dialogtxt       "Maybe, once everything has"
+dialogtxt       "calmed down..."
 goto            @Label_0a2e
 
 @Cond_09be:
@@ -174,7 +175,8 @@ dialogtxt       "I'm not, really..."
 dialogtxt       "But anyway, make yourself at"
 dialogtxt       "home here."
 code0309	
-dialogtxt       "So, once you've calmed down..."
+dialogtxt       "Maybe, once everything has"
+dialogtxt       "calmed down..."
 goto            @Label_0a2e
 
 @Label_0a2e:

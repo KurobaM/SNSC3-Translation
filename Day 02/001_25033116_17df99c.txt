@@ -603,12 +603,12 @@ goto            @Label_1a40
 code0479        0, 0, 12
 call            @Func_20d0
 jumpz           @Cond_18d6, ($b002 == 0)
-dialogtxt       "Anyway, she was sleeping soundly,"
+dialogtxt       "She was sleeping soundly yesterday,"
 dialogtxt       "so I'm sure she's fine."
 goto            @Label_1914
 
 @Cond_18d6:
-dialogtxt       "Anyway, she was sleeping soundly,"
+dialogtxt       "She was sleeping soundly yesterday,"
 dialogtxt       "so I'm sure she's fine."
 goto            @Label_1914
 
@@ -617,7 +617,7 @@ code0309
 call            @Func_2106
 code0479        1, 2, 15
 call            @Func_213c
-dialogtxt       "\"I'm sure\"...?"
+dialogtxt       "You're \"sure?\""
 dialogtxt       "You can't rely on intuition"
 dialogtxt       "at a time like this!"
 code0309        
@@ -631,7 +631,8 @@ call            @Func_2106
 code0479        1, 2, 14
 call            @Func_213c
 dialogtxt       "Hmph, truly unreliable."
-dialogtxt       "Indeed I have to handle it!"
+dialogtxt       "Indeed, I must handle this"
+dialogtxt       "myself!"
 code0309        
 call            @Func_2172
 code0479        0, 1, 16
@@ -644,18 +645,18 @@ code0309
 call            @Func_2106
 code0479        1, 2, 13
 call            @Func_213c
-dialogtxt       "Now, let us quickly"
-dialogtxt       "head to Lady Murno's side."
+dialogtxt       "Now, let us quickly head to"
+dialogtxt       "Lady Murno's side."
 code0309        
 call            @Func_2172
 code0479        0, 0, 12
 call            @Func_20d0
 jumpz           @Cond_1ad4, ($b002 == 0)
-dialogtxt       "Right..."
+dialogtxt       "Right!"
 goto            @Label_1ae6
 
 @Cond_1ad4:
-dialogtxt       "Right..."
+dialogtxt       "Right!"
 goto            @Label_1ae6
 
 @Label_1ae6:

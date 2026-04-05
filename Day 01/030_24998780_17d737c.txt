@@ -55,8 +55,8 @@ code0309
 call            @Func_2032
 code0479        1, 0, 16
 call            @Func_2068
-dialogtxt       "What's so important you can't"
-dialogtxt       "even look down once in a while?"
+dialogtxt       "What's so important that you"
+dialogtxt       "can't look down once in a while?"
 goto            @Label_0392
 
 @Label_0392:
@@ -64,7 +64,7 @@ code0309
 call            @Func_209e
 code0479        0, 2, 14
 call            @Func_1ffc
-dialogtxt       "I—I'm here to pick a Kicker Berry!"
+dialogtxt       "I—I'm here to find a Kicker Berry!"
 dialogtxt       "From the forest just ahead!"
 code0309        
 call            @Func_2032
@@ -98,8 +98,8 @@ code0331        16, 256
 code0479        0, 2, 12
 call            @Func_1ffc
 dialogtxt       "Don't you know?"
-dialogtxt       "Medicine from the Kicker Berry"
-dialogtxt       "can cure anything."
+dialogtxt       "Medicine made from the"
+dialogtxt       "Kicker Berry can cure anything."
 code0309        
 call            @Func_2032
 code0479        1, 5, 16
@@ -109,7 +109,7 @@ dialogtxt       "What do you need it for?"
 code0309        
 code0479        1, 0, 14
 dialogtxt       "... Oh, for Lemmy?"
-dialogtxt       "He was in pretty bad shape."
+dialogtxt       "He WAS in pretty bad shape."
 goto            @Label_0794
 
 @Label_0794:
@@ -118,8 +118,8 @@ call            @Func_209e
 code0479        0, 2, 14
 call            @Func_1ffc
 dialogtxt       "Yeah..."
-dialogtxt       "Lemmy isn't feeling well."
-dialogtxt       "He even has a fever."
+dialogtxt       "Lemmy hasn't been feeling well."
+dialogtxt       "He's got fever too."
 code0309        
 code0479        0, 4, 16
 dialogtxt       "But he doesn't want anyone to know..."
@@ -170,9 +170,9 @@ dialogtxt       "That's right!"
 dialogtxt       "He's my role model!"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "So I'm going to get"
-dialogtxt       "the Kicker Berries to"
-dialogtxt       "help him feel better!"
+dialogtxt       "So I'm going to get the"
+dialogtxt       "Kicker Berry to help him"
+dialogtxt       "feel better!"
 code0309        
 call            @Func_2032
 code0479        1, 0, 13
@@ -214,7 +214,7 @@ call            @Func_209e
 code0479        0, 0, 16
 call            @Func_1ffc
 dialogtxt       "Huh? Yeah, probably."
-dialogtxt       "You guys want some too?"
+dialogtxt       "You guys want one too?"
 code0309        
 call            @Func_2032
 code0479        1, 0, 12
@@ -232,14 +232,14 @@ call            @Func_209e
 code0479        0, 0, 16
 call            @Func_1ffc
 dialogtxt       "Huh? Yeah, probably."
-dialogtxt       "You guys want some too?"
+dialogtxt       "You guys want one too?"
 code0309        
 call            @Func_2032
 code0479        1, 2, 12
 call            @Func_2068
 dialogtxt       "Mhm..."
 dialogtxt       "If they're effective, we definitely"
-dialogtxt       "want to have some."
+dialogtxt       "want to have one."
 goto            @Cond_0e1a
 
 @Cond_0e1a:
@@ -252,7 +252,7 @@ call            @Func_209e
 code0479        0, 0, 16
 call            @Func_1ffc
 dialogtxt       "Huh? Yeah, probably."
-dialogtxt       "You guys want some too?"
+dialogtxt       "You guys want one too?"
 code0309        
 call            @Func_2032
 code0479        1, 0, 16
@@ -271,13 +271,13 @@ call            @Func_209e
 code0479        0, 0, 16
 call            @Func_1ffc
 dialogtxt       "Huh? Yeah, probably."
-dialogtxt       "You guys want some too?"
+dialogtxt       "You guys want one too?"
 code0309        
 call            @Func_2032
 code0479        1, 0, 13
 call            @Func_2068
-dialogtxt       "If it is effective against fevers,"
-dialogtxt       "absolutely!"
+dialogtxt       "If it really works on fevers,"
+dialogtxt       "then absolutely!"
 goto            @Cond_0ffc
 
 @Cond_0ffc:
@@ -303,8 +303,8 @@ code047d        0, 131
 call            @Func_20b6
 call            @Func_1ffc
 dialogtxt       "So that's how it is!"
-dialogtxt       "Now I gotta hurry up"
-dialogtxt       "so you guys don't get it!"
+dialogtxt       "Now I gotta hurry up so you"
+dialogtxt       "guys don't get it first!"
 code047b        
 code0309        
 call            @Func_2138
@@ -471,7 +471,7 @@ goto            @Cond_1870
 
 @Cond_1870:
 jumpz           @Cond_19f2, ($b003 == 3)
-dialogtxt       "Let's go find some too!"
+dialogtxt       "Let's go find one too!"
 code047b        
 code0309        
 call            @Func_209e

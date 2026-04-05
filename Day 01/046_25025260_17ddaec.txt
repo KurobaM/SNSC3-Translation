@@ -628,7 +628,7 @@ dialogtxt       "It is thanks to everyone."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "And yet, I doubted our master."
-dialogtxt       "This is terrible."
+dialogtxt       "I'm terrible."
 code0309        
 call            @Func_2c94
 code0479        0, 0, 16
@@ -642,7 +642,8 @@ call            @Func_2c28
 code0479        1, 4, 16
 call            @Func_2c5e
 dialogtxt       "If Master knew what I was thinking,"
-dialogtxt       "she'd be so mad... and frightening..."
+dialogtxt       "she'd be so mad..."
+dialogtxt       "And scary too..."
 code0309        
 call            @Func_2c94
 code0479        0, 1, 15
@@ -669,17 +670,16 @@ code0309
 call            @Func_2c94
 code0479        0, 1, 13
 call            @Func_2bf2
-dialogtxt       "You know,"
-dialogtxt       "having you around"
+dialogtxt       "You know, having you around"
 dialogtxt       "is a huge help!"
 goto            @Label_24c2
 
 @Label_24c2:
 code0309        
 code0479        0, 0, 12
-dialogtxt       "With you here,"
-dialogtxt       "I can craft strong weapons, and"
-dialogtxt       "keep up with strong opponents now."
+dialogtxt       "With you here, I can craft"
+dialogtxt       "stronger weapons, and keep up"
+dialogtxt       "with tougher opponents now."
 code0309        
 call            @Func_2c28
 code0479        1, 1, 13

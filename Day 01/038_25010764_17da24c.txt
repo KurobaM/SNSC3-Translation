@@ -224,7 +224,7 @@ goto            @Cond_0842
 
 @Cond_0842:
 jumpz           @Cond_0892, ($b003 == 3)
-dialogtxt       "Now we need to go and find the fruit!"
+dialogtxt       "Now we must find the fruit!"
 goto            @Cond_0892
 
 @Cond_0892:

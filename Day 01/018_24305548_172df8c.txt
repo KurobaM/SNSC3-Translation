@@ -187,8 +187,8 @@ goto            @start
 code0301        8, 7
 code047d        0, 110
 code047e        0, 1
-dialogtxt       "If you're done here,"
-dialogtxt       "go home."
+dialogtxt       "If you have no more business"
+dialogtxt       "here, then leave."
 code0309        
 code047e        0, 0
 code0302        7

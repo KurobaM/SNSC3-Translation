@@ -1111,20 +1111,20 @@ code0309
 call            @Func_46ec
 code0479        1, 0, 16
 call            @Func_4722
-dialogtxt       "I didn't know there was"
-dialogtxt       "a station around here."
+dialogtxt       "I didn't know there was a"
+dialogtxt       "station around here."
 
 code0309        
 call            @Func_4758
 code0479        0, 0, 12
 call            @Func_46b6
 dialogtxt       "Yeah."
-dialogtxt       "We use it to transport things"
-dialogtxt       "like raw ore and other stuff"
+dialogtxt       "We use it for transporting stuff"
+dialogtxt       "like raw ore."
 code0309        
 code0479        0, 0, 13
-dialogtxt       "Summon Beasts pull the"
-dialogtxt       "cars along the tracks."
+dialogtxt       "Summon Beasts pull the cars"
+dialogtxt       "along the tracks."
 goto            @Label_363a
 
 @Label_363a:

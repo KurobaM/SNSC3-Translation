@@ -27,9 +27,9 @@ goto            @Label_00f2
 code047d        0, 2
 call            @Func_2152
 call            @Func_20ba
-dialogtxt       "Your attacks didn't work..."
-dialogtxt       "That was a Stray..."
-dialogtxt       "Are you alright, [NAME 1]?"
+dialogtxt       "Your attacks didn't do"
+dialogtxt       "a thing against that Stray."
+dialogtxt       "Are you okay, [NAME 1]?"
 goto            @Label_0196
 
 @Label_0196:
@@ -303,7 +303,7 @@ goto            @Cond_0d44
 @Cond_0d44:
 jumpz           @Cond_1412, ($b003 == 2)
 call            @Func_206c
-dialogtxt       "\"Am I alright?\", you say?"
+dialogtxt       "\"Am I okay?\", you say?"
 dialogtxt       "I'm not that weak."
 code0309        
 call            @Func_20a2
@@ -453,8 +453,8 @@ goto            @Cond_1412
 jumpz           @Cond_1920, ($b003 == 3)
 code0333        2, 30
 call            @Func_206c
-dialogtxt       "Yes... I'm alright."
-dialogtxt       "I am very grateful."
+dialogtxt       "Yes... I'm fine."
+dialogtxt       "Thank you."
 dialogtxt       "If you weren't here, I..."
 code0309        
 call            @Func_20a2
@@ -479,8 +479,8 @@ code0479        1, 0, 12
 call            @Func_20d8
 jumpz           @Cond_1676, ($b002 == 0)
 dialogtxt       "Not to mention..."
-dialogtxt       "If you got hurt,"
-dialogtxt       "she'd be sad, right?"
+dialogtxt       "If you got hurt, she'd be sad,"
+dialogtxt       "right?"
 code0309        
 call            @Func_210e
 code0479        0, 0, 16

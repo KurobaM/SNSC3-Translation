@@ -17,8 +17,7 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_1464
 call            @Func_138c
-dialogtxt       "Hey,"
-dialogtxt       "what's wrong?"
+dialogtxt       "Hey, what's wrong?"
 goto            @Label_0138
 
 @Label_0138:
@@ -51,7 +50,7 @@ code0479        1, 0, 16
 code047d        1, 110
 call            @Func_1490
 call            @Func_13f8
-dialogtxt       "It's not your concern."
+dialogtxt       "It's none of your concern."
 code047b        
 code0309        
 call            @Func_144c
@@ -121,7 +120,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_1490
 call            @Func_13f8
-dialogtxt       "Ah! This is..."
+dialogtxt       "Wait!? T-This is..."
 dialogtxt       "My hammer!?"
 dialogtxt       "I must have dropped it when—"
 code0309        
@@ -141,8 +140,7 @@ call            @Func_1416
 dialogtxt       "Thank you!"
 code0309        
 code0479        1, 5, 15
-dialogtxt       "... Uh, I mean"
-dialogtxt       "Umm..."
+dialogtxt       "... Uh, I mean, umm..."
 code0309        
 call            @Func_144c
 code0479        0, 0, 12
@@ -228,7 +226,7 @@ goto            @Cond_0a42
 
 @Cond_0a42:
 jumpz           @Cond_0ad2, ($b003 == 3)
-dialogtxt       "Oh, you don't need to thank me."
+dialogtxt       "Oh, no need to thank me."
 code047b        
 code0309        
 call            @Func_13e0

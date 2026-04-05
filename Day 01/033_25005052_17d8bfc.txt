@@ -197,8 +197,8 @@ code047d        1, 131
 call            @Func_302a
 call            @Func_2fa8
 dialogtxt       "That's enough."
-dialogtxt       "Anyway, the other"
-dialogtxt       "bridge should be fine, right?"
+dialogtxt       "Anyway, the other bridge should"
+dialogtxt       "be fine, right?"
 code047b        
 code0309        
 code0479        1, 1, 12

@@ -38,8 +38,8 @@ call            @Func_0d5e
 code0479        1, 2, 14
 call            @Func_0d94
 dialogtxt       "It's too early to give up."
-dialogtxt       "There should still be"
-dialogtxt       "some left somewhere!"
+dialogtxt       "There should still be some left"
+dialogtxt       "somewhere!"
 goto            @Label_02a2
 
 @Label_02a2:
