@@ -41089,7 +41089,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スペルヒール\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Healing Spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41106,7 +41106,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "体力回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recovers HP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41135,7 +41135,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "エスケープ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Escape\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41152,7 +41152,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ダンジョンの入り口まで脱出\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Return to dungeon entrance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41181,7 +41181,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "クイックムーブ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Quick Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41198,7 +41198,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　スピードＵＰ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises AGL for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41227,7 +41227,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ガードボディ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Astral Guard\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41244,7 +41244,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　防御力ＵＰ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises DEF for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41273,7 +41273,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "バリアウエポン\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weapon Shield\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41290,7 +41290,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　武器がこわれなくなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Prevents DUR damage\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41319,7 +41319,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウエポンスパーク\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant Spark\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41336,7 +41336,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器に雷エレメントを付加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant weapon with lighting\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41365,7 +41365,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウエポンフレア\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant Flare\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41382,7 +41382,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器に炎エレメントを付加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant weapon with fire\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41411,7 +41411,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウエポンアクア\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant Aqua\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41428,7 +41428,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器に水エレメントを付加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant weapon with water\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41457,7 +41457,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ウエポンウインド\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant Wind\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41474,7 +41474,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器に風エレメントを付加\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Enchant weapon with wind\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41503,7 +41503,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "リカバーヒール\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recovery Spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41520,7 +41520,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "体力回復　戦闘不能時に復活\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recovers HP and revives if you get KO\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41549,7 +41549,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "リカバーウエポン\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weapon Recovery\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41566,7 +41566,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "耐久度回復　武器破壊時に回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recovers DUR even if the weapon breaks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41595,7 +41595,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スペルウエポン\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Weapon Spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41612,7 +41612,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　ダメージの数％を体力に吸収\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Absorbs HP from DMG for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41641,7 +41641,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スペルボディ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Body Spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41658,7 +41658,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　魔法ダメージを激減\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Lowers magic damage for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41687,7 +41687,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "トライスパーク\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tri Spark\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41704,7 +41704,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "雷エレメントの中範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium range elemental lighting attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41733,7 +41733,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレアヴァーン\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Flare Burn\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41750,7 +41750,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎エレメントの中範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium range elemental fire attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41779,7 +41779,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクアボール\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Aqua Ball\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41796,7 +41796,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "水エレメントの中範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium range elemental water attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41825,7 +41825,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "バーストゲイル\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Burst Gale\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41842,7 +41842,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "風エレメントの中範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Medium range elemental wind attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41871,7 +41871,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "サンダーチェイン\u0000\u0000",
-                            "translation": "",
+                            "translation": "Chain Spark\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41888,7 +41888,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "雷エレメントの広範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Long range elemental lighting attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41917,7 +41917,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "バーニンウォール\u0000\u0000",
-                            "translation": "",
+                            "translation": "Burning Wall\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41934,7 +41934,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎エレメントの広範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Long range elemental fire attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41963,7 +41963,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "メガスプラッシュ\u0000\u0000",
-                            "translation": "",
+                            "translation": "Mega Splash\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -41980,7 +41980,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "水エレメントの広範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Long range elemental water attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42009,7 +42009,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ハリケンウォール\u0000\u0000",
-                            "translation": "",
+                            "translation": "Hurricane Wall\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42026,7 +42026,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "風エレメントの広範囲攻撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Long range elemental wind attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42055,7 +42055,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "パートナー出撃\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42072,7 +42072,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1] in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42101,7 +42101,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "パートナー出撃\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42118,7 +42118,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1] in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42147,7 +42147,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "パートナー出撃\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42164,7 +42164,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1] in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42193,7 +42193,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "パートナー出撃\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42210,7 +42210,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1] in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42239,7 +42239,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真パートナー出撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "True Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42256,7 +42256,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42285,7 +42285,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真パートナー出撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "True Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42302,7 +42302,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42331,7 +42331,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真パートナー出撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "True Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42348,7 +42348,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42377,7 +42377,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真パートナー出撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "True Partner Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42394,7 +42394,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な状態で戦闘に出撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Tag with [NAME 1]'s true form in battle\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42423,7 +42423,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フルバースト\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Full Burst\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42440,7 +42440,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な全体魔法\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Powerful AOE magic attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42469,7 +42469,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "猛虎大打撃\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Fierce Tiger Blow\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42486,7 +42486,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な全体魔法\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Powerful AOE magic attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42515,7 +42515,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ジャッジブレイド\u0000\u0000",
-                            "translation": "",
+                            "translation": "Judgement Blade\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42532,7 +42532,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な全体魔法\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Powerful AOE magic attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42561,7 +42561,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ソニックダンサー\u0000\u0000",
-                            "translation": "",
+                            "translation": "Sonic Dancer\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42578,7 +42578,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強力な全体魔法\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Powerful AOE magic attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42607,7 +42607,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクアウェーブ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Aqua Wave\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42624,7 +42624,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42653,7 +42653,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレイムブレス\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Flame Breath\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42670,7 +42670,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42699,7 +42699,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "フレイムブレス\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Flame Breath\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42716,7 +42716,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42745,7 +42745,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スパークセイバー\u0000\u0000",
-                            "translation": "",
+                            "translation": "Spark Saber\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42762,7 +42762,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42791,7 +42791,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ソードボルト出撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "Swordbolt Tag\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42808,7 +42808,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42837,7 +42837,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "水ドラゴンの攻撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "Water Dragon Raid\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42854,7 +42854,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42883,7 +42883,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎ドラゴンの攻撃\u0000\u0000",
-                            "translation": "",
+                            "translation": "Flame Dragon Raid\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42900,7 +42900,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42929,7 +42929,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ガンヴァレーザー\u0000\u0000",
-                            "translation": "",
+                            "translation": "GUNVALD Laser\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42946,7 +42946,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -42975,7 +42975,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ボルガノコンボ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Bogrim Combo\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -42992,7 +42992,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43021,7 +43021,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ベル中\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Bell Medium\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43038,7 +43038,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43067,7 +43067,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ベル大\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Bell Large\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43084,7 +43084,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43113,7 +43113,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ラスボス用予備\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Last Boss Stock\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43130,7 +43130,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43159,7 +43159,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ラスボス用予備\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Last Boss Stock\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43176,7 +43176,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43205,7 +43205,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "予備ストック\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Reserve Stock\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43222,7 +43222,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43251,7 +43251,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アイテム回復\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Item Recovery\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43268,7 +43268,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43297,7 +43297,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "自爆\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Self-destruct\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43314,7 +43314,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43343,7 +43343,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スペルヒール\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Healing Spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43360,7 +43360,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "体力回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Recovers HP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43389,7 +43389,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "クイックムーブ\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Quick Move\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43406,7 +43406,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　スピードＵＰ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises AGL for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43435,7 +43435,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ガードボディ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Astral Guard\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43452,7 +43452,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　防御力ＵＰ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "Raises DEF for a brief duration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43481,7 +43481,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "仮\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43498,7 +43498,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43527,7 +43527,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "仮\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43544,7 +43544,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43573,7 +43573,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "仮\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43590,7 +43590,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -43619,7 +43619,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "仮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "仮\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -43636,7 +43636,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "",
+                            "translation": "\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
