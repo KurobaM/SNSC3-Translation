@@ -1309,14 +1309,20 @@ function getStringLength(str) {
 
 function validateTranslation(e){
     const value = e.target.value;
+    const input = e.target;
     const div = e.target.parentNode;
     const widthDiv = div.children[1];
     const lengthDiv = div.children[2];
-    var width = getStringWidth(JSON.parse('"' + value + '"'));
-    var length = getStringLength(JSON.parse('"' + value + '"'));
+    var width = getStringWidth(JSON.parse('"' + value.replaceAll('"', '\\"') + '"'));
+    var length = getStringLength(JSON.parse('"' + value.replaceAll('"', '\\"') + '"'));
     widthDiv.textContent = 'width=' + width;
     lengthDiv.textContent = 'len=' + length;
     const maxLength = parseInt(div.getAttribute('max-length'), 10);
+    if (!value){
+        input.style.backgroundColor = '#c0ca33';
+    } else {
+        input.style.backgroundColor = '#ffffff';
+    }
     if (width > 224){
         div.style.backgroundColor = '#f1948a';
     } else if (length > maxLength){
@@ -1356,7 +1362,7 @@ function renderString(obj){
     div.className = 'SJIS';
     const p1 = document.createElement('p');
     p1.className = 'address';
-    p1.textContent = obj['address']['value'];
+    p1.textContent = 'String: ' + obj['address']['value'];
     div.appendChild(p1);
     const btn = document.createElement('button');
     btn.textContent = 'Hide';
@@ -1374,6 +1380,7 @@ function renderString(obj){
     const p3 = document.createElement('p');
     p3.className = 'translation';
     const input = document.createElement('input');    
+    input.className = 'input-translation';
     input.size = 60;
     input.setAttribute('value', obj['translation']);
     input.setAttribute('type', 'text');
@@ -1381,10 +1388,10 @@ function renderString(obj){
     p3.appendChild(input);
     const span1 = document.createElement('span');
     span1.className = 'str-width';
-    span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + obj['translation'] + '"'));
+    span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + obj['translation'].replaceAll('"', '\\"') + '"'));
     const span2 = document.createElement('span');
     span2.className = 'str-length';
-    span2.textContent = 'len=' + getStringLength(JSON.parse('"' + obj['translation'] + '"'));
+    span2.textContent = 'len=' + getStringLength(JSON.parse('"' + obj['translation'].replaceAll('"', '\\"') + '"'));
     p3.appendChild(span1);
     p3.appendChild(span2);
     p3.setAttribute('max-length', obj['length']);
@@ -1401,7 +1408,7 @@ function renderTable(obj){
     div.className = 'SJIS';
     const p = document.createElement('p');
     p.className = 'address';
-    p.textContent = obj['address']['value'];
+    p.textContent = 'Table: ' + obj['address']['value'];
     div.appendChild(p);
     const btn = document.createElement('button');
     btn.textContent = 'Hide';
@@ -1429,7 +1436,8 @@ function renderTable(obj){
         subDiv.appendChild(p1);
         var p2 = document.createElement('p');
         p2.className = 'translation';
-        var input = document.createElement('input');    
+        var input = document.createElement('input'); 
+        input.className = 'input-translation';        
         input.size = 80;
         input.setAttribute('value', sjis['translation']);
         input.setAttribute('type', 'text');
@@ -1437,10 +1445,10 @@ function renderTable(obj){
         p2.appendChild(input);
         var span1 = document.createElement('span');
         span1.className = 'str-width';
-        span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'] + '"'));
+        span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'].replaceAll('"', '\\"') + '"'));
         var span2 = document.createElement('span');
         span2.className = 'str-length';
-        span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'] + '"'));
+        span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'].replaceAll('"', '\\"') + '"'));
         p2.appendChild(span1);
         p2.appendChild(span2);
         p2.setAttribute('max-length', sjis['length']);
@@ -1459,7 +1467,7 @@ function renderStrucArr(obj){
     div.className = 'SJIS';
     const p = document.createElement('p');
     p.className = 'address';
-    p.textContent = obj['address']['value'];
+    p.textContent = 'StructArray: ' + obj['address']['value'];
     div.appendChild(p);
     const btn = document.createElement('button');
     btn.textContent = 'Hide';
@@ -1497,7 +1505,8 @@ function renderStrucArr(obj){
             subDiv.appendChild(p1);
             var p2 = document.createElement('p');
             p2.className = 'translation';
-            var input = document.createElement('input');    
+            var input = document.createElement('input');
+            input.className = 'input-translation';            
             input.size = 80;
             input.setAttribute('value', sjis['translation']);
             input.setAttribute('type', 'text');
@@ -1505,10 +1514,10 @@ function renderStrucArr(obj){
             p2.appendChild(input);
             var span1 = document.createElement('span');
             span1.className = 'str-width';
-            span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'] + '"'));
+            span1.textContent = 'width=' + getStringWidth(JSON.parse('"' + sjis['translation'].replaceAll('"', '\\"') + '"'));
             var span2 = document.createElement('span');
             span2.className = 'str-length';
-            span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'] + '"'));
+            span2.textContent = 'len=' + getStringLength(JSON.parse('"' + sjis['translation'].replaceAll('"', '\\"') + '"'));
             p2.appendChild(span1);
             p2.appendChild(span2);
             p2.setAttribute('max-length', sjis['length']);
