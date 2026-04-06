@@ -179,6 +179,7 @@ p {
 .address {
     text-align: left;
     font-weight: bold;
+    background-color: lavender;
 }
 
 .raw {
@@ -198,8 +199,6 @@ p {
 .str-width {
     padding-left: 12px;
 }
-
-
 
 .page-control {
   justify-content: center;
@@ -222,6 +221,7 @@ p {
 
 .page-input {
     width: 60px;
+    font-size: 16px;
     text-align: right;
     padding-right: 2px;
 }
@@ -236,4 +236,11 @@ p {
 .struct-idx {
     font-weight: bold;
     text-align: left;  
+    background-color: palegreen;
+}
+
+.input-translation {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
 }
