@@ -1315,21 +1315,42 @@ function validateTranslation(e){
     const lengthDiv = div.children[2];
     var width = getStringWidth(JSON.parse('"' + value.replaceAll('"', '\\"') + '"'));
     var length = getStringLength(JSON.parse('"' + value.replaceAll('"', '\\"') + '"'));
+    const maxLength = parseInt(div.getAttribute('max-length'), 10);
+    const data = JSON.parse(div.getAttribute('data'));
     widthDiv.textContent = 'width=' + width;
     lengthDiv.textContent = 'len=' + length;
-    const maxLength = parseInt(div.getAttribute('max-length'), 10);
     if (!value){
         input.style.backgroundColor = '#c0ca33';
+        widthDiv.textContent = 'EMPTY: width=' + width;
     } else {
         input.style.backgroundColor = '#ffffff';
     }
-    if (width > 224){
-        div.style.backgroundColor = '#f1948a';
-    } else if (length > maxLength){
-        div.style.backgroundColor = '#f7dc6f';
+    if (width > 120 || length > maxLength){
+        if (length > maxLength){
+            div.style.backgroundColor = '#f7dc6f';
+            if (data['type'] !== 'StructArray'){
+                lengthDiv.textContent = 'len=' + length + ' (WARN)';
+            }
+            else {
+                lengthDiv.textContent = 'len=' + length + ' (ERROR)';
+            }
+        }
+        if (data['type'] === 'StructArray' && value.indexOf('\u3000') > 0){
+            var parts = value.split('\u3000');
+            for (var tmp of parts) {
+                let tmp_w = getStringWidth(JSON.parse('"' + tmp.replaceAll('"', '\\"') + '"'));
+                if (tmp_w > 120) {
+                    div.style.backgroundColor = '#f19460';
+                    widthDiv.textContent = 'width=' + width + ' (ERROR B)';
+                    break;
+                }
+            }
+        } else if (width > 224) {
+            div.style.backgroundColor = '#f1948a';
+            widthDiv.textContent = 'width=' + width + ' (ERROR)';
+        }
     } else {
         div.style.backgroundColor = '#ffffff';
-        var data = JSON.parse(div.getAttribute('data'));
         var key = data['key'];
         if (data['type'] === 'SJIS string'){
             jsonData[key]['translation'] = value;
