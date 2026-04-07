@@ -3,7 +3,7 @@ tabletxt 0, "Don't have any weapons" ; "武器を持っていません"
 table 0x080BFD50 + 0, 28, 28
 tabletxt 0, "You don't have any items" ; "アイテムを持っていません"
 table 0x080BFD6C + 0, 20, 20
-tabletxt 0, "transmission OK" ; "送信完了しました"
+tabletxt 0, "Transmission OK" ; "送信完了しました"
 table 0x080BFD80 + 0, 20, 20
 tabletxt 0, "Reception OK" ; "受信完了しました"
 table 0x080BFD94 + 0, 12, 12
@@ -11,7 +11,7 @@ tabletxt 0, "Saving…" ; "セーブ中…"
 table 0x080BFDA0 + 0, 24, 24
 tabletxt 0, "[NAME 4] Activated!" ; "[NAME 4]がＯＮになりました"
 table 0x080BFDB8 + 0, 12, 12
-tabletxt 0, " Obtained!" ; "を入手！"
+tabletxt 0, " obtained!" ; "を入手！"
 table 0x080BFDC4 + 0, 16, 16
 tabletxt 0, "Begin trade?" ; "交換しますか？"
 table 0x080BFDD4 + 0, 8, 8

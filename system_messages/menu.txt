@@ -15,22 +15,22 @@ menutxtp 0x08bc9d14, "Status", 12 ; 0x080bacbc="ステータス"
 menutxtp 0x08bc9d18, ">", 4 ; 0x080bacb8="＞"
 
 ; Secondary menu
-menutxtp 0x08bc9d20, "Quests", 8 ; 0x080bad38="貴重品"
+;menutxtp 0x08bc9d20, "Quest Item", 8 ; 0x080bad38="貴重品"
 menutxtp 0x08bc9d24, "Craft Rank", 12 ; 0x080bad2c="鍛冶ランク"
 ;menutxtp 0x08bc9d28, "Techniques", 8 ; 0x080bad24="秘伝"
 ;menutxtp 0x08bc9d2c, "Special", 8 ; 0x080bad1c="必殺技"
 menutxtp 0x08bc9d30, "Effect", 12 ; 0x080bad10="特殊効果"
 menutxtp 0x08bc9d34, "Bestiary", 12 ; 0x080bad04="召喚獣事典"
-menutxtp 0x08bc9d38, "Config", 12 ; 0x080bacf8="コンフィグ"
+;menutxtp 0x08bc9d38, "Options", 12 ; 0x080bacf8="コンフィグ"
 
 ; Debug - secondary menu
-menutxtp 0x08bc9d40, "Quests", 8 ; 0x080bad38="貴重品"
+;menutxtp 0x08bc9d40, "Quest Item", 8 ; 0x080bad38="貴重品"
 menutxtp 0x08bc9d44, "Craft Rank", 12 ; 0x080bad2c="鍛冶ランク"
 ;menutxtp 0x08bc9d48, "Techniques", 8 ; 0x080bad24="秘伝"
 ;menutxtp 0x08bc9d4c, "Special", 8 ; 0x080bad1c="必殺技"
 menutxtp 0x08bc9d50, "Effect", 12 ; 0x080bad10="特殊効果"
 menutxtp 0x08bc9d54, "Bestiary", 12 ; 0x080bad04="召喚獣事典"
-menutxtp 0x08bc9d58, "Config", 12 ; 0x080bacf8="コンフィグ"
+;menutxtp 0x08bc9d58, "Options", 12 ; 0x080bacf8="コンフィグ"
 menutxtp 0x08bc9d5c, "Debug", 12 ; 0x080bad40="デバッグ"
 
 ; Debug menu
@@ -51,30 +51,30 @@ menutxtp 0x08bc9d74, "Drill", 8 ; 0x080bad54="ドリル"
 menutxtp 0x08bc9d78, "Bow", 8 ; 0x080bad4c="ボウ"
 
 ; Message on Support when not available yet.
-menutxtp 0x08bc9da4, " You have no equipment", 26 ; 0x080bae18="装備を変更できません"
+;menutxtp 0x08bc9da4, " You can't change equipment.", 26 ; 0x080bae18="装備を変更できません"
 ; Message on Item when not available yet.
-menutxtp 0x08bc9da8, " You have no items", 26 ; 0x080badfc="アイテムを持っていません"
+;menutxtp 0x08bc9da8, " You don't have any items.", 26 ; 0x080badfc="アイテムを持っていません"
 ; Magic menu.
-menutxtp 0x08bc9dac, " You have no magic", 24 ; 0x080bade4="魔法を使用できません"
+;menutxtp 0x08bc9dac, " You can't use any magic.", 24 ; 0x080bade4="魔法を使用できません"
 ; Weapons menu.
-menutxtp 0x08bc9db0, " You have no weapons", 24 ; 0x080badcc="武器を持っていません"
+;menutxtp 0x08bc9db0, " You don't have any weapons.", 24 ; 0x080badcc="武器を持っていません"
 ; Quests menu.
-menutxtp 0x08bc9db8, " You have no quest items", 30 ; 0x080bae64="貴重品を持っていません"
+;menutxtp 0x08bc9db8, " You don't have any quest items.", 30 ; 0x080bae64="貴重品を持っていません"
 
-;menutxtp 0x08bc9dc4, " You have no special attacks", 28 ; 0x080bae4c="必殺技を持っていません"
-;menutxtp 0x08bc9dc8, " You have no effects", 20 ; 0x080bae30="特殊効果を持っていません"
+;menutxtp 0x08bc9dc4, " You don't have any special attacks.", 28 ; 0x080bae4c="必殺技を持っていません"
+;menutxtp 0x08bc9dc8, " You don't have any effects", 20 ; 0x080bae30="特殊効果を持っていません"
 
 
-;menutxtp 0x08bc9dd4, " You have no techniques", 24 ; 0x080bae7c="秘伝を持っていません"
+;menutxtp 0x08bc9dd4, " You don't have any techniques", 24 ; 0x080bae7c="秘伝を持っていません"
 
 ; Item types
-menutxtp 0x08bc9dd8, "Heal.", 8 ; 0x080baeb4="回復"
-menutxtp 0x08bc9ddc, "Mat.", 8 ; 0x080baeac="素材"
-menutxtp 0x08bc9de0, "Spec.", 8 ; 0x080baea4="特殊"
-menutxtp 0x08bc9de4, "Equip.", 8 ; 0x080bacf0="装備"
-menutxtp 0x08bc9de8, "Synth.", 8 ; 0x080bae9c="合成"
-menutxtp 0x08bc9dec, "Upgr.", 8 ; 0x080bae94="強化"
-menutxtp 0x08bc9df0, "Quest", 8 ; 0x080bad38="貴重品"
+;menutxtp 0x08bc9dd8, "Recover", 8 ; 0x080baeb4="回復"
+;menutxtp 0x08bc9ddc, "Item Mat", 8 ; 0x080baeac="素材"
+;menutxtp 0x08bc9de0, "Special", 8 ; 0x080baea4="特殊"
+;menutxtp 0x08bc9de4, "Equipment", 8 ; 0x080bacf0="装備"
+;menutxtp 0x08bc9de8, "Wpn Mat", 8 ; 0x080bae9c="合成"
+;menutxtp 0x08bc9dec, "Upgrade", 8 ; 0x080bae94="強化"
+;menutxtp 0x08bc9df0, "Quest Item", 8 ; 0x080bad38="貴重品"
 
 ; These overlap with the ones at 0x08bc9d64 above, must be the same.
 menutxtp 0x08bc9df4, "Sword", 8 ; 0x080bad78="ソード"
@@ -97,11 +97,11 @@ menutxtp 0x08bc9e34, "9", 2 ; 0x080baebc="９"
 
 ; Craft Rank
 menutxtp 0x08bc9e3c, "Create", 8 ; 0x080baf1c="作製"
-menutxtp 0x08bc9e40, "Upgr.", 8 ; 0x080bae94="強化"
+;menutxtp 0x08bc9e40, "Upgrade", 8 ; 0x080bae94="強化"
 menutxtp 0x08bc9e44, "Remove", 8 ; 0x080baf14="解除" Upgrade
 menutxtp 0x08bc9e48, "Rem. Mod", 12 ; 0x080baf08="解除・改"
 menutxtp 0x08bc9e4c, "Refine", 8 ; 0x080baf00="強刃"
-menutxtp 0x08bc9e50, "Dis.", 8 ; 0x080baef8="解体"Disassemble
+;menutxtp 0x08bc9e50, "Dis...ble", 8 ; 0x080baef8="解体"Disassemble
 menutxtp 0x08bc9e54, "Dis. Mod", 12 ; 0x080baeec="解体・改"
 menutxtp 0x08bc9e58, "Repair", 8 ; 0x080baee4="修理"
 
@@ -110,14 +110,14 @@ menutxtp 0x08bc9e60, "Any", 8 ; 0x080baf34="共通"
 menutxtp 0x08bc9e64, "Battle", 8 ; 0x080baf2c="戦闘"
 menutxtp 0x08bc9e68, "Field", 8 ; 0x080baf24="マップ"
 menutxtp 0x08bc9e6c, "Attack", 8 ; 0x080baf4c="攻撃" - correct?
-menutxtp 0x08bc9e70, "Healing", 8 ; 0x080baeb4="回復"
-menutxtp 0x08bc9e74, "Assist", 8 ; 0x080baf44="補助"
+;menutxtp 0x08bc9e70, "Recover", 8 ; 0x080baeb4="回復"
+;menutxtp 0x08bc9e74, "Support", 8 ; 0x080baf44="補助"
 menutxtp 0x08bc9e78, "Swap", 8 ; 0x080baf3c="交代"
 menutxtp 0x08bc9e7c, "Swap", 8 ; 0x080baf3c="交代"
 
 ; Menu for equipment select.
-menutxtp 0x08bc9e80, "Equip", 8 ; 0x080baf5c="装　備"
-menutxtp 0x08bc9e84, "Remove", 8 ; 0x080baf54="外　す"
+;menutxtp 0x08bc9e80, "Equipment", 8 ; 0x080baf5c="装　備"
+;menutxtp 0x08bc9e84, "Unequip", 8 ; 0x080baf54="外　す"
 
 menutxtp 0x08bc9e8c, "Magic", 8 ; 0x080baf64="魔　法"
 menutxtp 0x08bc9e90, "Item", 12 ; 0x080bacd8="アイテム"
@@ -125,15 +125,15 @@ menutxtp 0x08bc9e90, "Item", 12 ; 0x080bacd8="アイテム"
 ; Support equipment select menu.
 menutxtp 0x08bc9e98, "Magic", 8 ; 0x080baf64="魔　法"
 menutxtp 0x08bc9e9c, "Item", 12 ; 0x080bacd8="アイテム"
-menutxtp 0x08bc9ea0, "Remove", 8 ; 0x080baf54="外　す"
+;menutxtp 0x08bc9ea0, "Unequip", 8 ; 0x080baf54="外　す"
 
 ; Message on equipment select.
-menutxtp 0x08bc9ea8, "Can't equip right now", 24 ; 0x080bae18="装備を変更できません"
+;menutxtp 0x08bc9ea8, "You can't change equipment", 24 ; 0x080bae18="装備を変更できません"
 
 ; Shop menu
 menutxtp 0x08bc9eac, "Buy", 8 ; 0x080baf7c="買う"
 menutxtp 0x08bc9eb0, "Sell", 8 ; 0x080baf74="売る"
-menutxtp 0x08bc9eb4, "Make", 8 ; 0x080baf6c="作る"
+menutxtp 0x08bc9eb4, "Create", 8 ; 0x080baf6c="作る"
 
 menutxtp 0x08bc9ebc, "Item", 12 ; 0x080bacd8="アイテム"
 menutxtp 0x08bc9ec0, "Weapon", 8 ; 0x080bacc8="武器"
@@ -141,31 +141,31 @@ menutxtp 0x08bc9ec0, "Weapon", 8 ; 0x080bacc8="武器"
 menutxtp 0x08bc9ec8, "Buy how many?", 20 ; 0x080baf84="いくつ買いますか？"
 menutxtp 0x08bc9ecc, "Sell how many?", 20 ; 0x080baf98="いくつ売りますか？"
 menutxtp 0x08bc9ed0, "Make how many?", 20 ; 0x080bafac="いくつ作りますか？"
-menutxtp 0x08bc9ed4, "Use how many", 20 ; 0x080bafc0="いくつにしますか？"
+menutxtp 0x08bc9ed4, "Use how many?", 20 ; 0x080bafc0="いくつにしますか？"
 ; Only when at 99…
 menutxtp 0x08bc9f10, "Toss how many?", 20 ; 0x080bb110="いくつ捨てますか？"
 
 menutxtp 0x08bc9ed8, "Sell this?", 24 ; 0x080bafd4="売ってもいいですか？"
-menutxtp 0x08bc9edc, "Equip this weapon?", 24 ; 0x080bafec="今すぐ装備しますか？"
-;menutxtp 0x08bc9ee0, "You don't have enough money", 20 ; 0x080bb004="お金が足りません"
-;menutxtp 0x08bc9ee4, "You don't have enough materials", 20 ; 0x080bb018="材料が足りません"
-menutxtp 0x08bc9ee8, "You can't carry anymore", 20 ; 0x080bb02c="これ以上持てません"
-menutxtp 0x08bc9eec, "The item has dissapeared", 28 ; 0x080bb040="売るものが無くなりました"
-;menutxtp 0x08bc9ef0, "You have nothing to sell", 24 ; 0x080bb05c="売るものがありません"
-;menutxtp 0x08bc9ef4, "You don't have enough points", 24 ; 0x080bb074="ポイントが足りません"
-menutxtp 0x08bc9ef8, "The item has dissapeared", 28 ; 0x080bb08c="アイテムがなくなりました"
-menutxtp 0x08bc9efc, "You have no weapons", 24 ; 0x080badcc="武器を持っていません"
-menutxtp 0x08bc9f00, "Weapon must be repaired first", 32 ; 0x080bb0a8="回復できません　修理が必要です"
-menutxtp 0x08bc9f04, "Item needs repairs", 32 ; 0x080bb0c8="装備できません　修理が必要です"
-menutxtp 0x08bc9f08, "Return to items", 24 ; 0x080bb0e8="アイテム一覧に戻ります"
+menutxtp 0x08bc9edc, " Equip this weapon?", 24 ; 0x080bafec="今すぐ装備しますか？"
+;menutxtp 0x08bc9ee0, " You don't have enough money.", 20 ; 0x080bb004="お金が足りません"
+;menutxtp 0x08bc9ee4, " You don't have enough materials.", 20 ; 0x080bb018="材料が足りません"
+;menutxtp 0x08bc9ee8, " You can't carry any more.", 20 ; 0x080bb02c="これ以上持てません"
+menutxtp 0x08bc9eec, " The item has disappeared.", 28 ; 0x080bb040="売るものが無くなりました"
+;menutxtp 0x08bc9ef0, " You have nothing to sell.", 24 ; 0x080bb05c="売るものがありません"
+;menutxtp 0x08bc9ef4, " You don't have enough points.", 24 ; 0x080bb074="ポイントが足りません"
+menutxtp 0x08bc9ef8, " The item has disappeared.", 28 ; 0x080bb08c="アイテムがなくなりました"
+;menutxtp 0x08bc9efc, " You don't have any weapons.", 24 ; 0x080badcc="武器を持っていません"
+;menutxtp 0x08bc9f00,  " Weapon must be repaired first.", 32 ; 0x080bb0a8="回復できません　修理が必要です"
+menutxtp 0x08bc9f04, " Item needs repairs.", 32 ; 0x080bb0c8="装備できません　修理が必要です"
+menutxtp 0x08bc9f08, " Return to items.", 24 ; 0x080bb0e8="アイテム一覧に戻ります"
 ; When using an item.
 menutxtp 0x08bc9f0c, "Use this?", 18 ; 0x080bb100="使用しますか？"
 menutxtp 0x08bc9f14, "Throw this away?", 24 ; 0x080bb124="捨ててもいいですか？"
 
-menutxtp 0x08bc9f18, "Overwrite save?", 20 ; 0x080bb13c="上書きしますか？"
-menutxtp 0x08bc9f1c, "Load this save?", 20 ; 0x080bb150="ロードしますか？"
-menutxtp 0x08bc9f20, "Save game?", 20 ; 0x080bb164="セーブしますか？"
-menutxtp 0x08bc9f24, "Delete save?", 16 ; 0x080bb178="削除しますか？"
+;menutxtp 0x08bc9f18, "Overwrite this data?", 20 ; 0x080bb13c="上書きしますか？"
+menutxtp 0x08bc9f1c, "Load this data?", 20 ; 0x080bb150="ロードしますか？"
+menutxtp 0x08bc9f20, "Save data?", 20 ; 0x080bb164="セーブしますか？"
+menutxtp 0x08bc9f24, "Delete data?", 16 ; 0x080bb178="削除しますか？"
 menutxtp 0x08bc9f28, "Initialize data?", 20 ; 0x080bb188="初期化しますか？"
 menutxtp 0x08bc9f2c, "Are you sure?", 24 ; 0x080bb19c="本当によろしいですか？"
 menutxtp 0x08bc9f30, "Reset system data?", 36 ; 0x080bb1b4="システムデータを初期化しますか？"
@@ -192,7 +192,7 @@ menutxtp 0x0806fb84, "Data written to memory.", 32 ; 0x080bb7e0="データをメ
 menutxtp 0x08bc9f78, "Create", 8 ; 0x080baf1c="作製"
 ;menutxtp 0x08bc9f7c, "Upgrade", 8 ; 0x080bae94="強化"
 menutxtp 0x08bc9f80, "Refine", 8 ; 0x080baf00="強刃"
-;menutxtp 0x08bc9f84, "Disassemble", 8 ; 0x080baef8="解体"
+;menutxtp 0x08bc9f84, "Dis...ble", 8 ; 0x080baef8="解体"
 menutxtp 0x08bc9f88, "Repair", 8 ; 0x080baee4="修理"
 
 menutxtp 0x08bc9f90, "Change", 8 ; 0x080bb2f4="変　更"
@@ -201,25 +201,25 @@ menutxtp 0x08bc9f94, "Cancel", 8 ; 0x080bb2ec="取　消"
 ;menutxtp 0x08bc9f9c, "Upgrade", 8 ; 0x080bae94="強化"
 ;menutxtp 0x08bc9fa0, "Rem. Upgrade", 12 ; 0x080bb2fc="強化解除"
 
-;menutxtp 0x08bc9fa8, "You have no materials", 20 ; 0x080bb308="材料がありません"
-menutxtp 0x08bc9fac, "You have no weapons", 24 ; 0x080badcc="武器を持っていません"
-menutxtp 0x08bc9fb0, "You have no weapons to upgrade", 32 ; 0x080bb31c="強化可能な武器を持っていません"
-menutxtp 0x08bc9fb4, "You have no weapons to refine", 32 ; 0x080bb33c="強刃可能な武器を持っていません"
+;menutxtp 0x08bc9fa8, "You don't have any materials.", 20 ; 0x080bb308="材料がありません"
+;menutxtp 0x08bc9fac, "You don't have any weapons.", 24 ; 0x080badcc="武器を持っていません"
+;menutxtp 0x08bc9fb0, "You don't have any weapons to upgrade.", 32 ; 0x080bb31c="強化可能な武器を持っていません"
+;menutxtp 0x08bc9fb4, "You don't have any weapons to refine.", 32 ; 0x080bb33c="強刃可能な武器を持っていません"
 menutxtp 0x08bc9fb8, "Disassemble?", 16 ; 0x0a80bb35c="解体しますか？"
-menutxtp 0x08bc9fbc, "Special attack", 16 ; 0x080bb36c="必殺技の選択"
+menutxtp 0x08bc9fbc, "Special Attack", 16 ; 0x080bb36c="必殺技の選択"
 menutxtp 0x08bc9fc0, "Effect", 16 ; 0x080bb37c="特殊効果の選択"
-menutxtp 0x08bc9fc4, "Your rank is too low", 28 ; 0x080bb38c="鍛冶師ランクが足りません" 
-;menutxtp 0x08bc9fc8, "This weapon is already upgraded", 20 ; 0x080bb3a8="すでに強化済みです" 
-menutxtp 0x08bc9fcc, "You have no items", 24 ; 0x080bb3bc="アイテムがありません"
-menutxtp 0x08bc9fd0, "No material has been chosen", 32 ; 0x080bb3d4="アイテムが設定されていません"
-menutxtp 0x08bc9fd4, "Your rank is too low", 28 ; 0x080bb38c="鍛冶師ランクが足りません"
-;menutxtp 0x08bc9fd8, "You have leftover points", 24 ; 0x080bb3f4="ポイントが残っています"
+menutxtp 0x08bc9fc4, "Your rank is too low.", 28 ; 0x080bb38c="鍛冶師ランクが足りません" 
+;menutxtp 0x08bc9fc8, "This weapon is already upgraded.", 20 ; 0x080bb3a8="すでに強化済みです" 
+;menutxtp 0x08bc9fcc, "You don't have any items.", 24 ; 0x080bb3bc="アイテムがありません"
+menutxtp 0x08bc9fd0, "No material has been chosen.", 32 ; 0x080bb3d4="アイテムが設定されていません"
+menutxtp 0x08bc9fd4, "Your rank is too low.", 28 ; 0x080bb38c="鍛冶師ランクが足りません"
+;menutxtp 0x08bc9fd8, "You have leftover points.", 24 ; 0x080bb3f4="ポイントが残っています"
 menutxtp 0x08bc9fdc, "Is this alright?", 20 ; 0x080bb40c="これでいいですか？"
 menutxtp 0x08bc9fe0, "255 TEC is required", 24 ; 0x080bb420="ＴＥＣが２５５必要です"
 menutxtp 0x08bc9fe4, "Each point:", 20 ; 0x080bb468="１ポイントにつき"
 menutxtp 0x08bc9fe8, "ATK + 2  DEF + 3", 24 ; 0x080bb450="ＡＴＫ＋２　ＤＥＦ＋３"
 menutxtp 0x08bc9fec, "AGL + 1  DUR + 5", 24 ; 0x080bb438="ＡＧＬ＋１　ＤＵＲ＋５"
-menutxtp 0x08bc9ff0, "[NAME 4] Rank is now [NAME 5]", 32 ; 0x080bb47c="[NAME 4]鍛冶ランクが[NAME 5]になりました"
+menutxtp 0x08bc9ff0, " [NAME 4] Rank is now [NAME 5]", 32 ; 0x080bb47c="[NAME 4]鍛冶ランクが[NAME 5]になりました"
 menutxtp 0x08bc9ff4, " ", 4 ; 0x080bb69c="　"
 menutxtp 0x08bc9ff8, " ", 4 ; 0x080bb69c="　"
 menutxtp 0x08bc9ffc, " ", 4 ; 0x080bb69c="　"
@@ -262,7 +262,7 @@ menutxtp 0x08bca080, "Yes", 6 ; 0x080bb2e4="は　い"
 menutxtp 0x08bca084, " No", 6 ; 0x080bb2dc="いいえ"
 menutxtp 0x08bca088, " obtained!", 12 ; 0x080bb6e4="を入手！"
 menutxtp 0x08bca08c, " delivered!", 16 ; 0x080bb6f0="を渡しました"
-menutxtp 0x08bca090, "You can't carry anymore", 20 ; 0x080bb02c="これ以上持てません"
+;menutxtp 0x08bca090, "You can't carry any more.", 20 ; 0x080bb02c="これ以上持てません"
 menutxtp 0x08bca094, " paid!", 16 ; 0x080bb700="を支払いました"
 
 
@@ -271,16 +271,16 @@ menutxtp 0x08bd5320, "Empty", 12 ; 0x08bd5314="からっぽ"
 
 ; Prompt when accepting name.
 menutxtp 0x08bd56a8, "\"[NAME 4]\"", 8 ; 0x08bd5678="「[NAME 4]」" 
-menutxtp 0x08bd56ac, "Are you sure?", 22 ; 0x08bd5680="　これでいいですか？"
+menutxtp 0x08bd56ac, "Is this okay?", 22 ; 0x08bd5680="　これでいいですか？"
 menutxtp 0x08bd56b0, "Yes", 6 ; 0x08bd5696="は　い"
 menutxtp 0x08bd56b4, " No", 6 ; 0x08bd569e="いいえ"
 
 ; Naming screen first prompt.
-menutxtp 0x08bd5704, "Pick a name for the hero", 32 ; 0x08bd56e4="主人公の名前を入力して下さい"
+menutxtp 0x08bd5704, "What is your name?", 32 ; 0x08bd56e4="主人公の名前を入力して下さい"
 ; Prompt for the nickname, after name.
-menutxtp 0x08bd56e0, "Pick a nickname for the hero", 32 ; 0x08bd56c0="主人公の愛称を入力して下さい"
+menutxtp 0x08bd56e0, "What is your nickname?", 32 ; 0x08bd56c0="主人公の愛称を入力して下さい"
 ; And the prompt after that.
-menutxtp 0x08bd572c, "Pick a name for the hero's partner", 36 ; 0x08bd5708="パートナーの名前を入力して下さい"
+menutxtp 0x08bd572c, "What is your partner's name?", 36 ; 0x08bd5708="パートナーの名前を入力して下さい"
 
 ; Name prompt
 menutxtp 0x08bd573c, "Name", 6 ; 0x08bd5730="名前"
