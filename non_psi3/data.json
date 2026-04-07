@@ -50047,6 +50047,43 @@
         ],
         "type": "SJIS table"
     },
+    "0x8bc9ea8": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bc9ea8"
+        },
+        "data": [
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x80bae18"
+                },
+                "length": 24,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bc9ea8"
+                    }
+                ],
+                "raw": "装備を変更できません\u0000\u0000\u0000\u0000",
+                "translation": "Can't equip this right now\u0000\u0000",
+                "type": "SJIS string"
+            }
+        ],
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x8075180"
+            },
+            {
+                "type": "Address",
+                "value": "0x8077478"
+            }
+        ],
+        "type": "SJIS table"
+    },
     "0x8bc9eac": {
         "address": {
             "type": "Address",
