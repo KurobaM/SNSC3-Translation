@@ -31275,7 +31275,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャンバスター\u0000\u0000\u0000\u0000",
-                            "translation": "Meow Buster\u0000",
+                            "translation": "Excalipurr\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -31292,7 +31292,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "いまだ決めろニャンバスター\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Now, end it, Meow Buster.\u0000",
+                            "translation": "Now, end it, Excalipurr.\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 50,
@@ -33115,7 +33115,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャックス\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Meowxe\u0000",
+                            "translation": "Cataxetrophe\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -34955,7 +34955,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャンキラー\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Meow Killer\u0000",
+                            "translation": "Nyavelin\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -34972,7 +34972,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ネコもびっくりニャンキラー\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Would scare even a cat, meow killer.\u0000",
+                            "translation": "Would scare even a cat, Nyavelin.\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 50,
@@ -36795,7 +36795,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャックル\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Meowkles\u0000",
+                            "translation": "Kitty Claws\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -38635,7 +38635,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャリル\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Meowrill\u0000",
+                            "translation": "Purrotor\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -40475,7 +40475,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ニャロウ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Meowrrow\u0000",
+                            "translation": "Pawstring Bow\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
