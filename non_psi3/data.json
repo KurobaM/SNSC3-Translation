@@ -17851,6 +17851,338 @@
         ],
         "type": "SJIS table"
     },
+    "0x8b89ff0": {
+        "address": {
+            "type": "Address",
+            "value": "0x8b89ff0"
+        },
+        "data": [
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8b89fe4"
+                },
+                "length": 4,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8b89ff0"
+                    }
+                ],
+                "raw": "　\u0000\u0000",
+                "translation": "　\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8b89fe8"
+                },
+                "length": 8,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8b89ff4"
+                    }
+                ],
+                "raw": "ガード\u0000\u0000",
+                "translation": "Guard\u0000",
+                "type": "SJIS string"
+            }
+        ],
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x803304c"
+            },
+            {
+                "type": "Address",
+                "value": "0x8033058"
+            },
+            {
+                "type": "Address",
+                "value": "0x8033098"
+            },
+            {
+                "type": "Address",
+                "value": "0x80330a8"
+            }
+        ],
+        "type": "SJIS table"
+    },
+    "0x8bbc9d0": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bbc9d0"
+        },
+        "data": [
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x80bac78"
+                },
+                "length": 4,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9d0"
+                    }
+                ],
+                "raw": "\u0000\u0000\u0000\u0000",
+                "translation": "\u0000\u0000\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc8f4"
+                },
+                "length": 22,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9d4"
+                    }
+                ],
+                "raw": "β　レベルアップ！！\u0000\u0000",
+                "translation": "β leveled up!!\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc90a"
+                },
+                "length": 22,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9d8"
+                    }
+                ],
+                "raw": "γ　レベルアップ！！\u0000\u0000",
+                "translation": "γ leveled up!!\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc920"
+                },
+                "length": 18,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9dc"
+                    }
+                ],
+                "raw": "ポイント振り分け\u0000\u0000",
+                "translation": "Assign points\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc932"
+                },
+                "length": 18,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9e0"
+                    }
+                ],
+                "raw": "ポイントを残して\u0000\u0000",
+                "translation": "Leave Skill Points\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc944"
+                },
+                "length": 16,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9e4"
+                    }
+                ],
+                "raw": "終了しますか？\u0000\u0000",
+                "translation": "unallocated?\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc954"
+                },
+                "length": 8,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9e8"
+                    }
+                ],
+                "raw": "は　い\u0000\u0000",
+                "translation": "Yes\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc95c"
+                },
+                "length": 8,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9ec"
+                    }
+                ],
+                "raw": "いいえ\u0000\u0000",
+                "translation": "No\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc964"
+                },
+                "length": 14,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9f0"
+                    }
+                ],
+                "raw": "アイテム入手\u0000\u0000",
+                "translation": "Items Gained\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc972"
+                },
+                "length": 16,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9f4"
+                    }
+                ],
+                "raw": "ε　を覚えた！\u0000\u0000",
+                "translation": "learned ε!\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc982"
+                },
+                "length": 16,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9f8"
+                    }
+                ],
+                "raw": "ζ　を覚えた！\u0000\u0000",
+                "translation": "learned ζ]!\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc992"
+                },
+                "length": 30,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbc9fc"
+                    }
+                ],
+                "raw": "さらに新しい魔法を覚えた！！\u0000\u0000",
+                "translation": "Learned more magic!\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc9b0"
+                },
+                "length": 24,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbca00"
+                    }
+                ],
+                "raw": "新しい魔法を覚えた！！\u0000\u0000",
+                "translation": "Learned new magic!\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bbc9c8"
+                },
+                "length": 8,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bbca04"
+                    }
+                ],
+                "raw": "＜ε＞\u0000\u0000",
+                "translation": "<ε>\u0000\u0000",
+                "type": "SJIS string"
+            }
+        ],
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x805d1e4"
+            },
+            {
+                "type": "Address",
+                "value": "0x805d4a4"
+            },
+            {
+                "type": "Address",
+                "value": "0x805d6b8"
+            },
+            {
+                "type": "Address",
+                "value": "0x805d938"
+            },
+            {
+                "type": "Address",
+                "value": "0x805e08c"
+            }
+        ],
+        "type": "SJIS table"
+    },
     "0x8bbca9c": {
         "address": {
             "type": "Address",
@@ -79131,6 +79463,128 @@
             {
                 "type": "Address",
                 "value": "0x80a8854"
+            }
+        ],
+        "type": "SJIS table"
+    },
+    "0x8bd5788": {
+        "address": {
+            "type": "Address",
+            "value": "0x8bd5788"
+        },
+        "data": [
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd5744"
+                },
+                "length": 14,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd5788"
+                    }
+                ],
+                "raw": "リッチバーン\u0000\u0000",
+                "translation": "Ritchburn\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd5752"
+                },
+                "length": 12,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd578c"
+                    }
+                ],
+                "raw": "リフモニカ\u0000\u0000",
+                "translation": "Rifmonica\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd575e"
+                },
+                "length": 10,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd5790"
+                    }
+                ],
+                "raw": "ランドル\u0000\u0000",
+                "translation": "RUN-DOR\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd5768"
+                },
+                "length": 8,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd5794"
+                    }
+                ],
+                "raw": "エンジ\u0000\u0000",
+                "translation": "Enzi\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd5770"
+                },
+                "length": 12,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd5798"
+                    }
+                ],
+                "raw": "キルフィス\u0000\u0000",
+                "translation": "Killfith\u0000\u0000",
+                "type": "SJIS string"
+            },
+            {
+                "address": {
+                    "type": "Address",
+                    "value": "0x8bd577c"
+                },
+                "length": 12,
+                "new address": null,
+                "pointer address": [
+                    {
+                        "type": "Address",
+                        "value": "0x8bd579c"
+                    }
+                ],
+                "raw": "ルフィール\u0000\u0000",
+                "translation": "Rufeel\u0000\u0000",
+                "type": "SJIS string"
+            }
+        ],
+        "new address": null,
+        "pointer address": [
+            {
+                "type": "Address",
+                "value": "0x80a80ec"
+            },
+            {
+                "type": "Address",
+                "value": "0x80a8128"
             }
         ],
         "type": "SJIS table"
