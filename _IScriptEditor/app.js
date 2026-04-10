@@ -379,8 +379,13 @@ async function loadChapter() {
         path: daySelector.value + '/' + chapterSelector.value,
     }).then(async response => {
         enFilename = chapterSelector.value;
+        const decoder = new TextDecoder('utf-8');
         const content = atob(response.data.content);
-        engCodeFile = content;
+        const data = new Uint8Array(content.length);
+        for (let i = 0; i < content.length; i++) {
+            data[i] = content.charCodeAt(i);
+        }
+        engCodeFile = decoder.decode(data);
         await readJPFile();
         filenameHeader.textContent = "Editing: " + enFilename;
     });
