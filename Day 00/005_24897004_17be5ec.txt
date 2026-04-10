@@ -111,7 +111,7 @@ code047b
 code0301        8, 0
 code047e        1, 1
 dialogtxt       "Ahaha! I appreciate it!"
-dialogtxt       "But it's just for this one time."
+dialogtxt       "But it's just this once, okay?"
 dialogtxt       "Keep it a secret from your master!"
 code0309        
 code047e        1, 0

@@ -57,7 +57,7 @@ code0479        0, 0, 14
 call            @Func_0cb4
 call            @Func_0bdc
 code047e        0, 1
-dialogtxt       "The first step to craft a weapon..."
+dialogtxt       "The first step when crafting a weapon..."
 dialogtxt       "You need to put the materials"
 dialogtxt       "into the furnace."
 code047b        
