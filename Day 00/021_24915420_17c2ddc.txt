@@ -10,7 +10,7 @@ code0479        1, 0, 12
 code047d        1, 120
 call            @Func_12c4
 call            @Func_11c0
-dialogtxt       "But, I already apologized..."
+dialogtxt       "But I already apologized..."
 code047b        
 code0309        
 call            @Func_1214
@@ -21,7 +21,7 @@ dialogtxt       "sincere apology to me."
 
 code0309        
 code0479        1, 0, 15
-dialogtxt       "If you think you can knock into"
+dialogtxt       "If you think you can bump into"
 dialogtxt       "me and get off the hook so easily,"
 dialogtxt       "you're dumber than you look!"
 code0309        
@@ -48,7 +48,7 @@ dialogtxt       "What are you talking about?"
 code0309        
 code0479        1, 2, 15
 code0479        0, 1, 14
-dialogtxt       "You're the one that bumped into ME!"
+dialogtxt       "You're the one who bumped into ME!"
 dialogtxt       "You really wanna get a black eye!?"
 code0309        
 call            @Func_12ee
@@ -183,7 +183,7 @@ code0309
 call            @Func_1280
 code0479        0, 5, 16
 call            @Func_11de
-dialogtxt       "\"Play\" with you? What do you...?"
+dialogtxt       "\"Play\" with you? What do you mean...?"
 code0309        
 call            @Func_1214
 code0479        1, 2, 15

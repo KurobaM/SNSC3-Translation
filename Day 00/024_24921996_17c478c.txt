@@ -934,7 +934,7 @@ call            @Func_62ce
 call            @Func_6236
 dialogtxt       "Gyahahaha!"
 dialogtxt       "I was wondering what you'd summon,"
-dialogtxt       "but ain't it just a talking kitten!"
+dialogtxt       "but it's just a talking kitten!"
 code047b        
 code0309        
 code0479        1, 0, 13
@@ -1074,8 +1074,7 @@ code0479        0, 2, 14
 code047d        0, 2
 call            @Func_62a2
 call            @Func_61ca
-dialogtxt       "Remove your slimy hand,"
-dialogtxt       "child!"
+dialogtxt       "Remove your slimy hand, child!"
 code047b        
 code0309        
 call            @Func_621e

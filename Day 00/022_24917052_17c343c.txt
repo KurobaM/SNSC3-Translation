@@ -174,8 +174,8 @@ call            @Func_154e
 code0479        1, 2, 14
 call            @Func_1584
 dialogtxt       "You little runt..."
-dialogtxt       "You're just a Stray's apprentice,"
-dialogtxt       "don't get so cocky!"
+dialogtxt       "You're just a Stray's apprentice."
+dialogtxt       "Don't get so cocky!"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 14
@@ -194,7 +194,7 @@ dialogtxt       "What did you say, you—"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "First of all, SHE ran into ME."
-dialogtxt       "And didn't even apologize, so—"
+dialogtxt       "And she didn't even apologize, so—"
 code0309        
 call            @Func_15ba
 code0479        0, 2, 12
@@ -214,7 +214,7 @@ code0309
 call            @Func_154e
 code0479        1, 2, 15
 call            @Func_1584
-dialogtxt       "Damn runt..."
+dialogtxt       "Damn brat..."
 dialogtxt       "I'll pummel you into the dirt!"
 code0309        
 call            @Func_15ba
@@ -241,7 +241,7 @@ code0479        0, 4, 16
 code047d        0, 106
 call            @Func_15d2
 call            @Func_14fa
-dialogtxt       "This is..."
+dialogtxt       "No..."
 dialogtxt       "This is all my fault..."
 code047b        
 code0309        
