@@ -765,9 +765,12 @@ function findReplace() {
     let findBox = document.createElement('textarea');
     let replaceBox = document.createElement('textarea');
     let replaceButton = document.createElement('button');
+    let findButton = document.createElement('button');
     let folderSelect = document.createElement('select');
+    let capitalSelect = document.createElement('select');
+    let filler = document.createElement('p');
     let test = document.createElement('p');
-   
+
     //Add every day folder and post game as first option to be looped over in option select
     let option = document.createElement('option');
     option.value = FindAndRepFolders;
@@ -782,11 +785,21 @@ function findReplace() {
         folderSelect.appendChild(option);
     }
 
+    option = document.createElement('option');
+    option.value = false;
+    option.innerHTML = "One to One";
+    capitalSelect.appendChild(option);
+    option = document.createElement('option');
+    option.value = true;
+    option.innerHTML = "All Types of Capitalization";
+    capitalSelect.appendChild(option);
+   
     //make labels and names for buttons
     speakerElement.textContent = "Find and Replace a Word in all txt Files";
     findLabel.textContent = "find";
     replaceLabel.textContent = "replace";
     replaceButton.textContent = "Replace All";
+    findButton.textContent = "Find All";
 
     //style choices for buttons 
     findLabel.style = "display: inline-block; margin: 0 18%; font-size: 18px;";
@@ -794,20 +807,27 @@ function findReplace() {
     findBox.style = "display: inline-block; margin: 0 4%;";
     replaceBox.style = "display: inline-block; margin: 0 4%;";
     test.style = "display: block; font-size: 16px; white-space: pre-wrap;";
+    filler.style = "display: block;";
 
     folderSelect.style = "display: inline-block; margin: 0 1%;";
-    replaceButton.style = "display: inline-block; margin: 0 1%;";
+    capitalSelect.style = "display: inline-block; margin: 0 1%;";
+    replaceButton.style = "display: inline-block; margin: 2% 1%; ";
+    findButton.style = "display: inline-block; margin: 2% 1%; ";
     
     //make sure replace button calls replaceAllWords on click and append all children to parent div
     replaceButton.addEventListener('click', replaceAllWords);
+    findButton.addEventListener('click', findAllWords);
    
     parentDiv.appendChild(speakerElement);
     parentDiv.append(findLabel);
     parentDiv.append(replaceLabel);
     parentDiv.appendChild(findBox);
     parentDiv.appendChild(replaceBox);
-    parentDiv.appendChild(replaceButton);
     parentDiv.appendChild(folderSelect);
+    parentDiv.appendChild(capitalSelect);
+    parentDiv.appendChild(filler);
+    parentDiv.appendChild(replaceButton);
+    parentDiv.appendChild(findButton);
     parentDiv.appendChild(test);    
 
     async function replaceAllWords() {
@@ -829,9 +849,9 @@ function findReplace() {
         }
 
         //puttting the textbox content into two variables for simplicty and less calls to the html
-        const findKey = findBox.value;
+        findKey = findBox.value;
         const findLen = findKey.length;
-        console.log(`findLen: ${findLen}`);        
+        console.log(`findLen: ${findLen}`);
 
         const replaceKey = replaceBox.value;
         const replaceLen = replaceKey.length;
@@ -852,14 +872,14 @@ function findReplace() {
             } else if (handle.kind === 'directory' && folderSelect.value.includes(name)) {
                 console.log(`Subfolder: ${name}`);
                 //go through every object in the folder and do an If to see if it is a text file
-                for await (const [name, subHandle] of handle) {
-                    if (subHandle.kind === 'file' && name.slice(-3) == "txt") {
+                for await (const [subName, subHandle] of handle) {
+                    if (subHandle.kind === 'file' && subName.slice(-3) == "txt") {
                         //get text file contents split them by " to isolate dialog 
                         //also create writeable object to save new file when done
                         const file = await subHandle.getFile();
                         contents = await file.text();
                         
-                        const fileHandle = await handle.getFileHandle(name, { create: true });
+                        const fileHandle = await handle.getFileHandle(subName, { create: true });
                         const writable = await fileHandle.createWritable();
 
                         dialogs = contents.split('"');
@@ -884,9 +904,16 @@ function findReplace() {
                                 console.log(`lineNameInd: ${theLine}`);
                             }
  
-                            //first search for find word in dialog (all upper case to ignore capitals)
+                            //if ignore capitals is on set line to all uppercase to ignore capitals
+                            findInd = null;
+                            getKeyInd = (startInd) => findInd = theLine.indexOf(findKey, startInd);
+                            //we have to use == true becasue all html/dom values are strings which is silly but what can ya do
+                            if (capitalSelect.value == true) {
+                                getKeyInd = (startInd) => findInd = theLine.toUpperCase().indexOf(findKey.toUpperCase(), startInd);
+                            } 
+                            //first search for find word in dialog
                             //then in the while loop fill it replaceIndexes which every index the key word has been found
-                            findInd = theLine.toUpperCase().indexOf(findKey.toUpperCase());
+                            getKeyInd(0);
                             firstCap = [];
                             replaceIndexes = [];
                             
@@ -895,22 +922,25 @@ function findReplace() {
                                 findFoundTrigger = true;
                                 replaceIndexes.push(findInd);
 
-                                //debug code here
-                                theFind = theLine.substring(findInd, findInd + findLen);
-                                console.log(`find: ${theFind} ${theLine.substring(findInd)}`);
+                                if (capitalSelect.value == true) {
+                                    theFind = theLine.substring(findInd, findInd + findLen);
+                                    //debug code here
+                                    console.log(`capitalisation analyisis: ${theFind} ${theLine.substring(findInd)}`);
 
-                                //fill firstCap with every case of captialisation we care about
-                                //all lowercase = 0, ALL CAPS = 1, Noun Capitalization = 2 
-                                //all other cases of capitilization are too complex to react to so we default to 2
-                                //(like how do u keep capitals for changing GrEaTswORd into katana?)
-                                if (theFind == theFind.toLowerCase()) {
-                                    firstCap.push(0);
-                                } else if (theFind == theFind.toUpperCase()) {
-                                    firstCap.push(1);
-                                } else {
-                                    firstCap.push(2);
+                                    //fill firstCap with every case of captialisation we care about
+                                    //all lowercase = 0, ALL CAPS = 1, Noun Capitalization = 2 
+                                    //all other cases of capitilization are too complex to react to so we default to 2
+                                    //(like how do u keep capitals for changing GrEaTswORd into katana?)
+                                
+                                    if (theFind == theFind.toLowerCase()) {
+                                        firstCap.push(0);
+                                    } else if (theFind == theFind.toUpperCase()) {
+                                        firstCap.push(1);
+                                    } else {
+                                        firstCap.push(2);
+                                    }
                                 }
-                                findInd = theLine.toUpperCase().indexOf(findKey.toUpperCase(), findInd + 1);
+                                getKeyInd(findInd + 1);
                             }
 
                             //now we insert the replace word back in we cycle inversely through replace indexes so as to 
@@ -922,15 +952,17 @@ function findReplace() {
                                 replace = replaceBox.value;
 
                                 //use pop() for captials array since we are navigating list inversely
-                                switch (firstCap.pop()) {
-                                    case 0:
-                                        replace = replace.toLowerCase();
-                                        break; 
-                                    case 1:
-                                        replace = replace.toUpperCase(); 
-                                        break;
-                                    case 2:
-                                        replace = replace.substring(0,1).toUpperCase() + replace.substring(1); 
+                                if (capitalSelect.value == true) {
+                                    switch (firstCap.pop()) {
+                                        case 0:
+                                            replace = replace.toLowerCase();
+                                            break; 
+                                        case 1:
+                                            replace = replace.toUpperCase(); 
+                                            break;
+                                        case 2:
+                                            replace = replace.substring(0,1).toUpperCase() + replace.substring(1); 
+                                    }
                                 }
 
                                 theLine = theLine.substring(0, repInd) + replace + theLine.substring(repInd + findLen);
@@ -963,7 +995,7 @@ function findReplace() {
                         }
                         //if triggers triggered list file as modified in finishing message and add warning if needed
                         if (findFoundTrigger) {
-                            finishMessage += name;
+                            finishMessage += "Folder: " + name + "   File: " + subName;
                             if (lengthWarnTrigger) {
                                 finishMessage += " Length Warning! A Line Exceeded Textbox limit here";
                             }
@@ -980,7 +1012,7 @@ function findReplace() {
                         await writable.close();
                         
                         console.log(`File: ${name}`);
-                    }                   
+                    }   
                 }
             }
         }
@@ -988,11 +1020,102 @@ function findReplace() {
         test.textContent = finishMessage;
     }
 
+    //a find function basically just replace all with the replacing functionality stripped out
+    async function findAllWords() {
+        const dirHandle = await window.showDirectoryPicker();
+
+        if (findBox.value == "") {
+            test.textContent = "The find box is empty, fill it in and try again";
+            return;
+        } else if (findBox.value.includes("[") || replaceBox.value.includes("[")){
+            test.textContent = "Your request contains [ which is used in nametag codes thus making it invalid for searches";
+            return;
+        } else if (findBox.value.includes("]") || replaceBox.value.includes("]")){
+            test.textContent = "Your request contains ] which is used in nametag codes thus making it invalid for searches";
+            return;
+        } else {
+            test.textContent = "";
+        }
+
+        findKey = findBox.value;
+        console.log(`findKey: ${findKey}`);
+        
+        test.textContent = "Loading....";
+        finishMessage = "Done\nFiles with Keyword Found:\n";
+
+        for await (const [name, handle] of dirHandle) {
+            if (handle.kind === 'file' && name.slice(-3) == "txt") {
+                const file = await handle.getFile();
+                const contents = await file.text();
+                console.log(`File: ${name}`);
+
+            } else if (handle.kind === 'directory' && folderSelect.value.includes(name)) {
+                console.log(`Subfolder: ${name}`);
+
+                for await (const [subName, subHandle] of handle) {
+                    if (subHandle.kind === 'file' && subName.slice(-3) == "txt") {
+                        const file = await subHandle.getFile();
+                        contents = await file.text();
+
+                        dialogs = contents.split('"');
+                        
+                        findFoundTrigger = false;
+                        lengthWarnTrigger = false;
+                        for (let diaIndex = 1; diaIndex < dialogs.length; diaIndex += 2) {
+                            theLine = dialogs[diaIndex];
+                            
+                            storage = [];
+                            nameInd = theLine.indexOf("[");
+                            while (nameInd !== -1) {
+                                storage.push(theLine.substring(nameInd, nameInd + 7));
+                                theLine = theLine.substring(0,nameInd) + theLine.substring(nameInd + 7);
+                                nameInd = theLine.indexOf("[", nameInd + 1);
+                                console.log(`lineNameInd: ${theLine}`);
+                            }
+ 
+                            findInd = null;
+                            getKeyInd = (startInd) => findInd = theLine.indexOf(findKey, startInd);
+                            //we have to use == true becasue all html/dom values are strings which is silly but what can ya do
+                            if (capitalSelect.value == true) {
+                                getKeyInd = (startInd) => findInd = theLine.toUpperCase().indexOf(findKey.toUpperCase(), startInd);
+                            } 
+                            getKeyInd(0);
+                            
+                            if (findInd !== -1) {
+                                findFoundTrigger = true;
+                            }
+
+                            //now we reinsert all nametags by refinding the ] characters
+                            nameInd = theLine.indexOf("]");
+
+                            while (nameInd !== -1) {
+                                theLine = theLine.substring(0, nameInd) + storage.shift() + theLine.substring(nameInd);
+                                nameInd = theLine.indexOf("]", nameInd + 8);
+                                //console.log(`lineFinalInd: ${theLine}`);
+                            }
+                            if (getStringSize(theLine) > TOTAL_SPACE) {
+                                lengthWarnTrigger = true;
+                            }
+                        }
+                        if (findFoundTrigger) {
+                            finishMessage += "Folder: " + name + "   File: " + subName;
+                            if (lengthWarnTrigger) {
+                                finishMessage += " Length Warning! A Line Exceeded Textbox limit here";
+                            }
+                            finishMessage += "\n";
+                        }
+                        console.log(`File: ${subName}`);
+                    }   
+                }
+            }
+        }
+        test.textContent = finishMessage;
+    }
+
     //actually updating the browser with the buttons and textboxes and stuff
     dFrag.appendChild(parentDiv)
     document.getElementById('content').appendChild(dFrag);
 }
-
 
 function getThatJP(text) { 
     let storedLines = [];
