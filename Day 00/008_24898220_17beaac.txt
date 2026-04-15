@@ -33,8 +33,8 @@ call            @Func_20ce
 call            @Func_2104
 code0479        1, 0, 13
 dialogtxt       "What are you doing loitering in"
-dialogtxt       "front of our workshop for,"
-dialogtxt       "you Stray's apprentice?"
+dialogtxt       "front of our workshop? Aren't you"
+dialogtxt       "that Stray's apprentice?"
 code0309        
 call            @Func_213a
 call            @Func_2098
@@ -133,8 +133,8 @@ code047d        1, 120
 call            @Func_2168
 call            @Func_2104
 dialogtxt       "You think you're better than us?"
-dialogtxt       "Let's start by beating you up, huh?"
-dialogtxt       "Pathetic little lap dog!"
+dialogtxt       "Just wait, I'll knock you out!"
+dialogtxt       "You're just a Stray's pet!"
 code0309        
 call            @Func_21d4
 call            @Func_213a
@@ -226,14 +226,14 @@ code047d        0, 120
 call            @Func_2152
 call            @Func_2098
 dialogtxt       "What're you talking about?"
-dialogtxt       "Don't you have a bone to pick with"
-dialogtxt       "them too?"
+dialogtxt       "Don't you have a bone to pick "
+dialogtxt       "with them, too?"
 code0309        
 code0479        0, 0, 13
-dialogtxt       "That's one of the Stray's buddies"
-dialogtxt       "that badly injured our master."
+dialogtxt       "They're working for the Stray that"
+dialogtxt       "seriously injured our master."
 dialogtxt       "Don't you wanna beat 'em up?"
-code0309        
+code0309		
 call            @Func_20ce
 call            @Func_2104
 code0479        1, 0, 16
@@ -437,15 +437,15 @@ code047d        0, 0
 call            @Func_2152
 call            @Func_2098
 jumpz           @Cond_15ca, ($b002 == 0)
-dialogtxt       "Oh really?"
-dialogtxt       "So that run-down face is because"
-dialogtxt       "you're not feeling well, huh?"
+dialogtxt       "Huh?"
+dialogtxt       "So that gloomy look on your face is "
+dialogtxt       "because you're not feeling well, huh?"
 goto            @Label_1616
 
 @Cond_15ca:
-dialogtxt       "So you're saying..."
-dialogtxt       "you're making suuuch a horrible face"
-dialogtxt       "because you aren't feeling well?"
+dialogtxt       "So you mean..."
+dialogtxt       "You're making that gloooomy face"
+dialogtxt       "because you're not feeling well, huh?"
 goto            @Label_1616
 
 @Label_1616:
@@ -461,14 +461,14 @@ code047d        1, 131
 call            @Func_2168
 call            @Func_2104
 dialogtxt       "What was that!?"
-dialogtxt       "... Wait, aren't you tht Stray's"
+dialogtxt       "... Wait, aren't you that Stray's"
 dialogtxt       "apprentice!?"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogtxt       "What rights do you have to"
+dialogtxt       "What right do you have to"
 dialogtxt       "insult Lemmy like that?"
-dialogtxt       "You wanna taste my fists!?"
+dialogtxt       "You wanna taste my fist!?"
 code0309        
 call            @Func_213a
 call            @Func_2098
@@ -514,7 +514,7 @@ call            @Func_2168
 call            @Func_20e6
 code0479        1, 5, 12
 dialogtxt       "Aahh!"
-dialogtxt       "Wait up, Lemmyyy!!!"
+dialogtxt       "Lemmyyyyy, wait up!!!"
 code047b        
 code0309        
 call            @Func_21be

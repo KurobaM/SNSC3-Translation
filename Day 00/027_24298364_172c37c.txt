@@ -251,11 +251,11 @@ ret
 code0301        8, 7
 code047d        0, 126
 code047e        0, 1
-dialogtxt       "Instead of relying on something"
-dialogtxt       "as outlandish like a Summon Beast,"
-dialogtxt       "believing in your own strength"
+dialogtxt       "Trusting in your own abilities,"
+dialogtxt       "instead of relying on something as"
+dialogtxt       "enigmatic as a Summon Beast..."
 code0309        
-dialogtxt       "is what makes us human, isn't it?"
+dialogtxt       "That's true strength, isn't it?"
 goto            @Label_0ae2
 
 @Label_0ae2:

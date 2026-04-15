@@ -350,7 +350,7 @@ call            @Func_25a4
 code0479        1, 0, 12
 call            @Func_25da
 dialogtxt       "Hah, that's impossible anyway!"
-dialogtxt       "That one's a Stray!"
+dialogtxt       "They're a Stray!"
 code0309        
 call            @Func_26aa
 call            @Func_25f8
@@ -361,7 +361,7 @@ code047d        0, 0
 call            @Func_2628
 call            @Func_2550
 jumpz           @Cond_1176, ($b002 == 0)
-dialogtxt       "You bastard..."
+dialogtxt       "Shit..."
 goto            @Label_1184
 
 @Cond_1176:

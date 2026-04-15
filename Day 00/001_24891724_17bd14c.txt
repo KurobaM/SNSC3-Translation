@@ -367,9 +367,9 @@ code0479        1, 4, 12
 call            @Func_3a48
 call            @Func_39e4
 dialogtxt       "I was wondering when you'd come"
-dialogtxt       "home from training today..."
+dialogtxt       "home from training today."
 code0309	
-dialogtxt       "But to think I'd find you lazing"
+dialogtxt       "To think I'd find you lazing"
 dialogtxt       "around at your favorite spot..."
 code047b        
 code0309        
@@ -703,7 +703,7 @@ call            @Func_39ae
 call            @Func_39e4
 code0479        1, 1, 12
 dialogtxt       "Is that so? I'm impressed!"
-dialogtxt       "Or, at least I would be, if you"
+dialogtxt       "Or at least, I would be, if you"
 dialogtxt       "hadn't been dozing off..."
 code0309        
 call            @Func_3a1a
@@ -719,10 +719,10 @@ code0309
 call            @Func_39ae
 call            @Func_39e4
 code0479        1, 4, 14
-dialogtxt       "It's because of that mindset"
-dialogtxt       "that despite all this time,"
-dialogtxt       "you're still an amateur!"
-code0309        
+dialogtxt       "That mindset is exactly why"
+dialogtxt       "you're still an amateur,"
+dialogtxt       "even after all this time!"
+code0309		
 call            @Func_3ab4
 call            @Func_3a02
 code047b        
@@ -842,8 +842,7 @@ dialogtxt       "Sweet! You're the best!"
 goto            @Label_2e62
 
 @Cond_2e24:
-dialogtxt       "A Weapon Shapestone!"
-dialogtxt       "Wow!"
+dialogtxt       "A Weapon Shapestone! Wow!"
 dialogtxt       "You're the best Master ever!"
 goto            @Label_2e62
 
@@ -860,10 +859,10 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        1, 0, 13
-dialogtxt       "But, I'm not so charitable to just"
-dialogtxt       "put a silver spoon in your mouth."
-dialogtxt       "Look for the rest by yourself."
-code0309        
+dialogtxt       "You'll have to find the rest of the"
+dialogtxt       "yourself, though. I'm not gonna just"
+dialogtxt       "give you everything for free."
+code0309		
 call            @Func_3a1a
 call            @Func_3978
 code0479        0, 2, 12
@@ -875,8 +874,8 @@ call            @Func_39ae
 call            @Func_39e4
 code0479        1, 0, 15
 dialogtxt       "Be careful. If something happened"
-dialogtxt       "to you, I'd have no excuse to tell"
-dialogtxt       "your parents."
+dialogtxt       "to you, I have no clue how I'd"
+dialogtxt       "apologize to your parents."
 code0309        
 call            @Func_3a1a
 call            @Func_3978

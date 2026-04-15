@@ -177,7 +177,7 @@ jumpz           @Cond_0c38, ($b003 == 1)
 code0479        0, 4, 16
 call            @Func_2ef8
 dialogtxt       "Unbelievable... To think I would"
-dialogtxt       "lose to a child like this... If only"
+dialogtxt       "lose to a child like this. If only"
 dialogtxt       "my youkai powers had returned..."
 code0309        
 call            @Func_301e
@@ -197,11 +197,11 @@ code043c        3, 2
 code0479        0, 2, 14
 call            @Func_2ef8
 dialogtxt       "Certainly..."
-dialogtxt       "There is no way I would break"
-dialogtxt       "an oath made on my topknot, but..."
+dialogtxt       "I could never break a vow"
+dialogtxt       "sworn on my topknot, but..."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "This is truly regrettable..."
+dialogtxt       "This is truly regrettable."
 code0309        
 call            @Func_301e
 call            @Func_2f2e
@@ -260,8 +260,7 @@ dialogtxt       "Therefore, I can protect Murno!"
 dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "Got it?"
-dialogtxt       "[NAME 1]!"
+dialogtxt       "Got it, [NAME 1]?"
 goto            @Label_0b8a
 
 @Cond_0afc:
@@ -270,8 +269,7 @@ dialogtxt       "meaning I can protect Murno."
 dialogtxt       "So now you have to help me craft!"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "Understood?"
-dialogtxt       "[NAME 1]!"
+dialogtxt       "Understood, [NAME 1]?"
 goto            @Label_0b8a
 
 @Label_0b8a:
@@ -700,7 +698,7 @@ call            @Func_2f2e
 code0479        1, 2, 17
 call            @Func_2f64
 dialogtxt       "Shut up!"
-dialogtxt       "[NAME 1] is your pal, no..."
+dialogtxt       "[NAME 1] is your pal. No..."
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 13

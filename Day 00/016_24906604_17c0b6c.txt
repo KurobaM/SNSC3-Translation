@@ -34,12 +34,12 @@ code0479        1, 2, 14
 call            @Func_110c
 jumpz           @Cond_01e8, ($b002 == 0)
 dialogtxt       "Don't worry!"
-dialogtxt       "I'll get that beast for this!"
+dialogtxt       "I'll get that Beast for this!"
 goto            @Label_0206
 
 @Cond_01e8:
 dialogtxt       "No...!"
-dialogtxt       "That beast!"
+dialogtxt       "That Beast!"
 goto            @Label_0206
 
 @Label_0206:

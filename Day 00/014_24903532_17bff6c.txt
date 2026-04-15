@@ -7,13 +7,13 @@ code047d        1, 108
 call            @Func_106a
 call            @Func_0fd2
 dialogtxt       "Rocking out loud, are we?"
-dialogtxt       "You're really starting to catch"
+dialogtxt       "You're really starting to roll to"
 dialogtxt       "the rhythm of your soul too, huh?"
 code047b        
 code0309        
 code0479        1, 1, 12
-dialogtxt       "But you've still got a ways before"
-dialogtxt       "you really start rock 'n' rollin'!"
+dialogtxt       "Of course, nobody can bang out a "
+dialogtxt       "Knife-Edge like Cozy. It's not possible."
 code0309        
 call            @Func_1026
 code0479        0, 0, 16

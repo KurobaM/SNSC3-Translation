@@ -280,15 +280,16 @@ code043c        2, 4
 code0479        1, 0, 14
 call            @Func_2c36
 dialogtxt       "The summoning wasn't complete."
-dialogtxt       "That's why your power is..."
+dialogtxt       "That's why your power is weak."
 code047b        
 code0309        
 call            @Func_2c6c
 code043c        1, 2
 code0479        1, 4, 16
 call            @Func_2ca2
-dialogtxt       "Murno, to think I would end up"
-dialogtxt       "exposing this pitiful form..."
+dialogtxt       "But still, winding up in"
+dialogtxt       "this pitiful form... "
+dialogtxt       "I feel so exposed, Murno."
 code0309        
 call            @Func_2d5c
 call            @Func_2cd8

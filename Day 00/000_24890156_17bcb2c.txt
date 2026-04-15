@@ -44,9 +44,9 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_1064
 call            @Func_1000
-dialogtxt       "You've done well with enduring the"
-dialogtxt       "training I've given you for this"
-dialogtxt       "long. I'm impressed."
+dialogtxt       "You've done well enduring my"
+dialogtxt       "training for this long. "
+dialogtxt       "I'm impressed."
 code047b        
 code0309        
 call            @Func_1036
@@ -105,7 +105,7 @@ code0479        1, 0, 13
 code047d        1, 108
 call            @Func_1064
 call            @Func_0fe2
-dialogtxt       "Heh, heh..."
+dialogtxt       "Heh heh..."
 dialogtxt       "Not a bad hammer, I must say."
 dialogtxt       "Your soul shines within it..."
 code047b        
@@ -117,12 +117,11 @@ code047d        0, 0
 call            @Func_104e
 call            @Func_0f94
 jumpz           @Cond_0600, ($b002 == 0)
-dialogtxt       "Thank you!"
+dialogtxt       "Of course!"
 goto            @Label_0618
 
 @Cond_0600:
-dialogtxt       "You could've praised it"
-dialogtxt       "a bit more!"
+dialogtxt       "Of course!"
 goto            @Label_0618
 
 @Label_0618:
@@ -131,7 +130,7 @@ code0309
 call            @Func_0fca
 call            @Func_1000
 code0479        1, 2, 15
-dialogtxt       "To a Craftknight, their hammer is..."
+dialogtxt       "To a Craftknight, a hammer is..."
 code0309        
 call            @Func_1036
 code043b        2

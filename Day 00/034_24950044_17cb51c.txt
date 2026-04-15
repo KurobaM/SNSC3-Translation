@@ -166,9 +166,9 @@ call            @Func_32de
 code0479        0, 2, 14
 code0479        1, 0, 12
 call            @Func_3314
-dialogtxt       "You Were Overheating Due"
-dialogtxt       "To Developmental Fever, I See."
-code0309        
+dialogtxt       "Perhaps Your Growth As A Person"
+dialogtxt       "Has Prompted A Sudden Fever."
+code0309		
 call            @Func_334a
 code0479        0, 0, 14
 call            @Func_32a8

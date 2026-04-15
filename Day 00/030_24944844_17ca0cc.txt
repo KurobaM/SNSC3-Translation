@@ -37,7 +37,7 @@ dialogtxt       "I can't do any serious work myself!"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 13
-dialogtxt       "We need to get [NAME 1]"
+dialogtxt       "We'd better get [NAME 1]"
 dialogtxt       "up to speed as soon as possible."
 dialogtxt       "We need the money coming in!"
 code0309        
@@ -64,9 +64,9 @@ code0479        0, 4, 12
 code047d        0, 2
 call            @Func_1dfe
 call            @Func_1d44
-dialogtxt       "Right..."
-dialogtxt       "Some kind of grave financial"
-dialogtxt       "situation, it seems..."
+dialogtxt       "I see..."
+dialogtxt       "It must be a grave "
+dialogtxt       "financial situation, then..."
 code0309        
 call            @Func_1d7a
 goto            @Cond_037e
@@ -151,11 +151,11 @@ call            @Func_1d7a
 code0479        1, 2, 14
 call            @Func_1db0
 dialogtxt       "Ahh, and also, in order to make"
-dialogtxt       "effective weapons, you two getting"
-dialogtxt       "along is essential."
+dialogtxt       "effective weapons, it's essential"
+dialogtxt       "that you two learn to get along."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "That's why, from today onwards"
+dialogtxt       "That's why, from today onwards,"
 dialogtxt       "you two will be living together"
 dialogtxt       "in the workshop."
 code0309        
@@ -468,9 +468,9 @@ call            @Func_1d7a
 code043c        2, 2
 code0479        1, 2, 15
 call            @Func_1db0
-dialogtxt       "Well then, the both of you"
-dialogtxt       "gather in the workshop!"
-dialogtxt       "Quickly now!"
+dialogtxt       "Well then, we'll meet in the"
+dialogtxt       "workshop. Right away!"
+dialogtxt       "Chop chop!"
 code0309        
 call            @Func_1e80
 call            @Func_1dce
@@ -556,7 +556,7 @@ goto            @Cond_1730
 @Cond_1730:
 jumpz           @Cond_1760, ($b003 == 2)
 dialogtxt       "Tsk..."
-dialogtxt       "Well I guess I have to..."
+dialogtxt       "Well I guess I have to."
 goto            @Cond_1760
 
 @Cond_1760:
