@@ -253,7 +253,7 @@ code047d        0, 126
 code047e        0, 1
 dialogtxt       "Trusting in your own abilities,"
 dialogtxt       "instead of relying on something as"
-dialogtxt       "outlandish as a Summon Beast..."
+dialogtxt       "enigmatic as a Summon Beast..."
 code0309        
 dialogtxt       "That's true strength, isn't it?"
 goto            @Label_0ae2
