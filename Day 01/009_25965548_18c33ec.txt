@@ -148,11 +148,12 @@ code0309
 code037c        $h232
 dialogtxt       "I know, why don't you make me one?"
 dialogtxt       "I've been thinking about getting"
-dialogtxt       "a [NAME 4],"
+dialogtxt       "a [NAME 4]..."
 
 code0309        
 code037c        $h233
-dialogtxt       "but it seems I need [NAME 4]."
+dialogtxt       "But it seems I need some"
+dialogtxt       "[NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7
