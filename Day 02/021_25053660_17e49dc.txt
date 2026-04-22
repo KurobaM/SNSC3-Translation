@@ -285,7 +285,7 @@ dialogtxt       "I am... the Invincible Jade!"
 code0309        
 code0479        1, 0, 13
 dialogtxt       "And I threw away the part of"
-dialogtxt       "myself which you called \"Bro\"!"
+dialogtxt       "myself which you called \"bro\"!"
 code0309        
 call            @Func_2464
 code0479        0, 0, 14
@@ -336,7 +336,7 @@ goto            @Cond_0d94
 
 @Cond_0d94:
 jumpz           @Cond_0ddc, ($b003 == 1)
-dialogtxt       "So, this \"Bro\"..."
+dialogtxt       "So, this \"bro\"..."
 dialogtxt       "He is not an enemy?"
 goto            @Cond_0ddc
 
@@ -348,7 +348,7 @@ goto            @Cond_0e1e
 
 @Cond_0e1e:
 jumpz           @Cond_0e7c, ($b003 == 3)
-dialogtxt       "T—This man is your Bro?"
+dialogtxt       "T—This man is your bro?"
 dialogtxt       "I was sure he was a villian!"
 goto            @Cond_0e7c
 
@@ -421,7 +421,7 @@ code0479        0, 0, 12
 call            @Func_23c2
 dialogtxt       "I guess that's true..."
 dialogtxt       "But, believe me! He's a good guy."
-dialogtxt       "Right, Bro?"
+dialogtxt       "Right, bro?"
 code0309        
 call            @Func_24e8
 call            @Func_23f8

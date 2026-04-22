@@ -140,7 +140,7 @@ call            @Func_0f3e
 code0333        2, 20
 code0479        1, 1, 12
 call            @Func_0f74
-dialogtxt       "Thanks Bro. I appreciate it."
+dialogtxt       "Thanks bro. I appreciate it."
 code0309        
 call            @Func_0faa
 code0334        
@@ -177,14 +177,14 @@ code0309
 call            @Func_0f3e
 code0479        1, 0, 12
 call            @Func_0f74
-dialogtxt       "Thanks Bro."
+dialogtxt       "Thanks bro."
 code0309        
 call            @Func_0faa
 code0479        0, 0, 13
 call            @Func_0f08
 dialogtxt       "Don't mention it."
 dialogtxt       "But seriously,"
-dialogtxt       "stop calling me \"Bro\"!"
+dialogtxt       "stop calling me \"bro!\""
 code0309        
 call            @Func_0f3e
 code0479        1, 1, 12

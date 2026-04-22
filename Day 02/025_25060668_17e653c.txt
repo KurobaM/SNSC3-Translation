@@ -10,7 +10,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_1fdc
 call            @Func_1f04
-dialogtxt       "Hey Bro,"
+dialogtxt       "Hey bro,"
 dialogtxt       "Murno said you..."
 code047b        
 code0309        

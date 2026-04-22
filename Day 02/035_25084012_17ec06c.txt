@@ -1046,7 +1046,7 @@ call            @Func_3b72
 code0479        0, 1, 13
 call            @Func_3ad0
 dialogtxt       "Alright!"
-dialogtxt       "Just I'd expect from you Bro!"
+dialogtxt       "Just I'd expect from you bro!"
 dialogtxt       "You're awesome!"
 code0309        
 call            @Func_3be0

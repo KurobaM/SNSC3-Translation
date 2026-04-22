@@ -57,7 +57,7 @@ dialogtxt       "isn't going to change anything."
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 16
-dialogtxt       "And why are you here, Bro?"
+dialogtxt       "And why are you here, bro?"
 code0309        
 call            @Func_10ae
 code0479        1, 0, 16
@@ -69,7 +69,7 @@ code0309
 code0479        0, 1, 16
 code0479        1, 2, 12
 dialogtxt       "... Hey!"
-dialogtxt       "I told you not to call me Bro!"
+dialogtxt       "I told you not to call me \"bro!\""
 code0309        
 call            @Func_111a
 code0479        1, 0, 12
