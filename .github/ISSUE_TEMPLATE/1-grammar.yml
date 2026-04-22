@@ -24,7 +24,7 @@ body:
       description: Which version of the patch were you using (including the date)?
     validations:
       required: true
-        - type: dropdown
+  - type: dropdown
     id: gender
     attributes:
       label: Player Gender
