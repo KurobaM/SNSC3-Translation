@@ -123,8 +123,8 @@ call            @Func_0d84
 code0479        1, 1, 13
 call            @Func_0dba
 dialogtxt       "Heh."
-dialogtxt       "I can tell you're"
-dialogtxt       "growing by the day."
+dialogtxt       "I can tell you're growing by"
+dialogtxt       "the day."
 code0309        
 code0479        0, 0, 12
 code0479        1, 2, 12
