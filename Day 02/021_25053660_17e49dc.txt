@@ -349,7 +349,7 @@ goto            @Cond_0e1e
 @Cond_0e1e:
 jumpz           @Cond_0e7c, ($b003 == 3)
 dialogtxt       "T—This man is your bro?"
-dialogtxt       "I was sure he was a villian!"
+dialogtxt       "I was sure he was a villain!"
 goto            @Cond_0e7c
 
 @Cond_0e7c:

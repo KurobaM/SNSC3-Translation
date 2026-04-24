@@ -90,7 +90,7 @@ call            @Func_1732
 jumpz           @Cond_0390, ($bv019 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Heheh..."
+dialogtxt       "Heh heh..."
 dialogtxt       "Sweet victory."
 code0309        
 code047e        0, 0
