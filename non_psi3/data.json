@@ -41944,7 +41944,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　ダメージの数％を体力に吸収\u0000\u0000\u0000\u0000",
-                            "translation": "Absorbs HP from DMG for a while\u0000",
+                            "translation": "Absorbs HP from DMG dealt for a while\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -41990,7 +41990,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一定時間　魔法ダメージを激減\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Lowers magic damage for a while\u0000",
+                            "translation": "Reduce magic damage for a while\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 24,
@@ -45410,7 +45410,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＤＵＲにダメージを与える\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Damages only the enemy's weapon\u0000",
+                            "translation": "Damages the enemy's weapon\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47358,7 +47358,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 1HP every ~4 secs\u0000",
+                            "translation": "Recover 1HP every 4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47404,7 +47404,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを５回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 5HP every ~4 secs\u0000",
+                            "translation": "Recover 5HP every 4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47450,7 +47450,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＨＰを１０回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 10HP every ~4 secs\u0000",
+                            "translation": "Recover 10HP every 4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47496,7 +47496,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約８秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 1 DUR every ~8 secs\u0000",
+                            "translation": "Recover 1 DUR every 8 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47542,7 +47542,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約４秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 1 DUR every ~4 secs\u0000",
+                            "translation": "Recover 1 DUR every 4 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47588,7 +47588,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "約２秒ごとにＤＵＲを１回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Recover 1 DUR every ~2 secs\u0000",
+                            "translation": "Recover 1 DUR every 2 secs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47772,7 +47772,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が５％上がる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Raises chances to get items to ~5%\u0000",
+                            "translation": "Raises chances to get items by 5%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47818,7 +47818,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が１０％上がる\u0000\u0000\u0000\u0000",
-                            "translation": "Raises chances to get items to ~10%\u0000",
+                            "translation": "Raises chances to get items by 10%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -47864,7 +47864,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘時のアイテム入手率が１５％上がる\u0000\u0000\u0000\u0000",
-                            "translation": "Raises chances to get items to ~15%\u0000",
+                            "translation": "Raises chances to get items by 15%\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
@@ -48002,7 +48002,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "空中で下ボタン＋Ａボタンで下突き攻撃\u0000\u0000\u0000\u0000",
-                            "translation": "In mid-air, Down+ A to attack below\u0000",
+                            "translation": "In mid-air, Down + A to attack below\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 28,
