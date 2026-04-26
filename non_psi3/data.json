@@ -5354,7 +5354,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "小さくても硬く　重い武器の攻撃が　有効になる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Small and dense;　heavy weapons　may be effective\u0000",
+                            "translation": "Small and dense;　heavy weapons 　may be effective\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -5538,7 +5538,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "催眠音波による　ネムリ効果攻撃が　要注意\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Watch out for　sleep-inducing　hypno waves\u0000",
+                            "translation": "Watch out for 　sleep-inducing　hypno waves\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -5630,7 +5630,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても硬いが　金属の体は　サビに弱い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Has a hard,　metallic body;　weak to rust\u0000",
+                            "translation": "Has a hard, 　metallic body;　weak to rust\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -5676,7 +5676,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎の攻撃を持ち　炎の耐性もあるが　水には弱い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Has an affinity　for fire and is　weak to water\u0000",
+                            "translation": "Skilled with　fire and is 　weak to water\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -5768,7 +5768,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "空中高く移動し　攻撃がなかなか　与えられない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Hard to hit　when it flies 　up in the air\u0000",
+                            "translation": "Hard to hit 　when it flies 　up in the air\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -5906,7 +5906,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "肉弾戦が得意で　接近した攻撃を　しかけてくる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Prefers close　ranged combat　and rushes foes\u0000",
+                            "translation": "Prefers close 　ranged combat 　and rushes foes\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6044,7 +6044,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "カッター部分は　摩擦熱を考慮した　最新パーツを使用\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Cutting edge 　tech reduces　its friction\u0000",
+                            "translation": "Cutting edge　tech reduces its　friction\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6136,7 +6136,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "飛行能力が高く　滑空攻撃などの　素早い攻撃もある\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A skilled flyer　with a deadly　diving attack\u0000",
+                            "translation": "Skilled flyer 　with a deadly 　diving attack\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6228,7 +6228,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "遠距離から正確な　射撃攻撃が得意で　装甲も硬い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Uses ranged　attacks; is　heavily armored\u0000",
+                            "translation": "Uses ranged 　attacks; is 　heavily armored\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6504,7 +6504,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "バルカン攻撃と　投下型の爆弾を　持ち合わせている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Attacks using　its gatling gun　and drops bombs\u0000",
+                            "translation": "Attacks using 　its guns and　drops bombs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6550,7 +6550,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "良く噛みつく事で　この名前が　つけられた\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "An apt name for　a flying dog\u0000",
+                            "translation": "An apt name 　for a flying　dog\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6596,7 +6596,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "大きなハサミで　勢いよく突進する　力任せなヤツ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Attacks boldly;　fully reliant　in its pincers\u0000",
+                            "translation": "Fearless, and 　fully reliant 　in its pincers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6642,7 +6642,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "大きな足の一撃と　ドクガスを吐く　クモの妖怪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A spider with　killer kicks　and poison gas\u0000",
+                            "translation": "A spider with 　killer kicks　and poison gas\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6734,7 +6734,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ジャンプのために　軽量化されたため　強度が低い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Weight reduced　to maximize　jumping ability\u0000",
+                            "translation": "Weight reduced　to maximize 　jumping ability\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6872,7 +6872,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かつては暗殺集団　として活躍した　経歴を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Was once an 　acclaimed　assassin\u0000",
+                            "translation": "Was once an 　acclaimed 　assassin\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -6918,7 +6918,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "普段はじっとして　獲物の接近を　待っているタイプ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Silently stalks　its prey\u0000",
+                            "translation": "Quietly stalks　its prey\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -7010,7 +7010,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "どう猛な性格で　特に黒い色には　過剰に反応する\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Dark colors　make them more　irate than usual\u0000",
+                            "translation": "Dark colors 　make them more　irate than usual\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8252,7 +8252,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "全身に鎧をまとい　両手の剣で攻撃を　繰り出す\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Wields swords in　both hands;　heavily armored\u0000",
+                            "translation": "Wields swords in　both hands; 　heavily armored\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8390,7 +8390,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "全身を高温な　マグマで形成し　炎に耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its body was　forged by　extreme heat\u0000",
+                            "translation": "Its body was　forged by 　extreme heat\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8436,7 +8436,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器をはじき返す　硬い体と炎の　強力な攻撃を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its tough body　resists weapons　and fire\u0000",
+                            "translation": "Its tough body　blocks weapons　and fire\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8482,7 +8482,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "その弾丸保有数は　トップクラスの　ものと言われる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Posseses a near　endless supply　of ammunition\u0000",
+                            "translation": "Posseses an 　endless supply　of ammunition\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8620,7 +8620,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "手らしき形状を　していることに　特に意味は無い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Coincidentally　shaped like a　hand\u0000",
+                            "translation": "Coincidentally　shaped like a 　hand\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8666,7 +8666,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "大きなハサミは　体重の７割を　占めるらしい\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its large claws 　make up 70% of 　its body weight\u0000",
+                            "translation": "Its claws make　up 70% of 　its body weight\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8896,7 +8896,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "体をキリで包み　攻撃を吸収する\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its fog-clad　body can absorb　attacks\u0000",
+                            "translation": "Its fog-clad　body can ward 　off attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -8942,7 +8942,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "全身が煙りの塊で　受けるダメージを　軽減してしまう\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its smoke can　ward off　most attacks\u0000",
+                            "translation": "Its smoke can 　ward off　most attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -9310,7 +9310,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "大きな頭に電気を　溜めて放電させ　攻撃をしかける\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Attacks using　electricity　from its head\u0000",
+                            "translation": "Attacks using 　electricity 　from its head\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -9356,7 +9356,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "背中の太鼓を叩き　雷を呼び寄せる　妖術を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Calls forth　lightning by　beating a drum\u0000",
+                            "translation": "Calls forth 　lightning by　beating a drum\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -9448,7 +9448,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "怪力の持ち主だが　口からもビームを　吐いて攻撃する\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Stronger than　any human; it　can fire beams\u0000",
+                            "translation": "Stronger than 　any human; it 　can fire beams\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -9816,7 +9816,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "食事の後は自前の　糸で歯間を掃除し　歯には自信あり\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Flosses teeth　with its string　after meals\u0000",
+                            "translation": "Flosses teeth 　with string 　after meals\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10092,7 +10092,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "意外に沈まない　体質のため碇を　持つようになった\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Unable to　submerge itself;　carries an anchor\u0000",
+                            "translation": "Unable to 　submerge itself;　carries an anchor\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10276,7 +10276,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "身は固くてとても　刺身では頂けない　気がする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its meat is　too tough for　good sashimi\u0000",
+                            "translation": "Its meat is 　too tough for 　good sashimi\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10322,7 +10322,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "子狐に見えるが　実は数百年　生きた化け狐\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A monster fox;　hundreds of　years old\u0000",
+                            "translation": "A monster fox;　hundreds of 　years old\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10414,7 +10414,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "本体は実は　火の塊の部分　とも言われている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Has a flaming　sphere at its　core\u0000",
+                            "translation": "Has a flaming 　sphere at its 　core\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10460,7 +10460,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "身にまとった鎧は　自ら脱げない　呪いがある\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Cursed armor;　unremoveable by　normal means\u0000",
+                            "translation": "Cursed armor; 　unremoveable by 　normal means\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10644,7 +10644,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "特に黒い色には　意味は無いと　言う人もいる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its dark scales　don't reflect its　personality\u0000",
+                            "translation": "Some say it's 　not that dark\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10782,7 +10782,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "天候の変化に　とても敏感だが　特に何もしない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Perceptive to　changes in the　weather\u0000",
+                            "translation": "Perceptive to 　changes in the　weather\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -10874,7 +10874,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "時代に流されない　彼らは変化を　受け入れない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "They are not　swayed by the　times\u0000",
+                            "translation": "They are not　swayed by the 　times\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
@@ -11012,7 +11012,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ジャンプ時には　妖術を使って高く　跳べる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Has magically　enhanced jumps\u0000",
+                            "translation": "Has magically 　enhanced jumps\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 64,
