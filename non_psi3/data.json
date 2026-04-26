@@ -18001,7 +18001,7 @@
                     }
                 ],
                 "raw": "ポイントを残して\u0000\u0000",
-                "translation": "Leave Skill Points\u0000\u0000",
+                "translation": "Leave skill points\u0000\u0000",
                 "type": "SJIS string"
             },
             {
@@ -18222,7 +18222,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "傷口にはるとＨＰを少し回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Put on wound to regain a little HP.\u0000",
+                            "translation": "Put on wound to regain a little HP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18268,7 +18268,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "飲むことでＨＰを少し多く回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Drinking it restores a little more HP.\u0000",
+                            "translation": "Drinking it restores a little more HP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18314,7 +18314,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "美味しく飲めてＨＰを回復\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Delicious drink that restores HP.\u0000",
+                            "translation": "Delicious drink that restores HP\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18360,7 +18360,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "柔らかくとろける食感がたまらない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Exquisitely soft, melts in your mouth.\u0000",
+                            "translation": "Exquisitely soft, melts in your mouth\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18406,7 +18406,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "美味しくて何杯でもいけそう\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "So delicious you could eat forever.\u0000",
+                            "translation": "So delicious you could eat forever\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18452,7 +18452,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "その辛い刺激が食欲を増進させる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "It's spicy taste boosts your appetite.\u0000",
+                            "translation": "It's spicy taste boosts your appetite\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18498,7 +18498,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＨＰを大量回復でき戦闘不能からも復活\u0000\u0000\u0000\u0000",
-                            "translation": "Recovers all HP when reduced to 0.\u0000",
+                            "translation": "Recover all HP; even when reduced to 0\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18544,7 +18544,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器の軽い手入れが可能でＤＵＲ回復\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Can restore a weapon's DUR slightly.\u0000",
+                            "translation": "Can restore a weapon's DUR slightly\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18590,7 +18590,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器の仕上げに使えてＤＵＲを大幅回復\u0000\u0000\u0000\u0000",
-                            "translation": "Can restore a weapon's DUR greatly.\u0000",
+                            "translation": "Can restore a weapon's DUR greatly\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18636,7 +18636,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "どんな武器でも新品同然にＤＵＲ回復\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Can restore a weapon's DUR completely.\u0000",
+                            "translation": "Can restore a weapon's DUR completely\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18682,7 +18682,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "淡い思い出と共に現状をセーブできる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Allows you to save the game anywhere.\u0000",
+                            "translation": "Allows you to save the game anywhere\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18728,7 +18728,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ダンジョン内から設定場所へ脱出できる\u0000\u0000\u0000\u0000",
-                            "translation": "Allows you to return from the dungeon.\u0000",
+                            "translation": "Return from the dungeon\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18774,7 +18774,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "しばらく敵と出会いにくく孤独になれる\u0000\u0000\u0000\u0000",
-                            "translation": "Wards off enemies for a while.\u0000",
+                            "translation": "Wards off enemies for a while\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18820,7 +18820,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "敵からの人気度が増し出会いやすくなる\u0000\u0000\u0000\u0000",
-                            "translation": "Attracts enemies.\u0000",
+                            "translation": "Attracts enemies\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18866,7 +18866,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ちょっと酸っぱいが良い香りの果物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Somewhat sour, but smells nice.\u0000",
+                            "translation": "Somewhat sour, but smells nice\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18912,7 +18912,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "コリコリした食感を楽しめる果物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fruit with an enjoyable crunch.\u0000",
+                            "translation": "Fruit with an enjoyable crunch\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -18958,7 +18958,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても甘く美味しいが薬の原料になる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Very sweet fruit with medical uses.\u0000",
+                            "translation": "Very sweet fruit with medical uses\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19004,7 +19004,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "べとべとと粘りけのある樹液\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Jar of gooey sap.\u0000",
+                            "translation": "Jar of gooey sap\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19050,7 +19050,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "熟れすぎて不味くなった木の実\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fruit too ripe to be tasty.\u0000",
+                            "translation": "Fruit too ripe to be tasty\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19096,7 +19096,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "柔らかくきめの細かい石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tender, fine-grained stone.\u0000",
+                            "translation": "Tender, fine-grained stone\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19142,7 +19142,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器の修理にも用いられる石の破片\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Stone fragment used to repair weapons.\u0000",
+                            "translation": "Stone fragment used to repair weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19188,7 +19188,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何処にでも生えているただの葉\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Common leaf that grows everywhere.\u0000",
+                            "translation": "Common leaf that grows everywhere\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19234,7 +19234,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても柔らかく薬の原料にもなる草\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Very soft grass with medical uses.\u0000",
+                            "translation": "Very soft grass with medical uses\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19280,7 +19280,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "丈夫な紙で本の材料として用いられる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Durable paper used to make books.\u0000",
+                            "translation": "Durable paper used to make books\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19326,7 +19326,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "手で持ちやすい手頃な小枝\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Handy twig that can be held easily.\u0000",
+                            "translation": "Handy twig that can be held easily\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19355,7 +19355,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "きれいな布\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Clean Paper\u0000",
+                            "translation": "Clean Cloth\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -19372,7 +19372,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "清潔感あふれる真っ白な布\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Extremely clean pure white cloth.\u0000",
+                            "translation": "Extremely clean pure white cloth\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19418,7 +19418,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "臭いは強烈だが体には良さそう\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Stinky, but very healthy.\u0000",
+                            "translation": "Stinky, but very healthy\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19510,7 +19510,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "柔らかく加工しやすい毛皮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Soft, easy to work with.\u0000",
+                            "translation": "Soft, easy to work with\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19556,7 +19556,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "少し硬めで加工は困難だが丈夫な毛皮\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tough, difficult to work with.\u0000",
+                            "translation": "Tough, difficult to work with\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19602,7 +19602,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "色つやも良くとても上等な毛皮\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Brilliant piece of quality fur.\u0000",
+                            "translation": "Brilliant piece of quality fur\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19631,7 +19631,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "激辛スパイス\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Hot Curry Spice\u0000",
+                            "translation": "Extreme Spice\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -19648,7 +19648,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中身は不明だがとても刺激臭がする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Unknown contents. Has a pungent smell.\u0000",
+                            "translation": "Unknown contents; has a pungent smell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19694,7 +19694,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "白い粒がたくさん入った不思議な食材\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Also contains lots of white flour.\u0000",
+                            "translation": "A bag containing strange white grains\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19740,7 +19740,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "透明度も高く栄養を多く含んだ天然の水\u0000\u0000\u0000\u0000",
-                            "translation": "Clear and nutritious spring water.\u0000",
+                            "translation": "Clear and nutritious spring water\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19786,7 +19786,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何の卵だか不明だがよく見かける卵\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Commonly found, unknown species.\u0000",
+                            "translation": "Commonly found, unknown species\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19832,7 +19832,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "少し色の違うきれいな卵\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Beautiful egg of different coloration.\u0000",
+                            "translation": "Beautiful egg of different coloration\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19878,7 +19878,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "釣りのエサだが食べる人もいたらしい\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fish bait, though some people eat it.\u0000",
+                            "translation": "Fish bait, though some people eat it\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19924,7 +19924,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "釣りで良く使われる芋で作られたダンゴ\u0000\u0000\u0000\u0000",
-                            "translation": "Potato buns, often used for fishing.\u0000",
+                            "translation": "Potato buns, often used for fishing\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -19970,7 +19970,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "食べても美味しいが釣りのエサでもある\u0000\u0000\u0000\u0000",
-                            "translation": "It's delicious but it's also fish bait.\u0000",
+                            "translation": "It's delicious but it's also fish bait\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20016,7 +20016,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても高級でもったいない釣りのエサ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Too high-class to be used as fish bait.\u0000",
+                            "translation": "Too high-class to be used as fish bait\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20062,7 +20062,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "滅多に取れない貴重な釣りエサ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Very valuable and hard to get bait.\u0000",
+                            "translation": "Very valuable and hard to get bait\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20108,7 +20108,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げて小ダメージを与える\u0000\u0000\u0000\u0000",
-                            "translation": "Deals little damage.\u0000",
+                            "translation": "Deals little damage\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20154,7 +20154,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げて中ダメージを与える\u0000\u0000\u0000\u0000",
-                            "translation": "Deals medium damage.\u0000",
+                            "translation": "Deals medium damage\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20200,7 +20200,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げて大ダメージを与える\u0000\u0000\u0000\u0000",
-                            "translation": "Deals a lot of damage.\u0000",
+                            "translation": "Deals a lot of damage\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20246,7 +20246,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げてドク状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Causes poison to enemies.\u0000",
+                            "translation": "Throw to inflict poison\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20292,7 +20292,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げてマヒ状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Causes paralysis to enemies.\u0000",
+                            "translation": "Throw to inflict paralysis\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20338,7 +20338,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げてネムリ状態にする\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Causes sleep to enemies.\u0000",
+                            "translation": "Throw to inflict sleep\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20384,7 +20384,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦闘で相手に投げてサビ状態にする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Rusts enemies weapons.\u0000",
+                            "translation": "Throw to inflict rust\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20430,7 +20430,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "集めると福引きが出来ると書いてある\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Needed to participate in the lottery.\u0000",
+                            "translation": "Needed to participate in the lottery\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20522,7 +20522,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "練習にも最適で加工がしやすい\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Easy to craft and perfect for training.\u0000",
+                            "translation": "Easy to craft and perfect for training\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20568,7 +20568,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "なぜか細身の武器が作りたくなる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Makes you craft only slender weapons.\u0000",
+                            "translation": "Makes you want to craft slender weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20614,7 +20614,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "普通よりは硬めの鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Ore that looks harder than usual.\u0000",
+                            "translation": "Ore that looks harder than usual\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20660,7 +20660,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "なんとなく頼りになりそうな鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Ore that seems somewhat reliable.\u0000",
+                            "translation": "Ore that seems somewhat reliable\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20706,7 +20706,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても大きく大味な武器が作れそう\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Makes very huge and refined weapons.\u0000",
+                            "translation": "Makes very huge and refined weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20752,7 +20752,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "叩くととても良い音がする\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Makes a good sound when hammered on.\u0000",
+                            "translation": "Makes a good sound when hammered on\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20798,7 +20798,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "軽くて軽量化には最適な素材\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Most suitable to make light weapons.\u0000",
+                            "translation": "Most suitable to make light weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20844,7 +20844,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "少し加工しづらいが良質な鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "High quality, a bit hard to work with.\u0000",
+                            "translation": "High quality, a bit hard to work with\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20890,7 +20890,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "すごく大きな鉄鉱石のかたまり\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Very large clump of Iron Ore.\u0000",
+                            "translation": "Very large clump of Iron Ore\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20936,7 +20936,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "重く加工しづらい鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Heavy ore, difficult to craft with.\u0000",
+                            "translation": "Heavy ore, difficult to craft with\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -20982,7 +20982,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "加工の瞬間に自然の息吹を感じる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Lets you feel nature's embrace.\u0000",
+                            "translation": "Lets you feel nature's embrace\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21028,7 +21028,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "高価な装飾によく使われている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Often used in valuable decorations.\u0000",
+                            "translation": "Often used in valuable decorations\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21074,7 +21074,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "その見た目から女性に好まれる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Loved by women due to its appearance.\u0000",
+                            "translation": "Loved by women due to its appearance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21120,7 +21120,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "良質な甲殻が化石化されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fossil of a high quality shell.\u0000",
+                            "translation": "Fossil of a high quality shell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21166,7 +21166,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真っ黒な鉱石で割った中身も真っ黒\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A pitch-black ore. Inside and out!\u0000",
+                            "translation": "A pitch-black ore, inside and out!\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21212,7 +21212,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "不思議な模様に輝く幻の一品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "It shines with a mysterious pattern.\u0000",
+                            "translation": "It shines with a mysterious pattern\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21258,7 +21258,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ありふれた石だが秘められた効果は高い\u0000\u0000\u0000\u0000",
-                            "translation": "Plain stone with hidden effectiveness.\u0000",
+                            "translation": "Plain stone with hidden effectiveness\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21304,7 +21304,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "古来より儀式用の武器作製に用いられた\u0000\u0000\u0000\u0000",
-                            "translation": "Used in ceremonies since ancient times.\u0000",
+                            "translation": "Used in ceremonies since ancient times\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21350,7 +21350,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "加工しづらいが強力な武器が作れる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Makes strong weapons. Hard to process.\u0000",
+                            "translation": "Makes strong weapons; hard to process\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21396,7 +21396,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "割れやすい性質を持ち加工は困難\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fragile, hard to work with.\u0000",
+                            "translation": "Fragile, hard to work with\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21442,7 +21442,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "伝説の調理武具の材料と言われている\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Core of legendary cuisine arms.\u0000",
+                            "translation": "Core of legendary cuisine arms\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21488,7 +21488,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "柔軟性があり割れにくいのが特徴\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Flexibility and unbreakness.\u0000",
+                            "translation": "Flexibility yet extremely durable\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21534,7 +21534,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かなり熟練しないと扱えない素材\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Needs a lot of skill to handle it.\u0000",
+                            "translation": "Needs a lot of skill to handle it\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21580,7 +21580,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "鉱石の中に何か蛇のような模様が見える\u0000\u0000\u0000\u0000",
-                            "translation": "Have a puzzling snake-like pattern.\u0000",
+                            "translation": "Have a puzzling snake-like pattern\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21626,7 +21626,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "希少な鉱石で滅多に入手できない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Rare ore, very hard to come by.\u0000",
+                            "translation": "Rare ore; very hard to come by\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21672,7 +21672,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "熟練した鍛冶師の試験などに使われる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Used to test skilled craftknights.\u0000",
+                            "translation": "Used to test skilled craftknights\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21718,7 +21718,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "古い良質な木で出来ているが硬度は高い\u0000\u0000\u0000\u0000",
-                            "translation": "Very hard, fine quality old wood.\u0000",
+                            "translation": "Very hard, fine quality old wood\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21764,7 +21764,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "硬質な特性から武器破壊の武器が作れる\u0000\u0000\u0000\u0000",
-                            "translation": "Used to make good weapon-breaking arms.\u0000",
+                            "translation": "Used to make good weapon-breaking arms\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21793,7 +21793,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ユウビス鉱石\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Yuubisu Ore\u0000",
+                            "translation": "Yubis Ore\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -21810,7 +21810,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "見た目の優美さからこの名前がついた\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Named after its refined appearance.\u0000",
+                            "translation": "Named after its refined appearance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21856,7 +21856,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "宝石のような輝きを持つ石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Stone with brilliance similar to a gem.\u0000",
+                            "translation": "Stone with brilliance similar to a gem\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21902,7 +21902,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "荒々しいケダモノの気迫を感じる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Have the presence of a wild spirit.\u0000",
+                            "translation": "Have the presence of a wild spirit\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21948,7 +21948,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "通常に採掘できる鉱石の中では最も貴重\u0000\u0000\u0000\u0000",
-                            "translation": "Most valuable mined ore.\u0000",
+                            "translation": "Most valuable mined ore\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -21994,7 +21994,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "硬く加工が困難なため扱えない者も多い\u0000\u0000\u0000\u0000",
-                            "translation": "Many struggle with its toughness.\u0000",
+                            "translation": "Many struggle with its toughness\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22040,7 +22040,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "自然の英知が秘められた鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Hold the wisdom of nature inside.\u0000",
+                            "translation": "Hold the wisdom of nature inside\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22086,7 +22086,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "暗殺用の武具の作製に用いられる鉱石\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Used in assassination tools.\u0000",
+                            "translation": "Used in assassination tools\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22132,7 +22132,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "石というには柔らかく手触りが最高\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its soft feel is said to be supreme.\u0000",
+                            "translation": "Its soft feel is said to be supreme\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22178,7 +22178,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何やら機械の部品のようにも見える\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Looks like some kind of machine parts.\u0000",
+                            "translation": "Looks like some kind of machine part\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22224,7 +22224,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "一流といわれる鍛冶師にしか扱えない\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Only used by first class craftknights.\u0000",
+                            "translation": "Only used by first class craftknights\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22270,7 +22270,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "邪悪な気配を感じる鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Have wicked aura surrounding it.\u0000",
+                            "translation": "Have wicked aura surrounding it\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22316,7 +22316,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "中に光が見える不思議な鉱石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A mysterious light can be seen within.\u0000",
+                            "translation": "A mysterious light can be seen within\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22822,7 +22822,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "びりびりと時折放電する不思議な箱\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Occasionally emits electric shocks.\u0000",
+                            "translation": "Occasionally emits electric shocks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22868,7 +22868,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "激しい雷が描かれた護符\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Charm depicting a furious lightning.\u0000",
+                            "translation": "Charm depicting a furious lightning\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22914,7 +22914,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "雷の力を秘めた結晶の欠片\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fragment filled with lightning power.\u0000",
+                            "translation": "Fragment filled with lightning power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -22960,7 +22960,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "雷の力が凝縮された不思議な結晶\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Crystal full of lightning power.\u0000",
+                            "translation": "Crystal full of lightning power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23006,7 +23006,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "裏には発火注意と書いてある\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Label: \"Flammable\" is on the back.\u0000\u0000",
+                            "translation": "\"Warning: Flammable\" is written on the back\u0000\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23052,7 +23052,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "力強い炎が描かれた護符\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Charm depicting scorching flames.\u0000",
+                            "translation": "Charm depicting scorching flames\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23098,7 +23098,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎の力を秘めた結晶の欠片\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fragment filled with fire power.\u0000",
+                            "translation": "Fragment filled with fire power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23144,7 +23144,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "炎の力が凝縮された不思議な結晶\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Crystal full of fire power.\u0000",
+                            "translation": "Crystal full of fire power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23190,7 +23190,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "きれいな水が詰まったタンク\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Tank filled with sparkling clean water.\u0000",
+                            "translation": "Tank filled with sparkling clean water\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23236,7 +23236,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "勢いのある水が描かれた護符\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Charm depicting a strong water stream.\u0000",
+                            "translation": "Charm depicting a strong water stream\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23282,7 +23282,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "水の力を秘めた結晶の欠片\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fragment filled with water power.\u0000",
+                            "translation": "Fragment filled with water power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23328,7 +23328,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "水の力が凝縮された不思議な結晶\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Crystal full of water power.\u0000",
+                            "translation": "Crystal full of water power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23374,7 +23374,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "常に風を出し続ける変わった機械\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Odd mechanism that blows wind non-stop.\u0000",
+                            "translation": "Odd mechanism that blows wind non-stop\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23420,7 +23420,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "豪快な風が描かれた護符\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Charm depicting a lively breeze.\u0000",
+                            "translation": "Charm depicting a lively breeze\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23466,7 +23466,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "風の力を秘めた結晶の欠片\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fragment filled with wind power.\u0000",
+                            "translation": "Fragment filled with wind power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23512,7 +23512,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "風の力が凝縮された不思議な結晶\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Crystal full of wind power.\u0000",
+                            "translation": "Crystal full of wind power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23558,7 +23558,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "逆光だがものすごい光を放つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Fires a bright light.\u0000",
+                            "translation": "Fires a bright light\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23604,7 +23604,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "高貴な光が描かれた護符\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Charm depicting a radiant light.\u0000",
+                            "translation": "Charm depicting a radiant light\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23650,7 +23650,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "赤い液体を吸い上げる為の物らしい\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Seemingly effective to suck red liquid.\u0000",
+                            "translation": "Seemingly effective to suck red liquid\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23696,7 +23696,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "光が苦手なあの方が愛用した一品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "A favorite of those who dislike light.\u0000",
+                            "translation": "A favorite of those who dislike light\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23742,7 +23742,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "すごく回すための物だが用途は不明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Spinable, its purpose is unclear.\u0000",
+                            "translation": "Spinnable, its purpose is unclear\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23788,7 +23788,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "想像を超える速さに驚かされる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its speed is unimaginably fast.\u0000",
+                            "translation": "Its speed is unimaginably fast\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23880,7 +23880,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "なんだか幸せを感じる四つ葉\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Somehow makes you feel more lucky.\u0000",
+                            "translation": "Somehow makes you feel more lucky\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -23972,7 +23972,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "門外不出の極意が記された巻物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Containing the secret techniques.\u0000",
+                            "translation": "Contains the secret techniques\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24018,7 +24018,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "あらゆる体術が記された巻物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Containing all kinds of martial art.\u0000",
+                            "translation": "Contains all kinds of martial arts\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24064,7 +24064,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "体を鍛える方法が記された書物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Containing methods to temper the body.\u0000",
+                            "translation": "Contains methods to temper the body\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24110,7 +24110,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "分け与える事だけが目的の機械らしい\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its only purpose is to dispense things.\u0000",
+                            "translation": "A device skilled in equalizing things\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24156,7 +24156,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "このスイッチは押すべきではない\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Don't press it under any circumstances!\u0000",
+                            "translation": "Don't press it under any circumstance!\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24202,7 +24202,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "触るとマヒしてしまう危険な鉄の粉\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Numbs your body on touch.\u0000",
+                            "translation": "Numbs your body on touch\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24248,7 +24248,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "どうして出来たのか猛毒を含んだ鉄くず\u0000\u0000\u0000\u0000",
-                            "translation": "Contains a deadly poison.\u0000",
+                            "translation": "Contains a deadly poison\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24294,7 +24294,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "不眠症も解消しそうだが常用は危険\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Cures insomnia. Not for regular use.\u0000",
+                            "translation": "Cures insomnia; not for regular use\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24340,7 +24340,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器がサビる厄介な代物だが…\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Dangerous dust that corrodes weapons.\u0000",
+                            "translation": "Dangerous dust that corrodes weapons\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24386,7 +24386,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真の怪力と認められた者の証\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Mark of a person's superhuman strength.\u0000",
+                            "translation": "Mark of a person's superhuman strength\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24432,7 +24432,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "強靱な体と認められた者の証\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Mark of a person's tenacious body.\u0000",
+                            "translation": "Mark of a person's tenacious body\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24478,7 +24478,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "誰からも達人と認められた者の証\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Mark of a person's expertise.\u0000",
+                            "translation": "Mark of a person's expert skill\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24524,7 +24524,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "その跳ね方はすでに伝説となった一品\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Its jump ability has become legendary.\u0000",
+                            "translation": "Its springiness is legendary\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24570,7 +24570,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "真実が見通せる眼鏡と言うが真相は不明\u0000\u0000\u0000\u0000",
-                            "translation": "Rumored to reveal any truth.\u0000",
+                            "translation": "Rumored to reveal any truth\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24616,7 +24616,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武術にまつわる色々な事が記されている\u0000\u0000\u0000\u0000",
-                            "translation": "Contains stuff related to martial arts.\u0000",
+                            "translation": "Contains stuff related to martial arts\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24662,7 +24662,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても運が良くなる気がします\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Makes you high-spirited and very lucky.\u0000",
+                            "translation": "Makes you high-spirited and very lucky\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24708,7 +24708,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "足つぼを刺激してとても気持ちが良い\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Stimulates your feet and feels great.\u0000",
+                            "translation": "Stimulates your feet and feels great\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24754,7 +24754,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "踏めば踏むほどに健康が満ちてくる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Step on it and it becomes healthier.\u0000",
+                            "translation": "Stepping on it makes you feel healthier\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24800,7 +24800,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "とても使い込まれた砥石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Whetstone that has been used a lot.\u0000",
+                            "translation": "Whetstone that has been used a lot\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24892,7 +24892,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何でも突き通す伝説級の鉄串\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Can pierces anything.\u0000",
+                            "translation": "Can pierce anything\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24938,7 +24938,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "決死の覚悟で書かれた内容は重すぎる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Written in preparation for death.\u0000",
+                            "translation": "Its contents are far too heavy\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -24984,7 +24984,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ものすごいパワーを秘めた機械\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Possesses incredible power.\u0000",
+                            "translation": "Possesses incredible power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25122,7 +25122,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "飾りの無い素朴な指輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Plain ring without any decorations.\u0000",
+                            "translation": "Plain ring without any decorations\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25168,7 +25168,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "旅人に良く使われている指輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Often used by skilled travelers.\u0000",
+                            "translation": "Often used by skilled travelers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25214,7 +25214,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かなりの強度をもつ指輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Holds a fair amount of strength.\u0000",
+                            "translation": "Holds a fair amount of strength\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25260,7 +25260,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "鋭い刃先のような形状が攻撃力も高める\u0000\u0000\u0000\u0000",
-                            "translation": "Boosts strength. Have sharp edge shape.\u0000",
+                            "translation": "Boosts strength; has sharp edges\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25306,7 +25306,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かつて探検家に愛用されたと言われる品\u0000\u0000\u0000\u0000",
-                            "translation": "Used to be worn by explorers.\u0000",
+                            "translation": "Used to be worn by explorers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25352,7 +25352,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "複雑に重なり合ったパーツが特徴的\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Having complex overlapping parts.\u0000",
+                            "translation": "Has intricate overlapping parts\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25398,7 +25398,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何処にでもありそうだが効果は高い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Expensive, though its found anywhere.\u0000",
+                            "translation": "Expensive, though it's found anywhere\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25444,7 +25444,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "攻守ともに優れた幻の一品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Excels in both attack and defense.\u0000",
+                            "translation": "Excels in both attack and defense\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25473,7 +25473,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "セレブリング\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Celeb Ring\u0000",
+                            "translation": "Ornate Ring\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -25490,7 +25490,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "造形に優れ見た目から高価さを感じる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Worthy due to its refined appearance.\u0000",
+                            "translation": "An expensive, well-crafted ring\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25536,7 +25536,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "優れた性能と優美な外見を兼ね備える\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "High performance, elegant appearance.\u0000",
+                            "translation": "High performance, elegant appearance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25582,7 +25582,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ずば抜けた性能と実績をもつ一級品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "1st Class item, unrivaled potential.\u0000",
+                            "translation": "Top class item, unrivaled potential\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25628,7 +25628,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "飾りの無い素朴な腕輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Plain armlet without any decorations.\u0000",
+                            "translation": "Plain armlet without any decorations\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25674,7 +25674,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "旅人に良く使われている腕輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Often used by skilled travelers.\u0000",
+                            "translation": "Often used by skilled travelers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25720,7 +25720,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かなりの強度をもつ腕輪\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Holds a fair amount of strength.\u0000",
+                            "translation": "Holds a fair amount of strength\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25766,7 +25766,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "鋭い刃先のような形状が攻撃力も高める\u0000\u0000\u0000\u0000",
-                            "translation": "Boosts strength. Have sharp edge shape.\u0000",
+                            "translation": "Boosts strength; has sharp edges\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25812,7 +25812,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かつて探検家に愛用されたと言われる品\u0000\u0000\u0000\u0000",
-                            "translation": "Used to be worn by explorers.\u0000",
+                            "translation": "Used to be worn by explorers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25858,7 +25858,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "複雑に重なり合ったパーツが特徴的\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Having complex overlapping parts.\u0000",
+                            "translation": "Has intricate overlapping parts\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25904,7 +25904,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何処にでもありそうだが効果は高い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Expensive, though its found anywhere.\u0000",
+                            "translation": "Expensive, though it's found anywhere\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25950,7 +25950,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "攻守ともに優れた幻の一品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Excels in both attack and defense.\u0000",
+                            "translation": "Excels in both attack and defense\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -25979,7 +25979,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "セレブブレス\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Celeb Bracelet\u0000",
+                            "translation": "Ornate Bracelet\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -25996,7 +25996,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "造形に優れ見た目から高価さを感じる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Worthy due to its refined appearance.\u0000",
+                            "translation": "An expensive, well-crafted bracelet\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26042,7 +26042,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "優れた性能と優美な外見を兼ね備える\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "High performance, elegant appearance.\u0000",
+                            "translation": "High performance, elegant appearance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26088,7 +26088,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ずば抜けた性能と実績をもつ一級品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "1st Class item, unrivaled potential.\u0000",
+                            "translation": "Top class item, unrivaled potential\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26134,7 +26134,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "飾りの無い素朴なブーツ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Plain boots without any decorations.\u0000",
+                            "translation": "Plain boots without any decorations\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26180,7 +26180,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "旅人に良く使われているブーツ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Often used by skilled travelers.\u0000",
+                            "translation": "Often used by skilled travelers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26226,7 +26226,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かなりの強度をもつブーツ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Holds a fair amount of strength.\u0000",
+                            "translation": "Holds a fair amount of strength\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26272,7 +26272,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "鋭い刃先のような形状が攻撃力も高める\u0000\u0000\u0000\u0000",
-                            "translation": "Boosts strength. Have sharp edge shape.\u0000",
+                            "translation": "Boosts strength; has sharp edges\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26318,7 +26318,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "かつて探検家に愛用されたと言われる品\u0000\u0000\u0000\u0000",
-                            "translation": "Used to be worn by explorers.\u0000",
+                            "translation": "Used to be worn by explorers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26364,7 +26364,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "複雑に重なり合ったパーツが特徴的\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Haiving complex overlapping parts.\u0000",
+                            "translation": "Has intricate overlapping parts\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26410,7 +26410,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何処にでもありそうだが効果は高い\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Expensive, though its found anywhere.\u0000",
+                            "translation": "Expensive, though it's found anywhere\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26456,7 +26456,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "攻守ともに優れた幻の一品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Excels in both attack and defense.\u0000",
+                            "translation": "Excels in both attack and defense\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26485,7 +26485,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "セレブヒール\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Celeb Boots\u0000",
+                            "translation": "Ornate Boots\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -26502,7 +26502,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "造形に優れ見た目から高価さを感じる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Worthy due to its refined appearance.\u0000",
+                            "translation": "Expensive, well-crafted boots\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26548,7 +26548,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "優れた性能と優美な外見を兼ね備える\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "High performance, elegant appearance.\u0000",
+                            "translation": "High performance, elegant appearance\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26594,7 +26594,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ずば抜けた性能と実績をもつ一級品\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "1st Class item, unrivaled potential.\u0000",
+                            "translation": "Top class item, unrivaled potential\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26640,7 +26640,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "戦う気持ちが高ぶり逃げることを忘れる\u0000\u0000\u0000\u0000",
-                            "translation": "Boosts battle senses. Harder to escape.\u0000",
+                            "translation": "Boosts battle senses; harder to escape\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26686,7 +26686,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "恐怖と重圧が逃げる効果を高める\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Boosts fear. Easier to run away.\u0000",
+                            "translation": "Boosts fear; easier to run away\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26732,7 +26732,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "友人との気持ちのつながりが高まる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Raises partner's connection a bit.\u0000",
+                            "translation": "Raises partner's connection a bit\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26778,7 +26778,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "心のつながりが高まりうち解けられる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Moderately raises partner's connection.\u0000",
+                            "translation": "Moderately raises partner's connection\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26807,7 +26807,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "長期保証の指輪\u0000\u0000\u0000\u0000",
-                            "translation": "Long stay Ring\u0000",
+                            "translation": "Long Stay Ring\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -26824,7 +26824,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "もはや友情は最高潮になる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Greatly raises partner's connection.\u0000",
+                            "translation": "Greatly raises partner's connection\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26870,7 +26870,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "友の素早さを高める\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Increases partner's speed.\u0000",
+                            "translation": "Increases partner's speed\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26916,7 +26916,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "友の防御力を高める\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Increases partner's defense power.\u0000",
+                            "translation": "Increases partner's defense power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -26962,7 +26962,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "友の攻撃力を高める\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Increases partner's attack power.\u0000",
+                            "translation": "Increases partner's attack power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27008,7 +27008,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "武器能力を高め必殺の消費をおさえる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Lowers DUR cost for special attacks.\u0000",
+                            "translation": "Lowers DUR cost for special attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27054,7 +27054,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "魔力が満ちあふれ魔法攻撃力が高まる\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Raises power of equipped magic attacks.\u0000",
+                            "translation": "Raises power of equipped magic attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27100,7 +27100,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "マヒに対して激しく耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Grants resistance to paralysis.\u0000",
+                            "translation": "Grants resistance to paralysis\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27146,7 +27146,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ネムリに対して激しく耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Grants resistance to sleep.\u0000",
+                            "translation": "Grants resistance to sleep\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27192,7 +27192,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ドクに対して激しく耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Grants resistance to poison.\u0000",
+                            "translation": "Grants resistance to poison\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27238,7 +27238,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "サビに対して激しく耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Grants resistance to rust attacks.\u0000",
+                            "translation": "Grants resistance to rust attacks\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27376,7 +27376,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "魔法が効きにくく、全ての耐性を持つ\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Grants resistance to every magic spell.\u0000",
+                            "translation": "Grants resistance to every magic spell\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27422,7 +27422,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "安物だがそれなりに釣れる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Cheap, but it still catches fish.\u0000",
+                            "translation": "Cheap, but it still catches fish\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27468,7 +27468,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "高級な素材を使用した高価な釣り具\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Expensive and made of fine materials.\u0000",
+                            "translation": "Expensive and made of fine materials\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27514,7 +27514,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "伝説の釣り師が愛用した業物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Beloved weapon of a legendary fisher.\u0000",
+                            "translation": "A masterpiece used by legendary anglers\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27606,7 +27606,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "謎の石で用途は不明\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Mysterious stone with unclear purpose.\u0000",
+                            "translation": "Mysterious stone with unclear purpose\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27652,7 +27652,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "γを呼び出した召喚石\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "You can summon γ with this.\u0000",
+                            "translation": "You can summon γ with this\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27698,7 +27698,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "裏福引き屋へ入ることが許される\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Entry for the lottery's shady room.\u0000",
+                            "translation": "Entry for the lottery's shady room\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -27744,7 +27744,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "迷いネコのようだが飼い主がいるらしい\u0000\u0000\u0000\u0000",
-                            "translation": "Scared kitty that ran away from home.\u0000",
+                            "translation": "Scared kitty that ran away from home\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28112,7 +28112,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "セレブスピアを作って下さい\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Craft a Celebrity Spear for me, please!\u0000",
+                            "translation": "Craft an Ornate Spear for me, please!\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28480,7 +28480,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "親方に修理を依頼された武器\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Weapons asked to be repaired by Chief.\u0000",
+                            "translation": "Weapons asked to be repaired by Chief\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28526,7 +28526,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "アクスタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft axes.\u0000",
+                            "translation": "Contains techniques to craft axes\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28572,7 +28572,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ナックルタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft knuckles.\u0000",
+                            "translation": "Contains techniques to craft knuckles\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28618,7 +28618,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ソードタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft swords.\u0000",
+                            "translation": "Contains techniques to craft swords\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28664,7 +28664,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ボウタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft bows.\u0000",
+                            "translation": "Contains techniques to craft bows\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28710,7 +28710,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "スピアタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft spears.\u0000",
+                            "translation": "Contains techniques to craft spears\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28756,7 +28756,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "鍛冶の極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain Craftknights' best secrets.\u0000",
+                            "translation": "Contains Craftknights' best secrets\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28802,7 +28802,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ドリルタイプの極意が記されている\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Contain techniques to craft drills.\u0000",
+                            "translation": "Contains techniques to craft drills\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28848,7 +28848,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何か声が聞こえる不思議な機械\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Strange machine. Lets you hear voices.\u0000",
+                            "translation": "Strange machine; lets you hear voices\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28877,7 +28877,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "幻龍鬼のウロコ\u0000\u0000\u0000\u0000",
-                            "translation": "Scale\u0000",
+                            "translation": "Genryuuki's Scale\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 0,
@@ -28894,7 +28894,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "幻龍鬼の力を感じるウロコ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Feel the Genryuuki's power.\u0000",
+                            "translation": "Feel the Genryuuki's power\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28940,7 +28940,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "大戦に参加と書かれたチケット\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Join the great war is written on it.\u0000",
+                            "translation": "Join the great war is written on it\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -28986,7 +28986,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "何か巨大なモノの観戦ができる\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Let you watch something big.\u0000",
+                            "translation": "Let you watch something big\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29032,7 +29032,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＥＸ１と書かれた参加申込書\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Allows to participate in EX 1.\u0000",
+                            "translation": "Allows to participate in EX 1\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29078,7 +29078,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ＥＸ２と書かれた参加申込書\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Allows to participate in EX 2.\u0000",
+                            "translation": "Allows to participate in EX 2\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29124,7 +29124,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ミューノに届ける薬\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Medicine for Murno.\u0000",
+                            "translation": "Medicine for Murno\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29170,7 +29170,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ジェイドにお使いでたのまれた荷物\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Luggage Jade requested to be delivered.\u0000",
+                            "translation": "Luggage Jade requested to be delivered\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29216,7 +29216,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "θをι体退治する\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Exterminate ι θs.\u0000",
+                            "translation": "Exterminate ι θs\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
@@ -29262,7 +29262,7 @@
                             "new address": null,
                             "pointer address": null,
                             "raw": "ザック愛用のハンマー\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-                            "translation": "Zakk's favorite hammer.\u0000",
+                            "translation": "Zakk's favorite hammer\u0000",
                             "type": "SJIS string"
                         },
                         "offset": 44,
