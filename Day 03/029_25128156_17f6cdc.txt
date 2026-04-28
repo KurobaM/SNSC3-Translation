@@ -30,7 +30,7 @@ code047d        1, 108
 call            @Func_1e94
 call            @Func_1dbc
 dialogtxt       "But..."
-dialogtxt       "My bonus~..."
+dialogtxt       "My bonus..."
 code047b        
 code0309        
 call            @Func_1e10
@@ -205,8 +205,8 @@ code0309
 call            @Func_1e10
 code0479        1, 2, 14
 call            @Func_1e46
-dialogtxt       "What??"
-dialogtxt       "You don't believe me????"
+dialogtxt       "What?"
+dialogtxt       "You don't believe me?"
 code0309        
 call            @Func_1e7c
 code0479        0, 0, 16
@@ -234,7 +234,7 @@ call            @Func_1e10
 code0479        1, 2, 16
 call            @Func_1e46
 dialogtxt       "Hmm..."
-dialogtxt       "You really don't, do you?"
+dialogtxt       "You're mocking me, aren't you?"
 dialogtxt       "I can tell!"
 code0309        
 call            @Func_1e7c

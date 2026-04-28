@@ -177,7 +177,7 @@ code0479        1, 3, 12
 call            @Func_18a6
 call            @Func_1824
 dialogtxt       "(Almost got 'em"
-dialogtxt       "　this time!)"
+dialogtxt       "this time!)"
 code047b        
 code0309        
 call            @Func_1878
@@ -192,8 +192,7 @@ call            @Func_180c
 code043c        2, 3
 code0479        1, 1, 12
 call            @Func_1842
-dialogtxt       "Yes, yes,"
-dialogtxt       "200 Boam!"
+dialogtxt       "Yes, yes, 200 Boam!"
 dialogtxt       "Thank you!"
 code0309        
 call            @Func_1878
@@ -364,7 +363,7 @@ call            @Func_1912
 call            @Func_17f4
 code047b        
 setvar          $f0142, 1
-popuptxt        "V.E handed over the money!"
+popuptxt        " V.E handed over the money!"
 code0318        
 code0478        1, 11
 code0479        1, 1, 12

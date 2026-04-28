@@ -67,7 +67,7 @@ dialogtxt       "Huh?"
 code0309        
 code0479        0, 0, 16
 dialogtxt       "(They seem really angry..."
-dialogtxt       "　I wonder why...)"
+dialogtxt       "I wonder why...)"
 code0309        
 call            @Func_4452
 call            @Func_4378
@@ -134,7 +134,7 @@ code0479        0, 0, 12
 code047d        0, 109
 call            @Func_43fc
 call            @Func_4324
-dialogtxt       "Oh, Father!"
+dialogtxt       "Hey, Dad!"
 dialogtxt       "They're back now."
 dialogtxt       "This is [NAME 2] and [NAME 1]."
 code047b        
@@ -146,7 +146,7 @@ code047d        1, 0
 call            @Func_4412
 call            @Func_43ae
 dialogtxt       "Huh?"
-dialogtxt       "Father?"
+dialogtxt       "Dad?"
 code047b        
 code0309        
 call            @Func_4452
@@ -214,7 +214,7 @@ goto            @Cond_07b0
 
 @Cond_07b0:
 jumpz           @Cond_07d0, ($b003 == 3)
-dialogtxt       "I'm [NAME 1]."
+dialogtxt       "Pleased to meet you."
 goto            @Cond_07d0
 
 @Cond_07d0:
@@ -261,7 +261,7 @@ call            @Func_43ae
 dialogtxt       "Again!?"
 jumpz           @Cond_09b6, ($b002 == 0)
 dialogtxt       "Do you really have to"
-dialogtxt       "bring it up now!?"
+dialogtxt       "bring that up now!?"
 goto            @Label_09d8
 
 @Cond_09b6:
@@ -277,13 +277,13 @@ code0479        0, 0, 12
 call            @Func_4342
 jumpz           @Cond_0ad2, ($b002 == 0)
 dialogtxt       "We'll save the inn together!"
-dialogtxt       "And strengthen our bond"
-dialogtxt       "for that express purpose!"
+dialogtxt       "And strengthen our bond for"
+dialogtxt       "that express purpose!"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "Just watch, we'll become"
-dialogtxt       "strong enough to help"
-dialogtxt       "anyone and everyone!"
+dialogtxt       "Just watch, we'll become strong"
+dialogtxt       "enough to help anyone and"
+dialogtxt       "and everyone!"
 goto            @Label_0b8a
 
 @Cond_0ad2:
@@ -318,8 +318,8 @@ dialogtxt       "have some business in town."
 code0309        
 code0479        0, 2, 13
 dialogtxt       "So I'll go with them."
-dialogtxt       "That way, we'll finish"
-dialogtxt       "things up faster."
+dialogtxt       "That way, we'll finish things"
+dialogtxt       "up faster."
 code0309        
 call            @Func_4378
 code0479        1, 5, 15
@@ -493,7 +493,7 @@ code043c        5, 4
 call            @Func_4390
 dialogtxt       "Wait a second... If the kid's"
 jumpz           @Cond_1462, ($b002 == 0)
-dialogtxt       "gonna be your fiancee, then..."
+dialogtxt       "gonna be your husband, then..."
 goto            @Label_148a
 
 @Cond_1462:
@@ -615,7 +615,7 @@ code0309
 call            @Func_4378
 code0479        1, 11, 12
 call            @Func_43ae
-dialogtxt       "Jea— !?"
+dialogtxt       "Jea—"
 code0309        
 call            @Func_43e4
 jumpz           @Cond_235e, ($b002 == 0)
@@ -735,7 +735,7 @@ code0309
 call            @Func_4378
 code0479        1, 2, 15
 call            @Func_43ae
-dialogtxt       "No, I— !"
+dialogtxt       "No, I—"
 code0309        
 call            @Func_447e
 call            @Func_43cc
@@ -1248,20 +1248,20 @@ code0479        1, 4, 17
 code047d        1, 113
 call            @Func_4412
 call            @Func_43ae
-dialogtxt       "I thought I sounded good,"
-dialogtxt       "was I wrong?"
+dialogtxt       "I thought it sounded good."
+dialogtxt       "Was I mistaken?"
 code047b        
 code0309        
 call            @Func_43e4
 code0479        0, 2, 15
 call            @Func_4342
-dialogtxt       "Dad, do you really understand?"
+dialogtxt       "Dad, do you REALLY understand?"
 dialogtxt       "If it wasn't for me, we'd have"
 dialogtxt       "gone bankrupt a long time ago!"
 code0309        
 code0479        0, 2, 16
 dialogtxt       "What's this crap about smiles?"
-dialogtxt       "Say that kind of stuff"
+dialogtxt       "Save that kind of talk until"
 dialogtxt       "after you've made some money!"
 code0309        
 call            @Func_4378
@@ -1329,7 +1329,7 @@ call            @Func_4428
 call            @Func_4324
 dialogtxt       "Oh, you know how it is with"
 dialogtxt       "V.E and money..."
-dialogtxt       "I'm terribly sorry, sir."
+dialogtxt       "I'm terribly sorry, ma'am."
 code047b        
 code0309        
 call            @Func_4378

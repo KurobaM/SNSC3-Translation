@@ -167,7 +167,7 @@ call            @Func_1d90
 call            @Func_1d2c
 dialogtxt       "Hey!"
 dialogtxt       "Just so you know,"
-dialogtxt       "Mr. Lemmy was..."
+dialogtxt       "Lemmy was..."
 code047b        
 code0309        
 call            @Func_1de6
