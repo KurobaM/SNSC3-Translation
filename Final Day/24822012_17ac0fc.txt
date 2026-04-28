@@ -795,7 +795,7 @@ code0479        1, 0, 12
 call            @Func_2c7e
 dialogtxt       "You Do Not Need To Thank Me."
 dialogtxt       "My Primary Objective Has Always"
-dialogtxt       "Been Protecting You, Milady."
+dialogtxt       "Been Protecting You."
 code0309        
 call            @Func_2d22
 call            @Func_2cb4
@@ -1000,7 +1000,7 @@ code0479        1, 1, 13
 call            @Func_2c7e
 dialogtxt       "Oh, goodness, me! You don't need"
 dialogtxt       "to thank me! Protecting you is"
-dialogtxt       "my mission after all, Milady!"
+dialogtxt       "my mission after all!"
 code0309        
 call            @Func_2d22
 call            @Func_2cb4

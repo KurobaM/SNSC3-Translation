@@ -135,8 +135,8 @@ call            @Func_1f20
 code0479        1, 2, 15
 call            @Func_1f56
 dialogtxt       "Of course you do!"
-dialogtxt       "We cannot have her sit here"
-dialogtxt       "and watch the house!"
+dialogtxt       "We cannot let Lady Murno sit"
+dialogtxt       "here and watch the house!"
 code0309        
 call            @Func_1f8c
 code0479        0, 2, 13
