@@ -133,7 +133,7 @@ code0309
 call            @Func_1358
 code0479        0, 5, 16
 call            @Func_12b6
-dialogtxt       "Um? bro?"
+dialogtxt       "Um? Bro?"
 code0309        
 call            @Func_13f2
 call            @Func_12d4
