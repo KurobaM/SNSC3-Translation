@@ -301,13 +301,13 @@ code0331        5, 256
 code0479        0, 2, 14
 call            @Func_19c2
 jumpz           @Cond_0e4a, ($b002 == 0)
-dialogtxt       "Sorry, Bro..."
+dialogtxt       "Sorry, bro..."
 dialogtxt       "But, I want you to leave"
 dialogtxt       "that Gillan guy to me."
 goto            @Label_0e9c
 
 @Cond_0e4a:
-dialogtxt       "Sorry, Bro..."
+dialogtxt       "Sorry, bro..."
 dialogtxt       "But, I want you to leave"
 dialogtxt       "that Gillan guy to me."
 goto            @Label_0e9c

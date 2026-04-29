@@ -35,7 +35,7 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_1370
 call            @Func_12b6
-dialogtxt       "Ah, Bro!"
+dialogtxt       "Ah, bro!"
 code047b        
 code0309        
 call            @Func_12ec
@@ -133,7 +133,7 @@ code0309
 call            @Func_1358
 code0479        0, 5, 16
 call            @Func_12b6
-dialogtxt       "Um? Bro?"
+dialogtxt       "Um? bro?"
 code0309        
 call            @Func_13f2
 call            @Func_12d4

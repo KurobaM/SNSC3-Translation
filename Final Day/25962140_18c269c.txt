@@ -144,13 +144,13 @@ code0479        1, 11, 14
 call            @Func_1148
 jumpz           @Cond_0836, ($b002 == 0)
 dialogtxt       "What...But..."
-dialogtxt       "If you're no longer my Bro, then..."
+dialogtxt       "If you're no longer my bro, then..."
 dialogtxt       "What do I call you now..."
 goto            @Label_0884
 
 @Cond_0836:
 dialogtxt       "What...But..."
-dialogtxt       "If you're no longer my Bro, then..."
+dialogtxt       "If you're no longer my bro, then..."
 dialogtxt       "What do I call you now..."
 goto            @Label_0884
 

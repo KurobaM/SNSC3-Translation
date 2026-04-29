@@ -156,13 +156,13 @@ call            @Func_0f6a
 code0479        0, 2, 15
 call            @Func_0ec8
 jumpz           @Cond_080e, ($b002 == 0)
-dialogtxt       "Hey, Bro!"
+dialogtxt       "Hey, bro!"
 dialogtxt       "Don't go acting all high and mighty!"
 dialogtxt       "Stingy!"
 goto            @Label_084a
 
 @Cond_080e:
-dialogtxt       "Hey, Bro!"
+dialogtxt       "Hey, bro!"
 dialogtxt       "Don't go acting all high and mighty!"
 dialogtxt       "Stingy!"
 goto            @Label_084a

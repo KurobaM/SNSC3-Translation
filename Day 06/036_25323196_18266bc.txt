@@ -25,13 +25,13 @@ call            @Func_1330
 jumpz           @Cond_018e, ($f0137 == 0)
 setvar          $f0137, 1
 dialogtxt       "Master?!"
-dialogtxt       "You too, Bro!?"
+dialogtxt       "You too, bro!?"
 dialogtxt       "Why are you here!?"
 goto            @Label_020e
 
 @Cond_018e:
 dialogtxt       "Master?!"
-dialogtxt       "You too, Bro!?"
+dialogtxt       "You too, bro!?"
 dialogtxt       "Why are you here!?"
 code047b        
 code0309        

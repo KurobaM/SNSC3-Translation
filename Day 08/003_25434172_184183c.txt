@@ -126,7 +126,7 @@ call            @Func_1542
 code0479        1, 5, 17
 call            @Func_1578
 dialogtxt       "Aah, that's right!"
-dialogtxt       "Sorry, Bro."
+dialogtxt       "Sorry, bro."
 code0309        
 call            @Func_15ae
 code0479        1, 5, 16
