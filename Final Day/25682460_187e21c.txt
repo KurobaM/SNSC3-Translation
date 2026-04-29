@@ -418,7 +418,7 @@ dialogtxt       "What do you mean, we're..."
 dialogtxt       "... Ah, right..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "Okay, Bro!"
+dialogtxt       "Okay, bro!"
 dialogtxt       "I'll definitely make"
 dialogtxt       "[NAME 1] snap out of it."
 goto            @Label_131e
@@ -428,7 +428,7 @@ dialogtxt       "What do you mean, we're..."
 dialogtxt       "... Ah, right..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "Okay, Bro!"
+dialogtxt       "Okay, bro!"
 dialogtxt       "I'll definitely make"
 dialogtxt       "[NAME 1] snap out of it."
 goto            @Label_131e

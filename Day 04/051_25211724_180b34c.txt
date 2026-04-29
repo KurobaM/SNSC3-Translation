@@ -144,12 +144,12 @@ code0479        0, 0, 16
 call            @Func_1a22
 jumpz           @Cond_072a, ($b002 == 0)
 dialogtxt       "Sorry I didn't say anything."
-dialogtxt       "But Bro told me to go..."
+dialogtxt       "But bro told me to go..."
 goto            @Label_0764
 
 @Cond_072a:
 dialogtxt       "Sorry I didn't say anything."
-dialogtxt       "But Bro told me to go..."
+dialogtxt       "But bro told me to go..."
 goto            @Label_0764
 
 @Label_0764:

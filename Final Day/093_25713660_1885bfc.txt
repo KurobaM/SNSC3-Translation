@@ -727,7 +727,7 @@ call            @Func_4f5e
 code0479        0, 2, 12
 call            @Func_4ebc
 dialogtxt       "I see... Yeah..."
-dialogtxt       "I understand, Bro!"
+dialogtxt       "I understand, bro!"
 code0309        
 call            @Func_4ff8
 call            @Func_4eda

@@ -191,11 +191,11 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_09aa, ($b002 == 0)
 dialogtxt       "Wrong way!"
-dialogtxt       "I have to follow Bro!"
+dialogtxt       "I have to follow bro!"
 goto            @Label_09cc
 
 @Cond_09aa:
-dialogtxt       "I have to go after Bro!"
+dialogtxt       "I have to go after bro!"
 goto            @Label_09cc
 
 @Label_09cc:

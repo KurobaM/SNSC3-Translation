@@ -350,7 +350,7 @@ call            @Func_2c16
 call            @Func_2b5c
 jumpz           @Cond_1116, ($b002 == 0)
 dialogtxt       "Right back at you!"
-dialogtxt       "Master and Bro will be here soon!"
+dialogtxt       "Master and bro will be here soon!"
 dialogtxt       "No matter what you're scheming..."
 code047b        
 code0309        
@@ -360,7 +360,7 @@ goto            @Label_11b2
 
 @Cond_1116:
 dialogtxt       "Right back at you!"
-dialogtxt       "Master and Bro will be here soon!"
+dialogtxt       "Master and bro will be here soon!"
 dialogtxt       "No matter what you're scheming..."
 code047b        
 code0309        

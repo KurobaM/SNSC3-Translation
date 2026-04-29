@@ -438,7 +438,7 @@ code047d        0, 0
 call            @Func_2318
 call            @Func_2240
 dialogtxt       "Wha—!?"
-dialogtxt       "Ah, Bro!"
+dialogtxt       "Ah, bro!"
 code047b        
 code0309        
 call            @Func_2294
