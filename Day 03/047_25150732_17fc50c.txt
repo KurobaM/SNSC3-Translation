@@ -1076,17 +1076,17 @@ call            @Func_43fc
 call            @Func_4342
 dialogtxt       "Ah, right! The bill."
 dialogtxt       "Of course, you must pay us."
-dialogtxt       "A great person once said,"
 code047b        
 code0309        
 code0479        0, 2, 17
-dialogtxt       "\"Apples and oranges!\""
+dialogtxt       "A great person once said, "
+dialogtxt       "\"That is that, this is this!\""
 code0309        
 call            @Func_4378
 code0479        1, 5, 15
 call            @Func_43ae
 dialogtxt       "Ohhh..."
-dialogtxt       "That's a fire quote, alright!"
+dialogtxt       "Those are good words to live by!"
 code0309        
 call            @Func_43e4
 code0479        0, 2, 13
@@ -1698,4 +1698,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-
