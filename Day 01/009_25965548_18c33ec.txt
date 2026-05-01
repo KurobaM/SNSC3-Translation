@@ -424,7 +424,7 @@ code047e        0, 1
 dialogtxt       "Shapestone?"
 code0309        
 dialogtxt       "I thought the craftsman prepared it."
-dialogtxt       "Is it different in this town?"
+dialogtxt       "Is it different where you're from?"
 code0309        
 dialogtxt       "Well, anyway, I'm looking forward"
 dialogtxt       "to the finished product."

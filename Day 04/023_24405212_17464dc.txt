@@ -538,7 +538,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "I've saved up quite a lot."
-dialogtxt       "I should got to the"
+dialogtxt       "I should go to the"
 dialogtxt       "lottery shop soon..."
 code0309        
 code047e        0, 0
@@ -576,7 +576,7 @@ code040b
 
 @Event_183e:
 code0301        8, 7
-dialogtxt       "Care to try our \"Lucky Draw\"?"
+dialogtxt       "Care to try our \"Lucky Draw?\""
 dialogtxt       "It's available all day, everyday!"
 dialogtxt       "Guaranteed no losing tickets!"
 code0309        

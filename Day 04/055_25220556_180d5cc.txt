@@ -99,8 +99,7 @@ code0309
 call            @Func_1206
 code0479        1, 0, 16
 call            @Func_123c
-dialogtxt       "Y—Yeah,"
-dialogtxt       "she's back."
+dialogtxt       "Y—Yeah, she's back."
 dialogtxt       "I think she's inside..."
 code0309        
 call            @Func_1272
