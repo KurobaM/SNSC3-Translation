@@ -203,7 +203,7 @@ code043c        1, 3
 code0479        1, 2, 15
 call            @Func_2aa0
 dialogtxt       "Y—Yeah!"
-dialogtxt       "Go!!! Phantom Dragon!!!"
+dialogtxt       "Go!!! Genryuuki!!!"
 code0309        
 call            @Func_2b70
 call            @Func_2abe
@@ -399,7 +399,7 @@ code043c        1, 3
 code0479        1, 2, 15
 call            @Func_2aa0
 dialogtxt       "Y—Yeah!"
-dialogtxt       "Go!!! Phantom Dragon!!!"
+dialogtxt       "Go!!! Genryuuki!!!"
 code0309        
 call            @Func_2b70
 call            @Func_2abe
@@ -788,7 +788,7 @@ code043c        1, 3
 code0479        1, 2, 15
 call            @Func_2aa0
 dialogtxt       "Y—Yeah!"
-dialogtxt       "Go!!! Phantom Dragon!!!"
+dialogtxt       "Go!!! Genryuuki!!!"
 code0309        
 call            @Func_2b70
 call            @Func_2abe

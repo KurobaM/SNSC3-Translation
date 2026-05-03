@@ -1400,25 +1400,25 @@ code047d        1, 2
 call            @Func_4556
 call            @Func_44d4
 jumpz           @Cond_3c32, ($b003 == 0)
-dialogtxt       "The Phantom Dragon!"
+dialogtxt       "Genryuuki!"
 dialogtxt       "Why Here!?"
 goto            @Cond_3c32
 
 @Cond_3c32:
 jumpz           @Cond_3c66, ($b003 == 1)
-dialogtxt       "The Phantom Dragon!"
+dialogtxt       "Genryuuki!"
 dialogtxt       "Why here!?"
 goto            @Cond_3c66
 
 @Cond_3c66:
 jumpz           @Cond_3c9c, ($b003 == 2)
-dialogtxt       "The Phantom Dragon!"
+dialogtxt       "Genryuuki!"
 dialogtxt       "Why here...!?"
 goto            @Cond_3c9c
 
 @Cond_3c9c:
 jumpz           @Cond_3cd2, ($b003 == 3)
-dialogtxt       "The Phantom Dragon!"
+dialogtxt       "Genryuuki!"
 dialogtxt       "Why here!?"
 goto            @Cond_3cd2
 
@@ -1459,7 +1459,7 @@ goto            @Label_3e70
 @Label_3e70:
 code0309        
 code0479        0, 2, 15
-dialogbig       255, 116, 1, 0, 0, "Phantom Dragon!!!"
+dialogbig       255, 116, 1, 0, 0, "Genryuuki!!!"
 code030c        
 call            @Func_4596
 call            @Func_44a4

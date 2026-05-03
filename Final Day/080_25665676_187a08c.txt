@@ -1414,8 +1414,8 @@ code0309
 call            @Func_461c
 code0479        1, 2, 14
 call            @Func_4652
-dialogtxt       "If he's unable to control the"
-dialogtxt       "Phantom Dragon, it can go"
+dialogtxt       "If he's unable to control"
+dialogtxt       "Genryuuki, it can go"
 dialogtxt       "anywhere it wants."
 code0309        
 call            @Func_4688
