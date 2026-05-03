@@ -647,7 +647,7 @@ code037c        $h232
 dialogtxt       "I'd like the [NAME 4], but"
 code0309        
 code037c        $h233
-dialogtxt       "It seems you'll need [NAME 4]."
+dialogtxt       "it seems you'll need a [NAME 4]."
 code0309        
 code047e        0, 0
 code0302        7

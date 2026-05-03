@@ -186,7 +186,7 @@ call            @Func_0f94
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "[NAME 2]..."
+dialogtxt       "..."
 code0309        
 code047e        0, 0
 code047e        1, 0

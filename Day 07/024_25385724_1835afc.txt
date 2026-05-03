@@ -17,7 +17,7 @@ code047d        0, 136
 call            @Func_3530
 call            @Func_342c
 dialogtxt       "Everyone, are you okay!?"
-dialogtxt       "What just happened!?"
+dialogtxt       "What happened in there!?"
 code047b        
 code0309        
 call            @Func_3480
