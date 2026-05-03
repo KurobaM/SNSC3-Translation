@@ -390,8 +390,8 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "South of Prosban is"
-dialogtxt       "Flard Grotto, and past"
-dialogtxt       "that is Beleet Forest."
+dialogtxt       "Beleet Forest, and past"
+dialogtxt       "that is Flard Grotto."
 code0309        
 dialogtxt       "I heard there's an underground"
 dialogtxt       "river flowing in Flard Grotto."

@@ -70,12 +70,12 @@ code0309
 call            @Func_29b6
 code0479        0, 2, 16
 call            @Func_2914
-dialogtxt       "Okay?"
+dialogtxt       "Sure, I guess?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 16
 call            @Func_2980
-dialogtxt       "Let me know if you want to"
+dialogtxt       "Let me know when you want to"
 dialogtxt       "take the job."
 code0309        
 call            @Func_2a50
@@ -123,7 +123,7 @@ code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
 code0476        -14973, $w014, 0
-dialogtxt       "About [NAME 5] [NAME 6]s left..."
+dialogtxt       "About [NAME 5] more [NAME 6]s"
 call            @Func_1d26
 dialogtxt       "Good luck!"
 code047b        
@@ -419,7 +419,7 @@ goto            @Label_1500
 jumpz           @Cond_13d2, ($bv044 == 1)
 jumpz           @Cond_136c, ($bv029 == 0)
 code0476        -14973, $w014, 0
-dialogtxt       "About [NAME 5] [NAME 6]s left..."
+dialogtxt       "Still [NAME 5] [NAME 6] left"
 call            @Func_1d26
 code0309        
 dialogtxt       "Good luck, kid."
@@ -628,7 +628,7 @@ goto            @Label_1a86
 
 @Label_1a86:
 code0476        -14973, $h233, 0
-dialogtxt       "[NAME 6] and　[NAME 5]"
+dialogtxt       "[NAME 5] [NAME 6]s"
 call            @Func_1d26
 code0309        
 ret             
@@ -763,7 +763,7 @@ goto            @Label_20f2
 @Cond_1ebc:
 jumpz           @Cond_1f2a, ($bv041 == 0)
 jumpz           @Cond_1f00, ($bv031 == 1)
-dialogtxt       "have been found in Beleet Forest."
+dialogtxt       "in Beleet Forest."
 goto            @Label_1f26
 
 @Cond_1f00:
@@ -777,7 +777,7 @@ goto            @Label_20ee
 @Cond_1f2a:
 jumpz           @Cond_1f9c, ($bv041 == 1)
 jumpz           @Cond_1f70, ($bv031 == 1)
-dialogtxt       "have been found in Surange Mine."
+dialogtxt       "in Surange Mine."
 goto            @Label_1f98
 
 @Cond_1f70:
@@ -791,7 +791,7 @@ goto            @Label_20ee
 @Cond_1f9c:
 jumpz           @Cond_200a, ($bv041 == 2)
 jumpz           @Cond_1fe0, ($bv031 == 1)
-dialogtxt       "have been found in Spoat Grotto."
+dialogtxt       "in Spoat Grotto."
 goto            @Label_2006
 
 @Cond_1fe0:
@@ -805,7 +805,7 @@ goto            @Label_20ee
 @Cond_200a:
 jumpz           @Cond_2078, ($bv041 == 3)
 jumpz           @Cond_204e, ($bv031 == 1)
-dialogtxt       "have been found in Spoat Grotto."
+dialogtxt       "in Spoat Grotto."
 goto            @Label_2074
 
 @Cond_204e:
@@ -819,7 +819,7 @@ goto            @Label_20ee
 @Cond_2078:
 jumpz           @Label_20ee, ($bv041 == 4)
 jumpz           @Cond_20c0, ($bv031 == 1)
-dialogtxt       "have been found in Mishus Ruins."
+dialogtxt       "in Mishus Ruins."
 goto            @Label_20ea
 
 @Cond_20c0:
