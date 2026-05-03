@@ -5,7 +5,7 @@ call            @Func_09de
 call            @Func_0906
 jumpz           @Cond_010a, ($b002 == 0)
 dialogtxt       "But still, I never expected"
-dialogtxt       "I'd have to go 1 on 1"
+dialogtxt       "I'd have to go 1-on-1"
 dialogtxt       "against Tram."
 code047b        
 code0309        

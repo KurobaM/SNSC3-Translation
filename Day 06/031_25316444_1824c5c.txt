@@ -379,14 +379,12 @@ call            @Func_168e
 code0479        0, 5, 17
 call            @Func_15ec
 jumpz           @Cond_0ff8, ($b002 == 0)
-dialogtxt       "Hey, Tier,"
-dialogtxt       "calm down!"
+dialogtxt       "Hey, Tier, calm down!"
 dialogtxt       "W—Wait!"
 goto            @Label_103c
 
 @Cond_0ff8:
-dialogtxt       "Hey, Tier,"
-dialogtxt       "calm down!"
+dialogtxt       "Hey, Tier, calm down!"
 dialogtxt       "W—Wait!"
 goto            @Label_103c
 
