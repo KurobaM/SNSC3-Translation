@@ -767,8 +767,7 @@ dialogtxt       "in Beleet Forest."
 goto            @Label_1f26
 
 @Cond_1f00:
-dialogtxt       "are out of control in"
-dialogtxt       "Beleet Forest."
+dialogtxt       "left in Beleet Forest."
 goto            @Label_1f26
 
 @Label_1f26:
@@ -781,8 +780,7 @@ dialogtxt       "in Surange Mine."
 goto            @Label_1f98
 
 @Cond_1f70:
-dialogtxt       "are out of control in"
-dialogtxt       "Surange Mine."
+dialogtxt       "left in Surange Mine."
 goto            @Label_1f98
 
 @Label_1f98:
@@ -795,8 +793,7 @@ dialogtxt       "in Spoat Grotto."
 goto            @Label_2006
 
 @Cond_1fe0:
-dialogtxt       "are out of control in"
-dialogtxt       "Spoat Grotto."
+dialogtxt       "left in Spoat Grotto."
 goto            @Label_2006
 
 @Label_2006:
@@ -809,8 +806,7 @@ dialogtxt       "in Spoat Grotto."
 goto            @Label_2074
 
 @Cond_204e:
-dialogtxt       "are out of control in"
-dialogtxt       "Spoat Grotto."
+dialogtxt       "left in Spoat Grotto."
 goto            @Label_2074
 
 @Label_2074:
@@ -823,8 +819,7 @@ dialogtxt       "in Mishus Ruins."
 goto            @Label_20ea
 
 @Cond_20c0:
-dialogtxt       "are out of control in"
-dialogtxt       "Mishus Ruins."
+dialogtxt       "left in Mishus Ruins."
 goto            @Label_20ea
 
 @Label_20ea:
