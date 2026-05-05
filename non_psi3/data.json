@@ -48539,7 +48539,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "Item\u0000",
+                "translation": "Item\u001a\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50249,7 +50249,7 @@
                     }
                 ],
                 "raw": "外　す\u0000\u0000",
-                "translation": "Unequip\u0000\u0000",
+                "translation": "Unequip\u000c\u0000\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50299,7 +50299,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "Item\u0000\u0000",
+                "translation": "Item\u001a\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50349,7 +50349,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "Item\u0000\u0000",
+                "translation": "Item\u001a\u0000",
                 "type": "SJIS string"
             },
             {
@@ -50366,7 +50366,7 @@
                     }
                 ],
                 "raw": "外　す\u0000\u0000",
-                "translation": "Unequip\u0000\u0000",
+                "translation": "Unequip\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -50507,7 +50507,7 @@
                     }
                 ],
                 "raw": "アイテム\u0000\u0000\u0000\u0000",
-                "translation": "Item\u0000\u0000",
+                "translation": "Item\u001a\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51323,7 +51323,7 @@
                     }
                 ],
                 "raw": "セーブしますか？\u0000\u0000\u0000\u0000",
-                "translation": "Save data?\u0000\u0000",
+                "translation": "\u0013Save data?\u0013\u0000\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -51966,7 +51966,7 @@
                     }
                 ],
                 "raw": "は　い\u0000\u0000",
-                "translation": "Yes\u0000",
+                "translation": "Yes\u0012\u0000\u0000",
                 "type": "SJIS string"
             },
             {
@@ -51983,7 +51983,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000",
-                "translation": "No\u0000\u0000",
+                "translation": "No\u0018\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -52115,7 +52115,7 @@
                     }
                 ],
                 "raw": "解体\u0000\u0000\u0000\u0000",
-                "translation": "Dis...ble\u0000",
+                "translation": "Disassemble\u0000",
                 "type": "SJIS string"
             },
             {
@@ -53456,7 +53456,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000",
-                "translation": "No\u0000\u0000",
+                "translation": "No\u0006\u0000",
                 "type": "SJIS string"
             }
         ],
@@ -79297,7 +79297,7 @@
                     }
                 ],
                 "raw": "いいえ\u0000\u0000\u0000\u0000",
-                "translation": "No\u0000\u0000",
+                "translation": "No\u0006\u0000",
                 "type": "SJIS string"
             }
         ],
